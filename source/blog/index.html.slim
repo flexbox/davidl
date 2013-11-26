@@ -1,0 +1,32 @@
+---
+pageable: true
+per_page: 10
+---
+
+.row
+  .medium-12.medium-centered.columns
+    h1.text-center
+      'WAT
+
+.row
+  .medium-8.columns
+    - if paginate && num_pages > 1
+      p
+        | Page #{page_number} of #{num_pages}
+      - if prev_page
+        p= link_to 'Previous page', prev_page
+    - page_articles.each_with_index do |article, i|
+      h2
+        = link_to article.title, article
+        span= article.date.strftime('%d %m %Y')
+    - if paginate
+      - if next_page
+        p= link_to 'Next page', next_page
+
+  aside.medium-4.columns
+    h2 Sélection d'articles
+    ol
+      - blog.articles[0...10].each do |article|
+        li
+          = link_to article.title, article
+          span= article.date.strftime('%b %e')

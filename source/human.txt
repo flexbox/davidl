@@ -1,0 +1,46 @@
+
+ ___  ___  _ _  _  ___  _
+| . \| . || | || || . \| |
+| | ||   || ' || || | || |_
+|___/|_|_||__/ |_||___/|___|
+
+    Codé à la main depuis 2013
+
+    Humans TXT: Nous Sommes Des Humains, Pas Des Machines
+
+_______________________________________________________________________________
+
+TEAM
+
+Ce site est codé à la main par David Leuliette.
+Developpeur front-end
+http://davidl.fr/apropos
+
+_______________________________________________________________________________
+
+TECHNOLOGIE
+
+Middleman
+http://middlemanapp.com/
+
+Foundation
+http://foundation.zurb.com/
+
+SASS
+http://sass-lang.com/
+
+Github
+https://github.com/
+
+_______________________________________________________________________________
+
+GRAPHIC ASSETS
+
+Brandon Grotesque (font)
+https://typekit.com/fonts/brandon-grotesque
+
+Open Sans (font)
+https://typekit.com/fonts/open-sans
+
+Entypo (icons)
+http://www.entypo.com/

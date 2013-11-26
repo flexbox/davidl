@@ -1,19 +1,17 @@
-*.rbc
-*.sassc
-.sass-cache
-capybara-*.html
-.rspec
-.rvmrc
+# Ignore bundler config
 /.bundle
-/vendor/bundle
-/log/*
-/tmp/*
-/db/*.sqlite3
-/public/system/*
-/coverage/
-/spec/tmp/*
-**.orig
-rerun.txt
-pickle-email-*.html
-.project
-config/initializers/secret_token.rb
+
+# Ignore the build directory
+/build
+
+# Ignore Sass' cache
+/.sass-cache
+
+# Ignore .DS_store file
+.DS_Store
+
+# Ignore NPM debug
+.npm-debug.log
+
+# Ignore Bower Folder
+/bower_components

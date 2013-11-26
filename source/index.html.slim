@@ -1,0 +1,16 @@
+---
+title: Voici la page principale
+---
+
+.row
+  .medium-12.medium-centered.columns
+    h1 Voici ce que je fais
+
+    ul.large-block-grid-3
+      - data.projects.each_with_index do |project|
+        li
+          = link_to project.url do
+            h2.l-title
+              = project.title
+            p.l-description
+              = project.description

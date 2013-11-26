@@ -1,0 +1,36 @@
+-
+  title: Webdesign
+  description: Je crée des applications web et des sites internet. Je développe des sites adaptatifs accessibles quelquesoit le périphérique.
+  url: /web
+-
+  title: écriture
+  description: "La meilleure façon de maîtriser un sujet est de l'enseigner aux autres. J'écris des articles sur la conception web mobile, le responsive design et les outils que j'utilise chaque jour."
+  url: /blog
+-
+  title: Partage
+  description: "J'aime partager des informations, tous les jours j'apprends quelque chose de nouveau, et je participe à la conversation collective qu'est Twitter."
+  url: https://twitter.com/_flexbox
+-
+  title: Papier et crayon
+  description: "L'étape précédant le développement d'un site conciste à réaliser des prototypes papiers. Avant je jetais ces maquettes directement à la poubelle, mais ça c’était avant. Maintenant je prends des photos pour conserver mes idées et les partager sur ce site."
+  url: http://responsivewireframe.tumblr.com/
+-
+  title: Guide CSS
+  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments.J’ai rédigé ce guide de bonnes pratiques qui regroupe les bonnes pratiques pour coder des feuilles de styles de qualité."
+  url: http://guidecss.fr/
+-
+  title: Pokemon breakpoint
+  description: "Nous avons un problème dans la conception adaptative. Nous fixons des points d’arrêt en CSS et peut-être que nous voulons les utiliser dans notre Javascript. Pokemon breakpoint est une façon amusante de faire le lien entre ces 2 mondes."
+  url: http://pokemonbreakpoint.fr/
+-
+  title: Responsive icon
+  description: "Remplacer des icônes en images par des symboles HTML présente de nombreux avantages. J’ai développé cette application pour rapidement copier / coller certaines icônes que j’utilise tous les jours."
+  url: http://responsiveicon.fr/
+-
+  title: Hoooooo
+  description: "Coder des sites web à longueur de temps peut vous griller les neurones. J’ai créé ce site pour détendre l’atmosphère lorsqu’une fonctionnalité / un site web plante."
+  url: http://hoooooo.fr/
+-
+  title: Webcitation
+  description: "Pendant des années j’ai collecté des citations à travers de nombreux livres, articles de blog… J’administre webcitation pour toutes les regrouper et les traduire pour vous."
+  url: http://webcitation.fr/

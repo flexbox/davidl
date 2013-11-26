@@ -1,0 +1,12 @@
+site:
+  title: DavidL design + developement
+  description: "Développeur front-end. Je crée des sites internet qui fonctionnent à merveille sur n'importe quel appareil. Je suis un concepteur de sites web spécialisé HTML et CSS basé à Lille"
+  url: 'http://davidl.fr'
+  logo: 'http://davidl.fr/apple-touch-icon-144x144-precomposed.png'
+social:
+  google_plus: 'https://plus.google.com/u/0/113401424510170217860'
+  twitter: 'https://twitter.com/_flexbox'
+  github: 'https://github.com/flexbox'
+  flattr: Flexbox
+google_analytics:
+  tracking_code: 'UA-XXXXXXXX-1'

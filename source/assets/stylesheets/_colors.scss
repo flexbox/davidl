@@ -1,0 +1,20 @@
+$white       : #FFFFFF;
+$black       : #111111;
+
+$blue-steroid    : rgb(90, 198, 255);
+$pink-steroid    : rgb(255, 130, 130);
+$green-steroid  : rgb(160, 236, 111);
+$yellow-steroid : rgb(253, 235, 117);
+$white-steroid   : rgb(241, 241, 242);
+$red-steroid       : #C1392B;
+
+// We use these as default colors throughout
+$primary-color        : $black;
+$secondary-color    : $yellow-steroid;
+$alert-color             : $pink-steroid;
+$success-color        : $green-steroid;
+
+$body-font-color : $black;
+$body-bg           : $white;
+
+$anchor-font-color : $red-steroid;
