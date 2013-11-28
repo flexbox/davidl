@@ -5,7 +5,7 @@ html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml"
     meta name="viewport" content="width=device-width"
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
 
-    title #{current_article.title unless current_article.nil?} #{data.settings.site.title} &bull; #{current_page.data.title}
+    title #{current_article.title unless current_article.nil?} #{current_page.data.title} &bull; #{data.settings.site.title}
     meta name="description" content="#{data.settings.site.description}"
     meta name="robots" content="index,follow"
     = partial 'views/open_graph'
@@ -16,9 +16,9 @@ html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml"
     = partial 'views/analytics_code'
 
   body class='#{page_classes}'
-    = partial "views/header"
     = yield
     = partial "views/footer"
+    = partial "views/navigation"
 
     a href="#{data.settings.social.google_plus}?rel=author" class="hide"
       'Google
