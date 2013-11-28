@@ -1,12 +1,4 @@
 ###
-# WIP
-###
-
-# Remove .html extension from pages
-activate :directory_indexes
-
-
-###
 # Blog settings
 ###
 
