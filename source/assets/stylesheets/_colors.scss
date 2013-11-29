@@ -1,20 +1,50 @@
 $white       : #FFFFFF;
 $black       : #111111;
 
-$blue-steroid    : rgb(90, 198, 255);
-$pink-steroid    : rgb(255, 130, 130);
+$gray           : #F1F1F2;
+$white-light    : #FCF9EE;
+$black-light    : #696661;
+
+$cyan    : #158D9F;
+$yellow  : #FDB813;
+$magenta : #EB426A;
+
+$red-steroid    : #C1392B;
+$pink-steroid   : rgb(255, 130, 130);
 $green-steroid  : rgb(160, 236, 111);
+$blue-steroid   : rgb(90, 198, 255);
 $yellow-steroid : rgb(253, 235, 117);
-$white-steroid   : rgb(241, 241, 242);
-$red-steroid       : #C1392B;
+
 
 // We use these as default colors throughout
-$primary-color        : $black;
-$secondary-color    : $yellow-steroid;
-$alert-color             : $pink-steroid;
-$success-color        : $green-steroid;
+$primary-color   : $cyan;
+$secondary-color : $magenta;
 
-$body-font-color : $black;
-$body-bg           : $white;
+$body-bg           : $white-light;
 
-$anchor-font-color : $red-steroid;
+$body-font-color   : $black-light;
+$anchor-font-color : $cyan;
+
+
+.list-color {
+  li {
+    width: 5em;
+    height: 5em;
+    border: 5px solid $white;
+  }
+
+  .cyan { background-color: $cyan; }
+  .yellow { background-color: $yellow; }
+  .magenta { background-color: $magenta; }
+
+  .blue { background-color: $blue-steroid; }
+  .pink { background-color: $pink-steroid; }
+  .green { background-color: $green-steroid; }
+  .yellow { background-color: $yellow-steroid; }
+  .blue { background-color: $blue-steroid; }
+  .blue { background-color: $blue-steroid; }
+  .red  { background-color: $red-steroid; }
+
+  .primary  { background-color: $primary-color; }
+  .secondary  { background-color: $secondary-color; }
+}

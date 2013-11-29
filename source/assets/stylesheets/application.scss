@@ -11,10 +11,13 @@
   "foundation/scss/foundation/components/breadcrumbs",
   "foundation/scss/foundation/components/buttons",
   "foundation/scss/foundation/components/grid",
+  "foundation/scss/foundation/components/global",
   "foundation/scss/foundation/components/inline-lists",
   "foundation/scss/foundation/components/pagination",
   "foundation/scss/foundation/components/panels",
+  "foundation/scss/foundation/components/type",
   "foundation/scss/foundation/components/visibility";
 
 @import
-  "css-triangle";
+  "css-triangle",
+  "modules/navigation";

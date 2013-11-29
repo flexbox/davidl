@@ -1,70 +1,73 @@
 ---
-title: Contact
+title: Travaillez avec moi &bull; conseils, revues de code CSS, conférences, ateliers, CSS, CSSOO, architecture front-end, performance et plus, par David Leuliette
 description: DavidL, responsive designer et développpeur. J'aide les personnes à mieux comprendre les technologies associées au front-end. Vous cherchez à me joindre rapidement ? Je vous invite à visiter cette page qui regroupe toutes mes informations de contact.
+page_title: Hello world
 ---
 
+
 .row
-  .medium-12.medium-centered.columns
-    h1.text-center Hello world
+  .medium-10.medium-centered.columns
+    .panel
+      p
+        'Vous cherchez à me contacter ? la façon la plus rapide est de me mentionner sur twitter
+        = link_to '@_flexbox', data.settings.social.twitter
+        '. Pour les demandes de plus de 140 caractères je vous invite à m'envoyer un email à
+        = link_to 'dleuliette@gmail.com', 'mailto:dleuliette@gmail.com'
 
-    .row
-      .medium-10.medium-centered.columns
-        .panel
-          p
-            'Vous cherchez à me contacter ? la façon la plus rapide est de me mentionner sur twitter
-            = link_to '@_flexbox', data.settings.social.twitter
-            '. Pour les demandes de plus de 140 caractères je vous invite à m'envoyer un email à
-            = link_to 'dleuliette@gmail.com', 'mailto:dleuliette@gmail.com'
+.row
+  .medium-6.columns
+    h2 Contactez-moi
+    ul
+      li
+        p
+          'Si vous cherchez un consultant ou un formateur sur les technologies front-end
+      li
+        p
+          'Pour construire la prochaine application web moderne compatible smartphone, tablette, TV, et ordinateur
+      li
+        p
+          =' link_to 'Coder du css de qualité', 'http://guidecss.fr/'
+          'ou tout autre sujet autour du développement web
+      li
+        p
+          'Vous pouvez aussi me donner des nouvelles je lis
+          strong
+           'tous
+          'mes emails
 
-    .row
-      .medium-6.columns
-        h2 Contactez-moi
-        ul
-          li
-            p
-              'Si vous cherchez un consultant ou un formateur sur les technologies front-end
-          li
-            p
-              'Pour construire la prochaine application web moderne compatible smartphone, tablette, TV, et ordinateur
-          li
-            p
-              =' link_to 'Coder du css de qualité', 'http://guidecss.fr/'
-              'ou tout autre sujet autour du développement web
-          li
-            p
-              'Vous pouvez aussi me donner des nouvelles je lis
-              strong
-               'tous
-              'mes emails
+  .medium-6.columns
+    h2 Coordonnées
+    ul
+      li
+        p
+          strong
+            'David Leuliette
+          'est enregistré au registre des commerces et des sociétés
+      li
+        p
+          strong
+            'Activité
+          'Programmation informatique
+      li
+        p
+          strong
+            'SIREN
+          '538202235
+      li
+        p
+          strong
+            'SIRET
+          '53820223500015
 
-      .medium-6.columns
-        h2 Coordonnées
-        ul
-          li
-            p
-              strong
-                'David Leuliette
-              'est enregistré au registre des commerces et sociétés
-          li
-            p
-              strong
-                'Activité
-              'Programmation informatique
-          li
-            p
-              strong
-                'SIREN
-              '538202235
-          li
-            p
-              strong
-                'SIRET
-              '53820223500015
-
+.row
+  .medium-12.columns
+    h2 Ailleurs sur le web
     ul.large-block-grid-3.small-block-grid-2
       - data.social.each_with_index do |social|
         li
           = link_to social.url do
-            h2.l-title
+            h3.l-title
               = social.title
+            p
+              = social.description
 

@@ -15,10 +15,11 @@ html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" 
     = stylesheet_link_tag 'application'
     = partial 'views/analytics_code'
 
-  body class='#{page_classes}'
+  body class="#{page_classes}"
+    = partial 'views/page_title'
     = yield
-    = partial "views/footer"
-    = partial "views/navigation"
+    = partial 'views/footer'
+    = partial 'views/navigation'
 
     a href="#{data.settings.social.google_plus}?rel=author" class="hide"
       'Google
