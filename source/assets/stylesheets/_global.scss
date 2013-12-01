@@ -1,0 +1,8 @@
+a {
+  font-weight: bold;
+  border-bottom: 1px solid;
+  @include single-transition();
+  &:hover {
+
+  }
+}

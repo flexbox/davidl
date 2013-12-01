@@ -1,0 +1,47 @@
+---
+title: A propos de David Leuliette &bull; Développeur front-end à Lille
+description: Vos visites augmentent mes points de charisme.
+page_title: Une petite page pour gagner du prestige
+---
+
+.row
+  .medium-4.columns
+  .medium-8.columns
+    h2 A propos
+    p J'ai découvert Internet en 1998 à l'époque du 56k, de Caramail et de Lycos. Je n'ai rien lâché depuis, et avec le temps c'est de plus en plus chronophage.
+    = image_tag 'front/books.jpg', alt: 'Livres du developpeur front-end';
+    p
+      strong
+        'Je suis développeur, designer et architecte front-end, je vis à Valenciennes dans le nord de la France.
+      'Ma passion ? coder des
+      =' link_to 'features', 'http://git-scm.com/about'
+      'pour rendre le monde meilleur à travers un web plus libre, plus accessible et à l'épreuve du temps.
+
+    p
+      'Si vous souhaiter me contacter, n'hésitez pas il existe
+      = link_to 'une page pour ça', '/contact.html'
+      '.
+
+
+.row
+  .medium-4.columns
+    h2 Projets
+    - data.projects.each_with_index do |project|
+      = link_to project.url, title: project.description do
+        p.l-title
+          = project.title
+  .medium-4.columns
+
+  .medium-4.columns
+
+.row
+  .medium-12.columns
+    h2 Où peut-on me trouver sur internet ?
+    ul.large-block-grid-3.small-block-grid-2
+      - data.social.each_with_index do |social|
+        li
+          = link_to social.url do
+            h3.l-title
+              = social.title
+            p
+              = social.description

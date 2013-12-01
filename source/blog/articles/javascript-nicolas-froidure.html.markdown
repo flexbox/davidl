@@ -1,7 +1,6 @@
 ---
-title: Livre Javascript
+title: Revue de livre Javascript
 date: 2012-01-01
-tags: example
 ---
 
 #Javascript par Nicolas Froidure

@@ -1,0 +1,34 @@
+$control-height: em-calc(60);
+
+.m-control {
+  background-color: rgba($black-light, 0.8);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: $control-height;
+
+  a {
+    color: $white-light;
+    border-bottom: 0;
+    &:hover {
+      border-bottom: 1px solid $blue-steroid;
+    }
+  }
+  .inline-list {
+    margin-top: $inline-list-bottom-margin;
+  }
+}
+
+.m-control--logo {
+  margin-top: $inline-list-bottom-margin;
+  display: block;
+  border-bottom: 0 none;
+
+  &:hover {
+    border-bottom: 0 none;
+    .css-triforce {
+      @include single-transition();
+      color: $yellow-steroid;
+    }
+  }
+}
