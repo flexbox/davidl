@@ -1,0 +1,15 @@
+$m-panel-bg: rgba($white, 0.4);
+$m-panel-bg-hover: rgba($white, 0.9);
+
+.m-panel {
+  @include panel($m-panel-bg);
+  @include single-transition();
+
+  border: 0 none;
+  border-bottom: 1px solid $white;
+
+  &:hover {
+    background-color: $m-panel-bg-hover;
+  }
+
+}

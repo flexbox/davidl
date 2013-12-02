@@ -34,13 +34,18 @@ $row-width: rem-calc(1200);
 $column-gutter: rem-calc(30);
 $total-columns: 12;
 
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: 900;
+
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $header-font-family: join("Kreon", $body-font-family) !default;
-// $body-font-weight: normal;
+$body-font-family: "Droid Serif", serif;
+$body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
+$header-font-family: 'Lato', sans-serif;
+$header-font-weight: $font-weight-bolder;
 
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;

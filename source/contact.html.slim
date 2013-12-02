@@ -66,8 +66,9 @@ page_title: Hello world
       - data.social.each_with_index do |social|
         li
           = link_to social.url do
-            h3.l-title
-              = social.title
-            p
-              = social.description
+            .m-panel
+              h3.l-title
+                = social.title
+              p
+                = social.description
 

@@ -1,8 +1,11 @@
+$body-font-color   : $black-light;
+$anchor-font-color : $cyan;
+
 a {
   font-weight: bold;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid $gray;
   @include single-transition();
   &:hover {
-
+    border-bottom-color: $anchor-font-color;
   }
 }

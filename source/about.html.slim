@@ -36,12 +36,23 @@ page_title: Une petite page pour gagner du prestige
 
 .row
   .medium-12.columns
+    h2 Lectures
+    ul.large-block-grid-3.small-block-grid-2
+      li
+
+.row
+  .medium-12.columns
+    h2 Compétences
+
+.row
+  .medium-12.columns
     h2 Où peut-on me trouver sur internet ?
     ul.large-block-grid-3.small-block-grid-2
       - data.social.each_with_index do |social|
         li
           = link_to social.url do
-            h3.l-title
-              = social.title
-            p
-              = social.description
+            .m-panel
+              h3.l-title
+                = social.title
+              p
+                = social.description

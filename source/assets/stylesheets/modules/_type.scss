@@ -1,0 +1,17 @@
+.m-masterhead {
+  font-size: em-calc(70);
+  line-height: em-calc(77);
+  text-align: center;
+  font-weight: $font-weight-bolder;
+}
+
+h2 {
+  font-family: "Droid Serif";
+  font-size: em-calc(30);
+  font-weight: $font-weight-normal;
+  font-style: italic;
+  color: $black-lighter;
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}

@@ -27,9 +27,9 @@ per_page: 10
         p= link_to 'Next page', next_page
 
   aside.medium-4.columns
-    h2 Sélection d'articles
-    ol
-      - blog.articles[0...10].each do |article|
-        li
-          = link_to article.title, article
-          span= article.date.strftime('%b %e')
+    h2 Articles récents
+    - blog.articles[0...10].each do |article|
+      = link_to article do
+        p
+          = article.title
+          span= article.date.strftime('%d %m %Y')

@@ -10,7 +10,8 @@ page_title: Voici ce que je fais
       - data.projects.each_with_index do |project|
         li
           = link_to project.url do
-            h2.l-title
-              = project.title
-            p.l-description
-              = project.description
+            .m-panel
+              h2.l-title
+                = project.title
+              p.l-description
+                = project.description
