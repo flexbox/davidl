@@ -1,11 +1,18 @@
 $body-font-color   : $black-light;
-$anchor-font-color : $cyan;
+$anchor-font-color : $blue-steroid;
+$code-color        : $magenta;
+
 
 a {
+  color: $anchor-font-color;
   font-weight: bold;
   border-bottom: 1px solid $gray;
   @include single-transition();
   &:hover {
     border-bottom-color: $anchor-font-color;
   }
+}
+
+code {
+  color: $code-color;
 }

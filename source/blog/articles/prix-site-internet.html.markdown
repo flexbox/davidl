@@ -1,9 +1,8 @@
 ---
 title: Combien coûte un site internet ?
 date: 2012-08-10
+page_title: Combien coûte un site web responsive ?
 ---
-
-# Combien coûte un site internet adaptatif ?
 
 **Réponse : 42€**
 

@@ -2,19 +2,19 @@
 # Blog settings
 ###
 
-# Time.zone = "UTC"
+Time.zone = "Paris"
 
 activate :blog do |blog|
   # blog.prefix = "blog"
   # blog.permalink = ":year/:month/:day/:title.html"
   blog.sources = "blog/articles/:title.html"
-  # blog.layout = "layout"
+  blog.layout = "layouts/blog_layout"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = ":year.html"
   # blog.month_link = ":year/:month.html"
   # blog.day_link = ":year/:month/:day.html"
-  # blog.default_extension = ".markdown"
+  blog.default_extension = ".markdown"
 
   blog.calendar_template = "calendar.html"
 

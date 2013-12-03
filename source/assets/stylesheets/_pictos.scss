@@ -1,0 +1,15 @@
+//first we'll define the folders where the sprites are and their layouts
+$pictos: sprite-map("sprite/pictos/*.png", $layout: smart);
+$pictos-2x: sprite-map("sprite/pictos2x/*.png", $layout: smart);
+
+.picto-box {
+  margin: 0 1em;
+  float: left;
+}
+
+.picto-triforce {
+  @include use-sprite("triforce", $pictos, $pictos-2x);
+  &:hover {
+      @include use-sprite("triforce-hover", $pictos, $pictos-2x);
+  }
+}

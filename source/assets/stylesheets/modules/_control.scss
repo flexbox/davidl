@@ -23,12 +23,17 @@ $control-height: em-calc(60);
   margin-top: $inline-list-bottom-margin;
   display: block;
   border-bottom: 0 none;
+  overflow: auto;
 
   &:hover {
-    border-bottom: 0 none;
-    .css-triforce {
-      @include single-transition();
-      color: $yellow-steroid;
+    border: 0 none !important;
+
+    .picto-triforce {
+      @include use-sprite("triforce-hover", $pictos, $pictos-2x);
     }
+  }
+
+  span {
+    margin: em-calc(8) 0 0 em-calc(15);
   }
 }

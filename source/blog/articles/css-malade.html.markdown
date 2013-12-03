@@ -1,9 +1,8 @@
 ---
 title: Coder du css de qualité
 date: 2013-06-14
+page_title: Votre CSS est malade
 ---
-
-# Votre CSS est malade
 
 Si vous êtes un peu anglophone vous devez connaître l’excellent Podcast [shoptalkshow](http://shoptalkshow.com/)
  Le principe du podcast est simple : vous pouvez poser votre question en audio et des pros du web vous répondent.

@@ -1,9 +1,8 @@
 ---
 title: Revue de livre Javascript
 date: 2012-01-01
+page_title: Javascript par Nicolas Froidure
 ---
-
-#Javascript par Nicolas Froidure
 
 Si vous suivez mon activité sur [twitter](http://twitter.com/_flexbox) vous avez surement remarqué que je lis énormément de livres sur l'industrie du développement web. Mon dernier livre ? Javascript™ rédigé intégralement en français par monsieur Nicolas Froidure himself.
 Cet article présente ma revue de la version poche, ainsi que le contenu que j'ai retenu de ces 400 pages de code.
