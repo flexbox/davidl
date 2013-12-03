@@ -24,15 +24,13 @@ page_title: Une page pour gagner du prestige
 
 
 .row
-  .medium-4.columns
+  .medium-12.columns
     h2 Projets
-    - data.projects.each_with_index do |project|
-      = link_to project.url, title: project.description do
-        p.l-title
-          = project.title
-  .medium-4.columns
-
-  .medium-4.columns
+    ul.inline-list
+      - data.projects.each_with_index do |project|
+        li.l-title
+          = link_to project.url, title: project.description do
+            = project.title
 
 .row
   .medium-12.columns
@@ -41,8 +39,22 @@ page_title: Une page pour gagner du prestige
       li
 
 .row
-  .medium-12.columns
+  .medium-6.columns
     h2 Compétences
+    .row
+      .medium-6.columns
+        #js-svg-skills
+      .medium-6.columns
+        ul data-pie-id="js-svg-skills"
+          li data-value="60" HTML5
+          li data-value="50" Sass
+          li data-value="20" Javascript
+          li data-value="12" Git
+          li data-value="32" Ruby on rails
+      .medium-6.columns
+  .medium-6.columns
+    h2 Récompense
+    p Vainqueur des open du web #3 : catégorie intégration
 
 .row
   .medium-12.columns

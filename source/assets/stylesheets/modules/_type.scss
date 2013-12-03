@@ -11,7 +11,8 @@
   &:before,
   &:after {
     position: absolute;
-    top: 25%;
+    top: 50%;
+    margin-top: em-calc(-40);
   }
   &:before {
     content: "\223C";

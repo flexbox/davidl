@@ -12,4 +12,15 @@ $m-panel-bg-hover: rgba($white, 0.9);
     background-color: $m-panel-bg-hover;
   }
 
+  &.l-callout {
+    border: 3px dashed $black-lighter;
+    margin: em-calc(40) 0 em-calc(60);
+    a {
+      color: $magenta;
+      &:hover {
+        border-bottom-color: $magenta;
+      }
+    }
+  }
+
 }
