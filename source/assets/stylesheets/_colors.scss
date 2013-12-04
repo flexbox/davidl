@@ -6,7 +6,6 @@ $white-light    : #FCF9EE;
 $black-light    : #696661;
 $black-lighter  : #414141;
 
-
 $cyan    : #158D9F;
 $yellow  : #FDB813;
 $magenta : #EB426A;
@@ -21,8 +20,14 @@ $yellow-steroid : rgb(253, 235, 117);
 // We use these as default colors throughout
 $primary-color   : $cyan;
 $secondary-color : $magenta;
+$body-bg         : $white-light;
 
-$body-bg           : $white-light;
+
+$sc-amazon     : #E47911;
+$sc-twitter    : #00aced;
+$sc-google-plus : #dd4b39;
+$sc-github     : #333333;
+
 
 
 .list-color {

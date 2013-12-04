@@ -23,4 +23,33 @@ $m-panel-bg-hover: rgba($white, 0.9);
     }
   }
 
+  &.l-social {
+    position: relative;
+    overflow: hidden;
+
+    i {
+      transition: all 0.5s ease;
+      position: absolute;
+      right: 20%;
+      top: -100%;
+      font-size: em-calc(60);
+      color: $red-steroid;
+      &.fa-google-plus { color: $sc-google-plus; }
+      &.fa-twitter { color: $sc-twitter; }
+      &.fa-github { color: $sc-github; }
+      &.fa-gift { color: $sc-amazon; }
+    }
+
+    &:hover {
+      i {
+        top: 5%;
+      }
+    }
+  }
+
+}
+
+.m-section {
+  margin: em-calc(60) 0 em-calc(80);
+  padding: em-calc(40) 0;
 }

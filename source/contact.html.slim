@@ -62,13 +62,5 @@ page_title: Hello world
 .row
   .medium-12.columns
     h2 Ailleurs sur le web
-    ul.large-block-grid-3.small-block-grid-2
-      - data.social.each_with_index do |social|
-        li
-          = link_to social.url do
-            .m-panel
-              h3.l-title
-                = social.title
-              p
-                = social.description
+    = partial 'views/social'
 

@@ -6,10 +6,14 @@ page_title: Une page pour gagner du prestige
 
 .row
   .medium-4.columns
+    = link_to '#', class: 'album' do
+      = image_tag 'front/photo2.jpg', class: 'photo1'
+      / = image_tag 'front/photo2.jpg', class: 'photo2'
+      / = image_tag 'front/photo1.jpg', class: 'photo3'
+
   .medium-8.columns
     h2 A propos
     p J'ai découvert Internet en 1998 à l'époque du 56k, de Caramail et de Lycos. Je n'ai rien lâché depuis, et avec le temps c'est de plus en plus chronophage.
-    = image_tag 'front/books.jpg', alt: 'Livres du developpeur front-end';
     p
       strong
         'Je suis développeur, designer et architecte front-end, je vis à Valenciennes dans le nord de la France.
@@ -22,49 +26,52 @@ page_title: Une page pour gagner du prestige
       = link_to 'une page pour ça', '/contact.html'
       '.
 
+section.m-section
+  .row
+    .medium-12.columns
+      h2 Projets
+      ul.inline-list
+        - data.projects.each_with_index do |project|
+          li.l-title
+            = link_to project.url, title: project.description do
+              = project.title
 
-.row
-  .medium-12.columns
-    h2 Projets
-    ul.inline-list
-      - data.projects.each_with_index do |project|
-        li.l-title
-          = link_to project.url, title: project.description do
-            = project.title
+section.m-section
+  .row
+    .medium-12.columns
+      h2 Lectures
+      p Je suis autodidacte. Quand j'ai commencé à apprendre les fondamentaux du web youtube n'existait pas ! J'ai pris l'habitude de dévorer des livres pour assouvir ma soif de connaissance.
+      ul.large-block-grid-3.small-block-grid-2
+        - data.books.each_with_index do |books|
+          li
+            = link_to books.url do
+              .m-panel.l-books
+                h3.l-title
+                  = books.title
+                p
+                  = books.description
 
-.row
-  .medium-12.columns
-    h2 Lectures
-    ul.large-block-grid-3.small-block-grid-2
-      li
+section.m-section
+  .row
+    .medium-6.columns
+      h2 Compétences
+      .row
+        .medium-6.columns
+          #js-svg-skills
+        .medium-6.columns
+          ul data-pie-id="js-svg-skills"
+            li data-value="60" HTML5
+            li data-value="50" Sass
+            li data-value="20" Javascript
+            li data-value="12" Git
+            li data-value="32" Ruby on rails
+        .medium-6.columns
+    .medium-6.columns
+      h2 Récompense
+      p Vainqueur des open du web #3 : catégorie intégration
 
-.row
-  .medium-6.columns
-    h2 Compétences
-    .row
-      .medium-6.columns
-        #js-svg-skills
-      .medium-6.columns
-        ul data-pie-id="js-svg-skills"
-          li data-value="60" HTML5
-          li data-value="50" Sass
-          li data-value="20" Javascript
-          li data-value="12" Git
-          li data-value="32" Ruby on rails
-      .medium-6.columns
-  .medium-6.columns
-    h2 Récompense
-    p Vainqueur des open du web #3 : catégorie intégration
-
-.row
-  .medium-12.columns
-    h2 Où peut-on me trouver sur internet ?
-    ul.large-block-grid-3.small-block-grid-2
-      - data.social.each_with_index do |social|
-        li
-          = link_to social.url do
-            .m-panel
-              h3.l-title
-                = social.title
-              p
-                = social.description
+section.m-section
+  .row
+    .medium-12.columns
+      h2 Où peut-on me trouver sur internet ?
+      = partial 'views/social'

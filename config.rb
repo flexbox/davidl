@@ -24,6 +24,7 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", :layout => false
+page "/sitemap.xml", :layout => false
 
 ###
 # Page options, layouts, aliases and proxies
@@ -41,7 +42,6 @@ page "/feed.xml", :layout => false
 # with_layout :admin do
 #   page "/admin/*"
 # end
-
 
 require 'slim'
 

@@ -1,13 +1,16 @@
 -
   title: Google+
+  icon: fa-google-plus
   url: 'https://plus.google.com/u/0/113401424510170217860'
   description: Pour tout ce qui demande plus de 140 caractères.
 -
   title: Twitter
+  icon: fa-twitter
   url: 'https://twitter.com/_flexbox'
   description: J'apprends et je partage chaque jour de nouveaux liens.
 -
   title: GitHub
+  icon: fa-github
   url: 'https://github.com/flexbox'
   description: Je partage mon code source librement avec toute la communauté.
 -
@@ -16,5 +19,6 @@
   description: Aidez moi à financer mes projets avec des micros dons.
 -
   title: Amazon
+  icon: fa-gift
   url: https://www.amazon.fr/registry/wishlist/2DD1UFSWC721E/
   description: Vous êtes fan de mes travaux ? Amazon propose un bon service pour me souhaiter un joyeux anniversaire.
