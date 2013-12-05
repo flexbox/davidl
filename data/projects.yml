@@ -5,14 +5,14 @@
 -
   title: Ecriture
   description: "La meilleure façon de maîtriser un sujet est de l'enseigner aux autres. J'écris des articles sur la conception web mobile, le responsive design et les outils que j'utilise chaque jour."
-  url: /blog
+  url: /blog/
 -
   title: Partage
   description: "J'aime partager des informations. J'apprends quelque chose de nouveau chaque jour, et je participe à la conversation collective qu'est Twitter."
   url: https://twitter.com/_flexbox
 -
-  title: Papier et crayon
-  description: "L'étape qui précède le développement d'un site conciste à réaliser des prototypes papiers. Avant je jetais ces maquettes directement à la poubelle, mais ça c’était avant. Maintenant je prends des photos pour conserver mes idées et les partager sur ce site."
+  title: "Idée, Papier, Crayon"
+  description: "Je fais parti de ces designers incapables de commencer à faire quoi que ce soit sur un logiciel avant d’avoir posé mes idées sur papier. Avant je jetais ces maquettes directement à la poubelle, mais ça c’était avant. Maintenant je prends des photos pour conserver mes idées et les partager sur ce site."
   url: http://responsivewireframe.tumblr.com/
 -
   title: Guide CSS
@@ -34,3 +34,7 @@
   title: Webcitation
   description: "Pendant des années j’ai collecté des citations à travers de nombreux livres, articles de blog… J’administre webcitation pour toutes les regrouper et les traduire pour vous."
   url: http://webcitation.fr/
+-
+  title: Conseil
+  description: "Vous aimez ma façon de penser ainsi que mon travail ? Vous êtes intéressé par la réalisation d'un projet ? N'hésitez pas à me contacter &rarr;"
+  url: /contact.html

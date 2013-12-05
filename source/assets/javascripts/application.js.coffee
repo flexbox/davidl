@@ -1,3 +1,6 @@
+#= require "vendor/modernizr.custom"
+#= require "vendor/toucheffects"
+
 #= require "jquery"
 #= require "jquery.smoothscroll"
 

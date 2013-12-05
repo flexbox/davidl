@@ -31,3 +31,75 @@
 .album .photo3 {
   transform: rotate(6deg) translate(100px, -3px);
 }
+
+figure {
+  position: relative;
+
+  img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #2c3f52;
+    color: #ed4e6e;
+
+    h3 {
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    a {
+        text-align: center;
+        padding: 5px 10px;
+        border-radius: 2px;
+        display: inline-block;
+        background: #ed4e6e;
+        color: #fff;
+    }
+  }
+}
+
+// now the animate feature
+.cs-style-3 {
+
+  figure {
+    overflow: hidden;
+  }
+
+  figcaption {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+  }
+
+}
+
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+    transform: translateY(-50px);
+}
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-3 figcaption a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
