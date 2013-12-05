@@ -1,6 +1,6 @@
 ---
 title: A propos de David Leuliette Développeur front-end à Lille
-description: Vos visites augmentent mes points de charisme.
+description: Vos visites augmentent mes points de charisme. Aidez-moi à gagner un niveau comme le barbare de naheulbeuk.
 page_title: Une page pour gagner du prestige
 ---
 
@@ -13,7 +13,7 @@ page_title: Une page pour gagner du prestige
 
   .medium-8.columns
     h2 A propos
-    p J'ai découvert Internet en 1998 à l'époque du 56k, de Caramail et de Lycos. Je n'ai rien lâché depuis, et avec le temps c'est de plus en plus chronophage.
+    p J'ai découvert Internet en 1998 à l'époque du 56k, de Caramail et de Lycos. Je n'ai rien râté depuis, grâce à un système de veille efficace, et avec le temps c'est de plus en plus chronophage.
     p
       strong
         'Je suis développeur, designer et architecte front-end, je vis à Valenciennes dans le nord de la France.
@@ -22,7 +22,7 @@ page_title: Une page pour gagner du prestige
       'pour rendre le monde meilleur à travers un web plus libre, plus accessible et à l'épreuve du temps.
 
     p
-      'Si vous souhaiter me contacter, n'hésitez pas il existe
+      'Si vous souhaitez me contacter, n'hésitez pas, il existe
       = link_to 'une page pour ça', '/contact.html'
       '.
 
@@ -40,16 +40,18 @@ section.m-section
   .row
     .medium-12.columns
       h2 Lectures
-      p Je suis autodidacte. Quand j'ai commencé à apprendre les fondamentaux du web youtube n'existait pas ! J'ai pris l'habitude de dévorer des livres pour assouvir ma soif de connaissance.
-      ul.large-block-grid-3.small-block-grid-2
+      p Je suis autodidacte. Quand j'ai commencé à apprendre les fondamentaux du web, youtube n'existait pas ! J'ai pris l'habitude de dévorer des livres pour assouvir ma soif de connaissance.
+      ul.large-block-grid-3.medium-block-grid-2.small-block-grid-1.cs-style-3
         - data.books.each_with_index do |books|
           li
-            = link_to books.url do
-              .m-panel.l-books
-                h3.l-title
+            figure
+              = image_tag 'front/books/image.png', alt: 'my image'
+              figcaption
+                h3
                   = books.title
                 p
                   = books.description
+                = link_to "J'achèèète", books.url
 
 section.m-section
   .row

@@ -4,7 +4,7 @@
   url: /web
 -
   title: Ecriture
-  description: "La meilleure façon de maîtriser un sujet est de l'enseigner aux autres. J'écris des articles sur la conception web mobile, le responsive design et les outils que j'utilise chaque jour."
+  description: "La meilleure façon de maîtriser un sujet est de l'enseigner aux autres. J'écris des articles sur la conception web mobile, le responsive design et les outils que j'utilise quotidiennement."
   url: /blog/
 -
   title: Partage
@@ -16,15 +16,15 @@
   url: http://responsivewireframe.tumblr.com/
 -
   title: Guide CSS
-  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments.J’ai rédigé ce guide de bonnes pratiques qui regroupe les bonnes pratiques pour coder des feuilles de styles de qualité."
+  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments. J’ai rédigé ce guide qui regroupe les bonnes pratiques pour coder des feuilles de styles de qualité."
   url: http://guidecss.fr/
 -
   title: Pokemon breakpoint
-  description: "Nous avons un problème dans la conception adaptative. Nous fixons des points d’arrêt en CSS et peut-être que nous voulons les utiliser dans notre Javascript. Pokemon breakpoint est une façon amusante de faire le lien entre ces 2 mondes."
+  description: "Les développeurs front-end ont un problème dans la conception adaptative. Nous fixons des points d’arrêt en CSS et peut-être que nous voulons les utiliser dans notre Javascript. Pokemon breakpoint est une façon amusante de faire le lien entre ces 2 mondes."
   url: http://pokemonbreakpoint.fr/
 -
   title: Responsive icon
-  description: "Remplacer des icônes en images par des symboles HTML présente de nombreux avantages. J’ai développé cette application pour rapidement copier / coller certaines icônes que j’utilise tous les jours."
+  description: "Remplacer des icônes en images par des symboles HTML présente de nombreux avantages. J’ai développé cette application pour rapidement copier / coller ces caractères utiles en webdesign."
   url: http://responsiveicon.fr/
 -
   title: Hoooooo
@@ -32,7 +32,7 @@
   url: http://hoooooo.fr/
 -
   title: Webcitation
-  description: "Pendant des années j’ai collecté des citations à travers de nombreux livres, articles de blog… J’administre webcitation pour toutes les regrouper et les traduire pour vous."
+  description: "Jours après jours, je collecte des citations à travers de nombreux livres, articles de blog… J’administre webcitation pour toutes les regrouper et les traduire pour vous."
   url: http://webcitation.fr/
 -
   title: Conseil
