@@ -45,23 +45,12 @@ figure {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 20px;
-    background: #2c3f52;
-    color: #ed4e6e;
+    padding: em-calc(20);
+    background: $black;
+    color: $magenta;
 
     h3 {
-      margin: 0;
-      padding: 0;
-      color: #fff;
-    }
-
-    a {
-        text-align: center;
-        padding: 5px 10px;
-        border-radius: 2px;
-        display: inline-block;
-        background: #ed4e6e;
-        color: #fff;
+      color: $white-light;
     }
   }
 }
@@ -74,13 +63,13 @@ figure {
   }
 
   figcaption {
-    height: 100px;
+    height: em-calc(300);
     width: 100%;
     top: auto;
     bottom: 0;
     opacity: 0;
     transform: translateY(100%);
-    transition: transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform $transition-duration, opacity 0.1s 0.3s;
   }
 
 }
@@ -95,11 +84,11 @@ figure {
 .cs-style-3 figure.cs-hover figcaption {
     opacity: 1;
     transform: translateY(0px);
-    transition: transform 0.4s, opacity 0.1s;
+    transition: transform $transition-duration, opacity 0.1s;
 }
 
 .cs-style-3 figcaption a {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: em-calc(10);
+    right: em-calc(40);
 }

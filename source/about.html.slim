@@ -41,17 +41,17 @@ section.m-section
     .medium-12.columns
       h2 Lectures
       p Je suis autodidacte. Quand j'ai commencé à apprendre les fondamentaux du web, youtube n'existait pas ! J'ai pris l'habitude de dévorer des livres pour assouvir ma soif de connaissance.
-      ul.large-block-grid-3.medium-block-grid-2.small-block-grid-1.cs-style-3
-        - data.books.each_with_index do |books|
+      ul.large-block-grid-2.medium-block-grid-2.small-block-grid-1.cs-style-3
+        - data.books.each_with_index do |book|
           li
             figure
-              = image_tag 'front/books/image.png', alt: 'my image'
+              = image_tag "front/books/#{book.image}", alt: 'my image'
               figcaption
                 h3
-                  = books.title
-                p
-                  = books.description
-                = link_to "J'achèèète", books.url
+                  = book.title
+                p.hide-for-small
+                  = book.description
+                = link_to "J'achèèète", book.url, class: 'button'
 
 section.m-section
   .row
@@ -77,27 +77,3 @@ section.m-section
     .medium-12.columns
       h2 Où peut-on me trouver sur internet ?
       = partial 'views/social'
-
-
-      ul.large-block-grid-3.medium-block-grid-2.small-block-grid-1.cs-style-3
-        li
-          figure
-            = image_tag 'front/books/image.png', alt: 'my image'
-            figcaption
-              h3 Settings
-              span Jacob Cummings
-              = link_to "J'achèèète", 'http://dribbble.com/shots/1116685-Settings'
-        li
-          figure
-            = image_tag 'front/books/image.png', alt: 'my image'
-            figcaption
-              h3 Settings
-              span Jacob Cummings
-              = link_to "J'achèèète", 'http://dribbble.com/shots/1116685-Settings'
-        li
-          figure
-            = image_tag 'front/books/image.png', alt: 'my image'
-            figcaption
-              h3 Settings
-              span Jacob Cummings
-              = link_to "J'achèèète", 'http://dribbble.com/shots/1116685-Settings'

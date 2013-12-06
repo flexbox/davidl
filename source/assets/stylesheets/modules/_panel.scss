@@ -28,7 +28,7 @@ $m-panel-bg-hover: rgba($white, 0.9);
     overflow: hidden;
 
     i {
-      transition: all 0.5s ease;
+      @include single-transition(all, $transition-duration, ease);
       position: absolute;
       right: 20%;
       top: -100%;
