@@ -6,5 +6,14 @@
 
 .m-footer {
   margin-bottom: $control-height;
+
+  p {
+    text-align: center;
+    font-size: em-calc(13);
+    margin-bottom:  em-calc(10);
+  }
+  a {
+    color: $black-light;
+  }
 }
 

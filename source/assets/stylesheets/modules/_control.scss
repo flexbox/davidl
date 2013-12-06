@@ -1,6 +1,7 @@
 $control-height: em-calc(60);
 
 .m-control {
+  z-index: 20;
   background-color: rgba($black-light, 0.8);
   position: fixed;
   bottom: 0;

@@ -1,4 +1,4 @@
-.album {
+.m-photo-album {
   position: relative;
   z-index: 5;
   width: 250px;
@@ -6,31 +6,32 @@
   display:block;
 }
 
-.album img {
+.m-photo-album img {
   position: absolute;
   top: 0;
   left: 0;
   border: 5px solid $white;
-  box-shadow: 1px 1px 2px #666;
-  -webkit-box-shadow: 1px 1px 2px #666;
-  -moz-box-shadow: 1px 1px 2px #666;
-  width:250px;
-  height:250px;
+  box-shadow: 1px 1px 2px rgba($black,0.8);
+  width: em-calc(250);
+  height: em-calc(250);
   display:block;
-  transition: all .3s ease-in-out;
+  transition: all $transition-duration ease-in-out;
 }
 
-.album .photo1 {
-  transform: rotate(-6deg) translate(-100px, -3px);
+.m-photo-album {
+  &.is-hover {
+    .photo1 {
+      transform: rotate(-6deg) translate(-100px, -3px);
+    }
+    .photo2 {
+      transform: rotate(0deg) translate(0, -3px);
+    }
+    .photo3 {
+      transform: rotate(6deg) translate(100px, -3px);
+    }
+  }
 }
 
-.album .photo2 {
-  transform: rotate(0deg) translate(0, -3px);
-}
-
-.album .photo3 {
-  transform: rotate(6deg) translate(100px, -3px);
-}
 
 figure {
   position: relative;
@@ -51,6 +52,7 @@ figure {
 
     h3 {
       color: $white-light;
+      text-shadow: $text-shadow;
     }
   }
 }

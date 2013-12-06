@@ -1,6 +1,7 @@
-$body-font-color   : $black-light;
+$body-font-color    : $black-light;
 $anchor-font-color : $blue-steroid;
-$code-color        : $magenta;
+$code-color           : $magenta;
+$text-shadow: rgba($black,0.8) 0px 2px 0px;
 
 $transition-duration: 0.5s;
 
@@ -16,4 +17,14 @@ a {
 
 code {
   color: $code-color;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: $black;
+  font-weight: $font-weight-bold;
+}
+
+body {
+  color: $gray-dark;
 }
