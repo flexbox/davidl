@@ -20,7 +20,10 @@ per_page: 10
           .medium-10.columns
             h2= article.title
           .medium-2.columns
-            p= article.date.strftime('%d %m %Y')
+            .m-post-list--calendar
+              span.l-day= article.date.strftime('%d')
+              span.l-month= article.date.strftime('%m')
+              span.l-year= article.date.strftime('%Y')
 
     - if paginate
       - if next_page
@@ -32,4 +35,4 @@ per_page: 10
       = link_to article do
         p
           = article.title
-          span= article.date.strftime('%d %m %Y')
+

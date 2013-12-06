@@ -6,7 +6,7 @@ Time.zone = "Paris"
 
 activate :blog do |blog|
   # blog.prefix = "blog"
-  # blog.permalink = ":year/:month/:day/:title.html"
+  blog.permalink = "blog/:title.html"
   blog.sources = "blog/articles/:title.html"
   blog.layout = "layouts/blog_layout"
   # blog.summary_separator = /(READMORE)/

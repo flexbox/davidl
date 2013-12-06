@@ -10,7 +10,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  border: 5px solid #f3f3f3;
+  border: 5px solid $white;
   box-shadow: 1px 1px 2px #666;
   -webkit-box-shadow: 1px 1px 2px #666;
   -moz-box-shadow: 1px 1px 2px #666;
@@ -46,7 +46,7 @@ figure {
     top: 0;
     left: 0;
     padding: em-calc(20);
-    background: $black;
+    background: rgba($black,0.8);
     color: $magenta;
 
     h3 {
@@ -77,7 +77,8 @@ figure {
 
 .no-touch .cs-style-3 figure:hover img,
 .cs-style-3 figure.cs-hover img {
-    transform: translateY(-50px);
+  transform: translateY(-100%);
+  transition: transform $transition-duration, opacity 0.1s 0.3s;
 }
 
 .no-touch .cs-style-3 figure:hover figcaption,
