@@ -6,18 +6,22 @@ page_title: Votre CSS est malade
 
 Si vous êtes un peu anglophone vous devez connaître l’excellent Podcast [shoptalkshow](http://shoptalkshow.com/)
  Le principe du podcast est simple : vous pouvez poser votre question en audio et des pros du web vous répondent.
- Récemment Chris Coyier répondu à la question de quelqu’un :
+
+ Récemment Chris Coyier répondu aux questions suivantes :
+
 > Comment pouvez-vous dire si votre CSS est mauvais ?
->  Quels sont les signes que le code est optionnel, ou que le développeur n’a pas fait un bon travail ?
->  Qu’est-ce que vous regardez dans le code afin de déterminer s’il est bon ou mauvais ?
+
+> Quels sont les signes que le code est optionnel, ou que le développeur n’a pas fait un bon travail ?
+
+> Qu’est-ce que vous regardez dans le code afin de déterminer s’il est bon ou mauvais ?
 
 Comme je suis un super bilingue j’ai décidé de vous offrir une traduction pour ceux qui ont un peu de mal avec l’accent américain.
  Je vais partager quelques petites techniques (il y a sans doute des choses que j’ai oublié) pour vous permettre de juger votre CSS, cela vous donnera une idée de sa qualité, de sa maintenabilité et son intégrité …
 
-## [](#annulation-styles)Annulation styles
+## Annulation styles
 
-N’importe quel règle CSS qui enlève du style (sauf dans un [reset](http://necolas.github.com/normalize.css/)) doit déclencher une sonnette d’alarme.
- La définition du CSS est : styles en cascade. Les propriétés doivent hériter de choses définies précédemment.
+N’importe quelle règle CSS qui enlève du style (sauf dans un [reset](http://necolas.github.com/normalize.css/)) doit déclencher une sonnette d’alarme.
+ La définition du CSS est : __styles en cascade__. Les propriétés doivent hériter de choses définies précédemment.
  Déclarer plus de règles pour enlever du style n’a pas de sens.
 
 Toutes les déclarations CSS comme celles-ci :
@@ -25,22 +29,27 @@ Toutes les déclarations CSS comme celles-ci :
     border-bottom: none;
     padding: 0;
     float: none;
-    margin-left: 0;`</pre>
+    margin-left: 0;
 
-    … Sont généralement de mauvaises nouvelles.
-     Si vous souhaitez éliminer les bordures, vous avez probablement appliqué leur style trop tôt.
-     C’est vraiment difficile à expliquer, je vais exposer avec un exemple simple :
-    <pre>`h2 {
+… Sont généralement de mauvaises nouvelles.
+
+Si vous souhaitez éliminer les bordures, vous avez probablement appliqué leur style trop tôt.
+C’est vraiment difficile à expliquer, je vais exposer avec un exemple simple :
+
+    h2 {
         font-size: 2em;
         margin-bottom: 0.5em;
         padding-bottom: 0.5em;
         border-bottom: 1px solid #ccc;
-    }`</pre>
+    }
 
-    Ici, nous offrons à tous nos `h2` une taille de police et une marge, mais aussi un peu de padding et une bordure pour les séparer de l’élément suivant.
-     Mais, peut-être, nous avons une situation dans laquelle nous ne voulons pas de filets en bordure, peut-être, nous avons une situation où nous voulons simplement un `h2`.
-     Nous allons donc devoir écrire plus de règles pour créer moins de style :
-    <pre>`h2 {
+Ici, nous offrons à tous nos `h2` une taille de police et une marge, mais aussi un peu de padding et une bordure pour les séparer de l’élément suivant.
+Mais, peut-être, nous avons une situation dans laquelle nous ne voulons pas de filets en bordure, peut-être, nous avons une situation où nous voulons simplement un `h2`.
+
+
+Nous allons donc devoir écrire plus de règles pour créer moins de style :
+
+    h2 {
         font-size: 2em;
         margin-bottom: 0.5em;
         padding-bottom: 0.5em;
@@ -49,50 +58,60 @@ Toutes les déclarations CSS comme celles-ci :
     .no-border {
         padding-bottom: 0;
         border-bottom: none;
-    }`</pre>
+    }
 
-    Ici, nous avons une dizaine de lignes de CSS et un nom de classe immonde.
-     Il vaut beaucoup mieux avoir des noms de classe [sémantique](http://fr.wikipedia.org/wiki/Web_s%C3%A9mantique) :
-    <pre>`h2 {
+Ici, nous avons une dizaine de lignes de CSS et un nom de classe immonde.
+Il vaut beaucoup mieux avoir des noms de classe [sémantique](http://fr.wikipedia.org/wiki/Web_s%C3%A9mantique) :
+
+    h2 {
         font-size: 2em;
         margin-bottom: 0.5em;
     }
     .headline {
         padding-bottom: 0.5em;
         border-bottom: 1px solid #ccc;
-    }`</pre>
+    }
 
-    Ici, nous avons huit lignes de CSS, sans rien défaire, et un joli nom de classe.
-     Plus vous vous enfoncez dans une feuille CSS plus vous devez ajouter des styles, jamais en retirer.
-     Si à un moment vous devez retirer du style, vous avez sûrement ajouté des propriétés trop rapidement.
-     Ceci est un exemple très simple, mais il permet d’illustrer parfaitement mon point de vue.
+Dans ce cas, nous avons 8 lignes de CSS, sans rien défaire, et un joli nom de classe.
+Plus vous vous enfoncez dans une feuille CSS plus vous devez ajouter des styles, jamais en retirer.
+Si à un moment vous devez retirer du style, vous avez sûrement ajouté des propriétés trop rapidement.
+Ceci est un exemple très simple, mais il permet d’illustrer parfaitement mon point de vue.
 
-    Imaginez un CSS comme ceci avec des dizaines de milliers de lignes … La taille du fichier explose inutilement en ajoutant des propriétés non nécessaire. Ne commencez jamais par un style trop complexe. Vous risquez de devoir annuler votre travail plus tard, vous finirez par écrire plus de CSS pour afficher moins de style.
-     Dès que je vois du CSS qui annule le style précédent, je peux être à peu près sûr que c’est parce qu’un élément est mal architecturé et que l’ordre dans lequel les choses ont été construites / écrites à besoin d’une retouche.
+Imaginez un CSS comme ceci avec des dizaines de milliers de lignes … La taille du fichier explose inutilement en ajoutant des propriétés inutiles. Ne commencez jamais par un style trop complexe. Vous risquez de devoir annuler votre travail plus tard, vous finirez par écrire plus de CSS pour afficher moins de style.
+Dès que je vois du CSS qui annule le style précédent, je peux être à peu près sûr que c’est parce qu’un élément est mal architecturé et que l’ordre dans lequel les choses ont été construites / écrites à besoin d’une retouche.
 
-    ## [](#les-chiffres-magiques)Les chiffres magiques
+## Les chiffres magiques
 
-    Cette notion peut être comparée à un épouvantail.
-     Je déteste les nombres magiques.
-     Un nombre magique est une valeur qui est utilisé «&nbsp;car ça fonctionne&nbsp;».
+Cette notion peut être comparée à un épouvantail.
+Je déteste les nombres magiques.
+Un nombre magique est une valeur qui est utilisé «&nbsp;car ça fonctionne&nbsp;».
 
-    Prenons l’exemple suivant :
-    <pre>`.site-nav{
+Prenons l’exemple suivant :
+
+    .site-nav{
         [styles]
     }
-    .site-nav &gt; li:hover .dropdown{
+    .site-nav > li:hover .dropdown{
         position:absolute;
         top:37px;
         left:0;
-    }`</pre>
+    }
 
-    `top: 37px;` est un nombre magique, la seule raison pour laquelle cela fonctionne, sans doute, c’est parce que les `li` à l’intérieur du `.site-nav` devraient être de 37px de haut, et le menu déroulant doit apparaître en bas de celui-ci…
-     Le problème ? 37px est entièrement circonstanciel et en tant que tel, nous ne devons placer aucune confiance dans ce nombre.
-     Que faire si quelqu’un change la taille de police `.site-nav` à 29px de hauteur ? Ce numéro n’est plus valide et le prochain développeur doit le savoir pour le mettre à jour.
-     Qu’est-ce qui se passe quand Chrome affiche 37px, mais IE affiche 36px ? Ce nombre ne fonctionne que dans une situation donnée.
-     Ne jamais, jamais utiliser des numéros juste parce qu’ils fonctionnent. Dans cette situation, c’est mieux de remplacer `top: 37px;` par `top: 100%;`## ce qui signifie en fait «&nbsp;tout le chemin depuis le sommet&nbsp;».
-     Les nombres magiques ont plusieurs problèmes qui leur sont associés.
-     Comme ci-dessus, ils ne peuvent pas être réutilisés, mais aussi, avec leur «&nbsp;juste parce que ça marche&nbsp;», il est difficile de communiquer à un autre dev d’où ce nombre est venu. Si vous aviez un exemple plus complexe qui utilise un certain nombre et que la magie ce chiffre est devenue invalide, vous êtes confronté à un ou plusieurs problèmes suivants :
+`top: 37px;` est un nombre magique.
+
+La seule raison pour laquelle cela fonctionne, sans doute, c’est parce que les `li` à l’intérieur du `.site-nav` devraient être de 37px de haut, et le menu déroulant doit apparaître en bas de celui-ci…
+Le problème ? 37px est entièrement circonstanciel et en tant que tel, nous ne devons placer aucune confiance dans ce nombre.
+Que faire si quelqu’un change la taille de police `.site-nav` à 29px de hauteur ? Ce numéro n’est plus valide et le prochain développeur doit le savoir pour le mettre à jour.
+Qu’est-ce qui se passe quand Chrome affiche 37px, mais IE affiche 36px ? Ce nombre ne fonctionne que dans une situation donnée.
+Ne jamais, __jamais__ utiliser des numéros juste parce qu’ils fonctionnent. Dans cette situation, c’est mieux de remplacer `top: 37px;` par `top: 100%;` ce qui signifie en fait «&nbsp;tout le chemin depuis le sommet&nbsp;».
+
+Les nombres magiques ont plusieurs problèmes qui leur sont associés.
+Comme ci-dessus, ils ne peuvent pas être réutilisés, mais aussi, avec leur «&nbsp;juste parce que ça marche&nbsp;», il est difficile de communiquer à un autre dev d’où ce nombre est venu. Si vous aviez un exemple plus complexe qui utilise un certain nombre et que la magie ce chiffre est devenue invalide, vous êtes confronté à un ou plusieurs problèmes suivants :
+
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
 
 *   Le prochain dev ne sait pas d’où le nombre magique est venu. Il le supprime, vous gagnez donc un retour à la case départ.
 *   Le prochain dev est prudent, parce qu’il ne sait pas d’où le nombre magique est venu. Il décide d’essayer de résoudre le problème sans toucher à ce chiffre magique. Cela signifie qu’un vieux, inutile, démodé, nombre magique reste dans le code, et le prochain dev a simplement réalisé un hack loin au-dessus de celui-ci. Vous vous êtes fait piraté votre style.
@@ -225,8 +244,9 @@ Toutes les déclarations CSS comme celles-ci :
     Donner un style spécifique à un sélecteur générique est dangereux. En suivant la logique de cascade les modifications se répercuteront dans des zones où ils ne devraient pas dès que vous commencerez à utiliser cet élément. Vous aurez besoin d’annuler ces déclarations (en ajoutant plus de code pour donner moins de style) afin de lutter contre cela.
      Assurez-vous de choisir correctement vos sélecteurs.
 
-    Prenons l’exemple :
-    <pre>`ul {
+Prenons l’exemple :
+
+    ul {
         font-weight:bold;
     }
     header .media{
@@ -283,10 +303,10 @@ Le premier point est le plus simple, que signifie `.card` ? Quelles sont ses pro
 
 Le deuxième problème avec les noms de classes en vrac, c’est qu’ils peuvent très facilement être (accidentellement) réaffectés / redéfinis. Disons que vous travaillez sur un site de e-commerce en utilisant à nouveau `.card`, qui est la carte de crédit de l’utilisateur lié à son compte. Maintenant, imaginez un autre dev arrive et veut ajouter des fonctionnalités permettant d’envoyer une commande à quelqu’un comme cadeau, avec la possibilité d’ajouter une carte avec un message à ce sujet. Leur tentation est peut-être à utiliser `.card` à nouveau quelque part, votre classe sera donc écrasée et difficilement identifiable.
 
-Tout cela peut être évité en utilisant des noms de classe beaucoup plus stricts. Un nommage de classe comme `.user` et `.card` c’est bullsh$t, ils sont difficiles à comprendre rapidement et facilement écrasés par accident.
- Dès que je vois des noms de classe en vrac je me demande comment peut-on les renommer. Les noms de classes doivent être aussi précis que possible.
+Tout cela peut être évité en utilisant des noms de classe beaucoup plus stricts. Un nommage de classe comme `.user` et `.card` c’est bullsh$t : ils sont difficiles à comprendre rapidement, et facilement écrasés par accident.
+Dès que je rencontre des noms de classe en vrac je me demande comment peut-on les renommer. Les noms de classes doivent être aussi précis que possible.
 
-## [](#en-conclusion)En conclusion
+## En conclusion
 
 Si votre CSS comporte de nombreux exemples de cas présentés ci dessus il y a de fortes chances qu’il soit malade. Ces exemples sont des choses que je rencontre de façon quotidienne et je m’efforce de les éviter à tout prix. Lorsque vous travaillez sur des projets plus importants qui durent depuis des mois et des mois (qui se transforment, finalement en années), il est essentiel de garder le cap, en conservant une vision globale du projet. (Plus vous éclatez vos composants en petits modules plus il sera facile de faire de la maintenance.)
 

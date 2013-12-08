@@ -15,6 +15,9 @@ a {
   }
 }
 
+pre {
+  margin-bottom: $paragraph-margin-bottom;
+}
 code {
   color: $code-color;
 }

@@ -3,6 +3,7 @@
 
 #= require "jquery"
 #= require "jquery.smoothscroll"
+#= require "jquery.stickynav"
 
 #= require "snapsvg"
 #= require "pizza"

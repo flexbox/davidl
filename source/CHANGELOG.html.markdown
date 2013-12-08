@@ -10,4 +10,5 @@ page_title: Changelog
 
 ## 0.0.1
 
+* Add sticky animation for control
 * Bootstrap app

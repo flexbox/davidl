@@ -4,9 +4,16 @@ $control-height: em-calc(60);
   z-index: 20;
   background-color: rgba($black-light, 0.8);
   position: fixed;
-  bottom: 0;
   width: 100%;
   height: $control-height;
+  transition: all $transition-duration ease-in-out;
+
+  &.is-hidden {
+    bottom: -$control-height;
+  }
+  &.is-show {
+    bottom: 0;
+  }
 
   a {
     color: $white-light;
