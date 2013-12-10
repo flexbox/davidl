@@ -1,3 +1,9 @@
+$m-post-link-border-color: rgba($yellow-steroid,0.4);
+$m-post-link-border-color-hover: $yellow-steroid;
+
+$m-post-recent-link-border-color: rgba($pink-steroid,0.4);
+$m-post-recent-link-border-color-hover: $pink-steroid;
+
 .m-post-list--calendar {
   span {
     font-weight: normal;
@@ -5,6 +11,33 @@
   }
 }
 
-.m-post-list--link {
+@mixin post-list($color,$color-hover){
+  padding: rem-calc(10) rem-calc(20);
+  background-color: $m-panel-bg;
+  display: block;
+  border-left: 5px solid $color;
+  border-bottom: 0px;
+  color: $gray;
 
+  .l-title {
+    color: $gray-dark;
+  }
+
+  &:hover {
+    border-left-color: $color-hover;
+    background-color: $m-panel-bg-hover;
+    color: $gray-dark;
+    .l-title {
+      color: $black;
+    }
+  }
+}
+
+
+.m-post-list--link {
+  @include post-list($m-post-link-border-color,$m-post-link-border-color-hover);
+}
+
+.m-post-recent-list--link {
+  @include post-list($m-post-recent-link-border-color,$m-post-recent-link-border-color-hover);
 }

@@ -12,8 +12,8 @@
   left: 0;
   border: 5px solid $white;
   box-shadow: 1px 1px 2px rgba($black,0.8);
-  width: em-calc(250);
-  height: em-calc(250);
+  width: rem-calc(250);
+  height: rem-calc(250);
   display:block;
   transition: all $transition-duration ease-in-out;
 }
@@ -46,7 +46,7 @@ figure {
     position: absolute;
     top: 0;
     left: 0;
-    padding: em-calc(20);
+    padding: rem-calc(20);
     background: rgba($black,0.8);
     color: $magenta;
 
@@ -65,7 +65,7 @@ figure {
   }
 
   figcaption {
-    height: em-calc(300);
+    height: rem-calc(300);
     width: 100%;
     top: auto;
     bottom: 0;
@@ -92,6 +92,6 @@ figure {
 
 .cs-style-3 figcaption a {
     position: absolute;
-    bottom: em-calc(10);
-    right: em-calc(40);
+    bottom: rem-calc(10);
+    right: rem-calc(40);
 }

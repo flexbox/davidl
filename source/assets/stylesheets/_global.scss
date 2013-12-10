@@ -1,5 +1,5 @@
 $body-font-color    : $black-light;
-$anchor-font-color : $blue-steroid;
+$anchor-font-color  : $blue-steroid;
 $code-color           : $magenta;
 $text-shadow: rgba($black,0.8) 0px 2px 0px;
 
@@ -17,10 +17,20 @@ a {
 
 pre {
   margin-bottom: $paragraph-margin-bottom;
+  background-color: rgba($white,0.8);
+  border: 1px solid $gray;
+  border-radius: $global-radius;
+  padding: em-calc(20);
+  @include single-transition();
+  &:hover {
+    border-color: $anchor-font-color;
+    cursor: $cursor-text-value;
+  }
 }
 code {
   color: $code-color;
 }
+
 
 h3 {
   text-transform: uppercase;

@@ -1,7 +1,7 @@
 .m-go-top {
   text-align: center;
-  margin-top: em-calc(60);
-  margin-bottom: em-calc(60);
+  margin-top: rem-calc(60);
+  margin-bottom: rem-calc(60);
 }
 
 .m-footer {
@@ -9,8 +9,8 @@
 
   p {
     text-align: center;
-    font-size: em-calc(13);
-    margin-bottom:  em-calc(10);
+    font-size: rem-calc(13);
+    margin-bottom:  rem-calc(10);
   }
   a {
     color: $black-light;

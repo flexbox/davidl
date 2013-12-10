@@ -4,45 +4,47 @@ date: 2013-12-04
 page_title: Comment concevoir un design adaptatif ?
 ---
 
-It's no secret that mobile web traffic will soon leave desktop traffic in the dust — sooner than you think. In the US alone, mobile accounts for 20% of web traffic . More than half of all traffic in Asia and Africa comes from mobile. On top of that, there are thousands upon thousands of devices that can be used to access the Web. Designing responsive websites that work across all devices is how we can rise to meet this challenge.
+Ce n'est un secret pour personne, le trafic de l'internet mobile fera mordre la poussière au traffic de bureau classique -plus tôt que vous le pensez. Aux États-Unis, il représente déjà 20% du trafic web global. En Asie et en Afrique, plus de la moitié de tout le trafic  provient du mobile. En plus de cela, il y a des milliers et des milliers d'appareils qui peuvent être utilisés pour accéder au web. Concevoir des sites adaptatifs qui fonctionnent correctement dans ce nouvel écosystème est un vrai nouveau défi. La question à se poser est de savoir comment nous pouvons relever ce défi.
 
-Ce n'est un secret pour personne, le trafic de l'Internet mobile sera bientôt quitter trafic de bureau dans la poussière - plus tôt que vous le pensez. Aux États-Unis, il représente les comptes mobiles pour 20% du trafic web. Plus de la moitié de tout le trafic en Asie et en Afrique provient de mobile. En plus de cela, il ya des milliers et des milliers de dispositifs qui peuvent être utilisés pour accéder au Web. Conception de sites Web adaptés qui fonctionnent sur tous les appareils est de savoir comment nous pouvons relever ce défi.
+Le design adaptatif (aka responsive webdesign), défini par Ethan Marcotte, vous permet de construire un site fluide qui peut se rétrécir ou s'agrandir pour s'adapter à toute taille d'écran sur n'importe quel appareil.
+
+Avec une grille fluide, des images flexibles et des `media queries`, nous n'avons pas à concevoir, un site mobile dédié séparé. Nous avons seulement à en construire un, ce qui est un gain de temps. Nous pouvons prototyper rapidement et se déplacer rapidement dans le code de production.
+
+La conception adaptative nous permet de construire une solution évolutive, peu importe la taille, plutôt qu'un dispositif spécifique.
 
 
-Responsive Design, a term coined by Ethan Marcotte , allows you to build one fluid site that can shrink or stretch to fit any screen size on any device. With fluid grids, flexible images and media queries, we don't have to whip up a separate, mobile-dedicated website. We only have to build one, which is a time saver. We can rapidly prototype and move quickly into production code.
-
-Designing responsively enables us to build for four corners, no matter the size, rather than one specific device.
 
 Four-corners
 The Perks of Designing Responsively
 
-There are many benefits to responsive design. Here are a few of them :
-Future Friendly
-Designing responsive sites allows you to be prepared for devices that don't even exist yet because you've already ensured that your product will scale to any four corners.
 
-The Three Tenets of Responsive Design
 
-When Ethan Marcotte coined the term Responsive Design, he also come up with three tenets that hold true to this day.
-Grid_sketch
-Fluid Grid
-A flexible, fluid grid that isn't fixed and is easily adaptable to any screen size.
+Il y a de nombreux avantages au design adaptatif. Voici quelques-uns d'entre eux:
 
-Flexible_images_sketch
-Flexible Media
-Media that isn't fixed-width pixels and can be proportionally resized by the browser.
+* Préparé pour l'avenir
+* La conception de sites responsive vous permet d'être prêt pour les périphériques qui n'existent pas encore, parce que vous avez déjà assuré que votre produit sera adapté à toutes les résolutions.
 
-Media_queries_sketch
-Media Queries
-Allows us to select specific styles based on certain device characteristics and classes.
+Les trois principes du design adaptatif :
 
-Getting Fluid with the Grid
+Quand Ethan Marcotte a inventé le terme Responsive Design, il a aussi introduit trois principes clef qui fonctionnent jusqu'à ce jour.
 
-It's the foundation for your responsive designs.
-The term grid brings to mind rigidity, an inflexible and stagnant system that doesn't bend or move. However, grid systems have a variety of helpful benefits.
+Une grille fluide
+Une grille fluide, souple, qui n'est pas fixe. Elle doit être facilement adaptable à n'importe quelle taille de l'écran.
 
-Yet, when it comes to responsive design, we aren't talking about an old school 960px-locked grid. What we need is a fluid grid, one that is flexible and based upon percentages rather than pixels. Columns determine the width of where content is placed, whereas the content will determine the height. This type of grid can scale up or down, depending on the screen size of the device it's being displayed on.
+Médias flexible
+Des médias qui ne sont pas fixés par une largeur en pixels. Ils peuvent être redimensionnées proportionnellement par le navigateur.
 
-As Ethan Marcotte has put it , a flexible foundation is crucial for responsive design to be effective.
+`Media Queries`
+Nous permet de sélectionner des styles spécifiques en fonction de certaines caractéristiques et classes périphériques.
+
+Devenez fluide avec votre grille
+
+C'est la base pour vos créations adaptatives.
+Le concept de grille apporte à l'esprit la rigidité, un système rigide et stable qui ne permet pas certaines mises en page de folie. Cependant, les systèmes de grille possèdent de nombreux d'avantages utiles.
+
+Pourtant, quand il s'agit de conception adaptative, nous ne parlons pas d'une vieille grille de 960px datant du siècle dernier. Nous avons besoin d'une grille fluide, qui est flexible et basé sur des pourcentages plutôt que des pixels. Les colonnes déterminent la largeur de la boite où le contenu est placé, alors que le contenu va déterminer la hauteur. Ce type de grille peut évoluer vers le haut ou vers le bas, en fonction de la taille de l'écran de l'appareil, où il est affiché.
+
+Comme Ethan Marcotte l'a écrit, des fondations flexibles sont essentielles pour que votre design responsive soit efficace.
 
 Building_zurbian
 Benefits of Building With The Grid

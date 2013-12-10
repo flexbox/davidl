@@ -3,7 +3,7 @@ $pie-color: $cyan;
 
 // number of items in your list
 $items-in-list: 6;
-$items-font-size: em-calc(22);
+$items-font-size: rem-calc(22);
 
 //Adjusts the Hue
 // @function -modify-color($color, $counter, $depth: $items-in-list) {
@@ -26,8 +26,8 @@ $i: 0;
 
 ul[data-pie-id] {
   list-style: none;
-  padding: em-calc(10);
-  margin-top: em-calc(60);
+  padding: rem-calc(10);
+  margin-top: rem-calc(60);
   li {
     cursor: pointer;
     font-size: $items-font-size;

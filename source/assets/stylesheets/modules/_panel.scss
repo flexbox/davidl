@@ -14,7 +14,7 @@ $m-panel-bg-hover: rgba($white, 0.9);
 
   &.l-callout {
     border: 3px dashed $black-lighter;
-    margin: em-calc(40) 0 em-calc(60);
+    margin: rem-calc(60) 0 rem-calc(80);
     a {
       color: $magenta;
       &:hover {
@@ -32,7 +32,7 @@ $m-panel-bg-hover: rgba($white, 0.9);
       position: absolute;
       right: 20%;
       top: -100%;
-      font-size: em-calc(60);
+      font-size: rem-calc(60);
       color: $red-steroid;
       &.fa-google-plus { color: $sc-google-plus; }
       &.fa-twitter { color: $sc-twitter; }
@@ -50,6 +50,6 @@ $m-panel-bg-hover: rgba($white, 0.9);
 }
 
 .m-section {
-  margin: em-calc(60) 0 em-calc(80);
-  padding: em-calc(40) 0;
+  margin: rem-calc(60) 0 rem-calc(80);
+  padding: rem-calc(40) 0;
 }

@@ -1,12 +1,13 @@
 $masterhead-border: 5px solid $black;
 
 .m-masterhead {
-  font-size: em-calc(70);
-  line-height: em-calc(77);
+  font-size: rem-calc(70);
+  line-height: rem-calc(77);
   text-align: center;
   font-weight: $font-weight-bolder;
-  padding: em-calc(40);
-  margin: em-calc(20) 0 em-calc(30);
+  padding: rem-calc(40) rem-calc(60);
+  margin-top: rem-calc(80);
+  margin-bottom: rem-calc(120);
   border-top: $masterhead-border;
   border-bottom: 5px solid $black;
   position: relative;
@@ -14,7 +15,7 @@ $masterhead-border: 5px solid $black;
   &:after {
     position: absolute;
     top: 50%;
-    margin-top: em-calc(-40);
+    margin-top: rem-calc(-40);
   }
   &:before {
     content: "\223C";
@@ -28,7 +29,7 @@ $masterhead-border: 5px solid $black;
 
 h2 {
   font-family: "Droid Serif";
-  font-size: em-calc(30);
+  font-size: rem-calc(30);
   font-weight: $font-weight-normal;
   font-style: italic;
   color: $black-lighter;

@@ -1,4 +1,4 @@
-$control-height: em-calc(60);
+$control-height: rem-calc(60);
 
 .m-control {
   z-index: 20;
@@ -42,6 +42,6 @@ $control-height: em-calc(60);
   }
 
   span {
-    margin: em-calc(8) 0 0 em-calc(15);
+    margin: rem-calc(8) 0 0 rem-calc(15);
   }
 }
