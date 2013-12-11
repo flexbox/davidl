@@ -1,7 +1,5 @@
 ---
-
 date: 2012-08-06 14:21:42+00:00
-
 slug: typographie-google-font
 title: 'Typographie : 6 Combo de polices web avec google font'
 page_title: De bonnes associations de typographie web

@@ -5,9 +5,6 @@ title: 4 questions à se poser pendant la création de wireframe
 page_title: Comment commencer un projet web ?
 ---
 
-
-
-
 Pour créer un site web certains webdesigners démarrent directement Photoshop pour jouer avec les pixels.
 Je fait parti de ceux qui prennent un chemin diamétralement opposé : j’éteins mon PC et je prends un papier et du crayon.
 

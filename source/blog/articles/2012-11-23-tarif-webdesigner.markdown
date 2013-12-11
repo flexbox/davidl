@@ -1,7 +1,5 @@
 ---
-
 date: 2012-11-23 16:30:27+00:00
-
 slug: tarif-webdesigner
 title: Quel est le tarif horaire d'un webdesigner ?
 page_title: Fixer son tarif en freelance

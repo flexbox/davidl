@@ -1,6 +1,7 @@
 ---
-title: Coder du css de qualité
-date: 2013-06-14
+date: 2013-06-14 11:55:46+00:00
+slug: css-evolutif
+title: Coder du css évolutif
 page_title: Votre CSS est malade
 ---
 

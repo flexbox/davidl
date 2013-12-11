@@ -1,7 +1,5 @@
 ---
-
 date: 2012-11-21 13:09:31+00:00
-
 slug: banniere-application-mobile
 title: Smartappbanner ? Demandez l'installation de votre application mobile
 page_title: Proposer le téléchargement d'application iOS
