@@ -1,27 +1,16 @@
 ---
-
 date: 2012-08-27 12:15:55+00:00
-
 slug: twitter-a-change-votre-vie-essayez-lift
 title: Twitter a changé votre vie ? essayez Lift
-wordpress_id: 798
-categories:
-- blog
-- freelance
-tags:
-- gestion
-- iOs
-- lift
-- twitter
+page_title: Libérez votre potentiel
 ---
 
-[caption id="attachment_801" align="aligncenter" width="231"]![Lift](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/lift_superGuerrier-231x300.png) Lift[/caption]
+Les 2 fondateurs de twitter, Evan Williams et Biz Stone travaillent depuis plus d'un an sur leur nouveau projet batisé Lift. L'objectif de Lift est simple : aider les personnes à "libérer leur potentiel".
 
+![Lift](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/lift_superGuerrier-231x300.png)
 
 ## Le projet
 
-
-Les 2 fondateurs de twitter, Evan Williams et Biz Stone travaillent depuis plus d'un an sur leur nouveau projet batisé Lift. L'objectif de Lift est simple : aider les personnes à "libérer leur potentiel".
 Nous possédons tous les talents cachés, possédons tous la possibilité de réaliser des créations hors-du-commun. Beaucoup d'entre nous n'exploitent pas leur potentiel. La sacro sainte "puissance de la flemme" est partout et dès qu'une mauvaise habitude est prise, difficile d'en sortir.
 Mais cela va changer !
 
@@ -31,20 +20,10 @@ Mais cela va changer !
 
 Voici les idées principales de l'application :
 
-
-
-
-  1. Identifier les bonnes habitudes que vous voulez dans votre vie
-
-
-  2. Suivre les jours où vous les exécuter
-
-
-  3. Renseignez-vous sur vos progrès au fil du temps
-
-
-  4. Bénéficier du soutien de vos amis
-
+1. Identifier les bonnes habitudes que vous voulez dans votre vie
+2. Suivre les jours où vous les exécuter
+3. Renseignez-vous sur vos progrès au fil du temps
+4. Bénéficier du soutien de vos amis
 
 L'application en bétâ fermée est disponible pour les iDevices. J'ai eu la chance d'avoir une invitation. (Si vous voulez une invitation laissez moi un commentaire).
 
@@ -55,7 +34,7 @@ L'application en bétâ fermée est disponible pour les iDevices. J'ai eu la cha
 Vous avez le choix dans les objectifs que vous souhaiter vous fixer.
 vous pouvez choisir des objectifs déjà existants et participer ainsi à la puissance du renforcement social : Si vous avez les mêmes objectifs que vos amis cela crée une synergie de challenge, scorring ... "Plus on est de fou, plus on rit :)"
 
-[caption id="attachment_805" align="aligncenter" width="200"]![Objectif accompli !](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/photo-3-200x300.png) Objectif accompli ![/caption]
+![Objectif accompli !](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/photo-3-200x300.png)
 
 
 ## La gestion des données
@@ -64,7 +43,7 @@ vous pouvez choisir des objectifs déjà existants et participer ainsi à la pui
 Le principal inconvénient avec les outils de tracking est l'indigestion de données.
 Google analytics est un bon exemple. C'est un outil tellement complet qu'il faut plusieurs années afin de savoir le maîtriser. Chez Lift le credo c'est "Less is more" : une page avec un calendrier présente vos objectifs accomplis jours après jour.
 
-[caption id="attachment_802" align="aligncenter" width="300"]![Suivi des progrès avec Lift](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/lift_calendar-300x247.png) Suivi des progrès avec Lift[/caption]
+![Suivi des progrès avec Lift](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/lift_calendar-300x247.png)
 
 Tous les profils sont publics, [vous pouvez voir mes progrès sur Lift](http://lift.do/users/86bea1e4701662166281).
 
@@ -80,9 +59,10 @@ Les fondateurs de twitter l'on bien compris les recommandations sociales sont un
 ## Conclusion
 
 
-[caption id="attachment_808" align="aligncenter" width="300"]![Lift - Unlock your potential](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/photo-31-300x263.png) Lift - Unlock your potential[/caption]
+![Lift - Unlock your potential](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/photo-31-300x263.png)
 
-Si vous souhaitez tester ce service simplement pour voir la qualité de l'application, je vous recommande chaudement. L'application est simple, rapide et intuitive.
-Lift va-t-il permettre de sauver l'humanité ? "libérer le potentiel humain par le renforcement positif" une bonne baseline en tout cas.
+Si vous souhaitez tester ce service simplement pour voir la qualité de l'application, je vous recommande chaudement.
+L'application est simple, rapide et intuitive.
 
 
+Lift va-t-il permettre de sauver l'humanité ? "Libérer le potentiel humain par le renforcement positif" une bonne baseline en tout cas.

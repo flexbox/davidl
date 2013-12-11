@@ -5,20 +5,19 @@ title: 'Icone pour vos applications web mobiles'
 page_title: Intégrer une favicon avec une webapp
 ---
 
-[![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/5382639043_b671f6f3da.jpg)](http://www.flickr.com/photos/yishiang/5382639043/)
-
 Sur les nouveaux appareils mobiles qui envahissent le marché on peux facilement créer un raccourci pour avoir son site web favori directement sur l'écran d'accueil.
 
-Pour ne pas avoir de mauvaises supprises, pensez dès maintenant à créer votre favicon en version HD.
+[![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/5382639043_b671f6f3da.jpg)](http://www.flickr.com/photos/yishiang/5382639043/)
 
-## Placez vos icones à la racine de votre site web
+Pour ne pas avoir de mauvaises surprises, pensez dès maintenant à créer votre favicon en version HD.
+
+## Placez vos icônes à la racine de votre site web
 
 - Internet Explorer recherche une `favicon.ico` au root de votre site internet.
   Même si il n'y a pas de délaration dans votre html.
 - Les appareils iOS recherchent des fichiers comme `apple-touch-icon-144x144.png` au root de votre site internet, expliqué dans la [documentation apple](https://developer.apple.com/library/ios/DOCUMENTATION/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html).
-- Internet Explorer 11 cherhce le fichier `browserconfig.xml` à la racine de votre site.
 
-Vous n'êtes toujours pas convaincu ?
+Vous pouvez aussi spécifier un chemin spécifique, mais cela vous oblige à déclarer plus de balises dans votre `<head>`
 
 ## Code HTML
 
