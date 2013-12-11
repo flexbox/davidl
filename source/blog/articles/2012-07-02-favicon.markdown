@@ -1,0 +1,46 @@
+---
+date: 2012-07-02 16:34:00+00:00
+slug: favicon
+title: 'Icone pour vos applications web mobiles'
+page_title: Intégrer une favicon avec une webapp
+---
+
+[![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/5382639043_b671f6f3da.jpg)](http://www.flickr.com/photos/yishiang/5382639043/)
+
+Sur les nouveaux appareils mobiles qui envahissent le marché on peux facilement créer un raccourci pour avoir son site web favori directement sur l'écran d'accueil.
+
+Pour ne pas avoir de mauvaises supprises, pensez dès maintenant à créer votre favicon en version HD.
+
+## Placez vos icones à la racine de votre site web
+
+- Internet Explorer recherche une `favicon.ico` au root de votre site internet.
+  Même si il n'y a pas de délaration dans votre html.
+- Les appareils iOS recherchent des fichiers comme `apple-touch-icon-144x144.png` au root de votre site internet, expliqué dans la [documentation apple](https://developer.apple.com/library/ios/DOCUMENTATION/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html).
+- Internet Explorer 11 cherhce le fichier `browserconfig.xml` à la racine de votre site.
+
+Vous n'êtes toujours pas convaincu ?
+
+## Code HTML
+
+Si vous avez placé correctement vos fichiers favicon, pas besoin de les déclarer.
+
+    <!-- iOS device -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+
+    <!-- Other mobile device -->
+    <link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+
+    <!-- Windows device -->
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />

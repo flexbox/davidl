@@ -8,12 +8,6 @@ per_page: 10
 
 .row
   .medium-8.columns
-    - if paginate && num_pages > 1
-      p
-        | Page #{page_number} of #{num_pages}
-      - if prev_page
-        p= link_to 'Previous page', prev_page
-
     h2 Liste des articles
     - page_articles.each_with_index do |article, i|
       = link_to article, class: 'm-post-list--link' do
@@ -27,9 +21,19 @@ per_page: 10
               span.l-year=article.date.strftime('%Y')
             h3.l-title= article.title
 
-    - if paginate
-      - if next_page
-        p= link_to 'Next page', next_page
+    div class="pagination-centered"
+      ul class="pagination"
+        - if paginate && num_pages > 1
+          - if prev_page
+            li
+              = link_to '&#9668;', prev_page, rel: 'prev', class: 'arrow'
+          - if num_pages > 1
+            li class="current"
+              = link_to '#' do
+                | page #{page_number} sur #{num_pages}
+          - if next_page
+            li
+              = link_to '&#9658;', next_page, rel: 'next', class: 'arrow'
 
   aside.medium-4.columns
     h2 Articles récents

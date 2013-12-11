@@ -5,7 +5,7 @@ title: Changer le répertoire par défaut de git sous windows 7
 page_title: git et windows
 ---
 
-Si vous utilisez un outil de versioning comme git, <del>vous avez du courage</del>, je vais vous montrer comment gagner du temps en évitant de parcourir vos répertoires à la main.
+Si vous utilisez un outil de versioning comme git avec windows, <del>vous avez du courage</del>, je vais vous montrer comment gagner du temps en évitant de parcourir vos répertoires à la main.
 
     c:
     cd web

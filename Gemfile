@@ -3,8 +3,8 @@ source 'http://rubygems.org'
 # WAT gem for ubuntu
 gem 'therubyracer'
 
-gem 'middleman',      '~> 3.2.0'
-gem 'middleman-blog', '~> 3.4.1'
+gem 'middleman'
+gem 'middleman-blog'
 gem 'middleman-gh-pages'
 gem 'middleman-livereload'
 gem 'middleman-favicon-maker'
