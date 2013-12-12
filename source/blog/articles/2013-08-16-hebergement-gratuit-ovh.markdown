@@ -1,14 +1,8 @@
 ---
-
 date: 2013-08-16 12:05:05+00:00
-
-slug: heberger-gratuitement-votre-site-web-sur-github-avec-un-nom-de-domaine-chez-ovh
-title: Héberger gratuitement votre site web sur github avec un nom de domaine chez
-  OVH
-wordpress_id: 1192
-categories:
-- blog
-- codage
+slug: hebergement-gratuit-ovh
+title: Héberger gratuitement votre site web sur github avec un nom de domaine chez OVH
+page_title: Hébergement gratuit chez GitHub
 ---
 
 Récemment le bigboss de chez OVH à fait une déclaration : il a [interdit github](http://www.ovh.com/fr/a1136.interview-github-octave-klaba-ovh) au seing de son entreprise.
@@ -23,11 +17,11 @@ Je vais vous expliquer dans cet article comment réaliser cette manipulation.
 ## Connectez vous à votre interface
 
 
-[caption id="attachment_1194" align="aligncenter" width="300"]![Le manager OVH](http://davidleuliette.com/wordPress/wp-content/uploads/2013/08/ovh-300x241.png) Le manager OVH[/caption]
+![Le manager OVH](http://davidleuliette.com/wordPress/wp-content/uploads/2013/08/ovh.png)
 
 Si vous avez choisi d'acheter votre nom de domaine sans hébergement vous pouver changer l'URL de destination pour la faire pointer vers les serveurs de github.
 
-[caption id="attachment_1193" align="aligncenter" width="300"]![Modifier votre DNS](http://davidleuliette.com/wordPress/wp-content/uploads/2013/08/DNS-github-300x117.png) Modifier votre DNS[/caption]
+![Modifier votre DNS](http://davidleuliette.com/wordPress/wp-content/uploads/2013/08/DNS-github.png)
 
 Pour un domaine comme exemple.fr vous devez utiliser un enregistrement de type A et le faire pointer sur `204.232.175.78`
 
@@ -35,17 +29,13 @@ Pour un domaine comme exemple.fr vous devez utiliser un enregistrement de type A
 ## Créer un fichier CNAME
 
 
-Si vous effectuez ces modifications vous devriez avoir une belle erreur 404. Pour afficher votre nouveau site il suffit de suivre ces 2 étapes :
+Si vous effectuez ces modifications vous devriez avoir une belle erreur 404.
 
-[caption id="attachment_1195" align="aligncenter" width="300"]![La branche gh-pages est importante](http://davidleuliette.com/wordPress/wp-content/uploads/2013/08/gh-pages-300x95.png) La branche gh-pages est importante[/caption]
+Pour afficher votre nouveau site il suffit de suivre ces 2 étapes :
 
+![La branche gh-pages est importante](http://davidleuliette.com/wordPress/wp-content/uploads/2013/08/gh-pages.png)
 
-
-
-  1. Créer une branche 'gh-pages' et commitez vos modifications sur cette branche.
-
-
-  2. Créer un fichier `CNAME` avec l'adresse de votre site (ici c'est pokemonbreakpoint)
-
+1. Créer une branche 'gh-pages' et commitez vos modifications sur cette branche.
+2. Créer un fichier `CNAME` avec l'adresse de votre site (ici c'est pokemonbreakpoint)
 
 Il ne vous reste plus qu'a attendre une dizaine de minutes de propagation et vous voici avec votre nouveau site gratuit en hébergement.

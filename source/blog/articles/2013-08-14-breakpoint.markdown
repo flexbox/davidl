@@ -1,8 +1,8 @@
 ---
 date: 2013-08-14 16:30:38+00:00
 slug: breakpoint
-title: Utiliser des breakpoint en javascript
-page_title:
+title: Utiliser des breakpoint en CSS pour votre site responsive
+page_title: Ne fixez pas vos breakpoint en javascript
 ---
 
 Nous avons un problème dans la conception adaptative : Les breakpoint sont fixés en CSS et nous devons exécuter certaines actions en javascript.
@@ -10,7 +10,7 @@ pokemonbreakpoint est une façon amusante de faire le lien entre les 2 mondes.
 
 ## Une règle pour les attraper tous
 
-Votre naming est crucial pour votre application.
+Avoir une convention de nommage est crucial pour votre application.
 
 Il faut définir vos variables dans un fichier. J'utilise sass qui me permets d'utiliser des variables et généralement je nomme ce fichier `_settings.scss`.
 
@@ -29,10 +29,10 @@ Dans votre fichier `_breakpoint.scss` remplacez `#media-query--name:after` par v
     }
 
 
-## Comment ça marche ?
+## Comment ça fonctionne ?
 
   1. Ouvrez [pokemonbreakpoint](http://pokemonbreakpoint.fr) dans un nouvel onglet
-  2. Identifier l'élément animé avec des flames `#media-query--name`.
+  2. Identifiez l'élément animé avec des flames `#media-query--name`.
   3. Maintenant on passe au javascript
 
 En cliquant sur le lien vous lancez la fonction `pokeball()` ...
