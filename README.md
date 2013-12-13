@@ -3,7 +3,7 @@ davidl
 
 Online portfolio &amp; personnal blog
 
-Handcrafted with [Middleman](http://middlemanapp.com) & slimmer template.
+Handcrafted with [Middleman](http://middlemanapp.com) & [slimmer](https://github.com/polymatt/slimmer) template.
 
 ###### Preprocessing
 - [Slim](http://slim-lang.com) *[for html]*
