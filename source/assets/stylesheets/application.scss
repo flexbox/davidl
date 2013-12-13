@@ -5,6 +5,10 @@
   "retina-sprites",
   "pictos";
 
+// Icones
+@import
+  "icones";
+
 @import
   "foundation/scss/normalize",
   "colors",
@@ -28,9 +32,9 @@
 
 @import
   "global",
+  "modules/type",
   "modules/control",
   "modules/panel",
-  "modules/type",
   "modules/dropcap",
   "modules/footer",
   "modules/pizza",

@@ -8,6 +8,7 @@ gem 'middleman-blog'
 gem 'middleman-gh-pages'
 gem 'middleman-livereload'
 gem 'middleman-favicon-maker'
+gem 'middleman-minify-html'
 
 gem 'nokogiri'
 gem 'slim'

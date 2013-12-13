@@ -49,6 +49,18 @@ $m-panel-bg-hover: rgba($white, 0.9);
 
 }
 
+.m-blog-panel {
+  @include panel($black-light);
+  @include single-transition();
+
+  border-top: $masterhead-border;
+  border-bottom: $masterhead-border;
+
+  &:hover {
+    background-color: $black;
+  }
+}
+
 .m-section {
   margin: rem-calc(60) 0 rem-calc(80);
   padding: rem-calc(40) 0;

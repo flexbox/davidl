@@ -5,11 +5,10 @@
 #= require "jquery.smoothscroll"
 #= require "jquery.stickynav"
 
-#= require "foundation"
-#= require "foundation.magellan"
+#= require "foundation/js/foundation/foundation"
+#= require "foundation/js/foundation/foundation.magellan"
+#= require "foundation_init"
 
 #= require "snapsvg"
 #= require "pizza"
 #= require "about"
-
-

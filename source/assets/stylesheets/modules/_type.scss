@@ -1,29 +1,33 @@
 $masterhead-border: 5px solid $black;
 
 .m-masterhead {
-  font-size: rem-calc(70);
+  font-size: rem-calc(40);
   line-height: rem-calc(77);
   text-align: center;
   font-weight: $font-weight-bolder;
-  padding: rem-calc(40) rem-calc(60);
   margin-top: rem-calc(80);
   margin-bottom: rem-calc(120);
   border-top: $masterhead-border;
   border-bottom: 5px solid $black;
   position: relative;
-  &:before,
-  &:after {
-    position: absolute;
-    top: 50%;
-    margin-top: rem-calc(-40);
-  }
-  &:before {
-    content: "\223C";
-    left: 0em;
-  }
-  &:after {
-    content: "\223D";
-    right: 0em;
+  @media #{$small} {
+
+    font-size: rem-calc(70);
+    padding: rem-calc(40) rem-calc(60);
+    &:before,
+    &:after {
+      position: absolute;
+      top: 50%;
+      margin-top: rem-calc(-40);
+    }
+    &:before {
+      content: "\223C";
+      left: 0em;
+    }
+    &:after {
+      content: "\223D";
+      right: 0em;
+    }
   }
 }
 
