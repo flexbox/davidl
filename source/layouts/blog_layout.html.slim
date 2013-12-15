@@ -1,7 +1,22 @@
 = wrap_layout :layout do
 
   article.row
-    .medium-10.medium-centered.columns.blog-article
+    .medium-8.medium-centered.columns.blog-article
       = yield
-      .m-blog-panel
-        h5 WAT
+      .row
+        .medium-8.medium-centered.columns
+          .m-blog-panel itemscope="" itemtype="http://schema.org/Person"
+            .row
+              .small-4.columns
+                = image_tag 'front/photo2.jpg', itemprop: 'image'
+              .small-8.columns
+                p
+                  'Publié par
+                  span itemprop="name" David Leuliette
+                p
+                  .fa.fa-twitter
+                  =' link_to data.settings.social.twitter.name, data.settings.social.twitter.url
+                  'sur twitter
+                p
+                  .fa.icon-rss
+                  = link_to "S'incrire au flux RSS", data.settings.social.rss.url

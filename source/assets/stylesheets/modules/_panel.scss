@@ -55,6 +55,16 @@ $m-panel-bg-hover: rgba($white, 0.9);
 
   border-top: $masterhead-border;
   border-bottom: $masterhead-border;
+  color: $white;
+
+  .fa {
+    font-size: rem-calc(20);
+    margin-right: rem-calc(10);
+  }
+
+   a {
+    border-bottom: 0;
+   }
 
   &:hover {
     background-color: $black;

@@ -11,5 +11,7 @@ social:
     name: '@_flexbox'
   github: 'https://github.com/flexbox'
   flattr: Flexbox
+  rss:
+    url: /feed.xml
 google_analytics:
   tracking_code: 'UA-XXXXXXXX-1'

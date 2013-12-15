@@ -16,7 +16,7 @@ page_title: Une page pour gagner du prestige
     p J'ai découvert Internet en 1998 à l'époque du 56k, de Caramail et de Lycos. Je n'ai rien râté depuis, grâce à un système de veille efficace, ma persévérance et ma passion.
     p
       strong
-        'Je suis développeur, designer et architecte front-end, je vis à Valenciennes dans le nord de la France.
+        'Je suis designer, développeur et architecte front-end. Je vis à Valenciennes dans le nord de la France.
       'Ma passion ? coder des
       =' link_to 'features', 'http://git-scm.com/about'
       'pour rendre le monde meilleur à travers un web plus libre, plus accessible et à l'épreuve du temps.
@@ -28,7 +28,24 @@ page_title: Une page pour gagner du prestige
 
 section.m-section
   .row
-    .medium-12.columns
+    .medium-6.columns
+      h2 Mes compagnons
+      h3
+        .fa.icon-command-promt-1
+        'Terminal
+      p Je déploie mes applications web grâce à git.
+      h3
+        .fa.icon-html
+        'HTML5
+      p
+        'Les standards du Web sont importants, et j'y adhère. Plus précisément, je valide que mon marquage respecte HTML5.
+      h3
+        .fa.icon-3-css
+        'CSS3
+      p
+        'Si vous recontrez un problème de mise en page dans votre navigateur, vous utillisez probablement un navigateur de merde qui ne supporte pas les standards du web.
+
+    .medium-6.columns
       h2 Projets
       ul.inline-list
         - data.projects.each_with_index do |project|
