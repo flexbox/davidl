@@ -15,65 +15,94 @@ page_title: Comment concevoir un design adaptatif ?
           = link_to 'Images flexibles', '#images'
         dd data-magellan-arrival="mediaqueries"
           = link_to 'Media Queries', '#mediaqueries'
-        dd data-magellan-arrival="enhencement"
-          = link_to 'Améliorations', '#enhencement'
+        dd data-magellan-arrival="enhancement"
+          = link_to 'Améliorations', '#enhancement'
         dd data-magellan-arrival="future"
           = link_to 'Retour vers le furtur', '#future'
 
   .medium-10.small-12.columns
+    p
+      'Ce n'est un secret pour personne, la navigation mobile sur internet fera mordre la poussière au traffic de bureau classique -plus tôt que vous le pensez. Aux États-Unis, il représente déjà 20% du web global. En Asie et en Afrique, plus de la moitié de tout le traffic  provient du mobile. En plus de cela, il y a <del>des milliers et des milliers</del>
+      ='link_to 'des millards', 'http://techcrunch.com/2012/10/16/mobile-milestone-the-number-of-smartphones-in-use-passed-1-billion-in-q3-says-strategy-analytics/'
+      'd'appareils qui peuvent être utilisés pour accéder au web. Concevoir des sites adaptatifs qui fonctionnent correctement dans ce nouvel écosystème est un vrai nouveau défi. La question à se poser est de savoir comment nous pouvons relever ce défi.
+    .row
+      .medium-6.columns
+        p
+          'Le design adaptatif (aka responsive webdesign), défini par
+          = link_to 'Ethan Marcotte', 'http://www.alistapart.com/articles/responsive-web-design/'
+          ', explique comment construire un site fluide, qui peut se rétrécir ou s'agrandir, pour s'adapter à toute taille d'écran sur <strong>n'importe quel appareil</strong>.
+        p
+          'Avec une grille fluide, des images flexibles et des
+          code media queries
+          ', nous n'avons pas à concevoir, un site mobile dédié séparé. Nous avons seulement à en construire un, ce qui est un gain de temps. Nous pouvons prototyper rapidement et se déplacer rapidement dans le code de production.
+        p
+          'La conception adaptative nous permet de construire une solution évolutive, peu importe la taille, plutôt qu'un dispositif spécifique.
+      .medium-6.columns
+        = image_tag 'front/web-mobile-vs-desktop.png', alt: 'Accéder au web mobile'
+
+    hr
+    .row
+      .medium-4.columns
+        h2
+          'Les avantages d'une conception adaptative
+          br
+          small Il y a de nombreux avantages au design adaptatif. Voici quelques-uns d'entre eux :
+
+      .medium-7.columns
+        h3
+          'Prototypes et itérations rapides
+          .fa.icon-loop-spin-turn-1
+        p
+          'En choississant un
+          =link_to 'framework', 'http://foundation.zurb.com/'
+          ', vous pouvez rapidement prototyper et itérer sur vos créations, réduisant de manière significative le développement de votre produit. Vous pouvez coder vos wireframes pour tester le comportement de vos créations sur un ordinateur de bureau, un téléphone ou une tablette.
+        hr
+        h3
+          'Travailler avec de vrais appareils
+          .fa.icon-gameboy
+        p
+          'Un <strong>framework responsive</strong> permet à votre design de se condenser sur les appareils plus petits et de s'étendre sur les plus grands. En travaillant avec
+          =link_to 'un paradigme adaptatif', 'http://fr.wikipedia.org/wiki/Paradigme#En_informatique'
+          ', vous n'avez pas à vous soucier du fonctionnement de vos créations sur tous les appareils.
+        hr
+        h3
+          'Préparé pour l'avenir
+          .fa.icon-clock
+        p
+          'La conception de sites responsive vous permet d'être prêt pour les périphériques <strong>qui n'existent pas encore</strong>, parce que vous avez déjà assuré que votre produit sera adapté à toutes les résolutions.
+    hr
+
+    h2 Les trois principes du design adaptatif
+
+    p Quand Ethan Marcotte a inventé le terme responsive design, il a aussi introduit trois principes clef qui fonctionnent jusqu'à ce jour.
+
+    .row
+      .medium-4.columns
+        h3 Une grille fluide
+        p Une grille fluide, souple, qui n'est pas fixe. Elle doit être facilement adaptable à n'importe quelle taille d'écran.
+      .medium-4.columns
+        h3 Médias flexible
+        p Des médias qui ne sont pas fixés par une largeur en pixels. Ils peuvent être redimensionnées proportionnellement par le navigateur.
+      .medium-4.columns
+        h3 Media Queries
+        p Permet de sélectionner des styles spécifiques en fonction des caractéristiques des appareils.
+
+    hr
+    h2
+      'Devenez fluide avec votre grille
+      small C'est la base pour vos créations adaptatives.
 
     p
-      'Ce n'est un secret pour personne, la navigation mobile sur internet fera mordre la poussière au traffic de bureau classique -plus tôt que vous le pensez. Aux États-Unis, il représente déjà 20% du web global. En Asie et en Afrique, plus de la moitié de tout le traffic  provient du mobile. En plus de cela, il y a des milliers et des milliers d'appareils qui peuvent être utilisés pour accéder au web. Concevoir des sites adaptatifs qui fonctionnent correctement dans ce nouvel écosystème est un vrai nouveau défi. La question à se poser est de savoir comment nous pouvons relever ce défi.
-    p
-      'Le design adaptatif (aka responsive webdesign), défini par
-      = link_to 'Ethan Marcotte', 'http://www.alistapart.com/articles/responsive-web-design/'
-      ', explique comment construire un site fluide, qui peut se rétrécir ou s'agrandir, pour s'adapter à toute taille d'écran sur n'importe quel appareil.
-    p
-      'Avec une grille fluide, des images flexibles et des
-      code media queries
-      ', nous n'avons pas à concevoir, un site mobile dédié séparé. Nous avons seulement à en construire un, ce qui est un gain de temps. Nous pouvons prototyper rapidement et se déplacer rapidement dans le code de production.
-    p
-      'La conception adaptative nous permet de construire une solution évolutive, peu importe la taille, plutôt qu'un dispositif spécifique.
-
-
-    p
-      'Four-corners
-      'The Perks of Designing Responsively
-
-
-
-    p
-      'Il y a de nombreux avantages au design adaptatif. Voici quelques-uns d'entre eux :
-    ul
-      li Préparé pour l'avenir
-      li La conception de sites responsive vous permet d'être prêt pour les périphériques qui n'existent pas encore, parce que vous avez déjà assuré que votre produit sera adapté à toutes les résolutions.
-
-    h2 Les trois principes du design adaptatif :
-
-    p Quand Ethan Marcotte a inventé le terme Responsive Design, il a aussi introduit trois principes clef qui fonctionnent jusqu'à ce jour.
-
-    h3 Une grille fluide
-    p Une grille fluide, souple, qui n'est pas fixe. Elle doit être facilement adaptable à n'importe quelle taille de l'écran.
-
-    h3 Médias flexible
-    p Des médias qui ne sont pas fixés par une largeur en pixels. Ils peuvent être redimensionnées proportionnellement par le navigateur.
-
-    h3 Media Queries
-    Nous permet de sélectionner des styles spécifiques en fonction de certaines caractéristiques et classes périphériques.
-
-    p Devenez fluide avec votre grille
-
-    p
-      'C'est la base pour vos créations adaptatives.
+      '
       'Le concept de grille apporte à l'esprit la rigidité, un système rigide et stable qui ne permet pas certaines mises en page de folie. Cependant, les systèmes de grille possèdent de nombreux d'avantages utiles.
 
     p
-      'Pourtant, quand il s'agit de conception adaptative, nous ne parlons pas d'une vieille grille de 960px datant du siècle dernier. Nous avons besoin d'une grille fluide, qui est flexible et basé sur des pourcentages plutôt que des pixels. Les colonnes déterminent la largeur de la boite où le contenu est placé, alors que le contenu va déterminer la hauteur. Ce type de grille peut évoluer vers le haut ou vers le bas, en fonction de la taille de l'écran de l'appareil, où il est affiché.
+      'Pourtant, quand il s'agit de conception adaptative, nous ne parlons pas d'une vieille grille de 960px datant du siècle dernier. Nous avons besoin d'une grille fluide, qui est flexible et <strong>basé sur des pourcentages</strong> plutôt que des pixels. Les colonnes déterminent la largeur de la boite où le contenu est placé, alors que le contenu va déterminer la hauteur. Ce type de grille peut évoluer vers le haut ou vers le bas, en fonction de la taille de l'écran de l'appareil, où il est affiché.
 
     p
       'Comme Ethan Marcotte l'a écrit, des fondations flexibles sont essentielles pour que votre design responsive soit efficace.
 
-    p Building_zurbian
+    hr
 
     h2 Les bénéfices de la conception avec une grille
 
