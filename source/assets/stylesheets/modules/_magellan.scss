@@ -1,0 +1,19 @@
+$magellan-bg: transparent;
+$magellan-padding: 10px !default;
+
+[data-magellan-expedition] {
+  background: $magellan-bg;
+  .sub-nav {
+    dd {
+      a {
+        @include post-list($m-post-link-border-color,$m-post-link-border-color-hover);
+      }
+    }
+    .active {
+      line-height: 1.8em;
+      & > a {
+        border-color: $m-post-link-border-color-hover;
+      }
+    }
+  }
+}

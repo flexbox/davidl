@@ -5,16 +5,6 @@ $text-shadow: rgba($black,0.8) 0px 2px 0px;
 
 $transition-duration: 0.5s;
 
-
-
-$magellan-bg: transparent;
-
-[data-magellan-expedition] {
-  background: $magellan-bg;
-}
-
-
-
 a {
   color: $anchor-font-color;
   font-weight: bold;
@@ -41,7 +31,6 @@ code {
   color: $code-color;
   word-wrap: break-word;
 }
-
 
 h3 {
   text-transform: uppercase;

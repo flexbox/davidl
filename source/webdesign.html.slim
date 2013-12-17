@@ -2,6 +2,7 @@
 title: Webdesign adaptatif
 date: 2013-12-04
 page_title: Comment concevoir un design adaptatif ?
+page_class: webdesign
 ---
 .row
   .medium-2.hide-for-small.columns
@@ -9,6 +10,8 @@ page_title: Comment concevoir un design adaptatif ?
       dl class="sub-nav"
         dd Contenu
         dd class="divider"
+        dd data-magellan-arrival="intro"
+          = link_to 'Introduction', '#intro'
         dd data-magellan-arrival="grid"
           = link_to 'La grille', '#grid'
         dd data-magellan-arrival="images"
@@ -21,7 +24,7 @@ page_title: Comment concevoir un design adaptatif ?
           = link_to 'Retour vers le furtur', '#future'
 
   .medium-10.small-12.columns
-    p
+    p.drop-cap
       'Ce n'est un secret pour personne, la navigation mobile sur internet fera mordre la poussière au traffic de bureau classique -plus tôt que vous le pensez. Aux États-Unis, il représente déjà 20% du web global. En Asie et en Afrique, plus de la moitié de tout le traffic  provient du mobile. En plus de cela, il y a <del>des milliers et des milliers</del>
       ='link_to 'des millards', 'http://techcrunch.com/2012/10/16/mobile-milestone-the-number-of-smartphones-in-use-passed-1-billion-in-q3-says-strategy-analytics/'
       'd'appareils qui peuvent être utilisés pour accéder au web. Concevoir des sites adaptatifs qui fonctionnent correctement dans ce nouvel écosystème est un vrai nouveau défi. La question à se poser est de savoir comment nous pouvons relever ce défi.
@@ -43,7 +46,7 @@ page_title: Comment concevoir un design adaptatif ?
     hr
     .row
       .medium-4.columns
-        h2
+        h2#intro data-magellan-destination="intro"
           'Les avantages d'une conception adaptative
           br
           small Il y a de nombreux avantages au design adaptatif. Voici quelques-uns d'entre eux :
@@ -88,7 +91,7 @@ page_title: Comment concevoir un design adaptatif ?
         p Permet de sélectionner des styles spécifiques en fonction des caractéristiques des appareils.
 
     hr
-    h2
+    h2#grid data-magellan-destination="grid"
       'Devenez fluide avec votre grille
       small C'est la base pour vos créations adaptatives.
 
@@ -100,7 +103,9 @@ page_title: Comment concevoir un design adaptatif ?
       'Quand il s'agit de conception adaptative, nous ne parlons pas d'une vieille grille de <code>960px</code> datant du siècle dernier. Nous avons besoin d'une grille fluide, qui est flexible et <strong>basé sur des pourcentages</strong> plutôt que des pixels. Les colonnes déterminent la largeur de la boite où le contenu est placé, alors que le contenu va déterminer la hauteur. Ce type de grille peut évoluer vers le haut ou vers le bas, en fonction de la taille de l'écran de l'appareil, où il est affiché.
 
     p
-      'Comme [Ethan Marcotte l'a écrit](http://www.abookapart.com/products/responsive-web-design), des fondations flexibles sont essentielles pour que votre design responsive soit efficace.
+      'Comme
+      =link_to "Ethan Marcotte l'a écrit", 'http://www.abookapart.com/products/responsive-web-design'
+      ',  des fondations flexibles sont essentielles pour que votre design responsive soit efficace.
 
     hr
 
@@ -141,7 +146,10 @@ page_title: Comment concevoir un design adaptatif ?
         p Avec une grille sémantique, vous pouvez associer les propriétés de la grille à des éléments dans votre balisage pour être sémantiquement correct. Cela nécessite un préprocesseur, comme <code>Sass</code> ou <code>Less</code>.
 
         h3 Nidification
-        p Une grille fluide permet la nidification -c'est à dire de s'inclure récursivement. Cela permet des mises en page plus complexes et visuellement intéressantes.
+        p
+          'Une grille fluide permet la nidification -c'est à dire de
+          =link_to "s'inclure récursivement", 'http://fr.wikipedia.org/wiki/Algorithme_r%C3%A9cursif'
+          '. Cela permet des mises en page plus complexes et visuellement intéressantes.
 
         h3 Ajustements
         p Les <code>Offsets</code> permettent d'avoir plus d'espace entre les colonnes d'une ligne. Ils sont indispensables pour assurer la cohérence en maximisant la lisibilité.
@@ -152,45 +160,69 @@ page_title: Comment concevoir un design adaptatif ?
         h2 Exemple de grille complexe
       .medium-4.columns
         .template
-          .row
+          .row.collapse
             .small-12.columns
               span
-          .row
+          .row.collapse
             .small-3.columns
               span
             .small-6.columns
               span
             .small-3.columns
               span
-          .row
+          .row.collapse
             .small-6.columns
               span
             .small-2.columns
               span
             .small-4.columns
               span
-          .row
+          .row.collapse
             .small-4.columns
               span
             .small-4.columns
               span
             .small-4.columns
               span
-          .row
+          .row.collapse
             .small-6.columns
               span
             .small-3.columns
               span
             .small-3.columns
               span
-          .row
+          .row.collapse
             .small-12.columns
               span
         p.text-center Style mosaïque
       .medium-4.columns
-
+        .template
+          .row.collapse
+            .small-12.columns
+              span
+          .row.collapse
+            .small-3.columns
+              span
+            .small-6.columns
+              span
+            .small-3.columns
+              span
+          .row.collapse
+            .small-6.small-offset-3.columns
+              span
+          .row.collapse
+            .small-6.small-offset-3.columns
+              span
+          .row.collapse
+            .small-6.small-offset-3.columns
+              span
+          .row.collapse
+            .small-12.columns
+              span
+        p.text-center Style timeline
     hr
-    h2 Une image flexible pour les grouverner tous
+    h2#images data-magellan-destination="images"
+      'Une règle pour les grouverner toutes
 
     p La taille des images n'est pas bloqué en pixels fixe.
 
@@ -204,11 +236,19 @@ page_title: Comment concevoir un design adaptatif ?
       '. Il est possible d'utiliser des classes pour cacher les images plus grandes pour les petits sur mobile. Mais <strong>les deux images seront toujours chargées</strong>, ce qui peut gâcher la performance d'une page. Je travaille quotidiennement sur ces problématiques.
 
     hr
-    h2 TV, portables, tablettes, smartphones, Gameboy ?
+    h2#mediaqueries data-magellan-destination="mediaqueries"
+      'TV, portables, tablettes, smartphones, Gameboy ?
 
-    p Adjust page elements to your preference with media queries.
-    p Adapting_sketch
-    p Mobile-first
+    p
+      'Ajustez les éléments de votre page avec les <code>media query</code>.
+
+    p Parfois, nous devons nous adapter à notre environnement ou nous devons faire que notre environnement s'adapte à nos besoins.
+
+    p
+      'C'est grâce aux <code>media query</code> qu'il est possible d'adapter les pages web. Ces règles sont spécifiques en fonction de certaines caractéristiques de l'appareil, telles que la taille de l'écran, l'orientation ou la densité de pixel. En d'autres termes, cela permet de régler les éléments de page comme vous le voulez.
+
+    hr
+    h2 Priorité au mobile
     p More importantly, designing mobile first means we're not building sites starting with the desktop view and gracefully degrading down to smaller devices. Going from the desktop to the mobile, we may find that not all of our content will neatly shrink down and fit. With mobile first, we can progressively enhance from a smaller screen to larger ones.
 
     p Ie_rip_sketchA huge boon for a mobile-first approach is that it takes account that some devices and browsers, like IE7, don't fully support media queries.
@@ -239,25 +279,39 @@ page_title: Comment concevoir un design adaptatif ?
     hr
     .row
       .medium-4.columns
-        h2
+        h2#enhancement data-magellan-destination="enhancement"
           'Les améliorations possibles
           br
           small Les techniques commencent à se standardiser pour règler les problèmes du monde multi-écran. Cela étant dit, il y a encore beaucoup de place pour l'amélioration en ce qui concerne la conception adaptative.
 
       .medium-7.columns
         h3 Navigation
-        p Traditionally, navigation has run horizontal to a page. But with responsive web design, navigation has to collapse vertically and not overpower the page. It also has to scale, so tons of links and nesting won't work either.
+        p
+          'Traditionnellement, la navigation d'une page est horizontale. Mais avec le web design adaptatif, le
+          =' link_to "contenu doit s'effondrer verticalement", '/blog/webdesign-adaptatif-5-astuces-indispensables.html#leffondrement-du-contenu'
+          'pour faciliter le scroll. Il a également la mise à l'échelle pour la typographie, si il y a des tonnes de liens la nidification ne fonctionnera pas non plus.
 
         h3 Images
-        p Images have to be able to scale for different devices and still be large enough to handle big displays. But high-pixel images even if it's hidden can muck up a page's load since it will still load. But better solutions are on the horizon.
+        p
+          'Les images devraient être en mesure de s'adapter à l'échelle des différents appareils, et être d'assez bonne qualité pour les écrans HD. Le problème est le poids de ces grosses images, même si elles sont mises en cache, cela plombe le chargement d'une page, car l'image est téléchargée. Mais
+          = link_to "les meilleures solutions sont à l'horizon", 'http://mobile.smashingmagazine.com/2013/05/10/how-to-avoid-duplicate-downloads-in-responsive-images/'
+          '.
 
         h3 Tableaux
-        p Making large data tables work in a responsive design can be a pain in the butt. They can't overflow and can break a responsive layout. That means you won't get to see all the data or be able to compare rows with a key column. Although, there are some solutions out there, like this one .
-
-
-
-    p Retour vers le futur site insternet adaptatif
-
-    p There are a few good tools out there when it comes to responsive design. Of course, we prefer Foundation (shameless plug). But no matter the tool you use or whether you create a responsive framework out of scratch, designing responsively is how we race toward the future.
-    p After all, friends don't let friends design in 960px.
+        p
+          'Travailler avec un grand nombre de données tabulaire est simplement la pire chose en design responsive.
+          br
+          'Elles ne peuvent pas déborder de la grille et peuvent casser la mise en page. Cela signifie que vous ne pourrez pas voir toutes les données ou comparer des lignes avec une colonne. Bien que, il existe des solutions,
+          =link_to 'comme celle-ci', 'http://zurb.com/playground/responsive-tables'
+          '.
+    hr
+    h2#future data-magellan-destination="future" Retour vers le futur webdesign adaptatif
+    p
+      'Il existe quelques bons outils dehors quand il s'agit de conception adaptative. Mon préféré reste
+      =link_to 'Foundation', 'http://foundation.zurb.com/docs/'
+      '. Mais peu importe l'outil que vous utilisez ou si vous souhaitez créer votre framework de zéro. La question est de savoir comment faire face à l'imprévisibilité de l'avenir.
+    p
+      'Vous aimez ma façon de penser ainsi que mon travail ? Vous êtes intéressé par la réalisation d'un projet ? N'hésitez pas à
+      =link_to 'me contacter', '/contact.html'
+      '.
 

@@ -9,3 +9,12 @@
     height: rem-calc(50);
   }
 }
+
+.webdesign {
+  [data-magellan-expedition] {
+    z-index: auto;
+  }
+  .sub-nav {
+    max-width: rem-calc(170);
+  }
+}
