@@ -1,24 +1,29 @@
 -
-  title: Google+
-  icon: fa-google-plus
-  url: 'https://plus.google.com/u/0/113401424510170217860'
-  description: Pour tout ce qui demande plus de 140 caractères.
+  title: Amazon
+  icon: fa-gift
+  url: https://www.amazon.fr/registry/wishlist/2DD1UFSWC721E/
+  description: Vous êtes fan de mes travaux ? Amazon propose un bon service pour me souhaiter un joyeux anniversaire.
 -
-  title: Twitter
-  icon: fa-twitter
-  url: 'https://twitter.com/_flexbox'
-  description: Je découvre et partage chaque jour de nouveaux liens.
+  title: Coderwall
+  icon:
+  url: https://coderwall.com/flexbox
+  description: Des astuces de codeur pour vous simplifier la vie.
+-
+  title: Flattr
+  url: https://flattr.com/profile/flexbox
+  description: Aidez moi à financer mes projets avec des micros dons.  
 -
   title: GitHub
   icon: fa-github
   url: 'https://github.com/flexbox'
   description: Je partage mon code source librement avec toute la communauté.
 -
-  title: Flattr
-  url: https://flattr.com/profile/flexbox
-  description: Aidez moi à financer mes projets avec des micros dons.
+  title: Google+
+  icon: fa-google-plus
+  url: 'https://plus.google.com/u/0/113401424510170217860'
+  description: Pour tout ce qui demande plus de 140 caractères.  
 -
-  title: Amazon
-  icon: fa-gift
-  url: https://www.amazon.fr/registry/wishlist/2DD1UFSWC721E/
-  description: Vous êtes fan de mes travaux ? Amazon propose un bon service pour me souhaiter un joyeux anniversaire.
+  title: Twitter
+  icon: fa-twitter
+  url: 'https://twitter.com/_flexbox'
+  description: Je découvre et partage chaque jour de nouveaux liens.  

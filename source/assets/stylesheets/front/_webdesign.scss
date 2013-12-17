@@ -1,0 +1,11 @@
+.template {
+  padding: rem-calc(5);
+  background-color: $white;
+
+  span {
+    margin: rem-calc(5);
+    display: block;
+    background-color: $gray;
+    height: rem-calc(50);
+  }
+}

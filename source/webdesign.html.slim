@@ -97,59 +97,114 @@ page_title: Comment concevoir un design adaptatif ?
       'Le concept de grille apporte à l'esprit la rigidité, un système rigide et stable qui ne permet pas certaines mises en page de folie. Cependant, les systèmes de grille possèdent de nombreux d'avantages utiles.
 
     p
-      'Pourtant, quand il s'agit de conception adaptative, nous ne parlons pas d'une vieille grille de 960px datant du siècle dernier. Nous avons besoin d'une grille fluide, qui est flexible et <strong>basé sur des pourcentages</strong> plutôt que des pixels. Les colonnes déterminent la largeur de la boite où le contenu est placé, alors que le contenu va déterminer la hauteur. Ce type de grille peut évoluer vers le haut ou vers le bas, en fonction de la taille de l'écran de l'appareil, où il est affiché.
+      'Quand il s'agit de conception adaptative, nous ne parlons pas d'une vieille grille de <code>960px</code> datant du siècle dernier. Nous avons besoin d'une grille fluide, qui est flexible et <strong>basé sur des pourcentages</strong> plutôt que des pixels. Les colonnes déterminent la largeur de la boite où le contenu est placé, alors que le contenu va déterminer la hauteur. Ce type de grille peut évoluer vers le haut ou vers le bas, en fonction de la taille de l'écran de l'appareil, où il est affiché.
 
     p
-      'Comme Ethan Marcotte l'a écrit, des fondations flexibles sont essentielles pour que votre design responsive soit efficace.
+      'Comme [Ethan Marcotte l'a écrit](http://www.abookapart.com/products/responsive-web-design), des fondations flexibles sont essentielles pour que votre design responsive soit efficace.
 
     hr
 
     h2 Les bénéfices de la conception avec une grille
 
-    p Build with the grid puts your design at a huge advantage :
+    .row
+      .medium-4.columns
+        h3 Uniformité
+        p Une grille assure la cohérence entre les pages Web, réduis les erreurs de codage CSS. Cela contribue également à un placement HTML fiable.
 
-    h3 Uniformity
-    p A grid ensures consistency between webpages, reducing CSS coding errors. It also helps with reliable HTML placement.
+      .medium-4.columns
+        h3 Moins de code
+        p Avec un système de grille, vous ne réinventez pas la roue, ce qui fait gagner beaucoups de temps. Un autre avantage est que la grille rend les itérations rapides et plus facile.
 
+      .medium-4.columns
+        h3 Contrôle de la structure
+        p Une grille permet d'organiser ses éléments, avec un contrôle sur la structure visuelle et sur la page.
 
-    h3 Moins de code
-    p With a grid system, you're not coding from scratch, which saves a lot of time. Another boon is that the grid makes iterating faster and easier.
+    hr
+    .row
+      .medium-4.columns
+        h2
+          'Concept de grille
+          br
+          small Voici quelques concepts à connaitre pour travailler avec une grille adaptative.
 
+      .medium-7.columns
+        h3 Box Model
+        p
+          'Un "modèle de boîte" est un composant du navigateur. Je recommandes d'utiliser <code>box-sizing</code> pour
+          =' link_to 'changer le type de modèle de boîte', 'http://www.paulirish.com/2012/box-sizing-border-box-ftw/'
+          'utilisé par le navigateur. Cela permet une conserver une certaine retro-compatibilité.
 
-    h3 Contrôle de la structure
-    p A grid not only allows us to organize elements, but also offers control over the visual and structure of the page.
+        h3 Ordre des sources
+        p L'agencement des sources permet d'avoir un affichage de site mobile différent du balisage utilisé par la grille.
 
-    p Grid Concepts
+        h3 Sémantique
+        p Avec une grille sémantique, vous pouvez associer les propriétés de la grille à des éléments dans votre balisage pour être sémantiquement correct. Cela nécessite un préprocesseur, comme <code>Sass</code> ou <code>Less</code>.
 
-    p Here are a few concepts that you should be familiar with when it comes to a responsive grid.
-    p Box Model
-    p A box model is part of a browser. We recommend using box-sizing to change the type of box model a browser uses. This allows for backwards compatibility with older browsers.
+        h3 Nidification
+        p Une grille fluide permet la nidification -c'est à dire de s'inclure récursivement. Cela permet des mises en page plus complexes et visuellement intéressantes.
 
-    p Ordre des sources
-    p Source ordering allows you to have the order of your mobile site and your markup be different from the grid on your page.
+        h3 Ajustements
+        p Les <code>Offsets</code> permettent d'avoir plus d'espace entre les colonnes d'une ligne. Ils sont indispensables pour assurer la cohérence en maximisant la lisibilité.
 
-    p Grile sémantique
-    p With a semantic grid, you can attach grid properties to elements in your markup that are semantically correct. A semantic grid requires a preprocessor, such as Sass or Less.
+    hr
+    .row
+      .medium-4.columns
+        h2 Exemple de grille complexe
+      .medium-4.columns
+        .template
+          .row
+            .small-12.columns
+              span
+          .row
+            .small-3.columns
+              span
+            .small-6.columns
+              span
+            .small-3.columns
+              span
+          .row
+            .small-6.columns
+              span
+            .small-2.columns
+              span
+            .small-4.columns
+              span
+          .row
+            .small-4.columns
+              span
+            .small-4.columns
+              span
+            .small-4.columns
+              span
+          .row
+            .small-6.columns
+              span
+            .small-3.columns
+              span
+            .small-3.columns
+              span
+          .row
+            .small-12.columns
+              span
+        p.text-center Style mosaïque
+      .medium-4.columns
 
-    p Nidification
-    p A fluid grid allows for sub-grids within the existing grid — or nesting. This allows for more complex and visually interesting layouts.
+    hr
+    h2 Une image flexible pour les grouverner tous
 
-    p Offsets
-    p Offsets allow for additional space between columns in a row. Offsets are essential to ensure consistent legibility and that coveted breathing room.
+    p La taille des images n'est pas bloqué en pixels fixe.
 
-    p Exemple de grille complèxe
+    p L'objectif est d'avoir des médias souples. Des images et des vidéos qui peuvent s'adapter en fonction de la taille d'écran. Ce type de support ne dépend pas de pixels statiques ou dimensions fixe.
 
-    p Une image flexible pour les grouverner tous
+    p Des images responsives s'adaptent au HTML pour la largeur et la hauteur d'écran, ainsi que la densité de chaque pixel de base. Pour ce faire, les images sont fixées à leur largeur max de 100% (<code>max-width: 100%;</code>) de sorte qu'elles puissent se redimensionner en fonction de la grille.
 
-    p Flexible images aren't locked in fixed pixels.
+    p
+      'Cependant, cela plus facile à dire qu'a faire. L'appel aux images est plus simple en CSS avec la mise à l'échelle de la grille. Le plus difficile est de
+      =link_to 'charger les bonnes ressources pour le bon dispositif', 'https://coderwall.com/p/uip7xg?i=1&p=1&q=author%3Aflexbox&t[]=flexbox'
+      '. Il est possible d'utiliser des classes pour cacher les images plus grandes pour les petits sur mobile. Mais <strong>les deux images seront toujours chargées</strong>, ce qui peut gâcher la performance d'une page. Je travaille quotidiennement sur ces problématiques.
 
-    p What we mean to say, of course, is flexible media, which includes images and videos, that can adapt depending on the screen size. This type of media doesn't depend on static pixels or fixed sizing.
-
-    p Flexible images are responsive in HTML to the width and height of a screen, as well as every pixel density from low res to retina displays. To make this happen, images are set at their max-width of 100% so that they can can rest in the grid, adjusting accordingly to a variety of screen sizes.
-
-    p However, this is easy to do partway and hard to do right. Flexible images are simplest with just CSS and scaling with the grid. Harder is loading the right resources for the right device. It's possible to use hidden-classes to swap larger images for smaller ones on mobile. But both images will still load, which can muck up the performance of a page. This is something that we still have to work on to perfect.
-
-    p Desktops, Tablets and Smartphones, Oh My!
+    hr
+    h2 TV, portables, tablettes, smartphones, Gameboy ?
 
     p Adjust page elements to your preference with media queries.
     p Adapting_sketch
@@ -181,17 +236,23 @@ page_title: Comment concevoir un design adaptatif ?
 
     p Try using media queries to change your header and paragraph sizes, line heights or even typeface. There are some interesting and handy things that can be done by experimenting in this area that we won’t get into right here.
 
-    p Still Room for Improvement
+    hr
+    .row
+      .medium-4.columns
+        h2
+          'Les améliorations possibles
+          br
+          small Les techniques commencent à se standardiser pour règler les problèmes du monde multi-écran. Cela étant dit, il y a encore beaucoup de place pour l'amélioration en ce qui concerne la conception adaptative.
 
-    p We're just beginning to solve a lot of the problems with living in a multi-device world. That being said there is still plenty of room for improvement when it comes to responsive design.
-    p Navigation
-    p Traditionally, navigation has run horizontal to a page. But with responsive web design, navigation has to collapse vertically and not overpower the page. It also has to scale, so tons of links and nesting won't work either.
+      .medium-7.columns
+        h3 Navigation
+        p Traditionally, navigation has run horizontal to a page. But with responsive web design, navigation has to collapse vertically and not overpower the page. It also has to scale, so tons of links and nesting won't work either.
 
-    p Images
-    p Images have to be able to scale for different devices and still be large enough to handle big displays. But high-pixel images even if it's hidden can muck up a page's load since it will still load. But better solutions are on the horizon.
+        h3 Images
+        p Images have to be able to scale for different devices and still be large enough to handle big displays. But high-pixel images even if it's hidden can muck up a page's load since it will still load. But better solutions are on the horizon.
 
-    p Tables
-    p Making large data tables work in a responsive design can be a pain in the butt. They can't overflow and can break a responsive layout. That means you won't get to see all the data or be able to compare rows with a key column. Although, there are some solutions out there, like this one .
+        h3 Tableaux
+        p Making large data tables work in a responsive design can be a pain in the butt. They can't overflow and can break a responsive layout. That means you won't get to see all the data or be able to compare rows with a key column. Although, there are some solutions out there, like this one .
 
 
 
