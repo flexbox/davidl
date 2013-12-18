@@ -33,7 +33,6 @@ $m-post-recent-link-border-color-hover: $pink-steroid;
   }
 }
 
-
 .m-post-list--link {
   @include post-list($m-post-link-border-color,$m-post-link-border-color-hover);
 }
