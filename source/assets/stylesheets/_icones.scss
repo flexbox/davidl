@@ -36,6 +36,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+%icon-style {
+  display: inline-block;
+  margin-right: rem-calc(10);
+  vertical-align: middle;
+}
+
+.icon-custom {
+  @extend %icon-style;
+}
+
 .icon-at-email:before {
   content: "a";
 }

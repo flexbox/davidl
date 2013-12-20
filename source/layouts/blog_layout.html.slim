@@ -1,11 +1,11 @@
 = wrap_layout :layout do
 
-  article.row
-    .medium-8.medium-centered.columns.blog-article
+  article.row itemtype="http://schema.org/BlogPosting" itemscope=""
+    .medium-8.medium-centered.columns.blog-article itemprop="articleBody"
       = yield
       .row
         .medium-8.medium-centered.columns
-          .m-blog-panel itemscope="" itemtype="http://schema.org/Person"
+          .m-blog-panel itemprop="author" itemscope="" itemtype="http://schema.org/Person"
             .row
               .small-4.columns
                 = image_tag 'front/photo2.jpg', itemprop: 'image'

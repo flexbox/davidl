@@ -12,7 +12,7 @@ $magellan-padding: 10px !default;
     .active {
       line-height: 1.8em;
       & > a {
-        border-color: $m-post-link-border-color-hover;
+        border-color: $m-post-recent-link-border-color-hover;
       }
     }
   }

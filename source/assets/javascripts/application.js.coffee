@@ -4,6 +4,7 @@
 #= require "jquery"
 #= require "jquery.smoothscroll"
 #= require "jquery.stickynav"
+#= require "vendor/gist-embed"
 
 #= require "foundation/js/foundation/foundation"
 #= require "foundation/js/foundation/foundation.magellan"

@@ -53,24 +53,24 @@ page_class: webdesign
 
       .medium-7.columns
         h3
+          .icon-custom.icon-loop-spin-turn-1
           'Prototypes et itérations rapides
-          .fa.icon-loop-spin-turn-1
         p
           'En choississant un
           =link_to 'framework', 'http://foundation.zurb.com/'
           ', vous pouvez rapidement prototyper et itérer sur vos créations, réduisant de manière significative le développement de votre produit. Vous pouvez coder vos wireframes pour tester le comportement de vos créations sur un ordinateur de bureau, un téléphone ou une tablette.
         hr
         h3
+          .icon-custom.icon-gameboy
           'Travailler avec de vrais appareils
-          .fa.icon-gameboy
         p
           'Un <strong>framework responsive</strong> permet à votre design de se condenser sur les appareils plus petits et de s'étendre sur les plus grands. En travaillant avec
           =link_to 'un paradigme adaptatif', 'http://fr.wikipedia.org/wiki/Paradigme#En_informatique'
           ', vous n'avez pas à vous soucier du fonctionnement de vos créations sur tous les appareils.
         hr
         h3
+          .icon-custom.icon-clock
           'Préparé pour l'avenir
-          .fa.icon-clock
         p
           'La conception de sites responsive vous permet d'être prêt pour les périphériques <strong>qui n'existent pas encore</strong>, parce que vous avez déjà assuré que votre produit sera adapté à toutes les résolutions.
     hr
@@ -113,14 +113,20 @@ page_class: webdesign
 
     .row
       .medium-4.columns
+        .text-center
+          .fa.fa-tasks.l-large
         h3 Uniformité
         p Une grille assure la cohérence entre les pages Web, réduis les erreurs de codage CSS. Cela contribue également à un placement HTML fiable.
 
       .medium-4.columns
+        .text-center
+          .fa.fa-terminal.l-large
         h3 Moins de code
         p Avec un système de grille, vous ne réinventez pas la roue, ce qui fait gagner beaucoups de temps. Un autre avantage est que la grille rend les itérations rapides et plus facile.
 
       .medium-4.columns
+        .text-center
+          .fa.fa-keyboard-o.l-large
         h3 Contrôle de la structure
         p Une grille permet d'organiser ses éléments, avec un contrôle sur la structure visuelle et sur la page.
 
@@ -133,25 +139,35 @@ page_class: webdesign
           small Voici quelques concepts à connaitre pour travailler avec une grille adaptative.
 
       .medium-7.columns
-        h3 Box Model
+        h3
+          .fa.fa-square-o
+          'Box Model
         p
           'Un "modèle de boîte" est un composant du navigateur. Je recommandes d'utiliser <code>box-sizing</code> pour
           =' link_to 'changer le type de modèle de boîte', 'http://www.paulirish.com/2012/box-sizing-border-box-ftw/'
           'utilisé par le navigateur. Cela permet une conserver une certaine retro-compatibilité.
 
-        h3 Ordre des sources
+        h3
+          .fa.fa-files-o
+          'Ordre des sources
         p L'agencement des sources permet d'avoir un affichage de site mobile différent du balisage utilisé par la grille.
 
-        h3 Sémantique
+        h3
+          .fa.fa-code
+          'Sémantique
         p Avec une grille sémantique, vous pouvez associer les propriétés de la grille à des éléments dans votre balisage pour être sémantiquement correct. Cela nécessite un préprocesseur, comme <code>Sass</code> ou <code>Less</code>.
 
-        h3 Nidification
+        h3
+          .fa.fa-align-left
+          'Nidification
         p
           'Une grille fluide permet la nidification -c'est à dire de
           =link_to "s'inclure récursivement", 'http://fr.wikipedia.org/wiki/Algorithme_r%C3%A9cursif'
           '. Cela permet des mises en page plus complexes et visuellement intéressantes.
 
-        h3 Ajustements
+        h3
+          .fa.fa-outdent
+          'Ajustements
         p Les <code>Offsets</code> permettent d'avoir plus d'espace entre les colonnes d'une ligne. Ils sont indispensables pour assurer la cohérence en maximisant la lisibilité.
 
     hr
@@ -237,7 +253,7 @@ page_class: webdesign
 
     hr
     h2#mediaqueries data-magellan-destination="mediaqueries"
-      'Ordinateurs, TVs, tablettes, smartphones, nintendo 3DS™ ?
+      'Ordinateurs, TVs, tablettes, smartphones, nintendo 3DS ™ ?
 
     p
       'Ajustez les éléments de votre page avec les <code>media query</code>.
@@ -247,34 +263,51 @@ page_class: webdesign
     p
       'C'est grâce aux <code>media query</code> qu'il est possible d'adapter les pages web. Ces règles sont spécifiques en fonction de certaines caractéristiques de l'appareil, telles que la taille de l'écran, l'orientation ou la densité de pixel. En d'autres termes, cela permet de régler les éléments de page comme vous le voulez.
 
-    hr
-    h2 Priorité au mobile
+    h3 Priorité au mobile
     p Ce mode de conception part d'un constat simple : il est beaucoup plus difficile de supprimer des fonctionnalités que d'en ajouter. Essayer de caser le contenu d'un site internet pour un affichage mobile peut devenir extrêmement compliqué. Avec la priorité au mobile, le but est d'améliorer progressivement l'application en démarrant avec les petits écrans pour atteindre les plus grands.
 
-    p Développer avec les <code>media query</code>
+    p
+     'C'est Luke Wroblewski qui a inventé le concept "
+      = link_to 'mobile first', 'http://www.lukew.com/ff/entry.asp?933'
+      '" après avoir analysé l'explosion du trafic internet mobile. Les grands principes de cette approche sont :
 
-    p With media queries you can make your page adapt in big or small ways to a variety of criteria. Media queries are what make it possible to have a great experience, no matter what the physical hardware is like.
+    ul
+      li Le mobile explose à travers le globe
+      li Le mobile vous permet de rester concentré sur des données et des actions importantes
+      li Le mobile étend vos capacités
 
-    Avec les <code>media query</code>, vous pouvez faire votre page s'adapte à différents critères. Les requêtes d'information sont ce qui rend possible d'avoir une grande expérience, quel que soit le matériel physique est comme.
+    blockquote
+      p
+        'Quand une équipe adopte la priorité au mobile, le résultat final est une expérience axée sur les tâches essentielles que les utilisateurs veulent accomplir. Sans détours superflus ni débris de l'interface générale qui jonchent les sites web de bureau d'aujourd'hui.
+        <cite> Luke Wroblewski</cite>
 
-    p Media Queries and the Navigation
+    p
+      'Plus important encore, la conception "mobile first" signifie que le processus ce construction n'est pas de partir du site pour ordinateur de bureau, pour le dégrader gracieusement vers des appareils plus petits. L'application web est améliorée progressivement, vous améliorez votre expérience et ne chercher pas à faire de compromis pour afficher correctement votre contenu.
+
+    h3 Développer avec les <code>media query</code>
+
+    p Avec les <code>media query</code>, vous pouvez adaper votre page à différents critères. Grâce à cela, n'importe quel appareil diposant d'une connexion internet accèdera à votre site avec une expérience utilisateur de qualité.
+
+    h4 Les media queries et la navigation
     p One common use for media queries is to make changes to your navigation. Consider a simple horizontal nav like you might find on a marketing site: Products, Team, Experience, Contact, etc. On a larger display that might work fine, but a wide nav on a smartphone will not. With media queries that check against the display width of the device, we can have a horizontal nav become vertical, for example.
 
-    p code
+    code data-gist-id="8057663"
 
     p This is a very simple example, but the key component is the media query. We’re stating that this applies to screens (this is pretty standard and there are some other options but not widely used) and that we want the following styles to apply if the screen has a max width of 767px, basically anything less than 786px.
 
-    p les Media Queries et la grille
+    h4 Les media queries et la grille
     p Perhaps the most common use of media queries in responsive designs is to make changes to a typographic layout grid. Most grids are built to be desktop first — they start by creating rows and columns, sometimes that are a fixed pixel size and sometimes percentages. On small devices those columns become unreasonably slim, so the simplest solution is to abandon them on small devices and have the content simply flow down the page. A simple example might be:
 
-    p code
+    code data-gist-id="8057428"
 
-    p Very simple, but very effective. Many frameworks that support responsive design do something like this by default, though some follow a mobile-first philosophy and use media queries to add the column sizes back in, rather than removing them.
+    p Très simple, mais très efficace. Beaucoup de framework responsive ont ce comportement par défaut, même si certains suivent une philosophie priorité au mobile et utilisent les media queries pour ajouter des tailles aux colonnes, plutôt que de les supprimer.
 
-    p Media Queries and Content Length
-    p A final common use for media queries (and don’t get us wrong, there are a lot of uses for media queries) is to manage the readability of your content. Using media queries to increase or decrease font size, and thus increase or decrease the content length of a line, is a common practice that can really help users have a better experience with your site.
+    h4 Les media queries et la taille du contenu
+    p
+      'L'utilisation principale des <code>medias queries</code> (mais il existe beaucoup d'utilisations possibles) est de gérer la lisibilité de votre contenu. Augmenter ou diminuer la taille du texte, et donc augmenter ou diminuer la longueur du contenu d'une ligne, est une pratique courante qui peut vraiment aider les utilisateurs à avoir une meilleure expérience avec votre site.
 
-    p Try using media queries to change your header and paragraph sizes, line heights or even typeface. There are some interesting and handy things that can be done by experimenting in this area that we won’t get into right here.
+    p
+      'Essayez d'utiliser cette technologie pour changer votre <code>header</code> et tailles de paragraphe, les hauteurs de ligne ou même la police de caractères. Il y a des choses intéressantes et pratiques qui peuvent être faites par l'expérimentation dans ce domaine que nous n'allons pas appofondir ici.
 
     hr
     .row
@@ -285,19 +318,25 @@ page_class: webdesign
           small Les techniques commencent à se standardiser pour règler les problèmes du monde multi-écran. Cela étant dit, il y a encore beaucoup de place pour l'amélioration en ce qui concerne la conception adaptative.
 
       .medium-7.columns
-        h3 Navigation
+        h3
+          .fa.fa-hand-o-up
+          'Navigation
         p
           'Traditionnellement, la navigation d'une page est horizontale. Mais avec le web design adaptatif, le
           =' link_to "contenu doit s'effondrer verticalement", '/blog/webdesign-adaptatif-5-astuces-indispensables.html#leffondrement-du-contenu'
           'pour faciliter le scroll. Il a également la mise à l'échelle pour la typographie, si il y a des tonnes de liens la nidification ne fonctionnera pas non plus.
 
-        h3 Images
+        h3
+          .fa.fa-picture-o
+          'Images
         p
           'Les images devraient être en mesure de s'adapter à l'échelle des différents appareils, et être d'assez bonne qualité pour les écrans HD. Le problème est le poids de ces grosses images, même si elles sont mises en cache, cela plombe le chargement d'une page, car l'image est téléchargée. Mais
           = link_to "les meilleures solutions sont à l'horizon", 'http://mobile.smashingmagazine.com/2013/05/10/how-to-avoid-duplicate-downloads-in-responsive-images/'
           '.
 
-        h3 Tableaux
+        h3
+          .fa.fa-table
+          'Tableaux
         p
           'Travailler avec un grand nombre de données tabulaire est simplement la pire chose en design responsive.
           br

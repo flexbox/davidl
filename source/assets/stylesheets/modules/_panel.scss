@@ -38,6 +38,8 @@ $m-panel-bg-hover: rgba($white, 0.9);
       &.fa-twitter { color: $sc-twitter; }
       &.fa-github { color: $sc-github; }
       &.fa-gift { color: $sc-amazon; }
+      &.fa-code { color: $sc-coderwall; }
+      &.fa-eur { color: $sc-flattr; }
     }
 
     &:hover {

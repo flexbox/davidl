@@ -5,15 +5,15 @@
   "retina-sprites",
   "pictos";
 
-// Icones
-@import
-  "icones";
-
 @import
   "foundation/scss/normalize",
   "colors",
   "foundation/scss/foundation/functions",
   "settings";
+
+// Icones
+@import
+  "icones";
 
 @import
   "foundation/scss/foundation/components/global",

@@ -17,4 +17,14 @@
   .sub-nav {
     max-width: rem-calc(170);
   }
+
+  [class*=" icon-"],
+  .fa {
+    @extend %icon-style;
+    color: $primary-color;
+    &.l-large {
+      font-size: rem-calc(80);
+      margin: rem-calc(20) 0;
+    }
+  }
 }

@@ -7,11 +7,11 @@ page_title: Personnaliser la grille de Foundation
 
 Depuis la version 4.3, Foundation est configuré avec deux breakpoint principaux, - ces largeurs définissent le nombre de pixel utilisés pour faire basculer la grille.
 
-Cette configuration par défaut permet de faire face à la plupart des scénarios. Mais cela n'est pas acceptable dans certains cas. Parfois, un projet nécessite différents plus de `breakpoints`. Voilà comment vous pouvez adapter Foundation en fonction des besoins de votre application web.
+Cette configuration par défaut permet de faire face à la plupart des scénarios. Mais cela n'est pas acceptable dans certains cas. Parfois, un projet nécessite plus de `breakpoints`. Voilà comment vous pouvez adapter Foundation en fonction des besoins de votre application web.
 
 ## 1. Changer les variables SASS
 
-La meilleure façon de personnaliser la largeur des grilles est de modifier leurs paramètres dans les ficiers SCSS.
+La meilleure façon de personnaliser la largeur des grilles est de modifier leurs paramètres dans les fichiers SCSS.
 
 Dans `_settings.css`, recherchez :
 
