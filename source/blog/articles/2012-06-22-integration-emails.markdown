@@ -1,6 +1,6 @@
 ---
 date: 2012-06-22 16:06:56+00:00
-slug: 7-bonnes-pratiques-pour-des-emails-de-qualite
+slug: integration-emails
 title: 7 bonnes pratiques pour des emails de qualité
 page_title: Réussir l'intégration de ses emails
 ---

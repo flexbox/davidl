@@ -5,15 +5,9 @@
 Time.zone = "Paris"
 
 activate :blog do |blog|
-  # blog.prefix = "blog"
   blog.permalink = "blog/:title.html"
   blog.sources = "blog/articles/:title.html"
   blog.layout = "layouts/blog_layout"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
-  # blog.year_link = ":year.html"
-  # blog.month_link = ":year/:month.html"
-  # blog.day_link = ":year/:month/:day.html"
   blog.default_extension = ".markdown"
   blog.calendar_template = "calendar.html"
 
@@ -43,6 +37,7 @@ page "/sitemap.xml", :layout => false
 # end
 
 require 'slim'
+require 'builder'
 
 activate :gzip
 activate :livereload

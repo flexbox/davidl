@@ -42,6 +42,12 @@ h2 {
   }
 }
 
+h3 {
+  text-transform: uppercase;
+  color: $black;
+  font-weight: $font-weight-bold;
+}
+
 hr {
   &.border {
     border-top: $masterhead-border;

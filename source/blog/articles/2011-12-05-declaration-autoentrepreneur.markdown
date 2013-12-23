@@ -1,11 +1,13 @@
 ---
 date: 2011-12-05 15:02:14+00:00
-slug: autoentrepreneur-declaration-et-numero-siret-2
+slug: declaration-autoentrepreneur
 title: 'Déclaration pour obtenir un SIRET'
 page_title: 'Auto-entrepreneur : Déclaration et numéro SIRET'
 ---
 
 > Pour devenir auto-entrepreneur tout se fait par internet...
+>
+> Ra's al Ghul
 
 
 A l'aube de l'année 2012 Il y a encore du chemin à parcourir ! (si vous avez besoin de quelqu'un pour faire une refonte du site n'hésitez pas [à me contacter](http://davidleuliette.com))

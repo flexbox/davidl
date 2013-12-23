@@ -32,12 +32,17 @@ code {
   word-wrap: break-word;
 }
 
-h3 {
-  text-transform: uppercase;
-  color: $black;
-  font-weight: $font-weight-bold;
-}
-
 body {
   color: $gray-dark;
+}
+
+@mixin x-transition ($values) {
+  -webkit-transition: $values;
+  transition: $values;
+}
+
+@mixin x-transform ($values) {
+  -webkit-transform: $values;
+  -ms-transform: $values;
+  transform: $values;
 }

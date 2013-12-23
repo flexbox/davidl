@@ -3,6 +3,8 @@ title: Webdesign adaptatif
 date: 2013-12-04
 page_title: Comment concevoir un design adaptatif ?
 page_class: webdesign
+changefreq: monthly
+priority: 1
 ---
 .row
   .medium-2.hide-for-small.columns
@@ -291,12 +293,20 @@ page_class: webdesign
     h4 Les media queries et la navigation
     p One common use for media queries is to make changes to your navigation. Consider a simple horizontal nav like you might find on a marketing site: Products, Team, Experience, Contact, etc. On a larger display that might work fine, but a wide nav on a smartphone will not. With media queries that check against the display width of the device, we can have a horizontal nav become vertical, for example.
 
+    p Le comportement le plus souvent rencontré est le changement de navigation. Considérons une navigation horizontale simple, comme vous pourriez trouver sur un site de présentation : Produits, équipe, expérience, Contact, etc... Sur un grand écran cette méthode fonctionne très bien, mais une grande navigation sur un smartphone n'est pas adapté. Avec les <code>media query</code> qui vérifient la largeur d'affichage de l'appareil, nous pouvons transformer une navigation horizontale en verticale.
+
     code data-gist-id="8057663"
 
-    p This is a very simple example, but the key component is the media query. We’re stating that this applies to screens (this is pretty standard and there are some other options but not widely used) and that we want the following styles to apply if the screen has a max width of 767px, basically anything less than 786px.
+    p Il s'agit d'un exemple très simple, mais l'élément clé est la méthode utilisée. La <code>media query</code> précise le  style à appliquer si l'écran a une largeur maximale de 767px.
 
     h4 Les media queries et la grille
-    p Perhaps the most common use of media queries in responsive designs is to make changes to a typographic layout grid. Most grids are built to be desktop first — they start by creating rows and columns, sometimes that are a fixed pixel size and sometimes percentages. On small devices those columns become unreasonably slim, so the simplest solution is to abandon them on small devices and have the content simply flow down the page. A simple example might be:
+    p
+      'L'utilisation la plus courante des <code>media query</code> concerne la mise en page du texte.
+      br
+      'La plupart des système sont construits pour être s'afficher avec un ordinateur de bureau. On commence par créer des lignes et des colonnes, qui ont parfois une taille en pixels fixe et parfois en pourcentages. Sur les petits appareils les colonnes deviennent excessivement mince. La solution la plus simple est de les abandonner sur les petits appareils et d'avoir le contenu qui s'écoule sur une seule colonne.
+
+    p
+      'Voivi un exemple :
 
     code data-gist-id="8057428"
 

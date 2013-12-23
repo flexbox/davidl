@@ -18,19 +18,19 @@
   width: rem-calc(250);
   height: rem-calc(250);
   display:block;
-  transition: all $transition-duration ease-in-out;
+  @include x-transition(all $transition-duration ease-in-out);
 }
 
 .m-photo-album {
   &.is-hover {
     .photo1 {
-      transform: rotate(-6deg) translate(-100px, -3px);
+      @include x-transform(rotate(-6deg) translate(-100px, -3px));
     }
     .photo2 {
-      transform: rotate(0deg) translate(0, -3px);
+      @include x-transform(rotate(0deg) translate(0, -3px));
     }
     .photo3 {
-      transform: rotate(6deg) translate(100px, -3px);
+      @include x-transform(rotate(6deg) translate(100px, -3px));
     }
   }
 }
@@ -73,28 +73,27 @@ figure {
     top: auto;
     bottom: 0;
     opacity: 0;
-    transform: translateY(100%);
-    transition: transform $transition-duration, opacity 0.1s 0.3s;
+    @include x-transform(translateY(100%));
+    @include x-transition(transform $transition-duration);
   }
 
 }
 
-
-.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure:hover img,
 .cs-style-3 figure.cs-hover img {
-  transform: translateY(-100%);
-  transition: transform $transition-duration, opacity 0.1s 0.3s;
+  @include x-transform(translateY(-100%));
+  @include x-transition(transform $transition-duration);
 }
 
-.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure:hover figcaption,
 .cs-style-3 figure.cs-hover figcaption {
-    opacity: 1;
-    transform: translateY(0px);
-    transition: transform $transition-duration, opacity 0.1s;
+  opacity: 1;
+  @include x-transform(translateY(0px));
+  @include x-transition(transform $transition-duration);
 }
 
 .cs-style-3 figcaption a {
-    position: absolute;
-    bottom: rem-calc(10);
-    right: rem-calc(40);
+  position: absolute;
+  bottom: rem-calc(10);
+  right: rem-calc(40);
 }

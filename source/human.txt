@@ -14,7 +14,7 @@ TEAM
 
 Ce site est codé à la main par David Leuliette.
 Developpeur front-end
-http://davidl.fr/apropos
+http://davidl.fr/about.html
 
 _______________________________________________________________________________
 
@@ -34,13 +34,13 @@ https://github.com/
 
 _______________________________________________________________________________
 
-GRAPHIC ASSETS
+RESSOURCES GRAPHIQUES
 
-Brandon Grotesque (font)
-https://typekit.com/fonts/brandon-grotesque
+Droid Serif (font)
+http://www.google.com/fonts/specimen/Droid+Serif
 
-Open Sans (font)
-https://typekit.com/fonts/open-sans
+Lato (font)
+http://www.google.com/fonts/specimen/Lato
 
-Entypo (icons)
-http://www.entypo.com/
+Font Awesome (icons)
+http://fontawesome.io/
