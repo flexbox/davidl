@@ -2,13 +2,14 @@
 title: DavidL Design + Développement
 description: DavidL Design + Développement fournit des ressources pour la conception d'applications Web et mobiles, y compris des présentations, des ateliers, des articles, des conseils sur les technologies fron-end en général.
 page_title: Voici ce que je fais
+page_class: m-homepage
 changefreq: monthly
 priority: 1
 ---
 
 .row
   .medium-12.columns
-    ul.large-block-grid-3.small-block-grid-2
+    ul.large-block-grid-3.medium-block-grid-2
       - data.projects.each_with_index do |project|
         li
           = link_to project.url do

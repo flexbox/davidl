@@ -579,23 +579,21 @@ $header-font-weight: $font-weight-bolder;
 
 // Pagination
 
-// $include-html-nav-classes: $include-html-classes;
-
 // We use these to control the pagination container
-// $pagination-height: rem-calc(24);
-// $pagination-margin: rem-calc(-5);
+$pagination-height: rem-calc(30);
+$pagination-margin: rem-calc(-10);
 
 // We use these to set the list-item properties
 // $pagination-li-float: $default-float;
-// $pagination-li-height: rem-calc(24);
-// $pagination-li-font-color: #222;
-// $pagination-li-font-size: rem-calc(14);
-// $pagination-li-margin: rem-calc(5);
+$pagination-li-height: rem-calc(30);
+$pagination-li-font-color: $black;
+$pagination-li-font-size: rem-calc(18);
+$pagination-li-margin: rem-calc(10);
 
 // We use these for the pagination anchor links
-// $pagination-link-pad: rem-calc(1 10 1);
-// $pagination-link-font-color: #999;
-// $pagination-link-active-bg: darken(#fff, 10%);
+$pagination-link-pad: rem-calc(5 20 5);
+$pagination-link-font-color: $black-light;
+$pagination-link-active-bg: $white;
 
 // We use these for disabled anchor links
 // $pagination-link-unavailable-cursor: default;

@@ -4,13 +4,6 @@ $m-post-link-border-color-hover: $yellow-steroid;
 $m-post-recent-link-border-color: rgba($pink-steroid,0.4);
 $m-post-recent-link-border-color-hover: $pink-steroid;
 
-.m-post-list--calendar {
-  span {
-    font-weight: normal;
-    margin: em-calc(5);
-  }
-}
-
 @mixin post-list($color,$color-hover){
   padding: rem-calc(10) rem-calc(20);
   background-color: $m-panel-bg;
@@ -33,10 +26,25 @@ $m-post-recent-link-border-color-hover: $pink-steroid;
   }
 }
 
+.m-post-list--calendar {
+  span {
+    font-weight: normal;
+    margin: em-calc(5);
+  }
+}
+
 .m-post-list--link {
   @include post-list($m-post-link-border-color,$m-post-link-border-color-hover);
 }
 
 .m-post-recent-list--link {
   @include post-list($m-post-recent-link-border-color,$m-post-recent-link-border-color-hover);
+}
+
+.pagination {
+  margin-top: rem-calc(40);
+
+  a {
+    border-bottom: 0;
+  }
 }

@@ -4,7 +4,7 @@
 | | ||   || ' || || | || |_
 |___/|_|_||__/ |_||___/|___|
 
-    Codé à la main depuis 2013
+    Code à la main depuis 2013
 
     Humans TXT: Nous Sommes Des Humains, Pas Des Machines
 
@@ -12,7 +12,7 @@ _______________________________________________________________________________
 
 TEAM
 
-Ce site est codé à la main par David Leuliette.
+Ce site est code à la main par David Leuliette.
 Developpeur front-end
 http://davidl.fr/about.html
 

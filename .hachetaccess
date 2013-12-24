@@ -1,3 +1,15 @@
+RewriteRule ^http://davidleuliette.com/$ http://davidl.fr/ [R=301,L]
+RewriteRule ^http://davidleuliette.com/index.php/studio/services$ http://davidl.fr/webdesign.html [R=301,L]
+RewriteRule ^http://davidleuliette.com/index.php/studio/portfolio$ http://davidl.fr/webdesign.html [R=301,L]
+RewriteRule ^http://davidleuliette.com/index.php/studio/about$ http://davidl.fr/about.html [R=301,L]
+RewriteRule ^http://davidleuliette.com/index.php/studio/contact$ http://davidl.fr/contact.html [R=301,L]
+
+RewriteRule ^http://blog.davidleuliette.com/$ http://davidl.fr/blog/ [R=301,L]
+RewriteRule ^http://davidleuliette.com/wordPress/$ http://davidl.fr/blog/ [R=301,L]
+RewriteRule ^http://davidleuliette.com/wordPress/about/$ http://davidl.fr/about.html [R=301,L]
+RewriteRule ^http://davidleuliette.com/wordPress/projets/$ http://davidl.fr/ [R=301,L]
+RewriteRule ^http://davidleuliette.com/wordPress/ressource/$ http://davidl.fr/ [R=301,L]
+
 RewriteRule ^http://davidleuliette.com/wordPress/?post_type=post&p=21$ http://davidl.fr/ [R=301,L]
 RewriteRule ^http://davidleuliette.com/wordPress/?post_type=post&p=24$ http://davidl.fr/ [R=301,L]
 RewriteRule ^http://davidleuliette.com/wordPress/?post_type=post&p=36$ http://davidl.fr/ [R=301,L]
