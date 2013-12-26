@@ -1,0 +1,45 @@
+-
+  name: Evernote
+  description: Evernote est un moyen rapide et facile des synchroniser du contenu à travers toutes vos machines.
+  url: https://evernote.com/intl/fr/
+  image: evernote.png
+-
+  name: Firefox
+  description: "Le navigateur web sécurisé, performant et personnalisable."
+  url: http://www.mozilla.org/fr/firefox/new/
+  image: firefox.png
+-
+  name: GitHub
+  description: "Hébergement de vos projets utilisant Git. Le site web possède des fonctionalités indispensable comme un navigateur de code source, l'édition en ligne, les wikis, et une gestion de tickets."
+  url: https://github.com/
+  image: github.png
+-
+  name: GitX
+  description: "GitX est une interface graphique de git fait pour Mac OS X. Il dispose actuellement d'un historique comme gitk et une interface graphique de commit comme git gui. Mais il conserve le style Mac OS X !"
+  url: http://gitx.frim.nl/
+  image: gitx.png
+-
+  name: ImageOptim
+  description: "ImageOptim optimise les images PNG, JPEG et GIF animés. Elles prennent moins de place sur votre disque et se chargeront plus vite sur votre site web."
+  url: http://imageoptim.com/fr.html
+  image: imageoptim.png
+-
+  name: iTerm2
+  description: "iTerm2 est un émulateur de terminal pour Mac OS X qui fait des choses étonnantes."
+  url: http://www.iterm2.com/
+  image: iterm2.png
+-
+  name: LICEcap
+  description: "LICEcap permet d'enregistrer une partie de votre écran pour la convertir en .gif animé. Simple et efficace."
+  url: http://www.cockos.com/licecap/
+  image: licecap.png
+-
+  name: Tower
+  description: "Git tower un un bon remplaçant à GitX. Il dispose de beaucoups plus de fonctionalités et pourra vous sauver la vie pendant la résolution de conflits sous git."
+  url: http://www.git-tower.com/
+  image: tower.png
+-
+  name: Rename
+  description: "Renomer ses fichiers, de la façon la plus simple possible."
+  url: http://www.pathossoftware.com/Rename/Rename.html
+  image: rename.png
