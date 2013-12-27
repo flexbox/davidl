@@ -34,12 +34,22 @@
   url: http://www.cockos.com/licecap/
   image: licecap.png
 -
-  name: Tower
-  description: "Git tower un un bon remplaçant à GitX. Il dispose de beaucoups plus de fonctionalités et pourra vous sauver la vie pendant la résolution de conflits sous git."
-  url: http://www.git-tower.com/
-  image: tower.png
+  name: PixelWindow
+  description: "Une application simple et multi-plateforme pour mesurer des choses sur votre écran."
+  url: http://www.pixelwindowapp.com/
+  image: pixelwindow.png
 -
   name: Rename
   description: "Renomer ses fichiers, de la façon la plus simple possible."
   url: http://www.pathossoftware.com/Rename/Rename.html
   image: rename.png
+-
+  name: Tower
+  description: "Git tower un un bon remplaçant à GitX. Il dispose de beaucoups plus de fonctionalités et pourra vous sauver la vie pendant la résolution de conflits sous git."
+  url: http://www.git-tower.com/
+  image: tower.png
+-
+  name: Sublime Text
+  description: "Selon moi c'est le meilleur éditeur de code. Facile à prendre en main, et évolutif presque à l'infini grâce à une énorme quantité de plug-in."
+  url: http://www.sublimetext.com/
+  image: sublimetext.png
