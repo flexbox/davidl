@@ -5,7 +5,9 @@
 }
 
 .m-footer {
-  margin-bottom: $control-height;
+  background-color: $gray;
+  padding-top: $control-height;
+  padding-bottom: $control-height;
 
   p {
     text-align: center;

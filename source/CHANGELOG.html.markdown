@@ -6,9 +6,11 @@ layout: blog_layout
 ---
 
 
-## 1.0.0 (Not release yet)
+## 0.0.3 (06/01/14)
 
 * First release
+* Refactor mobile first view
+* Update website atmosphere
 
 ## 0.0.2 (11/12/13)
 

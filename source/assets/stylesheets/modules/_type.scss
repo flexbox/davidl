@@ -1,17 +1,22 @@
 $masterhead-border: 5px solid $black;
 
+.m-masterhead--background {
+  background-color: $black-lighter;
+  margin-bottom: rem-calc(40);
+}
+
 .m-masterhead {
   font-size: rem-calc(40);
   line-height: rem-calc(77);
   text-align: center;
   font-weight: $font-weight-bolder;
-  margin-top: rem-calc(80);
-  margin-bottom: rem-calc(120);
-  border-top: $masterhead-border;
-  border-bottom: 5px solid $black;
-  position: relative;
-  @media #{$small} {
 
+  position: relative;
+  color: $white-dark;
+
+  @media #{$small} {
+    margin-top: rem-calc(80);
+    margin-bottom: rem-calc(120);
     font-size: rem-calc(70);
     padding: rem-calc(40) rem-calc(60);
     &:before,
