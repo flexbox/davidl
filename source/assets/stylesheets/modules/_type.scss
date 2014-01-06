@@ -13,6 +13,7 @@ $masterhead-border: 5px solid $black;
 
   position: relative;
   color: $white-dark;
+  text-shadow: $text-shadow;
 
   @media #{$small} {
     margin-top: rem-calc(80);

@@ -13,6 +13,7 @@ $magellan-padding: 10px !default;
       line-height: 1.8em;
       & > a {
         border-color: $m-post-recent-link-border-color-hover;
+        color: $black-light;
       }
     }
   }

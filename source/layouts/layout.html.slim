@@ -5,7 +5,7 @@ html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" 
     meta name="viewport" content="width=device-width"
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
 
-    title #{current_article.title unless current_article.nil?} #{current_page.data.title} &bull; #{data.settings.site.title}
+    title #{current_page.data.title} &bull; #{data.settings.site.title}
     meta name="description" content="#{current_page.data.description}"
     meta name="robots" content="index,follow"
     = partial 'views/open_graph'

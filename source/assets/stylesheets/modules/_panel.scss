@@ -6,7 +6,6 @@ $m-panel-bg-hover: rgba($white, 0.9);
   @include single-transition();
 
   border: 0 none;
-  border-bottom: 1px solid $white;
 
   &:hover {
     background-color: $m-panel-bg-hover;
