@@ -7,13 +7,16 @@ $masterhead-border: 5px solid $black;
 
 .m-masterhead {
   font-size: rem-calc(40);
-  line-height: rem-calc(77);
   text-align: center;
   font-weight: $font-weight-bolder;
-
   position: relative;
   color: $white-dark;
   text-shadow: $text-shadow;
+  @include x-transition(all $transition-duration ease-in-out);
+
+  &.is-scrolling {
+    font-size: rem-calc(25);
+  }
 
   @media #{$small} {
     margin-top: rem-calc(80);
@@ -34,7 +37,15 @@ $masterhead-border: 5px solid $black;
       content: "\223D";
       right: 0em;
     }
+    &.is-scrolling {
+      font-size: rem-calc(30);
+      padding: rem-calc(20) rem-calc(40);
+      margin-top: rem-calc(20);
+      margin-bottom: rem-calc(30);
+    }
   }
+
+
 }
 
 h2 {
