@@ -4,7 +4,25 @@
       = link_to('Haut de page &#9650;','#top')
 footer.m-footer
   .row
-    .small-12.columns
+    .medium-8.columns
+      form action="#{data.settings.social.mailchimp}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank"
+        .row
+          .small-12.columns
+            label for="mce-EMAIL"
+              'Recevez
+              strong
+                'des conseils
+              'sur le développement front-end.
+
+        .row.collapse
+          .small-8.columns
+            input type="email" name="EMAIL" id="mce-EMAIL" placeholder="email@exemple.fr" required=""
+            .hide
+              input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad" value=""
+          .small-4.columns
+            input type="submit" value="S'inscrire" name="subscribe" id="mc-embedded-subscribe" class="button secondary postfix"
+
+    .medium-4.columns
       p
         'Ce site est rédigé et administré par
         = link_to('David Leuliette','/human.txt')

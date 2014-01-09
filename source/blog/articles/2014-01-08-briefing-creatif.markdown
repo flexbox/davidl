@@ -11,7 +11,7 @@ Je complète mon précédent article sur les [question à se poser](http://david
 
 >Créatif, c'est pas un métier facile.
 >
->Octave parango
+>Octave Parango
 
 En plus de créer à la demande -ce qui à mon avis n'a pas de sens, il faut souvent travailler avec des personnes ne connaissant pas le métier.
 

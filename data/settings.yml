@@ -7,11 +7,12 @@ site:
 social:
   google_plus: 'https://plus.google.com/u/0/113401424510170217860'
   twitter:
-    url: "https://twitter.com/_flexbox"
+    url: 'https://twitter.com/_flexbox'
     name: '@_flexbox'
   github: 'https://github.com/flexbox'
   flattr: Flexbox
   rss:
     url: /feed.xml
+  mailchimp: 'http://davidl.us3.list-manage2.com/subscribe/post?u=b72e60a9116993dde8d1547fe&amp;id=e99fbeb8ad'
 google_analytics:
   tracking_code: 'UA-46684635-1'
