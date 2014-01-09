@@ -1,11 +1,15 @@
 .row
   .small-12.columns
     p.m-go-top
-      = link_to('Haut de page &#9650;','#top')
+      = link_to '#top'
+        i.i-custom.fa.fa-arrow-up
+        'Haut de page
+
 footer.m-footer
   .row
     .medium-8.columns
-      form action="#{data.settings.social.mailchimp}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank"
+
+      form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
         .row
           .small-12.columns
             label for="mce-EMAIL"
@@ -16,17 +20,17 @@ footer.m-footer
 
         .row.collapse
           .small-8.columns
-            input type="email" name="EMAIL" id="mce-EMAIL" placeholder="email@exemple.fr" required=""
+            input type="email" name="EMAIL" id="js-mailchimpemail" placeholder="Saisissez votre adresse e-mail" required=""
             .hide
-              input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad" value=""
+              input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad"
           .small-4.columns
             input type="submit" value="S'inscrire" name="subscribe" id="mc-embedded-subscribe" class="button secondary postfix"
 
     .medium-4.columns
-      p
+      p.text-right
         'Ce site est rédigé et administré par
         = link_to('David Leuliette','/human.txt')
-      p
+      p.text-right
         =' link_to('Mentions légales','/legal.html')
         '&bull;
         =' link_to('Changelog','/CHANGELOG.html')

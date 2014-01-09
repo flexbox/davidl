@@ -43,6 +43,8 @@ $body-font-weight: $font-weight-normal;
 $header-font-family: 'Lato', sans-serif;
 $header-font-weight: $font-weight-bolder;
 
+$button-font-weight: $font-weight-bold;
+
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;
 
@@ -339,10 +341,10 @@ $header-font-weight: $font-weight-bolder;
 // $input-font-size: rem-calc(14);
 // $input-bg-color: #fff;
 // $input-focus-bg-color: darken(#fff, 2%);
-// $input-border-color: darken(#fff, 20%);
+$input-border-color: darken(#fff, 20%);
 $input-focus-border-color: $secondary-color;
 // $input-border-style: solid;
-// $input-border-width: 1px;
+$input-border-width: 2px;
 // $input-disabled-bg: #ddd;
 $input-box-shadow: none;
 $input-include-glowing-effect: false;

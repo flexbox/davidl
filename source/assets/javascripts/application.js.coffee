@@ -14,3 +14,5 @@
 #= require "snapsvg"
 #= require "pizza"
 #= require "about"
+
+#= require "blog"
