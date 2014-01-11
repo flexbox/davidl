@@ -3,6 +3,7 @@
 ###
 
 Time.zone = "Paris"
+I18n.config.enforce_available_locales = false
 
 activate :blog do |blog|
   blog.permalink = "blog/:title.html"
@@ -16,12 +17,13 @@ activate :blog do |blog|
   # blog.page_link = "page/:num"
 end
 
-page "/feed.xml", :layout => false
-page "/sitemap.xml", :layout => false
-
 ###
 # Page options, layouts, aliases and proxies
 ###
+
+page "/feed.xml", :layout => false
+page "/sitemap.xml", :layout => false
+page "/browserconfig.xml", :layout => false
 
 # Per-page layout changes:
 #
