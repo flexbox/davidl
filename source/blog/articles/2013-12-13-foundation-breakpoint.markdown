@@ -3,6 +3,8 @@ date: 2013-12-13 17:03:05+00:00
 slug: Foundation-breakpoint
 title: Changer ses breakpoints avec Foundation
 page_title: Personnaliser la grille de Foundation
+changefreq: monthly
+priority: 0.8
 ---
 
 Depuis la version 4.3, Foundation est configuré avec deux breakpoint principaux, - ces largeurs définissent le nombre de pixel utilisés pour faire basculer la grille.

@@ -2,7 +2,9 @@
 date: 2013-01-09 13:03:23+00:00
 slug: formation-print-web
 title: Formation du print vers le web
-page_title: Formation développement web à Lille
+page_title: Formation développement et intégration web à Lille
+changefreq: monthly
+priority: 0.8
 ---
 
 Récemment j'ai réalisé avec l'équipe de [VLC3 FORMATION](http://www.vlc3.com/) un programme pédagogique sur l'évolution des projets web.

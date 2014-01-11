@@ -3,6 +3,8 @@ date: 2012-07-13 16:35:55+00:00
 slug: igoogle-xml-opml
 title: 'iGoogle va fermer : sauvez vos flux RSS !'
 page_title: "Exporter ses flux RSS"
+changefreq: monthly
+priority: 0.8
 ---
 
 ![iGoogle](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/480149483_67804f313c-300x127.jpg)

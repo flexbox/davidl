@@ -3,6 +3,8 @@ date: 2012-08-06 14:21:42+00:00
 slug: typographie-google-font
 title: 'Typographie : 6 Combo de polices web avec google font'
 page_title: De bonnes associations de typographie web
+changefreq: monthly
+priority: 0.8
 ---
 
 La typographie peut être comparée à la chimie : Il y a des éléments, leur combinaison crée un nouveau résultat.

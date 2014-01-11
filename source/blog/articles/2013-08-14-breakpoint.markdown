@@ -3,6 +3,8 @@ date: 2013-08-14 16:30:38+00:00
 slug: breakpoint
 title: Utiliser des breakpoint en CSS pour votre site responsive
 page_title: Ne fixez pas vos breakpoint en javascript
+changefreq: monthly
+priority: 0.8
 ---
 
 Nous avons un problème dans la conception adaptative : Les breakpoint sont fixés en CSS et nous devons exécuter certaines actions en javascript.

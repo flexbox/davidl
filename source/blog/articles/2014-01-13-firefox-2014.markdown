@@ -1,0 +1,59 @@
+---
+date: 2014-01-13
+slug: firefox-2014
+title: Augmenter sa productivité en 2014 avec Firefox
+page_title: Extensions et conseils pour Firefox
+changefreq: monthly
+priority: 0.8
+---
+
+Mozilla Firefox est un véritable trésor pour les travailleurs du web dans le monde entier. Pourquoi ? C'est un navigateur web moderne, rapide et sécurisé.
+
+Ces dernières années ce navigateur open source a prouvé qu'il permettait beaucoup plus que le simple surf sur internet. Firefox peut être modifié simplement à la volée. Avec un quelques modules complémentaires, votre navigateur se transforme selon vos besoins de développeur, designer, ou SEO.
+
+Voici une sélection des meilleures extensions que j'ai testées qui me sont indispensables. Ces excellents addons sont disponibles gratuitement, permettent de gagner du temps et d'améliorer votre productivité.
+
+## Extensions pour développeur front-end éclairé
+
+Optimiser sa méthode de travail n'est possible qu'en possédant les bons outils :
+
+### Graphisme
+
+[ColorZilla](http://www.colorzilla.com/) permet de copier / coller n'importe quelle couleur présente dans votre page web. Vous pouvez personnaliser le format afin de faciliter l'intégration dans votre code.
+
+### Développement
+
+[Firebug](https://www.getfirebug.com/) est depuis des années une référence pour le debug de code.
+
+Les outils de développement directement intégrés à Firefox sont aussi très utiles. Pour afficher le mode responsive :
+
+    Menu : Outils > Développeur web > Vue adaptative
+
+Mais les vrai utilisent le raccourci clavier :
+
+    cmd + alt + M
+
+### SEO
+
+[HeadingMap](https://addons.mozilla.org/fr/firefox/addon/headingsmap/) affiche une carte de l'intégration des titres d'une page. Très pratique pour vérifier _rapidement_ l'architecture de votre contenu.
+
+[Opcast Desktop](https://desktop.opquast.com/fr/) permet d'effectuer à tout moment plus de 450 test de qualité, seo, accessibilité, performance ... sur les pages que vous êtes en train de développer.
+
+### Ergonomie
+
+[Menu-editor](http://menueditor.mozdev.org/) est une solution simple et efficace pour personnaliser votre menu. En tant que développeur je connais presque tous les raccourcis clavier qui me sont indispensable. Mon menu contextuel via clic droit contient au maximum 5 entrées -Inspection de code, rechargement de page, enregistrement d'image ... Fini les précieuses secondes perdues à chercher une option.
+
+## Firefox est lent
+
+__Faux !__
+
+Pour les grincheux / aigris / trolls qui pensent que ce navigateur est lent et buggé voici mon explication : vérifiez le nombre de vos extensions ! Je n'ai au maximum que 6 extensions activées. Il est toujours possible de désactiver celles qui ne sont utilisées que rarement et les activer en temps voulu.
+
+Si ce n'est pas déjà fait vérifiez que vous possédez la [dernière version de Firefox](https://www.mozilla.org/fr/firefox/new/).
+
+    Menu : Aide > A propos
+
+Mon navigateur se lance beaucoup plus rapidement grâce à ces conseils :
+
+1. Utiliser `about:home` comme page de démarrage
+2. Limiter les extensions installées en vérifiant la santé de votre Firefox `about:healthreport`

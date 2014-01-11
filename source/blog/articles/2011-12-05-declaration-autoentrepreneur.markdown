@@ -3,6 +3,8 @@ date: 2011-12-05 15:02:14+00:00
 slug: declaration-autoentrepreneur
 title: 'Déclaration pour obtenir un SIRET'
 page_title: 'Auto-entrepreneur : Déclaration et numéro SIRET'
+changefreq: monthly
+priority: 0.8
 ---
 
 > Pour devenir auto-entrepreneur tout se fait par internet...

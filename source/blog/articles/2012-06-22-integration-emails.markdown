@@ -3,6 +3,8 @@ date: 2012-06-22 16:06:56+00:00
 slug: integration-emails
 title: 7 bonnes pratiques pour des emails de qualité
 page_title: Réussir l'intégration de ses emails
+changefreq: monthly
+priority: 0.8
 ---
 
 De nos jours envoyer des emails reste laborieux tant dans la partie créative que la partie code : la taille de la création est limitée, et les styles doivent être codés inline :

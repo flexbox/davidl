@@ -3,6 +3,8 @@ date: 2012-11-08 11:41:30+00:00
 slug: redaction-briefing
 title: Comment rédigier un brief creatif ?
 page_title: 8 questions à se poser pour un briefing de qualité
+changefreq: monthly
+priority: 0.8
 ---
 
 Communiquer avec ses clients est une tâche difficile en tant que développeur. Il faut avoir des compétences de commercial qui ne peuvent s'apprendre que par l'expérimentation.

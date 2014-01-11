@@ -3,6 +3,8 @@ date: 2012-11-21 13:09:31+00:00
 slug: banniere-application-mobile
 title: Smartappbanner ? Demandez l'installation de votre application mobile
 page_title: Proposer le téléchargement d'application iOS
+changefreq: monthly
+priority: 0.8
 ---
 
 Hier (je précise que nous sommes en 2012) j'ai cherché une information sur le site service-public avec mon iPhone.

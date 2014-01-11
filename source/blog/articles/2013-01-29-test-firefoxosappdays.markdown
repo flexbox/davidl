@@ -3,6 +3,8 @@ date: 2013-01-29 12:56:29+00:00
 slug: test-firefoxosappdays
 title: hackathon firefoxOS
 page_title: 'J''ai testé pour vous #FirefoxOSappdays'
+changefreq: monthly
+priority: 0.8
 ---
 
 Samedi matin le réveil sonne à 5h.

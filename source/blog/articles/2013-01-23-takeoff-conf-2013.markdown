@@ -3,6 +3,8 @@ date: 2013-01-23 11:28:04+00:00
 slug: takeoff-conf-2013
 title: 'Takeoff conference 2013'
 page_title: "J'ai testé pour vous le take off festival"
+changefreq: monthly
+priority: 0.8
 ---
 
 La semaine dernière un évènement immanquable s'est déroulé à Lille le #[takeoffconf](http://takeoffconf.com/).

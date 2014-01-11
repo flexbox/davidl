@@ -3,6 +3,8 @@ date: 2012-12-08 00:28:20+00:00
 slug: open-du-web-lille
 title: 'J''ai testé pour vous les open du web #3'
 page_title: Témoignage du vainqueur de la catégorie intégration
+changefreq: monthly
+priority: 0.8
 ---
 
 Hier j'ai participé à la 3ème édition des [Open du web](http://www.open-du-web.fr/) sur Lille.

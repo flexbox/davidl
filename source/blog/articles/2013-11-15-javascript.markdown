@@ -3,6 +3,8 @@ date: 2013-11-15 12:57:20+00:00
 slug: javascript
 title: Maitriser rapidement Javascript
 page_title: Javascript™ par Nicolas froidure
+changefreq: monthly
+priority: 0.8
 ---
 
 Si vous suivez mon activité sur [twitter](http://twitter.com/_flexbox) vous avez surement remarqué que je lis énormément de livres sur l'industrie du développement web. Mon dernier livre ? Javascript™ rédigé intégralement en français par monsieur Nicolas Froidure himself.

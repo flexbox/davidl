@@ -3,14 +3,19 @@ date: 2011-11-28 15:04:36+00:00
 slug: framework-php
 title: Choix du framework Symfony, CodeIgniter, cakePHP, or FuelPHP ?
 page_title: Choisir son framework php
+changefreq: monthly
+priority: 0.8
+---
+
+__Update__ Je ne peux plus travailler avec du php. Pendant des années j'ai essayé... en vain... <br>
+J'ai découvert [Ruby on Rails](https://github.com/flexbox) et c'est -selon moi, la meilleure technologie pour faire _sérieusement_ du développement Front-end.
+
 ---
 
 Pour le développement de la [nouvelle version de mon studio de création](http://davidleuliette.com) je me suis posé beaucoup de questions :
 
 
-
-
-  * webDesign ou développement lourd ?
+  * Webdesign ou développement lourd ?
 
 
   * Site statique or not ?

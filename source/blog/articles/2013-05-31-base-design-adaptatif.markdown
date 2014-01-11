@@ -3,6 +3,8 @@ date: 2013-05-31 16:41:03+00:00
 slug: base-design-adaptatif
 title: les bases du webdesign responsive
 page_title: Les principes fondamentaux du design adaptatif
+changefreq: monthly
+priority: 0.8
 ---
 
 Dans cet article je vais essayer de faire une synthèse sur l'état des différentes bases à connaître absolument avant de créer un site internet compatible mobile. Peu à peu le design adaptatif se standardise autour de différents principes, ce qui permet de créer une véritable stratégie de pour votre contenu.

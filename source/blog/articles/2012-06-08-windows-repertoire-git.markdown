@@ -3,6 +3,8 @@ date: 2012-06-08 16:51:41+00:00
 slug: windows-repertoire-git
 title: Changer le répertoire par défaut de git sous windows 7
 page_title: git et windows
+changefreq: monthly
+priority: 0.8
 ---
 
 Si vous utilisez un outil de versioning comme git avec windows, <del>vous avez du courage</del>, je vais vous montrer comment gagner du temps en évitant de parcourir vos répertoires à la main.

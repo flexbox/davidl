@@ -1,10 +1,13 @@
 ---
 title: Changelog
-description: Vos visites augmentent mes points de charisme. Aidez-moi à gagner un niveau comme le barbare de naheulbeuk.
+description: Les logs d'un site c'est important. Retrouvrez l'évolution des déploiements dans ce CHANGELOG.
 page_title: Changelog
 layout: blog_layout
 ---
 
+## 0.0.4 (13/01/14)
+
+* Add newsletter subscribtion
 
 ## 0.0.3 (06/01/14)
 
@@ -14,7 +17,7 @@ layout: blog_layout
 
 ## 0.0.2 (11/12/13)
 
-* refactor blog content with exitwp
+* Refactor blog content with exitwp
 * Add sticky animation for control
 
 ## 0.0.1 (01/12/13)

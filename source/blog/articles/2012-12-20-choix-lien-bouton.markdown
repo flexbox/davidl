@@ -3,6 +3,8 @@ date: 2012-12-20 16:17:23+00:00
 slug: choix-lien-bouton
 title: Comment choisir entre un lien et un bouton ?
 page_title: Boutons pour les actions, liens pour les objets
+changefreq: monthly
+priority: 0.8
 ---
 
 Les boutons et les liens sont aussi vieux que le web lui même. Pour réaliser une expérience utilisateur de qualité, la question est de savoir quand utiliser l'un ou l'autre.

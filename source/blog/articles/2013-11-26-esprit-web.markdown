@@ -3,7 +3,8 @@ date: 2013-11-26 17:37:06+00:00
 slug: esprit-web
 title: Internet expliqué à ma grand mère
 page_title: L'esprit du web
-
+changefreq: monthly
+priority: 0.8
 ---
 
 Qu'est ce que le web ?

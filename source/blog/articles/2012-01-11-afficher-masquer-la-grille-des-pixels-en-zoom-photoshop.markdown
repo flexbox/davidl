@@ -3,6 +3,8 @@ date: 2012-01-11 12:05:49+00:00
 slug: afficher-masquer-la-grille-des-pixels-en-zoom-photoshop
 title: Photoshop afficher la grille des pixels
 page_title: Tutoriel Photoshop
+changefreq: monthly
+priority: 0.8
 ---
 
 Depuis Photoshop CS5 une fonctionnalité permet d'afficher les pixels.

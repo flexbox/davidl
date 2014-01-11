@@ -3,6 +3,8 @@ date: 2012-08-27 12:15:55+00:00
 slug: twitter-a-change-votre-vie-essayez-lift
 title: Twitter a changé votre vie ? essayez Lift
 page_title: Libérez votre potentiel
+changefreq: monthly
+priority: 0.8
 ---
 
 Les 2 fondateurs de twitter, Evan Williams et Biz Stone travaillent depuis plus d'un an sur leur nouveau projet batisé Lift. L'objectif de Lift est simple : aider les personnes à "libérer leur potentiel".

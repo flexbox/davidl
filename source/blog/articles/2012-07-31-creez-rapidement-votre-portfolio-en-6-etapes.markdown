@@ -3,6 +3,8 @@ date: 2012-07-31 19:19:03+00:00
 slug: creez-rapidement-votre-portfolio-en-6-etapes
 title: Créez rapidement votre portfolio en 6 étapes
 page_title: Publiez vos travaux avec wordpress
+changefreq: monthly
+priority: 0.8
 ---
 
 ![Créez votre portfolio avec wordpress](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/wordpress_wallpaper-300x225.jpg)

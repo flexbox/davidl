@@ -3,6 +3,8 @@ date: 2013-12-06 17:03:05+00:00
 slug: scrumtalpick
 title: Le secret de scrumtalpick
 page_title: Concours seo
+changefreq: monthly
+priority: 0.8
 ---
 
 ## What

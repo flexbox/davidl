@@ -3,6 +3,8 @@ date: 2014-01-08
 slug: briefing-creatif
 title: Comment rédiger un briefing créatif
 page_title: Organiser ses idées avec un briefing créatif
+changefreq: monthly
+priority: 0.8
 ---
 
 Je complète mon précédent article sur les [question à se poser](http://davidl.fr/blog/redaction-briefing.html) avant de se lancer dans un nouveau projet.

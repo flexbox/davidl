@@ -3,6 +3,8 @@ date: 2012-07-02 16:34:00+00:00
 slug: favicon
 title: 'Icone pour vos applications web mobiles'
 page_title: Intégrer une favicon avec une webapp
+changefreq: monthly
+priority: 0.8
 ---
 
 Sur les nouveaux appareils mobiles qui envahissent le marché on peux facilement créer un raccourci pour avoir son site web favori directement sur l'écran d'accueil.

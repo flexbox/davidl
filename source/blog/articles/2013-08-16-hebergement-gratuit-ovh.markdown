@@ -3,6 +3,8 @@ date: 2013-08-16 12:05:05+00:00
 slug: hebergement-gratuit-ovh
 title: Héberger gratuitement votre site web sur github avec un nom de domaine chez OVH
 page_title: Hébergement gratuit chez GitHub
+changefreq: monthly
+priority: 0.8
 ---
 
 Récemment le bigboss de chez OVH à fait une déclaration : il a [interdit github](http://www.ovh.com/fr/a1136.interview-github-octave-klaba-ovh) au seing de son entreprise.

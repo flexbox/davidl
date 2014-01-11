@@ -3,6 +3,8 @@ date: 2011-12-27 17:11:59+00:00
 slug: liste-ultime-de-site-internet-pour-les-auto-entrepreneurs
 title: Guide pour les auto-entrepreneurs
 page_title: Référence auto-entrepreneur
+changefreq: monthly
+priority: 0.8
 ---
 
 Devenir Auto-entrepreneur est une démarche [normalement simple et rapide](http://davidleuliette.com/wordPress/2011/12/autoentrepreneur-declaration-et-numero-siret-2/).

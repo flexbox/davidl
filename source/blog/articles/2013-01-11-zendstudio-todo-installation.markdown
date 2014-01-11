@@ -3,6 +3,8 @@ date: 2013-01-11 16:32:44+00:00
 slug: zendstudio-todo-installation
 title: Zend studio la todo list ultime après une nouvelle installation
 page_title: Augmenter sa productivité avec Zend Studio
+changefreq: monthly
+priority: 0.8
 ---
 
 Zend Studio est un IDE basé sur Eclipse.

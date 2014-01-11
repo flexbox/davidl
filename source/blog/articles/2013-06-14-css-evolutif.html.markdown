@@ -3,6 +3,8 @@ date: 2013-06-14 11:55:46+00:00
 slug: css-evolutif
 title: Coder du css évolutif
 page_title: Votre CSS est malade
+changefreq: monthly
+priority: 0.8
 ---
 
 Si vous êtes un peu anglophone vous devez connaître l’excellent Podcast [shoptalkshow](http://shoptalkshow.com/)

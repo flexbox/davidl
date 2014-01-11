@@ -3,6 +3,8 @@ date: 2012-11-23 16:30:27+00:00
 slug: tarif-webdesigner
 title: Quel est le tarif horaire d'un webdesigner ?
 page_title: Fixer son tarif en freelance
+changefreq: monthly
+priority: 0.8
 ---
 
 En Freelance,[ fixer un tarif horaire](http://davidleuliette.com/wordPress/bookmarks/how-to-etablir-un-devis-fixer-ses-tarifs-en-freelance/) est compliqué.
