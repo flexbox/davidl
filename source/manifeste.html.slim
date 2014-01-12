@@ -1,0 +1,138 @@
+---
+title: Les standards du développement front-end
+description: Responsive design et développement front-end par David Leuliette, travailleur du web à Lille.
+page_title: Manifeste d'un développeur front-end éclairé
+changefreq: yearly
+priority: 0.8
+---
+
+.row
+  .medium-2.hide-for-small.columns
+    div data-magellan-expedition="fixed"
+      / dl class="sub-nav"
+      /   dd data-magellan-arrival="js-browser"
+      /     = link_to 'Navigateurs', '#js-browser'
+      /   dd data-magellan-arrival="js-html"
+      /     = link_to 'HTML', '#js-html'
+      /   dd data-magellan-arrival="js-css"
+      /     = link_to 'CSS', '#js-css'
+      /   dd data-magellan-arrival="js-javascript"
+      /     = link_to 'Javascript', '#js-javascript'
+      /   dd data-magellan-arrival="js-framework"
+      /     = link_to 'Framework', '#js-framework'
+      /   dd data-magellan-arrival="js-performance"
+      /     = link_to 'Performance', '#js-performance'
+      /   dd data-magellan-arrival="js-htmlfive"
+      /     = link_to 'HTML5 / CSS3', '#js-htmlfive'
+      /   dd data-magellan-arrival="js-accessibility"
+      /     = link_to 'Accessibilité', '#js-accessibility'
+
+  .medium-10.small-12.columns
+    p.drop-cap
+      'Je partage ce guide pour une compréhension des meilleures pratiques en développement front-end.
+      br
+      'Pour vous aider à fournir un contenu de haute qualité qui fonctionne mieux, atteint plus de personnes -pas seulement avec les navigateurs et appareils d'aujourd'hui, mais surtout ceux de demain.
+
+    hr
+    h2#js-browser data-magellan-destination="js-browser" Navigateurs
+    =image_tag 'front/south-park-browser.png', alt: 'Navigateurs web et south park'
+    h3 Les chiffres, les chiffres, les chiffres
+    p
+      'Chaque projet est différent. Le plus important est de vérifier les données de navigation de vos utilisateurs. Avec ces chiffres il sera plus simple de  décider quel navigateur vous supportez officellement.
+      br
+      'Cependant j'ai de bonnes raisons de conseiller de mettre à jour, ou de passer à un navigateur respectueux des standards du web. La qualité de mon travail sera sublimée et je passe plus de temps à développper de
+      strong
+        'nouvelles
+      'fonctionnalités.
+    p
+      'Je considère qu'il est plus productif, à long terme, de construire l'avenir plutôt que de corriger les erreurs du passé.
+
+    h3  Mon site doit-il s'afficher de la même façon sur chaque navigateur ?
+    p
+      strong
+        'NON !
+      br
+      'Une page doit jouer son rôle d'information et ne pas apparaître cassée.
+      'Le problème n'est pas le rendu des navigateurs, il s'agit d'offrir aux utilisateurs le meilleur contenu en fonction de leur appareil de navigation.
+
+    h3 Je supporte actuellement
+    .row
+      .medium-4.columns
+        p
+          'Les dernières versions de tous les
+          strong
+            'navigateurs modernes
+          'en n'oubliant pas les navigateurs mobiles.
+      .medium-4.columns
+        ul
+          li IE9+
+          li Firefox 3.5+
+          li Chrome 1+
+          li Safari 4+
+          li Opera 9+
+
+      .medium-4.columns
+        ul
+          li iPhone et iPad iOS1+
+          li Android téléphone et tablette 2.1+
+          li Blackberry OS6+
+          li Windows Phone 7.5+
+          li Firefox mobile
+          li Opera mobile
+
+    p
+      'Pour supporter les anciennes version d'internet explorer (pour IE 6-8)
+      =link_to 'il existe des solutions', 'https://github.com/scottjehl/Respond'
+      ', mais cela demande du temps supplémentaire pour mettre en place ces systèmes.
+
+    p
+      'Tester les différentes version d'Opera et Opera mobile est possible depuis un ordinateur de bureau. L'
+      ='link_to 'émulateur Opera mobile', 'http://dev.opera.com/articles/view/opera-mobile-emulator/'
+      'embarque Dragonfly, un bon outil de debug.
+
+    p
+      'Le SDK de l'iPhone est livré avec Safari Mobile, mais il est
+      =link_to 'disponible seulement sur mac', 'https://itunes.apple.com/fr/app/xcode/id497799835?mt=12'
+      '. Si je n'ai pas de mac je teste sur de vrais appareil. J'active le rapport d'erreurs dans les paramètres de Safari pour ne rien laisser passer.
+    p
+      'Je teste le code front-end de mon application web dans tous ces navigateurs pour s'assurer du fonctionnement voulu.
+
+    ul
+      li
+        'Je teste ce qui se passe à différentes résolutions d'écran et avec différentes quantité de contenu.
+      li
+        'JavaScript affiche des erreurs si quelque chose ne va pas, la
+        strong
+          'plupart du temps.
+
+
+    h3 Mobile
+    p
+      'Le mobile est extrêmement important aujourd'hui. Il sera bientôt plus important que l'ordianteur.
+      br
+      'Je fais une veille technologique pour revoir régulièrement mon support mobile et suivre l'évolution de l'industrie.
+
+    h4 Les choses simples que je peux faire
+    ul
+      li
+        'Optimiser les styles pour les petits écrans avec des requêtes
+        code
+          '@media
+        'et la balise meta
+        code
+          'viewport
+      li Ajouter le support du tactile -avec des zones de 44px x 44px
+      li
+        'Ne pas faire faire confiance à
+        code
+          ':hover
+        ', ou aux événements mouseover pour obtenir du contenu.
+      li Ne jamais utiliser de popups
+      li Éviter les zones avec défilement du contenu. Je peux coder un hack pour Safari Mobile avec les événements tactiles et transitions CSS, mais ce n'est pas facile
+      li Optimiser la taille de l'application pour garder la bande passante au minimum
+
+    h3 Les standards du web
+    p
+      'Le célèbre
+      ='link_to '"écrire une fois, déployer partout"', 'http://en.wikipedia.org/wiki/Write_once,_run_anywhere'
+      'est un des grand objectif du mouvement des standards du web. Merci aux efforts de concepteurs de sites Web et les éditeurs de navigateurs supportant les standards du web, la compatibilité du navigateur est beaucoup plus facile aujourd'hui qu'il l'a jamais été.
