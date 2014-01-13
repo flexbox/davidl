@@ -16,7 +16,7 @@
   url: http://responsivewireframe.tumblr.com/
 -
   title: Guide CSS
-  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments. J’ai rédigé ce guide qui regroupe les bonnes pratiques pour coder des feuilles de styles de qualité. <i class=\"fa fa-external-link\"></i>"
+  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments. J’ai rédigé ce guide qui regroupe les bonnes pratiques pour coder des feuilles de styles de qualité, évolutives et maintenables. <i class=\"fa fa-external-link\"></i>"
   url: http://guidecss.fr/
 -
   title: Pokemon breakpoint

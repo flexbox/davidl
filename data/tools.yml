@@ -53,3 +53,8 @@
   description: "Git tower un un bon remplaçant à GitX. Il dispose de beaucoups plus de fonctionalités et pourra vous sauver la vie pendant la résolution de conflits sous git."
   url: http://www.git-tower.com/
   image: tower.png
+-
+  name: VirtualBox
+  description: "Pour tester le comportement d'Internet Explorer avec MacOS, la solution passe par la virtualisation."
+  url: https://www.virtualbox.org/wiki/Downloads
+  image: virtualbox.png
