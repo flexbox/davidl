@@ -154,11 +154,11 @@ priority: 0.8
       'Je lis
       strong
         'régulièrement et en entier
-      'les meilleurs articles du web de
+      'les meilleurs articles de
       = link_to 'Smashing Magazine', 'http://www.smashingmagazine.com/ '
       '.
     p
-      'Je ne participe pas à l'hystérie collective de l'achat de vêtment pendant les soldes. Mon hystérie personnelle pendant cette période est l'achat compulsif de
+      'Je ne participe pas à l'hystérie collective de l'achat de vêtement pendant les soldes. Mon hystérie personnelle pendant cette période est l'achat compulsif de
       ='link_to ' livres chez sitepoint', 'http://www.sitepoint.com/store/'
       '.
     h3 Moteurs de rendu
@@ -191,4 +191,100 @@ priority: 0.8
     hr
     h2#js-html data-magellan-destination="js-html" HTML
     h3 Sémantique
+    p
+      'Je respecte le marquage HTML car ce langage permet aux navigateurs d'interpréter le contenu afin de l'afficher pour l'utilisateur.
+    ul
+      li
+        'Les titres h1 à h5 permettent de mettre en avant le contenu pour une navigation plus facile
+      li
+        'Quand un lecteur d'écran rencontre un
+        code table
+        ', il l'interprète pour donner des informations de navigation à la personne aveugle.
+      li
+        'Quand un utilisateur clique sur un
+        code
+          'label for="email"
+        ' l'input associé gagne le focus
+        code
+          'input id="email"
+    p
+      'Si c'est un
+      strong
+        'titre
+      'j'utilise un
+      strong
+        'titre
+    p
+      'Si ce sont des
+      strong
+        'données tabulaires
+      'j'utilise un
+      strong
+        'tableau
+    p
+      'Si c'est une liste de liens, j'utilise une liste
+    h3 HTML orphelin
+    p Mon HTML fonctionne sans la présence de CSS ou de Javascript. Mon contenu doit être accessible, la soumission de mes formulaires doit fonctionner. Pour tester la qualité de mon HTML, je désactive les images, le CSS et le Javascript pour vérifier la cohérence de mon contenu.
+    p Coder mon HTML sous forme de modules me permet une évolution de l'interface sans avoir à tout réécrire.
+    h3 Quelle version ?
+    p
+      'J'utilise HTML5, même si respecter des versions n'est pas le plus important. Les navigateurs comprennent et supportent n'importe quel marquage indépendament du
+      code
+        'doctype
+      'utilisé.
+    p
+      'Un
+      code
+        'doctype
+      'est obligatoire pour forcer les navigateurs à utiliser un moteur de rendu et prévénir le mode
+      code
+        'quirks
+      'avec Internet Explorer
 
+    code data-gist-id="8409520"
+
+    h4 Bonnes pratiques
+    ul
+      li J'utilise le moins d'éléments possible. Plus le HTML est léger, plus il est facile de travailler avec
+      li Je n'oublie pas les vieux navigateurs, mais je teste le marquage HTML5 dès que possible
+      li
+        'Je respecte l'
+        code
+          'utf-8
+        'pour l'encodage des caractères
+      li
+        'Je ne code
+        strong
+          'jamais
+        'mes styles de façon inline. Cette recommandation est aussi applicable aux évènements Javascript.
+
+    hr
+    h2#js-css data-magellan-destination="js-css" Feuilles de style
+    h3 CSS maintenable
+    ul
+      li Je conserve mon CSS complètement séparé du HTML
+      li Je code des modules pour le système (reset, grilles, formulaires, typographie, ...)
+      li
+        'Je respecte la cohérente de ma syntaxe pour
+        code
+          '.class-name
+        'et
+        code #my-id
+      li Ma priorité est de coder pour les navigateurs respectueux des standards. Je fixe les bugs pour Internet Explorer par la suite
+      li
+        'Je partage mon expérience avec la communauté sur
+        =link_to 'Guide CSS', 'http://guidecss.fr'
+
+    h3 Internet Explorer ? Nous avons un problème
+    p Je remercie chaque jour les navigateurs modernes d'avoir une certaine cohérence. Je n'ai jamais eu besoin de hack pour règler un problème sur un navigateur spécifique autre que IE.
+    p Sans Internet Exporer, le développement front-end serait un jeu d'enfant.
+    h4 Rendre IE Compatible avec lui-même
+    pre
+      code
+        <span><</span>meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    p Pour tester IE, je démarre de la dernière version disponible pour remonter dans le temps au fur et à mesure.
+
+    h4 Les commentaires conditionnels pour Internet Explorer
+
+    p Dans le début de mon document j'utilise les conseils de paul_irish
