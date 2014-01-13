@@ -2,6 +2,7 @@
 title: Les standards du développement front-end
 description: Responsive design et développement front-end par David Leuliette, travailleur du web à Lille.
 page_title: Manifeste d'un développeur front-end éclairé
+page_class: m-manifest
 changefreq: yearly
 priority: 0.8
 ---
@@ -9,23 +10,23 @@ priority: 0.8
 .row
   .medium-2.hide-for-small.columns
     div data-magellan-expedition="fixed"
-      / dl class="sub-nav"
-      /   dd data-magellan-arrival="js-browser"
-      /     = link_to 'Navigateurs', '#js-browser'
-      /   dd data-magellan-arrival="js-html"
-      /     = link_to 'HTML', '#js-html'
-      /   dd data-magellan-arrival="js-css"
-      /     = link_to 'CSS', '#js-css'
-      /   dd data-magellan-arrival="js-javascript"
-      /     = link_to 'Javascript', '#js-javascript'
-      /   dd data-magellan-arrival="js-framework"
-      /     = link_to 'Framework', '#js-framework'
-      /   dd data-magellan-arrival="js-performance"
-      /     = link_to 'Performance', '#js-performance'
-      /   dd data-magellan-arrival="js-htmlfive"
-      /     = link_to 'HTML5 / CSS3', '#js-htmlfive'
-      /   dd data-magellan-arrival="js-accessibility"
-      /     = link_to 'Accessibilité', '#js-accessibility'
+      dl class="sub-nav"
+        dd data-magellan-arrival="js-browser"
+          = link_to 'Navigateurs', '#js-browser'
+        dd data-magellan-arrival="js-html"
+          = link_to 'HTML', '#js-html'
+        dd data-magellan-arrival="js-css"
+          = link_to 'CSS', '#js-css'
+        dd data-magellan-arrival="js-javascript"
+          = link_to 'Javascript', '#js-javascript'
+        dd data-magellan-arrival="js-framework"
+          = link_to 'Framework', '#js-framework'
+        dd data-magellan-arrival="js-performance"
+          = link_to 'Performance', '#js-performance'
+        dd data-magellan-arrival="js-htmlfive"
+          = link_to 'HTML5 / CSS3', '#js-htmlfive'
+        dd data-magellan-arrival="js-accessibility"
+          = link_to 'Accessibilité', '#js-accessibility'
 
   .medium-10.small-12.columns
     p.drop-cap
@@ -111,7 +112,6 @@ priority: 0.8
       'Le mobile est extrêmement important aujourd'hui. Il sera bientôt plus important que l'ordianteur.
       br
       'Je fais une veille technologique pour revoir régulièrement mon support mobile et suivre l'évolution de l'industrie.
-
     h4 Les choses simples que je peux faire
     ul
       li
@@ -138,3 +138,57 @@ priority: 0.8
       'est l'un des grand objectif du mouvement des standards du web. La compatibilité entre navigateurs est beaucoups plus facile aujourd'hui qu'il ne l'a jamais été. Mon challenge actuel est d'être compatible avec les différents appareils du marché.
     p
       'Ma bible est la spécification fournie par le World Wide Web Consortium. Le W3C et le WATWG sont des groupes qui travaillent à la grande question "Qu'est-ce que le Web devrait être ?". Ils publient des normes et des API pour que les développeurs les mettent en place sur les navigateur. Ces groupes sont ouverts à tous et chacun peut y contribuer.
+    h4 Suivre les gurus de la communauté
+    p Suivre les changements et être à l’écoute des designer et développeurs est important.
+    p
+      'Les personnes que je recommande
+      ='link_to '@paul_irish', 'http://twitter.com/paul_irish'
+      ='link_to '@leaverou', 'http://twitter.com/leaverou'
+      ='link_to '@brad_frost', 'http://twitter.com/brad_frost'
+      ='link_to '@ResWebDes', 'http://twitter.com/ResWebDes'
+      ='link_to '@chriscoyier', 'http://twitter.com/chriscoyier'
+      ='link_to '@snookca', 'http://twitter.com/snookca'
+      ='link_to '@aarron', 'http://twitter.com/aarron'
+      ='link_to '@davidwalshblog', 'http://twitter.com/davidwalshblog'
+    p
+      'Je lis
+      strong
+        'régulièrement et en entier
+      'les meilleurs articles du web de
+      = link_to 'Smashing Magazine', 'http://www.smashingmagazine.com/ '
+      '.
+    p
+      'Je ne participe pas à l'hystérie collective de l'achat de vêtment pendant les soldes. Mon hystérie personnelle pendant cette période est l'achat compulsif de
+      ='link_to ' livres chez sitepoint', 'http://www.sitepoint.com/store/'
+      '.
+    h3 Moteurs de rendu
+    p Le moteur de rendu d’un navigateur interprète HTML, CSS, et d’autres standards comme XSLT, SVG, et converti tout ça en pixels.
+    h4 Les 4 fantastiques
+    .row
+      .medium-6.columns
+        table
+          thead
+            tr
+              th Moteur de rendu
+              th Navigateur
+          tbody
+            tr
+              td Trident
+              td Internet Explorer
+            tr
+              td Gecko
+              td Firefox
+            tr
+              td Webkit
+              td Safari & tous les appareils Apple
+            tr
+              td Blink
+              td Chrome et les appareils Android, Opera
+      .medium-6.columns
+        p
+          'Comprendre les différences et les bizarreries de ces 4 moteurs de rendu me permet de réduire le temps nécessaire à la mise en page et aux tests de rendu.
+
+    hr
+    h2#js-html data-magellan-destination="js-html" HTML
+    h3 Sémantique
+
