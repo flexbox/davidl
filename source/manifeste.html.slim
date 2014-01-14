@@ -302,7 +302,7 @@ priority: 0.8
       li Écran ou print
       li Hauteur et largeur
       li Orientation - portrait ou paysage ?
-      li Résolution
+      li Résolution d'écran
     p J'optimise les différents styles pour les différents appareils.
     code data-gist-id="8057428"
     p
@@ -334,7 +334,7 @@ priority: 0.8
     h3 En quoi Javascript est-il le meilleur ?
     ul
       li Interaction utilisateur
-      li Expéreience utilisateur
+      li Expérience utilisateur
       li Comportement dynamique
       li Animation
       li Rendre les pages plus faciles d'utilisation
@@ -354,6 +354,55 @@ priority: 0.8
       li Éviter le Javascript inline et embedded
     hr
     h2#js-css data-magellan-destination="js-framework" Framework
+    .row
+      .medium-4.columns'
+        blockquote
+          'Si vous voulez utiliser une librairie vous devez la lire, la comprendre, être d'accord avec elle, et ne pas être capable d'en écrire une meilleure quand vous êtes en forme.
+          cite
+            '@sentience
+
+        p
+          'Les frameworks ne sont pas mauvais. Il permettent de gagner du temps, corriger des bugs de compatibilité, et d'apprendre de nouvelles choses. Mais ils ajoutent énormément de fonctionnalités qui complexifient votre application. Prenez du temps pour les étudier avant de les utiliser complètement.
+      .medium-7.columns'
+        h3 Le cas Javascript
+
+        p
+          'Je choisis un framework principal, ajoute les librairies spécifiques qui ne sont pas embarqués avec le framework
+          strong
+            'seulement si elles sont nécessaires
+          '.
+          br
+          'Gestion des effets et des animations, visualisation des données, SVG et polyfill (Ajouter des fonctionnalités qui ne sont pas supportés par certains navigateurs)
+
+        h3 Lire, collaborer et contribuer aux projets open source
+
+        p Les frameworks open source sont des produits crées par des passionnés. Ces personnes qui s'investissent créent de  bonnes choses.
+
+        p
+          'Je continue de suivre les bibliothèques principales comme
+          =link_to 'jQuery', 'http://jquery.com/'
+          ',
+          =link_to 'd3js', 'http://d3js.org/'
+          ', ainsi que mon framework front-end préféré
+          =link_to 'Foundation', 'http://foundation.zurb.com/docs/javascript.html'
+          '.
+
+        p
+          'Je vais aux
+          ='link_to 'conférences de barbus', 'https://fosdem.org/'
+          'pour rencontrer des super-héros comme
+          =link_to 'Christian Heilmann', 'https://twitter.com/codepo8'
+          '.
+
+        h3 Créer ses propres outils.
+
+        p
+          |Il existe beaucoups d'outils dehors. Mais dès que j'identifie un besoin j'essaye de créer ma propre librairie, application, site-web pour y remédier (
+          =link_to 'responsiveicon.fr', 'http://responsiveicon.fr/'
+          ',
+          =link_to 'pokemonbreakpoint.fr', 'http://pokemonbreakpoint.fr'
+          ', ...)
+
     hr
     h2#js-css data-magellan-destination="js-performance" Performance
     hr
