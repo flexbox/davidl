@@ -3,7 +3,7 @@ title: Les standards du développement front-end
 description: Responsive design et développement front-end par David Leuliette, travailleur du web à Lille.
 page_title: Manifeste d'un développeur front-end éclairé
 page_class: m-manifest
-changefreq: yearly
+changefreq: daily
 priority: 0.8
 ---
 
@@ -228,7 +228,7 @@ priority: 0.8
     p Coder mon HTML sous forme de modules me permet une évolution de l'interface sans avoir à tout réécrire.
     h3 Quelle version ?
     p
-      'J'utilise HTML5, même si respecter des versions n'est pas le plus important. Les navigateurs comprennent et supportent n'importe quel marquage indépendament du
+      'J'utilise HTML5, même si respecter des versions n'est pas le plus important. Les navigateurs comprennent et supportent n'importe quel marquage, indépendament du
       code
         'doctype
       'utilisé.
@@ -256,7 +256,7 @@ priority: 0.8
         'Je ne code
         strong
           'jamais
-        'mes styles de façon inline. Cette recommandation est aussi applicable aux évènements Javascript.
+        'mes styles de façon inline. Cette recommandation est aussi applicable aux évènements Javascript
 
     hr
     h2#js-css data-magellan-destination="js-css" Feuilles de style
@@ -274,7 +274,6 @@ priority: 0.8
       li
         'Je partage mon expérience avec la communauté sur
         =link_to 'Guide CSS', 'http://guidecss.fr'
-
     h3 Internet Explorer ? Nous avons un problème
     p Je remercie chaque jour les navigateurs modernes d'avoir une certaine cohérence. Je n'ai jamais eu besoin de hack pour règler un problème sur un navigateur spécifique autre que IE.
     p Sans Internet Exporer, le développement front-end serait un jeu d'enfant.
@@ -282,9 +281,82 @@ priority: 0.8
     pre
       code
         <span><</span>meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
     p Pour tester IE, je démarre de la dernière version disponible pour remonter dans le temps au fur et à mesure.
 
     h4 Les commentaires conditionnels pour Internet Explorer
+    p
+      'J'utilise les
+      ='link_to 'conseils de Paul Irish', 'http://www.paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/'
+      ' pour corriger les problèmes de CSS avec internet explorer.
+    code data-gist-id="8417399"
+    p
+      'Si je remplace mon en-tête HTML avec le code qui précède, je peux utiliser des classes pour cibler des versions spécifiques.
+      br
+      'Par exemple pour cibler IE8 :
+    pre
+      code
+        '.ie8 .m-manifest { float: left; width: 100%; }
+    h3 Media queries
+    p Je délivre des styles spécifiques au différents appareils. Cette propriété me sert à identifier :
+    ul
+      li Écran ou print
+      li Hauteur et largeur
+      li Orientation - portrait ou paysage ?
+      li Résolution
+    p J'optimise les différents styles pour les différents appareils.
+    code data-gist-id="8057428"
+    p
+      'La balise meta <code>viewport</code> est également nécessaire pour gérer correctement l'affichage des appareil mobile ainsi que la version de bureau.
+    pre
+      code
+        <span><</span>meta name="viewport" content="width=device-width">
+    h4 Bonnes pratiques
+    ul
+      li
+        'Je suis un adepte du
+        = link_to 'CSS Orienté Objet', 'http://guidecss.fr/cssoo.html'
+      li
+        'J'ai des
+        =link_to 'conventions de nommage', 'http://guidecss.fr/convention.html'
+      li
+        'Je ne cède ni la tentation
+        =link_to 'des nombres magiques, ni à la technique du bucheron', 'http://davidl.fr/blog/css-evolutif.html'
+      li
+        'Je code pour le système dans une logique de modules et non de pages
 
-    p Dans le début de mon document j'utilise les conseils de paul_irish
+    hr
+    h2#js-css data-magellan-destination="js-javascript" Javascript
+    p
+      'Javascript vient en complément de la base HTML et CSS. Il améliore l'expérience et le comportement de la page utilisateur,
+      strong
+        'c'est tout
+      '.
+    h3 En quoi Javascript est-il le meilleur ?
+    ul
+      li Interaction utilisateur
+      li Expéreience utilisateur
+      li Comportement dynamique
+      li Animation
+      li Rendre les pages plus faciles d'utilisation
+      li Aide à l'accessibilité -ex ajouter le support du clavier
+      li Ajouter des fonctionnalités pour les vieux navigateurs avec des polyfills
+
+    h3 Amélioration progressive
+    h3 Clean API
+    h3 Ajouter des des arguments
+    h3 Contrôles
+    h3 Bonnes pratiques
+    ul
+      li
+        'Favoriser les Frameworks et la pratique du
+        =link_to 'code DRY', 'http://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas'
+
+      li Éviter le Javascript inline et embedded
+    hr
+    h2#js-css data-magellan-destination="js-framework" Framework
+    hr
+    h2#js-css data-magellan-destination="js-performance" Performance
+    hr
+    h2#js-css data-magellan-destination="js-htmlfive" HTML5 / CSS3
+    hr
+    h2#js-css data-magellan-destination="js-accessibility" Accessibilité

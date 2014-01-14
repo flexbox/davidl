@@ -1,9 +1,12 @@
 $body-font-color    : $black-light;
 $anchor-font-color  : $blue-steroid;
-$code-color           : $magenta;
 $text-shadow: rgba($black,0.8) 0px 2px 0px;
 
 $transition-duration: 0.5s;
+
+$code-color: $magenta;
+$code-background-color: rgba($white,0.8);
+
 
 @mixin x-transition ($values) {
   -webkit-transition: $values;
@@ -34,7 +37,7 @@ a {
 
 pre {
   margin-bottom: $paragraph-margin-bottom;
-  background-color: rgba($white,0.8);
+  background-color: $code-background-color;
   border: 1px solid $gray;
   border-radius: $global-radius;
   padding: em-calc(20);
@@ -47,6 +50,22 @@ pre {
 code {
   color: $code-color;
   word-wrap: break-word;
+  .gist {
+    font-weight: normal;
+    table {
+      border: none;
+      margin: 0;
+      background-color: transparent;
+    }
+    .gist-data.gist-syntax {
+      background-color: $code-background-color;
+    }
+    .gist-file {
+      .gist-meta {
+        background: none;
+      }
+    }
+  }
 }
 
 .m-homepage {
