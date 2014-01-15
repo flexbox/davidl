@@ -38,10 +38,11 @@ $masterhead-border: 5px solid $black;
       right: 0em;
     }
     &.is-scrolling {
-      font-size: rem-calc(30);
-      padding: rem-calc(20) rem-calc(40);
-      margin-top: rem-calc(20);
-      margin-bottom: rem-calc(30);
+      font-size: rem-calc(70);
+      // font-size: rem-calc(80);
+      // padding: rem-calc(20) rem-calc(40);
+      // margin-top: rem-calc(20);
+      // margin-bottom: rem-calc(30);
     }
   }
 
@@ -54,6 +55,8 @@ h2 {
   font-weight: $font-weight-normal;
   font-style: italic;
   color: $black-lighter;
+  margin-top: rem-calc(30);
+  margin-bottom: rem-calc(50);
   &:first-letter {
     text-transform: uppercase;
   }
@@ -63,6 +66,9 @@ h3 {
   text-transform: uppercase;
   color: $black;
   font-weight: $font-weight-bold;
+  font-size: rem-calc(21);
+  letter-spacing: 0.05em;
+  margin-bottom: rem-calc(20);
 }
 
 hr {

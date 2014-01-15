@@ -12,7 +12,7 @@ activate :blog do |blog|
   blog.default_extension = ".markdown"
   blog.calendar_template = "calendar.html"
 
-  blog.paginate = true
+  blog.paginate = false
   # blog.per_page = 10
   # blog.page_link = "page/:num"
 end

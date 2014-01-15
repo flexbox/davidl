@@ -108,64 +108,73 @@ priority: 0.8
 
 
     h3 Mobile
-    p
-      'Le mobile est extrêmement important aujourd'hui. Il sera bientôt plus important que l'ordianteur.
-      br
-      'Je fais une veille technologique pour revoir régulièrement mon support mobile et suivre l'évolution de l'industrie.
-    h4 Les choses simples que je peux faire
-    ul
-      li
-        'Optimiser les styles pour les petits écrans avec des requêtes
-        code
-          '@media
-        'et la balise meta
-        code
-          'viewport
-      li Ajouter le support du tactile -avec des zones de 44px x 44px
-      li
-        'Ne pas faire faire confiance à
-        code
-          ':hover
-        ', ou aux événements mouseover pour obtenir du contenu.
-      li Ne jamais utiliser de popups
-      li Éviter les zones avec défilement du contenu. Je peux coder un hack pour Safari Mobile avec les événements tactiles et transitions CSS, mais ce n'est pas facile
-      li Optimiser la taille de l'application pour garder la bande passante au minimum
+    .row
+      .medium-4.columns
+        p
+          'Le mobile est extrêmement important aujourd'hui. Il sera bientôt plus important que l'ordianteur.
+          br
+          'Je fais une veille technologique pour revoir régulièrement mon support mobile et suivre l'évolution de l'industrie.
+      .medium-7.columns
+        h4 Les choses simples que je peux faire
+        ul
+          li
+            'Optimiser les styles pour les petits écrans avec des requêtes
+            code
+              '@media
+            'et la balise meta
+            code
+              'viewport
+          li Ajouter le support du tactile -avec des zones de 44px x 44px
+          li
+            'Ne pas faire faire confiance à
+            code
+              ':hover
+            ', ou aux événements mouseover pour obtenir du contenu.
+          li Ne jamais utiliser de popups
+          li Éviter les zones avec défilement du contenu. Je peux coder un hack pour Safari Mobile avec les événements tactiles et transitions CSS, mais ce n'est pas facile
+          li Optimiser la taille de l'application pour garder la bande passante au minimum
 
     h3 Les standards du web
-    p
-      'Le célèbre
-      ='link_to '"écrire une fois, déployer partout"', 'http://en.wikipedia.org/wiki/Write_once,_run_anywhere'
-      'est l'un des grand objectif du mouvement des standards du web. La compatibilité entre navigateurs est beaucoups plus facile aujourd'hui qu'il ne l'a jamais été. Mon challenge actuel est d'être compatible avec les différents appareils du marché.
-    p
-      'Ma bible est la spécification fournie par le World Wide Web Consortium. Le W3C et le WATWG sont des groupes qui travaillent à la grande question "Qu'est-ce que le Web devrait être ?". Ils publient des normes et des API pour que les développeurs les mettent en place sur les navigateur. Ces groupes sont ouverts à tous et chacun peut y contribuer.
-    h4 Suivre les gurus de la communauté
-    p Suivre les changements et être à l’écoute des designer et développeurs est important.
-    p
-      'Les personnes que je recommande
-      ='link_to '@paul_irish', 'http://twitter.com/paul_irish'
-      ='link_to '@leaverou', 'http://twitter.com/leaverou'
-      ='link_to '@brad_frost', 'http://twitter.com/brad_frost'
-      ='link_to '@ResWebDes', 'http://twitter.com/ResWebDes'
-      ='link_to '@chriscoyier', 'http://twitter.com/chriscoyier'
-      ='link_to '@snookca', 'http://twitter.com/snookca'
-      ='link_to '@aarron', 'http://twitter.com/aarron'
-      ='link_to '@davidwalshblog', 'http://twitter.com/davidwalshblog'
-    p
-      'Je lis
-      strong
-        'régulièrement et en entier
-      'les meilleurs articles de
-      = link_to 'Smashing Magazine', 'http://www.smashingmagazine.com/ '
-      '.
-    p
-      'Je ne participe pas à l'hystérie collective de l'achat de vêtement pendant les soldes. Mon hystérie personnelle pendant cette période est l'achat compulsif de
-      ='link_to ' livres chez sitepoint', 'http://www.sitepoint.com/store/'
-      '.
-    h3 Moteurs de rendu
-    p Le moteur de rendu d’un navigateur interprète HTML, CSS, et d’autres standards comme XSLT, SVG, et converti tout ça en pixels.
-    h4 Les 4 fantastiques
     .row
-      .medium-6.columns
+      .medium-4.columns
+        p
+          'Le célèbre
+          ='link_to '"écrire une fois, déployer partout"', 'http://en.wikipedia.org/wiki/Write_once,_run_anywhere'
+          'est l'un des grand objectif du mouvement des standards du web. La compatibilité entre navigateurs est beaucoups plus facile aujourd'hui qu'il ne l'a jamais été. Mon challenge actuel est d'être compatible avec les différents appareils du marché.
+        p
+          'Ma bible est la spécification fournie par le World Wide Web Consortium. Le W3C et le WATWG sont des groupes qui travaillent à la grande question "Qu'est-ce que le Web devrait être ?". Ils publient des normes et des API pour que les développeurs les mettent en place sur les navigateur. Ces groupes sont ouverts à tous et chacun peut y contribuer.
+      .medium-7.columns
+        h4 Suivre les gurus de la communauté
+        p Suivre les changements et être à l’écoute des designer et développeurs est important.
+        p
+          'Les personnes que je recommande
+          ='link_to '@paul_irish', 'http://twitter.com/paul_irish'
+          ='link_to '@leaverou', 'http://twitter.com/leaverou'
+          ='link_to '@brad_frost', 'http://twitter.com/brad_frost'
+          ='link_to '@ResWebDes', 'http://twitter.com/ResWebDes'
+          ='link_to '@chriscoyier', 'http://twitter.com/chriscoyier'
+          ='link_to '@snookca', 'http://twitter.com/snookca'
+          ='link_to '@aarron', 'http://twitter.com/aarron'
+          ='link_to '@davidwalshblog', 'http://twitter.com/davidwalshblog'
+        p
+          'Je lis
+          strong
+            'régulièrement et en entier
+          'les meilleurs articles de
+          = link_to 'Smashing Magazine', 'http://www.smashingmagazine.com/ '
+          '.
+        p
+          'Je ne participe pas à l'hystérie collective de l'achat de vêtement pendant les soldes. Mon hystérie personnelle pendant cette période est l'achat compulsif de
+          ='link_to ' livres chez sitepoint', 'http://www.sitepoint.com/store/'
+          '.
+    h3 Moteurs de rendu
+    .row
+      .medium-4.columns
+        p Le moteur de rendu d’un navigateur interprète HTML, CSS, et d’autres standards comme XSLT, SVG, et converti tout ça en pixels.
+        p
+          'Comprendre les différences et les bizarreries de ces 4 moteurs de rendu me permet de réduire le temps nécessaire à la mise en page et aux tests de compatibilité.
+      .medium-7.columns
+        h4 Les 4 fantastiques
         table
           thead
             tr
@@ -184,9 +193,6 @@ priority: 0.8
             tr
               td Blink
               td Chrome et les appareils Android, Opera
-      .medium-6.columns
-        p
-          'Comprendre les différences et les bizarreries de ces 4 moteurs de rendu me permet de réduire le temps nécessaire à la mise en page et aux tests de rendu.
 
     hr
     h2#js-html data-magellan-destination="js-html" HTML
@@ -325,26 +331,58 @@ priority: 0.8
         'Je code pour le système dans une logique de modules et non de pages
 
     hr
-    h2#js-css data-magellan-destination="js-javascript" Javascript
-    p
-      'Javascript vient en complément de la base HTML et CSS. Il améliore l'expérience et le comportement de la page utilisateur,
-      strong
-        'c'est tout
-      '.
-    h3 En quoi Javascript est-il le meilleur ?
-    ul
-      li Interaction utilisateur
-      li Expérience utilisateur
-      li Comportement dynamique
-      li Animation
-      li Rendre les pages plus faciles d'utilisation
-      li Aide à l'accessibilité -ex ajouter le support du clavier
-      li Ajouter des fonctionnalités pour les vieux navigateurs avec des polyfills
+    h2#js-javascript data-magellan-destination="js-javascript" Javascript
 
-    h3 Amélioration progressive
-    h3 Clean API
-    h3 Ajouter des des arguments
-    h3 Contrôles
+    .row
+      .medium-4.columns
+        p
+          'Javascript vient en complément de la base HTML et CSS. Il améliore l'expérience et le comportement de la page utilisateur,
+          strong
+            'c'est tout.
+      .medium-7.columns
+        h3 En quoi Javascript est-il le meilleur ?
+        ul
+          li Interaction utilisateur
+          li Expérience utilisateur
+          li Comportement dynamique
+          li Animation
+          li Rendre les pages plus faciles d'utilisation
+          li Aide à l'accessibilité -ex ajouter le support du clavier
+          li Ajouter des fonctionnalités pour les vieux navigateurs avec des polyfills
+
+    h4 Amélioration progressive
+    p
+      'Ce concept est important. Le teste ma fonctionnalité car il se peur que certains navigateurs ne la prenne pas en charge. Si elle est supportée l'utilisateur en bénéficie, dans le cas contraire ma page fonctionne toujours.
+    p
+      'J'utilise javascript de cette façon, cela augmente la qualité de mon code et empêche atrocités comme :
+    pre
+      code
+        '<span><</span>a href="javascript:myBullshitFunction('sucks', true);"]]> Cliquez ici <span><</span><span>/</span>a>
+    p
+      'Cela signifie que si quelque chose se casse, la page <strong>continue de fonctionner</strong> sans les améliorations.
+      br
+      'L'amélioration progressive facilite également la maintenabilité, en gardant les scripts séparées il n'y a pas besoin de chercher tous les documents pour les appels de fonction.
+    h4 API propre
+    p
+      'Je ne m'encombre pas de la portée globale, je conserve donc un superbe nommage court pour mes méthodes et mes variables.
+    pre
+      code
+        |var Toggler = {
+        |  open: function() {},
+        |  close: function() {},
+        |  toggle: function() {}
+        |}
+
+    h4 Arguments optionnels
+    p
+      'J'ajoute seulement les paramètres nécessaires comme arguments. Pour un code plus clair, j'encapsule mes paramètres dans un objet <code>options</code>.
+    pre
+      code
+        |function drawCircle(x,y,radius,options) {
+        |  options = options || {};
+        |}
+
+
     h3 Bonnes pratiques
     ul
       li
@@ -352,8 +390,16 @@ priority: 0.8
         =link_to 'code DRY', 'http://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas'
 
       li Éviter le Javascript inline et embedded
+      li Garder une portée globale propre, utiliser des namespaces
+      li Toujours être sur la défensive, en utilisant des fonctions de détection
+      li
+        'Tester la performance dans tous les navigateurs cités plus haut -utiliser <code>console.time</code> pour traquer les goulets d'étranglement.
+      li Minimiser le nombre d'événements sur une page, utiliser la délégation des événements
+      li Conserver les composants indépendants dès que possible
+      li
+        'Précéder chaque déclaration de variable par <code>var</code>
     hr
-    h2#js-css data-magellan-destination="js-framework" Framework
+    h2#js-framework data-magellan-destination="js-framework" Framework
     .row
       .medium-4.columns'
         blockquote
@@ -383,7 +429,7 @@ priority: 0.8
           =link_to 'jQuery', 'http://jquery.com/'
           ',
           =link_to 'd3js', 'http://d3js.org/'
-          ', ainsi que mon framework front-end préféré
+          ', ainsi que mon framework front-end de prédilection
           =link_to 'Foundation', 'http://foundation.zurb.com/docs/javascript.html'
           '.
 
@@ -405,7 +451,21 @@ priority: 0.8
 
     hr
     h2#js-css data-magellan-destination="js-performance" Performance
+    p ...
     hr
     h2#js-css data-magellan-destination="js-htmlfive" HTML5 / CSS3
+    h3
+      'Publier des
+      =link_to 'sides-projects','http://hoooooo.fr/'
+    p
+      'Créer de petites applications me permet de tester le comportement des nouvelles API en cours de spécification. La meilleure façon de rester à jour est d'apprendre comment les utiliser en codant, si je ne pratique pas, j'oublie... Pour me rapppeller la mémoire, je peux toujours visiter
+      =link_to 'caniuse','http://caniuse.com/'
+      |.
+    h3 Bonnes pratiques
+    ul
+      li Détection des fonctionnalités
+      li Utiliser CSS3 comme récompense pour les navigateurs modernes
+      li Utiliser des polyfill HTML5 seulement s'ils sont assez abouti
     hr
     h2#js-css data-magellan-destination="js-accessibility" Accessibilité
+    p ...
