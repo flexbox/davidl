@@ -368,9 +368,13 @@ priority: 0.8
     pre
       code
         |var Toggler = {
+        br
         |  open: function() {},
+        br
         |  close: function() {},
+        br
         |  toggle: function() {}
+        br
         |}
 
     h4 Arguments optionnels
@@ -379,7 +383,9 @@ priority: 0.8
     pre
       code
         |function drawCircle(x,y,radius,options) {
+        br
         |  options = options || {};
+        br
         |}
 
 
@@ -450,10 +456,10 @@ priority: 0.8
           ', ...)
 
     hr
-    h2#js-css data-magellan-destination="js-performance" Performance
+    h2#js-performance data-magellan-destination="js-performance" Performance
     p ...
     hr
-    h2#js-css data-magellan-destination="js-htmlfive" HTML5 / CSS3
+    h2#js-htmlfive data-magellan-destination="js-htmlfive" HTML5 / CSS3
     h3
       'Publier des
       =link_to 'sides-projects','http://hoooooo.fr/'
@@ -467,5 +473,44 @@ priority: 0.8
       li Utiliser CSS3 comme récompense pour les navigateurs modernes
       li Utiliser des polyfill HTML5 seulement s'ils sont assez abouti
     hr
-    h2#js-css data-magellan-destination="js-accessibility" Accessibilité
-    p ...
+    h2#js-accessibility data-magellan-destination="js-accessibility" Accessibilité
+    h3 Humain
+
+    p
+      'L'accessibilité compte,
+      'C'est dans mon ADN car je crois en la vision de la fondation Mozilla.
+    blockquote
+      'Internet doit enrichir la vie de tous
+      cite Mozilla
+
+    p Ecrire du HTML et du CSS sémantique, flexible avec une grille et une taille évolutive doit être la norme. Je n'oublie pas que javascript peut faire des choses fantastiques avec les raccourcis claviers pour rendre mon application web le plus accessible possible.
+
+    p
+      |Ce n'est pas toujours compliqué de faire quelque chose d'accessible. Je me demande toujours comment je peux rendre l'
+      = link_to 'interaction des pages plus fluides', 'http://davidl.fr/blog/base-design-adaptatif.html'
+
+    h3 Déficience visuelle
+
+    h3 Tableaux et formulaires accessibles
+    p
+      'Je conserve des tableaux simples avec une seule entête. J'utilise la balise <code>th</code> pour les cellules de titrage avec une portée appropriée.
+
+    code data-gist-id="8446064"
+
+    p
+      'Associer le <code>label</code> à son <code>input</code> avec l'attribut <code>for</code> est la première étape pour avoir des formulaires accessibles.
+    pre
+      code
+        '&lt;label for=&quot;email&quot;&gt; Adresse email &lt;/label&gt;
+        br
+        '&lt;input id=&quot;email&quot; type=&quot;email&quot;&gt;
+
+    h3 Déficients moteurs
+
+    p
+      'J'apprécie de gagner du temps pendant mes recherches sur Google en navigant avec <code>tab</code> et les flèches directionnelles. Je n'oublie pas que certaines personnes consomment obligatoireement le web de cette façon.
+
+    h3 Cohérence de l'interface
+
+
+
