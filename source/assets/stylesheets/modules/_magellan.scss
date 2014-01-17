@@ -7,13 +7,14 @@ $magellan-padding: 10px !default;
     dd {
       a {
         @include post-list($m-post-link-border-color,$m-post-link-border-color-hover);
+        color: $black-light;
       }
     }
     .active {
       line-height: 1.8em;
       & > a {
         border-color: $m-post-recent-link-border-color-hover;
-        color: $black-light;
+        color: $black;
       }
     }
   }

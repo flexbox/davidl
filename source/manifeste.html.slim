@@ -196,42 +196,45 @@ priority: 0.8
 
     hr
     h2#js-html data-magellan-destination="js-html" HTML
-    h3 Sémantique
-    p
-      'Je respecte le marquage HTML car ce langage permet aux navigateurs d'interpréter le contenu afin de l'afficher pour l'utilisateur.
-    ul
-      li
-        'Les titres h1 à h5 permettent de mettre en avant le contenu pour une navigation plus facile
-      li
-        'Quand un lecteur d'écran rencontre un
-        code table
-        ', il l'interprète pour donner des informations de navigation à la personne aveugle.
-      li
-        'Quand un utilisateur clique sur un
-        code
-          'label for="email"
-        ' l'input associé gagne le focus
-        code
-          'input id="email"
-    p
-      'Si c'est un
-      strong
-        'titre
-      'j'utilise un
-      strong
-        'titre
-    p
-      'Si ce sont des
-      strong
-        'données tabulaires
-      'j'utilise un
-      strong
-        'tableau
-    p
-      'Si c'est une liste de liens, j'utilise une liste
-    h3 HTML orphelin
-    p Mon HTML fonctionne sans la présence de CSS ou de Javascript. Mon contenu doit être accessible, la soumission de mes formulaires doit fonctionner. Pour tester la qualité de mon HTML, je désactive les images, le CSS et le Javascript pour vérifier la cohérence de mon contenu.
-    p Coder mon HTML sous forme de modules me permet une évolution de l'interface sans avoir à tout réécrire.
+    .row
+      .medium-4.columns
+        p
+          'Je respecte le marquage HTML car ce langage permet aux navigateurs d'interpréter le contenu afin de l'afficher pour l'utilisateur.
+        p
+          'Si c'est un
+          strong
+            'titre
+          'j'utilise un
+          strong
+            'titre
+        p
+          'Si ce sont des
+          strong
+            'données tabulaires
+          'j'utilise un
+          strong
+            'tableau
+        p
+          'Si c'est une liste de liens, j'utilise une liste
+      .medium-7.columns
+        h3 Sémantique
+        ul
+          li
+            'Les titres h1 à h5 permettent de mettre en avant le contenu pour une navigation plus facile
+          li
+            'Quand un lecteur d'écran rencontre un
+            code table
+            ', il l'interprète pour donner des informations de navigation à la personne aveugle.
+          li
+            'Quand un utilisateur clique sur un
+            code
+              'label for="email"
+            ' l'input associé gagne le focus
+            code
+              'input id="email"
+        h3 HTML orphelin
+        p Mon HTML fonctionne sans la présence de CSS ou de Javascript. Mon contenu doit être accessible, la soumission de mes formulaires doit fonctionner. Pour tester la qualité de mon HTML, je désactive les images, le CSS et le Javascript pour vérifier la cohérence de mon contenu.
+        p Coder mon HTML sous forme de modules me permet une évolution de l'interface sans avoir à tout réécrire.
     h3 Quelle version ?
     p
       'J'utilise HTML5, même si respecter des versions n'est pas le plus important. Les navigateurs comprennent et supportent n'importe quel marquage, indépendament du
@@ -407,7 +410,7 @@ priority: 0.8
     hr
     h2#js-framework data-magellan-destination="js-framework" Framework
     .row
-      .medium-4.columns'
+      .medium-4.columns
         blockquote
           'Si vous voulez utiliser une librairie vous devez la lire, la comprendre, être d'accord avec elle, et ne pas être capable d'en écrire une meilleure quand vous êtes en forme.
           cite
@@ -474,22 +477,23 @@ priority: 0.8
       li Utiliser des polyfill HTML5 seulement s'ils sont assez abouti
     hr
     h2#js-accessibility data-magellan-destination="js-accessibility" Accessibilité
-    h3 Humain
+    .row
+      .medium-4.columns
+        p
+          'L'accessibilité compte,
+          'C'est dans mon ADN car je crois en la vision de la fondation Mozilla.
+        blockquote
+          'Internet doit enrichir la vie de tous
+          cite Mozilla
+      .medium-7.columns
+        h3 Humain
+        p Ecrire du HTML et du CSS sémantique, flexible avec une grille et une taille évolutive doit être la norme. Je n'oublie pas que javascript peut faire des choses fantastiques avec les raccourcis claviers pour rendre mon application web le plus accessible possible.
+        p
+          |Ce n'est pas toujours compliqué de faire quelque chose d'accessible. Je me demande toujours comment je peux rendre l'
+          = link_to 'interaction des pages plus fluides', 'http://davidl.fr/blog/base-design-adaptatif.html'
 
-    p
-      'L'accessibilité compte,
-      'C'est dans mon ADN car je crois en la vision de la fondation Mozilla.
-    blockquote
-      'Internet doit enrichir la vie de tous
-      cite Mozilla
-
-    p Ecrire du HTML et du CSS sémantique, flexible avec une grille et une taille évolutive doit être la norme. Je n'oublie pas que javascript peut faire des choses fantastiques avec les raccourcis claviers pour rendre mon application web le plus accessible possible.
-
-    p
-      |Ce n'est pas toujours compliqué de faire quelque chose d'accessible. Je me demande toujours comment je peux rendre l'
-      = link_to 'interaction des pages plus fluides', 'http://davidl.fr/blog/base-design-adaptatif.html'
-
-    h3 Déficience visuelle
+        h3 Déficience visuelle
+        p J'utilise un schéma de conleur simple et correctement contrasté. Certainnes personnes sont atteinte de daltonisme mais la déficience visuelle existe aussi si l'on regarde son appareil mobile en plein soleil.
 
     h3 Tableaux et formulaires accessibles
     p
@@ -506,11 +510,15 @@ priority: 0.8
         '&lt;input id=&quot;email&quot; type=&quot;email&quot;&gt;
 
     h3 Déficients moteurs
-
     p
       'J'apprécie de gagner du temps pendant mes recherches sur Google en navigant avec <code>tab</code> et les flèches directionnelles. Je n'oublie pas que certaines personnes consomment obligatoireement le web de cette façon.
 
     h3 Cohérence de l'interface
+    p
+      'Ce n’est peut être pas évident pour tout le monde, mais il est prouvé qu’avoir une interface cohérente aide les utilisateurs à accéder à ce qu'ils souhaitent. Pour atteindre cet objectif, je réalise des
+      =link_to 'guides de style', '/codex.html'
+      ', quelque soit la taille de mes projets.
 
+    h3 WCAG et WAI ARIA
 
 

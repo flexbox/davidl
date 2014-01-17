@@ -12,11 +12,6 @@ $masterhead-border: 5px solid $black;
   position: relative;
   color: $white-dark;
   text-shadow: $text-shadow;
-  @include x-transition(all $transition-duration ease-in-out);
-
-  &.is-scrolling {
-    font-size: rem-calc(25);
-  }
 
   @media #{$small} {
     margin-top: rem-calc(80);
@@ -37,13 +32,6 @@ $masterhead-border: 5px solid $black;
       content: "\223D";
       right: 0em;
     }
-    &.is-scrolling {
-      font-size: rem-calc(70);
-      // font-size: rem-calc(80);
-      // padding: rem-calc(20) rem-calc(40);
-      // margin-top: rem-calc(20);
-      // margin-bottom: rem-calc(30);
-    }
   }
 
 
@@ -56,7 +44,7 @@ h2 {
   font-style: italic;
   color: $black-lighter;
   margin-top: rem-calc(30);
-  margin-bottom: rem-calc(50);
+  margin-bottom: rem-calc(40);
   &:first-letter {
     text-transform: uppercase;
   }
@@ -69,6 +57,10 @@ h3 {
   font-size: rem-calc(21);
   letter-spacing: 0.05em;
   margin-bottom: rem-calc(20);
+}
+
+h4 {
+  color: $black-light;
 }
 
 hr {
