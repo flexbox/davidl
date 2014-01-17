@@ -252,7 +252,7 @@ priority: 0.8
 
     code data-gist-id="8409520"
 
-    h4 Bonnes pratiques
+    h3 Bonnes pratiques
     ul
       li J'utilise le moins d'éléments possible. Plus le HTML est léger, plus il est facile de travailler avec
       li Je n'oublie pas les vieux navigateurs, mais je teste le marquage HTML5 dès que possible
@@ -319,7 +319,7 @@ priority: 0.8
     pre
       code
         <span><</span>meta name="viewport" content="width=device-width">
-    h4 Bonnes pratiques
+    h3 Bonnes pratiques
     ul
       li
         'Je suis un adepte du
@@ -511,7 +511,7 @@ priority: 0.8
 
     h3 Déficients moteurs
     p
-      'J'apprécie de gagner du temps pendant mes recherches sur Google en navigant avec <code>tab</code> et les flèches directionnelles. Je n'oublie pas que certaines personnes consomment obligatoireement le web de cette façon.
+      'J'apprécie de gagner du temps pendant mes recherches sur Google en navigant avec <code>tab</code> et les flèches directionnelles. Je n'oublie pas que certaines personnes consomment obligatoireement le web de cette façon. Pour cela je met en place les attributs <code>tabindex</code> et <code>accesskey</code>.
 
     h3 Cohérence de l'interface
     p
@@ -519,6 +519,18 @@ priority: 0.8
       =link_to 'guides de style', '/codex.html'
       ', quelque soit la taille de mes projets.
 
-    h3 WCAG et WAI ARIA
-
-
+    h3 WAI ARIA
+    p Les attributs ARIA peuvent aider à expliquer les changements dynamiques de la page, réalisé en javascript pour les utilisateurs de technologies d'assistance.
+    p
+      'J'ai comme exemple cet excellent article des intégristes,
+      =link_to 'introduction à WAI ARIA.', 'http://www.lesintegristes.net/2008/12/09/introduction-a-wai-aria-traduction/'
+    h3 Bonnes pratiques
+    ul
+      li
+        'Ajouter des attributs <code>alt</code>, des formulaires et tableaux accessibles
+      li Penser à Ajax et aux lecteurs d'écran -Comment alertent-il l'utilisateur du contenu modifié ?
+      li Ajouter des alternatives clavier à tous les événements de la souris, ne pas oublier les touches d'accès
+      li
+        'Coder ses feuilles de styles avec un contraste élevé, un rythme typographique évolutif avec des mesures en <code>em</code>
+      li
+        'Évitez d'utiliser seulement une couleur pour les informations critiques -par exemple rouge = mauvais, vert = bon. Compléter avec une icône
