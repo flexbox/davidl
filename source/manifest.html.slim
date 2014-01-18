@@ -355,7 +355,7 @@ priority: 0.8
 
     h4 Amélioration progressive
     p
-      'Ce concept est important. Le teste ma fonctionnalité car il se peur que certains navigateurs ne la prenne pas en charge. Si elle est supportée l'utilisateur en bénéficie, dans le cas contraire ma page fonctionne toujours.
+      'Ce concept est important. Le teste ma fonctionnalité car il est possible que certains navigateurs ne la prenne pas en charge. Si elle est supportée l'utilisateur en bénéficie, dans le cas contraire ma page fonctionne toujours.
     p
       'J'utilise javascript de cette façon, cela augmente la qualité de mon code et empêche atrocités comme :
     pre
@@ -364,7 +364,7 @@ priority: 0.8
     p
       'Cela signifie que si quelque chose se casse, la page <strong>continue de fonctionner</strong> sans les améliorations.
       br
-      'L'amélioration progressive facilite également la maintenabilité, en gardant les scripts séparées il n'y a pas besoin de chercher tous les documents pour les appels de fonction.
+      'L'amélioration progressive facilite également la maintenabilité. En séparant les scripts de la structure HTML je n'ai pas besoin de chercher dans tous les documents pour les appels de fonction.
     h4 API propre
     p
       'Je ne m'encombre pas de la portée globale, je conserve donc un superbe nommage court pour mes méthodes et mes variables.
@@ -463,18 +463,51 @@ priority: 0.8
     p ...
     hr
     h2#js-htmlfive data-magellan-destination="js-htmlfive" HTML5 / CSS3
-    h3
-      'Publier des
-      =link_to 'sides-projects','http://hoooooo.fr/'
-    p
-      'Créer de petites applications me permet de tester le comportement des nouvelles API en cours de spécification. La meilleure façon de rester à jour est d'apprendre comment les utiliser en codant, si je ne pratique pas, j'oublie... Pour me rapppeller la mémoire, je peux toujours visiter
-      =link_to 'caniuse','http://caniuse.com/'
-      |.
+    .row
+      .medium-4.columns
+        p Je travaille dur jour après jours en respectant ces principes :
+        ul
+          li CSS et HTML codé à la main
+          li Multi-navigateurs
+          li Multi-appareils
+          li CSS structuré et optimisé
+          li Intégration sémantique avec respect du SEO
+          li Conforme au standards du web
+      .medium-7.columns
+        h3
+          'Publier des
+          =link_to 'sides-projects','http://hoooooo.fr/'
+        p
+          'Créer de petites applications me permet de tester le comportement des nouvelles API en cours de spécification. La meilleure façon de rester à jour est d'apprendre comment les utiliser en codant, si je ne pratique pas, j'oublie... Pour me rapppeller la mémoire, je peux toujours visiter
+          =link_to 'caniuse','http://caniuse.com/'
+          |.
+        h3 Nouveaux jouets
+        p J'utilise les nouvelles possibilités offertes par ces technologies mais je garde en tête le concept d'amélioration progressive. Construire des pages identiques n'est pas le but. Je ne me repose pas sur HTML5 et CSS3 pour une fonctionnalité importante de la page.
+
+        p
+          'CSS3 peut être utilisé, mais je traite toujours ses fonctionnalités comme des récompenses visuelles pour les utilisateurs. Je met en place tous les préfixes pour les différents navigateurs <strong>dans l'ordre alphabétique</strong> avec la version normale en dernier.
+        pre
+          code
+            |.m-image:hover {
+            br
+            |  -moz-transform: scale(1.5);
+            br
+            |  -ms-transform: scale(1.5);
+            br
+            |  -o-transform: scale(1.5);
+            br
+            |  -webkit-transform: scale(1.5);
+            br
+            |  transform: scale(1.5);
+            br
+            |}
+        p HTML5 peut être utilisé, mais mettre en place des polyfill pour certaines fonctionnalités se fait au détriment de la performance.
     h3 Bonnes pratiques
     ul
       li Détection des fonctionnalités
       li Utiliser CSS3 comme récompense pour les navigateurs modernes
       li Utiliser des polyfill HTML5 seulement s'ils sont assez abouti
+
     hr
     h2#js-accessibility data-magellan-destination="js-accessibility" Accessibilité
     .row
@@ -528,9 +561,10 @@ priority: 0.8
     ul
       li
         'Ajouter des attributs <code>alt</code>, des formulaires et tableaux accessibles
-      li Penser à Ajax et aux lecteurs d'écran -Comment alertent-il l'utilisateur du contenu modifié ?
-      li Ajouter des alternatives clavier à tous les événements de la souris, ne pas oublier les touches d'accès
-      li
+      li
+        'Penser à Ajax et aux lecteurs d'écran -Comment alertent-il l'utilisateur du contenu modifié ?
+      li Ajouter des alternatives clavier à tous les événements de la souris, ne pas oublier les touches d'accès
+      li
         'Coder ses feuilles de styles avec un contraste élevé, un rythme typographique évolutif avec des mesures en <code>em</code>
       li
-        'Évitez d'utiliser seulement une couleur pour les informations critiques -par exemple rouge = mauvais, vert = bon. Compléter avec une icône
+        'Évitez d'utiliser seulement une couleur pour les informations critiques -par exemple rouge = mauvais, vert = bon. Compléter avec une icône

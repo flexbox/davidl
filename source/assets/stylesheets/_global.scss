@@ -35,18 +35,35 @@ a {
   }
 }
 
-pre {
+pre,
+.gist-file {
   margin-bottom: $paragraph-margin-bottom;
   background-color: $code-background-color;
   border: 1px solid $gray;
   border-radius: $global-radius;
-  padding: em-calc(20);
-  @include single-transition();
   &:hover {
-    border-color: $anchor-font-color;
     cursor: $cursor-text-value;
   }
 }
+pre {
+  padding: em-calc(20);
+}
+
+.gist .gist-file .gist-data .line-numbers {
+  border: none;
+  background-color: $gray;
+}
+.gist .gist-file,
+.gist .gist-file .gist-data {
+  border: none;
+}
+
+
+
+.gist-meta {
+  display: none;
+}
+
 code {
   color: $code-color;
   word-wrap: break-word;
