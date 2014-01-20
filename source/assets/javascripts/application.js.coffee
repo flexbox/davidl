@@ -16,3 +16,8 @@
 #= require "about"
 
 #= require "blog"
+
+
+
+#= require "jquery-videobackground/script/jquery.videobackground"
+#= require "webdesign"

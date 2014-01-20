@@ -2,6 +2,7 @@
   "name": "davidl",
   "version": "1.0.0",
   "dependencies": {
-    "foundation": "~5.0.2"
+    "foundation": "~5.0.2",
+    "jquery-videobackground": "1.3.1"
   }
 }
