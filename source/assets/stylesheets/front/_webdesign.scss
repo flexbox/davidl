@@ -29,3 +29,29 @@
     }
   }
 }
+
+.m-webdesign {
+  .m-masterhead--background {
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+.m-video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.m-video-background video {
+  height: 720px;
+  min-width: 100%;
+}
+
+#main {
+  padding: 10px;
+  margin: 10px 0;
+}
