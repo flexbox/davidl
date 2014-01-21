@@ -460,6 +460,10 @@ priority: 0.8
 
     hr
     h2#js-performance data-magellan-destination="js-performance" Performance
+    blockquote
+      'Quand il s'agit de naviguer sur le web, être rapide, c'est mieux.
+      cite Joseph Scott
+
     h3 Les meilleures pratiques de Yahoo
     p
       |L'
@@ -470,28 +474,6 @@ priority: 0.8
     p
       ='link_to 'Steve Souders', 'http://stevesouders.com/'
       'est mon maître jedi en ce qui concerne la performance des sites internet.
-
-    h4 Minimiser les requêtes HTTP
-    p
-      'Je combine, minifie et Gzip tous les <code>assets</code> de mes sites (Feuilles de styles et scripts). J'utilise des images. Ces optimisations permmettent de réduire le nombre d'allers-retours vers le serveur.
-    h4 Utiliser un CDN
-    p
-      'Tous mes <code>assets</code> sont hébergés sur un serveur spécifique comme Cloudfront. Je noublie pas que le cache est mon ami notmament pour les éléments récurents.
-    h4 Feuille de styles au début
-    p
-      'Les feuilles de styles doivent êtres appellées le plus tôt pour permettre un rendu progressif de la page.
-    h4 Scripts à la fin
-    p
-      'Les balises <code>script</code> bloquent les téléchargements parallèles, les mettre en dernier permet aux autres ressources d'être téléchargées en premier.
-    h4 Éviter redirections
-    p Elles ralentissent l'expérience utilisateur.
-    h4 Réduire le nombres d'élément du DOM
-    p Des pages plus petites avec moins d'éléments sont plus rapides à parcourir et modifier. CQFD.
-    h4
-      'Réduire le nombre de <code>iframes</code>
-    p
-      'Même si elle est vide, c'est très coûteux car ce sont de nouvelles fenêtres, qui bloquent aussi l'événement <code>onload</code> de la page.
-
     h4 Développer des évènements intelligents
     p Je réduis au minimum la quantité d'écouteurs d'événement dans une page avec la délégation de l'événement.
     p
@@ -499,18 +481,51 @@ priority: 0.8
       =link_to 'convention de nommage précises','http://guidecss.fr/convention.html#ancres_javascript'
       ', je gère les occurrences de cet événement dans la page.
     p Je n'oublie pas de mettre en cache mes objets dans des variables afin de minimiser les accès au DOM.
-    h4 Supprimmer les filtres IE en CSS
-    p Les filtres sont des "caractéristiques particulières" en CSS pour IE, ils ralentissent la page, donc à utiliser avec parcimonie.
-    h4 Optimiser les images
-    p Je met en place des traitements par lot avec le compresseur d'image YUI, ImageOptim ou des générateurs de sprite. Je les utilise pour avoir une taille d'image aussi faible que possible tout en conservant leur qualité.
-    h4 Conserver ses composants en dessous de 25 Ko
-    p L'iPhone ne met pas en cache quoi que ce soit plus grand que 25 Ko non compressé.
+    ul.large-block-grid-3.medium-block-grid-2
+      li
+        h4 Minimiser les requêtes HTTP
+        p
+          'Je combine, minifie et Gzip tous les <code>assets</code> de mes sites (Feuilles de styles et scripts). J'utilise des images. Ces optimisations permmettent de réduire le nombre d'allers-retours vers le serveur.
+      li
+        h4 Utiliser un CDN
+        p
+          'Tous mes <code>assets</code> sont hébergés sur un serveur spécifique comme Cloudfront. Je noublie pas que le cache est mon ami notmament pour les éléments récurents.
+      li
+        h4 Feuille de styles au début
+        p
+          'Les feuilles de styles doivent êtres appellées le plus tôt pour permettre un rendu progressif de la page.
+      li
+        h4 Scripts à la fin
+        p
+          'Les balises <code>script</code> bloquent les téléchargements parallèles, les mettre en dernier permet aux autres ressources d'être téléchargées en premier.
+      li
+        h4 Éviter redirections
+        p Elles ralentissent l'expérience utilisateur.
+      li
+        h4 Réduire le nombres d'élément du DOM
+        p Des pages plus petites avec moins d'éléments sont plus rapides à parcourir et modifier. CQFD.
+      li
+        h4
+          'Réduire le nombre de <code>iframes</code>
+        p
+          'Même si elle est vide, c'est très coûteux car ce sont de nouvelles fenêtres, qui bloquent aussi l'événement <code>onload</code> de la page.
+      li
+        h4 Supprimmer les filtres IE en CSS
+        p Les filtres sont des "caractéristiques particulières" en CSS pour IE, ils ralentissent la page, donc à utiliser avec parcimonie.
+      li
+        h4 Optimiser les images
+        p Je met en place des traitements par lot avec le compresseur d'image YUI, ImageOptim ou des générateurs de sprite. Je les utilise pour avoir une taille d'image aussi faible que possible tout en conservant leur qualité.
+      li
+        h4 Conserver ses composants en dessous de 25 Ko
+        p L'iPhone ne met pas en cache quoi que ce soit plus grand que 25 Ko non compressé.
 
-    h4 Pas de 404s
-    p Avec les google webmaster tools j'identifie et supprime ces déplacements inutiles vers le serveur.
+      li
+        h4 Pas de 404s
+        p Avec les google webmaster tools j'identifie et supprime ces déplacements inutiles vers le serveur.
 
-    h4 Réduire la taille des Cookies
-    p Transféré dans les en-têtes de page, je supprime les cookies inutiles, en conservant une petite taille et je fixe une date d'expiration.
+      li
+        h4 Réduire la taille des Cookies
+        p Transféré dans les en-têtes de page, je supprime les cookies inutiles, en conservant une petite taille et je fixe une date d'expiration.
 
     hr
     h2#js-htmlfive data-magellan-destination="js-htmlfive" HTML5 / CSS3
@@ -523,7 +538,7 @@ priority: 0.8
           li Multi-appareils
           li CSS structuré et optimisé
           li Intégration sémantique avec respect du SEO
-          li Conforme au standards du web
+          li Conforme aux standards du web
       .medium-7.columns
         h3
           'Publier des
