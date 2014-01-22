@@ -1,0 +1,63 @@
+---
+title: Plan du site
+page_title: Pour vous aider à concevoir des applications web évolutives
+changefreq: monthly
+priority: 0
+---
+
+.row
+  .medium-12.columns
+    p.drop-cap
+      'J'ai créé un bon nombre de pages web pour enseigner aux visiteurs les bonnes pratiques du développement front-end. Pour vous aider à trouver ce que vous cherchez, j'ai organisé ces pages en groupes.
+
+    hr
+    .row
+      .medium-2.columns
+        h2
+          = link_to 'Blog', '/blog/'
+      .medium-10.columns
+        h3 Blog d'un développeur / designer front-end à Lille.
+        p Sur mon blog, vous trouverez des articles sur le développement front-end, l'informatique, le hacking et le design en général. Mes langages préférés : Javascript, HTML5, CSS3 et Ruby.
+
+    hr
+    .row
+      .medium-2.columns
+        h2 Projets
+      .medium-10.columns
+        h3 Mes projets
+        p Découvrez tous mes projets open source, ainsi que ma façon de travailler.
+        ul.large-block-grid-3.medium-block-grid-2
+          li
+            = link_to '/webdesign.html' do
+              .m-panel
+                h4 Webdesign
+          li
+            = link_to '/manifest.html' do
+              .m-panel
+                h4 Manifeste
+          li
+            = link_to '/toolkit.html' do
+              .m-panel
+                h4 Outils
+
+    hr
+    .row
+      .medium-2.columns
+        h2
+          = link_to 'À propos', '/about.html'
+      .medium-10.columns
+        h3 En savoir plus sur moi
+        p Découvrez plus d'informations sur les technologies que j'utilise, mes lectures, mes compétences et mes langages de programmation de prédilection.
+
+    hr
+    .row
+      .medium-2.columns
+        h2
+          = link_to 'Contact', '/contact.html'
+      .medium-10.columns
+        h3 Comment me contacter ?
+        p
+          'Retrouver mes informations pour avoir une réponse rapide. N'ésitez pas à
+          ='link_to 'vous inscrire par email', '#js-mailchimpemail', class: 'js-mailchimp-destination'
+          ' pour recevoir gratuitement mes meilleurs articles.
+

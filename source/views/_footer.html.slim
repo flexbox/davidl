@@ -29,8 +29,10 @@ footer.m-footer
     .medium-4.columns
       p.text-right
         'Ce site est rédigé et administré par
-        = link_to('David Leuliette','/human.txt')
+        = link_to 'David Leuliette', '/human.txt'
       p.text-right
-        =' link_to('Mentions légales','/legal.html')
+        =link_to 'Plan', '/plan-du-site.html', title: 'Voir le plan du site'
         '&bull;
-        =' link_to('Changelog','/CHANGELOG.html')
+        =' link_to 'Mentions légales', '/legal.html'
+        '&bull;
+        =' link_to 'Changelog', '/CHANGELOG.html'
