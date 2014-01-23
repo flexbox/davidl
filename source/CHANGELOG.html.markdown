@@ -5,6 +5,10 @@ page_title: Changelog
 layout: blog_layout
 ---
 
+## 0.0.5 (23/01/14)
+
+* Add date in blogpost
+
 ## 0.0.4 (13/01/14)
 
 * Add newsletter subscribtion
