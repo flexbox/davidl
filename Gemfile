@@ -7,7 +7,7 @@ gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-gh-pages'
 gem 'middleman-livereload'
-gem 'middleman-favicon-maker'
+gem 'middleman-favicon-maker', '~> 3.5'
 gem 'middleman-minify-html'
 
 gem 'nokogiri'
