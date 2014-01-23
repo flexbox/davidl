@@ -54,8 +54,7 @@ $m-panel-bg-hover: rgba($white, 0.9);
   @include panel($black-light);
   @include single-transition();
 
-  border-top: $masterhead-border;
-  border-bottom: $masterhead-border;
+
   color: $white;
 
   .fa {
