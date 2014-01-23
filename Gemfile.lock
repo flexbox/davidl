@@ -133,7 +133,7 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman
   middleman-blog
-  middleman-favicon-maker
+  middleman-favicon-maker (~> 3.5)
   middleman-gh-pages
   middleman-livereload
   middleman-minify-html
