@@ -76,9 +76,6 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
-  activate :favicon_maker,
-    :favicon_maker_versions => [ :apple_152, :apple_144, :apple_120, :apple_114, :apple_76, :apple_72, :apple_60, :apple_57, :apple, :fav_196, :fav_160, :fav_96, :fav_32, :fav_16, :fav_png, :fav_ico, :mstile_144 ]
-
   activate :favicon_maker do |f|
     f.template_dir  = File.join(root, 'source')
     f.output_dir    = File.join(root, 'build')
