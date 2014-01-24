@@ -1,4 +1,5 @@
 ---
+date: 2014-01-23
 title: Changelog
 description: Les logs d'un site c'est important. Retrouvrez l'évolution des déploiements dans ce CHANGELOG.
 page_title: Changelog
