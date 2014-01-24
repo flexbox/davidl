@@ -20,7 +20,8 @@
               .small-8.columns
                 p
                   'Publié par
-                  span itemprop="name" David Leuliette
+                  a href="#{data.settings.social.google_plus}?rel=author" itemprop="name"
+                   'David Leuliette
                 p
                   .fa.fa-twitter
                   =' link_to data.settings.social.twitter.name, data.settings.social.twitter.url
