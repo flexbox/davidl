@@ -7,6 +7,10 @@ $masterhead-border: 5px solid $black;
     a {
       font-size: rem-calc(12);
       border-bottom: 0;
+      color: $gray-dark;
+      &:hover {
+        color: $white-light;
+      }
     }
   }
 }

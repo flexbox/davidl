@@ -4,7 +4,13 @@ title: Changelog
 description: Les logs d'un site c'est important. Retrouvrez l'évolution des déploiements dans ce CHANGELOG.
 page_title: Changelog
 layout: blog_layout
+changefreq: yearly
+priority: 0.3
 ---
+
+## 0.0.6 (23/01/14)
+
+* Add bookshelf for front-end dev
 
 ## 0.0.5 (23/01/14)
 

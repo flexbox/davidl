@@ -17,4 +17,5 @@ meta itemprop='name'            content='#{data.page.title}'
 meta itemprop='description'     content='#{data.page.description}'
 meta itemprop='image'           content='#{data.settings.site.logo}'
 
-link href="#{data.settings.social.google_plus}" rel="publisher"
+link rel='publisher' href='#{data.settings.social.google_plus}'
+link rel='alternate' href='#{data.settings.social.rss.url}' type='application/rss+xml' title='#{data.settings.site.title}'

@@ -1,0 +1,29 @@
+---
+title: Livre développement front-end
+description: Ce sont tous les livres utiles que je possède, que j'ai lu, aimé, et recommandé par mes soins.
+page_title: Bibliothèque de l'archiviste front-end
+changefreq: monthly
+priority: 0.8
+---
+
+- content_for :javascripts do
+  = javascript_include_tag "#{data.settings.social.amazon.affiliate}"
+
+.row
+  .medium-10.medium-centered.columns
+    p.drop-cap
+      'Pour se tenir à jour des technologies suivre l'actualité est important. Personellement j'ai des flux RSS, des mailling list, twitter et google plus pour m'informer. Problème : <strong>trop d'informations tue l'information</strong> et la lecture sur le web favorise le butinage.
+      br
+      'Régulièrement je me déconnecte volontairement de tout accès à internet -même du smartphone, pour lire de bon gros livres papiers.
+    - data.books.each_with_index do |book|
+      .m-panel
+        .row
+          .medium-4.columns
+              = image_tag "front/books/#{book.image}", alt: "Livre développement front-end #{book.collection}"
+          .medium-8.columns
+            h2
+              = link_to book.title ,book.url
+            p
+              = book.description
+            = link_to "Acheter sur Amazon", book.url, class: 'button secondary'
+
