@@ -16,13 +16,13 @@ C'est ce [repo sur github](https://github.com/zurb/foundation-5-sublime-snippets
 
 Un simple `zf-accordion` + `tab` génère le marquage suivant :
 
-![Accordion zurb foundation](/assets/images/blog/2014/foundation/foundation-accordion.gif)
+![Accordion zurb foundation](http://davidl.fr/assets/images/blog/2014/foundation/foundation-accordion.gif)
 
 ## Installation
 
 Tout se passe dans les `Preference` > `Package control`
 
-![Sublime Text preference](/assets/images/blog/2014/foundation/sublime-preference-package.png)
+![Sublime Text preference](http://davidl.fr/assets/images/blog/2014/foundation/sublime-preference-package.png)
 
 La première étape est d’ajouter une nouvelle source (raccourci `cmd` + `shift` + `P`) :
 
@@ -30,10 +30,10 @@ Package Control: Add Channel
 
     https://github.com/zurb/foundation-5-sublime-snippets.git
 
-![Sublime Text ajouter source](/assets/images/blog/2014/foundation/sublime-add-source.png)
+![Sublime Text ajouter source](http://davidl.fr/assets/images/blog/2014/foundation/sublime-add-source.png)
 
 Recherchez la commande `Package Control: Install Package`
 
-![Sublime Text installation](/assets/images/blog/2014/foundation/sublime-install-package.png)
+![Sublime Text installation](http://davidl.fr/assets/images/blog/2014/foundation/sublime-install-package.png)
 
 Il ne reste plus qu’a rechercher `Foundation-5-snippet`, et voila!
