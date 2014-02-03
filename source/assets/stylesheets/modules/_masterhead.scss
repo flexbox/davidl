@@ -17,7 +17,20 @@ $masterhead-border: 5px solid $black;
 
 .m-masterhead--background {
   background-color: $black-lighter;
-  margin-bottom: rem-calc(40);
+  margin-bottom: rem-calc(30);
+  a {
+    display: block;
+    border-bottom: none;
+    text-align: center;
+    color: $white-light;
+    text-shadow: $text-shadow;
+    padding-top: rem-calc(0);
+    padding-bottom: rem-calc(20);
+    &:hover {
+    padding-top: rem-calc(20);
+    padding-bottom: rem-calc(0);
+    }
+  }
 }
 
 .m-masterhead {
@@ -30,7 +43,7 @@ $masterhead-border: 5px solid $black;
 
   @media #{$small} {
     margin-top: rem-calc(80);
-    margin-bottom: rem-calc(120);
+    margin-bottom: rem-calc(80);
     font-size: rem-calc(70);
     padding: rem-calc(40) rem-calc(60);
     &:before,

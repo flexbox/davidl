@@ -18,24 +18,24 @@ $control-height: rem-calc(60);
   a {
     color: $white;
     border-bottom: 0;
+    display: block;
+    padding: $inline-list-bottom-margin ($inline-list-bottom-margin * 2);
     &:hover {
-      border-bottom: 1px solid $blue-steroid;
+      background-color: $black-lighter;
     }
   }
   .inline-list {
-    margin-top: $inline-list-bottom-margin;
+    margin: 0;
+    li {
+      margin: 0;
+    }
   }
 }
 
 .m-control--logo {
-  margin-top: $inline-list-bottom-margin;
-  display: block;
-  border-bottom: 0 none;
   overflow: auto;
 
   &:hover {
-    border: 0 none !important;
-
     .picto-triforce {
       @include use-sprite("triforce-hover", $pictos, $pictos-2x);
     }

@@ -1,24 +1,23 @@
 ---
-title: Une selection d'outils que j'utilise quotidiennement
+title: Logiciel développement front-end
 page_title: Les meilleurs outils de conception pour les développeurs front-end éclairés
 page_class: m-toolkit
-changefreq: yearly
+changefreq: monthly
 priority: 0.8
 ---
 
 .row
-  .medium-12.columns
+  .medium-10.medium-centered.columns
 
     - data.tools.each_with_index do |tool|
       .m-panel
         .row
-          .medium-2.columns
+          .medium-2.medium-offset-1.columns
             = image_tag "front/tools/#{tool.image}", alt: "Logo #{tool.name}"
           .medium-8.columns
             h2
               = tool.name
             p
               = tool.description
-          .medium-2.columns
             = link_to tool.url, class: 'button' do
               'Visiter le site
