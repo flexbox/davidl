@@ -7,7 +7,7 @@ changefreq: monthly
 priority: 0.8
 ---
 
-![iGoogle](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/480149483_67804f313c-300x127.jpg)
+![iGoogle](blog/legacy/2012/07/480149483_67804f313c-300x127.jpg?raw=true)
 
 iGoogle va fermer.
 Je trouve ça moche.

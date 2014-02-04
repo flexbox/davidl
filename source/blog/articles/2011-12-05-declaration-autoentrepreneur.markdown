@@ -12,9 +12,9 @@ priority: 0.8
 > Ra's al Ghul
 
 
-A l'aube de l'année 2012 Il y a encore du chemin à parcourir ! (si vous avez besoin de quelqu'un pour faire une refonte du site n'hésitez pas [à me contacter](http://davidleuliette.com))
+A l'aube de l'année 2012 Il y a encore du chemin à parcourir ! (si vous avez besoin de quelqu'un pour faire une refonte du site n'hésitez pas [à me contacter](http://davidl.fr/contact.html))
 
-Je vais vous exposer mon parcours <del>chaotique</del> pour devenir auto-entrepreneur :<!-- more -->
+Je vais vous exposer mon parcours <del>chaotique</del> pour devenir auto-entrepreneur :
 
 Déclaration sur le site officiel le 28 octobre 2011.
 J'attends les [15 jours de délai](http://lentreprise.lexpress.fr/statut-auto-entrepreneur/auto-entrepreneur-comment-faire-votre-premiere-teledeclaration_19670.html) maximum : toujours pas de nouvelles...

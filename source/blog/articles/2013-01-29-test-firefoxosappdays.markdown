@@ -12,20 +12,20 @@ Wake up! Direction Paris pour une journée de hackathon sur le nouveau système 
 
 Sur la route je récupère le fleuron des développeurs web nordiste @[nfroidure  ](http://twitter.com/nfroidure)& @[rbwebdev](http://twitter.com/rbwebdev)
 
-![#firefoxOSappdays pass](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/badge-224x300.jpg)
+![#firefoxOSappdays pass](blog/legacy/2013/01/badge.jpg?raw=true)
 
 ## Organisation
 
 Très bon accueil du staff. On nous remet ta rapidement notre sac de goodies avec de beaux stickers pour décorer nos laptop !
 Juste une remarque pour la clef USB dans mon cas c'est soit je regarde le contenu, soit je branche ma souris.... L'idée était bonne mais niveau UX c'est zéro :)
 
-![usb key marketplace](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/firefox-marketplace-USB-212x300.jpg)
+![usb key marketplace](blog/legacy/2013/01/firefox-marketplace-USB.jpg?raw=true)
 
 Petite conférence avant le début de l'épreuve : présentation du design adaptatif et du [projet Gaïa](https://github.com/GeekGrunge/gaia) ( UI guideline for firefoxOS  )
 
 @[jeremiepat](http://twitter.com/jeremiepat) je t' ai grillé direct pour le fork des slides de [Brad Frost](http://www.slideshare.net/bradfrostweb/) ;) C'est un excellent choix.
 
-![Le web est une jungle](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/mozilla-conf-300x263.jpg)
+![Le web est une jungle](blog/legacy/2013/01/mozilla-conf.jpg?raw=true)
 
 Nous sommes tous les 2 d'accord sur un point : apprendre à coder des styles en cascade **maintenable** est capital. Le css spaghetti y en a marre!
 
@@ -49,7 +49,7 @@ L'équipe suggère des idées d'application : un réveil géolocalisé, un lecte
 
 La journée est passé terriblement vite. J'ai perdu pas mal de temps à digérer la doc avant de véritablement pouvoir commencer à coder mon application.
 
-![No Brain app](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/nobrain-app-224x300.jpg)
+![No Brain app](blog/legacy/2013/01/nobrain-app.jpg?raw=true)
 
 18 h RDV dans la salle de conférence.
 2 min pour pitcher votre application devant l'auditoire et convaincre le jury.
@@ -62,7 +62,7 @@ _Note pour plus tard le secteur des applis de todo est complètement bouché. Pa
 
 Le staff mozilla nous remercie : Paris tient un nouveau record mondial avec 35 applications présentées.
 
-![#prestige +1 point](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/applause-300x84.png)
+![#prestige +1 point](blog/legacy/2013/01/applause-300x84.png)
 
 Au final les nordistes repartent avec un demi-téléphone -_-' @rbwebdev a temporté en team avec une application de flux rss.
 

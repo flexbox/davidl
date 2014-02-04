@@ -9,7 +9,7 @@ priority: 0.8
 
 Suite à l'évolution constante des tendances et une multiplication par 5 du nombre d'utilisateurs de l'Internet mobile, les entreprises prennent <del>enfin</del> conscience que leurs services doit être mis à disposition des utilisateurs de téléphones mobiles.
 
-![Qui est le meilleur ?](http://davidleuliette.com/wordPress/wp-content/uploads/2013/02/Versus.png)
+![Qui est le meilleur ?](blog/legacy/2013/02/Versus.png?raw=true)
 
 C'est un fait : une fonctionnalité importante sur un ordinateur de bureau peut devenir complètement inutile pour un utilisateur mobile. Pourquoi ? L'écran est beaucoup plus petit et le contexte n'est plus le même : vous n'êtes pas confortablement installé dans un fauteuil avec un clavier et une souris.
 
@@ -50,7 +50,7 @@ jette un véritable pavé dans la marre : au lieu de verrouiller les clients et 
 ## Webdesign adaptatif vs. Site mobile
 
 
-![Round one](http://davidleuliette.com/wordPress/wp-content/uploads/2013/02/1.adaptatifvsmobile.png)
+![Round one](blog/legacy/2013/02/1.adaptatifvsmobile.png?raw=true)
 
 Lorsque l'on compare les deux, vous devez garder à l'esprit le but de votre site.
 S'il s'agit d'un site Internet visant à fournir à ses utilisateurs une expérience mobile qui implique des décisions simples et rapides, alors le choix du site mobile est une solution acceptable.
@@ -67,7 +67,7 @@ Quand il s'agit d'optimisation, de référencement, ajout d'un couche sociale et
 ## Site mobile Vs. Application native
 
 
-![Round two](http://davidleuliette.com/wordPress/wp-content/uploads/2013/02/2.mobilevsnatif.png)
+![Round two](blog/legacy/2013/02/2.mobilevsnatif.png?raw=true)
 
 Lorsque vous essayez de comparer les sites mobiles et applications mobiles natives, n'oubliez pas d'être concentré sur une chose : le but de votre site. S'il est lié au marketing et a besoin d'une grande portée, une meilleure compatibilité avec les navigateurs, une constante mise à jour, un site mobile fonctionnera mieux pour vous. Toutefois, si votre site a besoin d'interagir avec les utilisateurs sur une base personnelle avec une exigence d'accès aux données téléphoniques personnelles, une application native est une meilleure idée.
 
@@ -81,7 +81,7 @@ Les applications natives sont à la traîne quand il s'agit du budget car ils n�
 
 ## Webdesign adaptatif Vs. Application native
 
-![Round three](http://davidleuliette.com/wordPress/wp-content/uploads/2013/02/3.adaptatifvsnatif.png)
+![Round three](blog/legacy/2013/02/3.adaptatifvsnatif.png?raw=true)
 
 J'espère que vous avez correctement assimilé les avantages des 2 méthodes proposées ci-dessus.
 L'avantage principal d'un site adaptatif sur une application native est qu'il n'y a pas de téléchargement à partir d'un marché d'application et donc, il n'y a pas d'attente de validation.

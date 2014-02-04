@@ -20,7 +20,7 @@ Un site internet développé en 2013 se doit d'intégrer de nouveaux principes :
 > Brad Frost
 
 
-![L'iceberg du design adaptatif](http://davidleuliette.com/wordPress/wp-content/uploads/2013/05/iceberg.jpg)
+![L'iceberg du design adaptatif](blog/legacy/2013/05/iceberg.jpg?raw=true)
 
 Il y a encore trop souvent beaucoup de sujets qui sont laissés de côté :
 
@@ -84,7 +84,7 @@ Une technique simple est d'inclure une fonction de `.toggle()` dans votre design
 
 Puisque vous avez mis en place votre fonction `.toggle()` pour votre logo vous pouvez utiliser ce même principe pour votre champ de recherche.
 
-![Afficher / masquer le champ de recherche](http://davidleuliette.com/wordPress/wp-content/uploads/2013/05/toggle-search.png)
+![Afficher / masquer le champ de recherche](blog/legacy/2013/05/toggle-search.png?raw=true)
 
 N'hésitez pas à utiliser la balise suivante pour une meilleure sémantique : `input type="search"`
 
@@ -112,7 +112,7 @@ Dans un contexte de navigation mobile voici les bonnes pratiques à suivre :
   * Le support tactile est une fonctionnalité à considérer comme une amélioration
   * D'autres informations existent...
 
-![Un carrousel tactile](http://davidleuliette.com/wordPress/wp-content/uploads/2013/05/side-content-300x192.png)
+![Un carrousel tactile](blog/legacy/2013/05/side-content.png?raw=true)
 
 Afficher une image coupée facilite la compréhension du toucher-glisser.
 
@@ -173,7 +173,7 @@ La navigation sur mobile peut s'envisager de différentes manières :
 
 Vous ne devez éviter de mélanger l'intégralité de votre contenu dans un scroll unique.
 
-![Wikipedia masue le contenu sur mobile](http://davidleuliette.com/wordPress/wp-content/uploads/2013/05/progressive-disclosure-201x300.png)
+![Wikipedia masue le contenu sur mobile](blog/legacy/2013/05/progressive-disclosure.png?raw=true)
 
 N'oubliez pas qu'il est important de se concentrer sur le contenu principal.
 

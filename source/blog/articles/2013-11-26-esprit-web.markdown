@@ -73,7 +73,7 @@ La solution est d'utiliser ce qui a été conçu pour un tel usage :
 Pendant des années, les développeurs et les designers web sont tombés d'accord : 1 site web a une taille fixe et doit être consulté depuis un ordinateur. Mais par sa définition un site web est quelque chose  de complètement différent :
 C'est une suite de fichiers HTML, CSS et javascript.
 
-![This is the web par Brad Frost](http://davidleuliette.com/wordPress/wp-content/uploads/2013/11/this-is-the-web-300x223.png)
+![This is the web par Brad Frost](blog/legacy/2013/11/this-is-the-web.png?raw=true)
 
 
 Pendant des années nous avons négligé les aspects fondamentaux du web :
@@ -212,7 +212,7 @@ Voici une solution qui est la meilleure d'un point de vue performance tout en re
 
 
 
-![interchange_small](http://davidleuliette.com/wordPress/wp-content/uploads/2013/11/interchange_small.png)
+![interchange_small](blog/legacy/2013/11/interchange_small.png?raw=true)
 
 
 
@@ -225,7 +225,7 @@ Grâce aux `media-query` je demande à mon CSS d'augmenter la taille de l'image.
 
 
 
-![interchange_large](http://davidleuliette.com/wordPress/wp-content/uploads/2013/11/interchange_large-300x99.png)
+![interchange_large](blog/legacy/2013/11/interchange_large.png?raw=true)
 
 
 

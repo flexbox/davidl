@@ -19,7 +19,7 @@ Arrivé un peu en retard, je remercie la personne qui m'a aidé à trouver mon b
 Après avoir vendu mon âme pour pour 15 ans concernant mon droit à l'image je trouve la salle où se déroulera l'événement.
 Tout est à votre disposition : rallonge, accès wifi, ...(Personnellement j'ai mis 2min15 à être opérationnel)
 
-![Hello world R2D2](http://davidleuliette.com/wordPress/wp-content/uploads/2012/12/openduweb-helloworld-224x300.jpg)
+![Hello world R2D2](blog/legacy/2012/12/openduweb-helloworld?raw=true.jpg)
 
 J'ai décidé de m'installer à un endroit stratégique : le coin des mecs barbus :)
 
@@ -43,7 +43,7 @@ L'ambiance est détendue et rapidement on nous propose à boire & à manger (On 
 - Tic tac,
 - Tic tac...
 
-![Don't panic](http://davidleuliette.com/wordPress/wp-content/uploads/2012/12/openduweb-calm-155x300.jpg)
+![Don't panic](blog/legacy/2012/12/openduweb-calm?raw=true.jpg)
 
 Le temps passe trèèèèès vite et je me rends compte que compléter une catégorie entière est très compliqué en compétition solo.
 
@@ -77,7 +77,7 @@ Un étudiant a remporté la catégorie développement.
 
 Et on annonce David Leuliette gagnant de l'épreuve d'intégration #Yataaa
 
-![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/12/openduweb-participant-223x300.jpg)
+![](blog/legacy/2012/12/openduweb-participant?raw=true.jpg)
 
 Par contre j'ai gagné une trottinette :/
 

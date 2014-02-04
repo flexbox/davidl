@@ -19,11 +19,11 @@ Je vais vous expliquer dans cet article comment réaliser cette manipulation.
 ## Connectez vous à votre interface
 
 
-![Le manager OVH](http://davidleuliette.com/wordPress/wp-content/uploads/2013/08/ovh.png)
+![Le manager OVH](blog/legacy/2013/08/ovh.png?raw=true)
 
 Si vous avez choisi d'acheter votre nom de domaine sans hébergement vous pouver changer l'URL de destination pour la faire pointer vers les serveurs de github.
 
-![Modifier votre DNS](http://davidleuliette.com/wordPress/wp-content/uploads/2013/08/DNS-github.png)
+![Modifier votre DNS](blog/legacy/2013/08/DNS-github.png?raw=true)
 
 Pour un domaine comme exemple.fr vous devez utiliser un enregistrement de type A et le faire pointer sur `204.232.175.78`
 
@@ -35,7 +35,7 @@ Si vous effectuez ces modifications vous devriez avoir une belle erreur 404.
 
 Pour afficher votre nouveau site il suffit de suivre ces 2 étapes :
 
-![La branche gh-pages est importante](http://davidleuliette.com/wordPress/wp-content/uploads/2013/08/gh-pages.png)
+![La branche gh-pages est importante](blog/legacy/2013/08/gh-pages.png?raw=true)
 
 1. Créer une branche 'gh-pages' et commitez vos modifications sur cette branche.
 2. Créer un fichier `CNAME` avec l'adresse de votre site (ici c'est pokemonbreakpoint)

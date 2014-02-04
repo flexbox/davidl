@@ -14,7 +14,7 @@ Retour sur ces 2 jours de formation intense qui explique toutes les étapes de l
 ## VCL 3 ?
 
 
-![VLC3 formation](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/logo.png)
+![VLC3 formation](blog/legacy/2013/01/logo.png?raw=true)
 
 Cet organisme de formation propose des programmes à la cartes à ses clients.
 Nous avons construis un programme simple avec de multiplies exemples concrets.
@@ -42,7 +42,7 @@ De nos jours il faut adopter un mode de pensée out-of-the-box : voir le web com
 * Mise en production
 
 
-![Conception des pages](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/Capture.png)
+![Conception des pages](blog/legacy/2013/01/Capture.png?raw=true)
 
 Vous souhaiter découvrir le contenu de la formation en live : [http://davidleuliette.com/formation/](http://davidleuliette.com/formation/)
 

@@ -14,4 +14,4 @@ Pratique ? pas toujours, dans certains cas de retouche cela peut être dérangea
 
 `Menu` > `Affichage` / `Afficher` / `Grille des pixels`
 
-[![La grille des pixels avec Photoshop](http://davidleuliette.com/wordPress/wp-content/uploads/2012/01/grillePixelPhotoshop.png)]
+![La grille des pixels avec Photoshop](blog/legacy/2012/01/grillePixelPhotoshop.png?raw=true)

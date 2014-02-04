@@ -7,7 +7,7 @@ changefreq: monthly
 priority: 0.8
 ---
 
-![Créez votre portfolio avec wordpress](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/wordpress_wallpaper-300x225.jpg)
+![Créez votre portfolio avec wordpress](blog/legacy/2012/07/wordpress_wallpaper.jpg?raw=true)
 
 > Les cordonniers sont les plus mal chaussés
 >
@@ -56,7 +56,7 @@ Pour mon site professionnel j'ai souscris à l'offre de base. C'est un bon débu
 
 OVH offre le choix du nom de domaine et d'hébergement en un seul endroit. C'est un avantage qui vous permettra de ne pas trop vous éparpiller entre différentes offres. Ils développent des outils de gestion desktop et mobiles (MoMi sur l'appstore) pour leurs utilisateurs.
 
-![OVH Momi](http://davidleuliette.com/wordPress/wp-content/uploads/2012/06/ovh_momi1-300x243.png)
+![OVH Momi](blog/legacy/2012/06/ovh_momi1-300x243.png?raw=true)
 
 
 ## Wordpress
@@ -69,14 +69,14 @@ OVH offre le choix du nom de domaine et d'hébergement en un seul endroit. C'est
 Cette étape la est la plus rapide : Utilisez MoMi pour gérer votre hébergement.
 Sélectionnez l'application Wordpress, et installez, elle situe dans : `Hébergement` / `Modules` / `Wordpress
 
-![Installer wordpress avec Momi](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/photo-244x300.png)
+![Installer wordpress avec Momi](blog/legacy/2012/07/photo-244x300.png?raw=true)
 
 C'est tout ! Bravo vous venez de créer un beau site internet :)
 
 La première chose à faire est de trouver un nouveau copain à celui-ci : le moteur de recherche Google.
 Connectez vous à l'administration de Wordpress, catégorie réglages.
 
-![Des url pour les humains](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/Capture1-300x133.png)](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/Capture1.png)
+![Des url pour les humains](blog/legacy/2012/07/Capture1-300x133.png?raw=true)](blog/legacy/2012/07/Capture1.png?raw=true)
 
 Dans le champ Structure personnalisée inscrivez la variable suivante pour avoir des url plus accueillantes
 
@@ -100,7 +100,7 @@ Vous trouverez facilement de documentation pour Themify et Unity. Ce sont les 2 
 
 Avec quelques dollards vous trouverez votre bonheur sur Themeforest (si vous avez choisi la méthode geek vous pourrez pleurer devant la qualité des thèmes disponibles)
 
-![Themeforest](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/Capture2-300x140.png)
+![Themeforest](blog/legacy/2012/07/Capture2-300x140.png?raw=true)
 
 Mon conseil : Choisissez quelque chose d'assez simple et de minimaliste.
 
@@ -108,7 +108,7 @@ La tentation est grande de prendre quelque chose de complètement abouti. Le poi
 
 Dès que votre thème est prêt, uploadez votre dossier sur votre serveur. Si vous cherchez un logiciel de gestion FTP je vous conseille fileZilla.
 
-![Uploader votre theme](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/Capture3.png)
+![Uploader votre theme](blog/legacy/2012/07/Capture3.png?raw=true)
 
 
     monDossierWordpress/wp-content/themes
@@ -116,7 +116,7 @@ Dès que votre thème est prêt, uploadez votre dossier sur votre serveur. Si vo
 
 Il vous reste à choisir votre thème dans l'admin wordpress
 
-![Choix du theme wordpress](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/Capture4.png)
+![Choix du theme wordpress](blog/legacy/2012/07/Capture4.png?raw=true)
 
 
 ## Ajoutez du contenu

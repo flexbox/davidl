@@ -16,7 +16,7 @@ Récemment j'ai mis à jour ma version de Zend Studio. Voici une liste de consei
 ## Installer les modules
 
 
-![Welcome to ZendStudio](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/welcome.png)
+![Welcome to ZendStudio](blog/legacy/2013/01/welcome.png?raw=true)
 
 Menu :
 `Help` > `Welcome`
@@ -62,7 +62,7 @@ Pour votre prochain projet en PHP choississez les paramètres suivants :
 * Text-file : Unix
 
 
-![Encoder vos fichiers en utf8](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/utf8.png)
+![Encoder vos fichiers en utf8](blog/legacy/2013/01/utf8.png?raw=true)
 
 Menu : `Windows` > `Preferences` > `General` > `Workspace`
 
@@ -78,6 +78,6 @@ Voici un site web ou vous pourrez télécharger des thèmes par milliers : [ecli
 
 Pour les installer il faut télécharger le fichier au format .EFP (Eclipse Preferences)
 
-![Importer un thème](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/import.png)
+![Importer un thème](blog/legacy/2013/01/import.png?raw=true)
 
 Menu : `File` > `Import`

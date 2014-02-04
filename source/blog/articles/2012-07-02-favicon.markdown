@@ -9,7 +9,7 @@ priority: 0.8
 
 Sur les nouveaux appareils mobiles qui envahissent le marché on peux facilement créer un raccourci pour avoir son site web favori directement sur l'écran d'accueil.
 
-[![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/07/5382639043_b671f6f3da.jpg)](http://www.flickr.com/photos/yishiang/5382639043/)
+[![](blog/legacy/2012/07/5382639043_b671f6f3da.jpg?raw=true)](http://www.flickr.com/photos/yishiang/5382639043/)
 
 Pour ne pas avoir de mauvaises surprises, pensez dès maintenant à créer votre favicon en version HD.
 

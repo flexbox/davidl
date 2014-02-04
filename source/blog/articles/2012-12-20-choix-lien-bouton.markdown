@@ -9,7 +9,7 @@ priority: 0.8
 
 Les boutons et les liens sont aussi vieux que le web lui même. Pour réaliser une expérience utilisateur de qualité, la question est de savoir quand utiliser l'un ou l'autre.
 
-![#protip](http://davidleuliette.com/wordPress/wp-content/uploads/2012/12/tweet-300x101.png)
+![#protip](blog/legacy/2012/12/tweet.png?raw=true)
 
 ## Liens ou boutons ?
 
@@ -34,7 +34,7 @@ Les boutons sont à l'opposé :
 
 Les aspects "négatifs" des boutons sont en réalité ses points forts. Vous pouvez styler un bouton pour lui donner un aspect tri-dimensionnel, simuler les caractéristiques physiques d'un vrai bouton et de ce fait favoriser l'acte de pression.
 
-![Mozilla guide des styles](http://davidleuliette.com/wordPress/wp-content/uploads/2012/12/button-mozilla.png)
+![Mozilla guide des styles](blog/legacy/2012/12/button-mozilla.png?raw=true)
 
 Un bouton peut également être de taille et de couleur unique.
 Cela les rends plus visibles et plus faciles à cliquer par rapport à un lien. Quand il est isolé, un bouton peut également intriguer la curiosité de l'utilisateur, ce qui pourrait conduire à plus de clics qu'un lien.
@@ -53,7 +53,7 @@ Des actions telles que l'inscription, joindre, l'achat, l'enregistrement, la pr�
 
 Afin de rendre vos boutons importants, il faut aussi considérer leur position.
 
-![Une bonne utilisation des espaces](http://davidleuliette.com/wordPress/wp-content/uploads/2012/12/button-layout.png)
+![Une bonne utilisation des espaces](blog/legacy/2012/12/button-layout.png?raw=true)
 
 Si vous placez un bouton dans une zone avec beaucoup d'objets qui l'entourent, ces derniers pourraient dégrader la puissance de votre bouton.
 Idéalement, vous voulez placez votre bouton seul avec quelques-uns comme quantité d'objets que possible, de sorte qu'une plus grande attention est attirée sur elle.
@@ -64,7 +64,7 @@ Idéalement, vous voulez placez votre bouton seul avec quelques-uns comme quanti
 
 La couleur d'un bouton est tout aussi importante.
 
-![La salle des dangers sur github](http://davidleuliette.com/wordPress/wp-content/uploads/2012/12/github-dangerzone.png)
+![La salle des dangers sur github](blog/legacy/2012/12/github-dangerzone.png?raw=true)
 
 Si une page a plus d'un bouton, le plus important doit être d'une couleur différente de celle des autres.
 Quand ils sont tous de la même couleur, ils possèdent tous le même poids.

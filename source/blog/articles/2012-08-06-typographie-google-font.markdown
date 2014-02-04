@@ -19,38 +19,36 @@ Pour avoir une lisibilité optimale dans un paragraphe utilisez la propriété C
     p { line-height : 1.5em; }
 
 
-
-
 ## De belles polices web
 
 
 Il existe de plus en plus de services pour personnaliser vos polices sur le web : typekit, cufon, le CSS3 @font-face...
 Ces différentes solutions sont soit payantes soit incompatibles avec une certaine gamme de navigateurs web développés par Microsoft.
 
-[![Google web font](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/Capture-300x69.png)](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/Capture.png)
+![Google web font](blog/legacy/2012/08/Capture.png?raw=true)
 
 Pour mettre de l'ordre dans toutes ces solutions Google arrive avec son service de police web gratuite et personnalisables. Avec Google web fonts vous avez accès à plus de 500 polices différentes. Encore faut-il savoir quelles sont les bonnes combinaisons. Voici une liste perso de combinaisons que j'ai accumulé au grès de mes voyages dans la galaxie internet.
 
-![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/1_Kreon_PT+Sans-300x254.jpg)
+![](blog/legacy/2012/08/1_Kreon_PT+Sans.jpg?raw=true)
 
 Utiliser les polices : [Kreon ](http://www.google.com/webfonts/specimen/Kreon)/ [PT Sans](http://www.google.com/webfonts/specimen/PT+Sans)
 
-![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/2_Arvo_PT+Sans-300x254.jpg)
+![](blog/legacy/2012/08/2_Arvo_PT+Sans.jpg?raw=true)
 
 Utiliser les polices : [Arvo](http://www.google.com/webfonts/specimen/Arvo) / [PT Sans](http://www.google.com/webfonts/specimen/PT+Sans)
 
-![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/3_Oswald_Lora-300x254.jpg)
+![](blog/legacy/2012/08/3_Oswald_Lora.jpg?raw=true)
 
 Utiliser les polices : [Oswald](http://www.google.com/webfonts/specimen/Oswald) / [Lora](http://www.google.com/webfonts/specimen/Lora)
 
-![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/4_Ubuntu_rokkitt-300x254.jpg)
+![](blog/legacy/2012/08/4_Ubuntu_rokkitt.jpg?raw=true)
 
 Utiliser les polices : [Ubuntu](http://www.google.com/webfonts/specimen/Ubuntu) / [Rokkitt](http://www.google.com/webfonts/specimen/Rokkitt)
 
-![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/5_Merriweather_News+Cycle-300x254.jpg)
+![](blog/legacy/2012/08/5_Merriweather_News+Cycle.jpg?raw=true)
 
 Utiliser les polices : [Merriweather](http://www.google.com/webfonts/specimen/Merriweather) / [News Cycle](http://www.google.com/webfonts/specimen/News+Cycle)
 
-![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/08/6_Cuprum_Junge-300x254.jpg)
+![](blog/legacy/2012/08/6_Cuprum_Junge.jpg?raw=true)
 
 Utiliser les polices : [Cuprum](http://www.google.com/webfonts/specimen/Cuprum) / [Junge](http://www.google.com/webfonts/specimen/Junge)

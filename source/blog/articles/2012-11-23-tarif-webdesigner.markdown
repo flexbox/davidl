@@ -14,7 +14,7 @@ Ils ont surement vu une pub à la TV pour la création de [site gratuit chez 1&1
 
 > J'ai une super idée de site ! ce serait une copie de tel site mais en changeant 2 ou 3 choses
 >
-> Le client type du XXIème siècle
+> <cite>Le client type du XXIème siècle</cite>
 
 Je suis pédagogue, j'explique simplement qu'avoir une idée c'est bien, avoir du contenu c'est mieux.
 
@@ -32,7 +32,7 @@ En tant que travailleur indépendant mon tarif s'explique simplement, j'ai plusi
 ## Solution pour un calcul rapide
 
 
-![Calculer simplement son tarif horaire](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/rate.png)
+![Calculer simplement son tarif horaire](blog/legacy/2012/11/rate.png?raw=true)
 
 [Your Rate](http://www.yourrate.co/) est un site simple d'accès (et en plus il est adaptatif).
 Il y a 3 champs à remplir :

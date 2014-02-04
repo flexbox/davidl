@@ -10,11 +10,11 @@ priority: 0.8
 La semaine dernière un évènement immanquable s'est déroulé à Lille le #[takeoffconf](http://takeoffconf.com/).
 Petit débriefing sur ce magnifique évènement :
 
-![takeoff_badge](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/takeoff_badge-300x224.jpg)
+![takeoff_badge](blog/legacy/2013/01/takeoff_badge.jpg?raw=true)
 
 Chapeau au staff qui a réussi à ramener autant de personnes pour une première édition. Il y a même le <del>8ème</del> 11ème utilisateur le plus actif de [github](https://github.com/jeromeetienne). Au programme, 2 jours de conférences in english of course pour les développeurs et designer passionnés.
 
-![Amazing french guys](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/frenchGuysRocks.jpg)
+![Amazing french guys](blog/legacy/2013/01/frenchGuysRocks.jpg?raw=true)
 
 Dear Olivier, French guys from Lille are amazing !
 
@@ -42,7 +42,7 @@ Cette spécification définit une API JavaScript pour permettre aux développeur
 ## [@Robinberjon](https://twitter.com/Robinberjon) : next.web
 
 
-![next.web](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/next.web_-300x223.jpg)
+![next.web](blog/legacy/2013/01/next.web_.jpg?raw=true)
 
 [http://berjon.com/presentations/20130117-web.next/web.next.html](http://berjon.com/presentations/20130117-web.next/web.next.html)
 
@@ -66,7 +66,7 @@ Une solution pour :
 ## What's next ? jQuery OS ?
 
 
-![jquery OS](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/jqueryOS.png)
+![jquery OS](blog/legacy/2013/01/jqueryOS.png?raw=true)
 
 La question est posée et je suis plutôt d'accord.
 
@@ -77,7 +77,7 @@ Avec la mode du cloud computing il arrivera un moment ou toute notre vie numéri
 ## Live coding session / Demo de [Meteor.js](http://meteor.com/)
 
 
-![Meteor](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/meteor.png)
+![Meteor](blog/legacy/2013/01/meteor.png?raw=true)
 
 Un framework javascript pour créer des applications incroyablement rapides tant au niveau utilisation que développement.
 
@@ -86,7 +86,7 @@ Sous le capot du node.js, mongoDB et une gestion du temps réel incroyablement e
 
 ## [@drublic](https://twitter.com/drublic) : How to write awesome code
 
-![#usefull #protip](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/code.png)
+![#usefull #protip](blog/legacy/2013/01/code.png?raw=true)
 
 [http://slides.drublic.de/takeoff-awesome-code/#/](http://slides.drublic.de/takeoff-awesome-code/#/)
 Si vous cherchez un [exemple de convention de code](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
@@ -121,7 +121,7 @@ Point de vue très intéressant sur l'architecture de logiciels en entreprise.
 Argumentation en faveur d'un autre type d'architecture logicielle où tous les services sont construits comme des API qui peuvent être externalisées à des clients.
 L'exemple d'Amazon parle de lui même : à la base ils vendaient des livres, maintenant ils ont un énorme catalogue de produits et [services web](http://aws.amazon.com/fr/products/).
 
-![API architecture](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/SOA.jpg)
+![API architecture](blog/legacy/2013/01/SOA.jpg?raw=true)
 
 [https://github.com/RobSpectre/Talks/tree/master/Product%20Oriented%20Architecture](https://github.com/RobSpectre/Talks/tree/master/Product%20Oriented%20Architecture)
 
@@ -155,7 +155,7 @@ Présentation du prochain type de mise en page css flex-box. les ressources à a
 
 ## React PHP
 
-![Blackmesa & php](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/blackmesa.png)
+![Blackmesa & php](blog/legacy/2013/01/blackmesa.png?raw=true)
 
 Une bibliothèque d'évènements en php inspirée de node.js
 [ https://github.com/reactphp/react]( https://github.com/reactphp/react)
@@ -175,7 +175,7 @@ Présentation d'une architecture orientée service et pourquoi Django n'est pas 
 
 Je n'ai jamais codé une seule ligne de python mais j'ai trouvé cette conf extrêmement inspirante.
 
-![Les contraintes forcent la créativité](http://davidleuliette.com/wordPress/wp-content/uploads/2013/01/quote.png)
+![Les contraintes forcent la créativité](blog/legacy/2013/01/quote.png?raw=true)
 
 [https://speakerdeck.com/kennethreitz/flasky-goodness](https://speakerdeck.com/kennethreitz/flasky-goodness)
 

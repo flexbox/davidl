@@ -33,7 +33,7 @@ Pour maîtriser la technique de changement du contenu installez vous confortable
 Au XXème siècle, le contenu était optimisé pour une taille d'écran de 1024*768px.
 De nos jours, il faut que l'information s'affiche aussi bien sur un écran 27 pouces que sur un smartphone. La première solution est de **masquer** la partie de votre site qui n'est pas indispensable.
 
-[![La sidebar ne s'affiche plus](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/mokup1.png)](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/mokup1.png)
+![La sidebar ne s'affiche plus](blog/legacy/2012/03/mokup1.png?raw=true?raw=true)
 
 
 Utilisez la propriété CSS `display:none` en fonction de la taille de votre périphérique. (Dans ce ca si la fenêtre est inférieure à 480px)
@@ -50,7 +50,7 @@ Utilisez la propriété CSS `display:none` en fonction de la taille de votre pé
 
 Au lieu de cacher un bloc de contenu pour les fenêtres étroites, vous pouvez utiliser une méthode moins destructive et **réduire** le contenu. Je vous conseille d'utiliser la même méthode que [wikipédia mobile](http://en.m.wikipedia.org/wiki/Web_design) : Afficher le titre de la catégorie et permettre à l'utilisateur d'explorer son contenu.
 
-[![L'éffondrement de contenu](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/mokup2.png)](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/mokup2.png)
+[![L'éffondrement de contenu](blog/legacy/2012/03/mokup2.png?raw=true)](blog/legacy/2012/03/mokup2.png?raw=true)
 
 Lorsque l'utilisateur tape le titre, le bloc se développe.
 
@@ -70,7 +70,7 @@ Pour créer un bloc pliable vous devez combiner CSS et Javascript.
 
 ### Comportement Javacript
 
-[![La fonction formatSidebar()](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/imgCode2.png)](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/imgCode2.png)
+[![La fonction formatSidebar()](blog/legacy/2012/03/imgCode2.png?raw=true)](blog/legacy/2012/03/imgCode2.png?raw=true)
 
 Utilisez [jquery](http://jquery.com/) pour vous aider à créer votre barre pliable verticale.
 Dès que le DOM est prêt on initialise la variable `collapsed` ce qui permet de savoir si notre bloc est caché ou non.
@@ -78,7 +78,7 @@ La fonction `formatSidebar()` permet de gérer tout les différents comportement
 
 ### Style CSS
 
-[![Le sprite CSS pour le style](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/imgCode2_css.png)](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/imgCode2_css.png)
+[![Le sprite CSS pour le style](blog/legacy/2012/03/imgCode2_css.png?raw=true)](blog/legacy/2012/03/imgCode2_css.png?raw=true)
 
 Les 2 règles CSS permetttent de visualiser l'état de la sidebar.
 Si elle est masquée on affiche un "+" qui invite l'utilisateur à voir le contenu caché.
@@ -88,7 +88,7 @@ On utilise un [sprite CSS](http://www.alsacreations.com/tuto/lire/1068-sprites-c
 
 Une autre astuce facile et rapide, à mettre en place dans la conception d'interface fluide, est d'utiliser une échelle pour les images.
 
-[![Redimmensionner les images](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/mokup3.png)](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/mokup3.png)
+[![Redimmensionner les images](blog/legacy/2012/03/mokup3.png?raw=true)](blog/legacy/2012/03/mokup3.png?raw=true)
 
 La façon la plus simple pour redimensionner l'image est d'ajouter la propriété CSS `max-width` à l'élément `img`, et de donner une valeure en **pourcentage**.
 Le navigateur détermine la taille de l'image par rapport à l'élément parent.
@@ -122,13 +122,13 @@ Un groupe sur [GitHub](http://fr.wikipedia.org/wiki/Git) développe ce concept d
         </noscript>
     </div>
 
-![http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/mokup4.png](http://davidleuliette.com/wordPress/wp-content/uploads/2012/03/mokup4.png)
+![blog/legacy/2012/03/mokup4.png?raw=true](blog/legacy/2012/03/mokup4.png?raw=true)
 
 Résultat : les appareils mobiles vont chercher la version optimisée mobile de votre image, alors que les navigateurs de bureau sont affichent l'image extralarge.
 
 ## Les polices de caractères
 
-[![Taille de police de base](/assets/images/blog/2012/type-scale.png)](http://webcitation.fr)
+[![Taille de police de base](/assets/images/blog/2012/type-scale.png?raw=true)](http://webcitation.fr)
 
 En suivant la méthode d'échelle des images, il est possible de redimensionner le texte pour faire un meilleur usage de l'espace disponible.
 Il est préférable de faire des petits ajustements concernant la taille de la police. Si elle est trop petite vos visiteurs auront du mal à lire.
