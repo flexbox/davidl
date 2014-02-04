@@ -32,7 +32,7 @@ A l'ouverture de l'email les images ne sont pas affichées. Pour éviter de fair
 ## Taille de la newsletter
 
 
-[![Le webmail de Google : gmail](http://davidleuliette.com/wordPress/wp-content/uploads/2012/06/webmail-300x138.png)](http://www.flickr.com/photos/25295258@N04/3327764520/)
+[![Le webmail de Google : gmail](http://davidleuliette.com/wordPress/wp-content/uploads/2012/06/webmail.png)](http://www.flickr.com/photos/25295258@N04/3327764520/)
 
 Beaucoups de personnes (dont moi) n'utilisent plus de client type thunderbird pour la consultation d'emails. L'email se lit "on the fly" sur tablette, mobile ou à l'aide du client web comme hotmail.
 La taille maximale recommandée pour s'adapter à cet écosystème est **600px** de large.
@@ -53,7 +53,7 @@ Pour changer la couleur de vos liens une seule solution : à la main et un par u
 ## Utiliser des caractères spéciaux
 
 
-![Le codage des caractères](http://davidleuliette.com/wordPress/wp-content/uploads/2012/06/entityHTML-300x128.png)
+![Le codage des caractères](http://davidleuliette.com/wordPress/wp-content/uploads/2012/06/entityHTML.png)
 
 Le corps de votre email c'est du texte. Vu la multitude de possibilités de plate-forme d'envoi et / ou de réception ne cherchez pas midi à 14h pour votre encodage de caractère : [encodez avec des entités HTML](http://responsiveicon.fr).
 

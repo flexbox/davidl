@@ -12,7 +12,7 @@ Je fait parti de ceux qui prennent un chemin diamétralement opposé : j’étei
 
 Je dessine un schéma qui défini les différentes zones de la page web. Cela me permet d'être concentré uniquement sur la mise en page et la disposition du contenu.
 
-![Identifiez les zones de votre site](http://davidleuliette.com/wordPress/wp-content/uploads/2012/10/question_wireframe-300x224.png)
+![Identifiez les zones de votre site](http://davidleuliette.com/wordPress/wp-content/uploads/2012/10/question_wireframe.png)
 
 
 Pendant la création de votre wireframe (ou maquette fil de fer) vous devriez vous posez 4 questions :

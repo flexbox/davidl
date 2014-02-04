@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 # WAT gem for ubuntu
 gem 'therubyracer'
 
-gem 'middleman'
+gem 'middleman', '~> 3.2.1'
 gem 'middleman-blog'
 gem 'middleman-gh-pages'
 gem 'middleman-livereload'

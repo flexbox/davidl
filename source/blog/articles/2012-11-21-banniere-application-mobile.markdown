@@ -16,13 +16,13 @@ Je ne parlerais pas ici de la façon de proposer un contenu accessible, mais plu
 
 Suite à une recherche j'accède au site.
 
-![Cliquez ici pour voir la version mobile ?](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/service-public-mobile-200x300.png)
+![Cliquez ici pour voir la version mobile ?](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/service-public-mobile.png)
 
 En effet le site n'est pas du tout optimisé pour une expérience mobile.
 
 Comme j'ai vraiment besoin de l'information je vais charger (une deuxième fois) le site pour la version mobile.
 
-![Un site optimisé mobile ... #oupas](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/service-public-mobile-site-200x300.png)
+![Un site optimisé mobile ... #oupas](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/service-public-mobile-site.png)
 
 
 ... Comment dire ? Euh ... No comment le site mobile est encore moins optimisé.
@@ -30,7 +30,7 @@ Comme j'ai vraiment besoin de l'information je vais charger (une deuxième fois)
 
 La solution est de charger la version lecteur qui permet (enfin !) d'accéder au contenu.
 
-![Enfin une version lisible](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/service-public-mobile-lecteur-200x300.png)
+![Enfin une version lisible](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/service-public-mobile-lecteur.png)
 
 
 
@@ -42,7 +42,7 @@ J'ai faim, je regarde mes produits dans le frigo.
 
 Comme je suis un grand cuisinier je cherche une recette sur le web ...
 
-![Un splash screen inutile](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/750g-mobile-200x300.png)
+![Un splash screen inutile](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/750g-mobile.png)
 
 750g.com n'a pas compris mon besoin : J'ai faim et je veux une recette de cuisine, pas télécharger une application !
 
@@ -51,7 +51,7 @@ Comme je suis un grand cuisinier je cherche une recette sur le web ...
 Sur le site de twitter la solution est bien adaptée : garder l'accès au contenu et proposer le téléchargement de l'application de façon intelligente.
 
 
-![Une jolie bannière qui respecte l'interface utilisateur](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/smartappbanner-200x300.png)
+![Une jolie bannière qui respecte l'interface utilisateur](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/smartappbanner.png)
 
 
 [http://smartappbanners.com/](http://smartappbanners.com/) propose une méthode unifiée pour proposer le téléchargement d'application iOS.

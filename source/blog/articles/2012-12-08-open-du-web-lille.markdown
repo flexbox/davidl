@@ -56,8 +56,6 @@ Au programme :
 * Script de login en ajax
 
 
-![](http://davidleuliette.com/wordPress/wp-content/uploads/2012/12/Sans-titre-2-300x90.png)
-
 Dans l'ensemble j'ai trouvé les livrables demandés pertinents. On ne se retrouve pas forcément bloqué si l'on ne réussi pas une étape. Le mot d'ordre est simplement d'être efficace.
 
 Le conseil que je peux donner est de ne pas perdre de vue le compteur. J'ai eu à peine le temps de finir la catégorie intégration en prenant une pause d'au moins 30 secondes sur les 3 heures.

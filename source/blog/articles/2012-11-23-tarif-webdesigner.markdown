@@ -32,7 +32,7 @@ En tant que travailleur indépendant mon tarif s'explique simplement, j'ai plusi
 ## Solution pour un calcul rapide
 
 
-![Calculer simplement son tarif horaire](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/rate-300x247.png)
+![Calculer simplement son tarif horaire](http://davidleuliette.com/wordPress/wp-content/uploads/2012/11/rate.png)
 
 [Your Rate](http://www.yourrate.co/) est un site simple d'accès (et en plus il est adaptatif).
 Il y a 3 champs à remplir :

@@ -11,4 +11,4 @@ Dans la vie de l'intégrateur Web on a besoin de mesurer <del>un peu,</del> <del
 Pendant que certains font ça au double décimètre moi j'utilise [Pixel Window](http://www.pixelwindowapp.com/).
 Ce petit logiciel fonctionne grâce à Adobe Air, il est disponible pour Linux, Windows et MacOS.
 
-[![](http://davidleuliette.com/wordPress/wp-content/uploads/2011/11/pixelWindow-300x246.png)](http://davidleuliette.com/wordPress/wp-content/uploads/2011/11/pixelWindow.png)
+[![](http://davidleuliette.com/wordPress/wp-content/uploads/2011/11/pixelWindow.png)](http://davidleuliette.com/wordPress/wp-content/uploads/2011/11/pixelWindow.png)
