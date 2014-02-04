@@ -48,7 +48,7 @@ Sur le portail des CCI un espace est consacré à l'aide des auto-entrepreneurs.
 
 [![Chambre des Métiers et de l'Artisanat](blog/legacy/2011/12/cma_logo1.jpg?raw=true)](http://www.artisanat.fr/)
 
-Ce site est plus axé sur les métiers de l'artisanat et comporte peu d'informations sur l'auto-entrepreneur, mais je me présente comme [un artisan du web](http://davidleuliette.com/index.php/studio/about) qui construit la cathédrale moderne internet.
+Ce site est plus axé sur les métiers de l'artisanat et comporte peu d'informations sur l'auto-entrepreneur, mais je me présente comme [un artisan du web](http://davidl.fr/about.html) qui construit la cathédrale moderne internet.
 
 
 

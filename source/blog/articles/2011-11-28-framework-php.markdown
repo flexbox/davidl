@@ -12,7 +12,7 @@ J'ai découvert [Ruby on Rails](https://github.com/flexbox) et c'est -selon moi,
 
 ---
 
-Pour le développement de la [nouvelle version de mon studio de création](http://davidleuliette.com) je me suis posé beaucoup de questions :
+Pour le développement de la [nouvelle version de mon studio de création](http://davidl.fr) je me suis posé beaucoup de questions :
 
 
   * Webdesign ou développement lourd ?
