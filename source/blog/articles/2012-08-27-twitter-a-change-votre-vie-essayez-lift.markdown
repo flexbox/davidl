@@ -45,7 +45,7 @@ vous pouvez choisir des objectifs déjà existants et participer ainsi à la pui
 Le principal inconvénient avec les outils de tracking est l'indigestion de données.
 Google analytics est un bon exemple. C'est un outil tellement complet qu'il faut plusieurs années afin de savoir le maîtriser. Chez Lift le credo c'est "Less is more" : une page avec un calendrier présente vos objectifs accomplis jours après jour.
 
-![Suivi des progrès avec Lift](blog/legacy/2012/08/lift_calendar?raw=true.png)
+![Suivi des progrès avec Lift](blog/legacy/2012/08/lift_calendar.png?raw=true)
 
 Tous les profils sont publics, [vous pouvez voir mes progrès sur Lift](http://lift.do/users/86bea1e4701662166281).
 
@@ -61,7 +61,7 @@ Les fondateurs de twitter l'on bien compris les recommandations sociales sont un
 ## Conclusion
 
 
-![Lift - Unlock your potential](blog/legacy/2012/08/photo-31?raw=true.png)
+![Lift - Unlock your potential](blog/legacy/2012/08/photo-31.png?raw=true)
 
 Si vous souhaitez tester ce service simplement pour voir la qualité de l'application, je vous recommande chaudement.
 L'application est simple, rapide et intuitive.
