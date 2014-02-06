@@ -224,7 +224,7 @@ Ces déclarations sont simplement **horribles**. Elles sont lourdes, forcent la 
 Ce type de CSS est représentatif d’une disposition mal codée qui nécessite ce genre de manipulation, un manque de compréhension du modèle de boîte, de la mise en page, ou les deux.
 
 Une mise en page correctement codée ne devrait jamais faire appel à la méthode du bucheron. Avec une bonne compréhension du modèle de boite et un système de grille adapté vous de devriez plus jamais vous retrouver dans cette situation.
-Dès que je croise du CSS codé de cette façon je me pose la question de savoir comment cela est passé, et comment il est possible de supprimmer ces règles pour repartir sur de meilleures bases.
+Dès que je croise du CSS codé de cette façon je me pose la question de savoir comment cela est passé, et comment il est possible de Supprimer ces règles pour repartir sur de meilleures bases.
 
 ## Sélecteurs dangereux
 
