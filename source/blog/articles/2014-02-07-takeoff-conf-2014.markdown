@@ -1,0 +1,28 @@
+---
+date: 2014-02-07
+slug: takeoff-conf-2014
+title: 'Take Off 2014 résumé en une image'
+page_title: "Une image pour les gourverner toutes"
+changefreq: monthly
+priority: 0.8
+---
+
+Le [takeoff](http://takeoffconf.com/2014) est un festival organisé par des développeurs, pour des développeurs. Pendant deux jours, cet évènement de plus de 250 personnes présente différents sujets d'actualité axé sur le Web.
+
+- Comment notre plate-forme technologique évoluera dans les mois à venir ?
+- Quelles sont les technologies qui fonctionnent ?
+- Comment s'organiser pour travailler plus efficacement ?
+
+Apprenez tout ce que les meilleures sources de l'industrie - les membres de la communauté qui font tous la magie.
+
+## Synthèse des 2 jours
+
+J'ai profité ce cette conférence pour expérimenter une chose : ma capacité de concentration. Je remarque que cela fonctionne beaucoup mieux sans aucune source de distration (tablette ou ordinateur allumé). Pendant les conférences je me suis contenté d'un carnet et de crayons, __c'est tout__.
+
+Grâce à cette méthode j'ai pu réaliser de bons croquis pour résumer ces 2 jours -[avec un certain succès](https://medium.com/p/20102acc5c28).
+
+[![takeoff conf sketch](http://farm4.staticflickr.com/3816/12342105995_062d650f8e_c.jpg)](http://www.flickr.com/photos/geekgrunge/12342105995/)
+
+Si vous souhaitez un contenu détaillé je vous invite à [lire le blog de Silicon Salad](http://www.siliconsalad.com/blog/).
+
+L'année prochaine je serais mieux préparé grâce à ce livre : [The sketchnote Handbook](http://www.amazon.fr/gp/product/0321857895/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=0321857895&linkCode=as2&tag=davidl-21). J'espère pourvoir produire un contenu de meilleure qualité pour les développeurs qui ne peuvent se rendre à cette incroyable conférence qu'il ne faut absolument pas manquer si vous habitez le nord de la France.
