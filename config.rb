@@ -17,6 +17,11 @@ activate :blog do |blog|
   # blog.page_link = "page/:num"
 end
 
+activate :blog do |blog|
+  blog.name = "refonte"
+  blog.prefix = "refonte"
+end
+
 ###
 # Page options, layouts, aliases and proxies
 ###
