@@ -18,8 +18,8 @@ activate :blog do |blog|
 end
 
 activate :blog do |blog|
-  blog.name = "refonte"
-  blog.prefix = "refonte"
+  blog.name = "forge"
+  blog.prefix = "forge"
 end
 
 ###
