@@ -18,11 +18,14 @@ $masterhead-border: 5px solid $black;
 .m-masterhead--background {
   background-color: $black-lighter;
   margin-bottom: rem-calc(30);
+  i {
+    color: $white-light !important;
+  }
+
   a {
     display: block;
     border-bottom: none;
     text-align: center;
-    color: $white-light;
     text-shadow: $text-shadow;
     padding-top: rem-calc(0);
     padding-bottom: rem-calc(20);
