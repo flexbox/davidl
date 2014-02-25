@@ -1,0 +1,245 @@
+---
+date: 2014-02-25
+slug: fin-psd
+title: 'Encourager la participation des clients en responsive design'
+page_title: L'ère post PSD
+changefreq: monthly
+priority: 0.8
+---
+
+Certaines personnes adorent Photoshop -j'en fait parti. Cet article ne parle pas de se désintéresser de ce logiciel. C'est un outil très utile pour de nombreuses choses. Au XXIème siècle Photoshop est simplement utilisé différement pour la création de site web.
+
+> Quand vous avez un marteau dans la main tout ressemble à un clou
+
+J'adore les rendus de maquette en pixel perfect mais nous sommes d'accord qu'avoir un processus de design responsive avec une telle idée ne fonctionne pas.
+
+## Donner aux utilisateurs la façon la plus simple d'accéder au meilleur contenu
+
+![website bullshit](blog/2014/post-psd/death-to-bullshit.jpg?raw=true)
+
+Image extaite d’une conférence de Brad Frost : [Dead to bullshit](http://fr.slideshare.net/bradfrostweb/death-to-bullshit)
+
+
+Personnellement, sur un site web lambda si je n'ai aucune idée de comment accéder rapidement au contenu > Je quitte le site.
+
+De nos jours, nous sommes incapables de déterminer comment notre contenu sera consommé par les utilisateurs. Depuis quelques temps certains concepts se sont standardisés :
+
+- Stratégie du contenu
+- Responsive design
+- Priorité au mobile
+- Guide des styles
+- Prototypes HTML
+
+Tous les 6 mois je découvre un nouveau concept qui révolutionne notre façon de travailler / concevoir des sites.
+
+Ces techniques ne sont pas simplement une mode, il n'y a qu'à compter les piétons dans la rue pour s'apercevoir que notre consommation du web évolue de jours en jours.
+
+![Pontification du pape en 2005](blog/2014/post-psd/pape-2005.jpg?raw=true)
+![Pontification du pape en 2005](blog/2014/post-psd/pape-2013.jpg?raw=true)
+
+## Méthode de conception
+
+### Stratégie du contenu
+
+![Mobile versus Photoshop](blog/2014/post-psd/mobile-vs-photoshop.jpg?raw=true)
+
+Question Photoshop :
+Quelle est la première action réalisée quand vous créez un nouveau document ?
+...
+Fixer une taille de document.
+
+Comment cela se comporte avec les appareils mobiles ?
+Personnellement j'en ai aucune idée.
+
+Le `lorem lipsum` [est une mauvaise chose](http://www.elezea.com/2014/02/lorem-ipsum-gone-wrong/). Imaginez créer une belle maquette statique avec tous vos titres en lorem. Votre mise en page comporte 3 colonnes. Vous passez des lustres à tout mettre en place.
+Le client vous livre le vrai contenu dans l'urgence, à la fin et les titres sont sur 2 ou 3 lignes. La mise en page est cassée. Et je ne parle même pas du mobile. Se concentrer sur l'esthétique plutôt que sur le contenu n'a simplement pas de sens.
+
+> Le contenu d'un site web et la viande dans un sandwich et non la cerise sur le gâteau
+>
+> <cite>Karen McGrane</cite>
+
+Pour vous aider à trouver il suffit de se poser les bonnes questions : de quel contenu ais-je besoin pour cette page ?
+
+Prenons l'exemple de kickstarter. La page projet répond parfaitement à ces diverses questions.
+
+- Un texte décrivant parfaitement le problème
+- Les étapes pour proposer une solution
+- Explication sur "la technologie" utilisée
+- Une vidéo présentant les créateurs du produit
+- Témoignages d'experts
+
+L'avantage d'avoir ces différents contenus est que vous pouvez l'organiser simplement. Ce n'est pas simplement un énorme texte que personne n'a envie de lire. Dans le cas de votre propre site internet, les différentes plateformes choisies pour héberger ces contenu vous permettra de gagner en visibilité et d'élargir votre audience.
+
+![Layout kickstarter](blog/2014/post-psd/layout-kickstarter.jpg?raw=true)
+
+Je conçois mes sites avec des outils vieux comme le monde : un papier et un crayon. Avec ces outils j'organise simplement, et bénéficie de la flexibilité nécessaire pour concevoir un site internet au XXIème siècle.
+
+C'est évidemment à nous -designer de s'engager dans le processus de création de contenu. Le but est de guider les créateurs à fournir un contenu "web-ready". La chose la plus incroyable est que cela nous facilitera la conception de la mise en page, nous travaillons dans l'ordre et rentrons dans un processus de construction permanente et non d'allers-retours interminables pour produire une expérience médiocre pour l'utilisateur.
+
+## Concevoir des prototypes
+
+Vous avez tout votre contenu en place grâce à votre stratégie définie précédement. la partie suivante explique comment prototyper votre design.
+
+> Le design est <strong>un plan</strong> pour organiser au mieux les éléments afin d'atteindre un objectif particulier.
+>
+> <cite>Charles Eames</cite>
+
+N'oubliez pas que vous devez donner aux utilisateurs la façon la plus simple d'accéder au meilleur contenu.
+
+### Concevoir dans le navigateur
+
+Selon moi, la seule façon d'explorer le comportement d'une mise en page d'une application web est de travailler directement dans un navigateur. Si vous souhaitez prototyper une mise en page dans un logiciel cela n'a aucun sens, car la première action à faire est de fixer une taille. Photoshop est un bon outil pour créer une atmosphère, pas pour tester une mise en page.
+
+Liste des avantages de coder directement en HTML et CSS :
+
+- Plus de déclinaison de maquettes `iphone.psd`, `ipad.psd`, `desktop.psd`, ...
+- Les éléments sont en place. Vous pouvez directement tester le comportement des différents blocs. Fini le jeu du magicien et de saute mouton.
+- Vous évaluez plus précisément le temps que cela va prendre pour déployer votre application en production notamment dans le cas de grosses interactions avec JavaScript.
+
+### Jouez avec vos wireframe
+
+Votre structure est en place. Le contenu n'est pas définitif mais vous possédez déjà les grandes lignes. Voici une technique pour valider une mise en page : posez vous avec votre créateur de contenu et mettez à jour le `DOM` directement avec l'inspecteur web. Même si cela vous prends une journée, cela sera beaucoup plus productif que de :
+
+- Créer et mettre à jour un fichier de type `.doc`
+- Importer ces modifications dans photoshop
+- pour finir par les importer en intégration HTML
+
+Retenez que vous ne devez __jamais__ présenter un design complètement finalisé tel un feu d'artifice à votre client. Si vous présentez une maquette Photoshop pixel perfect à votre client, il s'attend à avoir le même résultat.
+
+Problème :
+
+- Vous n'avez aucune idée de la faisabilité de la maquette à ce stade du projet
+- L'évaluation de la charge de travail est difficile voire impossible
+
+L'autre avantage est de valider par étape et dans l'ordre les divers éléments.
+
+Si vous présentez un design fini dans 90% des cas votre client vous demandera de changer la couleur du vert alors que vous vouliez simplement lui demander de vérifier les fautes d'orthographe ou le contenu du site.
+
+> 95% du webdesign est de la typographie
+>
+> <cite>Olivier Reichenstein</cite>
+
+Demandez-vous, quel texte est fonctionnel, quel texte est passif, __systématiquement__ ...
+
+Créez une interface, le reste s'y ajoutera automatiquement. Tant que vous n'avez pas résolu les problèmes de lecture, ne pensez pas à changer les couleurs.
+
+Voici le processus que j'expérimente le plus souvent possible.
+
+1. Créer un rythme typographique
+2. Trouver une palette de couleurs
+3. Choisir des images
+
+Le choix typographique est beaucoup plus complexe que du Georgia pour les titres, helvetica pour le contenu, `1.5em` pour le `line-height`.
+
+Grâce à votre stratégie du contenu et à la création de votre prototype vous pouvez choisir plus facilement une combinaison de police de caractère.
+
+Combiner la typographie comporte des règles pour que le rendu soit cohérent. Je vous conseille le <a href="http://www.amazon.fr/gp/product/B00EPJM92O/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00EPJM92O&linkCode=as2&tag=davidl-21">Guide de la typographie de Tim Brown</a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=B00EPJM92O" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.
+
+Le site [Type-a-file](http://type-a-file.com) est un bon exemple dans le processus de choix de votre chorégraphie du contenu.
+
+### Priorité au contenu
+
+Depuis maintenant plusieurs années, la méthode de conception émergente est le "mobile-first" ou priorité au mobile. Pourquoi ne pas adapter ce paradigme au contenu ? Cela représente plusieurs avantages car c'est :
+
+- Bon pour votre business
+- Bon pour vos utilisateurs
+- Bon pour votre santé mentale
+
+Pourquoi êtes-vous encore en train de lire ces lignes ? avec un bon titre et un "plan d'article" vous savez quel est le sujet et vous souhaitez savoir la suite.
+
+#### Bon pour le business
+
+- L'adoption de l'internet mobile est 8x plus rapide que l'adoption d'internet.
+- Amazon : 1 Milliard de $ est dépensé via le mobile
+- Twitter : 40% des messages sont envoyés via mobile, 14% ouvrent un compte depuis un téléphone.
+- Le traffic mobile est prévu d'augmenter à 1 milliard de personnes cette année
+
+… Ces chiffres sont extrait des articles [Data Monday de Luke Wroblewski](http://www.lukew.com/ff/)
+
+
+Cette liste peut être très longue et la raison est simple : le premier accès à internet que vous possédez est votre mobile.
+
+Posez vous la question :
+Que fait Google à longueur de journée ? il indexe du texte.
+Comment les visiteurs arrivent sur mon site ? via Google
+C.Q.F.D.
+
+#### Bon pour vos utilisateurs
+
+Je vais prendre l'exemple d'un site utilisé par 1 Milliard de personnes : Facebook. Selon moi l'application mobile est meilleure que le site.
+
+![Facebook desktop](blog/2014/post-psd/facebook-desktop.jpg?raw=true)
+
+Bullshit : publicités et invitations farmville
+
+![Facebook mobile](blog/2014/post-psd/facebook-mobile.jpg?raw=true)
+
+Mobile : 1 accès facile au meilleur contenu
+
+Pourquoi cela est très difficile ?
+
+- Nous devons réinventer nos processus de développement / création
+- Nous devons apprendre de nouvelles bonnes pratiques
+- Les clients ne veulent pas payer pour ça
+
+La chose la plus importante est d'éduquer ses clients et leur faire comprendre que travailler dans un contexte multi-écran est extrêmement plus complèxe que de bidouiller un site à l'aide d'un cms.
+
+## Identité visuelle
+
+### Généralités
+
+> Si votre site était une star qui cela serait-il ? <strong> et pourquoi ?</strong>
+>
+> <cite>Paul Boag</cite>
+
+Commencer par poser ce genre de question à vos clients permet d'identifier ses besoins avec un angle d'attaque différent du classique : Quelle est votre couleur préférée ?
+Ce qui n'a pas de sens car c'est vous le professionnel du design, le client vous consulte car il n'a pas d'idée.
+
+Il est possible de décliner dans d'autres thèmes : Si votre site était une voiture ? Si votre site était une ville ? ...
+
+### Questionnaire
+
+Réaliser un petit échange avec des questions les plus simple possible permet au client de s'exprimer. C'est généralement positif car ils adorent parler de leur métier. Grâce à cela vous allez vraiment pouvoir identifier d'où ils viennent et quel est leur besoin
+
+- Moderne ou classique ?
+- Sérieux ou amusant ?
+- Vin ou bière ?
+
+### Style tiles
+
+Personnellement, j'essaye d'utiliser du CSS le plus rapidement possible car cela possède plusieurs avantages et réponds à différentes questions.
+
+- Comment se comporte les couleurs sur différents écrans ?
+- Quel est le comportement de mes modules (navigation, typographie, fil d'ariane ...) en fonction des appareils
+- Je peut rapidement mettre en place l'interaction des liens en modifiant teinte, saturation, luminance hslpicker.com
+
+### Le cas du flat design
+
+Je ne suis pas un expert la dessus mais avec mon expérience je peux tout de même affirmer que :
+
+- Cette méthode de design est plus "honnête"
+- Le rendu est meilleur avec un écran rétina
+- Les sites internet sont plus légers
+
+Allan grinshtein nous explique pourquoi le skeumorphism est [irrationnel dans le cas de design d’interfaces](http://layervault.tumblr.com/post/32267022219/flat-interface-design).
+
+## Surprise et réjouissement
+
+Un site internet est un document vivant. Une chose _trop souvent_ oubliée dans le webdesign concerne l'interation.
+
+Prenez le cas de squarespace, leur design est centré uniquement sur le travail typographique et les animations.
+
+Être webdesigner au XXIème siècle devient de plus en plus difficile.
+
+- <i class="fa fa-times"></i> concevoir une belle maquette statique dans Photoshop
+
+- <i class="fa fa-thumbs-o-up"></i> Connaitre HTML & CSS
+- <i class="fa fa-thumbs-o-up"></i> Avoir des bases de responsive design
+- <i class="fa fa-thumbs-o-up"></i> Stratégie du contenu
+
+Pour m'améliorer dans ce domaine je compte bien acheter don't make me think de Steve Krug qui est une référence sur le sujet.
+
+> Le problème est qu'il n'existe pas une seule solution pour différents problèmes de webdesign.
+> Ce qui fonctionne est une bonne interface, intégrée, qui réponds à un problème, qui doit être exécutée et testée avec soin.
+
+Cette citation est vraie pour la conception mais également pour le développement de votre projet. Vous devez accepter les différentes contraintes de votre projet, faire en sorte de les respecter pour créer la meilleure expérience possible pour vos utilisateurs.
