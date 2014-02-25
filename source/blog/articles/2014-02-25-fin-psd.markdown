@@ -1,7 +1,7 @@
 ---
 date: 2014-02-25
 slug: fin-psd
-title: 'Encourager la participation des clients en responsive design'
+title: "Pouruoi créer un site web avec Photoshop n'est pas efficace ?"
 page_title: L'ère post PSD
 changefreq: monthly
 priority: 0.8
@@ -237,7 +237,8 @@ Prenez le cas de squarespace, leur design est centré uniquement sur le travail 
 - <i class="fa fa-thumbs-o-up"></i> Avoir des bases de responsive design
 - <i class="fa fa-thumbs-o-up"></i> Stratégie du contenu
 
-Pour m'améliorer dans ce domaine je compte bien acheter don't make me think de Steve Krug qui est une référence sur le sujet.
+Pour m'améliorer dans ce domaine je compte bien acheter <a href="http://www.amazon.fr/gp/product/2744025526/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=2744025526&linkCode=as2&tag=davidl-21">Don't make me think</a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=2744025526" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+ de Steve Krug qui est une référence sur le sujet.
 
 > Le problème est qu'il n'existe pas une seule solution pour différents problèmes de webdesign.
 > Ce qui fonctionne est une bonne interface, intégrée, qui réponds à un problème, qui doit être exécutée et testée avec soin.
