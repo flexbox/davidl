@@ -34,6 +34,11 @@
   url: http://www.cockos.com/licecap/
   image: licecap.png
 -
+  name: Papier et crayon
+  description: "Si vous ne possédez pas de carnet de notes et un beau crayon, s'il vous plaît faites-vous une faveur, arrêter de lire ce site et allez en acheter un. Forcez-vous à l'utiliser. Ensuite, remarquez comment il est plus facile de poser et d'articuler ses idées de design avec cet outil."
+  url: http://www.amazon.fr/gp/product/8883707168/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=8883707168&linkCode=as2&tag=davidl-21
+  image: front-end-papier-crayon.jpg
+-
   name: PixelWindow
   description: "Une application simple et multi-plateforme pour mesurer des choses sur votre écran."
   url: http://www.pixelwindowapp.com/
