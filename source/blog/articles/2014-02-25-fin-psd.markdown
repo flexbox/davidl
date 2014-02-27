@@ -15,7 +15,7 @@ J'adore les rendus de maquette en pixel perfect mais nous sommes d'accord qu'avo
 
 ## Donner aux utilisateurs la façon la plus simple d'accéder au meilleur contenu
 
-![website bullshit](blog/2014/post-psd/death-to-bullshit.jpg?raw=true)
+[![website bullshit](http://farm6.staticflickr.com/5483/12809519223_0d46707457_o.jpg)](http://www.flickr.com/photos/geekgrunge/12809519223/)
 
 Image extaite d’une conférence de Brad Frost : [Dead to bullshit](http://fr.slideshare.net/bradfrostweb/death-to-bullshit)
 
@@ -34,14 +34,14 @@ Tous les 6 mois je découvre un nouveau concept qui révolutionne notre façon d
 
 Ces techniques ne sont pas simplement une mode, il n'y a qu'à compter les piétons dans la rue pour s'apercevoir que notre consommation du web évolue de jours en jours.
 
-![Pontification du pape en 2005](blog/2014/post-psd/pape-2005.jpg?raw=true)
-![Pontification du pape en 2005](blog/2014/post-psd/pape-2013.jpg?raw=true)
+![Pontification du pape en 2005](http://farm3.staticflickr.com/2891/12809834294_6ab1de9229_o.jpg)
+![Pontification du pape en 2013](http://farm4.staticflickr.com/3725/12809833884_8aff196671_o.jpg)
 
 ## Méthode de conception
 
 ### Stratégie du contenu
 
-![Mobile versus Photoshop](blog/2014/post-psd/mobile-vs-photoshop.jpg?raw=true)
+![Mobile versus Photoshop](http://farm8.staticflickr.com/7352/12809516183_ae080d369b_o.jpg)
 
 Question Photoshop :
 Quelle est la première action réalisée quand vous créez un nouveau document ?
@@ -70,7 +70,7 @@ Prenons l'exemple de kickstarter. La page projet répond parfaitement à ces div
 
 L'avantage d'avoir ces différents contenus est que vous pouvez l'organiser simplement. Ce n'est pas simplement un énorme texte que personne n'a envie de lire. Dans le cas de votre propre site internet, les différentes plateformes choisies pour héberger ces contenu vous permettra de gagner en visibilité et d'élargir votre audience.
 
-![Layout kickstarter](blog/2014/post-psd/layout-kickstarter.jpg?raw=true)
+![Layout kickstarter](http://farm4.staticflickr.com/3757/12809835924_48d6a8de64_o.jpg)
 
 Je conçois mes sites avec des outils vieux comme le monde : un papier et un crayon. Avec ces outils j'organise simplement, et bénéficie de la flexibilité nécessaire pour concevoir un site internet au XXIème siècle.
 
@@ -168,11 +168,11 @@ C.Q.F.D.
 
 Je vais prendre l'exemple d'un site utilisé par 1 Milliard de personnes : Facebook. Selon moi l'application mobile est meilleure que le site.
 
-![Facebook desktop](blog/2014/post-psd/facebook-desktop.jpg?raw=true)
+![Facebook desktop](http://farm4.staticflickr.com/3716/12809429325_bb36edd78c_o.jpg)
 
 Bullshit : publicités et invitations farmville
 
-![Facebook mobile](blog/2014/post-psd/facebook-mobile.jpg?raw=true)
+![Facebook mobile](http://farm8.staticflickr.com/7328/12809837234_d48d500d57_o.jpg)
 
 Mobile : 1 accès facile au meilleur contenu
 
