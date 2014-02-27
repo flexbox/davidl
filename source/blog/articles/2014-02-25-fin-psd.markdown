@@ -1,7 +1,7 @@
 ---
 date: 2014-02-25
 slug: fin-psd
-title: "Pouruoi créer un site web avec Photoshop n'est pas efficace ?"
+title: "Pourquoi créer un site web avec Photoshop n'est pas efficace ?"
 page_title: L'ère post PSD
 changefreq: monthly
 priority: 0.8

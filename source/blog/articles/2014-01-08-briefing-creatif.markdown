@@ -37,7 +37,7 @@ Quels sont les résultats attendus à la fin du projet ?
 Parler de votre marché cible.
 
 - __Faites la bonne impression__.
-Comment voulez-vous les gens à répondent à votre marque ?
+Comment voulez-vous que les gens répondent à votre marque ?
 
 - __Votre personnalité__.
 Choisir cinq mots qui résument votre personnalité de la marque idéale. Vous pouvez aussi comparer votre marque à une célébrité cela fonctionne très bien.
