@@ -1,51 +1,33 @@
 /* General button style (reset) */
-.btn {
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
+.animate {
+
   background: none;
-  cursor: pointer;
-  padding: 25px 80px;
-  display: inline-block;
-  margin: 15px 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 700;
   outline: none;
   position: relative;
   transition: all 0.3s;
-}
-
-.btn:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  transition: all 0.3s;
-}
-
-/* Button 1 */
-.btn-1 {
   border: 3px solid $secondary-color;
   color: $secondary-color;
-}
-
-/* Button 1b */
-.btn-1b:after {
-  width: 100%;
-  height: 0;
-  top: 0;
-  left: 0;
-  background: $secondary-color;
-}
-
-.btn-1b:hover,
-.btn-1b:active {
-  color: $white;
-  border-color: $secondary-color;
-}
-
-.btn-1b:hover:after,
-.btn-1b:active:after {
-  height: 100%;
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: $secondary-color;
+  }
+  &:hover,
+  &:active {
+    color: $white;
+    border-color: $secondary-color;
+    background: none;
+    &:after,
+    &:after {
+      height: 100%;
+    }
+  }
 }
