@@ -1,15 +1,15 @@
 ---
-slug: 1-1-objectif
-title: 'Foundation 5 architecturer ses fichiers Interchange'
+date: 2014-03-14
+slug: 0-1-evolution
+title: 'Préparer la refonte de son site internet'
+page_title: Evolution des usages
 changefreq: monthly
 priority: 0.8
 ---
 
-# Objectifs et pré-requis
+Aujourd'hui il se vends plus de smartphone que d'ordinateurs. J'entends par là des périphériques capables de naviguer sur internet. Certains se souviennent peut être de l'époque du wap censé révolutionner la téléphonie. Essayez de vous faire a l' idée que cette technologie date du millénaire dernier.
 
 ## Le XXIème siècle
-
-Aujourd'hui il se vends plus de smartphone que d'ordinateurs. J'entends par là des périphériques capables de naviguer sur internet. Certains se souviennent peut être de l'époque du wap censé révolutionner la téléphonie. Essayez de vous faire a l' idée que cette technologie date du millénaire dernier.
 
 Jour après jour on remarque une baisse de l'utilisation d'ordinateur de bureau au profit des appareils mobiles pour accéder au web. On vérifie ses emails sur tablette, on regarde une recette de cuisine sur son téléphone, on cherche la gare la plus proche avec son GPS ... Les exemples sont infinis.
 
@@ -18,7 +18,7 @@ Les gens supportent de moins en moins l'informatique classique synonyme de compl
 
 > Les ordinateurs sont des camions
 >
-> Steeve jobs
+> <cite>Steeve jobs</cite>
 
 
 L'informatique grand public tel que nous la connaissons est amenée à disparaitre. Les ordinateurs classiques ne seront utilisés que pour réaliser de lourdes tâches. Prenez par exemple les tablettes tactiles : un enfant de 2 ans est capable de comprendre comment cela fonctionne pour voir des vidéos sur youtube.

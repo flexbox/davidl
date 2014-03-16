@@ -17,9 +17,10 @@ activate :blog do |blog|
   # blog.page_link = "page/:num"
 end
 
-activate :blog do |blog|
-  blog.name = "forge"
-  blog.prefix = "forge"
+activate :blog do |forge|
+  forge.permalink = "forge/:title.html"
+  forge.sources = "forge/articles/:title.html"
+  forge.layout = "layouts/forge_layout"
 end
 
 ###

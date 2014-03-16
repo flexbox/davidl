@@ -1,9 +1,9 @@
 ---
-title: "Forge : refonte de site internet"
+title: Refonte de site internet le guide complet en ligne
 description: ...
 changefreq: daily
 priority: 0.8
-page_title: Réussir sa refonte de site internet
+page_title: FORGE
 ---
 .row
   .medium-10.medium-centered.columns
@@ -11,51 +11,59 @@ page_title: Réussir sa refonte de site internet
       .medium-2.columns
       .medium-10.columns
         blockquote
-          '<strong>Forge</strong> est un véritable plan, destiné aux développeurs et aux designers, pour réussir la refonte de site internet de façon adaptative
-        p J'ai analysé mon processus de conception (et ceux autour de moi) pour déterminer la meilleure façon réussir la refonte de site internet. Ce que j'ai trouvé est une méthode qui fonctionne aussi bien pour les sites de petites taille que de grandes architectures.
-        p Apprennez quelles sont les différentes étapes pour transformer un site vieillissant en site responsive qui sera à l'épreuve du temps.
-        .button.secondary
-          'Refondre son site !
+          '<strong>FORGE</strong> est un véritable plan, destiné aux développeurs et aux designers, pour réussir la refonte de site internet de façon adaptative
+        p.drop-cap
+          'J'ai analysé mon processus de conception (<em>et ceux autour de moi</em>) pour déterminer la meilleure façon réussir la refonte de site internet. J'ai trouvé une méthode qui fonctionne aussi bien pour les sites de petites taille, que pour les grandes architectures.
+        p
+          'Apprennez quelles sont les différentes étapes pour transformer un site vieillissant en site responsive qui sera <strong>à l'épreuve du temps</strong>.
+        .row
+          .small-6.small-centered.columns
+            =link_to 'Refondre son site !', '/forge/0-1-evolution.html', class: 'button secondary animate expand'
 
     .row
       .medium-8.columns
         h2 Qu'est-ce que c'est ?
+        ul.inline-list
+          li
+            i.fa.fa-2x.fa-mobile
+          li
+            i.fa.fa-3x.fa-fw.fa-angle-right
+          li
+            i.fa.fa-4x.fa-rotate-90.fa-tablet
+          li
+            i.fa.fa-3x.fa-fw.fa-angle-right
+          li
+            i.fa.fa-5x.fa-desktop
+        p
+          'FORGE est un moyen d'en savoir plus sur les <strong>différentes étapes de conception</strong> d'un site internet. Il s'agit d'une tentative de documenter une approche cohérente du développement d'un site. De nos jours, qui ne construit pas une expérience compatible mobile ?
+        p Apprenez à connaître les principes clefs pour une refonte adaptative :
+
         h3 Obtenir le livre
+        P Pour l'instant le livre est disponible seulement en ligne. Les précommandes arriveront bientôt.
+        / L'e-book est au format PDF, ePub et mobi pour une installation facile sur n'importe quel e-reader.
+
         h3 Livre gratuit en ligne
-        h3 Conférence
-        p Alors, qu'attendez-vous ? Faites parler le métal !
+        p
+          'FORGE est un livre en ligne gratuit et évolutif. Vous pourez toujours
+          =link_to 'lire les chapitres originaux', '/forge/0-1-evolution.html'
+          |.
+
+        h3 Ateliers
+        p
+          'Je partage mon expérience dans la construction de petits et de sites web de grande envergure. L'atelier FORGE couvre la modularisation de code, le responsive design, la collaboration avec des équipes plus grandes, le prototypage, et beaucoup plus.
+          br
+          'Je peux examiner les projets réels fournis par les participants et dans le but de présenter des exemples concrets.
+          br
+          =link_to 'Inscrivez-vous à la newsletter', '#js-mailchimpemail', class: 'js-mailchimp-destination'
+          ', si vous n'avez pas déjà, pour être tenus à jour sur quand et où les ateliers seront organisés.
+
+        p
+          'Alors, qu'attendez-vous ?
+          =link_to 'Réussissez la refonte de votre site', '/forge/0-1-evolution.html'
+          '!
 
       .medium-4.columns
-        h2 Objectifs
-        ol
-          li Pré-requis technique
-          li L'expérience de lecture
-          li Architecture du contenu
-          li Limites de la publicité
-          li Attention aux détails
-
-        h2 Manifeste de refonte
-        ol
-          li Par où commencer ?
-          li Importance de la navigation
-          li Choisir sa typographie
-          li Un attribut clef les mesures
-          li Concevoir directement dans le navigateur
-          li Penser mobile
-          li Construire une mise en page adaptative
-          li Détails techniques
-          li Point de rupture
-
-        h2 Principaux challenges
-        ol
-          li Navigation
-          li Publicité
-          li Évolution du design
-          li Test d'usage / utilisation
-          li Conception d'usages / interaction des pages
-          li L'affichage de votre site internet
-          li Re - lancement
-          li Phase de test finale
+        = partial 'views/forge/summary'
 
 
     / .row
