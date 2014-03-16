@@ -17,6 +17,12 @@ activate :blog do |blog|
   # blog.page_link = "page/:num"
 end
 
+activate :blog do |forge|
+  forge.permalink = "forge/:title.html"
+  forge.sources = "forge/articles/:title.html"
+  forge.layout = "layouts/forge_layout"
+end
+
 ###
 # Page options, layouts, aliases and proxies
 ###

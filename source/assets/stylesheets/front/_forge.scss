@@ -1,0 +1,15 @@
+.m-forge-header {
+  background-color: $primary-color;
+  strong {
+    color: $black;
+    margin-right: rem-calc(10);
+    font-size: rem-calc(20);
+    font-family: $body-font-family;
+  }
+  p {
+    margin-bottom: 0;
+    line-height: 3;
+    color: $white;
+    font-family: $header-font-family;
+  }
+}
