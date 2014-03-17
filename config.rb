@@ -6,6 +6,8 @@ Time.zone = "Paris"
 I18n.config.enforce_available_locales = false
 
 activate :blog do |blog|
+  blog.name = "blog"
+
   blog.permalink = "blog/:title.html"
   blog.sources = "blog/articles/:title.html"
   blog.layout = "layouts/blog_layout"
@@ -13,14 +15,15 @@ activate :blog do |blog|
   blog.calendar_template = "calendar.html"
 
   blog.paginate = false
-  # blog.per_page = 10
-  # blog.page_link = "page/:num"
 end
 
 activate :blog do |forge|
+  forge.name = "forge"
+
   forge.permalink = "forge/:title.html"
-  forge.sources = "forge/articles/:title.html"
+  forge.sources = "forge/chapitres/:title.html"
   forge.layout = "layouts/forge_layout"
+  forge.default_extension = ".markdown"
 end
 
 ###
