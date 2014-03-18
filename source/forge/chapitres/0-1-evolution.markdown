@@ -31,6 +31,7 @@ Si vous vous attendez à utiliser les mêmes méthodes de travail, qui ont fonct
 Je ne pense pas que ce soit un moyen viable de créer et maintenir un site adaptatif à succès au XXIème siècle.
 Comme Gutemberg qui a inventé le concept d'imprimerie, nous vivons dans une époque où tout est à re-inventer.
 
+## Préparation
 
 Avant de vous lancer dans ce processus chronophage, qu'est la refonte de votre site internet, il est impératif de se poser les bonnes questions.
 Cela commence par faire un état des lieux de votre présence sur internet :
