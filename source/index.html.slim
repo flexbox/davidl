@@ -13,7 +13,8 @@ priority: 0.8
       - data.projects.each_with_index do |project|
         li
           = link_to project.url do
-            .m-panel
+            .m-panel.l-social
+              i class="fa #{project.icon}"
               h2.l-title
                 = project.title
               p.l-description
