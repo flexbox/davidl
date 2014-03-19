@@ -7,11 +7,11 @@ changefreq: monthly
 priority: 0.8
 ---
 
-Aujourd'hui il se vends plus de smartphone que d'ordinateurs. J'entends par là des périphériques capables de naviguer sur internet. Certains se souviennent peut être de l'époque du wap censé révolutionner la téléphonie. Essayez de vous faire a l' idée que cette technologie date du millénaire dernier.
+Aujourd'hui il se vend plus de smartphone que d'ordinateurs. J'entends par là des périphériques capables de naviguer sur internet. Certains se souviennent peut être de l'époque du wap censé révolutionner la téléphonie. Essayez de vous faire à l' idée que cette technologie date du millénaire dernier.
 
 ## Le XXIème siècle
 
-Jour après jour on remarque une baisse de l'utilisation d'ordinateur de bureau au profit des appareils mobiles pour accéder au web. On vérifie ses emails sur tablette, on regarde une recette de cuisine sur son téléphone, on cherche la gare la plus proche avec son GPS ... Les exemples sont infinis.
+Jour après jour on remarque une baisse de l'utilisation d'ordinateur de bureau au profit au profit d'appareils mobiles pour accéder au web. On vérifie ses emails sur tablette, on regarde une recette de cuisine sur son téléphone, on cherche la gare la plus proche avec son GPS ... Les exemples sont infinis.
 
 Les gens supportent de moins en moins l'informatique classique synonyme de complication et de lourdeur.  Ils sont à la recherche de la simplicité et de l'instantané. Ils accèdent à internet de plus en plus rapidement alors qu'il n'y a pas si longtemps il fallait démarrer son ordinateur, lancer son système d'exploitation, et enfin entendre la numérotation téléphonique du modem.
 

@@ -2,7 +2,7 @@
 date: 2014-03-17
 slug: 1-1-technique
 title: 'Préparer la refonte de son site internet'
-page_title: Evolution des usages
+page_title: Flexibilité
 changefreq: monthly
 priority: 0.8
 ---
@@ -12,9 +12,16 @@ Demain, votre site devra être compatible avec tous les différents types d'appa
 
 __C'est un changement des règles du jeu__.
 
-Pour cette raison, vous devez vous faire à l'idée de n'être compatible qu'avec les derniers navigateurs modernes.
-C'est tout.
+![android screen size](http://farm8.staticflickr.com/7348/13238262083_6caa9794ef_o.png)
+
+## Le monde du multi écran
+
+Avec ce changement des règles, vous devez vous faire à l'idée de n'être compatible qu'avec les derniers navigateurs modernes.
+
+__C'est tout__.
+
 Être compatible avec internet explorer 6 n'a pas de sens au XXIème siècle. Vous souhaitez faire la refonte de votre site pour être compatible avec le futur, pas pour corriger les erreurs du passé.
+
 Le contenu de votre site sera toujours accessible aux ancien navigateurs mais avec une expérience dégradée.
 Essayez aussi de vous faire à l'idée que votre site internet ne s'affichera pas de la même manière suivant son mode de consommation et c'est parfaitement normal. L'expérience utilisateur n'a rien à voir entre un écran 27" et un smartphone.
 
@@ -26,4 +33,4 @@ Dans un contexte de navigation mobile, privilégiez vos efforts sur la stabilit�
 
 Ces différents points permettent de charger votre site plus rapidement. N'oubliez pas que nous sommes revenus à l'aire du 56k en ce qui concerne le web mobile : débits lents, perte de connexion …
 
-Votre périple commence par l'abandon du contrôle et l'adoption de la flexibilité.
+> Votre périple commence par l'abandon du contrôle et l'adoption de la flexibilité.
