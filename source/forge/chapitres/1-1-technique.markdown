@@ -31,6 +31,6 @@ Dans un contexte de navigation mobile, privilégiez vos efforts sur la stabilit�
 - Design minimaliste
 - Peu d'images
 
-Ces différents points permettent de charger votre site plus rapidement. N'oubliez pas que nous sommes revenus à l'aire du 56k en ce qui concerne le web mobile : débits lents, perte de connexion …
+Ces différents points permettent de charger votre site plus rapidement. N'oubliez pas que nous sommes revenus à l'ère du 56k en ce qui concerne le web mobile : débits lents, perte de connexion ...
 
 > Votre périple commence par l'abandon du contrôle et l'adoption de la flexibilité.
