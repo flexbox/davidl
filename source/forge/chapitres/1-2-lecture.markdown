@@ -1,8 +1,8 @@
 ---
 date: 2014-03-24
 slug: 1-2-lecture
-title: 'Typographie et expérience de lecture
-page_title: L'expérience de lecture
+title: Typographie et expérience de lecture
+page_title: "L'expérience de lecture"
 changefreq: monthly
 priority: 0.8
 ---
