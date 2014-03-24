@@ -1,7 +1,7 @@
 ---
 date: 2014-03-17
 slug: 1-1-technique
-title: 'Préparer la refonte de son site internet'
+title: 'Comment refondre son site internet ?'
 page_title: Flexibilité
 changefreq: monthly
 priority: 0.8
