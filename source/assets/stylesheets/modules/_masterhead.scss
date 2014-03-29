@@ -65,3 +65,17 @@ $masterhead-border: 5px solid $black;
     }
   }
 }
+
+@keyframes movebg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1260px 0;
+  }
+}
+
+.m-homepage .m-masterhead--background {
+  animation: 35s linear 0s normal none infinite movebg;
+  background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat scroll 0 0;
+}
