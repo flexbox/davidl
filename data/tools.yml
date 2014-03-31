@@ -9,6 +9,11 @@
   url: http://www.mozilla.org/fr/firefox/new/
   image: firefox.png
 -
+  name: Firefox Nightly
+  description: "La version alpha de Firefox permet de tester en avant-première les futures publications du navigateur."
+  url: http://nightly.mozilla.org/
+  image: nightly.png
+-
   name: GitHub
   description: "Hébergement de vos projets utilisant Git. Le site web possède des fonctionalités indispensable comme un navigateur de code source, l'édition en ligne, les wikis, et une gestion de tickets."
   url: https://github.com/
