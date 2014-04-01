@@ -81,7 +81,7 @@ $masterhead-border: 5px solid $black;
 }
 
 
-@media only screen and (min-width: 650px) and (max-width: 1025px) {
+@media only screen and (min-width: 350px) and (max-width: 1025px) {
   body {
     transform : rotate(180deg);
   }
