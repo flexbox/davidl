@@ -1,5 +1,5 @@
 ---
-date: 2014-02-25
+date: 2014-03-31
 slug: conseil-dev
 title: "Astuce de développement front-end"
 page_title: Mon meilleur conseil dans le domaine du développement web

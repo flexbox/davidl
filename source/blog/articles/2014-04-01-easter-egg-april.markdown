@@ -1,5 +1,5 @@
 ---
-date: 2014-02-25
+date: 2014-04-01
 slug: easter-egg-april
 title: "La mediaquery du 01 Avril"
 page_title: C'est un piège
