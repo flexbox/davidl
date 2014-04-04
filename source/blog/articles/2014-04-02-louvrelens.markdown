@@ -5,6 +5,7 @@ title: Proposition de redesign du louvrelens.fr
 page_title: Webdesign responsive pour un site de musée
 changefreq: monthly
 priority: 0.8
+published: false
 ---
 
 Chaque jour, dans la communauté des designer, les [proposition de redesign](http://dribbble.com/search?page=4&q=redesign) pleuvent : iOs, Facebook, Twitter … Si je salue la performance, je ne comprends pas trop l’intérêt car ces boites possèdent une armée de personnes en interne pour réaliser la chose. Pourquoi ne pas s’attaquer à de vrais sites qui ont vocation à être accessibles au plus grand nombre ?
