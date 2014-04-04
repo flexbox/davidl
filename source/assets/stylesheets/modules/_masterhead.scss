@@ -79,10 +79,3 @@ $masterhead-border: 5px solid $black;
   animation: 35s linear 0s normal none infinite movebg;
   background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat scroll 0 0;
 }
-
-
-@media only screen and (min-width: 350px) and (max-width: 1025px) {
-  body {
-    transform : rotate(180deg);
-  }
-}
