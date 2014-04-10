@@ -9,12 +9,14 @@
 #= require "foundation/js/foundation/foundation"
 #= require "foundation/js/foundation/foundation.magellan"
 #= require "foundation/js/foundation/foundation.interchange"
+#= require "foundation/js/foundation/foundation.equalizer"
 #= require "foundation_init"
 
 #= require "snapsvg"
 #= require "pizza"
 #= require "about"
 
+#= require "mixitup/src/jquery.mixitup"
 #= require "blog"
 
 

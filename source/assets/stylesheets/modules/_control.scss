@@ -9,7 +9,7 @@ $control-height: rem-calc(60);
   transition: all $transition-duration ease-in-out;
 
   &.is-hidden {
-    bottom: -$control-height;
+    transform: translateY($control-height);
   }
   &.is-show {
     bottom: 0;

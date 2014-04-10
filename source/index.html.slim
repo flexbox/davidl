@@ -7,13 +7,29 @@ changefreq: monthly
 priority: 0.8
 ---
 
+- content_for :javascripts do
+  = javascript_include_tag "http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"
+
 .row
   .medium-12.columns
-    ul.large-block-grid-3.medium-block-grid-2
-      - data.projects.each_with_index do |project|
-        li
+    dl.sub-nav#js-sub-nav--home
+      dt Filtre :
+      dd.active
+        = link_to 'Tous', '#', class: 'filter', :data => {:filter => 'all'}
+      dd
+        = link_to 'Projets', '#', class: 'filter', :data => {:filter => '.category-project'}
+      dd
+        = link_to 'Écriture', '#', class: 'filter', :data => {:filter => '.category-writing'}
+      dd
+        = link_to 'Divers', '#',class: 'filter',  :data => {:filter => '.category-misc'}
+
+.row
+  .medium-12.columns
+    ul class="m-homepage-mixitup" id="js-mixitup-container"
+      - data.projects.each_with_index do |project, i|
+        li class="mix category-#{project.type}" data-my-order="#{i}"
           = link_to project.url do
-            .m-panel.l-social
+            div class="m-panel l-social"
               i class="fa #{project.icon}"
               h2.l-title
                 = project.title

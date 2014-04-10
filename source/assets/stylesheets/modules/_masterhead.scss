@@ -29,10 +29,6 @@ $masterhead-border: 5px solid $black;
     text-shadow: $text-shadow;
     padding-top: rem-calc(0);
     padding-bottom: rem-calc(20);
-    &:hover {
-    padding-top: rem-calc(20);
-    padding-bottom: rem-calc(0);
-    }
   }
 }
 

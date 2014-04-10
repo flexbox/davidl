@@ -1,0 +1,17 @@
+.m-homepage-mixitup {
+
+  @media #{$medium-up}{
+    @include block-grid(3);
+    .m-panel {
+      min-height: rem-calc(350);
+    }
+  }
+
+  .mix {
+    display: none;
+  }
+
+  > li {
+    clear: none !important;
+  }
+}
