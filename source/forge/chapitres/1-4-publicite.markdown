@@ -9,7 +9,7 @@ priority: 0.8
 
 J'emploie le mot publicité au sens large. Cette notion peut être adaptée à toutes les mises en avant de contenu.
 
-Pour ne pas vous retrouver avec un site qui donne une impression de brouillon et qui agresse vos visiteurs, vous devez établir un format d'affichage simple et clair. Des zones identifiables rapidement, par vos visiteurs, qui ne dégradent pas le confort de confort de lecture.
+Pour ne pas vous retrouver avec un site qui donne une impression de brouillon et qui agresse vos visiteurs, vous devez établir un format d'affichage simple et clair. Des zones identifiables rapidement, par vos utilisateurs, qui ne dégradent pas le confort de lecture.
 Il y a un autre facteur à prendre en compte, depuis des années la taille des bannières de publicité est fixe. Cette approche n'a pas de sens dans une conception adaptative multi-écrans.
 
 ![advertising fail](https://farm4.staticflickr.com/3833/13777449814_2e59809dfb.jpg)
