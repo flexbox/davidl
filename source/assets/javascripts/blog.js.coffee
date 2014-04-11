@@ -4,7 +4,7 @@ $('.js-mailchimp-destination').click ->
 $('#js-sub-nav--home a').click (event) ->
   event.preventDefault()
   $('#js-sub-nav--home dd').removeClass('active')
-  # $(this).addClass('active')
+  $(this).parent('dd').addClass('active')
   return
 
 $ ->
