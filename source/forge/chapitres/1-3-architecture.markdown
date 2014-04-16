@@ -41,13 +41,14 @@ Il est aussi impératif d'architecturer votre contenu de façon sémantique :
 - Votre contenu en paragraphe `p`
 - Ne jamais mettre de balisage de titre sur les éléments de votre site qui se répètent (menu, footer …)
 
-Au delà d'avoir une organisation claire, compréhensible et facilement scanable, ce travail vous permettra d'avoir un référencement de qualité. Pour vous aider à planifier et organiser la production de votre contenu, l’open web group a publié un excellent article : [Des contenus souples et réactifs grâce à la stratégie de contenu](http://openweb.eu.org/articles/des-contenus-souples-et-reactifs-grace-a-la-strategie).
+Au delà d'avoir une organisation claire et compréhensible, ce travail vous permettra d'avoir un référencement de qualité. Pour vous aider à planifier et organiser la production de votre contenu, l’open web group a publié un excellent article : [Des contenus souples et réactifs grâce à la stratégie de contenu](http://openweb.eu.org/articles/des-contenus-souples-et-reactifs-grace-a-la-strategie).
+
+J'ai aussi remarqué que sur le web : [nos yeux "scannent" une page web](http://conversionxl.com/19-things-we-can-learn-from-numerous-heatmap-tests/) de haut en bas, et sont attirés par les zones mises en valeur. Si l’on ne trouve pas rapidement ce qu’on cherche au cours de ce "scan", on va se désintéresser du site. Seulement les plus tenaces essayent d'entrer dans le détail... Il est donc obligatoire de bien hiérarchiser l’information, c’est même un métier : [architecte d'information](http://archinfo.umontreal.ca/ai/).
 
 > Dois-je utiliser du lorem ipsum pour mes test en attendant ?
 
 NON !
 
 ![lorem ipsum wine](https://farm4.staticflickr.com/3805/13535529285_82deb26868_o.jpg)
-
 
 Voila ce qu’il arrive si [vous utilisez du faux texte](http://www.elezea.com/2014/02/lorem-ipsum-gone-wrong/) : vous augmentez le risque qu’il soit oublié et se retrouve directement en production.

@@ -7,7 +7,6 @@ changefreq: monthly
 priority: 0.8
 ---
 
-
 La refonte de votre site ne doit pas impacter que votre présence en ligne.
 Votre nouvelle philosophie doit être visible dans tous les aspects de votre travail :
 
@@ -49,7 +48,7 @@ L'important est de faire un plan d'attaque pour savoir :
 - Où vous êtes
 - Où vous souhaitez aller
 
-Si au cours de votre parcours vous êtes perdus, cela vous permettra de recontextualiser votre objectif : comme lorsque l'on visite une nouvelle ville, il nous faut un plan pour se repérer.
+Si au cours de l'éxécution de vos tâches vous êtes perdus, cela vous permettra de recontextualiser votre objectif : comme lorsque l'on visite une nouvelle ville, il nous faut un plan pour se repérer.
 
 ![Vous êtes ici](https://farm8.staticflickr.com/7043/13892623325_21264dc6f4_z.jpg)
 
