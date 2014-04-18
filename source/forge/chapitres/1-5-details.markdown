@@ -13,7 +13,7 @@ Votre nouvelle philosophie doit être visible dans tous les aspects de votre tra
 - Documents internes
 - Charte graphique
 - Carte de visite
-- Gabari de présentations ...
+- Gabarit de présentations ...
 
 Mon conseil le plus important : __restez simple__.
 
@@ -25,7 +25,7 @@ Mon conseil le plus important : __restez simple__.
 Prenons comme exemple le cas d'une carte de visite : Plus vous multipliez les informations, plus vos chances de mettre à jour l'intégralité de vos documents augmente.
 Un logo, et un lien vers votre site suffit généralement. Vous pourrez facilement et rapidement mettre à jour vos informations sur votre site internet comparé à une impression de documents.
 
-Si vous voulez être hype en ajoutant un [QR code](http://wtfqrcodes.com/) réfléchissez bien au format. Plus de 80% des QR codes renvoient vers un site web non optimisé pour le mobile. De plus un bon nom de domaine vaut tout les QR codes du monde. Pensez à leboncoin qui recontre un succès énorme simplement parceque son nom est simple à retenir, et je ne parle même pas des compagnies aériennes qui ont carrément leur adresse de site internet gravé sur la carlingue de l'avion.
+Si vous voulez être hype en ajoutant un [QR code](http://wtfqrcodes.com/) réfléchissez bien au format. Plus de 80% des QR codes renvoient vers un site web non optimisé pour le mobile. De plus un bon nom de domaine vaut tout les QR codes du monde. Pensez à leboncoin qui rencontre un succès énorme simplement parceque son nom est simple à retenir, et je ne parle même pas des compagnies aériennes qui ont carrément leur adresse de site internet gravé sur la carlingue de l'avion.
 
 
 Si vous souhaitez quand même utiliser un QR code, il est possible de le faire de façon intelligente : renvoyez vers votre carte de visite en microformat. Ce format ouvert est utilisé pour standardiser l'affichage d'informations. Quel bonheur pour votre nouveau contact de pouvoir créer une fiche avec un contenu "propre" répertoriant toutes vos informations avec la solution de son choix (Microsoft exchange, google contact, ...)

@@ -8,7 +8,7 @@ priority: 0.8
 ---
 
 ![outdated web](https://farm8.staticflickr.com/7108/13535630093_998182462b_o.jpg)
-Photographie : [Doug Menuez](menuez.com)
+Photographie : [Doug Menuez](http://menuez.com)
 
 ## Un document vivant
 

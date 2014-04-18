@@ -1,7 +1,7 @@
 ---
 date: 2014-02-07
 slug: takeoff-conf-2014
-title: 'Take Off 2014 résumé en une image'
+title: 'Takeoff conference 2014 résumé en une image'
 page_title: "Une image pour les gourverner toutes"
 changefreq: monthly
 priority: 0.8
