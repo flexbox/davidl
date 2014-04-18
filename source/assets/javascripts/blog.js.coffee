@@ -8,7 +8,12 @@ $('#js-sub-nav--home a').click (event) ->
   return
 
 $ ->
-  $('#js-mixitup-container').mixItUp()
+  $('#js-mixitup-container').mixItUp(
+    animation:
+      duration: 400
+      effects: 'scale(1.00)'
+      easing: 'ease'
+    )
   return
 
 
