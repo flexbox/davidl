@@ -1,4 +1,5 @@
 $control-height: rem-calc(60);
+$control-font-color: $white;
 
 .m-control {
   z-index: 20;
@@ -16,13 +17,16 @@ $control-height: rem-calc(60);
   }
 
   a {
-    color: $white;
+    color: $control-font-color;
     border-bottom: 0;
     display: block;
     padding: $inline-list-bottom-margin ($inline-list-bottom-margin * 2);
     &:hover {
       background-color: $black-lighter;
     }
+  }
+  i {
+    color: $control-font-color !important;
   }
   .inline-list {
     margin: 0;
@@ -44,4 +48,10 @@ $control-height: rem-calc(60);
   span {
     margin: rem-calc(8) 0 0 rem-calc(15);
   }
+}
+
+.m-control--small {
+  // position: fixed;
+
+  top: 0;
 }

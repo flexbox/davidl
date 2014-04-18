@@ -5,7 +5,7 @@ html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" 
     meta name="viewport" content="width=device-width"
     meta http-equiv="X-UA-Compatible" content="IE=edge"
 
-    title #{current_page.data.title} &bull; #{data.settings.site.title}
+    title #{current_page.data.title}
     meta name="description" content="#{current_page.data.description}"
     meta name="robots" content="index,follow"
     = partial 'views/open_graph'
@@ -18,12 +18,16 @@ html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" 
     = partial 'views/analytics_code'
 
   body class="#{current_page.data.page_class}"
-    .m-content
-        = partial 'views/page_title'
-        #js-content
-        = yield
-    = partial 'views/footer'
-    = partial 'views/control'
+    .off-canvas-wrap data-offcanvas=""
+      .inner-wrap
+        .m-content
+          a class="right-off-canvas-toggle" href="#" Menu
+          = partial 'views/control'
+          = partial 'views/page_title'
+          #js-content
+          = yield
+        a class="exit-off-canvas"
+        = partial 'views/footer'
 
     = javascript_include_tag 'application'
     = yield_content :javascripts

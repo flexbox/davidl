@@ -1,1 +1,16 @@
-div data-interchange="[/control-small.html, (small)], [/control-medium.html, (medium)], [/control-medium.html, (large)]"
+aside class="right-off-canvas-menu"
+  ul
+    li
+      = link_to '/', class: 'm-control--logo' do
+        .picto-triforce.left
+        span.left David L
+    li
+      = link_to '/forge' do
+        i.i-custom.fa.fa-book
+        'FORGE
+    li
+      = link_to 'Blog', '/blog'
+    li
+      = link_to 'À propos', '/about.html'
+    li
+      = link_to 'Contact', '/contact.html'

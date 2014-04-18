@@ -1,20 +1,5 @@
 $masterhead-border: 5px solid $black;
 
-.m-masterhead--nav {
-  background-color: $black;
-  ul {
-    margin-bottom: 0;
-    a {
-      font-size: rem-calc(12);
-      border-bottom: 0;
-      color: $gray-dark;
-      &:hover {
-        color: $white-light;
-      }
-    }
-  }
-}
-
 .m-masterhead--background {
   background-color: $black-lighter;
   margin-bottom: rem-calc(30);
@@ -45,20 +30,6 @@ $masterhead-border: 5px solid $black;
     margin-bottom: rem-calc(80);
     font-size: rem-calc(70);
     padding: rem-calc(40) rem-calc(60);
-    &:before,
-    &:after {
-      position: absolute;
-      top: 50%;
-      margin-top: rem-calc(-40);
-    }
-    &:before {
-      content: "\223C";
-      left: 0em;
-    }
-    &:after {
-      content: "\223D";
-      right: 0em;
-    }
   }
 }
 
@@ -72,6 +43,8 @@ $masterhead-border: 5px solid $black;
 }
 
 .m-homepage .m-masterhead--background {
-  animation: 35s linear 0s normal none infinite movebg;
   background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat scroll 0 0;
+  @media #{$small} {
+    animation: 35s linear 0s normal none infinite movebg;
+  }
 }
