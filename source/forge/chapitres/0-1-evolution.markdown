@@ -36,9 +36,9 @@ Comme Gutemberg qui a inventé le concept d'imprimerie, nous vivons dans une ép
 Avant de vous lancer dans ce processus chronophage, qu'est la refonte de votre site internet, il est impératif de se poser les bonnes questions.
 Cela commence par faire un état des lieux de votre présence sur internet :
 
-- Pourquoi les internautes viennent sur mon site ?
+- Pourquoi les internautes viennent-ils sur mon site ?
 - Pourquoi devraient ils rester / revenir ?
-- Quel message doit il retenir en quittant mon site ?
+- Quel message doivent-ils retenir en quittant mon site ?
 
 Prenez 5 minutes, un carnet de notes et un crayon pour répondre à ces questions. Cela vous sera très utile pour la suite.
 
