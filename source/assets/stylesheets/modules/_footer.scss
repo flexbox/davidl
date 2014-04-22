@@ -4,10 +4,29 @@
   margin-bottom: rem-calc(60);
 }
 
+body {
+padding: 0;
+margin: 0;
+padding-bottom: 100%;
+}
+
+.m-content {
+  position: relative;
+  z-index: 10;
+  background-color: $body-bg;
+}
+
 .m-footer {
-  background-color: $gray;
-  padding-top: $control-height;
-  padding-bottom: $control-height;
+  background-color: $black;
+  padding-top: rem-calc(300);
+  padding-bottom: rem-calc(150);
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
 
   p {
     text-align: center;

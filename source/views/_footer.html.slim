@@ -7,16 +7,16 @@
 
 footer.m-footer
   .row
-    .medium-8.columns
+    .medium-12.columns
+
+      h4 'Intéressé par ce contenu ?
+      p Recevez des conseils sur le développement front-end.
 
       form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
         .row
           .small-12.columns
-            label for="mce-EMAIL"
-              'Recevez
-              strong
-                'des conseils
-              'sur le développement front-end.
+            label for="js-mailchimpemail"
+              'Votre email ?
 
         .row.collapse
           .small-8.columns
@@ -26,7 +26,8 @@ footer.m-footer
           .small-4.columns
             input type="submit" value="S'inscrire" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
 
-    .medium-4.columns
+  .row
+    .medium-12.columns
       p.text-right
         'Ce site est rédigé et administré par
         = link_to 'David Leuliette', '/human.txt'
