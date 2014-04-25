@@ -20,14 +20,13 @@ $code-background-color: rgba($white,0.8);
 }
 
 body {
-  background-color: $white-dark;
-  color: $gray-dark;
+  background-color: $black-lighter;
 }
 
 a {
   color: $anchor-font-color;
   font-weight: bold;
-  padding: em-calc(2);
+  padding: rem-calc(2);
   border-bottom: 1px solid $gray;
   @include single-transition();
   &:hover {
@@ -46,7 +45,7 @@ pre,
   }
 }
 pre {
-  padding: em-calc(20);
+  padding: rem-calc(20);
 }
 
 .gist .gist-file .gist-data .line-numbers {

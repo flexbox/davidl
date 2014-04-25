@@ -35,8 +35,8 @@ $font-weight-bold: 700;
 $font-weight-bolder: 900;
 
 // We use these to control various global styles
-$body-bg: #fff;
-// $body-font-color: #222;
+$body-bg: $white-dark;
+$body-font-color: $gray-dark;
 $body-font-family: "Droid Serif", serif;
 $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -507,7 +507,7 @@ $input-include-glowing-effect: false;
 
 // Off Canvas Menu Variables
 // $off-canvas-width: 250px;
-// $off-canvas-bg: #333;
+$off-canvas-bg: $black-lighter;
 
 // Off Canvas Menu List Variables
 // $off-canvas-label-padding: 0.3rem rem-calc(15);
@@ -631,7 +631,7 @@ $pagination-link-active-bg: $white;
 // $panel-padding: rem-calc(20);
 
 // We use these to set default font colors
-// $panel-font-color: #333;
+$panel-font-color: $body-font-color;
 // $panel-font-color-alt: #fff;
 
 // $panel-header-adjust: true;

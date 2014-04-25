@@ -11,11 +11,11 @@ $ ->
 
   lastScrollTop = 0
   $(window).scroll (event) ->
-    st = $(this).scrollTop()
-    if st > lastScrollTop
+    scrollTop = $(this).scrollTop()
+    if scrollTop > lastScrollTop
       # downscroll code
-      wat
+      $('.m-header').removeClass('is-show').addClass 'is-hidden'
     else
-    # upscroll code
-    lastScrollTop = st
+      $('.m-header').removeClass('is-hidden').addClass 'is-show'
+    lastScrollTop = scrollTop
 

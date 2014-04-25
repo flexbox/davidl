@@ -1,0 +1,16 @@
+.m-header {
+  background-color: rgba($white, 0.8);
+  position: fixed;
+  transition: all $transition-duration ease-in-out;
+
+  width: 100%;
+  z-index: 15;
+  padding-top: rem-calc(20);
+
+  &.is-hidden {
+    transform: translateY(rem-calc(-200));
+  }
+  &.is-show {
+    top: 0;
+  }
+}

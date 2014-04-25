@@ -24,6 +24,12 @@ h4 {
   color: $black-light;
 }
 
+.emperor { @extend h1; }
+.vador { @extend h2; }
+.maul { @extend h3; }
+.sith { @extend h4; }
+.acolyte { @extend h5; }
+
 hr {
   &.border {
     border-top: $masterhead-border;

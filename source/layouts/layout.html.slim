@@ -11,9 +11,7 @@ html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" 
     = partial 'views/open_graph'
 
     = partial 'views/favicon'
-
     = stylesheet_link_tag 'application'
-    = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Lato:900'
     = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
     = partial 'views/analytics_code'
 
@@ -21,7 +19,10 @@ html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" 
     .off-canvas-wrap data-offcanvas=""
       .inner-wrap
         .m-content
-          a class="right-off-canvas-toggle" href="#" Menu
+          .m-header.is-hidden
+            .row
+              .medium-12.columns
+                = link_to 'Menu', '#', class: 'right-off-canvas-toggle button animate right'
           = partial 'views/control'
           = partial 'views/page_title'
           #js-content

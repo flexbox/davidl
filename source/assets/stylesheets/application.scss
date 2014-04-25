@@ -6,8 +6,8 @@
   "pictos";
 
 @import
-  "foundation/scss/normalize",
   "colors",
+  "google-font",
   "foundation/scss/foundation/functions",
   "settings";
 
@@ -16,6 +16,7 @@
   "icones";
 
 @import
+  "foundation/scss/normalize",
   "foundation/scss/foundation/components/global",
   "foundation/scss/foundation/components/alert-boxes",
   "foundation/scss/foundation/components/block-grid",
@@ -39,6 +40,7 @@
   "modules/masterhead",
   "modules/type",
   "modules/control",
+  "modules/header",
   "modules/panel",
   "modules/dropcap",
   "modules/footer",

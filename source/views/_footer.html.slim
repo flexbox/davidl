@@ -1,22 +1,21 @@
-.row
-  .small-12.columns
-    p.m-go-top
-      = link_to '#top'
-        i.i-custom.fa.fa-arrow-up
-        'Haut de page
-
 footer.m-footer
+  .row
+    .small-12.columns
+      p.m-go-top
+        = link_to '#top'
+          i.i-custom.fa.fa-arrow-up
+          'Haut de page
   .row
     .medium-12.columns
 
-      h4 'Intéressé par ce contenu ?
-      p Recevez des conseils sur le développement front-end.
+      p.m-footer--title Intéressé par ce contenu ?
+      p Recevez des conseils sur le développement front-end. Ne vous inquétez pas je déteste le spam, il suffit d'un clic pour se désabonner.
 
       form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
         .row
           .small-12.columns
             label for="js-mailchimpemail"
-              'Votre email ?
+              'S'abonner pour ne pas manquer les nouvelles publications
 
         .row.collapse
           .small-8.columns
@@ -32,10 +31,10 @@ footer.m-footer
         'Ce site est rédigé et administré par
         = link_to 'David Leuliette', '/human.txt'
       p.text-right
-        =link_to 'Plan', '/sitemap.html', title: 'Voir le plan du site'
+        = link_to 'Plan', '/sitemap.html', title: 'Voir le plan du site'
         '&bull;
-        ='link_to 'Mentions légales', '/legal.html'
+        =' link_to 'Mentions légales', '/legal.html'
         '&bull;
-        =link_to 'Contenu', '#js-content', title: 'Aller au contenu'
+        = link_to 'Contenu', '#js-content', title: 'Aller au contenu'
         '&bull;
-        =link_to 'Accessibilité', '/manifesto.html#js-accessibility', title: "Politique d'accessibilité"
+        = link_to 'Accessibilité', '/manifesto.html#js-accessibility', title: "Politique d'accessibilité"
