@@ -1,7 +1,7 @@
 ---
 date: 2014-03-31
 slug: conseil-dev
-title: "Astuce de développement front-end"
+title: "Astuces et conseils de développeur web front-end"
 page_title: Mon meilleur conseil dans le domaine du développement web
 changefreq: monthly
 priority: 0.8
