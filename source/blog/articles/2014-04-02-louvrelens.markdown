@@ -7,21 +7,18 @@ changefreq: monthly
 priority: 0.8
 ---
 
-Chaque jour, dans la communauté des designer, les [proposition de redesign](http://dribbble.com/search?page=4&q=redesign) pleuvent : iOs, Facebook, Twitter … Si je salue la performance, je ne comprends pas trop l’intérêt car ces boites possèdent une armée de personnes en interne pour réaliser la chose. Pourquoi ne pas s’attaquer à de vrais sites qui ont vocation à être accessibles au plus grand nombre ?
-
+Chaque jour, dans la communauté des designer, les [proposition de redesign](http://dribbble.com/search?page=4&q=redesign) pleuvent : iOs, Facebook, Twitter … Je salue bien évidemment cette performance. Mais pourquoi ne pas s’intéresser à de vrais sites qui ont vocation à être accessibles au plus grand nombre ?
 
 [Responsive Museum](http://responsivemuseum.tumblr.com/) propose de modifier la feuille de styles CSS du site d’un musée pour le rendre lisible sur mobile, tablette, etc… J’ai voulu participer à cette chouette initiative en proposant la refonte du [LouvreLens](http://www.louvrelens.fr/)
 
 ## Pourquoi un redesign ?
 
-Pour préparer ma prochaine visite au musée, je me suis posé dans mon canapé avec ma tablette (mais apparement je dois être le seul français à faire ça).
-
-Le site internet n’est pas responsive et l’expérience n’est donc pas optimisée pour la mobilité.Je décide de télécharger l’application android. et la c’est le drame : _Cette application n’est pas compatible avec votre appareil_.
+Pour préparer ma prochaine visite au musée, je me suis installé dans mon canapé avec ma tablette. Je découvre que le site internet n’est pas responsive. L’expérience n’est donc pas optimisée pour la mobilité. Je décide de télécharger l’application Android. et là c’est le drame : _Cette application n’est pas compatible avec votre appareil_.
 
 ![louvrelen et android](https://farm8.staticflickr.com/7117/13621111873_2b530fb811_o.png)
 
-Le problème principal est d’avoir divisé le site en 3 parties : l’accès web, l’accès android et iPhone.
-J’ai déjà évoqué le fait que ce choix [multiplie les coûts](http://davidl.fr/blog/webdesign-adaptatif-vs-site-mobile-vs-application-native.html) et je ne pense pas que ce soit une bonne solution pour [le budget de fonctionnement](http://fr.wikipedia.org/wiki/Louvre-Lens#Fonctionnement) alloué aux mise à jour du contenu en ligne.
+Le problème principal est d’avoir divisé le site en 3 parties : l’accès web, l’accès Android et iPhone.
+J’ai déjà évoqué le fait que ce choix [multiplie les coûts](http://davidl.fr/blog/webdesign-adaptatif-vs-site-mobile-vs-application-native.html) et je ne pense pas que ce soit une bonne solution pour [le budget de fonctionnement](http://fr.wikipedia.org/wiki/Louvre-Lens#Fonctionnement) alloué aux mises à jour du contenu en ligne.
 
 
 ## Audit de navigation
@@ -47,9 +44,9 @@ Il existe plus de 5 manières de naviguer sur le site avec différents problème
 
 ### Menu principal
 
-À mon avis le site d’un musée se doit d’être accessible à tous, et apparement d’ici 2015 ce ne sera [pas négociable](http://www.lexpress.fr/actualites/1/societe/handicap-l-echeance-de-2015-d-accessiblite-pour-tous-pas-negociable_1023008.html).
+À mon avis, le site d’un musée doit d’être accessible à tous, et apparemment d’ici 2015 ce ne sera [pas négociable](http://www.lexpress.fr/actualites/1/societe/handicap-l-echeance-de-2015-d-accessiblite-pour-tous-pas-negociable_1023008.html).
 
-J’aimerais bien que l’on m’explique en quoi la navigation actuelle du Louvre-lens est accessible ? - elle est simplement illisible :
+La navigation actuelle du Louvre-Lens ne me parait pas très lisible :
 
 - Petite taille de la police.
 - Chevauchement des caractères.
@@ -61,7 +58,7 @@ J’aimerais bien que l’on m’explique en quoi la navigation actuelle du Louv
 
 Les 3 informations capitales qui devraient êtres mises en avant sont : Les __horaires__, Les __tarifs__ et les __évènements à venir__. Les visiteurs doivent trouver ces informations très simplement afin de faciliter leur décision de venir visiter le musée.
 
-Le Louvre-Lens est un lieu d'exception à explorer, mais la navigation actuelle n'encourage pas les utilisateurs à trouver facilement les informations qu'ils recherchent.
+Le Louvre-Lens est un lieu d'exception à explorer, mais la navigation actuelle ne permet pas aux utilisateurs de trouver facilement les informations qu'ils recherchent.
 
 
 ## Solutions
@@ -74,7 +71,7 @@ Il est responsive est s'adapte en fonction de la taille de l'écran.
 
 L'unique bouton est un tunnel d'entrée vers le contenu personnalisé des utilisateurs.
 
-![menu responive anime](https://farm4.staticflickr.com/3803/13621448534_763dd528ea_o.gif)
+![menu responsive anime](https://farm4.staticflickr.com/3803/13621448534_763dd528ea_o.gif)
 
 ### Navigation par catégories
 

@@ -5,6 +5,9 @@ $magellan-padding: 10px !default;
   background: $magellan-bg;
   .sub-nav {
     dd {
+      float: none;
+      display: block;
+
       a {
         @include post-list($m-post-link-border-color,$m-post-link-border-color-hover);
         color: $black-light;

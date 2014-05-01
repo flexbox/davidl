@@ -53,8 +53,6 @@ $m-panel-bg-hover: rgba($white, 0.9);
 .m-blog-panel {
   @include panel($black-light);
   @include single-transition();
-
-
   color: $white;
 
   .fa {
