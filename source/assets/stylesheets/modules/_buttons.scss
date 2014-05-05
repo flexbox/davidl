@@ -19,6 +19,7 @@
     background: $secondary-color;
   }
   &:hover,
+  &:focus,
   &:active {
     color: $white;
     border-color: $secondary-color;
