@@ -36,7 +36,7 @@ L'idée de base est simple : plutôt que de commencer avec la version plein écr
 - Votre expérience est optimisé pour les utilisateurs mobiles.
 - Obligation d'aller à l'essentiel. Il n'y a pas de place pour le contenu indésirable.
 
-La priorité au mobile n'est pas une solution magique pour tout les projets. Si vous faites une application métier complexe, vous ne pouvez pas dire à votre client d'abandonner 80% de la fonctionnalité juste parce que c'est tendance. Pour les applications riches en fonctionnalités ou de création de contenu, vous serez mieux en commençant par la version PC de bureau.
+La priorité au mobile n'est pas une solution magique pour tout les projets. Si vous faites une application métier complexe, vous ne pouvez pas dire à votre client d'abandonner 80% de la fonctionnalité juste parce que c'est tendance. Pour les applications riches en fonctionnalités ou la création de contenu complexe, il est plus facile de commencer par la version ordinateur de bureau.
 
 ## Adaptez vos méthodes de travail
 
@@ -48,7 +48,7 @@ La conception adaptative demande beaucoup de temps. Parfois, vous aurez besoin a
 
 Vous devez créer plusieurs esquisses pour chaque écran. Dans les premières étapes, il suffit de dessinner les extrêmes : un croquis très petit type mobile et un de très grande taille. Cela vous fait gagner du temps, car vous savez que vous pouvez interpoler les tailles entre-deux plus tard.
 
-Vous n'avez pas à faire de wireframes détaillés pour chaque résolution d'écran. Prenez une taille d'écran pour commencer, puis faites des vignettes de wireframes pour les autres tailles d'écran. Cela vous fera gagner un temps précieux.
+Vous n'avez pas à faire de wireframes détaillés pour chaque résolution d'écran. Prenez une taille d'écran pour commencer, puis faites des [vignettes de wireframes](http://responsivewireframe.tumblr.com/image/26821975671) pour les autres tailles d'écran. Cela vous fera gagner un temps précieux.
 
 ### Conception dans le navigateur
 
