@@ -14,5 +14,3 @@ Handcrafted with [Middleman](http://middlemanapp.com) & [slimmer](https://github
 - [Bower](http://bower.io) *[js package management]*
 - [Compass](http://compass-style.org) *[sass helpers/mixins]*
 - [GitHub Pages](http://pages.github.com) *[deployment/hosting]*
-
- Install with Bower: bower install zurb/bower-foundation

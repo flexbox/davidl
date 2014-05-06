@@ -5,14 +5,14 @@
   icon: fa-long-arrow-right
   url: /webdesign.html
 -
-  title: Carnet de bord
-  description: "La meilleure façon de maîtriser un sujet est de l'enseigner aux autres. J'écris des articles sur la conception web mobile, le responsive design et les outils que j'utilise quotidiennement."
+  title: Blog
+  description: "La meilleure façon de maîtriser un sujet est de l'enseigner aux autres. J'écris des articles sur le développemnt web front-end, le responsive design et les outils que j'utilise quotidiennement."
   type: writing
   icon: fa-long-arrow-right
   url: /blog/
 -
   title: Manifeste
-  description: "Pendant trop longtemps -et encore aujourd'hui, il n'existait aucune règle pour faire des sites internet. Coder une application web de qualité est de plus en plus complexe. Voici ma lettre ouverte qui expose mon programme d'action en développement front-end."
+  description: "Pendant trop longtemps -et encore aujourd'hui, il n'existait aucune règle pour faire des sites internet. Coder une <strong>application web de qualité est de plus en plus complexe</strong>. Voici ma lettre ouverte qui expose mon programme d'action en développement front-end."
   type: writing
   icon: fa-long-arrow-right
   url: /manifesto.html
