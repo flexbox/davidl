@@ -26,9 +26,11 @@ priority: 0.8
       - data.projects.each_with_index do |project, i|
         li class="mix category-#{project.type}" data-my-order="#{i}"
           = link_to project.url do
-            div class="m-panel l-social"
-              i class="fa #{project.icon}"
+            div class="m-panel"
               h2.l-title
                 = project.title
               p.l-description
                 = project.description
+              button
+                'En savoir plus
+                i class="fa #{project.icon}"

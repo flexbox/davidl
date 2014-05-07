@@ -81,7 +81,7 @@ Et on annonce David Leuliette gagnant de l'épreuve d'intégration #Yataaa
 
 Par contre j'ai gagné une trottinette :/
 
-Je ne dénigre pas du tout les lots proposés, mais une suite de livres en provenance du [siteduzero](www.siteduzero.com) ne m'aurait pas déplu, avec une invitation pour le prochain évènement un peu comme question pour un champion :)
+Je ne dénigre pas du tout les lots proposés, mais une suite de livres en provenance du [siteduzero](http://www.siteduzero.com) ne m'aurait pas déplu, avec une invitation pour le prochain évènement un peu comme question pour un champion :)
 
 
 ## Conclusion

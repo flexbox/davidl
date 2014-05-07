@@ -1,48 +1,48 @@
 -
   title: Webdesign
-  description: "Je crée des applications web et des sites internet. Je développe des sites adaptatifs accessibles quelque soit le périphérique."
+  description: "Je crée des applications web et des sites internet.<br> Je développe des sites rapides et accessibles qui s'adaptent à n'importe quel appareil."
   type: writing
   icon: fa-long-arrow-right
   url: /webdesign.html
 -
   title: Blog
-  description: "La meilleure façon de maîtriser un sujet est de l'enseigner aux autres. J'écris des articles sur le développemnt web front-end, le responsive design et les outils que j'utilise quotidiennement."
+  description: "La meilleure façon de maîtriser un sujet est de l'enseigner aux autres.<br> J'écris des articles sur le développemnt web front-end, le responsive design et les outils que j'utilise quotidiennement."
   type: writing
   icon: fa-long-arrow-right
   url: /blog/
 -
   title: Manifeste
-  description: "Pendant trop longtemps -et encore aujourd'hui, il n'existait aucune règle pour faire des sites internet. Coder une <strong>application web de qualité est de plus en plus complexe</strong>. Voici ma lettre ouverte qui expose mon programme d'action en développement front-end."
+  description: "Pendant trop longtemps -et encore aujourd'hui, il n'existait aucune règle pour développer des sites internet. Coder une <strong>application web de qualité est de plus en plus complexe</strong>.<br> Voici ma lettre ouverte qui expose mon programme d'action en développement front-end."
   type: writing
   icon: fa-long-arrow-right
   url: /manifesto.html
 -
   title: Partage
-  description: "J'aime partager des informations. J'apprends quelque chose de nouveau chaque jour, et je participe à la conversation collective qu'est Twitter."
+  description: "J'aime partager des informations. Chaque jour, j'apprends quelque chose de nouveau, et je participe à la conversation collective qu'est Twitter."
   type: misc
   icon: fa-external-link
   url: https://twitter.com/_flexbox
 -
   title: "Idée, Papier, Crayon"
-  description: "Je fais parti de ces designers incapables de commencer à faire quoi que ce soit sur un logiciel avant d’avoir posé mes idées sur papier. Avant je jetais ces maquettes directement à la poubelle, mais ça c’était avant. Maintenant je prends des photos pour conserver mes idées et les partager sur ce site."
+  description: "Je fais parti de ces designers incapables de commencer à faire quoi que ce soit sur un logiciel avant d’avoir posé mes idées sur papier.Avant je jetais ces maquettes directement à la poubelle, mais ça c’était avant. Maintenant je prends des photos pour conserver mes idées et les partager sur ce site."
   type: misc
   icon: fa-external-link
   url: http://responsivewireframe.tumblr.com/
 -
   title: Guide CSS
-  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments. J’ai rédigé ce guide qui regroupe les bonnes pratiques pour coder des feuilles de styles de qualité, évolutives et maintenables."
+  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments.<br>J’ai rédigé ce guide qui regroupe les <strong>bonnes pratiques pour coder des feuilles de styles</strong> de qualité, évolutives et maintenables."
   type: project
   icon: fa-external-link
   url: http://guidecss.fr/
 -
   title: Pokemon breakpoint
-  description: "Les développeurs front-end ont un problème dans la conception adaptative. Nous fixons des points d’arrêt en CSS et peut-être que nous voulons les utiliser dans notre Javascript. Pokemon breakpoint est une façon amusante de faire le lien entre ces 2 mondes."
+  description: "Les développeurs front-end ont un problème dans la conception adaptative. Nous fixons des points d’arrêt en CSS et peut-être que nous voulons les utiliser dans notre JavaScript. Pokemon breakpoint est une façon amusante de faire le lien entre ces 2 mondes."
   type: project
   icon: fa-external-link
   url: http://pokemonbreakpoint.fr/
 -
   title: Responsive icon
-  description: "Remplacer des icônes en images par des symboles HTML présente de nombreux avantages. J’ai développé cette application pour rapidement copier / coller ces caractères utiles en webdesign."
+  description: "Remplacer des icônes en images par des symboles HTML présente de nombreux avantages.<br>J’ai développé cette application pour rapidement copier / coller ces caractères utiles en webdesign."
   type: project
   icon: fa-external-link
   url: http://responsiveicon.fr/
@@ -54,19 +54,19 @@
   url: http://hoooooo.fr/
 -
   title: Webcitation
-  description: "Jours après jours, je collecte des citations à travers de nombreux livres, articles de blog… J’administre webcitation pour toutes les regrouper et les traduire pour vous."
+  description: "Jours après jours, je collecte des citations à travers de nombreux livres, articles de blog... J’administre webcitation pour toutes les regrouper et les traduire pour vous."
   type: project
   icon: fa-external-link
   url: http://webcitation.fr/
 -
   title: Bibliothèque
-  description: "Y faut lire ! Les gens ne lisent plus et c'est dommage car certains livres peuvent boulverser votre vie."
+  description: "La lecture permet de sortir l'esprit d'un certain obscurantisme. Les gens ne lisent plus et c'est dommage car certains ouvrages peuvent boulverser votre vie."
   type: misc
   icon: fa-long-arrow-right
   url: /books.html
 -
   title: Refonte de site internet
-  description: "Guide présentant les différentes étapes pour transformer votre site web."
+  description: "J'ai remarqué que beaucoups de sites ne sont pas préparés pour le nouveau monde du multi-écran.<br>Ce guide présentant les différentes étapes pour transformer votre site web."
   type: writing
   icon: fa-long-arrow-right
   url: /forge/

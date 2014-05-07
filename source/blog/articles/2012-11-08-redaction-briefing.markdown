@@ -1,7 +1,7 @@
 ---
 date: 2012-11-08 11:41:30+00:00
 slug: redaction-briefing
-title: Comment rédigier un brief creatif ?
+title: 8 questions à se poser pendant la création d'un brief créatif
 page_title: 8 questions à se poser pour un briefing de qualité
 changefreq: monthly
 priority: 0.8
@@ -16,22 +16,18 @@ Pour créer un site qui répondra aux besoins de votre client vous devez savoir 
 
 C'est une tâche qui peut devenir très difficile car avec l'expérience je suis souvent tombé dans ce genre de situations.
 
-
 > Il est vraiment difficile de concevoir des produits par groupes de discussion.
 > Souvent, les gens ne savent pas ce qu'ils veulent jusqu'à ce que vous leur montriez.
 >
-> Steve Jobs
-
+> <cite>Steve Jobs</cite>
 
 Voici 8 questions pour vous aider à trouver les impératifs de vos clients en terme de conception.
 
 
 ## 1. Quel est le public visé ?
 
-
 - Quel est leur tranche d'âge et où habitent-ils ?
 - Est ce que votre public possède des connaissances en informatique ?
-
 
 ## 2. Quel ligne directrice de votre marque doit être suivie ?
 
@@ -67,6 +63,6 @@ Voici 8 questions pour vous aider à trouver les impératifs de vos clients en t
 
 - Avez vous une date à respecter ?
 - Quels critères doivent être satisfaits ?
-- Quelles seront vos responsabilités ?
+- Quelles seront vos responsabilités, qui sera chargé de valider la production ?
 
 Évidemment cette liste n'est pas complète mais elle vous permettra d'avoir une idée plus précise des attentes de vos clients.
