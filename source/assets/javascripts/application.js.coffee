@@ -3,6 +3,8 @@
 
 #= require "jquery"
 #= require "jquery.smoothscroll"
+
+#= require "headroom.js/dist/headroom"
 #= require "jquery.stickynav"
 #= require "vendor/gist-embed"
 

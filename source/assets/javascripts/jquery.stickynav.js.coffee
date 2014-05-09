@@ -1,13 +1,16 @@
 $ ->
-  lastScrollTop = 0
-  $(window).scroll (event) ->
-    scrollTop = $(this).scrollTop()
-    if scrollTop > lastScrollTop
-      # downscroll code
-      $('.m-header').removeClass('is-show').addClass 'is-hidden'
-    else
-      $('.m-header').removeClass('is-hidden').addClass 'is-show'
-    lastScrollTop = scrollTop
+  header = document.querySelector('.m-header')
+  headroom = new Headroom(header,
+    tolerance: 5
+    offset: 50
+    classes:
+      initial: '_'
+      pinned: 'is-show'
+      unpinned: 'is-hidden'
+  )
+  headroom.init()
+
+
 
   $('#js-off-canvas-toggle').click ->
     $("html,body").animate
