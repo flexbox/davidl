@@ -85,17 +85,18 @@ section.m-section
         - data.books.each_with_index do |book|
           li
             figure
-              = image_tag "front/books/#{book.image}", alt: 'my image'
+              = image_tag "front/books/#{book.image}", alt: book.title
               figcaption
                 h3
                   = book.title
                 p.hide-for-small
                   = book.description
-                = link_to "J'achèèète", book.url, class: 'button'
+                = link_to "J'achèèète", book.amazon.url, class: 'button'
+                = image_tag book.amazon.image
       .row
         .medium-6.medium-centered.columns
           = link_to '/books.html', class: 'button large expand animate' do
-            'Voir mes autres recommandations
+            'Voir mes recommandations
             i.fa.fa-arrow-right
 
 

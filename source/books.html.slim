@@ -22,8 +22,15 @@ priority: 0.8
               = image_tag "front/books/#{book.image}", alt: "Livre développement front-end #{book.collection}"
           .medium-8.columns
             h2
-              = link_to book.title ,book.url
+              = link_to book.title ,book.amazon.url
             p
               = book.description
-            = link_to "Acheter sur Amazon", book.url, class: 'button secondary'
+            .row
+              .medium-6.columns
+                = link_to "Acheter sur amazon", book.amazon.url, class: 'button expand secondary'
+                = image_tag book.amazon.image
+              .medium-6.columns
+                - if book.blogpost.present?
+                  = link_to "Consulter l'article de blog", book.blogpost, class: 'button expand'
+                  = image_tag book.amazon.image
 
