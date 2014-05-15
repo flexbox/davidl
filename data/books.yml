@@ -18,7 +18,7 @@
     image: "http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=B0085K3TCI"
 -
   title: "Jump start : Responsive Web Design"
-  description: "Ce n'est plus seulement une expression à la mode, la conception adaptative est maintenant une compétence essentielle pour tous les webdesigners et développeurs."
+  description: "Ce n'est plus seulement une expression à la mode, la conception adaptative est maintenant une compétence essentielle pour tous les webdesigners et développeurs. Ce livre est une très bonne introduction sur le sujet."
   collection: "Sitepoint"
   langage: Anglais
   image: "sitepoint-jump-start-responsive.jpg"
@@ -27,7 +27,7 @@
     image: "http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=0987332163"
 -
   title: "Javascript™ par Nicolas froidure"
-  description: "En 2013, un développeur web front-end compétent baigne dans HTML et CSS, JavaScript et jQuery, les préprocesseurs CSS ..., la complexification des interfaces demande une certaine maîtrise de JavaScript."
+  description: 'En 2013, un développeur web front-end compétent baigne dans HTML et CSS, JavaScript et jQuery, les préprocesseurs CSS ..., la complexification des interfaces demande une certaine maîtrise de JavaScript. Ce livre est la réponse à la question : "Je veux acheter un livre pour comprendre JavaScript."'
   collection: "Micro Application"
   langage: Français
   image: "nicolas-froidure-js.jpg"

@@ -28,7 +28,7 @@ priority: 0.8
                 = link_to book.amazon.url, class: 'button expand secondary' do
                   'Acheter sur amazon
                   i.fa.fa-external-link
-                = image_tag book.amazon.image
+                = image_tag book.amazon.image, alt: 'Acheter ce livre sur amazon'
               .medium-6.columns
                 - if book.blogpost.present?
                   = link_to book.blogpost, class: 'button expand' do
