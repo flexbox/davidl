@@ -87,7 +87,7 @@ Pour garder captif l'attention des visiteurs, les entrées vers les différentes
 
 Comme sur une carte où l'on affiche la position actuelle, le lien vers __la page en cours__ est contrasté pour inviter à la découverte des autres catégories.
 
-### Demonstration
+### Démonstration
 
 Ma philosophie est le développement open source et grâce à la magie de Ruby on Rails et SASS tout est disponible sur github.
 
