@@ -1,36 +1,45 @@
 ---
-title: Conseil de lecture pour la création de site internet
-description: Ce sont tous les livres utiles que je possède, que j'ai lu, aimé, et recommandé par mes soins.
+title: Livre CSS, developpement front-end et responsive design
+description: Conseil de lecture pour la création de site internet. Ce sont tous les livres utiles que je possède, que j'ai lu, aimé, et recommandé par mes soins.
 page_title: Bibliothèque de l'archiviste front-end
 changefreq: monthly
 priority: 0.8
 ---
 
-- content_for :javascripts do
-  = javascript_include_tag "#{data.settings.social.amazon.affiliate}"
-
 .row
   .medium-10.medium-centered.columns
     p.drop-cap
-      'Pour se tenir à jour des technologies suivre l'actualité est important. Personellement j'ai des flux RSS, des mailling list, twitter et google plus pour m'informer. Problème : <strong>trop d'informations tue l'information</strong> et la lecture sur le web favorise le butinage. Je scanne les pages et ne prends pas le temps nécéssaire à l'assimilation des concepts.
+      'Pour se tenir à jour des technologies, suivre l'actualité est indispensable. Personellement j'ai des flux RSS, des mailling list, twitter et google plus pour m'informer. Problème : <strong>trop d'informations tue l'information</strong> et la lecture sur le web favorise le butinage. Je scanne les pages et ne prends pas le temps nécéssaire à l'assimilation des concepts.
       br
       'Régulièrement je me déconnecte volontairement de tout accès à internet -même du smartphone, pour lire de bon gros livres au format papier. Je suis plus concentré, et retiens beaucoup mieux les notions de ces livres.
+    p
+      'Voici une liste de livres que vous pouvez acheter si vous souhaitez vous perfertionner en intégration CSS, développement front-end et responsive design. J'ai lu l'intégralité de leur contenu et je ne présente une sélection que des <strong>meilleurs livres</strong>.
     - data.books.each_with_index do |book|
       .m-panel
-        .row
-          .medium-4.columns
-              = image_tag "front/books/#{book.image}", alt: "Livre développement front-end #{book.collection}"
+        .row itemscope="" itemtype="http://schema.org/Book"
           .medium-8.columns
             h2
-              = link_to book.title ,book.amazon.url
-            p
-              = book.description
+              = link_to book.title ,book.amazon.url, :itemprop => "name"
+            div itemscope="" itemprop="review" itemtype="http://schema.org/Review"
+              p itemprop="reviewBody"
+                = book.description
             .row
               .medium-6.columns
-                = link_to "Acheter sur amazon", book.amazon.url, class: 'button expand secondary'
+                = link_to book.amazon.url, class: 'button expand secondary' do
+                  'Acheter sur amazon
+                  i.fa.fa-external-link
                 = image_tag book.amazon.image
               .medium-6.columns
                 - if book.blogpost.present?
-                  = link_to "Consulter l'article de blog", book.blogpost, class: 'button expand'
-                  = image_tag book.amazon.image
+                  = link_to book.blogpost, class: 'button expand' do
+                    'Consulter l'article de blog
+                    i.fa.fa-long-arrow-right
+          .medium-4.columns
+              = image_tag "front/books/#{book.image}", alt: "Livre développement front-end #{book.collection}", :itemprop => "image"
+              h3
+                small
+                  = book.collection
+              h4
+                small
+                  = book.langage
 

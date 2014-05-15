@@ -1,15 +1,17 @@
 -
   title: "The mobile book"
-  description: "Concevoir un site mobile est différent : cela nous oblige à repenser et élargir nos pratiques. Nouveau contexte, nouvelles techniques, différents modèles et stratégies de conception."
+  description: "Concevoir un site mobile est différent : cela nous oblige à repenser et élargir nos pratiques. Nouveau contexte, nouvelles techniques, différents modèles et stratégies de conception. Ce livre se concentre sur la conception et la performance pour les appareils mobiles."
   collection: "Smashing magazine"
+  langage: Anglais
   image: "smashing-mobile.jpg"
   amazon:
     url: "http://www.amazon.fr/gp/product/B00AMM4QWY/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B00AMM4QWY&linkCode=as2&tag=davidl-21"
     image: "http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=B00AMM4QWY"
 -
   title: "Redesign the web"
-  description: "The Smashing Book #3 couvre les nouvelles normes de codage innovantes, la conception et les techniques UX et aborde les particularités du contexte mobile et design émotionnel."
+  description: "The Smashing Book #3 est un livre incroyablement bien conçu. Il couvre les nouvelles normes de codage innovantes, la conception et les techniques d'UX et aborde les particularités du contexte mobile et design émotionnel."
   collection: Smashing magazine
+  langage: Anglais
   image: "smashing-redesign.jpg"
   amazon:
     url: "http://www.amazon.fr/gp/product/B0085K3TCI/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B0085K3TCI&linkCode=as2&tag=davidl-21"
@@ -18,14 +20,16 @@
   title: "Jump start : Responsive Web Design"
   description: "Ce n'est plus seulement une expression à la mode, la conception adaptative est maintenant une compétence essentielle pour tous les webdesigners et développeurs."
   collection: "Sitepoint"
+  langage: Anglais
   image: "sitepoint-jump-start-responsive.jpg"
   amazon:
     url: "http://www.amazon.fr/gp/product/0987332163/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=0987332163&linkCode=as2&tag=davidl-21"
     image: "http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=0987332163"
 -
   title: "Javascript™ par Nicolas froidure"
-  description: "En 2013, un développeur Web front-end compétent baigne dans HTML et CSS, JavaScript et jQuery, les préprocesseurs CSS ..., la complexification des interfaces demande une certaine maîtrise de Javascript."
+  description: "En 2013, un développeur web front-end compétent baigne dans HTML et CSS, JavaScript et jQuery, les préprocesseurs CSS ..., la complexification des interfaces demande une certaine maîtrise de JavaScript."
   collection: "Micro Application"
+  langage: Français
   image: "nicolas-froidure-js.jpg"
   blogpost: "http://davidl.fr/blog/javascript.html"
   amazon:
