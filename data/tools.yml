@@ -29,10 +29,20 @@
   url: http://imageoptim.com/fr.html
   image: imageoptim.png
 -
+  name: ImageAlpha
+  description: "ImageAlpha réduit considérablement la taille des fichiers PNG24 bits (y compris la transparence alpha) en appliquant une compression avec perte + une conversion PNG8 plus efficace et y ajoute le format alpha."
+  url: http://pngmini.com/
+  image: imagealpha.png
+-
   name: iTerm2
   description: "iTerm2 est un émulateur de terminal pour Mac OS X qui fait des choses étonnantes."
   url: http://www.iterm2.com/
   image: iterm2.png
+-
+  name: JPEGmini
+  description: "Avec JPEGmini pour Mac, vous pouvez réduire la taille du fichier de vos photos jusqu'à 5x, tout en gardant leur qualité d'origine et le format JPEG."
+  url: http://www.jpegmini.com/mac
+  image: jpegmini.png
 -
   name: LICEcap
   description: "LICEcap permet d'enregistrer une partie de votre écran pour la convertir en .gif animé. Simple et efficace."
@@ -41,7 +51,7 @@
 -
   name: Papier et crayon
   description: "Si vous ne possédez pas de carnet de notes et un beau crayon, s'il vous plaît faites-vous une faveur, arrêter de lire ce site et allez en acheter un. Forcez-vous à l'utiliser. Ensuite, remarquez comment il est plus facile de poser et d'articuler ses idées de design avec cet outil."
-  url: http://www.amazon.fr/gp/product/8883707168/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=8883707168&linkCode=as2&tag=davidl-21
+  url: "http://www.amazon.fr/gp/product/8883707168/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=8883707168&linkCode=as2&tag=davidl-21"
   image: front-end-papier-crayon.jpg
 -
   name: PixelWindow
