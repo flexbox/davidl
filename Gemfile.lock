@@ -80,6 +80,8 @@ GEM
       rack-livereload
     middleman-minify-html (3.1.1)
       middleman-core (~> 3.0)
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
     middleman-sprockets (3.2.0)
       middleman-core (~> 3.2)
       sprockets (~> 2.1)
@@ -144,6 +146,7 @@ DEPENDENCIES
   middleman-gh-pages
   middleman-livereload
   middleman-minify-html
+  middleman-sitemap (~> 0.0.13)
   nokogiri
   slim
   therubyracer

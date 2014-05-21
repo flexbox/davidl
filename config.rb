@@ -114,6 +114,8 @@ configure :build do
     }
   end
 
+  activate :sitemap, :hostname => data.settings.site.url
+
   # Enable cache buster
   # activate :cache_buster
 

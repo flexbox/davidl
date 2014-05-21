@@ -9,6 +9,7 @@ gem 'middleman-gh-pages'
 gem 'middleman-livereload'
 gem 'middleman-favicon-maker', '~> 3.5'
 gem 'middleman-minify-html'
+gem 'middleman-sitemap', '~> 0.0.13'
 gem 'middleman-autoprefixer'
 
 gem 'nokogiri'
