@@ -299,7 +299,7 @@ Comme expliqué précédemment, quand un navigateur télécharge jQuery, il doit
 
 ## La performance comme budget
 
-Généralement la performance ne fait fait l'objet d'un buget pour un projet web. Mais tout comme les créateurs de jeux vidéos qui ont une limite dans le nombre de polygones affichés à l'écran, les développeurs devraient imposer une limite de taille pour alléger le poids des sites internets.
+Généralement la performance ne fait fait l'objet d'un budget pour un projet web. Mais tout comme les créateurs de jeux vidéos qui ont une limite dans le nombre de polygones affichés à l'écran, les développeurs devraient imposer une limite de taille pour alléger le poids des sites internets.
 
 Si votre client est résistant à se soucier de la performance, voici une petite astuce qui fonctionne :
 

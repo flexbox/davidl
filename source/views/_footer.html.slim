@@ -1,13 +1,6 @@
 footer.m-footer
   .row
-    .small-12.columns
-      p.m-go-top
-        = link_to '#top'
-          i.i-custom.fa.fa-arrow-up
-          'Haut de page
-  .row
-    .medium-12.columns
-
+    .medium-10.medium-centered.columns
       p.m-footer--title Intéressé par ce contenu ?
       p Recevez des conseils sur le développement front-end. Ne vous inquétez pas je déteste le spam, il suffit d'un clic pour se désabonner.
 
@@ -26,11 +19,12 @@ footer.m-footer
             input type="submit" value="S'inscrire" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
 
   .row
-    .medium-12.columns
-      p.text-right
+    .medium-6.columns
+      p
         'Ce site est rédigé et administré par
         = link_to 'David Leuliette', '/human.txt'
+    .medium-6.columns
       p.text-right
-        = link_to 'Plan', '/sitemap.html', title: 'Voir le plan du site'
+        =' link_to 'Plan', '/sitemap.html', title: 'Voir le plan du site'
         '&bull;
         =' link_to 'Mentions légales', '/legal.html'
