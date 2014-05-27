@@ -22,9 +22,13 @@
                   'Publié par
                   a href="#{data.settings.social.google_plus}?rel=author" itemprop="name"
                    'David Leuliette
+                  span itemprop="title"
+                    'Développeur front-end
+                  'et évangeliste open source.
                 p
                   .fa.fa-twitter
-                  =' link_to data.settings.social.twitter.name, data.settings.social.twitter.url
+                  span itemprop="nickname"
+                    =' link_to data.settings.social.twitter.name, data.settings.social.twitter.url
                   'sur twitter
                 p
                   .fa.icon-rss

@@ -116,9 +116,6 @@ configure :build do
 
   activate :sitemap, :hostname => data.settings.site.url
 
-  # Enable cache buster
-  # activate :cache_buster
-
   # Use relative URLs
   activate :relative_assets
 
