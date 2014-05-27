@@ -11,16 +11,28 @@ blog: blog
   .medium-8.columns
     h2 Liste des articles
     - page_articles.each_with_index do |article, i|
-      = link_to article, class: 'm-post-list--link' do
-        .row
-          .medium-12.columns
-            .m-post-list--calendar
-              span.l-day=article.date.strftime('%d')
-              |.
-              span.l-month=article.date.strftime('%m')
-              |.
-              span.l-year=article.date.strftime('%Y')
-            h3.l-title= article.title
+      - if i == 0
+        = link_to article, class: 'm-post-recent-list--link' do
+          .row
+            .medium-12.columns
+              .m-post-list--calendar
+                span.l-day=article.date.strftime('%d')
+                |.
+                span.l-month=article.date.strftime('%m')
+                |.
+                span.l-year=article.date.strftime('%Y')
+              h3.l-title= article.title
+      - else
+        = link_to article, class: 'm-post-list--link' do
+          .row
+            .medium-12.columns
+              .m-post-list--calendar
+                span.l-day=article.date.strftime('%d')
+                |.
+                span.l-month=article.date.strftime('%m')
+                |.
+                span.l-year=article.date.strftime('%Y')
+              h3.l-title= article.title
 
     div class="pagination-centered"
       ul class="pagination"
@@ -49,16 +61,19 @@ blog: blog
       i.fa.i-custom.fa-envelope
       = link_to "S'inscrire par email", '#js-mailchimpemail', class: 'js-mailchimp-destination'
     hr
-    h2 Ressources pour développeur front-end
-    = link_to '/webdesign.html', class: 'm-post-recent-list--link' do
-        p.l-title
-          'Design adaptatif
-    = link_to '/books.html', class: 'm-post-recent-list--link' do
-        p.l-title
-          'Bibliothèque
-    = link_to '/manifesto.html', class: 'm-post-recent-list--link' do
-        p.l-title
-          'Manifeste
-    = link_to '/toolkit.html', class: 'm-post-recent-list--link' do
-        p.l-title
-          'Outils
+    h2 Ressources
+    p
+      = link_to '/forge/index.html' do
+        'Forge
+    p
+      = link_to '/webdesign.html' do
+        'Responsive design
+    p
+      = link_to '/books.html' do
+        'Bibliothèque
+    p
+      = link_to '/manifesto.html' do
+        'Manifeste
+    p
+      = link_to '/toolkit.html' do
+        'Outils
