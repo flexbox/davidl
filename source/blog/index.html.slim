@@ -22,6 +22,7 @@ blog: blog
                 |.
                 span.l-year=article.date.strftime('%Y')
               h3.l-title= article.title
+        hr
       - else
         = link_to article, class: 'm-post-list--link' do
           .row
