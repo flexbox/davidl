@@ -24,7 +24,7 @@ Chaque technique peut être déployée partiellement, en partie ou pas du tout. 
 
 ## Geek de la performance
 
-Les 2 choses les plus simples à mettre en place rapidement sont la compression des fichiers et le cache des en-têtes. Ces techniques indispensables vous aiderons à :
+Les 2 choses les plus simples à mettre en place rapidement sont la compression des fichiers et les en-têtes de cache. Ces techniques indispensables vous aiderons à :
 
 - Réduire le poids des pages.
 - Réduire le nombre de requêtes http, et donc la latence.
@@ -35,7 +35,7 @@ Puisque ces modifications ont lieu côté serveur, elles amélioreront immédiat
 
 De la même manière que nous zippons nos pièces jointes envoyées par email, votre serveur peut compresser les fichiers avant de les envoyer au navigateur. Pour __préserver la bande passante__ de vos utilisateurs mobiles, il est capital de réduire le plus possible la taille de votre site.
 
-La librairie de compression pour Apache `mod_deflate` fonctionne uniquement sur des fichiers textes comme `HTML`, `CSS` et `JavaScript`. Généralement les images `.jpg` sont déjà compressées, cette librairie n'ont donc aucun effet sur elles.
+La librairie de compression pour Apache `mod_deflate` fonctionne uniquement sur des fichiers textes comme `HTML`, `CSS` et `JavaScript`. Les images `.jpg`, `.gif` ou `.png` sont compressées à différents niveaux, comme expliqué plus loin dans cet article, cette librairie n'ont donc aucun effet sur elles.
 
 La mise en place demande 3 étapes :
 
@@ -63,7 +63,7 @@ La mise en place demande 3 étapes :
 2. Copier le fichier `.htaccess`, pour la partie `mod_expires`,
 3. et le coller sur votre serveur.
 
-La plus grande limite de cette technique est la taille du cache des appareils mobiles. Un site web simple pèse en moyenne 4Mo, le cache des appareils Android 2.x est limité à 6Mo, les appareils iOS sont plus avantagés avec un cache de 50Mo.
+La plus grande limite de cette technique est la taille du cache des appareils mobiles. Un site web simple doit peser en moyenne 2Mo, le cache des appareils Android 2.x est limité à 6Mo, les appareils iOS sont plus avantagés avec un cache de 50Mo.
 
 Pour contourner ce problème nous pouvons mettre en place une fonctionnalité en utilisant l'API HTML5 `localStorage` mais pour cela il faut être guru de la performance.
 
@@ -128,6 +128,11 @@ Si vous souhaitez en savoir plus sur l'optimisation des images, je vous invite c
 Avec la puissance de node et [ImageOptim-CLI](https://github.com/JamieMason/ImageOptim-CLI) il est possible d’automatiser tout ce processus pour vous permettre de gagner un temps considérable.
 
     npm install -g imageoptim-cli
+
+#### 4. Lazy Loading d'images
+
+Comme me l'a fait remarqué [@gaelmetais](https://twitter.com/gaelmetais), expert en performance web, la solution qui donne les meilleurs résultats est le lazy loading d'images.
+Cette solution [JavaScript disponible sur github](https://github.com/vvo/lazyload) permet de ne charger que les images visible du `viewport`. Cela évite de télécharger inutilement des images qui ne sont probablement jamais vues par les visiteurs.
 
 ### Reporter le chargement du contenu
 
@@ -236,7 +241,7 @@ De plus vous ne téléchargez que ce qui est nécessaire. Si un utilisateur n'es
 
 Les fichiers CSS et JavaScript ne sont pas les seuls à pouvoir êtres combinés pour réduire le nombre de requêtes. Utilisés généralement pour des icones ou de petites illustrations, la technique des sprites CSS est une bonne solution.
 
-Essayez de regrouper des images partageant la même palette  de couleur. Si ce n'est pas le cas la taille de votre fichier sera anormalement élevée car il sera sauvegardé au format PNG `true color` au lieu du classique PNG 256 couleurs. Vous pouvez aussi encoder le résultat obtenu en base64 pour optimiser encore plus la taille de votre fichier.
+Essayez de regrouper des images partageant la même palette  de couleur. Si ce n'est pas le cas la taille de votre fichier sera anormalement élevée car il sera sauvegardé au format PNG `true color` au lieu du classique PNG 256 couleurs. Pour éviter une requête avec des images de petites tailles, vous pouvez aussi encoder le résultat obtenu en base64 pour optimiser encore plus la taille de votre fichier (à prendre avec précaution car cela peut augementer la taille jusqu'à 37%).
 
 - [base64](http://www.base64-image.de/) pour encoder vos images
 - Un outil CSS : [SpriteMe](http://spriteme.org/)
@@ -271,7 +276,7 @@ Chaque déclaration provoque un calcul. Dans notre cas il y a 3 reflow.
     var el = document.getElementById('js-box');
     el.className = "m-box";
 
-1 seul reflow. le style est déclaré à sa place : dans une feuille de style et vous n'aurez pas besoin d'utiliser `!important` si votre élément change.
+1 seul reflow. Le style est déclaré à sa place : dans une feuille de style et vous n'aurez pas besoin d'utiliser `!important` si votre élément change.
 
 Les calculs sont aussi impactés par l'ajout d'élements au DOM.
 
