@@ -6,6 +6,9 @@ changefreq: yearly
 priority: 0.3
 ---
 
+- content_for :javascripts do
+  = javascript_include_tag 'about'
+
 .row
   .medium-4.columns.hide-for-small
     .m-photo-album

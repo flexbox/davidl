@@ -14,14 +14,10 @@
 #= require "foundation/js/foundation/foundation.equalizer"
 #= require "foundation_init"
 
-#= require "snapsvg"
-#= require "pizza"
-#= require "about"
-
 #= require "mixitup/src/jquery.mixitup"
 #= require "blog"
 
-
-
 #= require "jquery-videobackground/script/jquery.videobackground"
 #= require "webdesign"
+
+#= require "easteregg"
