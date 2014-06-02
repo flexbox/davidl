@@ -3,7 +3,6 @@ $ ->
     event.preventDefault()
     $('#js-sub-nav--home dd').removeClass('active')
     $(this).parent('dd').addClass('active')
-    return
 
   $('#js-mixitup-container').mixItUp(
     animation:
@@ -11,6 +10,3 @@ $ ->
       effects: 'scale(1.00)'
       easing: 'ease'
     )
-    return
-
-
