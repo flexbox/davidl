@@ -21,19 +21,20 @@ priority: 0.3
     p
       'J'ai découvert Internet en 1998 à l'époque du 56k, de Caramail et de Lycos. Je n'ai rien râté depuis, grâce à un système de veille efficace, ma persévérance et ma passion.
     p
-      ' Je vis à Valenciennes, près de Lille, dans le nord de la France. Ma passion ? coder des
+      ' Je vis à Valenciennes, près de Lille, dans le nord de la France. Mon travail ? Coder des
       =' link_to 'features', 'http://git-scm.com/about'
-      'pour rendre le monde meilleur à travers un web plus libre, plus accessible, plus rapide et à l'épreuve du temps.
-    p
-      strong Jour après jour :
-      ul
-        li Découverte de nouveaux produits.
-        li Recherches sur l'expérience utilisateur.
-        li Croquis et brainstroming.
-        li Prototypage et validation.
-        li Tests d'utilisabilité.
-        li Conception d'interfaces et codage HTML / CSS  bien structuré (généralement avec les préprocesseurs SASS).
-        li Tout cela en étroite collaboration avec les ingénieurs et les graphistes.
+      'pour rendre le monde meilleur à travers un web plus libre, <strong>plus rapide</strong> et à <strong>l'épreuve du temps</strong>.
+    h3
+      small Jour après jour :
+    ul
+      li Découverte de nouveaux produits.
+      li Recherches sur l'expérience utilisateur.
+      li Croquis et brainstroming.
+      li Prototypage et validation.
+      li Tests d'utilisabilité.
+      li Conception d'interfaces
+      li Codage HTML / CSS (Généralement avec un préprocesseur comme Sass) correctement architecturé et évolutif.
+      li Tout cela en étroite collaboration avec les ingénieurs et les graphistes.
 
     h3 Designer, développeur et architecte front-end
     p Je suis programmeur ayant une vaste expérience en codage, designer par passion, curieux intellectuellement, et dans la vie je donne le meilleur de moi même pour une chose :
@@ -43,9 +44,12 @@ priority: 0.3
       'J'aime construire des applications web, pousser du code tous les jours et rendre mes conceptions adaptables et rapides.
       =' link_to "Voici les outils que j'utilise", '/toolkit.html'
       'au quotidien.
-    p
-      = link_to "N'hésitez pas à me contacter", '/contact.html'
-      '. Je lis tous mes emails et je réponds rapidement.
+    p N'hésitez pas à me contacter, je lis tous mes emails et je réponds rapidement.
+    .row
+      .medium-6.medium-centered.columns
+        = link_to '/contact.html', class: 'button expand' do
+          'Dire bonjour
+          i.fa.fa-arrow-right
 
 section.m-section
   .row
@@ -69,7 +73,7 @@ section.m-section
         .i-custom.icon-js
         'JavaScript
       p
-        'Pour donner des interactions à vos pages il est de nos jours indispensable d'utiliser du Javascript. Je suis également fondateur et participant
+        'Pour donner des interactions à vos pages il est de nos jours indispensable d'utiliser du JavaScript. Je suis également fondateur et participant
         = link_to 'du groupe chtiJS', 'http://chtijs.francejs.org/'
         '.
 

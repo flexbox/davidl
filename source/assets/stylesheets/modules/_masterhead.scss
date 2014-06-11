@@ -43,7 +43,7 @@ $masterhead-border: 5px solid $black;
 }
 
 .m-homepage .m-masterhead--background {
-  background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat scroll 0 0;
+  background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat 0 0;
   @media #{$small} {
     animation: 35s linear 0s normal none infinite movebg;
   }

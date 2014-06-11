@@ -1,6 +1,11 @@
 .icon-html { color: $sc-html; }
 .icon-3-css { color: $sc-css; }
-.icon-js { color: $sc-js; }
+.icon-js {
+  color: $sc-js;
+  &:after {
+    color: $black;
+  }
+}
 
 .m-photo-album img {
   border: 5px solid $white;
@@ -12,8 +17,7 @@
   margin: rem-calc(20 0);
 
   &:hover {
-    @include x-transform(scale(1.1));
-    @include radius($global-radius);
+    @include x-transform(scale(1.2));
   }
 }
 

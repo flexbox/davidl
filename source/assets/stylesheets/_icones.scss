@@ -58,9 +58,22 @@
 .icon-3-css:before {
   content: "d";
 }
-.icon-js:before {
-  content: "\25fc";
+.icon-js {
+  position: relative;
+  margin: rem-calc(-15) rem-calc(5) 0 0;
+  &:before {
+    content: "\25fc";
+    font-size: 2em;
+  }
+  &:after {
+    content: "JS";
+    font-size: 0.8em;
+    position: absolute;
+    bottom: rem-calc(3);
+    right: rem-calc(8);
+  }    
 }
+
 .icon-html:before {
   content: "e";
 }
