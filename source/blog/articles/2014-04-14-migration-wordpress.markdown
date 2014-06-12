@@ -1,7 +1,7 @@
 ---
 date: 2014-04-14
 slug: migration-wordpress
-title: Migration de wordpress vers ruby on rails et middleman
+title: Migration de wordpress vers ruby et Middleman
 page_title: J'ai quitté wordpress, Pourquoi ? Comment ?
 changefreq: monthly
 priority: 0.8
@@ -13,7 +13,7 @@ J'ai décidé de m'éloigner de Wordpress, car je me retrouvais souvent à livre
 Travailler avec le tinymce et le `HTML` fonctionne plutôt bien, mais je trouve que l'écriture en `Markdown` est beaucoup plus simple et [pervasive](http://fr.wikipedia.org/wiki/Environnement_pervasif).
 Je passais mon temps à enlever des fonctionnalités, mettre à jour et installer des modules qui par dizaines en utilisant finalement 30% des fonctionnalités.
 
-J'ai donc quitté le monde Wordpress et `php` pour travailler en Ruby on Rails avec un générateur de site statiques : [middleman](http://middlemanapp.com/).
+J'ai donc quitté le monde Wordpress et `php` pour travailler en `ruby avec un générateur de site statiques : [middleman](http://middlemanapp.com/).
 
 ## Les avantages
 
@@ -51,7 +51,7 @@ Comme tout le monde :
 - Je suis passé par la case framework de thèmes pour wordpress, qui au final complexifiait l'architecture.
 - Ma dernière expérience fut d'utiliser [underscore](http://underscores.me/) (Un boilerplate simple de thème). Mais les performances n'étaient pas au rendez-vous.
 
-Finalement j'ai [middleman](http://middlemanapp.com/) qui embarque de base [Sass](http://sass-lang.com/), [CoffeeScript](http://coffeescript.org/) et juste ce qu'il faut de [Ruby on Rails](http://rubyonrails.org/). Je passe mon temps à construire des choses. Contrairement à wordpress où je passais mon temps à faire des _dirty hacks_.
+Finalement j'ai [middleman](http://middlemanapp.com/) qui embarque de base [Sass](http://sass-lang.com/), [CoffeeScript](http://coffeescript.org/) et juste ce qu'il faut de [ruby](http://rubyonrails.org/). Je passe mon temps à construire des choses. Contrairement à wordpress où je passais mon temps à faire des _dirty hacks_.
 
 ### Historique des version
 

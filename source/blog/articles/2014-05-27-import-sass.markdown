@@ -50,7 +50,7 @@ Un bon point de départ est d'utiliser une convention de nommage pour les couleu
 >
 > <cite>Un noob du Sass</cite>
 
-Techniquement vous pouvez écrire n'importe quoi dans `application.scss, mais je recommande de séparer vos composants en `partial`s, et de les importer ensuite dans `application.scss` pour conserver une bonne organisation depuis le départ.
+Techniquement vous pouvez écrire n'importe quoi dans `application.scss`, mais je recommande de séparer vos composants en `partial`s, et de les importer ensuite dans `application.scss` pour conserver une bonne organisation depuis le départ.
 
 En réalité je commence à coder mes différents `partial`s en début de projet. Je n'ai jamais besoin d'écrire de code Sass dans `application.scss`, excepté les `@import`.
 
