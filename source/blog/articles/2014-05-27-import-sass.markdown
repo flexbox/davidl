@@ -2,6 +2,7 @@
 date: 2014-05-27
 slug: import-sass
 title: Résoudre le problème @import des fichiers Sass
+image: https://farm6.staticflickr.com/5095/5449679657_46fed579c2_z.jpg
 page_title: Architecture des fichiers Sass
 changefreq: monthly
 priority: 0.8
