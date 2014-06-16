@@ -6,6 +6,7 @@
 
 #= require "headroom.js/dist/headroom"
 #= require "jquery.stickynav"
+#= require "jquery-videobackground/script/jquery.videobackground"
 #= require "vendor/gist-embed"
 
 #= require "foundation/js/foundation/foundation"
@@ -15,9 +16,5 @@
 #= require "foundation_init"
 
 #= require "mixitup/src/jquery.mixitup"
-#= require "blog"
-
-#= require "jquery-videobackground/script/jquery.videobackground"
-#= require "webdesign"
 
 #= require "easteregg"

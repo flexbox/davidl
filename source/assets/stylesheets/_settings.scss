@@ -37,10 +37,10 @@ $font-weight-bolder: 900;
 // We use these to control various global styles
 $body-bg: $white-dark;
 $body-font-color: $gray-dark;
-$body-font-family: "Droid Serif", serif;
+$body-font-family: "Droid Serif", "Times New Roman", Times, "Liberation Serif", FreeSerif, serif;
 $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
-$header-font-family: 'Lato', sans-serif;
+$header-font-family: 'Lato', Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif;
 $header-font-weight: $font-weight-bolder;
 
 $button-font-weight: $font-weight-bold;
@@ -340,7 +340,7 @@ $blockquote-padding: rem-calc(20 40 20 40) !default;
 // $form-label-font-weight: normal;
 // $form-label-font-color: lighten(#000, 30%);
 // $form-label-bottom-margin: rem-calc(8);
-// $input-font-family: inherit;
+$input-font-family: $body-font-family;
 // $input-font-color: rgba(0,0,0,0.75);
 // $input-font-size: rem-calc(14);
 // $input-bg-color: #fff;

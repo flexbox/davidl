@@ -6,6 +6,10 @@ page_class: m-webdesign
 changefreq: yearly
 priority: 0.8
 ---
+
+- content_for :javascripts do
+  = javascript_include_tag 'front/webdesign'
+
 .row
   .medium-2.hide-for-small.columns
     div data-magellan-expedition="fixed"

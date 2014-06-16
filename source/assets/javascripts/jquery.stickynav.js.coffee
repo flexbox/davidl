@@ -1,5 +1,5 @@
 $ ->
-  header = document.querySelector('.m-header')
+  header = document.querySelector('#js-header')
   headroom = new Headroom(header,
     tolerance: 5
     offset: 50
@@ -9,8 +9,6 @@ $ ->
       unpinned: 'is-hidden'
   )
   headroom.init()
-
-
 
   $('#js-off-canvas-toggle').click ->
     $("html,body").animate
