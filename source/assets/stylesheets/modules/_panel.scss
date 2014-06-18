@@ -5,6 +5,10 @@ $m-panel-bg-hover: rgba($white, 0.9);
   @include panel($m-panel-bg);
   @include single-transition();
 
+  p.button {
+    color: $button-font-color;
+  }
+
   border: 0 none;
 
   &:hover {

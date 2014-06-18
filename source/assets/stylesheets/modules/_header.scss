@@ -1,18 +1,26 @@
+$header-height: 100; 
+
 .m-header {
   background-color: rgba($white, 0.8);
   position: fixed;
   transition: all $transition-duration * 2 ease-in-out;
-  top: -200px;
+  top: rem-calc(-$header-height);
 
   width: 100%;
   z-index: 15;
   padding-top: rem-calc(20);
 
-
   &.is-hidden {
-    transform: translateY(rem-calc(-200));
+    transform: translateY(rem-calc(-$header-height));
   }
   &.is-show {
     top: 0;
+  }
+
+  @media #{$small-only}{
+    a {
+      font-size: rem-calc(14);
+      padding: rem-calc(10 15);
+    }
   }
 }

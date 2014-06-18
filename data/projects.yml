@@ -24,13 +24,13 @@
   url: https://twitter.com/_flexbox
 -
   title: "Idée, Papier, Crayon"
-  description: "Je fais parti de ces designers incapables de commencer à faire quoi que ce soit sur un logiciel avant d’avoir posé mes idées sur papier.Avant je jetais ces maquettes directement à la poubelle, mais ça c’était avant. Maintenant je prends des photos pour conserver mes idées et les partager sur ce site."
+  description: "Je fais parti de ces designers incapables de commencer à faire quoi que ce soit sur un logiciel avant d’avoir posé mes idées sur papier. Avant je jetais ces maquettes directement à la poubelle, mais ça c’était avant. Maintenant je prends des photos pour conserver mes idées et les partager sur ce site."
   type: misc
   icon: fa-external-link
   url: http://responsivewireframe.tumblr.com/
 -
   title: Guide CSS
-  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments.<br>J’ai rédigé ce guide qui regroupe les <strong>bonnes pratiques pour coder des feuilles de styles</strong> de qualité, évolutives et maintenables."
+  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments.<br>J’ai rédigé ce guide qui regroupe les <strong>bonnes pratiques</strong> pour coder des feuilles de styles de <strong>qualité</strong>, <strong>évolutives</strong> et <strong>maintenables</strong>."
   type: project
   icon: fa-external-link
   url: http://guidecss.fr/
@@ -58,6 +58,12 @@
   type: project
   icon: fa-external-link
   url: http://webcitation.fr/
+-
+  title: Foundation Boilerplate
+  description: "Le point le plus important pour la création de nouveaux projets est de créer un ensemble de règles directrices. Foundation Boilerplate aide les designers & les développeurs à construire <strong>rapidement</strong> des prototypes d'application ou des sites web <strong>responsive</strong> <strong>évolutifs</strong>."
+  type: project
+  icon: fa-external-link
+  url: http://flexbox.github.io/foundation-boilerplate
 -
   title: Bibliothèque
   description: "La lecture permet de sortir l'esprit d'un certain obscurantisme. Les gens ne lisent plus et c'est dommage car certains ouvrages peuvent boulverser votre vie."
