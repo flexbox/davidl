@@ -1,7 +1,7 @@
 ---
 title: David Leuliette Développeur front-end éclairé
 description: "Ressources pour la conception d'applications web et mobiles : présentations, ateliers, articles et conseils sur les technologies front-end."
-page_title: Voici ce que je fais
+page_title: Construire de meilleures application web
 page_class: m-homepage
 changefreq: monthly
 priority: 0.8
@@ -9,6 +9,11 @@ priority: 0.8
 
 - content_for :javascripts do
   = javascript_include_tag 'front/homepage'
+
+.row
+  .medium-12.columns
+    p
+      'J'écris du code pour rendre les utilisateurs heureux. Voici la liste de mes divers projets.
 
 .row
   .medium-12.columns
@@ -34,6 +39,6 @@ priority: 0.8
                 = project.title
               p.l-description
                 = project.description
-              button
+              p.button
                 'En savoir plus
                 i class="fa #{project.icon}"

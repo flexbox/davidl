@@ -5,6 +5,8 @@ site:
   url: 'http://davidl.fr'
   logo: 'http://davidl.fr/apple-touch-icon-144x144-precomposed.png'
 social:
+  facebook:
+    id: '666666'
   google_plus: 'https://plus.google.com/u/0/113401424510170217860'
   twitter:
     url: 'https://twitter.com/_flexbox'
