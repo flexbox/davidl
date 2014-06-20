@@ -241,7 +241,7 @@ De plus vous ne téléchargez que ce qui est nécessaire. Si un utilisateur n'es
 
 Les fichiers CSS et JavaScript ne sont pas les seuls à pouvoir êtres combinés pour réduire le nombre de requêtes. Utilisés généralement pour des icones ou de petites illustrations, la technique des sprites CSS est une bonne solution.
 
-Essayez de regrouper des images partageant la même palette  de couleur. Si ce n'est pas le cas la taille de votre fichier sera anormalement élevée car il sera sauvegardé au format PNG `true color` au lieu du classique PNG 256 couleurs. Pour éviter une requête avec des images de petites tailles, vous pouvez aussi encoder le résultat obtenu en base64 pour optimiser encore plus la taille de votre fichier (à prendre avec précaution car cela peut augementer la taille jusqu'à 37%).
+Essayez de regrouper des images partageant la même palette  de couleur. Si ce n'est pas le cas la taille de votre fichier sera anormalement élevée car il sera sauvegardé au format PNG `true color` au lieu du classique PNG 256 couleurs. Pour éviter une requête avec des images de petite taille, vous pouvez aussi encoder le résultat obtenu en base64 pour optimiser encore plus la taille de votre fichier (à prendre avec précaution car cela peut augementer la taille jusqu'à 37%).
 
 - [base64](http://www.base64-image.de/) pour encoder vos images
 - Un outil CSS : [SpriteMe](http://spriteme.org/)
@@ -316,6 +316,6 @@ Personne ne veut attendre et les gens sont impatient, à partir du moment où le
 
 C'est culotté, mais cette méthode permet de démontrer l'importance de la performance. Je ne pense pas que cette façon de faire soit différente des publicicités télévisées que l'on voit à longeur de journée.
 
-Pour aller plus loin, vous pouver créez un graphique comparatif du temps de chargement contre le trafic en temps réel, le client verra la corrélation entre les deux. De nombreuses décisions devront être réexaminées dans le but de performance, je crois que c'est une très, très bonne chose !
+Pour aller plus loin, vous pouver créez un graphique comparatif du temps de chargement contre le trafic en temps réel, le client verra la corrélation entre les deux. De nombreuses décisions devront être réexaminées dans le but d'une meilleure performance, je crois que c'est une très, très bonne chose !
 
 
