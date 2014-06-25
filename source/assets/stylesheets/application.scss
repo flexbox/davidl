@@ -7,7 +7,6 @@
 
 @import
   "colors",
-  "google-font",
   "foundation/scss/foundation/functions",
   "settings";
 
@@ -54,3 +53,6 @@
   "front/homepage",
   "modules/magellan",
   "front/webdesign";
+
+@import
+  "google-font";

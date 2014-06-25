@@ -9,7 +9,7 @@
 = wrap_layout :layout do
   article.row itemtype="http://schema.org/BlogPosting" itemscope=""
     .medium-7.columns.blog-article itemprop="articleBody"
-      = yield
+      == yield
       .row
         .medium-8.medium-centered.columns
           .m-blog-panel itemprop="author" itemscope="" itemtype="http://schema.org/Person"
