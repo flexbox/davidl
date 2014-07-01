@@ -11,13 +11,13 @@
   border: 5px solid $white;
   box-shadow: 0px 2px 5px rgba($black,0.2);
 
-  @include x-transition(all $transition-duration ease);
+  transition: all $transition-duration ease;
   @include radius($global-rounded);
   max-height: rem-calc(250);
   margin: rem-calc(20 0);
 
   &:hover {
-    @include x-transform(scale(1.2));
+    transform: scale(1.2);
   }
 }
 
@@ -58,23 +58,23 @@ figure {
     top: auto;
     bottom: 0;
     opacity: 0;
-    @include x-transform(translateY(100%));
-    @include x-transition(transform $transition-duration);
+    transform: translateY(100%);
+    transition: transform $transition-duration;
   }
 
 }
 
 .cs-style-3 figure:hover img,
 .cs-style-3 figure.cs-hover img {
-  @include x-transform(translateY(-100%));
-  @include x-transition(transform $transition-duration);
+  transform: translateY(-100%);
+  transition: transform $transition-duration;
 }
 
 .cs-style-3 figure:hover figcaption,
 .cs-style-3 figure.cs-hover figcaption {
   opacity: 1;
-  @include x-transform(translateY(0px));
-  @include x-transition(transform $transition-duration);
+  transform: translateY(0px);
+  transition: transform $transition-duration;
 }
 
 .cs-style-3 figcaption a {

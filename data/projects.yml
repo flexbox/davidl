@@ -2,84 +2,98 @@
   title: Webdesign
   description: "Je crée des applications web et des sites internet.<br> Je développe des sites rapides et accessibles qui s'adaptent à n'importe quel appareil."
   type: writing
+  button: secondary
   icon: fa-long-arrow-right
   url: /webdesign.html
 -
   title: Blog
   description: "La meilleure façon de maîtriser un sujet est de l'enseigner aux autres.<br> J'écris des articles sur le développemnt web front-end, le responsive design et les outils que j'utilise quotidiennement."
   type: writing
+  button: secondary
   icon: fa-long-arrow-right
   url: /blog/
 -
   title: Manifeste
   description: "Pendant trop longtemps -et encore aujourd'hui, il n'existait aucune règle pour développer des sites internet. Coder une <strong>application web de qualité est de plus en plus complexe</strong>.<br> Voici ma lettre ouverte qui expose mon programme d'action en développement front-end."
   type: writing
+  button: secondary
   icon: fa-long-arrow-right
   url: /manifesto.html
 -
   title: Partage
   description: "J'aime partager des informations. Chaque jour, j'apprends quelque chose de nouveau, et je participe à la conversation collective qu'est Twitter."
   type: misc
+  button: primary
   icon: fa-external-link
   url: https://twitter.com/_flexbox
 -
   title: "Idée, Papier, Crayon"
   description: "Je fais parti de ces designers incapables de commencer à faire quoi que ce soit sur un logiciel avant d’avoir posé mes idées sur papier. Avant je jetais ces maquettes directement à la poubelle, mais ça c’était avant. Maintenant je prends des photos pour conserver mes idées et les partager sur ce site."
   type: misc
+  button: primary
   icon: fa-external-link
   url: http://responsivewireframe.tumblr.com/
 -
   title: Guide CSS
   description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments.<br>J’ai rédigé ce guide qui regroupe les <strong>bonnes pratiques</strong> pour coder des feuilles de styles de <strong>qualité</strong>, <strong>évolutives</strong> et <strong>maintenables</strong>."
   type: project
+  button: primary
   icon: fa-external-link
   url: http://guidecss.fr/
 -
   title: Pokemon breakpoint
   description: "Les développeurs front-end ont un problème dans la conception adaptative. Nous fixons des points d’arrêt en CSS et peut-être que nous voulons les utiliser dans notre JavaScript. Pokemon breakpoint est une façon amusante de faire le lien entre ces 2 mondes."
   type: project
+  button: primary
   icon: fa-external-link
   url: http://pokemonbreakpoint.fr/
 -
   title: Responsive icon
   description: "Remplacer des icônes en images par des symboles HTML présente de nombreux avantages.<br>J’ai développé cette application pour rapidement copier / coller ces caractères utiles en webdesign."
   type: project
+  button: primary
   icon: fa-external-link
   url: http://responsiveicon.fr/
 -
   title: Hoooooo
   description: "Coder des sites web à longueur de temps peut vous griller les neurones. J’ai créé ce site pour détendre l’atmosphère lorsqu’une fonctionnalité / un site web plante."
   type: project
+  button: primary
   icon: fa-external-link
   url: http://hoooooo.fr/
 -
   title: Webcitation
   description: "Jours après jours, je collecte des citations à travers de nombreux livres, articles de blog... J’administre webcitation pour toutes les regrouper et les traduire pour vous."
   type: project
+  button: secondary
   icon: fa-external-link
   url: http://webcitation.fr/
 -
   title: Foundation Boilerplate
   description: "Le point le plus important pour la création de nouveaux projets est de créer un ensemble de règles directrices. Foundation Boilerplate aide les designers & les développeurs à construire <strong>rapidement</strong> des prototypes d'application ou des sites web <strong>responsive</strong> <strong>évolutifs</strong>."
   type: project
+  button: secondary
   icon: fa-external-link
   url: http://flexbox.github.io/foundation-boilerplate
 -
   title: Bibliothèque
   description: "La lecture permet de sortir l'esprit d'un certain obscurantisme. Les gens ne lisent plus et c'est dommage car certains ouvrages peuvent boulverser votre vie."
   type: misc
+  button: secondary
   icon: fa-long-arrow-right
   url: /books.html
 -
   title: Refonte de site internet
-  description: "J'ai remarqué que beaucoups de sites ne sont pas préparés pour le nouveau monde du multi-écran.<br>Ce guide présentant les différentes étapes pour transformer votre site web."
+  description: "De nombreux sites web ne sont pas préparés pour le nouveau monde du multi-écran.<br>Ce guide présentent les différentes étapes pour transformer votre site web."
   type: writing
+  button: secondary
   icon: fa-long-arrow-right
   url: /forge/
 -
   title: Conseil
   description: "Vous souhaitez découvrir ma façon de penser ainsi que mon travail ? Vous êtes intéressé par la réalisation d'un projet ?"
   type: project
+  button: primary
   icon: fa-long-arrow-right
   url: /contact.html
 

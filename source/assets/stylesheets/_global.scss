@@ -7,18 +7,6 @@ $transition-duration: 0.5s;
 $code-color: $magenta;
 $code-background-color: rgba($white,0.8);
 
-
-@mixin x-transition ($values) {
-  -webkit-transition: $values;
-  transition: $values;
-}
-
-@mixin x-transform ($values) {
-  -webkit-transform: $values;
-  -ms-transform: $values;
-  transform: $values;
-}
-
 body {
   background-color: $black;
 }
