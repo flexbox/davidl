@@ -48,7 +48,7 @@ $button-font-weight: $font-weight-bold;
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;
 
-$blockquote-border: 3px solid $magenta;
+$blockquote-border: 5px solid $magenta;
 $blockquote-cite-font-size: rem-calc(20);
 $blockquote-padding: rem-calc(20 40 20 40) !default;
 
@@ -506,8 +506,8 @@ $input-include-glowing-effect: false;
 // $tabbar-header-margin: 0;
 
 // Off Canvas Menu Variables
-// $off-canvas-width: 250px;
-$off-canvas-bg: $black-lighter;
+$off-canvas-width: 280px;
+$off-canvas-bg: $white;
 
 // Off Canvas Menu List Variables
 // $off-canvas-label-padding: 0.3rem rem-calc(15);
@@ -538,8 +538,8 @@ $off-canvas-bg: $black-lighter;
 
 // Off Canvas Back-Link Overlay
 // $off-canvas-overlay-transition: background 300ms ease;
-// $off-canvas-overlay-cursor: pointer;
-// $off-canvas-overlay-box-shadow: -4px 0 4px rgba(#000, 0.5), 4px 0 4px rgba(#000, 0.5);
+$off-canvas-overlay-cursor: pointer;
+$off-canvas-overlay-box-shadow: none;
 // $off-canvas-overlay-background: rgba(#FFF, 0.2);
 // $off-canvas-overlay-background-hover: rgba(#FFF, 0.05);
 

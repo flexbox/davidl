@@ -1,16 +1,2 @@
 $control-height: rem-calc(60);
 $control-font-color: $white;
-
-.m-control--logo {
-  overflow: auto;
-
-  &:hover {
-    .picto-triforce {
-      @include use-sprite("triforce-hover", $pictos, $pictos-2x);
-    }
-  }
-
-  span {
-    margin: rem-calc(8) 0 0 rem-calc(15);
-  }
-}

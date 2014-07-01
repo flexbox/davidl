@@ -13,3 +13,7 @@ $pictos-2x: sprite-map("sprite/pictos2x/*.png", $layout: smart);
     @include use-sprite("triforce-hover", $pictos, $pictos-2x);
   }
 }
+
+.picto-logo {
+  @include use-sprite("logo", $pictos, $pictos-2x);
+}

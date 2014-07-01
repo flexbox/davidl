@@ -1,4 +1,3 @@
-$body-font-color    : $black-light;
 $anchor-font-color  : $blue-steroid;
 $text-shadow: rgba($black,0.8) 0px 2px 0px;
 
@@ -68,4 +67,9 @@ code {
       }
     }
   }
+}
+
+.right-off-canvas-menu {
+  box-shadow: -3px 0 6px rgba(#000, 0.5);;
+  // 4px 0 4px rgba(#000, 0.5), 4px 0 4px rgba(#000, 0.5)
 }
