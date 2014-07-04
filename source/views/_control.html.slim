@@ -1,24 +1,22 @@
 aside class="right-off-canvas-menu"
   ul.off-canvas-list
     li
-      = link_to '/' do
-        .picto-logo
-    li
-      = link_to 'Blog', '/blog'
-    li
-      = link_to 'À propos', '/about.html'
-    li
-      = link_to 'Contact', '/contact.html'
-    li
-      label
-        'Ressources
+      .picto-logo
     li
       = link_to '/forge' do
-        i.i-custom.fa.fa-book
+        i.i-custom.fa.fa-2x.fa-book
         'FORGE
     li
+      = link_to '/blog' do
+        i.i-custom.fa.fa-2x.fa-rebel
+        'BLOG
+    li
       = link_to '/webdesign.html' do
-        'Responsive design
+        i.i-custom.fa.fa-2x.fa-tablet
+        'DESIGN
+    li
+      label
+        '&nbsp;
     li
       = link_to '/books.html' do
         'Bibliothèque
@@ -28,3 +26,10 @@ aside class="right-off-canvas-menu"
     li
       = link_to '/toolkit.html' do
         'Outils
+    li
+      label
+        '&nbsp;
+    li
+      = link_to 'À propos', '/about.html'
+    li
+      = link_to 'Contact', '/contact.html'

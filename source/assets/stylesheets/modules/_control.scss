@@ -1,2 +1,15 @@
 $control-height: rem-calc(60);
 $control-font-color: $white;
+
+// .right-off-canvas-menu {
+//   box-shadow: -3px 0 6px rgba(#000, 0.5);;
+// }
+
+.off-canvas-list {
+  a {
+    &:hover {
+      background: $blue-steroid !important;
+      color: $white;
+    }
+  }
+}

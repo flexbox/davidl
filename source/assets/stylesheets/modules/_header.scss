@@ -1,10 +1,11 @@
 $header-height: 100;
 
 .m-header {
-  background-color: rgba($white, 0.8);
+  background-color: rgba($white, 0.9);
   position: fixed;
-  transition: all $transition-duration * 2 ease-in-out;
+  transition: all $transition-duration ease;
   top: rem-calc(-$header-height);
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
 
   width: 100%;
   z-index: 15;
@@ -15,6 +16,7 @@ $header-height: 100;
   }
   &.is-show {
     top: 0;
+    transform: translateY(0);
   }
 
   @media #{$small-only}{
