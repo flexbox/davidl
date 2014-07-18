@@ -36,8 +36,8 @@ Depuis l’avènement du responsive design, ce principe est de plus en plus vrai
 
 Quand vous travaillez dans un contexte avec énormément de texte, la typographie est la façon la plus simple de donner une ambiance visuelle à votre contenu. Généralement je choisis [2 polices de caractères](http://davidl.fr/blog/typographie-google-font.html) différentes :
 
-- Sans shérif pour le contenu
-- Shérif pour les titres
+- Sans serif pour le contenu
+- Serif pour les titres
 
 Pour donner un rythme vous pouvez aussi jouer avec du contenu en gras, en italique, avec les tailles différentes ...
 L'avantage est que si le `viewport` change, votre expérience de lecture restera cohérente.

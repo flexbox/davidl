@@ -416,7 +416,7 @@ priority: 0.8
         'Favoriser les Frameworks et la pratique du
         =link_to 'code DRY', 'http://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas'
 
-      li Éviter le Javascript inline et embedded
+      li Éviter le JavaScript embedded et bannir le inline
       li Garder une portée globale propre, utiliser des namespaces
       li Toujours être sur la défensive, en utilisant des fonctions de détection
       li
@@ -524,9 +524,9 @@ priority: 0.8
         p Des pages plus petites avec moins d'éléments sont plus rapides à parcourir et modifier. CQFD.
       li
         h4
-          'Réduire le nombre de <code>iframes</code>
+          'Bannir les <code>iframes</code>
         p
-          'Même si elle est vide, c'est très coûteux car ce sont de nouvelles fenêtres, qui bloquent aussi l'événement <code>onload</code> de la page.
+          'Même si elles sont vides, c'est très coûteux car ce sont de nouvelles fenêtres, qui bloquent l'événement <code>onload</code> de la page.
       li
         h4 Supprimer les filtres IE en CSS
         p Les filtres sont des "caractéristiques particulières" en CSS pour IE, ils ralentissent la page, donc à utiliser avec parcimonie.
