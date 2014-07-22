@@ -1,0 +1,30 @@
+-
+  title: Consultant front-end
+  baseline: "Améliorer la performance, la rapidité et l'évolution du code des projets web"
+  description: Les clients de LambdaSARL sont perdus en visitant le site internet de l'entreprise. Ils ont embauché Pierre pour parcourir le site afin de rédiger un manifeste de recommandations. Il livrera un __document pdf__ qu'il expliquera lors d'une __session skype d'une heure__.  
+  delivers:
+    - content: 10 - 15 heures d'analyse
+    - content: "Livrables : document texte, discution à distance ou en personne."
+  price: 800 - 1500 €
+-
+  title: Conception de landing page
+  baseline: "Proposer une page web simple (Vente d'un produit, site vitrine, sensibilisation ...)"
+  description: "LambdaSARL travaille sur un nouveau produit, ils ont embauché Jacques pour mettre en place une __page web d'attente responsive__. Après un commun accord sur __les maquettes préléminaires__, Jacques travaille sur une atmosphère avec un logiciel comme Photoshop ou Illustrator. Ensuite, après avoir effectué __3 cycle de révision__ avec le client il peut commencer le codage HTML et CSS."
+  delivers:
+    - content: Maquette préliminaire
+    - content: "Modèle de page d'accueil : 3 revisions"
+    - content: "Livrables : Fichiers sources statiques (HTML et CSS)"
+    - content: 10 - 15 heures de travail
+  price: 2000 - 3000 € 
+-
+  title: Design de site web responsive
+  baseline: "Design complet de site internet (homepage, pages de contenu, etc.)."
+  description: "LambdaSARL souhaite mettre à jour leur présence en ligne. Ils ont embauché Audrey. Elle crée 3 maquettes au format papier pour la page d'accueil, les pages produits et le blog. Ensuite elle conçoit un prototype haute fidélité de la page d'acceuil directement dans un navigateur, qui passera par une série de 3 validations. Dès que la homepage est terminée elle code les deux autres modèles, avant de livrer le résultat comme un ensemble de fichiers HTML et CSS."
+  delivers:
+    - content: 3 maquettes
+    - content: "Prototype principal : 3 révisions"
+    - content: "1 page de contenu (Blog, FAQ, ...)"
+    - content: "1 page bonus (Contact, services, ...)"
+    - content: "Livrables : Des fichiers statiques HTML, CSS et JavaScript"
+    - content: 30 - 50 heures de travail
+  price: 5500 - 7000 €
