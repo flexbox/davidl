@@ -1,0 +1,43 @@
+---
+title: Personnes à suivre pour améliorer ses compétences d'intégration front-end
+description: "Depuis des années je me forme de façon autodidacte. Si vous choisissez ce chemin vous devez vous entourer des bonnes personnes."
+page_title: Les maîtres Jedi du web
+changefreq: monthly
+priority: 0.5
+---
+
+.row
+  .medium-8.medium-centered.columns
+    markdown:
+      À travers les années, j'ai appris de plusieurs personnes.
+
+      Internet a apporté un énorme avantage pour notre génération parce que vous pouvez __choisir vos mentors__.
+
+      La capacité à choisir quelles informations vous souhaitez lire ou appronfondir, en provenance de la plus grande bibliothèque jamais assemblée —nommée internet, est une de mes choses préférées sur le web.
+
+
+      Certaines de ces personnes savent que je les regarde comme des mentors, d'autres non, mais ils ont __tous eu un impact important__ sur ​​la façon dont je pense et travaille.
+
+    h2
+      'Mes mentors
+      small Sans ordre de classement
+
+    ul
+      - data.mentors.each_with_index do |mentor|
+        li
+          strong
+            = link_to mentor.name, mentor.url
+          - if mentor['image'].present?
+            = image_tag mentor.image
+          p
+            = mentor.description
+
+    hr
+    .m-panel
+      p.lead
+       strong
+        'Si vous avez appris quelque chose de nouveau,
+       =' link_to 'consultez mon blog', '/blog'
+       'sur ​​l'intégration et le développement front-end.
+
+      p J'écris dans le but de partager mes connaissances et qui sais je deviendrais peut être votre mentor ?

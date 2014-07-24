@@ -1,6 +1,6 @@
 ---
 title: Tarif développeur et designer web freelance
-description: 
+description:
 page_title: Grille de tarification
 page_class: m-pricing
 changefreq: monthly
@@ -10,14 +10,14 @@ priority: 0.6
 .row
   .medium-10.medium-centered.columns
     markdown:
-      ## Qu'est ce que c'est ? 
+      ## Qu'est ce que c'est ?
 
       Le but de cette grille de tarification est de proposer différentes gammes de budget pour mes services de freelance.
-      Ces évaluations ne sont pas des bugdets définitifs, mais peuvent ^etres considérés comme point de départ pour vous aider à choisir la meilleure solution possible en fonction de votre budget.      
+      Ces évaluations ne sont pas des bugdets définitifs, mais peuvent êtres considérés comme point de départ pour vous aider à choisir la meilleure solution possible en fonction de votre budget.
 
       ### Comment lire cette grille ?
 
-      Les grilles ont différentes options disponibles comme le __code front-end__ et le __responsive design__. 
+      Les grilles ont différentes options disponibles comme le __code front-end__ et le __responsive design__.
 
       ### Encore des petites choses
 
@@ -32,9 +32,10 @@ priority: 0.6
           h2 = item.title
           h3.small = item.baseline
           p = item.description
-          - if item['delivers'].present?
-            ul
-              - item['delivers'].each do |subitem|
-                li = subitem.content
-          h4.small = item.price      
-                
+          .m-panel
+            - if item['delivers'].present?
+              ul
+                - item['delivers'].each do |subitem|
+                  li = subitem.content
+            h4.small = item.price
+

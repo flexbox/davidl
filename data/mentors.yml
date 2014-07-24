@@ -1,0 +1,49 @@
+-
+  name: Tristan Nitot
+  url: http://standblog.org/blog/
+  description: "Fondateur de Mozilla Europe. Cette personne à changé ma compréhension du web lors d'un talk au FOSDEM. Depuis, je suis convaincu qu'il faut suivre et respecter des standards de dévelopement."
+-
+  name: Nicolas Froidure
+  url: http://www.insertafter.com/
+  description: Grâce à la magie de twitter j'ai découvert ce talentueux développeur JavaScript. Quelle ne fut pas ma supprise lorque je l'ai rencontré IRL aux open du web pour m'apercevoir qu'il vivait près de chez moi.
+-
+  name: Jeff Caly
+  url: http://www.le-coach-marketing.fr/
+  description: Celui-ci est très personnel pour moi. Ce "Lifestyle entrepreneur" m'a aidé à mettre en avant mes travaux grâce à ses conseils de marketing.
+-
+  name: Lea Verou
+  url: http://lea.verou.me/
+  description: Avant de construire mes propres outils CSS et JavaScript j'ai pendant longtemps utilisé ceux de Lea. J'ai continué à suivre cette personne pour son respect des standards du web.
+-
+  name: Paul Irish
+  url: http://www.paulirish.com/
+  description: J'ai suivi les idées et les principes de Paul depuis son article sur les commentaires conditionnels de 2008.
+-
+  name: Jonathan Snook
+  url: http://snook.ca/
+  description: Le livre SMACSS de Jonathan à changé ma façon de coder du CSS pour le rendre évolutif et à l'épreuve du temps.
+-
+  name: Brad Frost
+  url: https://twitter.com/brad_frost
+  description: Depuis des années je travaille en suivant les principes du design atomique. Brad Frost a simplement mis un nom et une méthodologie sur ce mode de développement.
+-
+  name: Luke Wroblewski
+  url: http://www.lukew.com/
+  description: Très connu dans l'industrie du développement web pour ses travaux sur les formulaires. Je m'inspire des recommandations de Luke depuis ses travaux auprès de l'agence zurb pour rendre leur framework Foundation mobile-first.
+-
+  name: Harry Roberts
+  url: http://csswizardry.com/
+  description: "Si j'étais né en Angleterre avec quelques années en moins je pense que j'aurais eu exactement le même parcours que Harry. Ce n'est pas un mentor, mais je suis certain que c'est l'empire galactique qui a réalisé un clone pour conquérir le monde."
+-
+  name: Thomas Parisot
+  url: https://oncletom.io/
+  description: "La première fois que je suis allé au conférences Takeoff j'ai eu une discution passionante avec Thomas. Je suis suis rendu compte bien plus tard que cet expatrié à Londres était très connu sur la scène Française avec son talk : README, un fichier nommé plaisir."
+-
+  name: Steve Souders
+  url: http://stevesouders.com/
+  description: "Si la rapidité de votre application web vous interesse, vous devez lire les articles de Steve Souders, le meilleur gourou de la performance que je connaisse."
+-
+  name: Mike Rohde
+  url: "http://www.amazon.fr/gp/product/0321857895/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=0321857895&linkCode=as2&tag=davidl-21"
+  image: "http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=0321857895"
+  description: À force participer à des évènements j'ai cherché un moyen efficace de prendre des notes. Dans mon enfance j'étais plutôt doué pour le dessin. Mike m'a permi de renouer avec cette passion que j'avais oublié pour l'adapter à mon métier.
