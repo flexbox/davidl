@@ -5,6 +5,7 @@ $masterhead-border: 5px solid $black;
   margin-bottom: rem-calc(30);
   i {
     color: $white-light !important;
+    animation: 2s ease 0s normal none infinite running bounce;
   }
 
   a {

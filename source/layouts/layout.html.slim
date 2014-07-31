@@ -14,6 +14,8 @@ html lang="fr"
     = stylesheet_link_tag 'application'
     = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'
     = partial 'views/analytics_code'
+    = javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js'
+    = javascript_include_tag 'webfont_loader'
 
   body class="#{current_page.data.page_class}"
     .off-canvas-wrap data-offcanvas=""
