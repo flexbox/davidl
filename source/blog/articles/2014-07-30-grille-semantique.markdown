@@ -27,14 +27,18 @@ Utiliser rechercher et remplacer n'est pas solution au problème : il y a trop d
 
 Cette révolution a amené un nouveau problème la __classitis__ ou l’art de surcharger son HTML avec plus de `class` que nécessaire.
 
+<div class="alert-box alert">
+<i class="fa fa-thumbs-o-down"></i> Mauvaise solution
+</div>
+
     <ul>
       <li class="list-item"> ... </li>
       <li class="list-item"> ... </li>
       <li class="list-item"> ... </li>
     </ul>
 
-<div class="alert-box alert">
-<i class="fa fa-thumbs-o-down"></i> Mauvaise solution
+<div class="alert-box success">
+<i class="fa fa-thumbs-o-up"></i> Bonne solution
 </div>
 
     <ul class="inline-list">
@@ -43,13 +47,11 @@ Cette révolution a amené un nouveau problème la __classitis__ ou l’art de s
       <li> ... </li>
     </ul>
 
-<div class="alert-box success">
-<i class="fa fa-thumbs-o-up"></i> Bonne solution
-</div>
+
 
 ## État des lieux
 
-_Classitis_ et son cousin, _Divitis_, sont des gros mots que nous utilisons pour maudire le code surchargé. Au siècle dernier, nous avons utilisé les tableaux HTML pour la mise en page. Chaque tableau avait au moins trois niveaux: `<table>`, `<tr>` et `<td>`. La promesse de `<div>` lié à un peu de CSS était de supprimmer les balises inutiles.
+_Classitis_ et son cousin, _Divitis_, sont des gros mots que nous utilisons pour maudire le code surchargé. Au siècle dernier, nous avons utilisé les tableaux HTML pour la mise en page. Chaque tableau avait au moins trois niveaux: `<table>`, `<tr>` et `<td>`. La promesse de `<div>` lié à un peu de CSS était de supprimer les balises inutiles.
 
 De nos jours, avec le responsive, les mises en pages sont de plus en plus complexes, nous nous sommes retrouvés avec énorméments d'éléments `<div>`, une sorte de retour en arrière qui glisse doucement vers la mise en page avec des tableaux.
 
@@ -85,7 +87,7 @@ Je vais prendre un exemple avec la grille de Foundation. Notez que chaque `<div>
       </div>
     </div>
 
-Fonctionnel ? Oui... [Sémantique](http://fr.wikipedia.org/wiki/HTML_s%C3%A9mantique) ? Pas vraiment... Sauf pour quelques attributs `id`. Dans ce cas, chaque section est générique, et les attributs rendent le code difficile à lire. Les `div`s sont des boites génériques utilisées pour organiser d'autres éléments. Quand je dis générique, j'entends pas là dénué de sens, pas intelligent et sans saveur.
+Fonctionnel ? Oui... [Sémantique](http://fr.wikipedia.org/wiki/HTML_s%C3%A9mantique) ? Pas vraiment... Sauf pour quelques attributs `id`. Dans ce cas, chaque section est générique, et les attributs rendent le code difficile à lire. Les `div`s sont des boites génériques utilisées pour organiser d'autres éléments. Quand je dis générique, j'entends par là dénué de sens, pas intelligent et sans saveur.
 
 ## Et maintenant un peu de sémantique
 
@@ -137,7 +139,7 @@ Transformer la grille de Foundation en code sémantique est possible en utilisan
 
         header { @include grid-row; }
 
-4. Finallement je donne à un sélecteur à l'intérieur du header les propriétés d'une colonne.
+4. finalement je donne à un sélecteur à l'intérieur du header les propriétés d'une colonne.
 
         header {
           @include grid-row;

@@ -258,23 +258,23 @@ La chose la plus importante pour limiter le nombre de "reflow" est de limiter la
 
 C'est pourquoi vous ne devez __JAMAIS__ modifier vos éléments avec du JavaScript.
 
+<div class="alert-box alert">
+<i class="fa fa-thumbs-o-down"></i> Mauvaise solution
+</div>
+
     var el = document.getElementById('js-box');
     el.style.color = "#fff";
     el.style.backgroundColor = "#000";
     el.style.borderColor = "#fc0";
 
-<div class="alert-box alert">
-<i class="fa fa-thumbs-o-down"></i> Mauvaise solution
-</div>
-
 Chaque déclaration provoque un calcul. Dans notre cas il y a 3 reflow.
-
-    var el = document.getElementById('js-box');
-    el.className = "m-box";
 
 <div class="alert-box success">
 <i class="fa fa-thumbs-o-up"></i> Bonne solution
 </div>
+
+    var el = document.getElementById('js-box');
+    el.className = "m-box";
 
 1 seul reflow. Le style est déclaré à sa place : dans une feuille de style et vous n'aurez pas besoin d'utiliser `!important` si votre élément change.
 
