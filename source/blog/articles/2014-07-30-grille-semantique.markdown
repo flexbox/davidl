@@ -51,9 +51,9 @@ Cette révolution a amené un nouveau problème la __classitis__ ou l’art de s
 
 ## État des lieux
 
-_Classitis_ et son cousin, _Divitis_, sont des gros mots que nous utilisons pour maudire le code surchargé. Au siècle dernier, nous avons utilisé les tableaux HTML pour la mise en page. Chaque tableau avait au moins trois niveaux: `<table>`, `<tr>` et `<td>`. La promesse de `<div>` lié à un peu de CSS était de supprimer les balises inutiles.
+_Classitis_ et son cousin, _Divitis_, sont des gros mots que nous utilisons pour maudire le code surchargé. Au siècle dernier, nous avons utilisé les tableaux HTML pour la mise en page. Chaque tableau avait au moins trois niveaux : `<table>`, `<tr>` et `<td>`. La promesse de `<div>`, lié à un peu de CSS, était de supprimer les balises inutiles.
 
-De nos jours, avec le responsive, les mises en pages sont de plus en plus complexes, nous nous sommes retrouvés avec énorméments d'éléments `<div>`, une sorte de retour en arrière qui glisse doucement vers la mise en page avec des tableaux.
+De nos jours, avec le responsive, les mises en pages sont de plus en plus complexes, nous nous sommes retrouvés avec énorméments d'éléments `<div>`. Une sorte de retour en arrière, qui glisse doucement vers la mise en page avec des tableaux.
 
 Je vais prendre un exemple avec la grille de Foundation. Notez que chaque `<div>` n'a pas forcément de but, mais elles sont obligatoires pour contruire une mise en page complexe. Un balisage typique Foundation est plein à craquer d'informations qui décrit sa grille :
 
