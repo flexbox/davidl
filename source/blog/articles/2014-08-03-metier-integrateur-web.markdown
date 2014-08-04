@@ -20,11 +20,11 @@ _Hipster desktop office par [Markus Spiske](https://www.flickr.com/photos/125167
 
 __Développeur front-end__. Il peut être aussi associé à celui d'intégrateur web. Tout cela dépends de la structure : plus une équipe est grande, plus elle aura de spécialistes travaillant dans leurs domaines de prédilection. Au contraire d'une équipe réduite où il faut être généraliste. Il est possible que dans un organisme ma fonction soit "développeur web" alors que je ne programme pas du tout les interactions avec le back-end.
 
-De plus, je suis certain que dans certaines structures il existe encore des webmasters. mais [ceci est une autre histoire](http://davidl.fr/manifesto.html).
+De plus, je suis certain que dans certains organismes il existe encore des webmasters. Mais [ceci est une autre histoire](http://davidl.fr/manifesto.html).
 
 ### En quoi consiste votre métier ? Pouvez-vous décrire vos tâches ?
 
-Pour faire analogie avec la construction d'une maison, je suis un peu le décorateur d'intérieur. La personne chargée de faire la peinture (Codage CSS). Poser portes et fenêtres, et vérifier que la porte s'ouvre et se ferme (Codage Javascript) . Choisir l'emplacement des meubles pour que cela soit ergonomique (Programmation HTML).
+Pour faire l'analogie avec la construction d'une maison, je suis le décorateur d'intérieur. La personne chargée de faire la peinture (Codage CSS). Poser portes et fenêtres, et vérifier que la porte s'ouvre et se ferme (Codage Javascript) . Choisir l'emplacement des meubles pour que cela soit ergonomique (Programmation HTML).
 
 Par contre je ne peux pas travailler tout seul. Il faut d'abord que les maçons (Développeurs web back-end) aient coulé la dalle de béton et posé la structure générale.
 
@@ -99,7 +99,7 @@ _Schéma d'une application web moderne : front-end, back-end, Base de données, 
 
 ### Quels sont vos responsabilités ? Quelle est votre autonomie ? Vos horaires ?
 
-Ma responsabilité ? Faire gagner de précises secondes au plusieurs centaines de milliers de personnes qui visitent les application web sur lesquelles je travaille.
+Ma responsabilité ? Faire gagner de précieuses secondes au plusieurs centaines de milliers de personnes qui visitent les application web sur lesquelles je travaille.
 
 Je travaille en équipe, mais aussi de façon autonome tout dépends des projets.
 
