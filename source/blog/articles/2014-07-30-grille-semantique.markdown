@@ -158,10 +158,10 @@ Voici un exemple complet d'un code sémantique en SCSS :
     }
     main {
       @include grid-row;
-      aside {
+      article {
         @include grid-column(8);
       }
-      article {
+      aside {
         @include grid-column(4);
       }
     }
