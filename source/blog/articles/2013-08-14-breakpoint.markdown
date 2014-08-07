@@ -33,7 +33,7 @@ Dans votre fichier `_breakpoint.scss` remplacez `#media-query--name:after` par v
 
 ## Comment ça fonctionne ?
 
-  1. Ouvrez [pokemonbreakpoint](http://pokemonbreakpoint.fr) dans un nouvel onglet
+  1. Ouvrez [pokemonbreakpoint](http://flexbox.github.io/pokemon-breakpoint/) dans un nouvel onglet
   2. Identifiez l'élément animé avec des flames `#media-query--name`.
   3. Maintenant on passe au javascript
 

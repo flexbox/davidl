@@ -43,3 +43,11 @@ Il y a 3 champs à remplir :
 
 
 Ce n'est pas la solution ultime mais ce site permet de se faire rapidement une idée de son tarif horaire.
+
+<hr>
+<div class="m-panel">
+  <p class="lead">
+  <strong>Vous souhaitez évaluer le prix de votre site internet ? </strong>
+  <a href="/pricing.html">consultez mes tarifs</a> concernant ​​l'intégration et le développement front-end.
+  </p>
+</div>

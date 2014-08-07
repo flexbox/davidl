@@ -46,7 +46,7 @@
   type: project
   button: primary
   icon: fa-external-link
-  url: http://pokemonbreakpoint.fr/
+  url: http://flexbox.github.io/pokemon-breakpoint/
 -
   title: Responsive icon
   description: "Remplacer des icônes en images par des symboles HTML présente de nombreux avantages.<br>J’ai développé cette application pour rapidement copier / coller ces caractères utiles en webdesign."

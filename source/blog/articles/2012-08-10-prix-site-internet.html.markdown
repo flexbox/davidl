@@ -70,3 +70,10 @@ Ce ne sont que quelques considérations pour la planification d’un projet de s
 
 Cet article est une <del>traduction</del> adaptation de l’excellentissime blog de @brad_frost : [How Much Does a Responsive Web Design Cost?](http://bradfrostweb.com/blog/web/how-much-does-a-responsive-web-design-cost/)
 
+<hr>
+<div class="m-panel">
+  <p class="lead">
+  <strong>Vous souhaitez évaluer le prix de votre site internet ? </strong>
+  <a href="/pricing.html">consultez mes tarifs</a> concernant ​​l'intégration et le développement front-end.
+  </p>
+</div>

@@ -39,7 +39,7 @@ L'objectif du livre est de guider pas à pas les lecteurs en expliquant chaque n
 
 Le Web évolue rapidement. Les intégrateurs ont été majoritairement touchés par les changements récents dans les techniques et les approches de codage. En 2003, un intégrateur compétent maîtrisait HTML et CSS, avec un peu de copier-collé JavaScript. Nous avons construit des sites web qui étaient consultés sur des ordinateurs de bureau.
 Mais nous sommes en 2013 ! Maintenant, un développeur Web front-end compétent baigne dans HTML et CSS, JavaScript et jQuery, les preprocessors CSS ..., la complexification des interfaces demande une certaine maîtrise de Javascript.
-Comme expliqué dans l'introduction de ce livre j'ai appris Javascript plutôt par obligation, mais aussi par curiosité, sur le tas. Mon niveau est toujours proche du néant mais je me [débrouille mieux](http://pokemonbreakpoint.fr) Je me considère plus comme un utilisateur de Framework que développeur JS. Les 200 premières pages sont et resteront toujours obscures à mes yeux mais cela permet de connaître l'origine de certaines librairies qui sont -trop souvent- incluses sans forcément en avoir besoin (jQuery par exemple)
+Comme expliqué dans l'introduction de ce livre j'ai appris Javascript plutôt par obligation, mais aussi par curiosité, sur le tas. Mon niveau est toujours proche du néant mais je me [débrouille mieux](http://flexbox.github.io/pokemon-breakpoint/) Je me considère plus comme un utilisateur de Framework que développeur JS. Les 200 premières pages sont et resteront toujours obscures à mes yeux mais cela permet de connaître l'origine de certaines librairies qui sont -trop souvent- incluses sans forcément en avoir besoin (jQuery par exemple)
 
 J'ai découvert grâce à ce livre pas mal de notions :
 
