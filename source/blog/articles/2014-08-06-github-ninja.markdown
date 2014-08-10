@@ -8,7 +8,7 @@ changefreq: monthly
 priority: 0.8
 ---
 
-Si je ne devais choisir qu'un seul outil [dans tout ceux que j'utilise](http://davidl.fr/toolkit.html), je choisirai sans hésiter le terminal. Concernant le site web se serait [GitHub](http://github.com). Vu que je passe beaucoups de temps à utiliser ces solutions, autant essayer d'être efficace.
+Si je ne devais choisir qu'un seul outil [dans tous ceux que j'utilise](http://davidl.fr/toolkit.html), je choisirais sans hésiter le terminal. Concernant le site web se serait [GitHub](http://github.com). Vu que je passe beaucoups de temps à utiliser ces solutions, autant essayer d'être efficace.
 Créer / savoir les différents raccourcis vous fera gagner de précieuses secondes. Vous êtes plus productif, votre travail est plus efficace et vous libère du temps pour régler de vrais problèmes.
 
 <div>
@@ -45,7 +45,7 @@ Cette liste est simple et peut être grandement améliorée mais c'est ce que j'
 ## Raccourcis claviers
 
 
-Les logiciels traditionnels et les application web ne sont pas si différentes. Gardez cela à l'esprit et essayer d'utiliser les raccourcis aussi souvent que possible sur [GitHub](http://github.com) pour aider à réduire le temps passé sur le site.
+Les logiciels traditionnels et les application web ne sont pas si différentes. Gardez cela à l'esprit et essayez d'utiliser les raccourcis aussi souvent que possible sur [GitHub](http://github.com) pour aider à réduire le temps passé sur le site.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/3PsVvjWy21Q?rel=0" frameborder="0" allowfullscreen></iframe>
 
