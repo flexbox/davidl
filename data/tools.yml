@@ -64,6 +64,11 @@
   url: http://www.pathossoftware.com/Rename/Rename.html
   image: rename.png
 -
+  name: Screaming Frog SEO Spider
+  description: "Ce logiciel permet d'analyser et d'effectuer rapidement l'examen comple d'un site d'un point de vue SEO. Il es particulièrement efficace pour les sites avec des milliers d'url où il est impossible de tout vérifier à la main."
+  url: http://www.screamingfrog.co.uk/seo-spider/
+  image: frog.png
+-
   name: Sublime Text
   description: "Selon moi c'est le meilleur éditeur de code. Facile à prendre en main, et évolutif presque à l'infini grâce à une énorme quantité de plug-in."
   url: http://www.sublimetext.com/

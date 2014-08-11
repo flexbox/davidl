@@ -117,7 +117,7 @@ C'est plus facile à lire, pour les humains et aussi pour les machines. Parfois,
    * `aside` : Contenu d'une page indirectement lié à ce qui l'entoure et qui pourrait être séparé de celui-ci. (Glossaire, publicités, biographie de l'auteur, liens vers des articles similaires).
    * `footer` : Conclusion de la section.
 
-Notez que je n'utilise plus de `class` pour avoir un bon exemple, même si [dans la pratique c'est plus évolutif](guidecss.fr/convention.html) d'en avoir.
+Notez que je n'utilise plus de `class` pour avoir un bon exemple, même si [dans la pratique c'est plus évolutif](http://guidecss.fr/convention.html) d'en avoir.
 
 ## Faire fonctionner le tout avec Sass
 
