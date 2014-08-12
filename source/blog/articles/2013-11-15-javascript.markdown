@@ -7,7 +7,7 @@ changefreq: monthly
 priority: 0.8
 ---
 
-Si vous suivez mon activité sur [twitter](http://twitter.com/_flexbox) vous avez surement remarqué que je lis énormément de livres sur l'industrie du développement web. Mon dernier livre ? Javascript™ rédigé intégralement en français par monsieur Nicolas Froidure himself.
+Si vous suivez mon activité sur [twitter](https://twitter.com/_flexbox) vous avez surement remarqué que je lis énormément de livres sur l'industrie du développement web. Mon dernier livre ? Javascript™ rédigé intégralement en français par monsieur Nicolas Froidure himself.
 Cet article présente ma revue de la version poche, ainsi que le contenu que j'ai retenu de ces 400 pages de code.
 
 ## Le format poche
@@ -18,7 +18,7 @@ Il m'a fallu un peu plus d'un mois pour parcourir l'intégralité des 12 chapitr
 
 Le fil rouge de l'ouvrage est la création d'un jeu de memory. Ce concept permet de présenter une utilisation concrète dans un environnement de développement contrairement à une présentation aléatoire de [snippet]() divers et variés. L'intégralité du code source est disponible sur [github](http://github.com/nfroidure). Vous pouvez aussi [tester directement](http://memory.insertafter.com) le rendu final du jeu.
 
-##Contenu
+## Contenu
 
 L'objectif du livre est de guider pas à pas les lecteurs en expliquant chaque notion simplement.
 
@@ -26,7 +26,7 @@ L'objectif du livre est de guider pas à pas les lecteurs en expliquant chaque n
 - L'appel aux fonction et leur effet de retour (callback).
 - La gestion des erreurs.
 - La notion d'objet avec une explication des concepts de constructeur, d'instance, de prototype, d'héritage ...
-- La manipulation de chaîne de caractères et les [expressions régulières](regexp).
+- La manipulation de chaîne de caractères et les [expressions régulières](http://leaverou.github.io/regexplained/).
 - Les calculs à l'aide de l'objet Math.
 - Utilisation des tableaux.
 - Les méthodes dates & les fonctions natives de Javascript.
@@ -66,4 +66,4 @@ Mais ces 2 sujets méritent des livres entiers rien que pour eux. Il existe auss
 
 J'attends avec impatience la version 2 !
 Si Javascript vous interesse rapprochez vous de l'initiative FranceJS qui regroupe de nombreux développeurs talentueux à travers toute la France.
-Dans ch'nord nous avons [@chtijs](http://twitter.com/chtijs) qui organise régulièrement des rencontres. N'hésitez pas à venir rencontrer les fondateurs [@nfroidure](http://twitter.com/nfroidure) et moi même.
+Dans ch'nord nous avons [@chtijs](https://twitter.com/chtijs) qui organise régulièrement des rencontres. N'hésitez pas à venir rencontrer les fondateurs [@nfroidure](https://twitter.com/nfroidure) et moi même.

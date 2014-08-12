@@ -1,7 +1,7 @@
 ---
 date: 2014-05-21
 slug: site-obese
-title: Astuces et bonnes pratiques pour la performance d'un site internet
+title: Performance site internet : Astuces et bonnes pratiques
 page_title: Votre site web est obèse
 changefreq: monthly
 priority: 0.8
@@ -39,7 +39,7 @@ La librairie de compression pour Apache `mod_deflate` fonctionne uniquement sur 
 
 La mise en place demande 3 étapes :
 
-1. Aller sur le projet [GitHub HTML5Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/.htaccess#L499).
+1. Aller sur le projet [GitHub HTML5Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess#L499).
 2. Copier le contenu `mod_deflate` du fichier `.htaccess`,
 3. et le coller sur votre serveur.
 
@@ -59,7 +59,7 @@ Il n’est pas conseillé de spécifier une durée inférieure à 1 mois et sup�
 
 La mise en place demande 3 étapes :
 
-1. Aller sur le projet [GitHub HTML5Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/.htaccess#L563).
+1. Aller sur le projet [GitHub HTML5Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess#L563).
 2. Copier le fichier `.htaccess`, pour la partie `mod_expires`,
 3. et le coller sur votre serveur.
 

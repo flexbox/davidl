@@ -10,7 +10,7 @@ priority: 0.8
 Samedi matin le réveil sonne à 5h.
 Wake up! Direction Paris pour une journée de hackathon sur le nouveau système de mozilla : [firefoxOS](http://fr.slideshare.net/nitot/firefox-os-appdays-paris-par-tristan-nitot-hack-learn-celebrate).
 
-Sur la route je récupère le fleuron des développeurs web nordiste @[nfroidure  ](http://twitter.com/nfroidure)& @[rbwebdev](http://twitter.com/rbwebdev)
+Sur la route je récupère le fleuron des développeurs web nordiste @[nfroidure  ](https://twitter.com/nfroidure)& @[rbwebdev](https://twitter.com/rbwebdev)
 
 ![#firefoxOSappdays pass](blog/legacy/2013/01/badge.jpg?raw=true)
 
@@ -21,9 +21,9 @@ Juste une remarque pour la clef USB dans mon cas c'est soit je regarde le conten
 
 ![usb key marketplace](blog/legacy/2013/01/firefox-marketplace-USB.jpg?raw=true)
 
-Petite conférence avant le début de l'épreuve : présentation du design adaptatif et du [projet Gaïa](https://github.com/GeekGrunge/gaia) ( UI guideline for firefoxOS  )
+Petite conférence avant le début de l'épreuve : présentation du design adaptatif et du [projet Gaïa](https://github.com/mozilla-b2g/gaia)(UI guideline for firefoxOS)
 
-@[jeremiepat](http://twitter.com/jeremiepat) je t' ai grillé direct pour le fork des slides de [Brad Frost](http://www.slideshare.net/bradfrostweb/) ;) C'est un excellent choix.
+@[jeremiepat](https://twitter.com/jeremiepat) je t' ai grillé direct pour le fork des slides de [Brad Frost](http://www.slideshare.net/bradfrostweb/) ;) C'est un excellent choix.
 
 ![Le web est une jungle](blog/legacy/2013/01/mozilla-conf.jpg?raw=true)
 

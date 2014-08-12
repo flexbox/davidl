@@ -1,7 +1,8 @@
 ---
 date: 2013-12-13 17:03:05+00:00
 slug: Foundation-breakpoint
-title: Changer ses breakpoints avec Foundation
+title: Modifier les breakpoints de Foundation
+description: Les breakpoint permettent d'avoir un design responsive. Voici comment modifier les variables sass avec le framework Foundation.
 page_title: Personnaliser la grille de Foundation
 changefreq: monthly
 priority: 0.8
@@ -42,7 +43,7 @@ Si vous choisissez une stratégie de prioritée du contenu, utilisez des mesures
     $column-gutter: rem-calc(30);
     $total-columns: 12;
 
-Aujourd'hui, Fondation 5 utilise les `rems` -relative em- pour ses mesures. Si vous préférez utiliser des pixels, la fonction `rem-calc()` transforme les pixels en rems pour vous.
+Aujourd'hui, Fondation 5 utilise les `rems` -relative em, pour ses mesures. Si vous préférez utiliser des pixels, la fonction `rem-calc()` transforme les pixels en rems pour vous.
 
 Par exemple, avec une police de texte de taille 16px, `rem-calc(600)` donne la conversion `37,5rems`.
 

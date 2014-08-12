@@ -1,8 +1,8 @@
 ---
 date: 2012-11-21 13:09:31+00:00
 slug: banniere-application-mobile
-title: Smartappbanner ? Demandez l'installation de votre application mobile
-page_title: Proposer le téléchargement d'application iOS
+title: Afficher l'installation de votre application sur mobile
+page_title: Téléchargement d'application iOS
 changefreq: monthly
 priority: 0.8
 ---
@@ -71,9 +71,6 @@ Cette solution est déconcertante de facilité.
 
     <meta name="apple-itunes-app" content="app-id=myAppStoreID"/>
 
-Ajouter simplement une balise meta dans le <head> de votre site
-
-
+Ajouter simplement une balise meta dans le `<head>` de votre site
 
 Pour les options complémentaires rendez vous directement sur le site smartappbanners.
-

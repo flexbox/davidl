@@ -2,6 +2,7 @@
 date: 2014-01-17
 slug: favicon-middleman
 title: Générer automatiquement ses favicon
+description: Automatiser la création de toutes les tailles d'icones pour votre site / application web
 page_title: Générer vos favicon avec middleman et ruby
 changefreq: monthly
 priority: 0.8
@@ -18,19 +19,19 @@ Pour supporter correctement les appareils mobiles android, iOs, windows 8 et san
 Il est possible de créer un script Photoshop pour automatiser le processus, mais il reste 2 problèmes :
 
 - Compliqué niveau maintenance
-- L'export au format <code>.ico</code> n'est pas natif dans ce logiciel.
+- L'export au format `.ico`: n'est pas natif dans ce logiciel.
 
 Heureusement favicon-maker peut nous simplifier cette tâche de création d'images.
 
 ## Configuration
 
-La première chose à faire est d'inclure la gem dans votre <code>Gemfile</code>
+La première chose à faire est d'inclure la gem dans votre `Gemfile`
 
     gem 'middleman-favicon-maker'
 
 Dans votre dossier `/source/` ajoutez vote image `favicon_base.png (Vous pouvez spécifier un autre chemin dans votre fichier de config)
 
-Pour activer la création des différents formats tout se passe dans <code>config.rb</code>
+Pour activer la création des différents formats tout se passe dans `config.rb`
 
     configure :build do
 
@@ -41,7 +42,7 @@ Pour activer la création des différents formats tout se passe dans <code>confi
 
 ## Intégration
 
-Il ne reste plus qu'à appeler correctement nos images dans le HEAD de notre document
+Il ne reste plus qu'à appeler correctement nos images dans le `<head>` de notre document :
 
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">

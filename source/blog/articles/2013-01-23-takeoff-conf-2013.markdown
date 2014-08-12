@@ -103,7 +103,7 @@ Un outil pour détecter les erreurs dans du code JavaScript. Il peut être utili
 ## The method
 
 
-[@olivierlacan](http://twitter.com/olivierlacan) explique la relation entre science et développement web. Apparemment il n'existe aucun lien entre eux et pourtant ...
+[@olivierlacan](https://twitter.com/olivierlacan) explique la relation entre science et développement web. Apparemment il n'existe aucun lien entre eux et pourtant ...
 La méthode scientifique
 
 1. Curiosité
