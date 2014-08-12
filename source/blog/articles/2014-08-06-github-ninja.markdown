@@ -2,6 +2,7 @@
 date: 2014-08-06
 slug: github-ninja
 title: Astuce raccourcis GitHub
+description: "Voici ma méthode de travail pour être plus efficace avec git et GitHub en utilisant les raccourcis claviers"
 image: https://octodex.github.com/images/dojocat.jpg
 page_title: Devenir un ninja sur GitHub
 changefreq: monthly

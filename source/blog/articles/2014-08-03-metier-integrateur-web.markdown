@@ -2,6 +2,7 @@
 date: 2014-08-03
 slug: metier-integrateur-web
 title: Enquête métier développeur / intégrateur web
+description: Témoignage, parcours universitaire et diplômes d'un développeur front-end
 image: https://farm6.staticflickr.com/5095/5449679657_46fed579c2_z.jpg
 page_title: Témoignage d'un développeur front-end & intégrateur
 changefreq: monthly
@@ -121,7 +122,7 @@ __Intellectuellement__ c'est assez épuisant. Vous devez sans cesse jongler avec
 
 __Moralement__ il faut être préparé au fait qu'il y a toujours quelqu'un qui aura une meilleure solution que la vôtre. Vous pouvez passer des mois ou des années à développer quelque chose, le succès n'est pas toujours au rendez-vous. Mais je pense que c'est valable dans beaucoup de professions.
 
-### Y- a-t-il des contre-indications (physiques) ?
+### Y-a-t-il des contre-indications (physiques) ?
 
 Aucune à ma connaissance.
 

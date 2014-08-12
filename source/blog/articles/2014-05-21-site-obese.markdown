@@ -1,7 +1,7 @@
 ---
 date: 2014-05-21
 slug: site-obese
-title: Performance site internet : Astuces et bonnes pratiques
+title: "Performance site internet : Astuces et bonnes pratiques"
 page_title: Votre site web est obèse
 changefreq: monthly
 priority: 0.8

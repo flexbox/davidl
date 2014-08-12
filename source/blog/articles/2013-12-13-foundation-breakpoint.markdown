@@ -1,6 +1,6 @@
 ---
 date: 2013-12-13 17:03:05+00:00
-slug: Foundation-breakpoint
+slug: foundation-breakpoint
 title: Modifier les breakpoints de Foundation
 description: Les breakpoint permettent d'avoir un design responsive. Voici comment modifier les variables sass avec le framework Foundation.
 page_title: Personnaliser la grille de Foundation
