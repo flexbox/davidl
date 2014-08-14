@@ -1,7 +1,8 @@
 ---
 title: David Leuliette développeur front-end et intégrateur web
 description: "Ressources pour la conception d'applications web et mobiles : présentations, ateliers, articles et conseils sur les technologies front-end."
-page_title: Construire de meilleures application web
+page_title: Construire de meilleures applications web
+page_emphasis: "J'écris du code pour rendre les utilisateurs heureux"
 page_class: m-homepage
 changefreq: monthly
 priority: 0.8
@@ -10,13 +11,88 @@ priority: 0.8
 - content_for :javascripts do
   = javascript_include_tag 'front/homepage'
 
-.row
-  .medium-12.columns
-    p
-      'J'écris du code pour rendre les utilisateurs heureux. Voici la liste de mes divers projets.
+.row.text-center data-equalizer=""
+  .medium-4.columns
+    .m-panel data-equalizer-watch=""
+      i.fa.fa-picture-o.fa-rounded.l-illu
+      h2 DESIGN
+      hr
+      p Concevoir des interfaces simples pour les utilisateurs est ma priorité
+  .medium-4.columns
+    .m-panel data-equalizer-watch=""
+      i.fa.fa-code.fa-rounded.l-illu
+      h2 CODE
+      hr
+      p Je programme des solutions évolutives et respectueuses des standards. J'utilise du code open source, j'aide donc la communauté en partageant divers projets.
+  .medium-4.columns
+    .m-panel data-equalizer-watch=""
+      i.fa.fa-eye.fa-rounded.l-illu
+      h2 VEILLE
+      hr
+      p Dans une perspective de développement durable, je suis toujours au courant des nouvelles technologies qui fonctionnent ou non.
+
+.alert-box
+  = link_to '/about.html' do
+    'Découvrir mon histoire et mes compétences
+    i.fa.fa-arrow-right
 
 .row
   .medium-12.columns
+    h2.text-center Processus de conception
+    p.text-center Je met application 3 philosophies du webdesign basé sur les bonnes pratiques de Google.
+    hr
+    .row
+      .large-4.columns
+        .row
+          .small-2.columns
+            i.fa.fa-mobile.l-illu
+          .small-10.columns
+            h3 Mobile first
+            p
+              em Des sites web qui atteignent plus de clients.
+            p Avec plus d'un milliard d'appareils dans le monde, il est important de prioriser ses efforts sur cette population grandissante.
+      .large-4.columns
+        .row
+          .small-4.columns
+            i.fa.fa-arrows-h.l-illu
+          .small-8.columns
+            h3 Responsive design
+            p
+              em Des sites internet pour tous les appareils.
+            p
+      .large-4.columns
+        .row
+          .small-4.columns
+            i.fa.fa-bar-chart-o.l-illu
+          .small-8.columns
+            h3 Responsive design
+            p
+              em Des sites internet pour tous les appareils.
+            p
+
+.row
+  .medium-12.columns
+    h2.text-center Travail itératif
+    ul.small-block-grid-3
+      li.text-right
+        i.fa.fa-lightbulb-o.l-illu
+      li.text-center
+        i.fa.fa-refresh.fa-spin.l-illu
+      li
+        i.fa.fa-users.l-illu
+    p
+      'Le seul moyen de vérifier si une idée fonctionne est de la
+      strong
+        'tester et de l'améliorer.
+
+.alert-box
+  = link_to '/work.html' do
+    'En savoir plus sur ma méthode de travail
+    i.fa.fa-arrow-right
+
+.row
+  .medium-12.columns
+    h2.text-center Projets open source
     dl.sub-nav#js-sub-nav--home
       dt Filtre :
       dd.active
@@ -35,10 +111,17 @@ priority: 0.8
         li class="mix category-#{project.type}" data-my-order="#{i}"
           = link_to project.url do
             div class="m-panel"
-              h2.l-title
+              h3.l-title
                 = project.title
               p.l-description
                 = project.description
               p class="button #{project.button}"
                 'En savoir plus
                 i class="fa #{project.icon}"
+.row
+  .medium-10.medium-centered.columns.text-center
+    h2 Je veux un web meilleur
+    p Je suis designer et développeur, la conception et la convivialité sont mon mode de vie. Cependant, ce n'est pas vrai pour la plupart des gens. Concevoir un très bon produit est un processus, et généralement c'est cher. C'est pourquoi je m'engage à bâtir un meilleur web en faisant tout mon possible pour livrer des sites internet rapides et accessibles à leur propriétaires.
+    p.lead Un meilleur web est mon objectif
+    = link_to 'Suivre les nouvelles', '/newsletter.html', class: 'button animate'
+

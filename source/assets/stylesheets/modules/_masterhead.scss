@@ -1,37 +1,67 @@
 $masterhead-border: 5px solid $black;
 
-.m-masterhead--background {
-  background-color: $black-lighter;
-  margin-bottom: rem-calc(30);
-  i {
-    color: $white-light !important;
-    animation: 2s ease 0s normal none infinite running bounce;
+@keyframes bounce {
+  0% {
+    padding-top: rem-calc(0);
+    padding-bottom: rem-calc(20);
   }
-
-  a {
-    display: block;
-    border-bottom: none;
-    text-align: center;
-    text-shadow: $text-shadow;
+  50% {
+    padding-bottom: rem-calc(0);
+    padding-top: rem-calc(20);
+  }
+  100% {
     padding-top: rem-calc(0);
     padding-bottom: rem-calc(20);
   }
 }
 
 .m-masterhead {
-  font-size: rem-calc(40);
-  text-align: center;
-  font-weight: $font-weight-bolder;
-  position: relative;
-  color: $white-dark;
-  text-shadow: $text-shadow;
-
-  @media #{$small} {
-    margin-top: rem-calc(80);
-    margin-bottom: rem-calc(80);
-    font-size: rem-calc(70);
-    padding: rem-calc(40) rem-calc(60);
+  background-color: $black-lighter;
+  margin-bottom: rem-calc(30);
+  i {
+    color: $white-light !important;
   }
+
+  .l-icon {
+    text-align: center;
+    text-shadow: $text-shadow;
+    padding-top: rem-calc(0);
+    padding-bottom: rem-calc(20);
+    font-size: rem-calc(32);
+    opacity: 0.5;
+    @media #{$small} {
+      font-size: rem-calc(64);
+    }
+    // animation: 3s ease 0s normal none infinite bounce;
+  }
+
+  .l-title,
+  .l-emphasis {
+    text-align: center;
+    color: $white-dark;
+    text-shadow: $text-shadow;
+    font-family: $header-font-family;
+  }
+
+  .l-title {
+    font-size: rem-calc(40);
+    font-weight: $font-weight-bolder;
+
+    @media #{$small} {
+      margin-top: rem-calc(40);
+      // margin-bottom: rem-calc(20);
+      font-size: rem-calc(70);
+      padding: rem-calc(40) rem-calc(60);
+    }
+  }
+
+  .l-emphasis {
+
+    @media #{$small} {
+      font-size: rem-calc(18);
+    }
+  }
+
 }
 
 @keyframes movebg {
@@ -43,7 +73,7 @@ $masterhead-border: 5px solid $black;
   }
 }
 
-.m-homepage .m-masterhead--background {
+.m-homepage .m-masterhead {
   background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat 0 0 $black-lighter;
   @media #{$small} {
     animation: 35s linear 0s normal none infinite movebg;

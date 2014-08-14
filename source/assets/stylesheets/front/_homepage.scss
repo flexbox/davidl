@@ -15,3 +15,21 @@
     clear: none !important;
   }
 }
+
+.m-homepage {
+  .l-illu {
+    font-size: rem-calc(64);
+  }
+  .fa-rounded {
+    padding: rem-calc(20);
+    border: 5px solid $body-font-color;
+    border-radius: 1000px;
+    @include single-transition();
+  }
+  .m-panel:hover {
+    > .fa-rounded {
+      color: $secondary-color;
+      border-color: $secondary-color;
+    }
+  }
+}
