@@ -8,9 +8,6 @@ changefreq: monthly
 priority: 0.8
 ---
 
-- content_for :javascripts do
-  = javascript_include_tag 'front/homepage'
-
 .row.text-center data-equalizer=""
   .medium-4.columns
     .m-panel data-equalizer-watch=""
@@ -106,43 +103,39 @@ priority: 0.8
         i.fa.fa-users.l-illu.hide-for-small
         p Contrôler
 
-
 .m-homepage--section
   p.l-link
     'Pourquoi vous devez
     = link_to '/work.html' do
       |travailler avec un designer
     '&nbsp;?
+
 .row
   .medium-12.columns
     h2.text-center Projets open source
     p.text-center Je participe à l'intelligence collective du mouvement open source en partageant mes connaissances.
     hr
-    dl.sub-nav#js-sub-nav--home
-      dt Filtre :
-      dd.active
-        = link_to 'Tous', '#', class: 'filter', :data => {:filter => 'all'}
-      dd
-        = link_to 'Projets', '#', class: 'filter', :data => {:filter => '.category-project'}
-      dd
-        = link_to 'Écriture', '#', class: 'filter', :data => {:filter => '.category-writing'}
-      dd
-        = link_to 'Divers', '#',class: 'filter',  :data => {:filter => '.category-misc'}
-
-.row
-  .medium-12.columns
     ul class="m-homepage-mixitup" id="js-mixitup-container"
       - data.projects.each_with_index do |project, i|
-        li class="mix category-#{project.type}" data-my-order="#{i}"
-          = link_to project.url do
-            div class="m-panel"
-              h3.l-title
-                = project.title
-              p.l-description
-                = project.description
-              p class="button #{project.button}"
-                'En savoir plus
-                i class="fa #{project.icon}"
+        - if project.stared.present?
+          li class="mix category-#{project.type}" data-my-order="#{i}"
+            = link_to project.url do
+              div class="m-panel"
+                h3.l-title
+                  = project.title
+                p.l-description
+                  = project.description
+                p class="button #{project.button}"
+                  'En savoir plus
+                  i class="fa #{project.icon}"
+
+.m-homepage--section
+  p.l-link
+    'Apprendre de nouvelle choses
+    = link_to '/projects.html' do
+      |en découvrant mes projets
+    '&nbsp;?
+
 .row
   .medium-10.medium-centered.columns.text-center
     h2 Je veux un web meilleur

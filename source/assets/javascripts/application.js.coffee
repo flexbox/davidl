@@ -15,6 +15,4 @@
 #= require "foundation/js/foundation/foundation.equalizer"
 #= require "foundation_init"
 
-#= require "mixitup/src/jquery.mixitup"
-
 #= require "easteregg"

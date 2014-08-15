@@ -40,6 +40,7 @@
   button: primary
   icon: fa-external-link
   url: http://guidecss.fr/
+  stared: true
 -
   title: Pokemon breakpoint
   description: "Les développeurs front-end ont un problème dans la conception adaptative. Nous fixons des points d’arrêt en CSS et peut-être que nous voulons les utiliser dans notre JavaScript. Pokemon breakpoint est une façon amusante de faire le lien entre ces 2 mondes."
@@ -72,9 +73,10 @@
   title: Foundation Boilerplate
   description: "Le point le plus important pour la création de nouveaux projets est de créer un ensemble de règles directrices. Foundation Boilerplate aide les designers & les développeurs à construire <strong>rapidement</strong> des prototypes d'application ou des sites web <strong>responsive</strong> <strong>évolutifs</strong>."
   type: project
-  button: secondary
+  button: primary
   icon: fa-external-link
   url: http://flexbox.github.io/foundation-boilerplate
+  stared: true
 -
   title: Bibliothèque
   description: "La lecture permet de sortir l'esprit d'un certain obscurantisme. Les gens ne lisent plus et c'est dommage car certains ouvrages peuvent boulverser votre vie."
@@ -89,3 +91,4 @@
   button: secondary
   icon: fa-long-arrow-right
   url: /forge/
+  stared: true

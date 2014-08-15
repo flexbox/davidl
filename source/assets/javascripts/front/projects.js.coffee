@@ -6,7 +6,7 @@ $ ->
 
   $('#js-mixitup-container').mixItUp(
     animation:
-      duration: 400
+      duration: 300
       effects: 'fade translateZ(-360px) stagger(34ms)'
       easing: 'ease'
     )

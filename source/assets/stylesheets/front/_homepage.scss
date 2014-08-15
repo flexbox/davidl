@@ -1,7 +1,7 @@
 .m-homepage-mixitup {
 
   @media #{$small-up}{
-    @include block-grid(2);
+    @include block-grid(1);
     .m-panel {
       min-height: rem-calc(350);
     }
@@ -12,10 +12,6 @@
     .m-panel {
       min-height: rem-calc(350);
     }
-  }
-
-  .mix {
-    display: none;
   }
 
   > li {
@@ -46,6 +42,7 @@
 .m-homepage--section {
   background-color: $black-light;
   padding: rem-calc(40 0);
+  margin: rem-calc(40 0);
   .l-link {
     margin-bottom: 0;
     text-align: center;
