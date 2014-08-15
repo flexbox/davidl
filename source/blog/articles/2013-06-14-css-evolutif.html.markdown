@@ -179,14 +179,14 @@ Ici `line-height: 32px;` n’est pas cool, `line-height: 1.333` est un bien [mei
 Les hauteurs de ligne doivent toujours être réglés relativement afin de les rendre plus tolérantes et flexibles. Si jamais vous changez la taille de police d’un `h1`, vous voulez savoir que votre `line-height` va suivre le mouvement.
 Ne pas avoir de parent relatif au `line-height` signifie que si vous souhaitez modifier la taille de votre titre vous allez vous retrouver avec des propriétés du genre :
 
-    h1{
-        font-size:24px;
-        line-height:32px;
+    h1 {
+        font-size: 24px;
+        line-height: 32px;
     }
     /** Titre principal h1 **/
-    .site-title{
-        font-size:36px;
-        line-height:48px;
+    .site-title {
+        font-size: 36px;
+        line-height: 48px;
     }
 
 Ici, nous devons continuer à ajouter une hauteur de ligne fixe indéfiniment car notre taille de base n’est pas assez souple. Pour fluidifier notre production de code il faut changer le `line-height` :
@@ -196,9 +196,8 @@ Ici, nous devons continuer à ajouter une hauteur de ligne fixe indéfiniment ca
         line-height: 1.333;
     }
     /** Titre principal h1 **/
-    .site-title{
-        font-size:36px;
-        line-height:1.666;
+    .site-title {
+        font-size: 36px;
     }
 
 Cela ne semble pas être une énorme différence, mais sur chaque élément de texte d’un projet de grande envergure, cet impact est important.
@@ -216,7 +215,7 @@ La méthode du bucheron est comparable aux nombres magiques. Dans le monde du CS
         margin-left:-3px;
         position: relative;
         z-index: 99999;
-        hauteur: 59px;
+        height: 59px;
         float: left;
     }
 
@@ -243,13 +242,13 @@ Prenon l’exemple de `header{}`
 Beaucoup de personnes utilisent un élément `header` pour identifier leur en-tête principale -ce qui est une bonne idée- cependant, si vous le stylez votre `header` comme ceci :
 
     header {
-        padding:1em;
-        background-color:#BADA55;
-        color:#fff;
-        margin-bottom:20px;
+        padding: 1em;
+        background-color: #BADA55;
+        color: #fff;
+        margin-bottom: 20px;
     }
 
-... dans ce cas ce n’est pas correct. `header` ne signifie pas l’ensemble de l’entête de votre site et en lisant la documentation il est bien spécifié que `header`peut être utilisé pour n’importe quelle en-tête. Un bon exemple est de cibler l’élément avec une classe `.site-header{}`.
+... dans ce cas ce n’est pas correct. `header` ne signifie pas l’ensemble de l’entête de votre site et en lisant la documentation il est bien spécifié que `header` peut être utilisé pour n’importe quelle en-tête. Un bon exemple est de cibler l’élément avec une classe `.site-header{}`.
 
 Donner un style spécifique à un sélecteur générique est dangereux. En suivant la logique de cascade, les modifications se répercuteront dans des zones où ils ne devraient pas dès que vous commencerez à utiliser cet élément. Vous aurez besoin d’annuler ces déclarations (en ajoutant plus de code pour donner moins de style) afin de lutter contre cela.
  Assurez-vous de choisir correctement vos sélecteurs.
@@ -259,7 +258,7 @@ Prenons l’exemple :
     ul {
         font-weight:bold;
     }
-    header .media{
+    header .media {
         float:left;
     }
 
