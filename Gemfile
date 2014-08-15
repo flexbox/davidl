@@ -10,7 +10,7 @@ gem 'middleman-livereload',    '~> 3.3.4'
 gem 'middleman-favicon-maker', '~> 3.7'
 gem 'middleman-minify-html',   '~> 3.4.0'
 gem 'middleman-sitemap',       '~> 0.0.13'
-gem 'middleman-autoprefixer',  '~> 2.2.1'
+gem 'middleman-autoprefixer',  '~> 2.1.1'
 
 gem 'nokogiri','~> 1.6.3.1'
 gem 'slim',    '~> 2.0.3'

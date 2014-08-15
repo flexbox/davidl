@@ -26,6 +26,12 @@ html lang="fr"
           = partial 'views/masterhead'
           #js-content
           == yield
+          .row
+            .small-12.columns
+              p
+                = link_to '#top' do
+                  i.i-custom.fa.fa-arrow-up
+                  'Haut de page
         a class="exit-off-canvas"
         = partial 'views/footer'
 

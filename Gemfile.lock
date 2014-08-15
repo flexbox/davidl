@@ -153,15 +153,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  builder
-  middleman
-  middleman-autoprefixer
+  builder (~> 3.2.2)
+  middleman (~> 3.3.5)
+  middleman-autoprefixer (~> 2.1.1)
   middleman-blog
-  middleman-favicon-maker
+  middleman-favicon-maker (~> 3.7)
   middleman-gh-pages
-  middleman-livereload
-  middleman-minify-html
-  middleman-sitemap
-  nokogiri
-  slim
+  middleman-livereload (~> 3.3.4)
+  middleman-minify-html (~> 3.4.0)
+  middleman-sitemap (~> 0.0.13)
+  nokogiri (~> 1.6.3.1)
+  slim (~> 2.0.3)
   therubyracer

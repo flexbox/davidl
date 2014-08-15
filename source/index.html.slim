@@ -17,82 +17,107 @@ priority: 0.8
       i.fa.fa-picture-o.fa-rounded.l-illu
       h2 DESIGN
       hr
-      p Concevoir des interfaces simples pour les utilisateurs est ma priorité
+      p
+        'Concevoir des
+        strong
+          'interfaces simples pour les utilisateurs
+        'est ma priorité.
   .medium-4.columns
     .m-panel data-equalizer-watch=""
       i.fa.fa-code.fa-rounded.l-illu
       h2 CODE
       hr
-      p Je programme des solutions évolutives et respectueuses des standards. J'utilise du code open source, j'aide donc la communauté en partageant divers projets.
+      p
+        'Je programme des solutions
+        strong évolutives et respectueuses des standards
+        '. J'utilise du code open source, en retour j'aide la communauté en partageant librement mes divers projets.
   .medium-4.columns
     .m-panel data-equalizer-watch=""
       i.fa.fa-eye.fa-rounded.l-illu
       h2 VEILLE
       hr
-      p Dans une perspective de développement durable, je suis toujours au courant des nouvelles technologies qui fonctionnent ou non.
+      p
+        'Dans une
+        strong perspective de développement durable
+        ', je suis toujours au courant des nouvelles technologies qui fonctionnent ou non.
 
-.alert-box
-  = link_to '/about.html' do
-    'Découvrir mon histoire et mes compétences
-    i.fa.fa-arrow-right
+.m-homepage--section
+  p.l-link
+    'Envie de découvrir
+    = link_to '/about.html' do
+      |mon histoire et mes compétences
+    '&nbsp;?
 
 .row
   .medium-12.columns
     h2.text-center Processus de conception
-    p.text-center Je met application 3 philosophies du webdesign basé sur les bonnes pratiques de Google.
+    p.text-center Je reste concentré sur les 3 philosophies du webdesign moderne, basé sur les bonnes pratiques de Google.
     hr
     .row
       .large-4.columns
         .row
-          .small-2.columns
+          .small-3.columns
             i.fa.fa-mobile.l-illu
-          .small-10.columns
+          .small-9.columns
             h3 Mobile first
             p
               em Des sites web qui atteignent plus de clients.
             p Avec plus d'un milliard d'appareils dans le monde, il est important de prioriser ses efforts sur cette population grandissante.
       .large-4.columns
         .row
-          .small-4.columns
+          .small-3.columns
             i.fa.fa-arrows-h.l-illu
-          .small-8.columns
+          .small-9.columns
             h3 Responsive design
             p
               em Des sites internet pour tous les appareils.
             p
+              'Une conception fluide permet à votre site internet de
+              strong
+                'répondre aux besoins de vos utilisateurs
+              'en s'adaptant à leur largeur d'écran. Avec de nouveaux appareils disponibles chaque jour, un site responsive est une nécessité.
       .large-4.columns
         .row
-          .small-4.columns
+          .small-3.columns
             i.fa.fa-bar-chart-o.l-illu
-          .small-8.columns
-            h3 Responsive design
+          .small-9.columns
+            h3 Optimisations de performance
             p
-              em Des sites internet pour tous les appareils.
+              em Un chargement rapide est indispensable.
             p
+              'La plupart des consommateurs s'attendent à avoir
+              strong une page web chargée en moins de 2 secondes
+              '. Près de la moitié d'eux va abandonner un site web mettant plus de 3 secondes à se charger. Je développe en conservant la performance à l'esprit parceque, sur internet, le temps c'est de l'argent.
 
 .row
   .medium-12.columns
     h2.text-center Travail itératif
-    ul.small-block-grid-3
-      li.text-right
-        i.fa.fa-lightbulb-o.l-illu
-      li.text-center
-        i.fa.fa-refresh.fa-spin.l-illu
+    p.text-center Le seul moyen de vérifier si une idée fonctionne est de la tester et de l'améliorer.
+    hr
+    ul.small-block-grid-3.m-homepage--pdca
       li
-        i.fa.fa-users.l-illu
-    p
-      'Le seul moyen de vérifier si une idée fonctionne est de la
-      strong
-        'tester et de l'améliorer.
+        p Planifier
+        i.fa.fa-lightbulb-o.l-illu.hide-for-small
+      li.text-center
+        p Mettre en oeuvre
+        i.fa.fa-refresh.fa-spin.l-illu
+        p Améliorer
+      li
+        i.fa.fa-users.l-illu.hide-for-small
+        p Contrôler
 
-.alert-box
-  = link_to '/work.html' do
-    'En savoir plus sur ma méthode de travail
-    i.fa.fa-arrow-right
 
+.m-homepage--section
+  p.l-link
+    'Pourquoi vous devez
+    = link_to '/work.html' do
+      |travailler avec un designer
+    '&nbsp;?
 .row
   .medium-12.columns
     h2.text-center Projets open source
+    p.text-center Je participe à l'intelligence collective du mouvement open source en partageant mes connaissances.
+    hr
     dl.sub-nav#js-sub-nav--home
       dt Filtre :
       dd.active

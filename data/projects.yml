@@ -89,11 +89,3 @@
   button: secondary
   icon: fa-long-arrow-right
   url: /forge/
--
-  title: Conseil
-  description: "Vous souhaitez découvrir ma façon de penser ainsi que mon travail ? Vous êtes intéressé par la réalisation d'un projet ?"
-  type: project
-  button: primary
-  icon: fa-long-arrow-right
-  url: /contact.html
-
