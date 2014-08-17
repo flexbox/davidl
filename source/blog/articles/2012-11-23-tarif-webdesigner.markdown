@@ -7,16 +7,16 @@ changefreq: monthly
 priority: 0.8
 ---
 
-En Freelance,[ fixer un tarif horaire](http://davidleuliette.com/wordPress/bookmarks/how-to-etablir-un-devis-fixer-ses-tarifs-en-freelance/) est compliqué.
+En freelance, fixer un tarif horaire et surtout évaluer [combien coûte un site internet](/blog/prix-site-internet.html) est très compliqué.
 
 Beaucoup de clients me reprochent d'être trop cher.
-Ils ont surement vu une pub à la TV pour la création de [site gratuit chez 1&1](http://siteweb.1and1.fr/?linkId=AC:default.ct.tab.mywebsite.business&ucuoId=PUAC:default.WH.FR-20121123110049-DADD8F3DD0360B8DB9330779E136A072.TCpfix146a&ac=OM.FR.FRd13K41345T7073a) et pensent qu'en claquant des doigt je peux pondre un site web à partir d'un contenu tenant sur un ticket de métro.
+Ils ont surement vu une publicité à la TV pour la création de [site gratuit chez 1&1](http://siteweb.1and1.fr/?linkId=AC:default.ct.tab.mywebsite.business&ucuoId=PUAC:default.WH.FR-20121123110049-DADD8F3DD0360B8DB9330779E136A072.TCpfix146a&ac=OM.FR.FRd13K41345T7073a) et pensent qu'en claquant des doigt je peux pondre un site web à partir d'un contenu tenant sur un ticket de métro.
 
 > J'ai une super idée de site ! ce serait une copie de tel site mais en changeant 2 ou 3 choses
 >
 > <cite>Le client type du XXIème siècle</cite>
 
-Je suis pédagogue, j'explique simplement qu'avoir une idée c'est bien, avoir du contenu c'est mieux.
+Je suis pédagogue, j'explique simplement qu'avoir une idée c'est bien, avoir du contenu c'est mieux et plus constructif.
 
 Pour les plus plus débrouillards qui n'ont pas forcement le budget je les oriente vers [squarespace](http://www.squarespace.com/). Pour 15$ par mois les fonctionnalités proposées sont simplement hallucinantes (nom de domaine + site adaptatif + analyses de trafic + commentaires ...)
 

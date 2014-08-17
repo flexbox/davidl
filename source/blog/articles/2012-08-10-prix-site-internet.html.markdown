@@ -1,6 +1,6 @@
 ---
 date: 2012-08-10 14:29:25+00:00
-title: Combien coûte un site internet ?
+title: Prix d'un site internet compatible mobile
 slug: prix-site-internet
 page_title: Combien coûte un site web responsive ?
 changefreq: monthly
@@ -9,15 +9,15 @@ priority: 0.8
 
 **Réponse : 42€**
 
-Demander combien coûte un site web adaptatif n’a simplement aucun sens. Brian Hoff (@behoff) explique pourquoi il n’existe pas de réponse claire à cette question.
+Demander combien coûte un site web adaptatif n’a simplement aucun sens. [Brian Hoff](https://twitter.com/behoff) explique pourquoi il n’existe pas de réponse claire à cette question.
 
 ## Quel est le coût d’un site internet ?
 
-> Imagine asking a Real Estate company, “How much does a house cost?” Well it depends. First off, what are the essentials you need? Three bedrooms because you have two kids? Central air conditioning because you live down south? Now that we have the essentials, what are some of the less essential, yet nice features? Basement? Extra storage? Large backyard? Three car garage? What if you could have it your way? How about a pool? Sounds nice right?
+> Imaginez demander à une agence immobilière, «&nbsp;Combien coûte une maison ?&nbsp;» Eh bien cela dépend. Tout d’abord, quels sont les éléments essentiels dont vous avez besoin ? Trois chambres à coucher parce que vous avez deux enfants ? Climatisation centrale parce que vous vivez dans le sud ? Maintenant que nous avons l’essentiel, il vous faut quelques extras ? Sous-sol ? Stockage supplémentaire ? Grande cour arrière ? Trois garages ? Et si vous pouviez avoir votre propre allée goudronnée ? Que diriez-vous d’une piscine ? Tout ça à l’air bien hein ?
+>
+> <cite>Brian Hoff</cite>
 
-Imaginez demander à une agence immobilière, «&nbsp;Combien coûte une maison ?&nbsp;» Eh bien cela dépend. Tout d’abord, quels sont les éléments essentiels dont vous avez besoin ? Trois chambres à coucher parce que vous avez deux enfants ? Climatisation centrale parce que vous vivez dans le sud ? Maintenant que nous avons l’essentiel, il vous faut quelques extras ? Sous-sol ? Stockage supplémentaire ? Grande cour arrière ? Trois garages ? Et si vous pouviez avoir votre propre allée goudronnée ? Que diriez-vous d’une piscine ? Tout ça à l’air bien hein ?
-
-C’est un fait : la conception web adaptative coûte plus cher … que de ne rien faire.
+C’est un fait : un design web adaptatif coûte plus cher … que de ne rien faire.
  Bien sûr, vous pourriez continuer à construire des sites à l’ancienne et ignorer la multitude de périphériques 3G qui accèdent au Web d’aujourd’hui et de demain. Mais nous sommes au XXIème siècle. Toute expérience Web devrait au moins avoir une certaine considération mobile, et tout au plus un site optimisé pour le mobile.
 
 J’ai vu un projet qui n’a pas pris le mobile en considération lors de sa création. A environ 80% du processus de conception le client demande :
@@ -68,7 +68,7 @@ Il est essentiel de tester votre projet sur les dispositifs réels, ce qui signi
 
 Ce ne sont que quelques considérations pour la planification d’un projet de site adaptatif. Il en existe beaucoup plus. N’hésitez pas à partager les vôtres.
 
-Cet article est une <del>traduction</del> adaptation de l’excellentissime blog de @brad_frost : [How Much Does a Responsive Web Design Cost?](http://bradfrostweb.com/blog/web/how-much-does-a-responsive-web-design-cost/)
+Cet article est une <del>traduction</del> adaptation de l’excellentissime blog de Brad Frost : [How Much Does a Responsive Web Design Cost?](http://bradfrostweb.com/blog/web/how-much-does-a-responsive-web-design-cost/)
 
 <hr>
 <div class="m-panel">

@@ -1,7 +1,7 @@
 -
   title: Consultant front-end
   baseline: "Améliorer la performance, la rapidité et l'évolution du code des projets web"
-  description: Les clients de LambdaSARL sont perdus en visitant le site internet de l'entreprise. Ils ont embauché Pierre pour parcourir le site afin de rédiger un manifeste de recommandations. Il livrera un __document pdf__ qu'il expliquera lors d'une __session skype d'une heure__.  
+  description: Les clients de LambdaSARL sont perdus en visitant le site internet de l'entreprise. Ils ont embauché Pierre pour parcourir le site afin de rédiger un manifeste de recommandations. Il livrera un __document pdf__ qu'il expliquera lors d'une __session skype d'une heure__.
   delivers:
     - content: 10 - 15 heures d'analyse
     - content: "Livrables : document texte, discution à distance ou en personne."
@@ -15,7 +15,7 @@
     - content: "Modèle de page d'accueil : 3 revisions"
     - content: "Livrables : Fichiers sources statiques (HTML et CSS)"
     - content: 10 - 15 heures de travail
-  price: 2000 - 3000 € 
+  price: 2000 - 3000 €
 -
   title: Design de site web responsive
   baseline: "Design complet de site internet (homepage, pages de contenu, etc.)."

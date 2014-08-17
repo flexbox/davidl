@@ -56,7 +56,6 @@ $masterhead-border: 5px solid $black;
   }
 
   .l-emphasis {
-
     @media #{$small} {
       font-size: rem-calc(18);
     }
@@ -77,5 +76,16 @@ $masterhead-border: 5px solid $black;
   background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat 0 0 $black-lighter;
   @media #{$small} {
     animation: 35s linear 0s normal none infinite movebg;
+  }
+}
+
+.m-pricing .m-masterhead {
+  position: relative;
+  background: url("https://farm4.staticflickr.com/3905/14351019625_1a874c99fd_h.jpg") repeat center center $black-lighter;
+  .l-title,
+  .l-emphasis {
+    background-color: rgba($white-light, 0.8);
+    text-shadow: none;
+    color: $black;
   }
 }
