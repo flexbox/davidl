@@ -154,7 +154,7 @@ Il est préférable de faire des petits ajustements concernant la taille de la p
 
 Dans cet article, vous avez exploré 5 façons d'améliorer la mise en page de votre site web adaptatif.
 
-- La propriété CSS `display:none` dans les requêtes des médias pour** masquer le contenu**.
+- La propriété CSS `display:none` dans les requêtes des médias pour __masquer le contenu**__.
 - Création **de blocs démontables** en utilisant JavaScript et CSS pour emballer le contenu sur les écrans mobiles.
 - **L'échelle des images** avec la propriété `max-width` et les largeurs de pourcentage. Les images restent proportionnelles à la taille du [navigateur](http://www.mozilla.org/fr/firefox/fx/).
 - Utilisation de JavaScript avec le polyfill `picture` pour créer des **images adaptatives **: les navigateurs de bureau affichent une image HD, alors que les navigateurs mobiles reçoivent une version basse résolution.
