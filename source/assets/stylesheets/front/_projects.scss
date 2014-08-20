@@ -1,3 +1,13 @@
+.m-clients {
+  .fa-thumbs-o-up {
+    color: $success-color;
+  }
+  .fa-thumbs-o-down {
+    color: $alert-color;
+  }
+}
+
 .mix {
   display: none;
 }
+

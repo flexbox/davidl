@@ -56,9 +56,7 @@ Il y a des cas où vous souhaitez uniquement afficher certains contenus en fonct
 
 Avec interchange, il est possible de montrer / charger du contenu seulement sur les appareils appropriés. Pour afficher notre site plus rapidement sur les petits écrans, il est possible de ne rien télécharger.
 
-Dans ce cas notre vue `image_gallery.html.slim` est un carousel avec beaucoups d'images.
-
-So in this case we have a partials/image_gallery.html file that loads in a bunch of images. Pour n'afficher que ce contenu sur de grands écrans il suffit d'utiliser la balise suivante :
+Dans ce cas notre vue `image_gallery.html.slim` est un carousel avec beaucoups d'images. Pour le charger sur de grands écrans il suffit d'écrire le code suivant :
 
     div data-interchange="[image_gallery.html, (large)]"
 

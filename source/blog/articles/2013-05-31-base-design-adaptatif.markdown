@@ -1,8 +1,8 @@
 ---
 date: 2013-05-31 16:41:03+00:00
 slug: base-design-adaptatif
-title: les bases du webdesign responsive
-page_title: Les principes fondamentaux du design adaptatif
+title: Definition webdesign responsive
+page_title: Principes fondamentaux du design adaptatif
 changefreq: monthly
 priority: 0.8
 ---
@@ -166,14 +166,14 @@ Il faut réfléchir à la chorégraphie de votre contenu. Dans quel ordre est-il
 
 La navigation sur mobile peut s'envisager de différentes manières :
 
-  * Contenu important au début. Le scroll permet de remonter dans le temps (utilisé par les réseaux social)
+  * Contenu important au début. Le scroll permet de remonter dans le temps (utilisé par les réseaux sociaux)
   * Contenu important au début : vos utilisateurs plongent dans le contenu
   * Afficher des groupes d'objets
 
 
 Vous ne devez éviter de mélanger l'intégralité de votre contenu dans un scroll unique.
 
-![Wikipedia masue le contenu sur mobile](blog/legacy/2013/05/progressive-disclosure.png?raw=true)
+![Wikipedia masque le contenu sur mobile](blog/legacy/2013/05/progressive-disclosure.png?raw=true)
 
 N'oubliez pas qu'il est important de se concentrer sur le contenu principal.
 
