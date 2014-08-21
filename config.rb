@@ -12,7 +12,6 @@ activate :blog do |blog|
   blog.sources = "blog/articles/:title.html"
   blog.layout = "layouts/blog_layout"
   blog.default_extension = ".markdown"
-  blog.calendar_template = "calendar.html"
 
   blog.paginate = false
 end
@@ -25,6 +24,27 @@ activate :blog do |forge|
   forge.layout = "layouts/forge_layout"
   forge.default_extension = ".markdown"
 end
+
+activate :navtree do |options|
+  options.data_file = 'tree.yml'
+  options.source_dir = 'source' # The `source` directory we want to represent in our nav tree.
+  options.ignore_files = [
+    'sitemap.xml',
+    'robots.txt',
+    'human.txt',
+    'feed.xml.builder',
+    'favicon_base.png',
+    'browserconfig.xml',
+    'CNAME'
+  ]
+  options.ignore_dir = ['assets', 'views'] # An array of directories we want to ignore when building our tree.
+  options.home_title = 'Home' # The default link title of the home page (located at "/"), if otherwise not detected.
+  options.promote_files = ['index.html'] # Any files we might want to promote to the front of our navigation
+  options.ext_whitelist = [] # If you add extensions (like '.md') to this array, it builds a whitelist of filetypes for inclusion in the navtree.
+end
+
+activate :gzip
+activate :livereload
 
 ###
 # Page options, layouts, aliases and proxies
@@ -57,11 +77,6 @@ set :images_dir, 'assets/images'
 ###
 # Helpers
 ###
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
-activate :gzip
-activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do

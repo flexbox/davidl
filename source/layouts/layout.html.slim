@@ -8,20 +8,20 @@ html lang="fr"
     title #{current_page.data.title}
     meta name="description" content="#{current_page.data.description}"
     meta name="robots" content="index,follow"
-    = partial 'views/open_graph'
+    = partial 'views/global/open_graph'
 
-    = partial 'views/favicon'
+    = partial 'views/global/favicon'
     = stylesheet_link_tag 'application'
     = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'
-    = partial 'views/analytics_code'
+    = partial 'views/global/analytics_code'
 
   body class="#{current_page.data.page_class}"
     .off-canvas-wrap data-offcanvas=""
       .inner-wrap
         .m-content
-          = partial 'views/header'
-          = partial 'views/control'
-          = partial 'views/masterhead'
+          = partial 'views/global/header'
+          = partial 'views/global/control'
+          = partial 'views/global/masterhead'
           #js-content
           == yield
           .row
@@ -31,9 +31,9 @@ html lang="fr"
                   i.i-custom.fa.fa-arrow-up
                   'Haut de page
         a class="exit-off-canvas"
-        = partial 'views/footer'
+        = partial 'views/global/footer'
 
     / = javascript_include_tag 'application', async: 'true'
     = javascript_include_tag 'application'
     = yield_content :javascripts
-    = partial 'views/analytics_lib'
+    = partial 'views/global/analytics_lib'

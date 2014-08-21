@@ -80,6 +80,11 @@ $m-panel-bg-hover: rgba($white, 0.9);
   &:hover {
     background-color: $black;
   }
+
+  img {
+    border: 3px solid $white;
+    border-radius: $global-rounded;
+  }
 }
 
 .m-section {

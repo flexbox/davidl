@@ -97,6 +97,9 @@ GEM
     middleman-minify-html (3.4.0)
       htmlcompressor (~> 0.1.0)
       middleman-core (>= 3.2)
+    middleman-navtree (0.1.8)
+      middleman-core (~> 3.3)
+      titleize (~> 1.3)
     middleman-sitemap (0.0.13)
       middleman-core (>= 3.2.2)
     middleman-sprockets (3.3.7)
@@ -147,6 +150,7 @@ GEM
     thread_safe (0.3.4)
     tilt (1.4.1)
     timers (1.1.0)
+    titleize (1.3.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uber (0.0.8)
@@ -166,6 +170,7 @@ DEPENDENCIES
   middleman-gh-pages
   middleman-livereload (~> 3.3.4)
   middleman-minify-html (~> 3.4.0)
+  middleman-navtree
   middleman-sitemap (~> 0.0.13)
   nokogiri (~> 1.6.3.1)
   slim (~> 2.0.3)
