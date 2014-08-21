@@ -8,29 +8,10 @@
         span.l-month=current_page.data.date.strftime('%m')
         |.
         span.l-year=current_page.data.date.strftime('%Y')
+
   article.row itemtype="http://schema.org/BlogPosting" itemscope=""
     .medium-8.medium-centered.columns.blog-article itemprop="articleBody"
       == yield
       .row
         .medium-8.medium-centered.columns
-          .m-blog-panel itemprop="author" itemscope="" itemtype="http://schema.org/Person"
-            .row
-              .small-4.columns
-                = image_tag 'front/aperture-science-avatar.jpg', itemprop: 'image', alt: 'Avatar Aperture Science'
-              .small-8.columns
-                p
-                  'Publié par
-                  a href="#{data.settings.social.google_plus}?rel=author" itemprop="name"
-                   'David Leuliette
-                  span itemprop="jobTitle"
-                    'Développeur front-end
-                  'et évangéliste
-                  span itemprop="title" open source.
-                p
-                  .fa.fa-twitter
-                  span itemprop="nickname"
-                    =' link_to data.settings.social.twitter.name, data.settings.social.twitter.url
-                  'sur twitter
-                p
-                  .fa.icon-rss
-                  = link_to "S'incrire au flux RSS", data.settings.social.rss.url
+          = partial 'views/author'

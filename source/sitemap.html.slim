@@ -31,27 +31,12 @@ priority: 0
     hr
     .row
       .medium-2.columns
-        h2 Projets
+        h2 Pages
       .medium-10.columns
-        h3 Mes projets
-        p Découvrez tous mes projets open source, ainsi que ma façon de travailler.
-        ul.large-block-grid-3.medium-block-grid-2
-          li
-            = link_to '/webdesign.html' do
-              .m-panel
-                h4 Webdesign
-          li
-            = link_to '/manifesto.html' do
-              .m-panel
-                h4 Manifeste
-          li
-            = link_to '/toolkit.html' do
-              .m-panel
-                h4 Outils
-          li
-            = link_to '/books.html' do
-              .m-panel
-                h4 Bibliothèque
+        h3 Contenu du site
+        p Découvrez tous mes essais en accès libre.
+        ul
+          = tree_to_html data.tree
 
     hr
     .row
@@ -73,4 +58,3 @@ priority: 0
           'Retrouver mes informations pour avoir une réponse rapide. N'ésitez pas à
           ='link_to 'vous inscrire par email', 'http://davidl.fr/newsletter.html'
           ' pour recevoir gratuitement mes meilleurs articles.
-
