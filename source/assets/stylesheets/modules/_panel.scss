@@ -60,7 +60,6 @@ $m-panel-bg-hover: rgba($white, 0.9);
       }
     }
   }
-
 }
 
 .m-blog-panel {
@@ -77,13 +76,17 @@ $m-panel-bg-hover: rgba($white, 0.9);
     border-bottom: 0;
   }
 
-  &:hover {
-    background-color: $black;
-  }
-
   img {
     border: 3px solid $white;
     border-radius: $global-rounded;
+    @include single-transition();
+    &:hover {
+      border-color: $primary-color;
+    }
+  }
+
+  &:hover {
+    background-color: $black;
   }
 }
 

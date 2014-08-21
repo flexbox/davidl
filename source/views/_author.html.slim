@@ -12,12 +12,13 @@
         'et évangéliste
         span itemprop="title" open source.
       p
-        .fa.fa-twitter
+        .fa.fa-fw.fa-twitter
         span itemprop="nickname"
           =' link_to data.settings.social.twitter.name, data.settings.social.twitter.url
         'sur twitter
       p
-        .fa.icon-rss
+        .fa.fa-fw.icon-rss
         = link_to "S'incrire au flux RSS", data.settings.social.rss.url
     .small-4.columns
-      = image_tag 'front/aperture-science-avatar.jpg', itemprop: 'image', alt: 'Avatar Aperture Science'
+      = link_to '/about.html'  do
+        = image_tag 'front/aperture-science-avatar.jpg', itemprop: 'image', alt: 'Avatar Aperture Science'
