@@ -89,3 +89,8 @@ $masterhead-border: 5px solid $black;
     color: $black;
   }
 }
+
+.m-projects .m-masterhead {
+  background: url("https://farm4.staticflickr.com/3904/14327833686_9f4b21b2cc_h.jpg") repeat 0 0 $black-lighter;
+  background-size: cover;
+}

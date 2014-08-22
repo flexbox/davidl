@@ -25,9 +25,9 @@ priority: 0.6
 
 .row
   .medium-12.columns
-    ul class="m-homepage-mixitup" id="js-mixitup-container"
+    ul.m-homepage-mixitup#js-mixitup-container
       - data.projects.each_with_index do |project, i|
-        li class="category-#{project.type}" data-my-order="#{i}"
+        li class="mix category-#{project.type}" data-my-order="#{i}"
           = link_to project.url do
             div class="m-panel"
               h3.l-title
