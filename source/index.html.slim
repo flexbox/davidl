@@ -54,7 +54,7 @@ priority: 0.8
       .large-4.columns
         .row
           .small-3.columns
-            i.fa.fa-mobile.l-illu
+            i.fa.fa-mobile.l-illu.right
           .small-9.columns
             h3 Mobile first
             p
@@ -63,7 +63,7 @@ priority: 0.8
       .large-4.columns
         .row
           .small-3.columns
-            i.fa.fa-arrows-h.l-illu
+            i.fa.fa-arrows-h.l-illu.right
           .small-9.columns
             h3 Responsive design
             p
@@ -76,7 +76,7 @@ priority: 0.8
       .large-4.columns
         .row
           .small-3.columns
-            i.fa.fa-bar-chart-o.l-illu
+            i.fa.fa-bar-chart-o.l-illu.right
           .small-9.columns
             h3 Optimisations de performance
             p
@@ -115,10 +115,10 @@ priority: 0.8
     h2.text-center Projets open source
     p.text-center Je participe à l'intelligence collective du mouvement open source en partageant mes connaissances.
     hr
-    ul class="m-homepage-mixitup" id="js-mixitup-container"
+    ul class="m-homepage-mixitup"
       - data.projects.each_with_index do |project, i|
         - if project.stared.present?
-          li class="mix category-#{project.type}" data-my-order="#{i}"
+          li
             = link_to project.url do
               div class="m-panel"
                 h3.l-title

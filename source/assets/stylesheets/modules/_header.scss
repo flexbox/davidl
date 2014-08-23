@@ -1,28 +1,43 @@
-$header-height: 100;
+$header-height: 80;
 
 .m-header {
-  background-color: rgba($white, 0.9);
   position: fixed;
-  transition: all $transition-duration ease;
-  top: rem-calc(-$header-height);
-  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
-
   width: 100%;
   z-index: 15;
-  padding-top: rem-calc(20);
+
+  transition: all $transition-duration ease;
+  box-shadow: none;
+
+  #js-off-canvas-toggle {
+    text-transform: uppercase;
+    font-family: $header-font-family;
+    border-bottom: 0;
+    font-size: rem-calc(14);
+    padding: rem-calc(20 40);
+    position: relative;
+
+    i {
+      position: absolute;
+      top: 24%;
+      right: rem-calc(20);
+    }
+
+  }
 
   &.is-hidden {
+    top: 0;
     transform: translateY(rem-calc(-$header-height));
   }
   &.is-show {
     top: 0;
     transform: translateY(0);
+    background-color: $white;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
   }
 
-  @media #{$small-only}{
-    a {
-      font-size: rem-calc(14);
-      padding: rem-calc(10 15);
-    }
-  }
+}
+
+.headroom--top {
+  background-color: transparent;
+  box-shadow: none;
 }

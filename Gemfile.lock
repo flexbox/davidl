@@ -107,6 +107,9 @@ GEM
       sprockets (~> 2.12.1)
       sprockets-helpers (~> 1.1.0)
       sprockets-sass (~> 1.2.0)
+    middleman-syntax (2.0.0)
+      middleman-core (~> 3.2)
+      rouge (~> 1.0)
     mini_portile (0.6.0)
     minitest (5.4.0)
     multi_json (1.10.1)
@@ -128,6 +131,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     ref (1.0.5)
+    rouge (1.4.0)
     sass (3.3.14)
     slim (2.0.3)
       temple (~> 0.6.6)
@@ -172,6 +176,7 @@ DEPENDENCIES
   middleman-minify-html (~> 3.4.0)
   middleman-navtree
   middleman-sitemap (~> 0.0.13)
+  middleman-syntax
   nokogiri (~> 1.6.3.1)
   slim (~> 2.0.3)
   therubyracer
