@@ -79,6 +79,10 @@ $masterhead-border: 5px solid $black;
   }
 }
 
+.m-books .m-masterhead {
+  background: url("https://farm4.staticflickr.com/3843/14376084015_4239cf7783_h.jpg") repeat top center $black-lighter;
+}
+
 .m-pricing .m-masterhead {
   position: relative;
   background: url("https://farm4.staticflickr.com/3905/14351019625_1a874c99fd_h.jpg") repeat center center $black-lighter;
@@ -89,3 +93,4 @@ $masterhead-border: 5px solid $black;
     color: $black;
   }
 }
+
