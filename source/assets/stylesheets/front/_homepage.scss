@@ -47,8 +47,12 @@
     margin-bottom: 0;
     text-align: center;
     color: $white-light;
+    font-family: $header-font-family;
     a {
       color: $white-light;
+      &:hover {
+        color: $blue-steroid;
+      }
     }
   }
 }
