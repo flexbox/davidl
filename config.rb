@@ -45,6 +45,7 @@ end
 
 activate :gzip
 activate :livereload
+activate :syntax
 
 ###
 # Page options, layouts, aliases and proxies
@@ -69,6 +70,7 @@ page "/browserconfig.xml", :layout => false
 
 require 'slim'
 require 'builder'
+require 'kramdown'
 
 set :js_dir, 'assets/javascripts'
 set :css_dir, 'assets/stylesheets'

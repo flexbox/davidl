@@ -1,24 +1,27 @@
 ---
-title: Règle de base pour la typographie en CSS
+title: Optimiser les webfont avec du CSS
 description:
-page_title: Boxsizing
+page_title: Règle de base pour la typographie en CSS
 page_class: m-homepage
 changefreq: monthly
 priority: 0.6
 ---
-markdown:
-  Ces dernières années, il ya eu énormément de progrès concernant la typographie web. Mais si vous souhaitez sublimer votre expérience de lecture il existe certains point que vous pouvez améliorer.
 
-  - Largeur des paragraphes : aujourd'hui le gros problème sur les sites concerne la largeur des paragraphes. Il sont beaucoups trop longs. `max-width: 40em` est une excellente base pour rendre le texte plus lisible.
+.row
+  .medium-8.medium-centered.columns
+    P.drop-cap
+      'Ces dernières années, il ya eu énormément de progrès concernant la typographie web. Mais si vous souhaitez sublimer votre expérience de lecture il existe certains point que vous pouvez améliorer.
+    markdown:
+      - Largeur des paragraphes : aujourd'hui le gros problème sur les sites concerne la largeur des paragraphes. Il sont beaucoups trop longs. `max-width: 40em` est une excellente base pour rendre le texte plus lisible.
 
-  - [Crénage](http://kerningjs.com/) : il peut être utilisé pour serrer / desserrer les caractères.
+      - [Crénage](http://kerningjs.com/) : il peut être utilisé pour serrer / desserrer les caractères.
 
-  - Ligature : fusionner 2 caractères pour n'en former qu'un, peut être [modifiée en CSS](https://developer.mozilla.org/fr/docs/Web/CSS/letter-spacing).
+      - Ligature : fusionner 2 caractères pour n'en former qu'un, peut être [modifiée en CSS](https://developer.mozilla.org/fr/docs/Web/CSS/letter-spacing).
 
-  - `webkit-font-smoothing: antialiased;` attention à ne pas l'utiliser sur de petites tailles.
+      - `webkit-font-smoothing: antialiased;` attention à ne pas l'utiliser sur de petites tailles.
 
-  Si tout le monde appliquait ces simples conseils, la lecture sur le web en serait meilleure.
+      Si tout le monde appliquait ces simples conseils, la lecture sur le web en serait meilleure.
 
 
-/ - `text-rendering: optimizeLegibility` is one line of code that addresses these two issues and will instantly improve typography on the Web.
-/ - Sub-pixel font lettering can sometimes clog up letters especially on OSX.
+    / - `text-rendering: optimizeLegibility` is one line of code that addresses these two issues and will instantly improve typography on the Web.
+    / - Sub-pixel font lettering can sometimes clog up letters especially on OSX.

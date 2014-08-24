@@ -26,7 +26,7 @@ priority: 0.8
         dd data-magellan-arrival="enhancement"
           = link_to 'Améliorations', '#enhancement'
         dd data-magellan-arrival="future"
-          = link_to 'Retour vers le furtur', '#future'
+          = link_to 'Evolution', '#future'
 
   .medium-9.small-12.columns
     p.drop-cap
@@ -369,7 +369,7 @@ priority: 0.8
           'Travailler avec un grand nombre de données tabulaire est simplement la pire chose en design responsive.
           br
           'Elles ne peuvent pas déborder de la grille et peuvent casser la mise en page. Cela signifie que vous ne pourrez pas voir toutes les données ou comparer des lignes avec une colonne. Bien que, il existe des solutions,
-          =link_to 'comme celle-ci', 'http://zurb.com/playground/responsive-tables'
+          = link_to 'comme celle-ci', 'http://zurb.com/playground/responsive-tables'
           '.
     hr
     h2#future data-magellan-destination="future" Retour vers le futur webdesign adaptatif
@@ -377,8 +377,10 @@ priority: 0.8
       'Il existe quelques bons outils dehors quand il s'agit de conception adaptative. Mon préféré reste
       =link_to 'Foundation', 'http://foundation.zurb.com/docs/'
       '. Mais peu importe la solution que vous utilisez ou si vous souhaitez créer votre framework de zéro. La question est de savoir comment faire face à l'imprévisibilité de l'avenir.
-    p
-      'Vous aimez ma façon de penser ainsi que mon travail ? Vous êtes intéressé par la réalisation d'un projet ? N'hésitez pas à
-      =link_to 'me contacter', '/contact.html'
-      '.
 
+    .m-panel
+      p.lead
+       strong
+        'Si vous avez appris quelque chose de nouveau,
+       =' link_to 'contactez moi', '/contact.html'
+       'pour la réalisation de votre prochain projet.
