@@ -13,7 +13,6 @@ html lang="fr"
     = partial 'views/global/favicon'
     = stylesheet_link_tag 'application'
     = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'
-    = partial 'views/global/analytics_code'
 
   body class="#{current_page.data.page_class}"
     .off-canvas-wrap data-offcanvas=""
@@ -36,4 +35,4 @@ html lang="fr"
     / = javascript_include_tag 'application', async: 'true'
     = javascript_include_tag 'application'
     = yield_content :javascripts
-    = partial 'views/global/analytics_lib'
+    = google_analytics_universal_tag

@@ -54,6 +54,7 @@ blog:
     2014-08-03-metier-integrateur-web.markdown: /blog/articles/2014-08-03-metier-integrateur-web.markdown
     2014-08-06-github-ninja.markdown: /blog/articles/2014-08-06-github-ninja.markdown
     2014-08-18-foundation-love.markdown: /blog/articles/2014-08-18-foundation-love.markdown
+    2014-08-24-sublime-source-code.markdown: /blog/articles/2014-08-24-sublime-source-code.markdown
   index.html.slim: /blog/index.html.slim
 books.html.slim: /books.html.slim
 clients.html.slim: /clients.html.slim

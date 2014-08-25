@@ -13,6 +13,7 @@ gem 'middleman-sitemap',       '~> 0.0.13'
 gem 'middleman-autoprefixer',  '~> 2.1.1'
 gem 'middleman-navtree'
 gem 'middleman-syntax'
+gem 'middleman-google-analytics'
 
 gem 'nokogiri','~> 1.6.3.1'
 gem 'slim',    '~> 2.0.3'
