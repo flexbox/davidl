@@ -11,7 +11,7 @@ $ ->
   headroom.init()
 
   $('#js-off-canvas-toggle').click ->
-    $("html").animate
+    $("html,body").animate
       scrollTop: 0
     , 500
 
