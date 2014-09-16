@@ -14,6 +14,6 @@ $ ->
           animation:
             enable: true
             duration: 300
-            effects: 'fade translateZ(-360px) stagger(34ms)'
-            easing: 'ease'
+            effects: 'fade'
+            easing: 'cubic-bezier(0.645, 0.045, 0.355, 1)'
         return
