@@ -61,6 +61,10 @@ $masterhead-border: 5px solid $black;
     }
   }
 
+  & > .row {
+    background-color: rgba($black-lighter,0.6);
+  }
+
 }
 
 @keyframes movebg {
@@ -80,18 +84,12 @@ $masterhead-border: 5px solid $black;
 }
 
 .m-books .m-masterhead {
-  background: url("https://farm4.staticflickr.com/3843/14376084015_4239cf7783_h.jpg") repeat top center $black-lighter;
+  background: url("https://farm4.staticflickr.com/3839/15072640746_8b070f6379_h.jpg") repeat top center $black-lighter;
+  background-size: cover;
 }
 
 .m-pricing .m-masterhead {
-  position: relative;
   background: url("https://farm4.staticflickr.com/3905/14351019625_1a874c99fd_h.jpg") repeat center center $black-lighter;
-  .l-title,
-  .l-emphasis {
-    background-color: rgba($white-light, 0.8);
-    text-shadow: none;
-    color: $black;
-  }
 }
 
 .m-projects .m-masterhead {
