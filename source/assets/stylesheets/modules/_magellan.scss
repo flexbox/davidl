@@ -23,3 +23,12 @@ $magellan-padding: 10px !default;
     }
   }
 }
+
+.m-magellan {
+  [data-magellan-expedition] {
+    z-index: auto;
+  }
+  .m-panel {
+    max-width: rem-calc(280);
+  }
+}
