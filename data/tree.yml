@@ -55,6 +55,7 @@ blog:
     2014-08-06-github-ninja.markdown: /blog/articles/2014-08-06-github-ninja.markdown
     2014-08-18-foundation-love.markdown: /blog/articles/2014-08-18-foundation-love.markdown
     2014-08-24-sublime-source-code.markdown: /blog/articles/2014-08-24-sublime-source-code.markdown
+    2014-09-07-template-ruby.markdown: /blog/articles/2014-09-07-template-ruby.markdown
   index.html.slim: /blog/index.html.slim
 books.html.slim: /books.html.slim
 clients.html.slim: /clients.html.slim
