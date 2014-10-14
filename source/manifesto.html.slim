@@ -51,7 +51,7 @@ priority: 0.8
       'Pour vous aider à fournir un contenu de haute qualité qui fonctionne mieux, atteint plus de personnes -pas seulement avec les navigateurs et appareils d'aujourd'hui, mais surtout ceux de demain.
 
     h2#js-browser data-magellan-destination="js-browser" Navigateurs
-    =image_tag 'front/south-park-browser.jpg', alt: 'Navigateurs web et south park'
+    = image_tag 'front/south-park-browser.jpg', alt: 'Liste des navigateurs web et personnages de south park'
     h3 Les chiffres, les chiffres, les chiffres
     p
       'Chaque projet est différent. Le plus important est de vérifier les données de navigation de vos utilisateurs. Avec ces chiffres il sera plus simple de  décider quel navigateur vous supportez officellement.
@@ -265,7 +265,23 @@ priority: 0.8
         'quirks
       'avec Internet Explorer
 
-    code data-gist-id="8409520"
+    markdown:
+      ~~~ html
+        <!DOCTYPE html>
+        <html lang="fr">
+        <head>
+          <meta charset="utf-8">
+          <title>I ♥ HTML</title>
+          <link rel="stylesheet" href="application.css">
+        </head>
+        <body>
+
+          <h1>HTML5 Forever</h1>
+
+          <script src="application.js"></script>
+        </body>
+        </html>
+      ~~~
 
     h3 Bonnes pratiques
     ul
@@ -302,9 +318,10 @@ priority: 0.8
     p Je remercie chaque jour les navigateurs modernes d'avoir une certaine cohérence. Je n'ai jamais eu besoin de hack pour règler un problème sur un navigateur spécifique autre que IE.
     p Sans Internet Exporer, le développement front-end serait un jeu d'enfant.
     h4 Rendre IE Compatible avec lui-même
-    pre
-      code
-        <span><</span>meta http-equiv="X-UA-Compatible" content="IE=edge">
+    markdown:
+      ~~~ html
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      ~~~
     p
       'Pour tester IE, je démarre de la dernière version disponible pour remonter dans le temps au fur et à mesure.
       br
@@ -315,14 +332,25 @@ priority: 0.8
       'J'utilise les
       ='link_to 'conseils de Paul Irish', 'http://www.paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/'
       ' pour corriger les problèmes de CSS avec internet explorer.
-    code data-gist-id="8417399"
+
+    markdown:
+      ~~~ html
+        <!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+        <!--[if IE 7]> <html class="lt-ie9 lt-ie8"> <![endif]-->
+        <!--[if IE 8]> <html class="lt-ie9"> <![endif]-->
+        <!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+      ~~~
+
     p
       'Si je remplace mon en-tête HTML avec le code qui précède, je peux utiliser des classes pour cibler des versions spécifiques.
       br
       'Par exemple pour cibler IE8 :
-    pre
-      code
-        '.ie8 .m-manifest { float: left; width: 100%; }
+
+    markdown:
+      ~~~ css
+        .ie8 .m-manifest { float: left; width: 100%; }
+      ~~~
+
     h3 Media queries
     p Je délivre des styles spécifiques au différents appareils. Cette propriété me sert à identifier :
     ul
@@ -331,12 +359,31 @@ priority: 0.8
       li Orientation - portrait ou paysage ?
       li Résolution d'écran
     p J'optimise les différents styles pour les différents appareils.
-    code data-gist-id="8057428"
+
+    markdown:
+      ~~~ css
+        .large-6.columns {
+          width: 50%;
+          display: block;
+          float: left;
+        }
+
+        @media only screen and (max-width: 767px) {
+          /* Remplacement des colonnes pour n'en afficher qu'une seule */
+          .columns {
+            width: auto;
+            float: none;
+          }
+        }
+      ~~~
+
     p
       'La balise meta <code>viewport</code> est également nécessaire pour gérer correctement l'affichage des appareil mobile ainsi que la version de bureau.
-    pre
-      code
-        <span><</span>meta name="viewport" content="width=device-width">
+
+    markdown:
+      ~~~ html
+        <meta name="viewport" content="width=device-width">
+      ~~~
     h3 Bonnes pratiques
     ul
       li
@@ -376,9 +423,10 @@ priority: 0.8
       'Ce concept est important. Le teste ma fonctionnalité car il est possible que certains navigateurs ne la prenne pas en charge. Si elle est supportée l'utilisateur en bénéficie, dans le cas contraire ma page fonctionne toujours.
     p
       'J'utilise javascript de cette façon, cela augmente la qualité de mon code et empêche atrocités comme :
-    pre
-      code
-        '<span><</span>a href="javascript:myBullshitFunction('sucks', true);"]]> Cliquez ici <span><</span><span>/</span>a>
+    markdown:
+      ~~~ html
+        <a href="javascript:myBullshitFunction('sucks', true);"> Cliquez ici </a>
+      ~~~
     p
       'Cela signifie que si quelque chose se casse, la page <strong>continue de fonctionner</strong> sans les améliorations.
       br
@@ -386,28 +434,24 @@ priority: 0.8
     h4 API propre
     p
       'Je ne m'encombre pas de la portée globale, je conserve donc un superbe nommage court pour mes méthodes et mes variables.
-    pre
-      code
-        |var Toggler = {
-        br
-        |  open: function() {},
-        br
-        |  close: function() {},
-        br
-        |  toggle: function() {}
-        br
-        |}
+    markdown:
+      ~~~ javascript
+        var Toggler = {
+          open: function() {},
+          close: function() {},
+          toggle: function() {}
+        }
+      ~~~
 
     h4 Arguments optionnels
     p
       'J'ajoute seulement les paramètres nécessaires comme arguments. Pour un code plus clair, j'encapsule mes paramètres dans un objet <code>options</code>.
-    pre
-      code
-        |function drawCircle(x,y,radius,options) {
-        br
-        |  options = options || {};
-        br
-        |}
+    markdown:
+      ~~~ javascript
+        function drawCircle(x,y,radius,options) {
+          options = options || {};
+        }
+      ~~~
 
 
     h3 Bonnes pratiques
@@ -570,19 +614,15 @@ priority: 0.8
 
         p
           'CSS3 peut être utilisé, mais je traite toujours ses fonctionnalités comme des récompenses visuelles pour les utilisateurs. Je met en place tous les préfixes pour les différents navigateurs <strong>dans l'ordre alphabétique</strong> avec la version normale en dernier.
-        pre
-          code
-            |.m-image:hover {
-            br
-            |  -moz-transform: scale(1.5);
-            br
-            |  -ms-transform: scale(1.5);
-            br
-            |  -webkit-transform: scale(1.5);
-            br
-            |  transform: scale(1.5);
-            br
-            |}
+        markdown:
+          ~~~ css
+            .m-image:hover {
+              -moz-transform: scale(1.5);
+              -ms-transform: scale(1.5);
+              -webkit-transform: scale(1.5);
+              transform: scale(1.5);
+            }
+          ~~~
         p HTML5 peut être utilisé, mais mettre en place des polyfill pour certaines fonctionnalités se fait au détriment de la performance.
 
     h3
@@ -622,15 +662,30 @@ priority: 0.8
     p
       'Je conserve des tableaux simples avec une seule entête. J'utilise la balise <code>th</code> pour les cellules de titrage avec une portée appropriée.
 
-    code data-gist-id="8446064"
+    markdown:
+      ~~~ html
+        <table>
+          <tr>
+            <th scope="col"> Nom </th>
+            <th scope="col"> Métier </th>
+            <th scope="col"> Date de naissance </th>
+          </tr>
+          <tr>
+            <th scope="row"> Léonard De Vinci</th>
+            <td> Inventeur </td>
+            <td> 15 avril 1452 </td>
+          </tr>
+        </table>
+      ~~~
+
 
     p
       'Associer le <code>label</code> à son <code>input</code> avec l'attribut <code>for</code> est la première étape pour avoir des formulaires accessibles.
-    pre
-      code
-        '&lt;label for=&quot;email&quot;&gt; Adresse email &lt;/label&gt;
-        br
-        '&lt;input id=&quot;email&quot; type=&quot;email&quot;&gt;
+    markdown:
+      ~~~ html
+        <label for="email"> Adresse email </label>
+        <input id="email" type="email">
+      ~~~
 
     h3 Déficients moteurs
     p

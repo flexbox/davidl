@@ -313,7 +313,20 @@ priority: 0.8
     h4 Les media queries et la navigation
     p Le comportement le plus souvent rencontré est le changement de navigation. Considérons une navigation horizontale simple, comme vous pourriez trouver sur un site de présentation : Produits, équipe, expérience, Contact, etc... Sur un grand écran cette méthode fonctionne très bien, mais une grande navigation sur un smartphone n'est pas adapté. Avec les <code>media query</code> qui vérifient la largeur d'affichage de l'appareil, nous pouvons transformer une navigation horizontale en verticale.
 
-    code data-gist-id="8057663"
+    markdown:
+      ~~~ css
+        /* Exemple de navigation */
+        .nav li {
+          float: left;
+        }
+
+        @media only screen and (max-width: 767px) {
+          /* Le code précédent est annulé et remplacé */
+          .nav li {
+            float: none;
+          }
+        }
+      ~~~
 
     p Il s'agit d'un exemple très simple, mais l'élément clé est la méthode utilisée. La <code>media query</code> précise le  style à appliquer si l'écran a une largeur maximale de 767px.
 
@@ -321,12 +334,26 @@ priority: 0.8
     p
       'L'utilisation la plus courante des <code>media query</code> concerne la mise en page du texte.
       br
-      'La plupart des système sont construits pour être s'afficher avec un ordinateur de bureau. On commence par créer des lignes et des colonnes, qui ont parfois une taille en pixels fixe et parfois en pourcentages. Sur les petits appareils les colonnes deviennent excessivement mince. La solution la plus simple est de les abandonner sur les petits appareils et d'avoir le contenu qui s'écoule sur une seule colonne.
+      'La plupart des système sont construits pour s'afficher avec un ordinateur de bureau. On commence par créer des lignes et des colonnes, qui ont parfois une taille en pixels fixe et parfois en pourcentages. Sur les petits appareils les colonnes deviennent excessivement mince. La solution la plus simple est de les abandonner sur les petits appareils et d'avoir le contenu qui s'écoule sur une seule colonne.
 
     p
       'Voivi un exemple :
 
-    code data-gist-id="8057428"
+    markdown:
+      ~~~ css
+        /* Exemple de navigation */
+        .column {
+          float: left;
+          width: 50%;
+        }
+
+        @media only screen and (max-width: 767px) {
+          .column {
+            float: none;
+            width: 100%;
+          }
+        }
+      ~~~
 
     p Très simple, mais très efficace. Beaucoup de framework responsive ont ce comportement par défaut, même si certains suivent une philosophie priorité au mobile et utilisent les media queries pour ajouter des tailles aux colonnes, plutôt que de les supprimer.
 

@@ -78,13 +78,6 @@
   url: http://flexbox.github.io/foundation-boilerplate
   stared: true
 -
-  title: Bibliothèque
-  description: "La lecture permet de sortir l'esprit d'un certain obscurantisme. Les gens ne lisent plus et c'est dommage car certains ouvrages peuvent boulverser votre vie."
-  type: misc
-  button: secondary
-  icon: fa-long-arrow-right
-  url: /books.html
--
   title: Refonte de site internet
   description: "De nombreux sites web ne sont pas préparés pour le nouveau monde du multi-écran.<br>Ce guide présentent les différentes étapes pour transformer votre site web."
   type: writing

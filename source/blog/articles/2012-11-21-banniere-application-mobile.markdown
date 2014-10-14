@@ -68,8 +68,9 @@ Cette solution affiche l'icône de l'application, son prix et si l'application
 
 Cette solution est déconcertante de facilité.
 
-
+~~~ html
     <meta name="apple-itunes-app" content="app-id=myAppStoreID"/>
+~~~
 
 Ajouter simplement une balise meta dans le `<head>` de votre site
 

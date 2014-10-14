@@ -27,11 +27,15 @@ Optimiser sa méthode de travail n'est possible qu'en possédant les bons outils
 
 Les outils de développement directement intégrés à Firefox sont aussi très utiles. Pour afficher le mode responsive :
 
+~~~
     Menu : Outils > Développeur web > Vue adaptative
+~~~
 
 Mais les vrai utilisent le raccourci clavier :
 
+~~~
     cmd + alt + M
+~~~
 
 ### SEO
 
@@ -51,7 +55,9 @@ Pour les grincheux / aigris / trolls qui pensent que ce navigateur est lent et b
 
 Si ce n'est pas déjà fait vérifiez que vous possédez la [dernière version de Firefox](https://www.mozilla.org/fr/firefox/new/).
 
+~~~
     Menu : Aide > A propos
+~~~
 
 Mon navigateur se lance beaucoup plus rapidement grâce à ces conseils :
 

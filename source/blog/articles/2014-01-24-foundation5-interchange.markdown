@@ -20,8 +20,6 @@ Pour voir un exemple, je vous invite à visiter le site de cet [chambre d’hôt
 
 ## Conventions et mises en garde
 
-J’utilise le langage de [template slim](http://slim-lang.com/) pour réduire ma syntaxe HTML (`#` pour `<div id="...">` et `.` pour `<div class="...">`)
-
 Interchange est assez souple, mais pour des raisons pratiques j’ai placé le contenu chargé par interchange dans le [dossier source](https://github.com/css-ninja/chamber/tree/master/source) qui sera à la racine de mon site web. Pour une grosse application il est impératif d’architecturer correctement vos vues.
 
 ## Contenu interactif
@@ -38,15 +36,21 @@ Avec interchange je charge ce contenu dans ma vue `_map.html.slim`
 [maps-small.html.slim](https://github.com/css-ninja/chamber/blob/master/source/maps-small.html.slim) : Charge le contenu par défaut
 
 [maps-medium.html.slim](https://github.com/css-ninja/chamber/blob/master/source/maps-medium.html.slim) : Chargez ce contenu sur grand écran (dans cet exemple avec une largeur supérieure à 600px)
-Commençons en activant interchange sur notre page. Nous allons ajouter un texte par défaut "Chargement de la carte …" :
+Commençons en activant interchange sur notre page. Nous allons ajouter un texte par défaut "Chargement de la carte ..." :
 
-    div data-interchange=""
+~~~ html
+    <div data-interchange="">
       Chargement de la carte...
+    </div>
+~~~
 
 Ensuite, nous allons modifier `data-interchange` pour lui dire quel est le contenu à charger en fonction de la `mediaquery`
 
-    div data-interchange="[maps-small.html, (default)], [maps-medium.html, (large)]
+~~~ html
+    <div data-interchange="[maps-small.html, (default)], [maps-medium.html, (large)]">
       Chargement de la carte...
+    </div>
+~~~
 
 Et voilà, la magie opère ! Regardez [cet exemple pour voir la carte](http://chambredesanges.be/).
 
@@ -58,6 +62,10 @@ Avec interchange, il est possible de montrer / charger du contenu seulement sur 
 
 Dans ce cas notre vue `image_gallery.html.slim` est un carousel avec beaucoups d'images. Pour le charger sur de grands écrans il suffit d'écrire le code suivant :
 
-    div data-interchange="[image_gallery.html, (large)]"
+~~~ html
+    <div data-interchange="[image_gallery.html, (large)]">
+      ...
+    </div>
+~~~
 
 NOTE : Si vous redimensionnez la fenêtre après que le contenu soit chargé, il ne sera pas automatiquement supprimé. Cela se produit s'il n'y a pas de requête de média correspondant.

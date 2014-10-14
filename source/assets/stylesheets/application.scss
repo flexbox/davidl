@@ -1,56 +1,55 @@
 @charset "UTF-8";
 
 // Sprite generator
-@import
-  "retina-sprites",
-  "pictos";
+@import "retina-sprites";
+@import "pictos";
 
-@import
-  "colors",
-  "google-font",
-  "foundation/scss/foundation/functions",
-  "settings";
+@import "colors";
+@import "google-font";
+@import "foundation/scss/foundation/functions";
+@import "settings";
 
-// Icones
-@import
-  "icones";
+@import "icones";
 
-@import
-  "foundation/scss/normalize",
-  "foundation/scss/foundation/components/global",
-  "foundation/scss/foundation/components/alert-boxes",
-  "foundation/scss/foundation/components/block-grid",
-  "foundation/scss/foundation/components/breadcrumbs",
-  "foundation/scss/foundation/components/buttons",
-  "foundation/scss/foundation/components/forms",
-  "foundation/scss/foundation/components/grid",
-  "foundation/scss/foundation/components/inline-lists",
-  "foundation/scss/foundation/components/magellan",
-  "foundation/scss/foundation/components/offcanvas",
-  "foundation/scss/foundation/components/panels",
-  "foundation/scss/foundation/components/tables",
-  "foundation/scss/foundation/components/type",
-  "foundation/scss/foundation/components/side-nav",
-  "foundation/scss/foundation/components/sub-nav",
-  "foundation/scss/foundation/components/visibility";
+@import "foundation/scss/normalize";
+@import "foundation/scss/foundation/components/global";
+@import "foundation/scss/foundation/components/alert-boxes";
+@import "foundation/scss/foundation/components/block-grid";
+@import "foundation/scss/foundation/components/breadcrumbs";
+@import "foundation/scss/foundation/components/buttons";
+@import "foundation/scss/foundation/components/forms";
+@import "foundation/scss/foundation/components/grid";
+@import "foundation/scss/foundation/components/inline-lists";
+@import "foundation/scss/foundation/components/magellan";
+@import "foundation/scss/foundation/components/offcanvas";
+@import "foundation/scss/foundation/components/panels";
+@import "foundation/scss/foundation/components/tables";
+@import "foundation/scss/foundation/components/type";
+@import "foundation/scss/foundation/components/side-nav";
+@import "foundation/scss/foundation/components/sub-nav";
+@import "foundation/scss/foundation/components/visibility";
 
-@import
-  "global",
-  "modules/masterhead",
-  "modules/type",
-  "modules/control",
-  "modules/header",
-  "modules/panel",
-  "modules/dropcap",
-  "modules/footer",
-  "modules/pizza",
-  "modules/buttons",
-  "modules/about";
+@import "animate.css/source/base";
+@import "animate.css/source/attention_seekers/bounce";
+@import "animate.css/source/bouncing_entrances/bounceInDown";
+@import "animate.css/source/bouncing_exits/bounceOutUp";
 
-@import
-  "front/blog",
-  "front/forge",
-  "front/homepage",
-  "front/projects",
-  "modules/magellan",
-  "front/webdesign";
+@import "global";
+@import "modules/masterhead";
+@import "modules/type";
+@import "modules/control";
+@import "modules/header";
+@import "modules/panel";
+@import "modules/dropcap";
+@import "modules/footer";
+@import "modules/pizza";
+@import "modules/buttons";
+@import "modules/about";
+@import "code";
+
+@import "front/blog";
+@import "front/forge";
+@import "front/homepage";
+@import "front/projects";
+@import "modules/magellan";
+@import "front/webdesign";

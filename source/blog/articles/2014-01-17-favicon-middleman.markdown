@@ -19,7 +19,7 @@ Pour supporter correctement les appareils mobiles android, iOs, windows 8 et san
 Il est possible de créer un script Photoshop pour automatiser le processus, mais il reste 2 problèmes :
 
 - Compliqué niveau maintenance
-- L'export au format `.ico`: n'est pas natif dans ce logiciel.
+- L'export au format `.ico` : n'est pas natif dans ce logiciel.
 
 Heureusement favicon-maker peut nous simplifier cette tâche de création d'images.
 
@@ -27,23 +27,28 @@ Heureusement favicon-maker peut nous simplifier cette tâche de création d'imag
 
 La première chose à faire est d'inclure la gem dans votre `Gemfile`
 
+~~~ ruby
     gem 'middleman-favicon-maker'
+~~~
 
 Dans votre dossier `/source/` ajoutez vote image `favicon_base.png (Vous pouvez spécifier un autre chemin dans votre fichier de config)
 
 Pour activer la création des différents formats tout se passe dans `config.rb`
 
+~~~ ruby
     configure :build do
 
       activate :favicon_maker,
         :favicon_maker_versions => [ :apple_152, :apple_144, :apple_120, :apple_114, :apple_76, :apple_72, :apple_60, :apple_57, :apple, :fav_196, :fav_160, :fav_96, :fav_32, :fav_16, :fav_png, :fav_ico, :mstile_144 ]
 
     end
+~~~
 
 ## Intégration
 
 Il ne reste plus qu'à appeler correctement nos images dans le `<head>` de notre document :
 
+~~~ html
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -62,4 +67,4 @@ Il ne reste plus qu'à appeler correctement nos images dans le `<head>` de notre
 
     <meta name="msapplication-TileColor" content="#f5f5f5">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-
+~~~

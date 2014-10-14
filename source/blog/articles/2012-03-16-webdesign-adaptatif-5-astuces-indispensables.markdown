@@ -38,11 +38,13 @@ De nos jours, il faut que l'information s'affiche aussi bien sur un écran 27 po
 
 Utilisez la propriété CSS `display:none` en fonction de la taille de votre périphérique. (Dans ce ca si la fenêtre est inférieure à 480px)
 
+~~~ sass
     @media screen and (max-width: 480px) {
       .sidebar {
         display: none;
       }
     }
+~~~
 
 <div class="alert-box alert"><p>Attention n'abusez pas de cette technique car le contenu de la page sera téléchargé. Cela réduit les performances, notament en navigation mobile où le débit n'est pas toujours élevé.</p></div>
 
@@ -58,14 +60,17 @@ Pour créer un bloc pliable vous devez combiner CSS et Javascript.
 
 ### Structure HTML
 
-    <div id="sidebar">
 
-      <div class="inner">
+~~~ html
+    <div id="m-sidebar">
+
+      <div class="m-sidebar--content">
         <h2>Contactez-moi</h2>
         <p>Je m'engage à vous offir des fleurs en retour.</p>
       </div>
 
     </div>
+~~~
 
 
 ### Comportement Javacript
@@ -94,9 +99,11 @@ La façon la plus simple pour redimensionner l'image est d'ajouter la propriét
 Le navigateur détermine la taille de l'image par rapport à l'élément parent.
 La hauteur de l'image est ajustée automatiquement.
 
+~~~ sass
     .photo {
       max-width: 65%;
     }
+~~~
 
 ## Des images adaptatives
 
@@ -110,6 +117,7 @@ La même problématique existe pour la gestion des vidéos. Pour être compatibl
 
 Un groupe sur [GitHub](http://fr.wikipedia.org/wiki/Git) développe ce concept d['image responsive](https://github.com/scottjehl/picturefill) en utilisant un polyfill pour créer le comportement d'une nouvelle balise : `picture`.
 
+~~~ html
     <div data-picture>
         <span data-src="small.jpg"></span>
         <span data-src="medium.jpg"     data-media="(min-width: 400px)"></span>
@@ -121,6 +129,7 @@ Un groupe sur [GitHub](http://fr.wikipedia.org/wiki/Git) développe ce concept d
             <img src="small.jpg">
         </noscript>
     </div>
+~~~
 
 ![blog/legacy/2012/03/mokup4.png?raw=true](blog/legacy/2012/03/mokup4.png?raw=true)
 
@@ -134,6 +143,7 @@ _[webcitation.fr](http://webcitation.fr)_
 En suivant la méthode d'échelle des images, il est possible de redimensionner le texte pour faire un meilleur usage de l'espace disponible.
 Il est préférable de faire des petits ajustements concernant la taille de la police. Si elle est trop petite vos visiteurs auront du mal à lire.
 
+~~~ sass
     body {
       font-size: 100%;
     }
@@ -149,6 +159,7 @@ Il est préférable de faire des petits ajustements concernant la taille de la p
         font-size: 110%;
       }
     }
+~~~
 
 ## Conclusion
 

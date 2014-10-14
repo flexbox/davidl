@@ -34,9 +34,11 @@ Par exemple `nav-control.snippet.html` est bien mieux que `page-header-menu.snip
 
 Ajouter `.snippet.html` pour chaque fichier permet de différencier les documents HTML incomplets, des fichiers interchange qui seront chargés. Encore mieux généralement je spécifie les tailles comme ceci :
 
+~~~
     snippet.simple.html
     snippet.medium.html
     snippet.complex.html
+~~~
 
 Notez également que je ne nomme pas mes snippets en fonction de la taille ou l'emplacement prévu. Pas de "petit" ou "grand", ou encore "top" et "footer". Cela signifie que lorsque le site internet évolue, je n'ai pas besoin de changer les noms de fichiers en conséquence.
 
@@ -45,13 +47,15 @@ C’est comme nommer en CSS `.big-button-red` et `.top-left`. Les [noms de class
 Mais où est le fun la dedans ? Pour que la force soit avec moi, j'ai décidé d'embrasser le pouvoir du coté obscur de la force comme l'explique Andy Clarke dans son article : [Star wars styling](http://stuffandnonsense.co.uk/blog/about/star-wars-styling).
 L'idée est d'utiliser la puissance des personnages de films de science fiction pour hiérarchiser ses fichiers.
 
+~~~
     filename.html — simple
     filename.maul.html — moyen
     filename.vador.html — complexe
     filename.emperor.html — fonctionnalités supplémentaires
+~~~
 
 Cette approche à l'avantage d'utiliser une "convention" existante, que n'importe qui peut comprendre facilement. Inutile ? Sûrement. La question est de créer une convention qui fonctionne.
 
-A la fin, il existe beaucoups de façon de nommer les fichiers. La meilleure façon de trouver son propre système est d'essayer, d'échouer, et de recommencer jusqu'à trouver ce qui vous correspond -ainsi qu'à votre équipe.
+À la fin, il existe beaucoups de façon de nommer les fichiers. La meilleure façon de trouver son propre système est d'essayer, d'échouer, et de recommencer jusqu'à trouver ce qui vous correspond -ainsi qu'à votre équipe.
 
 Avoir des règles de nommage peut sembler inutile. D'expérience, cela vous économisera de précieuses secondes lors de vos vos développements, qui se transforment en mois de travail arrivé à une certaine échelle.

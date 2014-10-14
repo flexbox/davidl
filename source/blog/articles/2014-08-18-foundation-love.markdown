@@ -25,9 +25,11 @@ Aujourd'hui les sites internet doivent être modernes, soignés, responsive, et 
 
 Foundation possède le meilleur système de grille responsive disponible. Construit avec une priorité au mobile il est très facile de faire évoluer sa mise en page sur les tablettes, pour terminer sur des écrans. D'expérience je conseille de diviser son écran en 12 colonnes (Car 3 x 4 = 12). Ce système permet de mettre en place presque n'importe quel type de design.
 
+~~~ html
     <div class="row">
       <div class="small-6 medium-4 large-2"></div>
     </div>
+~~~
 
 ## Développement rapide
 

@@ -18,20 +18,24 @@ La meilleure façon de personnaliser la largeur des grilles est de modifier leur
 
 Dans `_settings.css`, recherchez :
 
+~~~ sass
     $small-range: (0em, 40em);
     $medium-range: (40.063em, 64em);
     $large-range: (64.063em, 90em);
     $xlarge-range: (90.063em, 120em);
     $xxlarge-range: (120.063em);
+~~~
 
 ## 2. Rechercher et remplacer en CSS
 
 Vous trouverez beaucoup de lignes avec des `breakpoints`. Par exemple :
 
+~~~ sass
     @media only screen and (min-width: 40.063em)
     @media only screen and (min-width: 64.063em)
     @media only screen and (min-width: 90.063em)
     @media only screen and (min-width: 120.063em)
+~~~
 
 Chaque `media query` représente le point d'arrêt qui sera utilisé par les navigateurs pour appliquer les différentes tailles : petit, moyen, grand et très grand.
 
@@ -39,9 +43,11 @@ Chaque `media query` représente le point d'arrêt qui sera utilisé par les nav
 
 Si vous choisissez une stratégie de prioritée du contenu, utilisez des mesures en `em` ou `rems`.
 
+~~~ sass
     $row-width: rem-calc(1000);
     $column-gutter: rem-calc(30);
     $total-columns: 12;
+~~~
 
 Aujourd'hui, Fondation 5 utilise les `rems` -relative em, pour ses mesures. Si vous préférez utiliser des pixels, la fonction `rem-calc()` transforme les pixels en rems pour vous.
 

@@ -19,8 +19,9 @@ Dans cet article je vais expliquer les astuces que j'ai apprises en lisant la do
 
 ## Les bases
 
-La phylosophie de slim est de _supprimer tous les caractère inutiles_. Si l'on prends cet exemple extrait de la documentation on peut remarquer plusieurs choses :
+La phylosophie de slim est de _supprimer tous les caractère inutiles_. Si l'on prends cet exemple [extrait de la documentation](http://slim-lang.com/) on peut remarquer plusieurs choses :
 
+~~~ haml
     doctype html
     html
       head
@@ -51,6 +52,7 @@ La phylosophie de slim est de _supprimer tous les caractère inutiles_. Si l'on 
 
         #footer
           Copyright © #{year} #{author}
+~~~
 
 - Pas de fermeture de balises
 - `#content` donnera `<nav id="content"></nav>`
@@ -67,6 +69,7 @@ Si vous avez suivi mon [tunning de sublime Text](http://davidl.fr/blog/) vous sa
 
 Ce qui donne dans un cas concret :
 
+~~~ haml
     p
       'Voici un paragraphe avec
        = link_to 'un lien vers un site', 'http://guidecss.fr'
@@ -74,19 +77,22 @@ Ce qui donne dans un cas concret :
     p
       |Un autre paragraphe
       ', avec une virgule.
+~~~
 
 ## Optimiser les moteurs de recherche avec les balises schema.org
 
 Schema.org est un format de micro données qui permet aux moteurs de recherches et aux différents appareils de comprendre la structure des informations. Voici un exemple simple pour le balisage d'un fil d'arianne
 
+~~~ haml
     ul class="breadcrumbs"
       li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"
         = link_to '/index.html', itemprop: 'url' do
           span itemprop="title"
             |Accueil
+~~~
 
 
-- `itemprop=""` sera interprété en `itemprop`, c'est l'un des seuls cas où vous devez ajouter des caractères par rapport au HTML.
+- `itemscope=""` sera interprété en `itemscope`, c'est l'un des seuls cas où vous devez ajouter des caractères par rapport au HTML.
 
 
 ## Les attributs personnalisés `data-*`
@@ -95,29 +101,39 @@ Tout comme les balise de microdonnées, pour ajouter des attribut personnalisés
 
 slim
 
+~~~ haml
     nav data-dropdown="js-sub-menu" Menu
+~~~
 
 HTML
 
+~~~ html
     <nav data-dropdown="js-sub-menu"> Menu </nav>
+~~~
 
 Cela se complique un peu si vous devez ajouter plusieurs attributs, mais la encore la notation est simplifiée si l'on connait la bonne syntaxe :
 
 slim
 
+~~~ haml
     div data: {a: 1, b: 2} Foo
+~~~
 
 HTML
 
+~~~ html
     <div data-a="1" data-b="2">Foo</div>
+~~~
 
 
 ## Écrire du markdown
 
 Il est possible d'écrire directement du markdown en plein milieu de ses vues. C'est une technique que j'utilise souvent car ce format est pervasif et facilement convertissable.
 
+~~~ markdown
     markdown:
       ## Écrire du markdown
+~~~
 
 ### Coloration syntaxique
 
@@ -125,21 +141,25 @@ Il existe une multitude d'outils pour ajouter de la coloration syntaxique dans d
 
 avec redcarpet :
 
+~~~ markdown
     markdown:
     ``` ruby
     def my_cool_method(message)
       puts message
     end
     ```
+~~~
 
 avec kramdown :
 
+~~~ markdown
     markdown:
     ~~~ ruby
     def my_cool_method(message)
       puts message
     end
     ~~~
+~~~
 
 ## Conclusion
 
@@ -147,7 +167,7 @@ Le principal inconvénient d'utiliser ce moteur de templating est le coût de fo
 
 __C'est tout__.
 
-La lecture des erreurs est simplifiée car si votre indentation n'est pas parfaite la page ne sera pas compilée. Fini le `</div> fantôme qui casse toute votre mise page.
+La lecture des erreurs est simplifiée car si votre indentation n'est pas parfaite la page ne sera pas compilée. Fini le `</div>` fantôme qui casse toute votre mise page.
 
 Slim est actuellement 10 fois plus rapide que haml.
 

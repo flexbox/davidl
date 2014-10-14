@@ -17,8 +17,8 @@ De nos jours les sites sont de plus en plus complexes, embarquent de plus en plu
 Il existe beaucoup d'options pour améliorer la performance de votre site internet. Pour vous aider à décider comment mettre en place ces solutions j'ai découpé cet article en 3 parties :
 
 - Geek
-- Guru
 - Hacker
+- Guru
 
 Chaque technique peut être déployée partiellement, en partie ou pas du tout. Chaque palier peut vous aider lors du développement de votre site suivant son niveau de complexité.
 
@@ -140,8 +140,10 @@ Toutes les techniques précédentes, ormis la concaténation, vous aiderons à r
 
 La performance n'augmentera pas, c'est le sentiment de vitesse que ressentira l'utilisateur qui doit être perceptible. Le moyen le plus simple de retarder le chargement d'un fichier JavaScript en utilisant l'attribut HTML5 `defer` ou `async`.
 
+~~~ html
     <script defer src="application.js"></script>
     <script async src="application.js"></script>
+~~~
 
 D'un point de vue latence et performance ces attributs se comportent de façon similaire. Ils demandent au navigateur d'éxécuter les scripts seulement après avoir téléchargé l'intégralité du contenu de la page.
 
@@ -149,7 +151,7 @@ Vous devez vous poser la question : quel priorité dois-je utiliser ?
 
 #### `defer` charge les scripts dans l'ordre d'appel
 
-Supposons que vous chargez la librairie jQuery ainsi qu'un autre fichier de plug-in. Ces 2 fichiers sont dépendant car le socond script doit être chargé _après_ le premier.
+Supposons que vous chargez la librairie jQuery ainsi qu'un autre fichier de plug-in. Ces 2 fichiers sont dépendant car le second script doit être chargé _après_ le premier.
 
 #### `async` le chargement de l'ordre des fichiers n'a aucune importance
 
@@ -179,12 +181,14 @@ Curieusement organiser correctement votre CSS et vos fichiers JavaScript peut av
 
 Voici un très mauvais exemple que je rencontre quotidiennement :
 
+~~~ html
     <head>
       <script src="jquery.js"></script>
       <link rel="stylesheet" href="small.css">
       <link rel="stylesheet" href="big.css">
     </head>
     ...
+~~~
 
 Vous ne devez __JAMAIS__ faire cela. Le JavaScript bloque téléchargement des autres ressources en parallèle comme les images. Sauf exception votre JavaScript doit toujours être appelé uniquement avant la fin du `</body>`
 
@@ -194,7 +198,26 @@ Vous ne devez __JAMAIS__ faire cela. Le JavaScript bloque téléchargement des a
 
 Voici un exemple assez basique : utiliser `localStorage` pour mettre en cache jQuery
 
-<script src="https://gist.github.com/flexbox/1832f48d92f1bee693ce.js"></script>
+~~~ html
+    <-- Script tag that will hold jQuery -->
+    <script id="js-jquery"></script>
+
+    <-- Determine if jQuery should be loaded from localStorage or the server -->
+    <script>
+      var jqFile;
+      if ('jqFile' in window.localStorage) {
+        // 1. The script is already stored
+        jqFile = window.localStorage.getItem('jqFile');
+      } else {
+        // 2. not present, AJAX request to get the data
+        jqFile = getJQFile();
+        // push the data into localStorage
+        window.localStorage.setItem('jqFile',jqFile);
+      }
+      // 3. Insert JavaScript into the script element
+      document.getElementById('js-jquery').text = jqFile;
+    </script>
+~~~
 
 1. Vérifier si le fichier existe
 2. Charger le contenu en AJAX
@@ -219,7 +242,28 @@ L'équipe qui s'occupe de Gmail a trouvé une solution pour que le code ne soit 
 
 Le navigateur télécharge et évalue l'intégralité de votre JavaScript, mais comme ce dernier est commenté, il n'est pas exécuté. Cette méthode libère du CPU pour effectuer d'autres opérations. Quand l'utilisateur a besoin d'une fonctionnalité, une partie du code est décommentée et évaluée. Voici un exemple :
 
-<script src="https://gist.github.com/flexbox/c244d7bebd646582fcfe.js"></script>
+~~~ html
+    <html>
+    ...
+    <script id="js-module-lazy">
+    /*
+      JavaScript commented code
+    */
+    </script>
+
+    <script>
+      function lazyLoad(){
+        var lazyElement = document.getElementById('js-module-lazy');
+        var lazyElementContent = lazyElement.innerHTML;
+        var jsCode = stripOutCommentBlock(lazyElementContent);
+        eval(jsCode);
+      }
+    </script>
+
+    <button onclick="lazyLoad()">Lazy load feature</button>
+
+    </html>
+~~~
 
 Cette technique est complexe à mettre en place car votre architecture JavaScript doit être irréprochable.
 
@@ -262,10 +306,12 @@ C'est pourquoi vous ne devez __JAMAIS__ modifier vos éléments avec du JavaScri
 <i class="fa fa-thumbs-o-down"></i> Mauvaise solution
 </div>
 
+~~~ javascript
     var el = document.getElementById('js-box');
     el.style.color = "#fff";
     el.style.backgroundColor = "#000";
     el.style.borderColor = "#fc0";
+~~~
 
 Chaque déclaration provoque un calcul. Dans notre cas il y a 3 reflow.
 
@@ -273,8 +319,10 @@ Chaque déclaration provoque un calcul. Dans notre cas il y a 3 reflow.
 <i class="fa fa-thumbs-o-up"></i> Bonne solution
 </div>
 
+~~~ javascript
     var el = document.getElementById('js-box');
     el.className = "m-box";
+~~~
 
 1 seul reflow. Le style est déclaré à sa place : dans une feuille de style et vous n'aurez pas besoin d'utiliser `!important` si votre élément change.
 
@@ -304,7 +352,7 @@ Comme expliqué précédemment, quand un navigateur télécharge jQuery, il doit
 
 ## La performance comme budget
 
-Généralement la performance ne fait fait l'objet d'un budget pour un projet web. Mais tout comme les créateurs de jeux vidéos qui ont une limite dans le nombre de polygones affichés à l'écran, les développeurs devraient imposer une limite de taille pour alléger le poids des sites internets.
+Généralement la performance ne fait pas l'objet d'un budget pour un projet web. Mais tout comme les créateurs de jeux vidéos qui ont une limite dans le nombre de polygones affichés à l'écran, les développeurs devraient imposer une limite de taille pour alléger le poids des sites internets.
 
 Si votre client est résistant à se soucier de la performance, voici une petite astuce qui fonctionne :
 
