@@ -7,7 +7,6 @@
 #= require "headroom.js/dist/headroom"
 #= require "jquery.stickynav"
 #= require "jquery-videobackground/script/jquery.videobackground"
-#= require "vendor/gist-embed"
 
 #= require "foundation/js/foundation/foundation"
 #= require "foundation/js/foundation/foundation.magellan"

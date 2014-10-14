@@ -29,22 +29,26 @@ N’importe quelle règle CSS qui enlève du style (sauf dans un [reset](http://
 
 Toutes les déclarations CSS comme celles-ci :
 
+~~~ sass
     border-bottom: none;
     padding: 0;
     float: none;
     margin-left: 0;
+~~~
 
 ... Sont généralement de mauvaises nouvelles.
 
 Si vous souhaitez éliminer les bordures, vous avez probablement appliqué leur style trop tôt.
 C’est vraiment difficile à expliquer, je vais exposer avec un exemple simple :
 
+~~~ sass
     h2 {
         font-size: 2em;
         margin-bottom: 0.5em;
         padding-bottom: 0.5em;
         border-bottom: 1px solid #ccc;
     }
+~~~
 
 Ici, nous offrons à tous nos `h2` une taille de police et une marge, mais aussi un peu de padding et une bordure pour les séparer de l’élément suivant.
 Mais, peut-être, nous avons une situation dans laquelle nous ne voulons pas de filets en bordure, peut-être, nous avons une situation où nous voulons simplement un `h2`.
@@ -52,6 +56,7 @@ Mais, peut-être, nous avons une situation dans laquelle nous ne voulons pas de 
 
 Nous allons donc devoir écrire plus de règles pour créer moins de style :
 
+~~~ sass
     h2 {
         font-size: 2em;
         margin-bottom: 0.5em;
@@ -62,10 +67,12 @@ Nous allons donc devoir écrire plus de règles pour créer moins de style :
         padding-bottom: 0;
         border-bottom: none;
     }
+~~~
 
 Ici, nous avons une dizaine de lignes de CSS et un nom de classe immonde.
 Il vaut beaucoup mieux avoir des noms de classe [sémantique](http://fr.wikipedia.org/wiki/Web_s%C3%A9mantique) :
 
+~~~ sass
     h2 {
         font-size: 2em;
         margin-bottom: 0.5em;
@@ -74,6 +81,7 @@ Il vaut beaucoup mieux avoir des noms de classe [sémantique](http://fr.wikipedi
         padding-bottom: 0.5em;
         border-bottom: 1px solid #ccc;
     }
+~~~
 
 Dans ce cas, nous avons 8 lignes de CSS, sans rien défaire, et un joli nom de classe.
 Plus vous vous enfoncez dans une feuille CSS plus vous devez ajouter des styles, jamais en retirer.
@@ -91,6 +99,7 @@ Un nombre magique est une valeur qui est utilisé «&nbsp;car ça fonctionne&nbs
 
 Prenons l’exemple suivant :
 
+~~~ sass
     .site-nav{
         [styles]
     }
@@ -99,6 +108,7 @@ Prenons l’exemple suivant :
         top:37px;
         left:0;
     }
+~~~
 
 `top: 37px;` est un nombre magique.
 
@@ -123,9 +133,11 @@ Dès que je vois nombres magiques en CSS je commence à poser des questions. Pou
 
 La notion de sélecteur requis se code de la manière suivante :
 
+~~~ sass
     ul.nav {}
     a.button {}
     div.header {}
+~~~
 
 Fondamentalement, ce sont les sélecteurs qui sont inutilement prefixées par un élément.
 Ce sont de mauvaises nouvelles car :
@@ -136,9 +148,11 @@ Ce sont de mauvaises nouvelles car :
 
 Ces sélecteurs peuvent, et devraient être :
 
+~~~ sass
     .nav {}
     .button {}
     .header {}
+~~~
 
 Maintenant, je sais que je peux associer `.nav` à un `ol`, je peux appliquer `.button` pour un `input`, et, quand le site sera porté vers HTML5 je peux rapidement échanger mon `div` pour un élément `header` sans se soucier d’invalider tous les styles.
 
@@ -146,15 +160,19 @@ En ce qui concerne les performances, ce n’est qu’une question très légère
 
 Des exemples plus extrêmes pourraient être :
 
+~~~ sass
     ul.nav li.active a {}
     div.header a.logo img {}
     .content ul.features a.button {}
+~~~
 
 Toutes ces sélecteurs peuvent être raccourcis massivement, ou totalement réécrit :
 
+~~~ sass
     .nav .active a{}
     .logo > img {}
     .features-button{}
+~~~
 
 Ce qui nous aidera à :
 
@@ -169,16 +187,19 @@ Dès que j’aperçois des sélecteurs requis quand je défile une feuille de st
 
 Comme les nombres magiques, les valeurs codées en dur sont aussi de mauvaises nouvelles. Une valeur codée en dur pourrait être quelque chose comme ceci :
 
+~~~ sass
     h1 {
         font-size: 24px;
         line-height: 32px;
     }
+~~~
 
 Ici `line-height: 32px;` n’est pas cool, `line-height: 1.333` est un bien [meilleur choix](http://www.pearsonified.com/2011/12/golden-ratio-typography.php).
 
 Les hauteurs de ligne doivent toujours être réglés relativement afin de les rendre plus tolérantes et flexibles. Si jamais vous changez la taille de police d’un `h1`, vous voulez savoir que votre `line-height` va suivre le mouvement.
 Ne pas avoir de parent relatif au `line-height` signifie que si vous souhaitez modifier la taille de votre titre vous allez vous retrouver avec des propriétés du genre :
 
+~~~ sass
     h1 {
         font-size: 24px;
         line-height: 32px;
@@ -188,9 +209,11 @@ Ne pas avoir de parent relatif au `line-height` signifie que si vous souhaitez m
         font-size: 36px;
         line-height: 48px;
     }
+~~~
 
 Ici, nous devons continuer à ajouter une hauteur de ligne fixe indéfiniment car notre taille de base n’est pas assez souple. Pour fluidifier notre production de code il faut changer le `line-height` :
 
+~~~ sass
     h1 {
         font-size: 24px;
         line-height: 1.333;
@@ -199,6 +222,7 @@ Ici, nous devons continuer à ajouter une hauteur de ligne fixe indéfiniment ca
     .site-title {
         font-size: 36px;
     }
+~~~
 
 Cela ne semble pas être une énorme différence, mais sur chaque élément de texte d’un projet de grande envergure, cet impact est important.
 
@@ -211,6 +235,7 @@ Dès que je vois une unité codée en dur dans une feuille de style je veux savo
 
 La méthode du bucheron est comparable aux nombres magiques. Dans le monde du CSS, vous utilisez des nombres magiques codés en dur et une variété d’autres techniques pour forcer un mode de rendu. Prenons, par exemple :
 
+~~~ sass
     .foo {
         margin-left:-3px;
         position: relative;
@@ -218,6 +243,7 @@ La méthode du bucheron est comparable aux nombres magiques. Dans le monde du CS
         height: 59px;
         float: left;
     }
+~~~
 
 Ces déclarations sont simplement **horribles**. Elles sont lourdes, forcent la mise en page, affectent des déclarations qui ne sont clairement utilisées que pour hacker la mise en page seulement dans un cas spécifique.
 Ce type de CSS est représentatif d’une disposition mal codée qui nécessite ce genre de manipulation, un manque de compréhension du modèle de boîte, de la mise en page, ou les deux.
@@ -229,10 +255,12 @@ Dès que je croise du CSS codé de cette façon je me pose la question de savoir
 
 Un «&nbsp;sélécteur dangereux&nbsp;» est un sélecteur avec une trop grande portée. Voici un exemple très simple et évident de sélecteur dangereux :
 
+~~~ sass
     div {
        background-color: #FFC;
        padding: 1em;
     }
+~~~
 
 Cette déclaration fera hurler n’importe quel développeur : pourquoi diable voudriez-vous sélectionner chaque div de votre site ?
 Bonne question... Alors pourquoi existe-t-il des sélecteurs comme `aside{}` ? Ou `header{}` ou `ul{}` ? Le problème de ces sélecteurs c’est qu’il sont de haut niveau et qu’ils finiront par conduire à défaire du CSS, expliqué dans la section précédente.
@@ -241,12 +269,14 @@ Prenon l’exemple de `header{}`
 
 Beaucoup de personnes utilisent un élément `header` pour identifier leur en-tête principale -ce qui est une bonne idée- cependant, si vous le stylez votre `header` comme ceci :
 
+~~~ sass
     header {
         padding: 1em;
         background-color: #BADA55;
         color: #fff;
         margin-bottom: 20px;
     }
+~~~
 
 ... dans ce cas ce n’est pas correct. `header` ne signifie pas l’ensemble de l’entête de votre site et en lisant la documentation il est bien spécifié que `header` peut être utilisé pour n’importe quelle en-tête. Un bon exemple est de cibler l’élément avec une classe `.site-header{}`.
 
@@ -255,12 +285,14 @@ Donner un style spécifique à un sélecteur générique est dangereux. En suiva
 
 Prenons l’exemple :
 
+~~~ sass
     ul {
         font-weight:bold;
     }
     header .media {
         float:left;
     }
+~~~
 
 Dès que je vois un sélecteur de seul, ou en tête d’une classe d’abstraction très basique, comme ci-dessus, je commence à paniquer.
 
@@ -273,9 +305,11 @@ Je sais que la portée de ces sélecteurs est trop large et va créer rapidement
 Je veux dire qu’il ya des moments où vous savez qu’un certain style doit l’emporter.
 Par exemple, vous savez que vous aurez toujours envie que vos erreurs soient rouges, alors cette règle est tout à fait correcte :
 
+~~~ sass
     .error-text{
         color: #c00!important;
     }
+~~~
 
 Si l’erreur se produit dans une `div` où le texte est toujours bleu, nous pouvons être sûrs que nous voulons briser cette règle dans le cas d’erreurs. Nous voulons toujours des erreurs rouges parce que c’est une erreur, et l’interface utilisateur doit toujours rester cohérente. Ici, nous pouvons anticiper `!important` parce que nous savons que nous voulons toujours des erreurs rouges.
 

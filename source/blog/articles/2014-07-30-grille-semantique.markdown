@@ -31,22 +31,25 @@ Cette révolution a amené un nouveau problème la __classitis__ ou l’art de s
 <i class="fa fa-thumbs-o-down"></i> Mauvaise solution
 </div>
 
+~~~ html
     <ul>
       <li class="list-item"> ... </li>
       <li class="list-item"> ... </li>
       <li class="list-item"> ... </li>
     </ul>
+~~~
 
 <div class="alert-box success">
 <i class="fa fa-thumbs-o-up"></i> Bonne solution
 </div>
 
+~~~ html
     <ul class="inline-list">
       <li> ... </li>
       <li> ... </li>
       <li> ... </li>
     </ul>
-
+~~~
 
 
 ## État des lieux
@@ -57,6 +60,7 @@ De nos jours, avec le responsive, les mises en pages sont de plus en plus comple
 
 Je vais prendre un exemple avec la grille de Foundation. Notez que chaque `<div>` n'a pas forcément de but, mais elles sont obligatoires pour contruire une mise en page complexe. Un balisage typique Foundation est plein à craquer d'informations qui décrit sa grille :
 
+~~~ html
     <div class="row" id="m-header">
       <div class="small-12 columns">
         ...
@@ -86,6 +90,7 @@ Je vais prendre un exemple avec la grille de Foundation. Notez que chaque `<div>
         ...
       </div>
     </div>
+~~~
 
 Fonctionnel ? Oui... [Sémantique](http://fr.wikipedia.org/wiki/HTML_s%C3%A9mantique) ? Pas vraiment... Sauf pour quelques attributs `id`. Dans ce cas, chaque section est générique, et les attributs rendent le code difficile à lire. Les `div`s sont des boites génériques utilisées pour organiser d'autres éléments. Quand je dis générique, j'entends par là dénué de sens, pas intelligent et sans saveur.
 
@@ -93,6 +98,7 @@ Fonctionnel ? Oui... [Sémantique](http://fr.wikipedia.org/wiki/HTML_s%C3%A9mant
 
 Voici le même HTML avec un marquage sémantique, avec de nouveaux éléments HTML5 :
 
+~~~ html
     <header>
       <div role="banner" class="m-header--logo"> ... </div>
       <nav> ... </nav>
@@ -107,6 +113,7 @@ Voici le même HTML avec un marquage sémantique, avec de nouveaux éléments HT
       <aside> ... </aside>
     </main>
     <footer> ... </footer>
+~~~
 
 C'est plus facile à lire, pour les humains et aussi pour les machines. Parfois, il n'existe pas d'élément HTML approprié pour le type d'informations que nous voulons - dans ce cas, un logo. Mais si possible, j'utilise des éléments qui décrivent leur contenu uniques :
 
@@ -126,30 +133,39 @@ Transformer la grille de Foundation en code sémantique est possible en utilisan
    * `grid-row()` : donne à un élément le comportement des `row` de Foundation.
    * `grid-column()` : ajoute une colonne, exemple avec `small-12 columns`.
 
-1. Comme expliqué [dans la documentation](http://foundation.zurb.com/docs/using-sass.html) vous devez importer les fichiers de foundation et le fichier `_settings.scss`.
+Comme expliqué [dans la documentation](http://foundation.zurb.com/docs/using-sass.html) vous devez importer les fichiers de foundation et le fichier `_settings.scss`.
 
-        @import "settings";
-        @import "foundation";
+~~~ scss
+    @import "settings";
+    @import "foundation";
+~~~
 
-2. Ensuite je choisi un sélecteur comme `<header>`.
+Ensuite je choisi un sélecteur comme `<header>`.
 
-        header { }
+~~~ scss
+    header { }
+~~~
 
-3. J'ajoute `grid-row` à ce sélecteur pour lui donner le comportement d'une `row` de Foundation.
+J'ajoute `grid-row` à ce sélecteur pour lui donner le comportement d'une `row` de Foundation.
 
-        header { @include grid-row; }
+~~~ scss
+    header { @include grid-row; }
+~~~
 
-4. finalement je donne à un sélecteur à l'intérieur du header les propriétés d'une colonne.
+Finalement je donne à un sélecteur à l'intérieur du header les propriétés d'une colonne.
 
-        header {
-          @include grid-row;
-          .m-header--logo {
-            @include grid-column($columns:12, $center:true);
-          }
-        }
+~~~ scss
+    header {
+      @include grid-row;
+      .m-header--logo {
+        @include grid-column($columns:12, $center:true);
+      }
+    }
+~~~
 
 Voici un exemple complet d'un code sémantique en SCSS :
 
+~~~ scss
     header {
       @include grid-row;
       .logo {
@@ -165,6 +181,7 @@ Voici un exemple complet d'un code sémantique en SCSS :
         @include grid-column(4);
       }
     }
+~~~
 
 Respecter la sémantique rend votre code HTML plus léger et plus compréhensible. Sass est un excellent outil pour la construction d'une grille responsive, et les mixins Sass de Foundation facilitent l'intégration. Le résultat est un code plus facile à lire et à maintenir, qui décrit avec plus de précision ce que vous souhaitez communiquer.
 

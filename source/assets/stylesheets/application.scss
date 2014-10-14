@@ -29,6 +29,11 @@
 @import "foundation/scss/foundation/components/sub-nav";
 @import "foundation/scss/foundation/components/visibility";
 
+@import "animate.css/source/base";
+@import "animate.css/source/attention_seekers/bounce";
+@import "animate.css/source/bouncing_entrances/bounceInDown";
+@import "animate.css/source/bouncing_exits/bounceOutUp";
+
 @import "global";
 @import "modules/masterhead";
 @import "modules/type";
@@ -41,7 +46,6 @@
 @import "modules/buttons";
 @import "modules/about";
 @import "code";
-
 
 @import "front/blog";
 @import "front/forge";

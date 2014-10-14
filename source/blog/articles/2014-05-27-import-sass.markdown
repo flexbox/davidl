@@ -42,10 +42,12 @@ Absolument ! Cela ne dérange pas les fichiers Sass d'avoir du CSS à l'intérie
 
 Un bon point de départ est d'utiliser une convention de nommage pour les couleurs.
 
+~~~ sass
     $blue-steroid
     $blue-light
     $blue
     $blue-dark
+~~~
 
 > Donc on ne doit pas vraiment écrire de Sass dans application.scss —ce fichier est est seulement utilisé pour importer des partials ?
 >
@@ -61,6 +63,7 @@ On peut se poser la question suivante : j'importe mes fichiers Sass avant ou apr
 
 Sass est très sensible à l'ordre des sélecteurs. Ceci dit, les déclaration les plus tardives dans vos fichiers `.scss` écrasent celles faites précédemment. C'est pour cette raison que vous devez toujours importer vos `partial`s __après__ Foundation pour personnaliser votre site. Par exemple :
 
+~~~ sass
     @import
       "foundation/components/block-grid",
       "foundation/components/buttons",
@@ -69,6 +72,7 @@ Sass est très sensible à l'ordre des sélecteurs. Ceci dit, les déclaration l
       "modules/my-typography",
       "modules/my-branding",
       "modules/my-buttons";
+~~~
 
 Dans ce cas `modules/my-buttons` écrasera les boutons de Foundation. __Importer vos fichiers après__ ceux du framework signifie : "Oh grand magicien Sass, modifie moi les fichiers importés avant pour personnaliser mon site".
 
@@ -80,7 +84,9 @@ Il n'y a __pas de moyen fiable de contrôler l'ordre__ dans lequel un dossier en
 
 Et je vous voie venir à 100 km les apprentis hackers avec :
 
+~~~ sass
     @import "stylesheets/*"
+~~~
 
 Je vous souhaite bon courage dans la gestion de vos dépendances de variables, et dans l'optimisation de vos feuilles de style.
 

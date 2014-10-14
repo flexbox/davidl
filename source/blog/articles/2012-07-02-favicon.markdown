@@ -25,6 +25,7 @@ Vous pouvez aussi spécifier un chemin spécifique, mais cela vous oblige à dé
 
 Si vous avez placé correctement vos fichiers favicon, pas besoin de les déclarer.
 
+~~~ html
     <!-- iOS device -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
@@ -45,3 +46,4 @@ Si vous avez placé correctement vos fichiers favicon, pas besoin de les déclar
     <!-- Windows device -->
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+~~~

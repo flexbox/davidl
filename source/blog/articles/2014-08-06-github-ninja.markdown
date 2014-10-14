@@ -22,6 +22,8 @@ Créer / savoir les différents raccourcis vous fera gagner de précieuses secon
 
 À mon avis la première chose à faire, sur vous utilisez git, est de pimper votre fichier `.gitconfig`.
 
+
+~~~ json
     [user]
       name = Bruce Wayne
       email = bruce@wayne.com
@@ -34,6 +36,7 @@ Créer / savoir les différents raccourcis vous fera gagner de précieuses secon
       today = log --since=midnight --author='Bruce Wayne' --oneline
     [color]
       ui = auto
+~~~
 
 - __git poule__ - Récupérer la dernière version du projet.
 - __git br__ - Afficher la liste de vos branches.

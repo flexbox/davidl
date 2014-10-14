@@ -56,6 +56,7 @@ Si je ne devais en choisir qu'une liste réduite cela serait sans hésiter :
 
 Voici le fichier de préférence que j'utilise sur toutes mes machines. Sur Ubuntu j'ai du changer la police de base car le rendu n'est pas le même comparé à Mac OS X. Si vous souhaitez utiliser le même il suffit d'ouvrir les `Settings - user` (`cmd` + `,`) et de modifier le fichier `Preferences.sublime-settings`.
 
+~~~ json
     {
       "color_scheme": "Packages/Theme - Nexus/Nexus.tmTheme",
       "default_encoding": "UTF-8",
@@ -93,6 +94,7 @@ Voici le fichier de préférence que j'utilise sur toutes mes machines. Sur Ubun
       "trim_automatic_white_space": true,
       "trim_trailing_white_space_on_save": true
     }
+~~~
 
 ## Démarrer Sublime Text depuis un terminal
 

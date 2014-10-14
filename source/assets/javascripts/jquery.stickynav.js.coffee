@@ -1,12 +1,12 @@
 $ ->
   header = document.querySelector('#js-header')
   headroom = new Headroom(header,
-    tolerance: 20
-    offset: 500
+    offset: 205
+    tolerance: 5
     classes:
-      initial: '_'
-      pinned: 'is-show'
-      unpinned: 'is-hidden'
+      initial: 'animated'
+      pinned: 'slideDown'
+      unpinned: 'slideUp'
   )
   headroom.init()
 

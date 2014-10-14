@@ -53,20 +53,17 @@ Les développeurs de basecamp ont appris cette leçon à leur dépends : de simp
 Selon eux ils étaient dans leurs droits puisqu'il y a une étape d'identification à la connexion au service.
 Certains clients de leur application avaient installé la google accelerator toolbar. Pour accélérer la navigation ce programme précharge les liens en fond de tâche.
 
-
-A la connexion tous les fichiers de ses clients sont supprimés puisque tous les liens sont pré-chargés.
-Les créateurs de basecamp se sont énervés contre Google pour avoir sorti une telle toolbar. Mais à la base c'était de leur faute : une transaction de suppression doit être sécurisée il ne faut **jamais** utiliser de liens pour ça `<a href="#"> delete `
-
-
-
+À la connexion tous les fichiers de ses clients sont supprimés puisque tous les liens sont pré-chargés.
+Les créateurs de basecamp se sont énervés contre Google pour avoir sorti une telle toolbar. Mais à la base c'était de leur faute : une transaction de suppression doit être sécurisée il ne faut **jamais** utiliser de liens pour ça `<a href="#"> Delete </a>`
 
 La solution est d'utiliser ce qui a été conçu pour un tel usage :
 
+~~~ html
     <form method="POST">
         <input type="hidden" name="delete" value="id">
-        <button>delete</button>
-    </form></code>
-
+        <button> Delete </button>
+    </form>
+~~~
 
 ### Le cyber espace
 
@@ -198,7 +195,7 @@ Quand vous testez votre site sur différents périphériques vous testez si cela
 
 Nous avons un problème avec les images.
 
-La balise HTML5 `picture` est encore loin d'être implémentée par les navigateurs.
+La balise HTML5 `<picture>` est encore loin d'être implémentée par les navigateurs.
 Grâce à divers hack javascript vous pouvez mettre en place une stratégie de chargement.
 
 
@@ -274,12 +271,12 @@ Les adresse url existent pour les humains.
 Les machines utilisent les adresses ip pour taper à la bonne porte. C'est l'occasion d'en profiter pour concevoir une architecture logique.
 Prenez l'exemple de github :
 
-
+~~~
     github.com
     github.com/nom_utilisateur
     github.com/nom_utilisateur/repertoire
     github.com/nom_utilisateur/repertoire/problème
     github.com/nom_utilisateur/repertoire/problème/1
-
+~~~
 
 
