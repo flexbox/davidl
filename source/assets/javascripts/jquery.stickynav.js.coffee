@@ -1,17 +1,11 @@
 $ ->
-  header = document.querySelector('#js-header')
+  header = document.querySelector('#js-topbar')
   headroom = new Headroom(header,
-    offset: 205
-    tolerance: 5
+    offset: 300
+    tolerance: 10
     classes:
       initial: 'animated'
       pinned: 'slideDown'
       unpinned: 'slideUp'
   )
   headroom.init()
-
-  $('#js-off-canvas-toggle').click ->
-    $("html,body").animate
-      scrollTop: 0
-    , 500
-

@@ -15,24 +15,20 @@ html lang="fr"
     = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'
 
   body class="#{current_page.data.page_class}"
-    .off-canvas-wrap data-offcanvas=""
-      .inner-wrap
-        .m-content
-          = partial 'views/global/header'
-          = partial 'views/global/control'
-          = partial 'views/global/masterhead'
-          #js-content
-          == yield
-          .row
-            .small-12.columns
-              p
-                = link_to '#top' do
-                  i.i-custom.fa.fa-arrow-up
-                  'Haut de page
-        a class="exit-off-canvas"
-        = partial 'views/global/footer'
+    = partial 'views/global/header'
+    .m-content
+      = partial 'views/global/masterhead'
+      #js-content
+      == yield
+      .row
+        .small-12.columns
+          p
+            = link_to '#top' do
+              i.i-custom.fa.fa-arrow-up
+              'Haut de page
+    = partial 'views/global/footer'
 
-    / = javascript_include_tag 'application', async: 'true'
+    / = javascript_include_tag 'application', async: 'true', defer: 'defer'
     = javascript_include_tag 'application'
     = yield_content :javascripts
     = google_analytics_universal_tag

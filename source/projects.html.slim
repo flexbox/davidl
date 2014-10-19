@@ -15,13 +15,13 @@ priority: 0.6
     dl.sub-nav#js-sub-nav--home
       dt Filtre :
       dd.active
-        = link_to 'Tous', '#', class: 'filter', :data => {:filter => 'all'}
+        = link_to 'Tous', '#', class: 'filter', data: {filter: 'all'}
       dd
-        = link_to 'Projets', '#', class: 'filter', :data => {:filter => '.category-project'}
+        = link_to 'Projets', '#', class: 'filter', data: {filter: '.category-project'}
       dd
-        = link_to 'Écriture', '#', class: 'filter', :data => {:filter => '.category-writing'}
+        = link_to 'Écriture', '#', class: 'filter', data: {filter: '.category-writing'}
       dd
-        = link_to 'Divers', '#',class: 'filter',  :data => {:filter => '.category-misc'}
+        = link_to 'Divers', '#', class: 'filter', data: {filter: '.category-misc'}
 
 .row
   .medium-12.columns

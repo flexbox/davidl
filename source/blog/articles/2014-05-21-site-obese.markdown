@@ -8,7 +8,7 @@ priority: 0.8
 ---
 
 
-Certains d'entre vous ont sûrement connu l'époque du 56k. En ce temps là, charger une seule image sur internet pouvait demander plusieures minutes. Puis est arrivé l'ADSL et le haut débit qui ont démultiplié la vitesse de chargement. Bizarrement j'ai l'impression que nous passons toujours autant de temps à attendre le chargement d'une page web.
+Certains d'entre vous ont sûrement connu l'époque du 56k. En ce temps là, charger une seule image sur internet pouvait demander plusieurs minutes. Puis est arrivé l'ADSL et le haut débit qui ont démultiplié la vitesse de chargement. Bizarrement j'ai l'impression que nous passons toujours autant de temps à attendre le chargement d'une page web.
 
 ![Site internet obèse](https://farm6.staticflickr.com/5519/14256724243_9a829c4dd1_o.jpg)
 

@@ -1,17 +1,13 @@
+$footer-border: scale-color($black-light, $lightness: -60%);
+
 .m-content {
-  position: relative;
-  z-index: 10;
   background-color: $body-bg;
-  margin-bottom: rem-calc(300);
   padding-bottom: rem-calc(40);
 }
 
 .m-footer {
   background-color: $black;
-  position: fixed;
-  bottom: 0;
-  z-index: 9;
-  width: 100%;
+  padding: rem-calc(40 0);
 
   p {
     color: $black-light;
@@ -27,10 +23,18 @@
       color: $blue-steroid;
     }
   }
+  hr {
+    border-color: $footer-border;
+  }
+
+  .side-nav {
+    border-right: 1px solid $footer-border;
+  }
 }
 
 p.m-footer--title {
   @extend .vador;
+  margin-top: 0;
   color: $secondary-color;
 }
 

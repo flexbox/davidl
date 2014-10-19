@@ -1,9 +1,33 @@
 footer.m-footer
   .row
-    .medium-10.medium-centered.columns
-      p.m-footer--title Améliorer ses compétences
-      p Recevez mes conseils en développement front-end. Ne vous inquétez pas je déteste le spam, il suffit d'un clic pour se désabonner.
+    .medium-3.small-6.columns
+      nav.side-nav
+        li
+          = link_to 'À propos', '/about.html', title: 'En savoir plus sur moi'
+        li
+          = link_to 'Manifeste', '/manifesto.html', title: 'Mes engagements envers le web'
+        li
+          = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
+        li
+          = link_to 'Plan du site', '/sitemap.html', title: 'Cliquez si vous êtes perdus'
+        li
+          = link_to 'Contact', '/contact.html', title: 'Je lis TOUS mes emails'
+    .medium-3.small-6.columns
+      nav.side-nav
+        li
+          = link_to 'Blog', '/blog/', title: "Publication d'articles sur l'intégration & le développement front-end"
+        li
+          = link_to 'Bibliothèque', '/books.html', title: "conseils de lecture"
+        li
+          = link_to 'Mentors', '/mentors.html', title: "Liste de personnes à suivre"
+        li
+          = link_to 'Outils', '/toolkit.html', title: "Travailler efficacement"
+        li
+          = link_to 'Webdesign', '/webdesign.html', title: "Les concepts du responsive web ddesign"
 
+    .medium-6.columns
+      p.m-footer--title Améliorer vos compétences
+      p Recevez mes conseils en développement front-end. Ne vous inquétez pas je déteste le spam, il suffit d'un clic pour se désabonner.
       form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
         .row
           .small-12.columns
@@ -18,13 +42,11 @@ footer.m-footer
           .small-4.columns
             input type="submit" value="S'inscrire" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
 
-  .row
-    .medium-6.columns
-      p
-        'Ce site est rédigé et administré par
-        = link_to 'David Leuliette', '/human.txt'
-    .medium-6.columns
-      p.text-right
-        =' link_to 'Plan', '/sitemap.html', title: 'Voir le plan du site'
-        '&bull;
-        =' link_to 'Mentions légales', '/legal.html'
+  hr
+  p.text-center
+    'Ce site est rédigé et administré par
+    = link_to 'David Leuliette', '/human.txt'
+    ', dernière mise à jour le
+    time datetime="#{DateTime.now.strftime('%d-%m-%Y')} "
+      = DateTime.now.strftime('%d/%m/%Y')
+      '.

@@ -9,9 +9,9 @@
 #= require "jquery-videobackground/script/jquery.videobackground"
 
 #= require "foundation/js/foundation/foundation"
+#= require "foundation/js/foundation/foundation.equalizer"
 #= require "foundation/js/foundation/foundation.magellan"
 #= require "foundation/js/foundation/foundation.offcanvas"
-#= require "foundation/js/foundation/foundation.equalizer"
 #= require "foundation_init"
 
 #= require "easteregg"

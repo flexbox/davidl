@@ -1,0 +1,67 @@
+$topbar-height: rem-calc(60);
+
+.m-content {
+  padding-top: $topbar-height;
+}
+
+.m-topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: $topbar-height;
+  z-index: 15;
+
+  transition: position $transition-duration ease-in-out;
+  box-shadow: none;
+
+  background-color: $white;
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+
+  a {
+    border-bottom: 0;
+  }
+}
+
+.m-topbar--list {
+  @include inline-list();
+  float: right;
+  margin-bottom: 0;
+  a {
+    padding: rem-calc(20 2);
+    font-size: rem-calc(13);
+
+    @media #{$medium}{
+      font-size: rem-calc(16);
+      padding: rem-calc(20 10);
+    }
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated.slideDown {
+  animation-name: slideDown;
+}
+
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.animated.slideUp {
+  animation-name: slideUp;
+}
