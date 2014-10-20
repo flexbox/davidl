@@ -27,7 +27,7 @@ $topbar-height: rem-calc(60);
   float: right;
   margin-bottom: 0;
   a {
-    padding: rem-calc(20 2);
+    padding: rem-calc(20 0);
     font-size: rem-calc(13);
 
     @media #{$medium}{
