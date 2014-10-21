@@ -25,6 +25,7 @@
 .m-masterhead {
   background-color: $primary-color;
   margin-bottom: rem-calc(30);
+  padding-top: $topbar-height;
   i {
     color: $white !important;
   }
@@ -66,7 +67,7 @@
   }
 
   & > .row {
-    background-color: rgba($gray-dark,0.6);
+    background-color: rgba($primary-color,.4);
   }
 
 }

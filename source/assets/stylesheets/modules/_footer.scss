@@ -7,6 +7,8 @@ $footer-border: scale-color($gray-light, $lightness: -70%);
 .m-footer {
   background-color: $black;
   padding: rem-calc(40 0);
+  position: relative;
+  z-index: 90;
 
   p {
     color: $gray-light;

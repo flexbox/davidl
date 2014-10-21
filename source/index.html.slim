@@ -119,15 +119,15 @@ priority: 0.8
       - data.projects.each_with_index do |project, i|
         - if project.stared.present?
           li
-            = link_to project.url do
-              div class="m-panel"
+            div class="m-panel js-linkspy-start"
+              = link_to project.url, class: 'js-linkspy-target m-panel--clean' do
                 h3.l-title
                   = project.title
-                p.l-description
-                  = project.description
-                p class="button #{project.button}"
-                  'En savoir plus
-                  i class="fa #{project.icon}"
+              p.l-description
+                = project.description
+              button class="button #{project.button}"
+                'En savoir plus
+                i class="fa #{project.icon}"
 
 .m-homepage--section
   p.l-link

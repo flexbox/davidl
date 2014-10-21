@@ -1,9 +1,5 @@
 $topbar-height: rem-calc(60);
 
-.m-content {
-  padding-top: $topbar-height;
-}
-
 .m-topbar {
   position: fixed;
   top: 0;
@@ -11,15 +7,28 @@ $topbar-height: rem-calc(60);
   height: $topbar-height;
   z-index: 15;
 
-  transition: position $transition-duration ease-in-out;
-  box-shadow: none;
-
-  background-color: $white;
-  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+  transition: all $transition-duration ease-in-out;
 
   a {
     border-bottom: 0;
+    background-color: transparent;
+    &:hover {
+      color: $black;
+    }
   }
+}
+
+.headroom--top {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+  a {
+    color: $gray;
+  }
+}
+
+.headroom--not-top {
+  background-color: $white;
+  box-shadow: 1px 0px 3px rgba(0,0,0,.2);
 }
 
 .m-topbar--list {
@@ -37,28 +46,12 @@ $topbar-height: rem-calc(60);
   }
 }
 
-@keyframes slideDown {
-  0% {
+.headroom {
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
     transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes slideUp {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-.animated.slideDown {
-  animation-name: slideDown;
-}
-
-.animated.slideUp {
-  animation-name: slideUp;
 }

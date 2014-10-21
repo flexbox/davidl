@@ -1,11 +1,11 @@
 ul.medium-block-grid-3.small-block-grid-1
   - data.social.each_with_index do |social|
     li
-      = link_to social.url do
-        .m-panel.l-social
+      .m-panel.l-social.js-linkspy-start
+        = link_to social.url, class: 'js-linkspy-target m-panel--clean' do
           i class="fa #{social.icon}"
           h3.l-title
             = social.title
-          p
-            = social.description
+        p
+          = social.description
 

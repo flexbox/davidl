@@ -40,14 +40,15 @@
 }
 
 .m-homepage--section {
-  background-color: $gray-dark;
+  background-color: $black;
   padding: rem-calc(40 20);
   margin: rem-calc(40 0);
+
   .l-link {
+    @extend .sith;
     margin-bottom: 0;
     text-align: center;
     color: $white;
-    font-family: $header-font-family;
     a {
       color: $white;
       &:hover {
@@ -58,10 +59,6 @@
 }
 
 .m-homepage--pdca {
-  @mixin position-pdca(){
-
-  }
-
   p {
     font-family: $header-font-family;
     font-size: rem-calc(22);

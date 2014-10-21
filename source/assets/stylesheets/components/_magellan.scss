@@ -1,4 +1,4 @@
-$magellan-bg: $gray-light ;
+$magellan-bg: $gray-light;
 $magellan-padding: 10px !default;
 
 [data-magellan-expedition] {
@@ -26,9 +26,10 @@ $magellan-padding: 10px !default;
 
 .m-magellan {
   [data-magellan-expedition] {
-    z-index: auto;
+    z-index: 1;
+    @include grid-column($columns: 2);
   }
   .m-panel {
-    max-width: rem-calc(280);
+    max-width: rem-calc(300);
   }
 }

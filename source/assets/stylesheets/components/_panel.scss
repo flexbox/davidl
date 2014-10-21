@@ -1,24 +1,25 @@
-$m-panel-bg: rgba($white, 0.4);
-$m-panel-bg-hover: rgba($white, 0.9);
+$m-panel-bg: rgba($white, .4);
+$m-panel-bg-hover: $white;
 
 .m-panel {
   @include panel($m-panel-bg);
   @include single-transition(all, $transition-duration, ease-in-out);
+  box-shadow: 0px 0px 2px rgba(0,0,0,.1);
 
-  p.button {
-    color: $button-font-color;
-  }
-
-  border: 0 none;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
   &:hover {
     background-color: $m-panel-bg-hover;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+  }
+  a.m-panel--clean {
+    border-bottom: 0;
+    &:hover {
+      background-color: transparent;
+    }
   }
 
   &.l-callout {
     border-bottom: 5px solid $secondary-color;
-    margin: rem-calc(60) 0 rem-calc(80);
+    margin: rem-calc(60 0 80 0);
     position: relative;
     &:after {
       @include css-triangle(rem-calc(32),$secondary-color,top);
@@ -29,8 +30,10 @@ $m-panel-bg-hover: rgba($white, 0.9);
     }
     a {
       color: $secondary-color;
+      border-color: $secondary-color;
       &:hover {
-        border-bottom-color: $secondary-color;
+        color: $white;
+        background-color: $secondary-color;
       }
     }
   }
@@ -63,9 +66,8 @@ $m-panel-bg-hover: rgba($white, 0.9);
 }
 
 .m-blog-panel {
-  @include panel($gray-dark);
-  @include single-transition();
-  color: $white;
+  @extend .m-panel;
+  @extend .l-callout;
 
   .fa {
     font-size: rem-calc(20);
@@ -81,12 +83,8 @@ $m-panel-bg-hover: rgba($white, 0.9);
     border-radius: $global-rounded;
     @include single-transition();
     &:hover {
-      border-color: $primary-color;
+      border-color: $secondary-color;
     }
-  }
-
-  &:hover {
-    background-color: $black;
   }
 }
 
