@@ -35,19 +35,19 @@
 @import "animate.css/source/bouncing_exits/bounceOutUp";
 
 @import "global";
-@import "modules/masterhead";
-@import "modules/type";
-@import "modules/topbar";
-@import "modules/panel";
-@import "modules/dropcap";
-@import "modules/footer";
-@import "modules/pizza";
-@import "modules/about";
+@import "components/masterhead";
+@import "components/type";
+@import "components/topbar";
+@import "components/panel";
+@import "components/dropcap";
+@import "components/pizza";
 @import "code";
 
-@import "front/blog";
-@import "front/forge";
-@import "front/homepage";
-@import "front/projects";
-@import "modules/magellan";
-@import "front/webdesign";
+@import "modules/about";
+@import "modules/blog";
+@import "modules/forge";
+@import "modules/homepage";
+@import "modules/projects";
+@import "components/magellan";
+@import "modules/webdesign";
+@import "modules/footer";

@@ -37,9 +37,9 @@ $body-font-color: $gray-dark;
 $body-font-family: 'Lato', Helvetica, Roboto, Arial, sans-serif;
 $font-family-monospace: 'Ubuntu Mono', 'Monaco', monospace;
 $body-font-weight: $font-weight-light;
-$body-font-style: normal;
+
 $header-font-family: $body-font-family;
-$header-font-weight: $font-weight-bold;
+$header-font-weight: $font-weight-light;
 
 $button-font-weight: $font-weight-normal;
 
@@ -548,7 +548,7 @@ $pagination-li-margin: rem-calc(10);
 
 // We use these for the pagination anchor links
 $pagination-link-pad: rem-calc(5 20 5);
-$pagination-link-font-color: $black-light;
+$pagination-link-font-color: $gray-dark;
 $pagination-link-active-bg: $white;
 
 // We use these for disabled anchor links

@@ -66,28 +66,28 @@
   }
 
   & > .row {
-    background-color: rgba($black-light,0.6);
+    background-color: rgba($gray-dark,0.6);
   }
 
 }
 
 .m-homepage .m-masterhead {
-  background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat 0 0 $black-light;
+  background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat 0 0 $gray-dark;
   @media #{$small} {
     animation: 35s linear 0s normal none infinite movebg;
   }
 }
 
 .m-books .m-masterhead {
-  background: url("https://farm4.staticflickr.com/3839/15072640746_8b070f6379_h.jpg") repeat top center $black-light;
+  background: url("https://farm4.staticflickr.com/3839/15072640746_8b070f6379_h.jpg") repeat top center $gray-dark;
   background-size: cover;
 }
 
 .m-pricing .m-masterhead {
-  background: url("https://farm4.staticflickr.com/3905/14351019625_1a874c99fd_h.jpg") repeat center center $black-light;
+  background: url("https://farm4.staticflickr.com/3905/14351019625_1a874c99fd_h.jpg") repeat center center $gray-dark;
 }
 
 .m-projects .m-masterhead {
-  background: url("https://farm4.staticflickr.com/3904/14327833686_9f4b21b2cc_h.jpg") repeat 0 0 $black-light;
+  background: url("https://farm4.staticflickr.com/3904/14327833686_9f4b21b2cc_h.jpg") repeat 0 0 $gray-dark;
   background-size: cover;
 }

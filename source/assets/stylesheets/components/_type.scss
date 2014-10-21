@@ -1,0 +1,34 @@
+// h2 {
+//   font-family: $body-font-family;
+//   font-size: rem-calc(30);
+//   font-weight: $font-weight-light;
+//   color: $gray-dark;
+//   margin-top: rem-calc(30);
+//   margin-bottom: rem-calc(40);
+//   &:first-letter {
+//     text-transform: uppercase;
+//   }
+// }
+
+// h3 {
+//   text-transform: uppercase;
+//   color: $black;
+//   font-weight: $font-weight-normal;
+//   font-size: rem-calc(21);
+//   letter-spacing: 0.05em;
+//   margin-bottom: rem-calc(20);
+// }
+
+// h4 {
+//   color: $gray-dark;
+// }
+
+.emperor { @extend h1; }
+.vador { @extend h2; }
+.maul { @extend h3; }
+.sith { @extend h4; }
+.acolyte { @extend h5; }
+
+blockquote {
+  font-style: italic;
+}

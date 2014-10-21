@@ -1,4 +1,4 @@
-$footer-border: scale-color($black-light, $lightness: -60%);
+$footer-border: scale-color($gray-light, $lightness: -70%);
 
 .m-content {
   padding-bottom: rem-calc(40);
@@ -9,7 +9,7 @@ $footer-border: scale-color($black-light, $lightness: -60%);
   padding: rem-calc(40 0);
 
   p {
-    color: $black-light;
+    color: $gray-light;
   }
   label {
     color: $white;
