@@ -55,7 +55,7 @@ La phylosophie de slim est de _supprimer tous les caractère inutiles_. Si l'on 
 ~~~
 
 - Pas de fermeture de balises
-- `#content` donnera `<nav id="content"></nav>`
+- `#content` donnera `<div id="content"></div>`
 - `td.name` qui se transformera en `<td class="name"></td>`
 - `= link_to 'Mon site', 'http://davidl.fr'` pour utiliser du ruby qui sera compilé en `<a href="http://davidl.fr">Mon site</a>`
 - `- if i.am == amazing` permet de faire des tests ou des boucles

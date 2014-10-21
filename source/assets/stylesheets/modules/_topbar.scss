@@ -41,25 +41,22 @@ $topbar-height: rem-calc(60);
   0% {
     transform: translateY(-100%);
   }
-
   100% {
     transform: translateY(0);
   }
 }
-
-.animated.slideDown {
-  animation-name: slideDown;
-}
-
 
 @keyframes slideUp {
   0% {
     transform: translateY(0);
   }
-
   100% {
     transform: translateY(-100%);
   }
+}
+
+.animated.slideDown {
+  animation-name: slideDown;
 }
 
 .animated.slideUp {
