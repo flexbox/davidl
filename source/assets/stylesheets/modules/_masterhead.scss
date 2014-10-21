@@ -1,5 +1,3 @@
-$masterhead-border: 5px solid $black;
-
 @keyframes bounce {
   0% {
     padding-top: rem-calc(0);
@@ -15,11 +13,20 @@ $masterhead-border: 5px solid $black;
   }
 }
 
+@keyframes movebg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1260px 0;
+  }
+}
+
 .m-masterhead {
-  background-color: $black-lighter;
+  background-color: $primary-color;
   margin-bottom: rem-calc(30);
   i {
-    color: $white-light !important;
+    color: $white !important;
   }
 
   .l-icon {
@@ -38,18 +45,15 @@ $masterhead-border: 5px solid $black;
   .l-title,
   .l-emphasis {
     text-align: center;
-    color: $white-dark;
+    color: $gray-light;
     text-shadow: $text-shadow;
-    font-family: $header-font-family;
   }
 
   .l-title {
     font-size: rem-calc(40);
-    font-weight: $font-weight-bolder;
 
     @media #{$small} {
       margin-top: rem-calc(40);
-      // margin-bottom: rem-calc(20);
       font-size: rem-calc(70);
       padding: rem-calc(40) rem-calc(60);
     }
@@ -62,37 +66,28 @@ $masterhead-border: 5px solid $black;
   }
 
   & > .row {
-    background-color: rgba($black-lighter,0.6);
+    background-color: rgba($black-light,0.6);
   }
 
-}
-
-@keyframes movebg {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 1260px 0;
-  }
 }
 
 .m-homepage .m-masterhead {
-  background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat 0 0 $black-lighter;
+  background: url("https://farm8.staticflickr.com/7109/13495318545_539563e8ee_o.jpg") repeat 0 0 $black-light;
   @media #{$small} {
     animation: 35s linear 0s normal none infinite movebg;
   }
 }
 
 .m-books .m-masterhead {
-  background: url("https://farm4.staticflickr.com/3839/15072640746_8b070f6379_h.jpg") repeat top center $black-lighter;
+  background: url("https://farm4.staticflickr.com/3839/15072640746_8b070f6379_h.jpg") repeat top center $black-light;
   background-size: cover;
 }
 
 .m-pricing .m-masterhead {
-  background: url("https://farm4.staticflickr.com/3905/14351019625_1a874c99fd_h.jpg") repeat center center $black-lighter;
+  background: url("https://farm4.staticflickr.com/3905/14351019625_1a874c99fd_h.jpg") repeat center center $black-light;
 }
 
 .m-projects .m-masterhead {
-  background: url("https://farm4.staticflickr.com/3904/14327833686_9f4b21b2cc_h.jpg") repeat 0 0 $black-lighter;
+  background: url("https://farm4.staticflickr.com/3904/14327833686_9f4b21b2cc_h.jpg") repeat 0 0 $black-light;
   background-size: cover;
 }

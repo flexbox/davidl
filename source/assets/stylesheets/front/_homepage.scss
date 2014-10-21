@@ -46,12 +46,12 @@
   .l-link {
     margin-bottom: 0;
     text-align: center;
-    color: $white-light;
+    color: $white;
     font-family: $header-font-family;
     a {
-      color: $white-light;
+      color: $white;
       &:hover {
-        color: $blue-steroid;
+        color: $primary-color;
       }
     }
   }

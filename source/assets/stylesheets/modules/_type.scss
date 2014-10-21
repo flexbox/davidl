@@ -1,9 +1,8 @@
 h2 {
   font-family: $body-font-family;
   font-size: rem-calc(30);
-  font-weight: $font-weight-normal;
-  font-style: italic;
-  color: $black-lighter;
+  font-weight: $font-weight-light;
+  color: $black-light;
   margin-top: rem-calc(30);
   margin-bottom: rem-calc(40);
   &:first-letter {
@@ -14,7 +13,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   color: $black;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-normal;
   font-size: rem-calc(21);
   letter-spacing: 0.05em;
   margin-bottom: rem-calc(20);
@@ -29,12 +28,6 @@ h4 {
 .maul { @extend h3; }
 .sith { @extend h4; }
 .acolyte { @extend h5; }
-
-hr {
-  &.border {
-    border-top: $masterhead-border;
-  }
-}
 
 blockquote {
   font-style: italic;

@@ -1,14 +1,8 @@
-$anchor-font-color  : $blue-steroid;
 $text-shadow: rgba($black,0.8) 0px 2px 0px;
 
 $transition-duration: 200ms;
 
-body {
-  background-color: $black;
-}
-
 a {
-  color: $anchor-font-color;
   font-weight: bold;
   padding: rem-calc(2);
   border-bottom: 1px solid $gray;

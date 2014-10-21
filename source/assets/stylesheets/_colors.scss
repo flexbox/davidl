@@ -1,41 +1,36 @@
 $white       : #FFFFFF;
-$black       : #111111;
+$black       : #1A1A1A;
 
-$white-light    : #FCF9EE;
-$white-dark     : #F5F5F5;
+$gray-light     : #FAFAFA;
 $gray           : #F1F1F1;
 $gray-dark      : #6E6C69;
-$black-light    : #696661;
-$black-lighter  : #414141;
+$black-light    : #727272;
 
-$oil         : #333333;
+$oil: #333333;
 
-$cyan    : #158D9F;
-$yellow  : #FDB813;
-$magenta : #EB426A;
-
-$red-steroid    : #C1392B;
-$pink-steroid   : rgb(255, 130, 130);
-$green-steroid  : rgb(160, 236, 111);
-$blue-steroid   : rgb(90, 198, 255);
-$yellow-steroid : rgb(253, 235, 117);
+$blue:   #00BAD2;
+$pink:   #E91E63;
+$yellow: #EEFF41;
 
 
-// We use these as default colors throughout
-$primary-color   : $cyan;
-$secondary-color : $magenta;
-$body-bg         : $white-light;
-$alert-color     : $red-steroid;
+$primary-color:   $blue;
+$secondary-color: $pink;
+
+$alert-color:   #E51C23;
+$success-color: #259B24;
+$warning-color: #FF5722;
+$info-color:    #03A9F4;
+
 
 $sc-amazon      : #E47911;
 $sc-twitter     : #00aced;
 $sc-google-plus : #dd4b39;
 $sc-github      : #333333;
-$sc-html      : #F06529;
-$sc-css       : #3399FF;
-$sc-js        : #F0DB4F;
-$sc-coderwall : #398CCE;
-$sc-flattr    : #8AAE2E;
+$sc-html        : #F06529;
+$sc-css         : #3399FF;
+$sc-js          : #F0DB4F;
+$sc-coderwall   : #398CCE;
+$sc-flattr      : #8AAE2E;
 
 
 
@@ -47,17 +42,10 @@ $sc-flattr    : #8AAE2E;
     box-shadow: 0 1px 5px rgba($black, 0.8);
   }
 
-  .cyan { background-color: $cyan; }
+  .blue { background-color: $blue; }
   .yellow { background-color: $yellow; }
-  .magenta { background-color: $magenta; }
+  .pink { background-color: $pink; }
 
-  .blue { background-color: $blue-steroid; }
-  .pink { background-color: $pink-steroid; }
-  .green { background-color: $green-steroid; }
-  .yellow { background-color: $yellow-steroid; }
-  .blue { background-color: $blue-steroid; }
-  .blue { background-color: $blue-steroid; }
-  .red  { background-color: $red-steroid; }
 
   .primary  { background-color: $primary-color; }
   .secondary  { background-color: $secondary-color; }

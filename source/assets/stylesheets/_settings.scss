@@ -27,25 +27,26 @@ $row-width: rem-calc(1200);
 $column-gutter: rem-calc(30);
 $total-columns: 12;
 
+$font-weight-light:  300;
 $font-weight-normal: 400;
-$font-weight-bold: 700;
-$font-weight-bolder: 900;
+$font-weight-bold:   700;
 
 // We use these to control various global styles
-$body-bg: $white-dark;
+$body-bg: $gray-light;
 $body-font-color: $gray-dark;
-$body-font-family: "Droid Serif", "Times New Roman", Times, "Liberation Serif", FreeSerif, serif;
-$body-font-weight: $font-weight-normal;
+$body-font-family: 'Lato', Helvetica, Roboto, Arial, sans-serif;
+$font-family-monospace: 'Ubuntu Mono', 'Monaco', monospace;
+$body-font-weight: $font-weight-light;
 $body-font-style: normal;
-$header-font-family: 'Lato', Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif;
-$header-font-weight: $font-weight-bolder;
+$header-font-family: $body-font-family;
+$header-font-weight: $font-weight-bold;
 
-$button-font-weight: $font-weight-bold;
+$button-font-weight: $font-weight-normal;
 
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;
 
-$blockquote-border: 5px solid $magenta;
+$blockquote-border: 5px solid $secondary-color;
 $blockquote-cite-font-size: rem-calc(20);
 $blockquote-padding: rem-calc(20 40 20 40) !default;
 
@@ -487,61 +488,7 @@ $input-include-glowing-effect: false;
 
 
 
-// Off-canvas
 
-$tabbar-bg: $white;
-// $tabbar-height: rem-calc(45);
-// $tabbar-line-height: $tabbar-height;
-// $tabbar-color: #FFF;
-// $tabbar-middle-padding: 0 rem-calc(10);
-
-// Off Canvas Divider Styles
-// $tabbar-right-section-border: solid 1px lighten($tabbar-bg, 10%);
-// $tabbar-left-section-border: solid 1px darken($tabbar-bg, 10%);
-
-// Off Canvas Tab Bar Headers
-// $tabbar-header-color: #FFF;
-// $tabbar-header-weight: bold;
-// $tabbar-header-line-height: $tabbar-height;
-// $tabbar-header-margin: 0;
-
-// Off Canvas Menu Variables
-$off-canvas-width: 280px;
-$off-canvas-bg: $white;
-
-// Off Canvas Menu List Variables
-// $off-canvas-label-padding: 0.3rem rem-calc(15);
-$off-canvas-label-color: $black-light;
-// $off-canvas-label-text-transform: uppercase;
-$off-canvas-label-font-weight: $font-weight-bold;
-$off-canvas-label-bg: $white;
-$off-canvas-label-border-top: none;
-$off-canvas-label-border-bottom: none;
-// $off-canvas-label-margin:0;
-// $off-canvas-link-padding: rem-calc(10, 15);
-$off-canvas-link-color: $black-light;
-$off-canvas-link-border-bottom: none;
-
-// Off Canvas Menu Icon Variables
-// $tabbar-menu-icon-color: #FFF;
-// $tabbar-menu-icon-hover: darken($tabbar-menu-icon-color, 30%);
-
-// $tabbar-menu-icon-text-indent: rem-calc(35);
-// $tabbar-menu-icon-width: $tabbar-height;
-// $tabbar-menu-icon-height: $tabbar-height;
-// $tabbar-menu-icon-line-height: rem-calc(33);
-// $tabbar-menu-icon-padding: 0;
-
-// $tabbar-hamburger-icon-width: rem-calc(16);
-// $tabbar-hamburger-icon-left: rem-calc(13);
-// $tabbar-hamburger-icon-top: rem-calc(5);
-
-// Off Canvas Back-Link Overlay
-// $off-canvas-overlay-transition: background 300ms ease;
-$off-canvas-overlay-cursor: pointer;
-$off-canvas-overlay-box-shadow:  -1px 0px 3px rgba(0, 0, 0, 0.5);
-$off-canvas-overlay-background: rgba($white, 0.6);
-$off-canvas-overlay-background-hover: rgba($white, 0.4);
 
 
 

@@ -1,7 +1,6 @@
 $footer-border: scale-color($black-light, $lightness: -60%);
 
 .m-content {
-  background-color: $body-bg;
   padding-bottom: rem-calc(40);
 }
 
@@ -17,11 +16,7 @@ $footer-border: scale-color($black-light, $lightness: -60%);
     margin-bottom: rem-calc(10);
   }
   a {
-    color: $primary-color;
     border: none;
-    &:hover {
-      color: $blue-steroid;
-    }
   }
   hr {
     border-color: $footer-border;

@@ -17,20 +17,20 @@ $m-panel-bg-hover: rgba($white, 0.9);
   }
 
   &.l-callout {
-    border-bottom: 5px solid $magenta;
+    border-bottom: 5px solid $secondary-color;
     margin: rem-calc(60) 0 rem-calc(80);
     position: relative;
     &:after {
-      @include css-triangle(rem-calc(32),$magenta,top);
+      @include css-triangle(rem-calc(32),$secondary-color,top);
       position: absolute;
       left: 50%;
       top: 100%;
       margin-left: rem-calc(-32);
     }
     a {
-      color: $magenta;
+      color: $secondary-color;
       &:hover {
-        border-bottom-color: $magenta;
+        border-bottom-color: $secondary-color;
       }
     }
   }
