@@ -41,10 +41,8 @@ $m-post-recent-link-border-color-hover: $secondary-color;
   @include post-list($m-post-recent-link-border-color,$m-post-recent-link-border-color-hover);
 }
 
-.pagination {
-  margin-top: rem-calc(40);
-
-  a {
-    border-bottom: 0;
+.blog-article {
+  & > p:first-child {
+    @include dropcap($dropcap-float-position, $dropcap-font-size, $dropcap-font-family, $dropcap-txt-indent, $dropcap-margin, $dropcap-padding, $dropcap-color, $dropcap-line-height, $dropcap-bg);
   }
 }

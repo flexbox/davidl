@@ -120,13 +120,12 @@ priority: 0.8
         - if project.stared.present?
           li
             div class="m-panel js-linkspy-start"
-              = link_to project.url, class: 'js-linkspy-target m-panel--clean' do
-                h3.l-title
-                  = project.title
+              h3.l-title
+                = project.title
               p.l-description
                 = project.description
-              button class="button #{project.button}"
-                'En savoir plus
+              = link_to project.url, class: 'js-linkspy-target' do
+                'Voir le projet
                 i class="fa #{project.icon}"
 
 .m-homepage--section

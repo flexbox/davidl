@@ -1,0 +1,56 @@
+// b. Grid
+
+$row-width: rem-calc(1200);
+
+
+
+// c. Global
+
+$font-family-sans-serif: 'Lato', Helvetica, Roboto, Arial, sans-serif;
+$font-family-monospace: 'Ubuntu Mono', 'Monaco', monospace;
+
+$font-weight-light:  300;
+$font-weight-normal: 400;
+$font-weight-bold:   700;
+
+$body-bg: $gray-light;
+$body-font-color: $gray-dark;
+$body-font-family: $font-family-sans-serif;
+$body-font-weight: $font-weight-light;
+
+
+
+// e. Typography
+
+$header-font-weight: $font-weight-light;
+
+$code-font-weight: $font-weight-bold;
+$code-background-color: transparent;
+
+$blockquote-border: 5px solid $secondary-color;
+$blockquote-cite-font-size: rem-calc(20);
+$blockquote-padding: rem-calc(20 40 20 40) !default;
+
+
+
+// Forms
+
+$input-font-family: $body-font-family;
+$input-border-color: darken(#fff, 20%);
+$input-focus-border-color: $primary-color;
+$input-border-width: 2px;
+$input-box-shadow: none;
+$input-include-glowing-effect: false;
+
+
+
+// Panels
+
+$panel-font-color: $body-font-color;
+
+
+
+// Sub Nav
+
+$sub-nav-font-size: rem-calc(16);
+$sub-nav-border-radius: 0px;

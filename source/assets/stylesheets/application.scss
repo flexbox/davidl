@@ -7,7 +7,7 @@
 @import "colors";
 @import "google-font";
 @import "foundation/scss/foundation/functions";
-@import "settings";
+@import "custom-settings";
 
 @import "icones";
 
@@ -24,11 +24,13 @@
 @import "foundation/scss/foundation/components/offcanvas";
 @import "foundation/scss/foundation/components/panels";
 @import "foundation/scss/foundation/components/tables";
-@import "foundation/scss/foundation/components/type";
+// @import "foundation/scss/foundation/components/type";
 @import "foundation/scss/foundation/components/side-nav";
 @import "foundation/scss/foundation/components/sub-nav";
 @import "foundation/scss/foundation/components/visibility";
 
+@import "custom-typeplate";
+@import "typeplate-starter-kit/scss/typeplate";
 @import "animate.css/source/base";
 @import "animate.css/source/attention_seekers/bounce";
 @import "animate.css/source/bouncing_entrances/bounceInDown";
@@ -39,7 +41,6 @@
 @import "components/topbar";
 @import "components/masterhead";
 @import "components/panel";
-@import "components/dropcap";
 @import "components/pizza";
 @import "code";
 
