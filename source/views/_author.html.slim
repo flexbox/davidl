@@ -4,20 +4,23 @@
       p
         'Publié par
         a href="#{data.settings.social.google_plus}?rel=author" itemprop="name"
-         'David Leuliette
-      hr
-      p
+          |David Leuliette
+        br
         span itemprop="jobTitle"
           'Développeur front-end
-        'et évangéliste
-        span itemprop="title" open source.
+      hr
       p
-        .fa.fa-fw.fa-twitter
+        'J'aime travailler avec les technologies web et le faire de la bonne façon.
+        'Je suis
+        em> itemprop="title" évangéliste open source
+        ', mon objectif est de partager les bonnes pratiques avec le plus grand nombre.
+      p
+        i.fa.fa-fw.fa-twitter
         span itemprop="nickname"
           =' link_to data.settings.social.twitter.name, data.settings.social.twitter.url
         'sur twitter
       p
-        .fa.fa-fw.icon-rss
+        i.fa.fa-fw.icon-rss
         = link_to "S'incrire au flux RSS", data.settings.social.rss.url
     .small-4.columns
       = link_to '/about.html'  do

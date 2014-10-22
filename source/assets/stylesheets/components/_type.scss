@@ -1,3 +1,7 @@
+h1 {
+  margin-bottom: rem-cal(50);
+}
+
 .emperor { @extend h1; }
 .vador { @extend h2; }
 .maul { @extend h3; }
