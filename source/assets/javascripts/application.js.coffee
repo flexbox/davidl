@@ -3,6 +3,7 @@
 
 #= require "jquery"
 #= require "jquery.smoothscroll"
+#= require "jquery.linkspy"
 
 #= require "headroom.js/dist/headroom"
 #= require "jquery.stickynav"

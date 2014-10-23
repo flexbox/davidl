@@ -23,6 +23,7 @@
   .l-illu {
     font-size: rem-calc(64);
     color: $primary-color;
+    margin-bottom: rem-calc(20);
   }
   .fa-rounded {
     padding: rem-calc(20);
@@ -40,28 +41,23 @@
 }
 
 .m-homepage--section {
-  background-color: $black-light;
+  background-color: $black;
   padding: rem-calc(40 20);
   margin: rem-calc(40 0);
+
   .l-link {
+    @extend .sith;
     margin-bottom: 0;
     text-align: center;
-    color: $white-light;
-    font-family: $header-font-family;
+    color: $white;
     a {
-      color: $white-light;
-      &:hover {
-        color: $blue-steroid;
-      }
+      color: $white;
+      border-color: $white;
     }
   }
 }
 
 .m-homepage--pdca {
-  @mixin position-pdca(){
-
-  }
-
   p {
     font-family: $header-font-family;
     font-size: rem-calc(22);

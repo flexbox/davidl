@@ -23,7 +23,7 @@ priority: 0.8
         .row itemscope="" itemtype="http://schema.org/Book"
           .medium-8.columns
             h2
-              = link_to book.title ,book.amazon.url, :itemprop => "name"
+              = link_to book.title, book.amazon.url, itemprop: 'name'
             div itemscope="" itemprop="review" itemtype="http://schema.org/Review"
               p itemprop="reviewBody"
                 = book.description
@@ -39,11 +39,10 @@ priority: 0.8
                     'Consulter l'article de blog
                     i.fa.fa-long-arrow-right
           .medium-4.columns
-              = image_tag "front/books/#{book.image}", alt: "Livre développement front-end #{book.collection}", :itemprop => "image"
+              = image_tag "front/books/#{book.image}", alt: "Livre développement front-end #{book.collection}", itemprop: 'image'
               h3
                 small
                   = book.collection
               h4
                 small
                   = book.langage
-

@@ -12,7 +12,7 @@ priority: 0.8
   .medium-4.columns
     .m-panel data-equalizer-watch=""
       i.fa.fa-picture-o.fa-rounded.l-illu
-      h2 DESIGN
+      h2 Design
       hr
       p
         'Concevoir des
@@ -22,7 +22,7 @@ priority: 0.8
   .medium-4.columns
     .m-panel data-equalizer-watch=""
       i.fa.fa-code.fa-rounded.l-illu
-      h2 CODE
+      h2 Code
       hr
       p
         'Je programme des solutions
@@ -31,7 +31,7 @@ priority: 0.8
   .medium-4.columns
     .m-panel data-equalizer-watch=""
       i.fa.fa-eye.fa-rounded.l-illu
-      h2 VEILLE
+      h2 Veille
       hr
       p
         'Dans une
@@ -119,15 +119,14 @@ priority: 0.8
       - data.projects.each_with_index do |project, i|
         - if project.stared.present?
           li
-            = link_to project.url do
-              div class="m-panel"
-                h3.l-title
-                  = project.title
-                p.l-description
-                  = project.description
-                p class="button #{project.button}"
-                  'En savoir plus
-                  i class="fa #{project.icon}"
+            div class="m-panel js-linkspy-start"
+              h3.l-title
+                = project.title
+              p.l-description
+                = project.description
+              = link_to project.url, class: 'js-linkspy-target' do
+                'Voir le projet
+                i class="fa #{project.icon}"
 
 .m-homepage--section
   p.l-link

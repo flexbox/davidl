@@ -56,6 +56,7 @@ blog:
     2014-08-18-foundation-love.markdown: /blog/articles/2014-08-18-foundation-love.markdown
     2014-08-24-sublime-source-code.markdown: /blog/articles/2014-08-24-sublime-source-code.markdown
     2014-09-07-template-ruby.markdown: /blog/articles/2014-09-07-template-ruby.markdown
+    2014-09-23-paris-web-2014.markdown: /blog/articles/2014-09-23-paris-web-2014.markdown
   index.html.slim: /blog/index.html.slim
 books.html.slim: /books.html.slim
 clients.html.slim: /clients.html.slim

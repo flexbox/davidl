@@ -36,10 +36,10 @@ figure {
     left: 0;
     padding: rem-calc(20);
     background: rgba($black,0.8);
-    color: $magenta;
+    color: $secondary-color;
 
     h3 {
-      color: $white-light;
+      color: $white;
       text-shadow: $text-shadow;
     }
   }
@@ -59,7 +59,7 @@ figure {
     bottom: 0;
     opacity: 0;
     transform: translateY(100%);
-    transition: transform $transition-duration;
+    transition: transform $transition-duration ease-in-out;
   }
 
 }
@@ -67,14 +67,14 @@ figure {
 .cs-style-3 figure:hover img,
 .cs-style-3 figure.cs-hover img {
   transform: translateY(-100%);
-  transition: transform $transition-duration;
+  transition: transform $transition-duration ease-in-out;
 }
 
 .cs-style-3 figure:hover figcaption,
 .cs-style-3 figure.cs-hover figcaption {
   opacity: 1;
   transform: translateY(0px);
-  transition: transform $transition-duration;
+  transition: transform $transition-duration ease-in-out;
 }
 
 .cs-style-3 figcaption a {

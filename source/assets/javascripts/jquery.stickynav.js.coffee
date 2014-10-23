@@ -5,7 +5,7 @@ $ ->
     tolerance: 10
     classes:
       initial: 'animated'
-      pinned: 'slideDown'
-      unpinned: 'slideUp'
+      pinned: 'headroom--pinned'
+      unpinned: 'headroom--unpinned'
   )
   headroom.init()

@@ -1,27 +1,24 @@
-$footer-border: scale-color($black-light, $lightness: -60%);
+$footer-border: scale-color($gray-light, $lightness: -70%);
 
 .m-content {
-  background-color: $body-bg;
   padding-bottom: rem-calc(40);
 }
 
 .m-footer {
   background-color: $black;
   padding: rem-calc(40 0);
+  position: relative;
+  z-index: 90;
 
   p {
-    color: $black-light;
+    color: $gray-light;
   }
   label {
     color: $white;
     margin-bottom: rem-calc(10);
   }
   a {
-    color: $primary-color;
     border: none;
-    &:hover {
-      color: $blue-steroid;
-    }
   }
   hr {
     border-color: $footer-border;

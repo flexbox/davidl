@@ -7,7 +7,7 @@
 @import "colors";
 @import "google-font";
 @import "foundation/scss/foundation/functions";
-@import "settings";
+@import "custom-settings";
 
 @import "icones";
 
@@ -29,26 +29,26 @@
 @import "foundation/scss/foundation/components/sub-nav";
 @import "foundation/scss/foundation/components/visibility";
 
+@import "custom-typeplate";
+@import "typeplate-starter-kit/scss/typeplate";
 @import "animate.css/source/base";
 @import "animate.css/source/attention_seekers/bounce";
 @import "animate.css/source/bouncing_entrances/bounceInDown";
 @import "animate.css/source/bouncing_exits/bounceOutUp";
 
 @import "global";
-@import "modules/masterhead";
-@import "modules/type";
-@import "modules/control";
-@import "modules/topbar";
-@import "modules/panel";
-@import "modules/dropcap";
-@import "modules/footer";
-@import "modules/pizza";
-@import "modules/about";
+@import "components/type";
+@import "components/topbar";
+@import "components/masterhead";
+@import "components/panel";
+@import "components/pizza";
 @import "code";
 
-@import "front/blog";
-@import "front/forge";
-@import "front/homepage";
-@import "front/projects";
-@import "modules/magellan";
-@import "front/webdesign";
+@import "modules/about";
+@import "modules/blog";
+@import "modules/forge";
+@import "modules/homepage";
+@import "modules/projects";
+@import "components/magellan";
+@import "modules/webdesign";
+@import "modules/footer";

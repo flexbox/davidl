@@ -98,7 +98,7 @@ Des compétences techniques de programmation. HTML, CSS et JavaScript sont une b
 
 _Schéma d'une application web moderne : front-end, back-end, Base de données, outils & services_.
 
-### Quelless sont vos responsabilités ? Vos horaires ?
+### Quelles sont vos responsabilités ? Vos horaires ?
 
 Ma responsabilité ? Faire gagner de précieuses secondes au plusieurs centaines de milliers de personnes qui visitent les application web sur lesquelles je travaille.
 
