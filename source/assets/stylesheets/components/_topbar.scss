@@ -47,11 +47,12 @@ $topbar-height: rem-calc(60);
 }
 
 .headroom {
-    transition: transform 200ms linear;
+  transition: transform 200ms linear;
 }
 .headroom--pinned {
-    transform: translateY(0%);
+  transform: translateY(0%);
 }
 .headroom--unpinned {
-    transform: translateY(-100%);
+  transform: translateY(-100%);
+
 }

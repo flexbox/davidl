@@ -39,6 +39,7 @@
 
     @media #{$small} {
       margin-top: rem-calc(40);
+      margin-bottom: 0;
       font-size: rem-calc(70);
       padding: rem-calc(40) rem-calc(60);
     }
@@ -53,7 +54,7 @@
 }
 
 .m-homepage .m-masterhead {
-  background: url("https://farm6.staticflickr.com/5613/15576114886_96e889af5a_o.jpg") repeat 0 0 $gray-dark;
+  background: url("https://farm4.staticflickr.com/3946/15583794966_fd39f2f2e8_o.jpg") repeat top center;
   @media #{$small} {
     animation: 35s linear 0s normal none infinite movebg;
   }
