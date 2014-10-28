@@ -51,7 +51,6 @@ activate :google_analytics do |ga|
   ga.minify = true
 end
 
-activate :gzip
 activate :livereload
 activate :syntax
 
@@ -81,12 +80,6 @@ end
 
 configure :build do
 
-  activate :minify_html
-  activate :autoprefixer,
-    browsers: ['last 2 versions', 'ie 8', 'ie 9']
-  activate :minify_css
-  activate :minify_javascript
-  activate :asset_hash
   activate :favicon_maker do |f|
     f.template_dir  = File.join(root, 'source')
     f.output_dir    = File.join(root, 'build')
@@ -114,7 +107,16 @@ configure :build do
     }
   end
 
+  activate :autoprefixer,
+    browsers: ['last 2 versions', 'ie 8', 'ie 9']
   activate :sitemap, :hostname => data.settings.site.url
+
+  activate :minify_html
+  activate :minify_css
+  activate :minify_javascript
+
+  activate :asset_hash
   activate :relative_assets
+  activate :gzip
 
 end
