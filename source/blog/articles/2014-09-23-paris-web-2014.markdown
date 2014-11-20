@@ -46,7 +46,7 @@ Quand on voit ce qu'est capable de faire Google Now, Siri et Cortana, je pense q
 
 _Avec Matthias Dugué et Nicolas Hoisey_
 
-Pourquoi le voulais absolument assister à cet atelier ? Parce que [@nhoisez](https://twitter.com/nhoisez) c'est le meilleur #privateJoke. Plus sérieusement, si vous souhaitez faire de vrai interfaces web préparés pour l'avenir vous devez gagner votre indépendance vis à vis de la résolution d'écran. Pour cela : [les mesures c'est en em](http://vimeo.com/79204119) ou rien.
+Pourquoi je voulais participer à cet atelier ? Parce que [@nhoisez](https://twitter.com/nhoisez) c'est le meilleur #privateJoke. Plus sérieusement, si vous souhaitez faire de vrai interfaces web préparés pour l'avenir vous devez gagner votre indépendance vis à vis de la résolution d'écran. Pour cela : [les mesures c'est en em](http://vimeo.com/79204119) ou rien.
 
 La participation est au coeur de cet atelier. En partant d'un [thème responsive hébergé sur GitHub](https://github.com/m4dz/prwd-workshop), le but est de proposer des solutions au travers de pull-request. En plus le projet est un site statique -comme le mien. Génial ! ... Et puis j'ai suivi le workflow qui est à mon avis le gros point noir : le temps de `git clone` le projet, `bundle install` les gems ruby et `npm install le-reste-du-monde`, vous avez déjà "perdu" pas mal de temps.
 

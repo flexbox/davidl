@@ -35,6 +35,13 @@ $topbar-height: rem-calc(60);
   @include inline-list();
   float: right;
   margin-bottom: 0;
+
+  @media #{$small-only}{
+    > li {
+      margin-left: rem-calc(18);
+    }
+  }
+
   a {
     padding: rem-calc(20 0);
     font-size: rem-calc(13);
