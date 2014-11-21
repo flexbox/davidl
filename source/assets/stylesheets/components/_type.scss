@@ -13,3 +13,10 @@ h1, h2, h3, h4, h5, h6 {
 blockquote {
   font-style: italic;
 }
+
+[href^="https:"]:not([href*="davidl.fr"]):after,
+[href^="http:"]:not([href*="davidl.fr"]):after {
+  font-family: FontAwesome;
+  padding-left: rem-calc(5);
+  content: "\f08e";
+}

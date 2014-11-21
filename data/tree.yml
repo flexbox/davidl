@@ -75,6 +75,7 @@ forge:
   index.html.slim: /forge/index.html.slim
 index.html.slim: /index.html.slim
 legal.html.slim: /legal.html.slim
+lexique.html.slim: /lexique.html.slim
 manifesto.html.slim: /manifesto.html.slim
 mentors.html.slim: /mentors.html.slim
 newsletter.html.slim: /newsletter.html.slim
