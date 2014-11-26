@@ -62,6 +62,12 @@ $m-panel-bg-hover: $white;
         top: 5%;
       }
     }
+
+    [href^=""]:not([href*="davidl.fr"]):after,
+    [href^="https:"]:not([href*="davidl.fr"]):after {
+      content: "";
+    }
+
   }
 }
 

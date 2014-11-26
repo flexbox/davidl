@@ -1,0 +1,37 @@
+---
+title: Recommandation d'intégrateurs web à Lille
+description: "Au travars des années j'ai recontré un nombre incalculable de professionels du web. Voici une liste de professionels que je recommande Pour votre prochain projet."
+page_title: Manifeste d'un développeur front-end éclairé
+changefreq: yearly
+priority: 0.5
+---
+
+.row
+  .medium-8.medium-centered.columns
+    markdown:
+      En participants à divers évènements comme les conférences [Takeoff](http://takeoffconf.com/), [Paris web](http://www.paris-web.fr/), [chtiJS](http://chtijs.francejs.org/), [Weslch design](https://twitter.com/welsh_design) ... J'ai renconté beaucoups de personnes de Lille travaillant avec les technologies front-end comme HTML, CSS et JavaScript.
+
+    h2
+      'Mes recommandations
+      small Sans ordre de classement
+
+    ul.medium-block-grid-3.small-block-grid-2
+      - data.friends.each_with_index do |friend|
+        li
+          p
+            strong
+              = link_to friend.name, friend.website
+          p
+            small
+              = friend.job
+          - if friend['image'].present?
+            = image_tag friend.image, alt: "Photo de #{friend.name} #{friend.job}"
+          p
+            = friend.sentence
+
+    .m-panel
+      p.lead
+       strong
+        |Si vous souhaitez faire parti de cette liste, n'hésitez pas à m'
+       =' link_to 'envoyer moi un message', '/contact.html'
+       '.

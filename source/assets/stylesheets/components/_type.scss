@@ -14,8 +14,8 @@ blockquote {
   font-style: italic;
 }
 
-[href^="https:"]:not([href*="davidl.fr"]):after,
-[href^="http:"]:not([href*="davidl.fr"]):after {
+[href^=""]:not([href*="davidl.fr"]):after,
+[href^="https:"]:not([href*="davidl.fr"]):after {
   font-family: FontAwesome;
   padding-left: rem-calc(5);
   content: "\f08e";

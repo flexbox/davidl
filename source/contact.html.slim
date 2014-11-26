@@ -28,7 +28,7 @@ priority: 0.5
           'Pour construire la prochaine application web moderne compatible smartphone, tablette, TV et ordinateur
       li
         p
-          =' link_to 'Coder du css de qualité', 'http://guidecss.fr/'
+          =' link_to 'Coder du css de qualité', "http://guidecss.fr/"
           'ou tout autre sujet autour du développement web
       li
         p
@@ -68,3 +68,5 @@ priority: 0.5
     h2 Ailleurs sur le web
     = partial 'views/social'
 
+.text-center
+  = link_to 'Envoyer un email', "mailto:#{data.settings.social.email}", class: 'button secondary'

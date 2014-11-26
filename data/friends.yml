@@ -1,9 +1,24 @@
 -
-  quote: Ca roxx du poney
-  name: Olivier Capra
+  name: Romain Fauvet
+  job: Front-end developer
+  sentence:
+  twitter: romainfauvet
+  website: http://romainfauvet.fr/
 -
-  quote: La suiiiiiiiite
-  name: Marie Anwar
+  name: David watrelot
+  job: Intégrateur HTML & développeur php
+  sentence:
+  twitter: hellodeloo
+  website: http://www.hellodeloo.com/
 -
-  quote: J'attends la suite avec impatience
-  name: Emilie Podczaszy
+  name: Guillaume Doutriaux
+  job: Freelance Front-end Dev & Consultant
+  sentence:
+  twitter: gdoutriaux
+  website: http://www.guillaumedoutriaux.com/
+-
+  name: Alexandra janin
+  job: Webdesigner & développeur front-end
+  sentence:
+  twitter: lellexindo
+  website: http://lellex.fr/
