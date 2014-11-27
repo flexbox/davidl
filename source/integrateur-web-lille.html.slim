@@ -1,7 +1,7 @@
 ---
 title: Recommandation d'intégrateurs web à Lille
 description: "Au travars des années j'ai recontré un nombre incalculable de professionels du web. Voici une liste de professionels que je recommande Pour votre prochain projet."
-page_title: Manifeste d'un développeur front-end éclairé
+page_title: Lille is French Tech
 changefreq: yearly
 priority: 0.5
 ---
@@ -18,20 +18,24 @@ priority: 0.5
     ul.medium-block-grid-3.small-block-grid-2
       - data.friends.each_with_index do |friend|
         li
-          p
-            strong
-              = link_to friend.name, friend.website
-          p
-            small
-              = friend.job
-          - if friend['image'].present?
-            = image_tag friend.image, alt: "Photo de #{friend.name} #{friend.job}"
-          p
-            = friend.sentence
-
+          .m-panel.l-callout.l-callout--primary
+            .row
+              .small-6.small-centered.columns
+                - if friend['gravatar_image_path'].present?
+                  = image_tag "#{friend.gravatar_image_path}?s=300", alt: "Photo de #{friend.name} #{friend.job}"
+                - else
+                  = image_tag "http://placekitten.com/g/300/300", alt: "Photo de chat #{friend.job}"
+            p
+              strong
+                = link_to friend.name, friend.website
+              br
+              small
+                = friend.job
+            p
+              = friend.sentence
     .m-panel
       p.lead
        strong
-        |Si vous souhaitez faire parti de cette liste, n'hésitez pas à m'
-       =' link_to 'envoyer moi un message', '/contact.html'
+        |Si vous souhaitez être référencé sur cette liste, n'hésitez pas à m'
+       =' link_to 'envoyer un message', '/contact.html'
        '.

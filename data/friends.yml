@@ -1,24 +1,56 @@
 -
   name: Romain Fauvet
-  job: Front-end developer
+  job: Développeur Front-end
+  gravatar_image_path:
   sentence:
   twitter: romainfauvet
   website: http://romainfauvet.fr/
 -
   name: David watrelot
-  job: Intégrateur HTML & développeur php
+  job: Intégrateur HTML & Développeur php
+  gravatar_image_path:
   sentence:
   twitter: hellodeloo
   website: http://www.hellodeloo.com/
 -
   name: Guillaume Doutriaux
-  job: Freelance Front-end Dev & Consultant
+  job: Freelance Développeur Front-end & Consultant
+  gravatar_image_path:
   sentence:
   twitter: gdoutriaux
   website: http://www.guillaumedoutriaux.com/
 -
   name: Alexandra janin
-  job: Webdesigner & développeur front-end
+  job: Webdesigner & Développeur front-end
+  gravatar_image_path:
   sentence:
   twitter: lellexindo
   website: http://lellex.fr/
+-
+  name: Kévin Thénard
+  job: Développeur & intégrateur web
+  gravatar_image_path:
+  sentence:
+  twitter: kevinthenard
+  website: http://www.kevinthenard.fr/
+-
+  name: Romain Brasier
+  job: Développeur web
+  gravatar_image_path:
+  sentence:
+  twitter: rbwebdev
+  website: http://www.romainbrasier.fr/
+-
+  name: Victor Darras
+  job: Webdesigner & Intégrateur
+  gravatar_image_path:
+  sentence:
+  twitter: victordarras
+  website: http://victordarras.fr/
+-
+  name: Hugo Macarez
+  job: Webdesigner & Intégrateur
+  gravatar_image_path:
+  sentence:
+  twitter: HugoMacarez
+  website: http://www.hugomacarez.fr/
