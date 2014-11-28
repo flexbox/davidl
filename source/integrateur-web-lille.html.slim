@@ -7,14 +7,15 @@ priority: 0.5
 ---
 
 .row
-  .medium-8.medium-centered.columns
-    markdown:
-      En participants à divers évènements comme les conférences [Takeoff](http://takeoffconf.com/), [Paris web](http://www.paris-web.fr/), [chtiJS](http://chtijs.francejs.org/), [Weslch design](https://twitter.com/welsh_design) ... J'ai renconté beaucoups de personnes de Lille travaillant avec les technologies front-end comme HTML, CSS et JavaScript.
+  .medium-10.medium-centered.columns
+    p.drop-cap
+      'En participants à divers évènements comme les conférences [Takeoff](http://takeoffconf.com/), [Paris web](http://www.paris-web.fr/), [chtiJS](http://chtijs.francejs.org/), [Weslch design](https://twitter.com/welsh_design) ... J'ai renconté beaucoups de personnes de Lille travaillant avec les technologies front-end comme HTML, CSS et JavaScript.
 
-    h2
+    h2.text-center
       'Mes recommandations
+      br
       small Sans ordre de classement
-
+    hr
     ul.medium-block-grid-3.small-block-grid-2
       - data.friends.each_with_index do |friend|
         li
@@ -27,12 +28,21 @@ priority: 0.5
                   = image_tag "http://placekitten.com/g/300/300", alt: "Photo de chat #{friend.job}"
             p
               strong
-                = link_to friend.name, friend.website
+                = friend.name
               br
               small
                 = friend.job
-            p
-              = friend.sentence
+            - if friend['sentence'].present?
+              blockquote
+                = friend.sentence
+            hr
+            ul.m-about--social-list
+              li
+                = link_to friend.website do
+                  i.fa.fa-paper-plane
+              li
+                = link_to "http://twitter.com/#{friend.twitter}" do
+                  i.fa.fa-twitter
     .m-panel
       p.lead
        strong

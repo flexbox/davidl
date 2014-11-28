@@ -9,9 +9,8 @@ changefreq: monthly
 priority: 0.8
 ---
 
-
 Cela fait maintenant plus d'un an que j'ai abandonné l'univers php pour me consacrer à la galaxie ruby. En travaillant avec une architecture MVC, j'ai utilisé différents moteurs de templating comme smarty.
-Ruby possède aussi ses propres moteurs comme erb, haml, ... Mais mon préféré -et de loin, reste [slim](slim-lang.com/).
+Ruby possède aussi ses propres moteurs comme erb, haml, ... Mais mon préféré -et de loin, reste [slim](http://slim-lang.com/).
 
 Pourquoi ? La raison est simple : je suis 2 fois plus performant. Avec ce templating, il n'est plus nécessaire pour le balisage HTML d'utiliser `<`, `>` et `/`. Résultat : le HTML est codé 2 fois plus rapidement (Même si des plugins comme emmet.io peuvent vous faciliter la vie). Votre code est 2 fois moins long et il est beaucoup plus rapide de scanner un fichier.
 
@@ -22,36 +21,31 @@ Dans cet article je vais expliquer les astuces que j'ai apprises en lisant la do
 La phylosophie de slim est de _supprimer tous les caractère inutiles_. Si l'on prends cet exemple [extrait de la documentation](http://slim-lang.com/) on peut remarquer plusieurs choses :
 
 ~~~ haml
-    doctype html
-    html
-      head
-        title Slim Examples
-        meta name="keywords" content="template language"
-        meta name="author" content=author
-        javascript:
-          alert('Slim supports embedded javascript!')
-
-      body
-        h1 Markup examples
-
-        #content
-          p This example shows you how a basic Slim file looks like.
-
-          == yield
-
-          - unless items.empty?
-            table
-              - for item in items do
-                tr
-                  td.name = item.name
-                  td.price = item.price
-          - else
-            p
-             | No items found.  Please add some inventory.
-               Thank you!
-
-        #footer
-          Copyright © #{year} #{author}
+  doctype html
+  html
+    head
+      title Slim Examples
+      meta name="keywords" content="template language"
+      meta name="author" content=author
+      javascript:
+        alert('Slim supports embedded javascript!')
+    body
+      h1 Markup examples
+      #content
+        p This example shows you how a basic Slim file looks like.
+        == yield
+        - unless items.empty?
+          table
+            - for item in items do
+              tr
+                td.name = item.name
+                td.price = item.price
+        - else
+          p
+           | No items found.  Please add some inventory.
+             Thank you!
+      #footer
+        Copyright © #{year} #{author}
 ~~~
 
 - Pas de fermeture de balises
@@ -174,3 +168,12 @@ Slim est actuellement 10 fois plus rapide que haml.
 En supprimant les balises inutiles votre code est plus concis et se lit plus rapidement.
 
 Il est toujours possible d'utiliser du code HTML pour vous familiariser avec la syntaxe, que vous abandonerez très vite pour n'utiliser plus que du slim.
+
+- - -
+
+EDIT :
+
+Si vous n'utilisez pas ruby il existe des plugins en JavaScript pour vous aider à trouver la lumière :
+
+- [gulp-slim](https://github.com/cognitom/gulp-slim)
+- [grunt-slim](https://github.com/matsumos/grunt-slim)

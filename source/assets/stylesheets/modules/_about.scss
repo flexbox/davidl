@@ -82,3 +82,13 @@ figure {
   bottom: rem-calc(10);
   right: rem-calc(40);
 }
+
+
+
+.m-about--social-list {
+  @include inline-list;
+  a {
+    padding: rem-calc(5 10);
+    border-bottom: 0;
+  }
+}
