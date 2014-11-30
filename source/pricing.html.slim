@@ -9,7 +9,7 @@ priority: 0.6
 ---
 
 .row
-  .medium-10.medium-centered.columns
+  .medium-8.medium-centered.columns
     markdown:
       ## Pourquoi ?
 
@@ -26,6 +26,8 @@ priority: 0.6
       - Certains type de travaux __ne sont pas inclus__ dans les budgets : stratégie du contenu, recherches, et autres type de travail préparatoire. Je considère que cela est déjà effectué en partie par mes clients. Si ce n'est pas le cas il est possible de réaliser une évaluation séparée pour ça.
       - Chaque catégorie est illustrée __par un exemple réel__ de réalisation.
 
+.row
+  .medium-10.medium-centered.columns
     - data.pricing.each do |item|
       h2.text-center = item.title
       hr

@@ -1,4 +1,12 @@
 -
+  title: Formateur web
+  baseline: "Comment construire un projet web ?"
+  description: "David est développeur front-end et designer. Il présentera lors d'une formation [les différentes étapes](http://flexbox.github.io/formation/) nécéssaires à la création / refonte de site internet."
+  delivers:
+    - content: 1 journée de formation
+    - content: 1 support de cours au format HTML
+  price: 500 €
+-
   title: Consultant front-end
   baseline: "Améliorer la performance, la rapidité et l'évolution du code des projets web"
   description: Les clients de LambdaSARL sont perdus en visitant le site internet de l'entreprise. Ils ont embauché Pierre pour parcourir le site afin de rédiger un manifeste de recommandations. Il livrera un __document pdf__ qu'il expliquera lors d'une __session skype d'une heure__.
