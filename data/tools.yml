@@ -69,6 +69,11 @@
   url: http://www.screamingfrog.co.uk/seo-spider/
   image: frog.png
 -
+  name: Sequel Pro
+  description: "Sequel Pro est une application rapide & facile à utiliser pour travailler avec des bases de données MySQL."
+  url: http://www.sequelpro.com/
+  image: sequelpro.png
+-
   name: Sublime Text
   description: "Selon moi c'est le meilleur éditeur de code. Facile à prendre en main, et évolutif presque à l'infini grâce à une énorme quantité de plug-in."
   url: http://www.sublimetext.com/
