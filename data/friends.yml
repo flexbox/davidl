@@ -7,11 +7,12 @@
   website: http://romainfauvet.fr/
 -
   name: David watrelot
-  job: Intégrateur HTML & Développeur php
+  job: Freelance Intégrateur HTML & Développeur php
   gravatar_image_path: http://greaaat.com/wp-content/uploads/2014/10/thumbnail-250x250.png
-  sentence: "Artisan du web depuis le siècle dernier, je ne suis plus un junior mais j'ai encore des atouts"
+  sentence: "Artisan du web depuis le siècle dernier, je ne suis plus un junior mais j'ai encore des atouts."
   twitter: hellodeloo
   website: http://www.hellodeloo.com/
+  freelance: true
 -
   name: Guillaume Doutriaux
   job: Freelance Développeur Front-end & Consultant
@@ -19,6 +20,7 @@
   sentence:
   twitter: gdoutriaux
   website: http://www.guillaumedoutriaux.com/
+  freelance: true
 -
   name: Alexandra janin
   job: Webdesigner & Développeur front-end
@@ -40,6 +42,13 @@
   sentence:
   twitter: rbwebdev
   website: http://www.romainbrasier.fr/
+-
+  name: Remi Grumeau
+  job: Développeur & évangeliste mobile
+  gravatar_image_path:
+  sentence:
+  twitter: remi_grumeau
+  website: http://www.remi-grumeau.com/
 -
   name: Victor Darras
   job: Webdesigner & Intégrateur

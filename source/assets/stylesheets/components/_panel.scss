@@ -58,6 +58,21 @@ $m-panel-bg-hover: $white;
         border: 2px solid $white;
         border-radius: $global-rounded;
       }
+      blockquote {
+        text-align: left;
+        padding-left: rem-calc(20);
+      }
+      .l-callout--image {
+        position: relative;
+        i {
+          position: absolute;
+          right: 50%;
+          bottom: rem-calc(-5);
+          color: $sc-js;
+          font-size: rem-calc(40);
+          margin-right: rem-calc(-20);
+        }
+      }
     }
   }
 
