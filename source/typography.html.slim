@@ -1,7 +1,7 @@
 ---
-title: Optimiser les webfont avec du CSS
+title: Optimiser l'accessibilité et la lisibilité des webfont avec du CSS
 description:
-page_title: Règle de base pour la typographie en CSS
+page_title: Typographie & CSS
 page_class: m-homepage
 changefreq: monthly
 priority: 0.6
@@ -11,18 +11,46 @@ priority: 0.6
   .medium-8.medium-centered.columns
     P.drop-cap
       'Ces dernières années, il ya eu énormément de progrès concernant la typographie web. Mais si vous souhaitez sublimer votre expérience de lecture il existe certains point que vous pouvez améliorer.
+
+
     markdown:
+      ## Avant de commencer
+
       - Largeur des paragraphes : aujourd'hui le gros problème sur les sites concerne la largeur des paragraphes. Il sont beaucoups trop longs. `max-width: 40em` est une excellente base pour rendre le texte plus lisible.
 
-      - [Crénage](http://kerningjs.com/) : il peut être utilisé pour serrer / desserrer les caractères.
+      - [Crénage](http://kerningjs.com/) : peut être utilisé pour serrer / desserrer les caractères.
       ![Une animation de texte avec le script kerningjs](https://lh3.googleusercontent.com/-S3P-AF5-7Bc/VG83DBWq2TI/AAAAAAAAAOc/z823eIPmpPA/w449-h300-no/typography.gif)
 
       - Ligature : fusionner 2 caractères pour n'en former qu'un, peut être [modifiée en CSS](https://developer.mozilla.org/fr/docs/Web/CSS/letter-spacing).
 
-      - `webkit-font-smoothing: antialiased;` attention à ne pas l'utiliser sur de petites tailles.
+      ~~~ css
+        p { letter-spacing: 0.4em }
+      ~~~
+
+      - `-webkit-font-smoothing: subpixel-antialiased` peut parfois obstruer les lettres en particulier sur OSX
+
+      - `-webkit-font-smoothing: antialiased` peut fonctionner, mais attention à ne pas l'utiliser sur des polices de petite taille.
+
+      - `text-rendering: optimizeLegibility` avec cette seule ligne vous pouvez corriger instantanément les 2 problèmes précédemment cités et améliorer la typographie sur le web.
 
       Si tout le monde appliquait ces simples conseils, la lecture sur le web en serait meilleure.
 
+.row
+  .medium-12.medium-centered.columns.text-center
+      h2 7 Conseils pour une meilleure typographie
+      hr
 
-    / - `text-rendering: optimizeLegibility` is one line of code that addresses these two issues and will instantly improve typography on the Web.
-    / - Sub-pixel font lettering can sometimes clog up letters especially on OSX.
+.row
+  .medium-8.medium-centered.columns
+      markdown:
+        NB : Tout ces conseils sont donnés par le [typographe Erik Spiekermann](http://fontfeed.com/archives/erik-spiekermanns-typo-tips/), j'ai simplement adapté ses propos au monde de l'intégration CSS.
+
+        ### 1. L'erreur de la majuscule
+
+        Ne JAMAIS utiliser de majuscules pour accentuer les mots dans une phrase.
+
+        Ils sortent beaucoup trop gâcher le look de la colonne ou de la page. Utilisez l'italique en remplacement. Si vous devez définir des mots en majuscules, utilisez [les petites capitalisations](http://typeplate.com/#small-caps) appropriés avec ou sans majuscule.
+
+      p Exemple :
+      p
+        'Lorem ipsum dolor sit amet, consectetur <abbr title="hyper text markup language">HTML</abbr> adipisicing elit. <abbr title="cascading styling sheets">CSS</abbr> Laboriosam voluptatem a beatae accusantium accusamus dolor provident error consectetur quibusdam suscipit neque temporibus. Velit omnis voluptatum quasi tempora reiciendis expedita reprehenderit.
