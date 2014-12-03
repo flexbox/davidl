@@ -12,11 +12,10 @@ priority: 0.6
     P.drop-cap
       'Ces dernières années, il ya eu énormément de progrès concernant la typographie web. Mais si vous souhaitez sublimer votre expérience de lecture il existe certains point que vous pouvez améliorer.
 
-
     markdown:
       ## Avant de commencer
 
-      - Largeur des paragraphes : aujourd'hui le gros problème sur les sites concerne la largeur des paragraphes. Il sont beaucoups trop longs. `max-width: 40em` est une excellente base pour rendre le texte plus lisible.
+      - Largeur des paragraphes : aujourd'hui le gros problème sur les sites concerne la largeur des paragraphes. Il sont beaucoup trop longs. `max-width: 40em` est une excellente base pour rendre le texte plus lisible.
 
       - [Crénage](http://kerningjs.com/) : peut être utilisé pour serrer / desserrer les caractères.
       ![Une animation de texte avec le script kerningjs](https://lh3.googleusercontent.com/-S3P-AF5-7Bc/VG83DBWq2TI/AAAAAAAAAOc/z823eIPmpPA/w449-h300-no/typography.gif)
@@ -27,7 +26,7 @@ priority: 0.6
         p { letter-spacing: 0.4em }
       ~~~
 
-      - `-webkit-font-smoothing: subpixel-antialiased` peut parfois obstruer les lettres en particulier sur OSX
+      - `-webkit-font-smoothing: subpixel-antialiased` peut parfois obstruer les lettres en particulier sur OSX.
 
       - `-webkit-font-smoothing: antialiased` peut fonctionner, mais attention à ne pas l'utiliser sur des polices de petite taille.
 
@@ -49,8 +48,36 @@ priority: 0.6
 
         Ne JAMAIS utiliser de majuscules pour accentuer les mots dans une phrase.
 
-        Ils sortent beaucoup trop gâcher le look de la colonne ou de la page. Utilisez l'italique en remplacement. Si vous devez définir des mots en majuscules, utilisez [les petites capitalisations](http://typeplate.com/#small-caps) appropriés avec ou sans majuscule.
+        Elles ressortent beaucoup trop et gâchent le rythme de la colonne ou de la page. _Utilisez l'italique_ en remplacement. Si vous devez définir des mots en majuscules, utilisez [les petites capitalisations](http://typeplate.com/#small-caps) appropriés avec ou sans majuscule, avec la balise `abbr`.
 
-      p Exemple :
+.row
+  .medium-6.columns
+      .alert-box.info
+        'Exemple d'abréviation
+      p
+        'Lorem ipsum dolor sit amet, consectetur HTML adipisicing elit. CSS Laboriosam voluptatem a beatae accusantium accusamus dolor provident error consectetur quibusdam suscipit neque temporibus. Velit omnis voluptatum quasi tempora reiciendis expedita reprehenderit.
+  .medium-6.columns
+      .alert-box.success
+        i.fa.fa-thumbs-o-up
+        'Bonne solution
       p
         'Lorem ipsum dolor sit amet, consectetur <abbr title="hyper text markup language">HTML</abbr> adipisicing elit. <abbr title="cascading styling sheets">CSS</abbr> Laboriosam voluptatem a beatae accusantium accusamus dolor provident error consectetur quibusdam suscipit neque temporibus. Velit omnis voluptatum quasi tempora reiciendis expedita reprehenderit.
+
+.row
+  .medium-6.columns
+      .alert-box.info
+        'Exemple d'utilisation de l'italique
+      p
+        'La simplicité est uniquement simple quand quelqu'un a SUPPRIMÉ TOUTE LA COMPLEXITÉ.
+  .medium-6.columns
+      .alert-box.success
+        i.fa.fa-thumbs-o-up
+        'Bonne solution
+      p
+        'La simplicité est uniquement simple quand quelqu'un a
+        em supprimé toute la complexité.
+
+.row
+  .medium-8.medium-centered.columns
+      markdown:
+        ### 2. Connexions
