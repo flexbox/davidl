@@ -1,5 +1,5 @@
 ---
-title: Optimiser l'accessibilité et la lisibilité des webfont avec du CSS
+title: Améliorer l'accessibilité et la lisibilité des webfont avec du CSS
 description:
 page_title: Typographie & CSS
 page_class: m-homepage
@@ -44,12 +44,11 @@ priority: 0.6
       markdown:
         NB : Tout ces conseils sont donnés par le [typographe Erik Spiekermann](http://fontfeed.com/archives/erik-spiekermanns-typo-tips/), j'ai simplement adapté ses propos au monde de l'intégration CSS.
 
-        ### 1. L'erreur de la majuscule
+        ### 1. L'ERREUR DE LA MAJUSCULE
 
         Ne JAMAIS utiliser de majuscules pour accentuer les mots dans une phrase.
 
         Elles ressortent beaucoup trop et gâchent le rythme de la colonne ou de la page. _Utilisez l'italique_ en remplacement. Si vous devez définir des mots en majuscules, utilisez [les petites capitalisations](http://typeplate.com/#small-caps) appropriés avec ou sans majuscule, avec la balise `abbr`.
-
 .row
   .medium-6.columns
       .alert-box.info
@@ -59,10 +58,9 @@ priority: 0.6
   .medium-6.columns
       .alert-box.success
         i.fa.fa-thumbs-o-up
-        'Bonne solution
+        '&nbsp;Bonne solution
       p
         'Lorem ipsum dolor sit amet, consectetur <abbr title="hyper text markup language">HTML</abbr> adipisicing elit. <abbr title="cascading styling sheets">CSS</abbr> Laboriosam voluptatem a beatae accusantium accusamus dolor provident error consectetur quibusdam suscipit neque temporibus. Velit omnis voluptatum quasi tempora reiciendis expedita reprehenderit.
-
 .row
   .medium-6.columns
       .alert-box.info
@@ -72,12 +70,80 @@ priority: 0.6
   .medium-6.columns
       .alert-box.success
         i.fa.fa-thumbs-o-up
-        'Bonne solution
+        '&nbsp;Bonne solution
       p
         'La simplicité est uniquement simple quand quelqu'un a
         em supprimé toute la complexité.
 
+
+
 .row
   .medium-8.medium-centered.columns
       markdown:
-        ### 2. Connexions
+        ### 2. Liaisons
+
+        Il existe 3 façons de connecter des mots distincts : le trait d'union -, le tiret demi-cadratin – (`&ndash;`) et le tiret cadratin —, qui est plus large (`&mdash;`). Le trait d'union est facilement accessible sur n'importe quel clavier Mac ou PC, alors que le cadratin est une combinaison des touches `options + tiret` sur Mac. Le demi-cadratin est accessible en utilisant les touches `option + shift + tiret`.
+
+        L'utilisation de ces 3 symboles différents dépends du pays d'origine ou de la tradition d'écriture. Le cadratin est utilisé —pour séparer les pensées commme ceci— mais visuellement je pense que c'est mieux de séparer avec un espace — comme cela —.
+
+        Le demi-cadratin sans espace est souvent utilisé pour combiner des chiffres comme des horaires : Le magasin est ouvert entre 10h–19h, ou vous pouvez aussi pendre le train Paris–Lille seulement entre 6h–22h.
+.row
+  .medium-6.columns
+      .alert-box.info
+        'Exemple de demi-cadratin
+      p
+        'Ouverture 10h-19h
+  .medium-6.columns
+      .alert-box.success
+        i.fa.fa-thumbs-o-up
+        '&nbsp;Mieux
+      p
+        'Ouverture 10h–19h
+.row
+  .medium-6.columns
+      .alert-box.info
+        'Le cadratin
+      p
+        'Il est essentiel - selon moi - de suivre les standards du web.
+  .medium-6.columns
+      .alert-box.success
+        i.fa.fa-thumbs-o-up
+        '&nbsp;Mieux
+      p
+        'Il est essentiel — selon moi — de suivre les standards du web.
+
+.row
+  .medium-8.medium-centered.columns
+      markdown:
+        ### 3. “ & ”
+
+        La principale régression apporté par l'informatique en typographie concerne la mauvaise utilisation des citations et des apostrophes. Les citations peuvent avoir différentes formes. Généralement elles ressemblent à “ceci”, et sont facilement mémorisable par leur début “66” et leur fin “99”. Sur Mac `option + apostrophe` et `option + shift + apostrophe`.
+
+.row
+  .medium-6.columns
+      .alert-box.info
+        'De vraie citations
+      p.lead
+        '"Bonjour"
+  .medium-6.columns
+      .alert-box.success
+        i.fa.fa-thumbs-o-up
+        '&nbsp;Mieux
+      p.lead
+        '“Bonjour”
+
+.row
+  .medium-8.medium-centered.columns
+      /   ### 4. Figuring It Out
+
+      /   ### 5. Joining Forces
+
+      /   ### 6. Not Justified
+
+      /   ### 7. Bite the Bullet
+
+      markdown:
+        Pour aller plus loin :
+
+        [spiekermann.com](http://spiekermann.com/)
+
