@@ -63,3 +63,12 @@
   sentence:
   twitter: HugoMacarez
   website: http://www.hugomacarez.fr/
+-
+  name: Sam Markiewicz
+  job: Graphiste & Développeur front-end
+  gravatar_image_path:
+  sentence:
+  twitter: sammarkz
+  website: http://sammarkiewi.cz/
+  freelance: true
+
