@@ -172,7 +172,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.2.2)
-  middleman (~> 3.3.5)
+  middleman (~> 3.3.7)
   middleman-autoprefixer (~> 2.1.1)
   middleman-blog
   middleman-favicon-maker (~> 3.7)

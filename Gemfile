@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 # gem for linux
 gem 'therubyracer'
 
-gem 'middleman',               '~> 3.3.5'
+gem 'middleman',               '~> 3.3.7'
 gem 'middleman-blog'
 gem 'middleman-gh-pages'
 gem 'middleman-livereload',    '~> 3.3.4'

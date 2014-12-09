@@ -12,7 +12,6 @@
 #= require "foundation/js/foundation/foundation"
 #= require "foundation/js/foundation/foundation.equalizer"
 #= require "foundation/js/foundation/foundation.magellan"
-#= require "foundation/js/foundation/foundation.offcanvas"
-#= require "foundation_init"
+#= require "foundation.initialize"
 
 #= require "easteregg"
