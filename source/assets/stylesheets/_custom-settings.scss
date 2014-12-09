@@ -31,7 +31,9 @@ $blockquote-border: 5px solid $secondary-color;
 $blockquote-cite-font-size: rem-calc(20);
 $blockquote-padding: rem-calc(20 40 20 40) !default;
 
-
+$text-shadow: rgba($black,.4) 0px 2px 0px;
+$transition-duration: 200ms;
+$transition-style: ease-in-out;
 
 // Forms
 

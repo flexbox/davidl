@@ -11,4 +11,8 @@
       color: $alert-color;
     }
   }
+
+  .l-spacing {
+    letter-spacing: rem-calc(1);
+  }
 }

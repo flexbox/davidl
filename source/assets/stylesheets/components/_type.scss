@@ -14,8 +14,20 @@ blockquote {
   font-style: italic;
 }
 
-[href^=""]:not([href*="davidl.fr"]):after,
-[href^="https:"]:not([href*="davidl.fr"]):after {
+a {
+  font-weight: $font-weight-bold;
+  padding: rem-calc(2);
+  border-bottom: 1px solid $anchor-font-color;
+  @include single-transition(background-color, $transition-duration, $transition-style);
+  &:hover {
+    color: $white;
+    background-color: $anchor-font-color;
+    border-bottom-color: $anchor-font-color;
+  }
+}
+
+[href^="http://"]:not([href*="davidl.fr"]):after,
+[href^="https://"]:not([href*="davidl.fr"]):after {
   font-family: FontAwesome;
   padding-left: rem-calc(5);
   content: "\f08e";
