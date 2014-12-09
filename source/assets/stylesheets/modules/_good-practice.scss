@@ -1,0 +1,14 @@
+.m-good-practice {
+  .fa-thumbs-o-up {
+    color: $success-color;
+    & + span {
+      color: $success-color;
+    }
+  }
+  .fa-thumbs-o-down {
+    color: $alert-color;
+    & + span {
+      color: $alert-color;
+    }
+  }
+}

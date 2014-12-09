@@ -57,43 +57,53 @@ Si je ne devais en choisir qu'une liste réduite cela serait sans hésiter :
 Voici le fichier de préférence que j'utilise sur toutes mes machines. Sur Ubuntu j'ai du changer la police de base car le rendu n'est pas le même comparé à Mac OS X. Si vous souhaitez utiliser le même il suffit d'ouvrir les `Settings - user` (`cmd` + `,`) et de modifier le fichier `Preferences.sublime-settings`.
 
 ~~~ json
-    {
-      "color_scheme": "Packages/Theme - Nexus/Nexus.tmTheme",
-      "default_encoding": "UTF-8",
-      "detect_indentation": true,
-      "ensure_newline_at_eof_on_save": true,
-      "folder_exclude_patterns":
-      [
-        ".svn",
-        ".git",
-        ".hg",
-        "CVS",
-        ".idea",
-        "build",
-        ".cache",
-        "tmp/cache/"
-      ],
-      "font_face": "Menlo",
-      "font_size": 10.0,
-      "hot_exit": true,
-      "highlight_line": true,
-      "ignored_packages":
-      [
-        "Vintage"
-      ],
-      "open_files_in_new_window": true,
-      "remember_open_files": false,
-      "rulers":
-      [
-        120
-      ],
-      "show_full_path": true,
-      "tab_size": 2,
-      "theme": "Nexus.sublime-theme",
-      "translate_tabs_to_spaces": true,
-      "trim_automatic_white_space": true,
-      "trim_trailing_white_space_on_save": true
-    }
+{
+  // Theme and scheme
+  "color_scheme": "Packages/Theme - Nexus/Nexus.tmTheme",
+  "theme": "Nexus.sublime-theme",
+  "show_full_path": true,
+  "font_face": "Menlo",
+  "font_size": 10.0,
+  "highlight_line": true,
+  "hot_exit": true,
+
+  // Custom UI and Zen search
+  "folder_exclude_patterns":
+  [
+    ".sql",
+    "*/sql/*",
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    ".idea",
+    "build",
+    ".cache",
+    "tmp/cache/",
+    "features",
+    "spec/"
+  ],
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+
+  "open_files_in_new_window": true,
+  "remember_open_files": false,
+  "rulers":
+  [
+    120
+  ],
+
+  // Coding convention
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_automatic_white_space": true,
+  "trim_trailing_white_space_on_save": true,
+  "default_encoding": "UTF-8",
+  "detect_indentation": true,
+  "ensure_newline_at_eof_on_save": true
+}
 ~~~
 
 ## Démarrer Sublime Text depuis un terminal
