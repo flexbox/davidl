@@ -1,91 +1,91 @@
 ---
-about.html.slim: /about.html.slim
+about.html.slim: "/about.html.slim"
 blog:
   articles:
-    2011-11-28-framework-php.markdown: /blog/articles/2011-11-28-framework-php.markdown
-    2011-12-05-declaration-autoentrepreneur.markdown: /blog/articles/2011-12-05-declaration-autoentrepreneur.markdown
-    2011-12-05-mesure-pixel.markdown: /blog/articles/2011-12-05-mesure-pixel.markdown
-    2011-12-27-liste-ultime-de-site-internet-pour-les-auto-entrepreneurs.markdown: /blog/articles/2011-12-27-liste-ultime-de-site-internet-pour-les-auto-entrepreneurs.markdown
-    2012-01-11-afficher-masquer-la-grille-des-pixels-en-zoom-photoshop.markdown: /blog/articles/2012-01-11-afficher-masquer-la-grille-des-pixels-en-zoom-photoshop.markdown
-    2012-03-16-webdesign-adaptatif-5-astuces-indispensables.markdown: /blog/articles/2012-03-16-webdesign-adaptatif-5-astuces-indispensables.markdown
-    2012-06-08-windows-repertoire-git.markdown: /blog/articles/2012-06-08-windows-repertoire-git.markdown
-    2012-06-22-integration-emails.markdown: /blog/articles/2012-06-22-integration-emails.markdown
-    2012-07-02-favicon.markdown: /blog/articles/2012-07-02-favicon.markdown
-    2012-07-13-igoogle-xml-opml.markdown: /blog/articles/2012-07-13-igoogle-xml-opml.markdown
-    2012-07-31-creez-rapidement-votre-portfolio-en-6-etapes.markdown: /blog/articles/2012-07-31-creez-rapidement-votre-portfolio-en-6-etapes.markdown
-    2012-08-06-typographie-google-font.markdown: /blog/articles/2012-08-06-typographie-google-font.markdown
-    2012-08-10-prix-site-internet.html.markdown: /blog/articles/2012-08-10-prix-site-internet.html.markdown
-    2012-08-27-twitter-a-change-votre-vie-essayez-lift.markdown: /blog/articles/2012-08-27-twitter-a-change-votre-vie-essayez-lift.markdown
-    2012-10-16-question-wireframe.markdown: /blog/articles/2012-10-16-question-wireframe.markdown
-    2012-11-08-redaction-briefing.markdown: /blog/articles/2012-11-08-redaction-briefing.markdown
-    2012-11-21-banniere-application-mobile.markdown: /blog/articles/2012-11-21-banniere-application-mobile.markdown
-    2012-11-23-tarif-webdesigner.markdown: /blog/articles/2012-11-23-tarif-webdesigner.markdown
-    2012-12-08-open-du-web-lille.markdown: /blog/articles/2012-12-08-open-du-web-lille.markdown
-    2012-12-20-choix-lien-bouton.markdown: /blog/articles/2012-12-20-choix-lien-bouton.markdown
-    2013-01-09-formation-print-web.markdown: /blog/articles/2013-01-09-formation-print-web.markdown
-    2013-01-11-zendstudio-todo-installation.markdown: /blog/articles/2013-01-11-zendstudio-todo-installation.markdown
-    2013-01-23-takeoff-conf-2013.markdown: /blog/articles/2013-01-23-takeoff-conf-2013.markdown
-    2013-01-29-test-firefoxosappdays.markdown: /blog/articles/2013-01-29-test-firefoxosappdays.markdown
-    2013-02-25-webdesign-adaptatif-vs-site-mobile-vs-application-native.markdown: /blog/articles/2013-02-25-webdesign-adaptatif-vs-site-mobile-vs-application-native.markdown
-    2013-05-31-base-design-adaptatif.markdown: /blog/articles/2013-05-31-base-design-adaptatif.markdown
-    2013-06-14-css-evolutif.html.markdown: /blog/articles/2013-06-14-css-evolutif.html.markdown
-    2013-08-14-breakpoint.markdown: /blog/articles/2013-08-14-breakpoint.markdown
-    2013-08-16-hebergement-gratuit-ovh.markdown: /blog/articles/2013-08-16-hebergement-gratuit-ovh.markdown
-    2013-11-15-javascript.markdown: /blog/articles/2013-11-15-javascript.markdown
-    2013-11-26-esprit-web.markdown: /blog/articles/2013-11-26-esprit-web.markdown
-    2013-12-13-foundation-breakpoint.markdown: /blog/articles/2013-12-13-foundation-breakpoint.markdown
-    2014-01-08-briefing-creatif.markdown: /blog/articles/2014-01-08-briefing-creatif.markdown
-    2014-01-13-firefox-2014.markdown: /blog/articles/2014-01-13-firefox-2014.markdown
-    2014-01-17-favicon-middleman.markdown: /blog/articles/2014-01-17-favicon-middleman.markdown
-    2014-01-24-foundation5-interchange.markdown: /blog/articles/2014-01-24-foundation5-interchange.markdown
-    2014-01-28-foundation5-snippet.markdown: /blog/articles/2014-01-28-foundation5-snippet.markdown
-    2014-02-07-takeoff-conf-2014.markdown: /blog/articles/2014-02-07-takeoff-conf-2014.markdown
-    2014-02-11-foundation5-architecture-interchange.markdown: /blog/articles/2014-02-11-foundation5-architecture-interchange.markdown
-    2014-02-20-client-idiot.markdown: /blog/articles/2014-02-20-client-idiot.markdown
-    2014-02-25-fin-psd.markdown: /blog/articles/2014-02-25-fin-psd.markdown
-    2014-03-31-conseil-dev.markdown: /blog/articles/2014-03-31-conseil-dev.markdown
-    2014-04-01-easter-egg-april.markdown: /blog/articles/2014-04-01-easter-egg-april.markdown
-    2014-04-02-louvrelens.markdown: /blog/articles/2014-04-02-louvrelens.markdown
-    2014-04-14-migration-wordpress.markdown: /blog/articles/2014-04-14-migration-wordpress.markdown
-    2014-05-21-site-obese.markdown: /blog/articles/2014-05-21-site-obese.markdown
-    2014-05-27-import-sass.markdown: /blog/articles/2014-05-27-import-sass.markdown
-    2014-06-17-ecoequitable.markdown: /blog/articles/2014-06-17-ecoequitable.markdown
-    2014-07-30-grille-semantique.markdown: /blog/articles/2014-07-30-grille-semantique.markdown
-    2014-08-03-metier-integrateur-web.markdown: /blog/articles/2014-08-03-metier-integrateur-web.markdown
-    2014-08-06-github-ninja.markdown: /blog/articles/2014-08-06-github-ninja.markdown
-    2014-08-18-foundation-love.markdown: /blog/articles/2014-08-18-foundation-love.markdown
-    2014-08-24-sublime-source-code.markdown: /blog/articles/2014-08-24-sublime-source-code.markdown
-    2014-09-07-template-ruby.markdown: /blog/articles/2014-09-07-template-ruby.markdown
-    2014-09-23-paris-web-2014.markdown: /blog/articles/2014-09-23-paris-web-2014.markdown
-  index.html.slim: /blog/index.html.slim
-books.html.slim: /books.html.slim
-clients.html.slim: /clients.html.slim
-codex.html.slim: /codex.html.slim
-contact.html.slim: /contact.html.slim
-cv.html.slim: /cv.html.slim
+    2011-11-28-framework-php.markdown: "/blog/articles/2011-11-28-framework-php.markdown"
+    2011-12-05-declaration-autoentrepreneur.markdown: "/blog/articles/2011-12-05-declaration-autoentrepreneur.markdown"
+    2011-12-05-mesure-pixel.markdown: "/blog/articles/2011-12-05-mesure-pixel.markdown"
+    2011-12-27-liste-ultime-de-site-internet-pour-les-auto-entrepreneurs.markdown: "/blog/articles/2011-12-27-liste-ultime-de-site-internet-pour-les-auto-entrepreneurs.markdown"
+    2012-01-11-afficher-masquer-la-grille-des-pixels-en-zoom-photoshop.markdown: "/blog/articles/2012-01-11-afficher-masquer-la-grille-des-pixels-en-zoom-photoshop.markdown"
+    2012-03-16-webdesign-adaptatif-5-astuces-indispensables.markdown: "/blog/articles/2012-03-16-webdesign-adaptatif-5-astuces-indispensables.markdown"
+    2012-06-08-windows-repertoire-git.markdown: "/blog/articles/2012-06-08-windows-repertoire-git.markdown"
+    2012-06-22-integration-emails.markdown: "/blog/articles/2012-06-22-integration-emails.markdown"
+    2012-07-02-favicon.markdown: "/blog/articles/2012-07-02-favicon.markdown"
+    2012-07-13-igoogle-xml-opml.markdown: "/blog/articles/2012-07-13-igoogle-xml-opml.markdown"
+    2012-07-31-creez-rapidement-votre-portfolio-en-6-etapes.markdown: "/blog/articles/2012-07-31-creez-rapidement-votre-portfolio-en-6-etapes.markdown"
+    2012-08-06-typographie-google-font.markdown: "/blog/articles/2012-08-06-typographie-google-font.markdown"
+    2012-08-10-prix-site-internet.html.markdown: "/blog/articles/2012-08-10-prix-site-internet.html.markdown"
+    2012-08-27-twitter-a-change-votre-vie-essayez-lift.markdown: "/blog/articles/2012-08-27-twitter-a-change-votre-vie-essayez-lift.markdown"
+    2012-10-16-question-wireframe.markdown: "/blog/articles/2012-10-16-question-wireframe.markdown"
+    2012-11-08-redaction-briefing.markdown: "/blog/articles/2012-11-08-redaction-briefing.markdown"
+    2012-11-21-banniere-application-mobile.markdown: "/blog/articles/2012-11-21-banniere-application-mobile.markdown"
+    2012-11-23-tarif-webdesigner.markdown: "/blog/articles/2012-11-23-tarif-webdesigner.markdown"
+    2012-12-08-open-du-web-lille.markdown: "/blog/articles/2012-12-08-open-du-web-lille.markdown"
+    2012-12-20-choix-lien-bouton.markdown: "/blog/articles/2012-12-20-choix-lien-bouton.markdown"
+    2013-01-09-formation-print-web.markdown: "/blog/articles/2013-01-09-formation-print-web.markdown"
+    2013-01-11-zendstudio-todo-installation.markdown: "/blog/articles/2013-01-11-zendstudio-todo-installation.markdown"
+    2013-01-23-takeoff-conf-2013.markdown: "/blog/articles/2013-01-23-takeoff-conf-2013.markdown"
+    2013-01-29-test-firefoxosappdays.markdown: "/blog/articles/2013-01-29-test-firefoxosappdays.markdown"
+    2013-02-25-webdesign-adaptatif-vs-site-mobile-vs-application-native.markdown: "/blog/articles/2013-02-25-webdesign-adaptatif-vs-site-mobile-vs-application-native.markdown"
+    2013-05-31-base-design-adaptatif.markdown: "/blog/articles/2013-05-31-base-design-adaptatif.markdown"
+    2013-06-14-css-evolutif.html.markdown: "/blog/articles/2013-06-14-css-evolutif.html.markdown"
+    2013-08-14-breakpoint.markdown: "/blog/articles/2013-08-14-breakpoint.markdown"
+    2013-08-16-hebergement-gratuit-ovh.markdown: "/blog/articles/2013-08-16-hebergement-gratuit-ovh.markdown"
+    2013-11-15-javascript.markdown: "/blog/articles/2013-11-15-javascript.markdown"
+    2013-11-26-esprit-web.markdown: "/blog/articles/2013-11-26-esprit-web.markdown"
+    2013-12-13-foundation-breakpoint.markdown: "/blog/articles/2013-12-13-foundation-breakpoint.markdown"
+    2014-01-08-briefing-creatif.markdown: "/blog/articles/2014-01-08-briefing-creatif.markdown"
+    2014-01-13-firefox-2014.markdown: "/blog/articles/2014-01-13-firefox-2014.markdown"
+    2014-01-17-favicon-middleman.markdown: "/blog/articles/2014-01-17-favicon-middleman.markdown"
+    2014-01-24-foundation5-interchange.markdown: "/blog/articles/2014-01-24-foundation5-interchange.markdown"
+    2014-01-28-foundation5-snippet.markdown: "/blog/articles/2014-01-28-foundation5-snippet.markdown"
+    2014-02-07-takeoff-conf-2014.markdown: "/blog/articles/2014-02-07-takeoff-conf-2014.markdown"
+    2014-02-11-foundation5-architecture-interchange.markdown: "/blog/articles/2014-02-11-foundation5-architecture-interchange.markdown"
+    2014-02-20-client-idiot.markdown: "/blog/articles/2014-02-20-client-idiot.markdown"
+    2014-02-25-fin-psd.markdown: "/blog/articles/2014-02-25-fin-psd.markdown"
+    2014-03-31-conseil-dev.markdown: "/blog/articles/2014-03-31-conseil-dev.markdown"
+    2014-04-01-easter-egg-april.markdown: "/blog/articles/2014-04-01-easter-egg-april.markdown"
+    2014-04-02-louvrelens.markdown: "/blog/articles/2014-04-02-louvrelens.markdown"
+    2014-04-14-migration-wordpress.markdown: "/blog/articles/2014-04-14-migration-wordpress.markdown"
+    2014-05-21-site-obese.markdown: "/blog/articles/2014-05-21-site-obese.markdown"
+    2014-05-27-import-sass.markdown: "/blog/articles/2014-05-27-import-sass.markdown"
+    2014-06-17-ecoequitable.markdown: "/blog/articles/2014-06-17-ecoequitable.markdown"
+    2014-07-30-grille-semantique.markdown: "/blog/articles/2014-07-30-grille-semantique.markdown"
+    2014-08-03-metier-integrateur-web.markdown: "/blog/articles/2014-08-03-metier-integrateur-web.markdown"
+    2014-08-06-github-ninja.markdown: "/blog/articles/2014-08-06-github-ninja.markdown"
+    2014-08-18-foundation-love.markdown: "/blog/articles/2014-08-18-foundation-love.markdown"
+    2014-08-24-sublime-source-code.markdown: "/blog/articles/2014-08-24-sublime-source-code.markdown"
+    2014-09-07-template-ruby.markdown: "/blog/articles/2014-09-07-template-ruby.markdown"
+    2014-09-23-paris-web-2014.markdown: "/blog/articles/2014-09-23-paris-web-2014.markdown"
+  index.html.slim: "/blog/index.html.slim"
+books.html.slim: "/books.html.slim"
+clients.html.slim: "/clients.html.slim"
+codex.html.slim: "/codex.html.slim"
+contact.html.slim: "/contact.html.slim"
+cv.html.slim: "/cv.html.slim"
 forge:
   chapitres:
-    0-1-evolution.markdown: /forge/chapitres/0-1-evolution.markdown
-    1-1-technique.markdown: /forge/chapitres/1-1-technique.markdown
-    1-2-lecture.markdown: /forge/chapitres/1-2-lecture.markdown
-    1-3-architecture.markdown: /forge/chapitres/1-3-architecture.markdown
-    1-4-publicite.markdown: /forge/chapitres/1-4-publicite.markdown
-    1-5-details.markdown: /forge/chapitres/1-5-details.markdown
-    2-1-manifeste-refonte.markdown: /forge/chapitres/2-1-manifeste-refonte.markdown
-  index.html.slim: /forge/index.html.slim
-index.html.slim: /index.html.slim
-integrateur-web-lille.html.slim: /integrateur-web-lille.html.slim
-legal.html.slim: /legal.html.slim
-lexique.html.slim: /lexique.html.slim
-manifesto.html.slim: /manifesto.html.slim
-mentors.html.slim: /mentors.html.slim
-newsletter.html.slim: /newsletter.html.slim
-pricing.html.slim: /pricing.html.slim
-projects.html.slim: /projects.html.slim
-sitemap.html.slim: /sitemap.html.slim
-sos.html.slim: /sos.html.slim
-toolkit.html.slim: /toolkit.html.slim
-typography.html.slim: /typography.html.slim
-video.html.slim: /video.html.slim
-webdesign.html.slim: /webdesign.html.slim
-work.html.slim: /work.html.slim
+    0-1-evolution.markdown: "/forge/chapitres/0-1-evolution.markdown"
+    1-1-technique.markdown: "/forge/chapitres/1-1-technique.markdown"
+    1-2-lecture.markdown: "/forge/chapitres/1-2-lecture.markdown"
+    1-3-architecture.markdown: "/forge/chapitres/1-3-architecture.markdown"
+    1-4-publicite.markdown: "/forge/chapitres/1-4-publicite.markdown"
+    1-5-details.markdown: "/forge/chapitres/1-5-details.markdown"
+    2-1-manifeste-refonte.markdown: "/forge/chapitres/2-1-manifeste-refonte.markdown"
+  index.html.slim: "/forge/index.html.slim"
+index.html.slim: "/index.html.slim"
+integrateur-web-lille.html.slim: "/integrateur-web-lille.html.slim"
+legal.html.slim: "/legal.html.slim"
+lexique.html.slim: "/lexique.html.slim"
+manifesto.html.slim: "/manifesto.html.slim"
+mentors.html.slim: "/mentors.html.slim"
+newsletter.html.slim: "/newsletter.html.slim"
+pricing.html.slim: "/pricing.html.slim"
+projects.html.slim: "/projects.html.slim"
+sitemap.html.slim: "/sitemap.html.slim"
+sos.html.slim: "/sos.html.slim"
+toolkit.html.slim: "/toolkit.html.slim"
+typography.html.slim: "/typography.html.slim"
+video.html.slim: "/video.html.slim"
+webdesign.html.slim: "/webdesign.html.slim"
+work.html.slim: "/work.html.slim"

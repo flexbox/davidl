@@ -7,8 +7,8 @@ changefreq: monthly
 priority: 0.6
 ---
 
-.row
-  .medium-8.medium-centered.columns
+section
+  article
     P.drop-cap
       'Ces dernières années, il ya eu énormément de progrès concernant la typographie web. Mais si vous souhaitez sublimer votre expérience de lecture il existe certains point que vous pouvez améliorer.
 
@@ -39,13 +39,16 @@ priority: 0.6
       h2 6 Conseils pour une meilleure typographie
       hr
 
-.row
-  .medium-8.medium-centered.columns
+section
+  article
       markdown:
-        NB : Tout ces conseils sont donnés par le [typographe Erik Spiekermann](http://fontfeed.com/archives/erik-spiekermanns-typo-tips/), j'ai simplement adapté ses propos au monde de l'intégration CSS.
+        __NB__ : Tout ces conseils sont donnés par le [typographe Erik Spiekermann](http://fontfeed.com/archives/erik-spiekermanns-typo-tips/), j'ai simplement adapté ses propos au monde de l'intégration CSS.
 
-        ### 1. L'ERREUR DE LA MAJUSCULE
+      .l-title
+        p.gamma.i-rounded 1
+        h3 L'ERREUR DE LA MAJUSCULE
 
+      markdown:
         Ne JAMAIS utiliser de majuscules pour accentuer les mots dans une phrase.
 
         Elles ressortent beaucoup trop et gâchent le rythme de la colonne ou de la page. _Utilisez l'italique_ en remplacement. Si vous devez définir des mots en majuscules, utilisez [les petites capitalisations](http://typeplate.com/#small-caps) appropriés avec ou sans majuscule, avec la balise `abbr`.
@@ -83,11 +86,10 @@ priority: 0.6
               'La simplicité est uniquement simple quand quelqu'un a
               em supprimé toute la complexité.
 
-
-
+      .l-title
+        span.gamma.i-rounded 2
+        h3 Liaisons
       markdown:
-        ### 2. Liaisons
-
         Il existe 3 façons de connecter des mots distincts : le trait d'union -, le tiret demi-cadratin – `&ndash;` et le tiret cadratin —, qui est plus large `&mdash;`. Le trait d'union est facilement accessible sur n'importe quel clavier Mac ou PC, alors que le cadratin est une combinaison des touches `options + tiret` sur Mac. Le demi-cadratin est accessible en utilisant les touches `option + shift + tiret`.
 
         L'utilisation de ces 3 symboles différents dépends du pays d'origine ou de la tradition d'écriture. Le cadratin est utilisé —pour séparer les pensées commme ceci— mais visuellement je pense que c'est mieux de séparer avec un espace — comme cela —.
@@ -128,11 +130,10 @@ priority: 0.6
             p
               'Il est essentiel — selon moi — de suivre les standards du web.
 
-
-
+      .l-title
+        span.gamma.i-rounded 3
+        h3 “ & ”
       markdown:
-        ### 3. “ & ”
-
         La principale régression, apporté par l'informatique en typographie, concerne la mauvaise utilisation des citations et apostrophes. Les citations peuvent avoir différentes formes. Généralement elles ressemblent à “ceci”, et sont facilement mémorisable par leur début “66” et leur fin “99”. Sur Mac `option + apostrophe` et `option + shift + apostrophe`.
       .row
         .medium-6.columns
@@ -150,11 +151,10 @@ priority: 0.6
             p.lead
               '“Bonjour”
 
-
-
+      .l-title
+        span.gamma.i-rounded 4
+        h3 Unir les forces
       markdown:
-        ### 4. Unir les forces
-
         Une ligature est une combinaison visuelle de 2 ou 3 lettres en un seul caractère comme ff, fi, fl, ffi. Les ligatures concervent les lettres de chevauchements et améliorent la lisibilité.
       .row
         .medium-6.columns
@@ -180,11 +180,10 @@ priority: 0.6
               br
               'Configure
 
-
-
+      .l-title
+        span.gamma.i-rounded 5
+        h3 Ne pas justifier
       markdown:
-        ### 5. Ne pas justifier
-
         Évitez les réglages de chasse ! La plupart des applications créent un texte hideusement justifié par étirement en créant de nombreux espaces entre les mots. Notez qu'il faut _de nombreuses heures de travail fastidieux_, pour composer un texte justifié qui soit vraiment bien proportionné et lisible.
 
         Pour cette raison, les professionnels préfèrent utiliser des compositions alignées sur la gauche, avec ou sans césure, en fonction de variation à la propriété `line-height`. Cela donne au texte une apparence plus harmonieuse et le rend plus facile à lire, puisque tous les espaces entre les mots ont la même largeur.
@@ -208,15 +207,16 @@ priority: 0.6
                 p
                   'The world at once present and absent which the spectacle makes visible is the world of the commodity dominating all that...
 
+      .l-title
+        span.gamma.i-rounded 6
+        h3 Sauvez les listes
       markdown:
-        ### 6. Sauvez les listes
-
         Utilisez des puces `&bull;` ou des points centrés `&sdot;` au lieu des traits d'union `-` lorsque vous listez des éléments.
         Ils appartiennent au jeu de [caractères standard](http://responsiveicon.fr/) et s'utilisent facilement :
 
-        • `option + 8` (mac), `alt + 0149` (windows)
+        • `option + dièse` (mac), `alt + 0149` (windows)
 
-        · `option + shift` + 9 (mac), `alt + 0183` (windows)
+        · `option + shift + 9` (mac), `alt + 0183` (windows)
 
       .row
         .medium-6.columns
@@ -237,6 +237,7 @@ priority: 0.6
               li Black mesa
 
       markdown:
+        - - -
 
         Pour aller plus loin :
 

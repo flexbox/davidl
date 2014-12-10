@@ -4,7 +4,7 @@ slug: template-ruby
 title: Coder du HTML plus rapidement grâce au templating
 description: "Le language de balisage HTML est à la base du web. Son principal problème est -selon moi, sa lenteur d'écriture.
 "
-page_title: 5 astuces pour utiliser slim avec ruby
+page_title: 5 astuces pour utiliser<br> slim avec ruby
 changefreq: monthly
 priority: 0.8
 ---

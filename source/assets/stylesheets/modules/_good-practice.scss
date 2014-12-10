@@ -15,4 +15,15 @@
   .l-spacing {
     letter-spacing: rem-calc(1);
   }
+
+  section {
+    @include grid-row;
+    article {
+      @include grid-column($columns:8, $center:true);
+    }
+    .l-title {
+      @include clearfix;
+    }
+  }
+
 }

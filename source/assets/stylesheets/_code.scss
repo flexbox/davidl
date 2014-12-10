@@ -7,7 +7,6 @@ $code-background-color: rgba($white,0.8);
 
 
 pre, code {
-  color: #faf6e4;
   font-family: $code-font-family;
 }
 
@@ -21,6 +20,12 @@ pre {
   padding-bottom: rem-calc(15);
   line-height: rem-calc(20);
   margin-bottom: rem-calc(20);
+
+  code {
+    color: #faf6e4;
+    padding: 0;
+  }
+
   &:hover {
     cursor: $cursor-text-value;
   }
