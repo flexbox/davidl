@@ -19,7 +19,10 @@
   section {
     @include grid-row;
     article {
-      @include grid-column($columns:8, $center:true);
+      @include grid-column($columns:12);
+      @media #{$small}{
+        @include grid-column($columns:8, $center:true);
+      }
     }
     .l-title {
       @include clearfix;

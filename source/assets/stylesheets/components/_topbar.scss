@@ -18,17 +18,9 @@ $topbar-height: rem-calc(60);
   }
 }
 
-.headroom--top {
-  background-color: transparent;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
-  a {
-    color: $gray;
-  }
-}
-
-.headroom--not-top {
-  background-color: $white;
-  box-shadow: 1px 0px 3px rgba(0,0,0,.2);
+.m-topbar--logo {
+  display: block;
+  padding: rem-calc(5 10);
 }
 
 .m-topbar--list {
@@ -53,13 +45,25 @@ $topbar-height: rem-calc(60);
   }
 }
 
+
+.headroom--top {
+  background-color: transparent;
+  box-shadow: 0px 0px 0px rgba(0,0,0,.5);
+  a {
+    color: $gray;
+  }
+}
+
+.headroom--not-top {
+  background-color: $white;
+  box-shadow: 1px 0px 3px rgba(0,0,0,.2);
+}
 .headroom {
-  transition: transform 200ms linear;
+  transition: transform 200ms ease-in-out;
 }
 .headroom--pinned {
   transform: translateY(0%);
 }
 .headroom--unpinned {
   transform: translateY(-100%);
-
 }

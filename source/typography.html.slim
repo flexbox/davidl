@@ -1,5 +1,5 @@
 ---
-title: Améliorer l'accessibilité et la lisibilité des webfont avec du CSS
+title: Améliorer l'accessibilité et la lisibilité des caractères avec du CSS
 description: Il existe un pouvoir de la typographie pour raconter des histoires.
 page_title: Typographie & CSS
 page_class: m-good-practice
@@ -15,16 +15,11 @@ section
     markdown:
       ## Avant de commencer
 
-      - Largeur des paragraphes : aujourd'hui le gros problème sur les sites concerne la largeur des paragraphes. Il sont beaucoup trop longs. `max-width: 40em` est une excellente base pour rendre le texte plus lisible.
+      Voici quelques règles de base à mettre en place dès maintenant pour faciliter la lecture du contenu de vos pages web. Si tout le monde appliquait ces simples conseils, la lecture sur internet en serait meilleure.
 
-      - [Crénage](http://kerningjs.com/) : peut être utilisé pour serrer / desserrer les caractères.
-      ![Une animation de texte avec le script kerningjs](https://lh3.googleusercontent.com/-S3P-AF5-7Bc/VG83DBWq2TI/AAAAAAAAAOc/z823eIPmpPA/w449-h300-no/typography.gif)
+      - Aujourd'hui tous les navigateur sur le marché ont une taille de police par défaut de `16px`.
 
-      - Ligature : fusionner 2 caractères pour n'en former qu'un, peut être [modifiée en CSS](https://developer.mozilla.org/fr/docs/Web/CSS/letter-spacing).
-
-      ~~~ css
-        p { letter-spacing: 0.4em }
-      ~~~
+      - Largeur des paragraphes : actuellement le gros problème sur les sites concerne la largeur des paragraphes. Il sont beaucoup trop longs. `max-width: 40em` est une excellente base pour rendre le texte plus lisible.
 
       - `-webkit-font-smoothing: subpixel-antialiased` peut parfois obstruer les lettres en particulier sur OSX.
 
@@ -32,15 +27,13 @@ section
 
       - `text-rendering: optimizeLegibility` avec cette seule ligne vous pouvez corriger instantanément les 2 problèmes précédemment cités et améliorer la typographie sur le web.
 
-      Si tout le monde appliquait ces simples conseils, la lecture sur le web en serait meilleure.
-
 .row
   .medium-12.medium-centered.columns.text-center
       h2 6 Conseils pour une meilleure typographie
       hr
 
-section
-  article
+section itemtype="http://schema.org/BlogPosting" itemscope=""
+  article itemprop="articleBody"
       markdown:
         __NB__ : Tout ces conseils sont donnés par le [typographe Erik Spiekermann](http://fontfeed.com/archives/erik-spiekermanns-typo-tips/), j'ai simplement adapté ses propos au monde de l'intégration CSS.
 
@@ -155,7 +148,16 @@ section
         span.gamma.i-rounded 4
         h3 Unir les forces
       markdown:
-        Une ligature est une combinaison visuelle de 2 ou 3 lettres en un seul caractère comme ff, fi, fl, ffi. Les ligatures concervent les lettres de chevauchements et améliorent la lisibilité.
+        En typographie une bonne gestion des espaces est indispensable. Ce travail est extrèmement long car il doit être réalisé à la main, caractère par caractère. Heureusement il existe des solutions pour améliorer la gestion des espaces entre deux lettres.
+
+        Le crénage peut être utilisé pour serrer ou desserrer l'espaces entre les caractères. [kerningjs](http://kerningjs.com/) est une solution qui allie CSS et JavaScript afin de permettre une gestion automatisée de l'espacement.
+        ![Une animation de texte avec le script kerningjs](https://lh3.googleusercontent.com/-S3P-AF5-7Bc/VG83DBWq2TI/AAAAAAAAAOc/z823eIPmpPA/w449-h300-no/typography.gif)
+
+        Une ligature est une combinaison visuelle de 2 ou 3 lettres en un seul caractère comme ff, fi, fl, ffi. Les ligatures concervent les lettres de chevauchements, améliorent la lisibilité et sont facilement [modifiables en CSS](https://developer.mozilla.org/fr/docs/Web/CSS/letter-spacing).
+
+        ~~~ css
+          h1 { letter-spacing: -3px; }
+        ~~~
       .row
         .medium-6.columns
             h4
