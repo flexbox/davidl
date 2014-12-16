@@ -40,23 +40,6 @@
   }
 }
 
-.m-homepage--section {
-  background-color: $black;
-  padding: rem-calc(40 20);
-  margin: rem-calc(40 0);
-
-  .l-link {
-    @extend .sith;
-    margin-bottom: 0;
-    text-align: center;
-    color: $white;
-    a {
-      color: $white;
-      border-color: $white;
-    }
-  }
-}
-
 .m-homepage--pdca {
   p {
     font-family: $header-font-family;

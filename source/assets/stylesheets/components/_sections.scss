@@ -1,0 +1,21 @@
+.m-section {
+  margin: rem-calc(60) 0 rem-calc(80);
+  padding: rem-calc(40) 0;
+}
+
+.m-section--inverse {
+  background-color: $black;
+  padding: rem-calc(40 20);
+  margin: rem-calc(40 0);
+
+  .l-link {
+    @extend .sith;
+    margin: rem-calc(20 0);
+    text-align: center;
+    color: $white;
+    a {
+      color: $white;
+      border-color: $white;
+    }
+  }
+}
