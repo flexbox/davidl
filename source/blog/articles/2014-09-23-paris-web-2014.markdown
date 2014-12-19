@@ -27,7 +27,7 @@ On prends un café, plus de 150 participants sont attendus. En attendant on choi
 
 ## Mon programme de développeur front-end
 
-La veille, j'avais préparé [mon programme](http://www.paris-web.fr/2014/ateliers/) "clone de whatsapp" à base d'HTML5 et d'Angular.js. Problème : je voulais absolument assister à l'atelier de [@nhoisez](https://twitter.com/nhoisez) sur la performance et le responsive web design. Quand je vous disais que c'est très compliqué de faire son programme de la journée. Au final j'ai choisi en temps réel mon programme en fonction de l'humeur du moment.
+La veille, j'avais préparé [mon programme](http://www.paris-web.fr/2014/ateliers/) "clone de whatsapp" à base d'HTML5 et d'Angular.js. Problème : je voulais absolument assister à l'atelier de [@nhoizey](https://twitter.com/nhoizey) sur la performance et le responsive web design. Quand je vous disais que c'est très compliqué de faire son programme de la journée. Au final j'ai choisi en temps réel mon programme en fonction de l'humeur du moment.
 
 ### Un jeu accessible avec HTML5, JavaScript et ARIA.
 
@@ -44,9 +44,9 @@ Quand on voit ce qu'est capable de faire Google Now, Siri et Cortana, je pense q
 
 ### Finissons-en ensemble avec le mythe de Responsive Web Design lent
 
-_Avec Matthias Dugué et Nicolas Hoisey_
+_Avec Matthias Dugué et Nicolas Hoizey_
 
-Pourquoi je voulais participer à cet atelier ? Parce que [@nhoisez](https://twitter.com/nhoisez) c'est le meilleur #privateJoke. Plus sérieusement, si vous souhaitez faire de vrai interfaces web préparés pour l'avenir vous devez gagner votre indépendance vis à vis de la résolution d'écran. Pour cela : [les mesures c'est en em](http://vimeo.com/79204119) ou rien.
+Pourquoi je voulais participer à cet atelier ? Parce que [@nhoizey](https://twitter.com/nhoizey) c'est le meilleur #privateJoke. Plus sérieusement, si vous souhaitez faire de vrai interfaces web préparés pour l'avenir vous devez gagner votre indépendance vis à vis de la résolution d'écran. Pour cela : [les mesures c'est en em](http://vimeo.com/79204119) ou rien.
 
 La participation est au coeur de cet atelier. En partant d'un [thème responsive hébergé sur GitHub](https://github.com/m4dz/prwd-workshop), le but est de proposer des solutions au travers de pull-request. En plus le projet est un site statique -comme le mien. Génial ! ... Et puis j'ai suivi le workflow qui est à mon avis le gros point noir : le temps de `git clone` le projet, `bundle install` les gems ruby et `npm install le-reste-du-monde`, vous avez déjà "perdu" pas mal de temps.
 
