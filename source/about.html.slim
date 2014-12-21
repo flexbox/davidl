@@ -102,15 +102,11 @@ section.m-section
               figcaption
                 h3
                   = book.title
-                p.hide-for-small
-                  = book.description
                 = link_to "J'achèèète", book.amazon.url, class: 'button'
                 = image_tag book.amazon.image
-      .row
-        .medium-6.medium-centered.columns
-          = link_to '/books.html', class: 'button large expand secondary' do
-            'Voir mes recommandations
-            i.fa.fa-arrow-right
+      = link_to '/books.html', class: 'button large right' do
+        'Lire mes recommandations
+        i.fa.fa-fw.fa-arrow-right
 
 section.m-section
   .row
@@ -176,3 +172,11 @@ section.m-section
     .medium-12.columns
       h2 Où peut-on me trouver sur internet ?
       = partial 'views/social'
+      hr
+
+      p.lead
+       strong
+        'Toujours pas convaincu ?
+       'Découvez comment je respecte les standards du web avec
+       = link_to 'ma méthode de travail', '/work.html'
+       '.

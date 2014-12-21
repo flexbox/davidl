@@ -1,8 +1,8 @@
 ---
 title: Contacter David Leuliette développeur front-end
 description: Vous cherchez à me joindre rapidement ? Je vous invite à visiter cette page qui regroupe toutes mes informations de contact.
-page_title: Contactez-moi
-page_emphasis:
+page_title: Un problème ? J’ai la solution
+page_emphasis: Je peux vous aider à avoir un meilleur site internet
 changefreq: monthly
 priority: 0.5
 ---
@@ -10,15 +10,16 @@ priority: 0.5
 .row
   .medium-6.medium-centered.columns
     .m-panel.l-callout
-      p
+      p.lead
         'Vous cherchez à me contacter ? La façon la plus rapide est de me mentionner sur twitter
         = link_to data.settings.social.twitter.name, data.settings.social.twitter.url
-        '. Pour les demandes de plus de 140 caractères je vous invite à m'envoyer un email à
+        br
+        'Pour les demandes de plus de 140 caractères je vous invite à m'envoyer un email à
         = link_to data.settings.social.email, "mailto:#{data.settings.social.email}"
 
 .row
   .medium-6.columns
-    h2 Vous devez m'envoyer un message
+    h2 Envoyez moi un message
     ul
       li
         p
@@ -65,7 +66,12 @@ priority: 0.5
 
 .row
   .medium-12.columns
-    h2 Ailleurs sur le web
+    h2.text-center Ailleurs sur le web
+    hr
+    p
+      'Vous pouvez suivre mon activité en ligne sur mes différents profils ou vous abonner à
+      = link_to 'ma newsletter', '/newsletter.html'
+      '.
     = partial 'views/social'
 
 .text-center

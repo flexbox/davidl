@@ -105,10 +105,10 @@ $small-caps-weight: 600;
 // -------------------------------------//
 
 $dropcap-float-position: left;
-$dropcap-font-size: 4em;
+$dropcap-font-size: ($paragraph-font-size * 3);
 $dropcap-font-family: inherit;
 $dropcap-txt-indent: 0;
-$dropcap-margin: inherit;
+$dropcap-margin: rem-calc(5 0 0 0);
 $dropcap-padding: inherit;
 $dropcap-color: inherit;
 $dropcap-line-height: 1;

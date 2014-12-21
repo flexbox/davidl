@@ -122,12 +122,15 @@ $m-panel-bg-hover: $white;
     border-bottom: 0;
   }
 
-  img {
+  .l-avatar {
     border: 3px solid $white;
     border-radius: $global-rounded;
-    @include single-transition();
-    &:hover {
-      border-color: $secondary-color;
+    display: block;
+    img {
+      border-radius: $global-rounded;
+      &:hover {
+        border-color: $secondary-color;
+      }
     }
   }
 }

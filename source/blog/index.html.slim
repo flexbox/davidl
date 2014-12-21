@@ -1,5 +1,5 @@
 ---
-title: "Blog d'un intégrateur / développeur web front-end"
+title: Blog d’un intégrateur / développeur web front-end
 description: La meilleure façon de maîtriser un sujet est de l'enseigner aux autres.
 changefreq: daily
 priority: 0.8
@@ -35,25 +35,9 @@ blog: blog
                 span.l-year=article.date.strftime('%Y')
               h3.l-title= article.title
 
-    div class="pagination-centered"
-      ul class="pagination"
-        - if paginate && num_pages > 1
-          - if prev_page
-            li
-              = link_to prev_page, rel: 'prev', class: 'arrow' do
-                i.fa.fa-arrow-left
-          - if num_pages > 1
-            li
-              = link_to '#' do
-                | page #{page_number} sur #{num_pages}
-          - if next_page
-            li
-              = link_to next_page, rel: 'next', class: 'arrow' do
-                i.fa.fa-arrow-right
-
   aside.medium-4.columns
     h2
-      'S'inscrire
+      'S’inscrire
       small C'est gratuit
     p
       i.fa.i-custom.fa-rss
@@ -81,6 +65,9 @@ blog: blog
     p
       = link_to '/toolkit.html' do
         'Outils
+    p
+      = link_to '/typography.html' do
+        'Typographie sur le web
 
     hr
     h2 Autres contributions
