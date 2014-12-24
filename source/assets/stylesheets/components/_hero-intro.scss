@@ -7,7 +7,7 @@
   }
 }
 
-.m-masterhead {
+.m-hero-intro {
   background-color: $primary-color;
   margin-bottom: rem-calc(30);
   padding-top: $topbar-height;
@@ -53,19 +53,19 @@
 
 }
 
-.m-homepage .m-masterhead {
+.m-homepage .m-hero-intro {
   background: url("https://farm4.staticflickr.com/3946/15583794966_fd39f2f2e8_o.jpg") repeat top center;
   @media #{$small} {
     animation: 35s linear 0s normal none infinite movebg;
   }
 }
 
-.m-books .m-masterhead {
+.m-books .m-hero-intro {
   background: url("https://farm4.staticflickr.com/3839/15072640746_8b070f6379_h.jpg") repeat top center $gray-dark;
   background-size: cover;
 }
 
-.m-projects .m-masterhead {
+.m-projects .m-hero-intro {
   background: url("https://farm4.staticflickr.com/3904/14327833686_9f4b21b2cc_h.jpg") repeat 0 0 $gray-dark;
   background-size: cover;
 }

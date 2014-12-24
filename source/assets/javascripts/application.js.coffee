@@ -6,7 +6,7 @@
 #= require "jquery.linkspy"
 
 #= require "headroom.js/dist/headroom"
-#= require "jquery.stickynav"
+#= require "topbar"
 #= require "jquery-videobackground/script/jquery.videobackground"
 
 #= require "foundation/js/foundation/foundation"

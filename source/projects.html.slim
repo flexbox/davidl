@@ -1,6 +1,6 @@
 ---
 title: Projets open source avec ruby
-description: "Projets et lectures sur l'intégration HTML & CSS, le développement web avec ruby et CoffeScript"
+description: "Projets et lectures sur l’intégration HTML & CSS, le développement web avec Ruby et CoffeScript"
 page_title: Code & essais
 page_emphasis: "Mes écrits sont disponible gratuitement en ligne"
 page_class: m-projects
@@ -8,10 +8,14 @@ changefreq: monthly
 priority: 0.6
 ---
 
+- content_for :javascripts do
+  = javascript_include_tag 'vendor/jquery.mixitup'
+  = javascript_include_tag 'front/projects'
+
 .row
   .medium-12.columns
-    h2 J'ai besoin de vous !
-    p N'hésitez pas à me contacter si vous rencontrez un comportement inattendu, ou une phrase imcompréhensible.
+    h2 J’ai besoin de vous !
+    p N’hésitez pas à me contacter si vous rencontrez un comportement inattendu, ou une phrase imcompréhensible.
     dl.sub-nav#js-sub-nav--home
       dt Filtre :
       dd.active
@@ -44,6 +48,3 @@ section.m-section
       h2 Ailleurs sur le web
       = partial 'views/social'
 
-- content_for :javascripts do
-  = javascript_include_tag 'vendor/jquery.mixitup'
-  = javascript_include_tag 'front/projects'
