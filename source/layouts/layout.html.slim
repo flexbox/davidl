@@ -16,7 +16,7 @@ html lang="fr"
 
   body class="#{current_page.data.page_class}"
     = partial 'views/global/topbar'
-    .m-content
+    .m-content role="main"
       = partial 'views/global/masterhead'
       #js-content
       == yield
