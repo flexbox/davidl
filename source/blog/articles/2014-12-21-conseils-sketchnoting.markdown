@@ -11,14 +11,13 @@ priority: 0.8
 
 Dans une autre vie j‘ai suivi l‘école des beaux arts pendant plusieurs années. J‘aimais particulièrement le dessin sur papier. Ensuite est arrivé ma passion pour les ordinateurs et mon [dernier dessin](http://fc03.deviantart.net/fs22/f/2008/007/7/1/Necron_Warrior_by_DbyD.jpg) date de plus de 10 ans !
 
-J‘ai remarqué que je passe beaucoups de temps devant un écran et j‘ai cherché un moyen de prendre efficacement des notes pour les partager avec le plus grand nombre. Comme j‘aime le dessin pourquoi ne pas le faire sur papier ? Pendant les conférences informatiques c‘est très efficace. Au lieu de vous ajouter des problèmes de batterie & de wifi équipez vous simplement avec :
+J‘ai remarqué que je passe beaucoup de temps devant un écran et j‘ai cherché un moyen de prendre efficacement des notes pour les partager avec le plus grand nombre. Comme j‘aime le dessin pourquoi ne pas le faire sur papier ? Pendant les conférences informatiques c‘est très efficace. Au lieu de vous ajouter des problèmes de batterie & de wifi équipez vous simplement avec :
 
 - Un carnet de notes
 - <a href="http://www.amazon.fr/gp/product/B0012387YK/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=B0012387YK&linkCode=as2&tag=davidl-21&linkId=DGB7ERNU5ZRLK6P5">Un crayon à pointe fine</a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=B0012387YK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 - Des stabilos de couleurs
 
-C‘est grâce à _______________ que j‘ai eu l‘occasion de recevoir le livre de Mike Rohde : <a href="http://www.amazon.fr/gp/product/0321857895/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=0321857895&linkCode=as2&tag=davidl-21&linkId=ZAOUQ7GTODAZIXU2">The Sketchnote Handbook</a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=0321857895" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
+C‘est grâce à [Gwaï Lo](https://twitter.com/gwailo59) que j‘ai eu l‘occasion de recevoir le livre de Mike Rohde : <a href="http://www.amazon.fr/gp/product/0321857895/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=0321857895&linkCode=as2&tag=davidl-21&linkId=ZAOUQ7GTODAZIXU2">The Sketchnote Handbook</a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=0321857895" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />. J'ai profité de l'année 2014 pour développer mes compétences de sketchnoting en respectant une règle : publier mes notes à chaud directement après chaque conférence. Cette contrainte m'oblige à capter l'essentiel, mais pour cela il faut respecter un certain processus.
 
 ## Sublimer vos notes par le dessin
 
@@ -30,7 +29,17 @@ _Les différentes étapes d‘un croquis_
 
 ### Par où commencer ?
 
-![](https://farm8.staticflickr.com/7469/15885643447_1e3d03ca8f.jpg)
+Mon meilleur conseil est de rester simple en utilisant 5 éléments de base pour réaliser des illustrations :
+
+- Cercle
+- Carré
+- Triangle
+- Ligne
+- Point
+
+![Les 5 éléments pour les schémas et dessins](https://farm8.staticflickr.com/7469/15885643447_1e3d03ca8f.jpg)
+
+_Schémas et dessins_
 
 
 ## 1 an de sketchnoting
@@ -79,8 +88,12 @@ Rencontres front-end et webdesign à Lille, n'hésitez pas à vous [inscrire sur
 ![WelshDesign Sketch Crime typographique](https://farm8.staticflickr.com/7520/15883948868_a9c9a9d013.jpg)
 ![WelshDesign Sketch typography](https://farm8.staticflickr.com/7525/16069468981_ae911faa86.jpg)
 
+_Typographie, sémiologie et création_
+
 ![WelshDesign Sketch Flat Design](https://farm8.staticflickr.com/7539/15451709583_3bf59a1293_z.jpg)
+
+_Le flat design, de la Grèce antique à nos jours_
 
 ## Conclusion
 
-[Album 1 an sketchnoting](https://www.flickr.com/photos/geekgrunge/sets/72157644681767590/)
+J'aimerai avoir plus d'occasions de prendre des notes car c'est un exercice très interessant. Dans le cas d'une conférence, vous êtes obligés de __vraiment écouter l'orateur__ pour pouvoir faire un résumé sous forme d'illustrations. Vous devenez acteur de votre contenu et ne restez pas simplement passif. Si vous souhaiter télécharger tous mes dessins ils sont disponibles sur flickR : [Album 1 an sketchnoting](https://www.flickr.com/photos/geekgrunge/sets/72157644681767590/).
