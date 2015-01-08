@@ -6,7 +6,7 @@
 -
   name: Firefox
   description: "Le navigateur web sécurisé, performant et personnalisable."
-  url: http://www.mozilla.org/fr/firefox/new/
+  url: https://affiliates.mozilla.org/referral/64384/
   image: firefox.png
 -
   name: Firefox Nightly
@@ -88,3 +88,8 @@
   description: "Pour tester le comportement d'Internet Explorer avec MacOS, la solution passe par la virtualisation."
   url: https://www.virtualbox.org/wiki/Downloads
   image: virtualbox.png
+-
+  name: Validator Stand Alone Complex
+  description: Validator S.A.C. peut être configuré en tant que service Web. Cela permet aux développeurs de valider la sémantique en respectant le W3C sur le réseau local avant de deployer en production.
+  url: http://habilis.net/validator-sac/
+  image: validator-sac.png

@@ -72,6 +72,7 @@ __Ne sous-estimez pas les tests__.
 Réservez beaucoup de temps pour cela. Il ne s'agit plus du match navigateurs modernes vs Internet Explorer. Maintenant, vous avez une multitude de plates-formes, appareils et versions de navigateur. Testez votre site sur autant d'appareils différents que possible.
 
 ![open device lab](https://farm3.staticflickr.com/2904/13888164229_5a86fb6dd6_o.jpg)
+
 _Laboratoire de test mobile à Lille : [Walking Lab](http://walkinglab.fr/)_
 
 N'hésitez pas à vous rapprocher du mouvement [open device lab](http://opendevicelab.com/). Le principe de ces laboratoires est de regrouper le plus d'appareils possibles afin d'industrialiser les tests.

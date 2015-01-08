@@ -1,10 +1,10 @@
 #js-topbar.m-topbar role="banner"
-  .row
+  nav.row role="navigation" aria-label="Primary"
     .small-4.columns
-      = link_to '/', class: 'm-topbar--logo' do
-        = image_tag '/favicon_base.png', height: 55, width: 55
+      = link_to '/', class: 'm-topbar--logo', title: 'Page d‘accueil' do
+        = image_tag '/favicon_base.png', height: 55, width: 55, alt: 'Retour à l‘accueil'
     .small-8.columns
-      nav.m-topbar--list role="navigation" aria-label="Primary"
+      ul.m-topbar--list
         li
           = link_to 'À propos', '/about.html'
         li
