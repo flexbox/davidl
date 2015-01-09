@@ -126,6 +126,21 @@ priority: 0.8
               = link_to project.url, class: 'js-linkspy-target' do
                 'Voir le projet
                 i class="fa #{project.icon}"
+    h2.text-center Mes engagements
+    hr
+    ul.small-block-grid-2.medium-block-grid-4
+      li
+        = link_to 'http://opensource.org/', title: 'J‘adhère au mouvement open soure', class: 'link-reset' do
+          = image_tag 'front/homepage/logo-opensource.png', alt: 'Développeur open source'
+      li
+        = link_to 'http://chtijs.francejs.org/', title: 'Fondateur associé de Chtijs', class: 'link-reset' do
+          = image_tag 'front/homepage/logo-chtijs.svg', alt: 'Communauté de développeurs JavaScript Lillois'
+      li
+        = link_to 'http://takeoffconf.com/', title: '', class: 'link-reset' do
+          = image_tag 'front/homepage/logo-takeofftalks.png', alt: 'Design, web et startups'
+      li
+        = link_to 'https://twitter.com/welsh_design', title: '', class: 'link-reset' do
+          = image_tag 'front/homepage/logo-welshdesign.jpeg', alt: 'Conferences et talks sur webdesign à Lille'
 
 .m-section--inverse
   p.l-link

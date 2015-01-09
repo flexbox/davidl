@@ -53,3 +53,13 @@ a {
   content: "\f08e";
 }
 
+.link-reset {
+  border-bottom: 0;
+  &:hover {
+    background-color: transparent;
+  }
+  &:after {
+    content: " " !important;
+    padding: 0;
+  }
+}
