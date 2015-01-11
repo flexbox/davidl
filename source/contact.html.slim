@@ -74,5 +74,10 @@ priority: 0.5
       '.
     = partial 'views/social'
 
-.text-center
-  = link_to 'Envoyer un email', "mailto:#{data.settings.social.email}", class: 'button secondary'
+.row
+  .medium-12.columns
+    h2.text-center Je suis là pour vous aider
+    hr
+    p Je ferai de mon mieux pour vous donner les meilleures réponses possibles à vos questions.
+    .text-center
+      = link_to 'Envoyer un email', "mailto:#{data.settings.social.email}", class: 'button secondary'
