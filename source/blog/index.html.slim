@@ -1,10 +1,10 @@
 ---
 title: Blog intégrateur & développeur front-end
-description: La meilleure façon de maîtriser un sujet est de l'enseigner aux autres. Journal de bord d'un développeur front-end opensource passionné
+description: La meilleure façon de maîtriser un sujet est de l’enseigner aux autres. Journal de bord d'un développeur front-end opensource passionné
 changefreq: daily
 priority: 0.8
 page_title: Journal de bord<br> d'un travailleur du web
-page_emphasis: La meilleure façon de maîtriser un sujet est de l'enseigner aux autres
+page_emphasis: La meilleure façon de maîtriser un sujet est de l’enseigner aux autres
 blog: blog
 ---
 
@@ -16,7 +16,7 @@ blog: blog
         = link_to article, class: 'm-post-recent-list--link' do
           .row
             .medium-12.columns
-              .m-post-list--calendar
+              time.m-post-list--calendar pubdate=""
                 span.l-day=article.date.strftime('%d')
                 |.
                 span.l-month=article.date.strftime('%m')
@@ -28,7 +28,7 @@ blog: blog
         = link_to article, class: 'm-post-list--link' do
           .row
             .medium-12.columns
-              .m-post-list--calendar
+              time.m-post-list--calendar pubdate=""
                 span.l-day=article.date.strftime('%d')
                 |.
                 span.l-month=article.date.strftime('%m')
@@ -76,5 +76,5 @@ blog: blog
       =' link_to 'On ne saute pas dans la piscine', 'http://code.tutsplus.com/fr/tutorials/quick-tip-jquery-newbs-stop-jumping-in-the-pool--net-22142'
       'publié sur tutsplus.com
     p
-      =' link_to 'Méthode Pour Travailler Avec Sass et Foundation', 'http://webdesign.tutsplus.com/fr/tutorials/foundations-sassy-styles-explained--webdesign-15549'
+      =' link_to 'Méthode pour travailler avec Sass et Foundation', 'http://webdesign.tutsplus.com/fr/tutorials/foundations-sassy-styles-explained--webdesign-15549'
       'publié sur tutsplus.com

@@ -5,7 +5,7 @@ html lang="fr"
     meta name="viewport" content="width=device-width, initial-scale=1.0"
     meta http-equiv="X-UA-Compatible" content="IE=edge"
 
-    title #{current_page.data.title}
+    title = current_page.data.title ? current_page.data.title : data.settings.site.title
     meta name="description" content="#{current_page.data.description}"
     meta name="robots" content="index,follow"
     = partial 'views/global/open_graph'
