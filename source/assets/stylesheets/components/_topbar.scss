@@ -19,31 +19,30 @@ $topbar-height: rem-calc(60);
 }
 
 .m-topbar--logo {
-  display: block;
-  padding: rem-calc(5 10);
+  padding: 0 !important;
+  img {
+    margin-top: rem-calc(5);
+  }
 }
 
 .m-topbar--list {
-  @include inline-list();
-  float: right;
-  margin-bottom: 0;
-
-  @media #{$small-only}{
-    > li {
-      margin-left: rem-calc(14);
-    }
-  }
+  display: flex;
+  flex-direction: row;
+  width: 90%;
 
   a {
-    padding: rem-calc(20 0);
+    text-align: right;
+    display: block;
+    flex: 1;
+    padding-top: rem-calc(20);
     font-size: rem-calc(13);
-
     @media #{$medium}{
       font-size: rem-calc(16);
-      padding: rem-calc(20 10);
+      text-align: center;
     }
   }
 }
+
 
 
 .headroom--top {

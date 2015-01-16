@@ -1,7 +1,7 @@
 footer.m-footer role="contentinfo"
-  .row
+  nav.row role="navigation"
     .medium-3.small-6.columns
-      nav.side-nav role="navigation"
+      ul.side-nav
         li
           = link_to 'À propos', '/about.html', title: 'En savoir plus sur moi'
         li
@@ -13,7 +13,7 @@ footer.m-footer role="contentinfo"
         li
           = link_to 'Contact', '/contact.html', title: 'Je lis TOUS mes emails'
     .medium-3.small-6.columns
-      nav.side-nav role="navigation"
+      ul.side-nav
         li
           = link_to 'Blog', '/blog/', title: "Publication d'articles sur l'intégration & le développement front-end"
         li
@@ -40,13 +40,13 @@ footer.m-footer role="contentinfo"
             .hide
               input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad"
           .small-4.columns
-            input type="submit" value="S'inscrire" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
+            input type="submit" value="S’inscrire" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
 
   hr
   p.text-center
     'Ce site est rédigé et administré par
     = link_to 'David Leuliette', '/human.txt'
     ', dernière mise à jour le
-    time datetime="#{DateTime.now.strftime('%d-%m-%Y')}"
-      = DateTime.now.strftime('%d / %m / %Y')
+    time datetime="#{DateTime.now.strftime('%Y-%m-%d')}"
+      = DateTime.now.strftime('%d/%m/%Y')
       '.

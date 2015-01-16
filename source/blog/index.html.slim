@@ -10,7 +10,11 @@ blog: blog
 
 .row
   .medium-8.columns
-    h2 Liste des articles
+    h2 Rechercher un article
+    form class="search-form" action="http://www.google.com/search" method="get"
+      input name="q" placeholder="Conseils et bonnes pratiques" type="search"
+      input name="sitesearch" value="davidl.fr" type="hidden"
+    h2 Liste des dernières publications
     - page_articles.each_with_index do |article, i|
       - if i == 0
         = link_to article, class: 'm-post-recent-list--link' do
@@ -18,9 +22,9 @@ blog: blog
             .medium-12.columns
               time.m-post-list--calendar pubdate=""
                 span.l-day=article.date.strftime('%d')
-                |.
+                |/
                 span.l-month=article.date.strftime('%m')
-                |.
+                |/
                 span.l-year=article.date.strftime('%Y')
               h3.l-title= article.title
         hr
@@ -30,9 +34,9 @@ blog: blog
             .medium-12.columns
               time.m-post-list--calendar pubdate=""
                 span.l-day=article.date.strftime('%d')
-                |.
+                |/
                 span.l-month=article.date.strftime('%m')
-                |.
+                |/
                 span.l-year=article.date.strftime('%Y')
               h3.l-title= article.title
 

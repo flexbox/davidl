@@ -28,8 +28,7 @@ $m-post-recent-link-border-color-hover: $secondary-color;
 
 .m-post-list--calendar {
   span {
-    font-weight: normal;
-    margin: rem-calc(5);
+    font-weight: $font-weight-normal;
   }
 }
 
