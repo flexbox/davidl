@@ -1,7 +1,8 @@
 ---
 title: Intégrateur web et développeur front-end à Lille
-description: Anciennement intégrateur HTML & CSS, j'ai monté de niveau et j'exerce le métier de développeur front-end dans le Nord-Pas de Calais entre Lille et Valenciennes
+description: Anciennement intégrateur HTML & CSS, j'ai monté de niveau et j'exerce le métier de développeur front-end dans le Nord-Pas de Calais entre Lille et Calais
 page_title: Designer & développeur
+page_emphasis: Apprendre quelque chose de nouveau <em>chaque jour</em>
 changefreq: monthly
 priority: 1
 ---
@@ -14,7 +15,7 @@ priority: 1
     .m-photo-album
       = image_tag 'front/windows-95.jpg', alt: 'Windows 95 party', title: 'Lancement de windows 95'
       = image_tag 'front/aperture-science-avatar.jpg', alt: 'Portrait David Leuliette Aperture Science', title: 'Design basé sur la science'
-      = image_tag 'front/sublime-macosx.jpg', alt: 'Sublime text on Mac OS X', title: 'Je travaille sur un environement UNIX'
+      = image_tag 'front/sublime-macosx.jpg', alt: 'Sublime text on Mac OS X', title: 'David Leuliette travaille sur un environement UNIX'
 
   .medium-8.columns
     h2 Mon histoire
@@ -36,7 +37,7 @@ priority: 1
       li Codage HTML / CSS (Généralement avec un préprocesseur comme Sass) correctement architecturé et évolutif.
       li Tout cela en étroite collaboration avec les ingénieurs et les graphistes.
 
-    h3 Designer, développeur et architecte front-end
+    h3 Architecte front-end
     p Je suis programmeur ayant une vaste expérience en codage, designer par passion, curieux intellectuellement, et dans la vie je donne le meilleur de moi même pour une chose :
     blockquote
       'Résoudre de réels problèmes pour les utilisateurs finaux
@@ -77,11 +78,12 @@ section.m-section
 
     .medium-6.columns
       h2 Projets
-      ul.inline-list
+      ul.small-block-grid-2
         - data.projects.each_with_index do |project|
           li.l-title
             = link_to project.url, title: project.description do
               = project.title
+      hr
       = image_tag 'front/init-npm-install.gif', alt: 'Node package manager install'
       p
         em

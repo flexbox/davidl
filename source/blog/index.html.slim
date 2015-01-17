@@ -3,17 +3,13 @@ title: Blog intégrateur & développeur front-end
 description: La meilleure façon de maîtriser un sujet est de l’enseigner aux autres. Journal de bord d'un développeur front-end opensource passionné
 changefreq: daily
 priority: 0.8
-page_title: Journal de bord<br> d'un travailleur du web
+page_title: Journal de bord<br> d’un travailleur du web
 page_emphasis: La meilleure façon de maîtriser un sujet est de l’enseigner aux autres
 blog: blog
 ---
 
 .row
   .medium-8.columns
-    h2 Rechercher un article
-    form class="search-form" action="http://www.google.com/search" method="get"
-      input name="q" placeholder="Conseils et bonnes pratiques" type="search"
-      input name="sitesearch" value="davidl.fr" type="hidden"
     h2 Liste des dernières publications
     - page_articles.each_with_index do |article, i|
       - if i == 0

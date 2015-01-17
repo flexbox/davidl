@@ -1,7 +1,14 @@
 #js-topbar.m-topbar role="banner"
-  nav role="navigation" aria-label="Primary" class="m-topbar--list"
+  nav role="navigation" aria-label="Primary" class="m-topbar--list js-topbar--list"
     = link_to '/', class: 'm-topbar--logo', title: 'Page d‘accueil' do
       = image_tag '/favicon_base.png', height: 55, width: 55, alt: 'Retour à l‘accueil'
     = link_to 'À propos', '/about.html'
     = link_to 'Journal', '/blog/'
     = link_to 'Contact', '/contact.html'
+    form class="l-search-form" action="http://www.google.com/search" method="get"
+      input name="q" placeholder="Ex : Conseils et bonnes pratiques" type="search"
+      input name="sitesearch" value="davidl.fr" type="hidden"
+    = link_to '#', id: 'js-topbar--search' do
+      i.fa.fa-search
+    = link_to '#', id: 'js-topbar--close', class: 'is-minimized' do
+      i.fa.fa-close

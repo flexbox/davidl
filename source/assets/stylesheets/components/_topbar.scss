@@ -28,7 +28,13 @@ $topbar-height: rem-calc(60);
 .m-topbar--list {
   display: flex;
   flex-direction: row;
+  margin: auto;
+
   width: 90%;
+  @media #{$small}{
+    width: 100%;
+  }
+
 
   a {
     text-align: right;
@@ -40,6 +46,19 @@ $topbar-height: rem-calc(60);
       font-size: rem-calc(16);
       text-align: center;
     }
+  }
+  .l-search-form {
+    display: none;
+    padding: rem-calc(10 0 0 20);
+  }
+
+  .is-minimized {
+    flex: 0;
+    display: none;
+  }
+  .is-expanded {
+    flex: 5;
+    display: block;
   }
 }
 

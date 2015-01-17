@@ -7,7 +7,6 @@ Intéressé par la technique ? J'aime pousser du code jours après jours pour ai
 la cathédrale moderne nommée internet. Vous aussi vous voulez un meilleur avenir pour le Web ?\n
 \n
 Visitez http://davidl.fr/work.html si vous souhaitez travailler avec moi.\n
-Visitez http://davidl.fr/about.html pour en savoir plus sur mon profil.\n
 \n
 ---\n
 "
