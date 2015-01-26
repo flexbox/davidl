@@ -22,6 +22,11 @@ $topbar-height: rem-calc(60);
   padding: 0 !important;
   img {
     margin-top: rem-calc(5);
+    max-height: rem-calc(40);
+    @media #{$small}{
+      max-height: rem-calc(60);
+    }
+
   }
 }
 
@@ -29,22 +34,16 @@ $topbar-height: rem-calc(60);
   display: flex;
   flex-direction: row;
   margin: auto;
-
-  width: 90%;
-  @media #{$small}{
-    width: 100%;
-  }
-
+  width: 100%;
 
   a {
-    text-align: right;
+    text-align: center;
     display: block;
     flex: 1;
     padding-top: rem-calc(20);
     font-size: rem-calc(13);
     @media #{$medium}{
       font-size: rem-calc(16);
-      text-align: center;
     }
   }
   .l-search-form {

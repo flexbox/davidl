@@ -25,7 +25,7 @@ J’ai vu un projet qui n’a pas pris le mobile en considération lors de sa cr
  Et la c’est le drame : tout le monde panique. Réorganisation des horaires. Augmentation des budgets.
  Finalement uniquement un modèle de bureau a été implanté sur les appareils mobiles.
 
-La morale de cette histoire, c’est qu’il faut penser mobile dès aujourd’hui, tenir compte de pléthore d’appareils, et aussi reconnaître l[‘imprévisibilité de l’avenir](http://futurefriend.ly/thinking.html "I am a future friend"). Cette histoire est comparable à la période où le browser IE6 était le plus utilisé.
+La morale de cette histoire, c’est qu’il faut penser mobile dès aujourd’hui, tenir compte de pléthore d’appareils, et aussi reconnaître l[’imprévisibilité de l’avenir](http://futurefriend.ly/thinking.html "I am a future friend"). Cette histoire est comparable à la période où le browser IE6 était le plus utilisé.
 
 ## Site internet adaptatif ou site mobile dédié ?
 

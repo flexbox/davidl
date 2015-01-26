@@ -58,7 +58,7 @@ La phylosophie de slim est de _supprimer tous les caractère inutiles_. Si l'on 
 
 Si vous avez suivi mon [tunning de sublime Text](http://davidl.fr/blog/) vous savez que je supprime les espaces inutiles en fin de ligne à chaque sauvegarde. Cet avantage peut se transformer en inconvénient et voici comment gérer les espaces avec slim et vous éviter d'utiliser `&nbsp;`
 
-- `‘` Ajoute un espace en fin de ligne.
+- `’` Ajoute un espace en fin de ligne.
 - `|` Permet d'ajouter du texte sans espace.
 
 Ce qui donne dans un cas concret :
