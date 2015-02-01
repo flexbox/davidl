@@ -6,10 +6,12 @@ toggleSearch = (event) ->
 
 searchBar = ->
   $('#js-topbar--search').click (event) ->
+    event.preventDefault()
     toggleSearch(event)
     $('.js-topbar--list').find('input[type="search"]').focus()
 
   $('#js-topbar--close').click (event) ->
+    event.preventDefault()
     toggleSearch(event)
 
 launchHeadroom = ->

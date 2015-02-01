@@ -1,0 +1,100 @@
+---
+date: 2015-02-01
+slug: fosdem-2015
+title: J’ai testé l’édition 2015 du plus grand festival européen de développeurs open source
+description: "Sketchnoting des conférences du FOSDEM de l’ULB de Bruxelles"
+page_title: "FOSDEM"
+page_emphasis: Rencontres, partages d’idées et collaboration
+changefreq: monthly
+priority: 0.8
+---
+
+Ce week-end j’étais à Bruxelles pour assister au [FOSDEM](https://fosdem.org/) (Free and Open source Software Developer’s Meeting). Pendant 2 jours, l’Université Libre de Bruxelles est littéralement envahie par des hordes de barbus venus pour assister à des conférences, en anglais, avec comme thème le logiciel libre.
+
+Depuis ma première édition il y a 6 ans, le festival n’ai pas changé de formule : devrooms, open source, 5000+ hackers, talks & lectures. Ce qui a changé c’est la dimension : il y a de plus en plus de monde et il faut arriver bien avant le début des conférences pour être sur de pouvoir rentrer dans la salle. J’ai aussi remarqué qu’il y a beaucoup plus de développeurs sous MacOS. Cela s’explique peut être car en tant que développeur front-end je n’assiste pas au conférences pour "pimper" le kernel de Linux.
+
+Dans cet article je partage mon expérience sur cette édition 2015 avec une surprise de taille en conclusion.
+
+## Samedi : licence et méthode de travail
+
+### Open source by design
+
+En ce début d’année GitHub explique ses objectifs pour 2015 :
+
+- Plus d’open source
+- Une meilleure expérience pour l’open source
+
+GitHub est la plus grande plate forme pour le développement de la planète. Leur mission est de proposer une meilleure intégration pour le choix des licences proposées au développeurs lors de la création de projets.
+
+![Sketch Open source by design](https://farm8.staticflickr.com/7331/16222647059_41c30ff63c_c.jpg)
+
+### A new version of Firefox is available
+
+Cette conférence essaye de répondre à la question : Comment publier rapidement des produits de qualité ? Cela passe par un processus de déploiement automatisé. Le navigateur Firefox possède 4 versions différentes que n’importe qui peut télécharger. Chaque version embarque son système automatique de collecte d’informations / bugs afin d’améliorer le produit.
+
+- [Nightly](https://nightly.mozilla.org/)
+- [Developper Edition / Aurora](https://www.mozilla.org/fr/firefox/developer/)
+- [Beta](https://www.mozilla.org/en-US/firefox/channel/#beta)
+- [Firefox](https://www.mozilla.org/fr/firefox/new/)
+
+![Sketch release process of Firefox](https://farm9.staticflickr.com/8600/16383683366_c5fb0e1ba5_c.jpg)
+
+#### about:iOS
+
+<blockquote class="twitter-tweet" lang="fr"><p>We need to be where our users are so we&#39;re going to get Firefox on iOS <a href="https://twitter.com/hashtag/mozlandia?src=hash">#mozlandia</a></p>&mdash; Lukas Blakk (@lsblakk) <a href="https://twitter.com/lsblakk/status/539843892300898304">2 Décembre 2014</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Jason room
+
+Ce qui est génial au FOSDEM c’est que vu le nombre de conférences il y a 1 chance sur 2 de se retrouver à une présentation sans avoir entendu parler du sujet dont il et question. Cela se passe généralement dans l’amphithéatre Jason ou la moitié des personnes profite du wifi en écoutant les orateurs.
+
+![Photo de la Jason Room université libre de Bruxelles](https://farm8.staticflickr.com/7286/16234891138_d92b4b766f_b.jpg)
+
+Pour ma part j’ai essayé de faire le barbu en suivant :
+
+- [igProf](https://fosdem.org/2015/schedule/event/igprof_the_ignominous_profiler/) : Memory and performance profiling tool
+- [Superoptimisation](https://fosdem.org/2015/schedule/event/superoptimization/) : Modern compiler optimization can take almost any code and produce a reasonably efficient binary at the end.
+
+Résultat je n’ai absolument rien compris à ces 2 présentation. Le talk du Dimanche sur [Rust](http://en.wikipedia.org/wiki/Rust_%28programming_language%29) était beaucoup plus simple à appréhender pour moi.
+
+### Homebrew : the good, the bad & the evil
+
+[Mike McQuaid](https://github.com/mikemcquaid) nous explique ce qui est difficile dans la maintenance d’un gestionnaire de paquet pour OSX.
+
+![sketch homebrew good bad and evil](https://farm8.staticflickr.com/7297/16223418760_de1a6af0f8_c.jpg)
+
+## Dimanche : Design open source et Mozilla devroom
+
+### Accessible design in open source
+
+Construire un framework d’accessibilité en 6 étapes.
+
+![sketch accessible design](https://farm8.staticflickr.com/7417/16416721192_ac1e48bf0a_c.jpg)
+
+### UI design for open data
+
+Comment le design peut nous aider à [communiquer facilement des données](http://www.slideshare.net/HollieLubbock/ui-design-for-open-data-v2-nov-2014) pour les utilisateurs ?
+
+![sketch accessible design](https://farm8.staticflickr.com/7301/16232045397_bb8b4945b3_c.jpg)
+
+### The future of JavaScript
+
+Présentation d’EcmaScript 6, prévu pour Juin 2015.
+
+![sketch future of JavaScript ES6](https://farm9.staticflickr.com/8569/16232766187_0ec5187c70_c.jpg)
+
+### Servo & you
+
+- Le langage Rust vous intéresse ?
+- Vous souhaitez contribuer à la construction d’un moteur de rendu pour navigateur ?
+Heureusement Servo est là pour vous.
+
+![sketch web browser engine in rust](https://farm8.staticflickr.com/7293/16232809899_7e43ee46c8_c.jpg)
+
+## Surprise de fin
+
+Pour en apprendre plus à propos des licences open source, j’ai récemment lu la biographie de <a href="http://www.amazon.fr/gp/product/2212136358/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=2212136358&linkCode=as2&tag=davidl-21&linkId=KTTKKNA65LESMI3G">Richard Stallman</a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=2212136358" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> sur la révolution du logiciel libre. Grâce au FOSDEM j’ai pu le remercier personnellement pour son travail qui nous permet à tous d’utiliser chaque jour des technologies web open source.
+
+![Photo de David Leuliette développeur open source avec Richard Stallman](https://farm8.staticflickr.com/7415/16419176601_e244bf4c83.jpg)
+
+"Happy new year Richard"<br>
+"Happy hacking to you"
