@@ -11,7 +11,7 @@ priority: 0.8
 
 Ce week-end j’étais à Bruxelles pour assister au [FOSDEM](https://fosdem.org/) (Free and Open source Software Developer’s Meeting). Pendant 2 jours, l’Université Libre de Bruxelles est littéralement envahie par des hordes de barbus venus pour assister à des conférences, en anglais, avec comme thème le logiciel libre.
 
-Depuis ma première édition il y a 6 ans, le festival n’ai pas changé de formule : devrooms, open source, 5000+ hackers, talks & lectures. Ce qui a changé c’est la dimension : il y a de plus en plus de monde et il faut arriver bien avant le début des conférences pour être sur de pouvoir rentrer dans la salle. J’ai aussi remarqué qu’il y a beaucoup plus de développeurs sous MacOS. Cela s’explique peut être car en tant que développeur front-end je n’assiste pas au conférences pour "pimper" le kernel de Linux.
+Depuis ma première édition il y a 6 ans, le festival n’a pas changé de formule : devrooms, open source, 5000+ hackers, talks & lectures. Ce qui a changé c’est la dimension : il y a de plus en plus de monde et il faut arriver bien avant le début des conférences pour être sur de pouvoir rentrer dans la salle. J’ai aussi remarqué qu’il y a beaucoup plus de développeurs sous MacOS. Cela s’explique peut être car en tant que développeur front-end je n’assiste pas au conférences pour "pimper" le kernel de Linux.
 
 Dans cet article je partage mon expérience sur cette édition 2015 avec une surprise de taille en conclusion.
 
@@ -92,9 +92,9 @@ Heureusement Servo est là pour vous.
 
 ## Surprise de fin
 
-Pour en apprendre plus à propos des licences open source, j’ai récemment lu la biographie de <a href="http://www.amazon.fr/gp/product/2212136358/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=2212136358&linkCode=as2&tag=davidl-21&linkId=KTTKKNA65LESMI3G">Richard Stallman</a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=2212136358" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> sur la révolution du logiciel libre. Grâce au FOSDEM j’ai pu le remercier personnellement pour son travail qui nous permet à tous d’utiliser chaque jour des technologies web open source.
+Pour en apprendre plus à propos des licences, j’ai récemment lu la biographie de <a href="http://www.amazon.fr/gp/product/2212136358/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=2212136358&linkCode=as2&tag=davidl-21&linkId=KTTKKNA65LESMI3G">Richard Stallman</a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=2212136358" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> sur la révolution du logiciel libre. Grâce au FOSDEM j’ai pu le remercier personnellement pour son travail qui nous permet à tous d’utiliser chaque jour des [technologies web ouvertes](http://www.fsf.org).
 
 ![Photo de David Leuliette développeur open source avec Richard Stallman](https://farm8.staticflickr.com/7415/16419176601_e244bf4c83.jpg)
 
-"Happy new year Richard"<br>
-"Happy hacking to you"
+“— I wish you a happy new year Richard”<br>
+“— Happy hacking”
