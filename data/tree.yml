@@ -75,6 +75,7 @@ forge:
     1-5-details.markdown: "/forge/chapitres/1-5-details.markdown"
     2-1-manifeste-refonte.markdown: "/forge/chapitres/2-1-manifeste-refonte.markdown"
   index.html.slim: "/forge/index.html.slim"
+gpl-licence-faq.html.slim: "/gpl-licence-faq.html.slim"
 index.html.slim: "/index.html.slim"
 integrateur-web-lille.html.slim: "/integrateur-web-lille.html.slim"
 legal.html.slim: "/legal.html.slim"

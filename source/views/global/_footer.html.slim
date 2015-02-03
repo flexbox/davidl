@@ -46,7 +46,11 @@ footer.m-footer role="contentinfo"
   p.text-center
     'Ce site est rédigé et administré par
     = link_to 'David Leuliette', '/human.txt'
-    ', dernière mise à jour le
+    ', sous licence
+    = link_to 'GNU', '/gpl-licence-faq.html'
+    '.
+    br
+    'Dernière mise à jour le
     time datetime="#{DateTime.now.strftime('%Y-%m-%d')}"
       = DateTime.now.strftime('%d/%m/%Y')
       '.
