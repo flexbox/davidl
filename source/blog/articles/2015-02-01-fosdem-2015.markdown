@@ -70,6 +70,8 @@ Construire un framework d’accessibilité en 6 étapes.
 
 ![sketch accessible design](https://farm8.staticflickr.com/7417/16416721192_ac1e48bf0a_c.jpg)
 
+__Edit__ : C'est [@RabelaisA11y](https://twitter.com/RabelaisA11y) qui travaille sur l'accessibilité et non @CStrobbe.
+
 ### UI design for open data
 
 Comment le design peut nous aider à [communiquer facilement des données](http://www.slideshare.net/HollieLubbock/ui-design-for-open-data-v2-nov-2014) pour les utilisateurs ?
