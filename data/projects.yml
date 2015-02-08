@@ -1,25 +1,4 @@
 -
-  title: Webdesign
-  description: "Je crée des applications web et des sites internet.<br> Je développe des sites rapides et accessibles qui s'adaptent à n'importe quel appareil."
-  type: writing
-  button: secondary
-  icon: fa-long-arrow-right
-  url: /webdesign.html
--
-  title: Blog
-  description: "La meilleure façon de maîtriser un sujet est de l'enseigner aux autres.<br> J'écris des articles sur le développemnt web front-end, le responsive design et les outils que j'utilise quotidiennement."
-  type: writing
-  button: secondary
-  icon: fa-long-arrow-right
-  url: /blog/
--
-  title: Manifeste
-  description: "Pendant trop longtemps -et encore aujourd'hui, il n'existait aucune règle pour développer des sites internet. Coder une <strong>application web de qualité est de plus en plus complexe</strong>.<br> Voici ma lettre ouverte qui expose mon programme d'action en développement front-end."
-  type: writing
-  button: secondary
-  icon: fa-long-arrow-right
-  url: /manifesto.html
--
   title: Partage
   description: "J'aime partager des informations. Chaque jour, j'apprends quelque chose de nouveau, et je participe à la conversation collective qu'est Twitter."
   type: misc
