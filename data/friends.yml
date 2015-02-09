@@ -6,13 +6,6 @@
   twitter: dathink
   website: http://dathink.fr/
 -
-  name: Romain Fauvet
-  job: Développeur Front-end
-  gravatar_image_path:
-  sentence: J'aime faire de belles choses
-  twitter: romainfauvet
-  website: http://romainfauvet.fr/
--
   name: David watrelot
   job: Freelance Intégrateur HTML & Développeur php
   gravatar_image_path: http://greaaat.com/wp-content/uploads/2014/10/thumbnail-250x250.png
@@ -29,20 +22,6 @@
   website: http://www.guillaumedoutriaux.com/
   freelance: true
 -
-  name: Alexandra janin
-  job: Webdesigner & Développeur front-end
-  gravatar_image_path:
-  sentence:
-  twitter: lellexindo
-  website: http://lellex.fr/
--
-  name: Kévin Thénard
-  job: Développeur & intégrateur web
-  gravatar_image_path:
-  sentence:
-  twitter: kevinthenard
-  website: http://www.kevinthenard.fr/
--
   name: Romain Brasier
   job: Développeur web
   gravatar_image_path: http://www.gravatar.com/avatar/8f96d23157e95521d4eae49840ac9571.png
@@ -56,26 +35,3 @@
   sentence:
   twitter: remi_grumeau
   website: http://www.remi-grumeau.com/
--
-  name: Victor Darras
-  job: Webdesigner & Intégrateur
-  gravatar_image_path:
-  sentence:
-  twitter: victordarras
-  website: http://victordarras.fr/
--
-  name: Hugo Macarez
-  job: Webdesigner & Intégrateur
-  gravatar_image_path:
-  sentence:
-  twitter: HugoMacarez
-  website: http://www.hugomacarez.fr/
--
-  name: Sam Markiewicz
-  job: Graphiste & Développeur front-end
-  gravatar_image_path:
-  sentence:
-  twitter: sammarkz
-  website: http://sammarkiewi.cz/
-  freelance: true
-
