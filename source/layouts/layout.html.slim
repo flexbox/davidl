@@ -28,7 +28,7 @@ html lang="fr"
               'Haut de page
     = partial 'views/global/footer'
 
-    / = javascript_include_tag 'application', async: 'true', defer: 'defer'
+    / = javascript_include_tag 'application', defer: 'defer'
     = javascript_include_tag 'application'
     = yield_content :javascripts
     = google_analytics_universal_tag

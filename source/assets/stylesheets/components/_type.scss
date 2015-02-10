@@ -63,3 +63,8 @@ a {
     padding: 0;
   }
 }
+
+label small {
+  float: right;
+  line-height: $form-label-font-size * 2;
+}

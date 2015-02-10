@@ -1,7 +1,8 @@
 ---
-title: Newsletter développeur front-end ruby on rails
+title: Newsletter développeur front-end fan de Ruby
 description: "Newsletter mensuelle et gratuite sur le design et le développement front-end : articles sur Sass et CoffeeScript, outils, conseils, tutoriaux et liens."
 page_title: Newsletter
+page_emphasis: Je sélectionne le meilleur contenu du web
 page_class: m-newsletter
 changefreq: monthly
 priority: 0.8
@@ -9,22 +10,22 @@ priority: 0.8
 
 .row
   .medium-8.medium-centered.columns
-    h2 Inscrivez-vous aujourd'hui
+    h2 Inscrivez–vous aujourd’hui
     .row
       .small-2.columns
         i.fa.fa-send.fa-5x
       .small-10.columns
         h3.subheader Newsletter mensuelle et gratuite
-        p
-          'Recevez une fois par mois des informations sur le <strong>design</strong> & le <strong>développement front-end</strong> : articles, outils, conseils, tutoriaux et liens.
-        p Je passe des heures à sélectionner le meilleur contenu sur le web. J'écris des articles pour partager mon expérience avec vous : succès comme échecs. Abonnez-vous gratuitement. Si vous n'aimez pas, vous pouvez vous désabonner à tout moment.
+        markdown:
+          Recevez une fois par mois des informations sur le _design_ & le _développement front-end_ : articles, outils, conseils, tutoriaux et liens.
+          Je passe des heures à sélectionner le meilleur contenu sur le web. J’écris des articles pour partager mon expérience avec vous : succès comme échecs. Abonnez-vous gratuitement. Si vous n’aimez pas, vous pouvez vous désabonner à tout moment.
 
     .m-panel
       form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
         .row
           .small-12.columns
             label
-              'S'abonner pour ne pas manquer les nouvelles publications
+              'S’abonner pour ne pas manquer les nouvelles publications
               input type="email" name="EMAIL" placeholder="Saisissez votre adresse e-mail" required=""
               .hide
                 input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad"
@@ -33,5 +34,5 @@ priority: 0.8
             input type="submit" value="S'inscrire" name="subscribe" class="button"
 
     h6.subheader
-      'Je sais que votre email est précieux. C'est pourquoi il est gardé secret. Il sera toujours utilisé pour vous envoyer des <strong>informations utiles</strong> pour vous tenir au courant de ce qui se passe, sans avoir à passer des heures à le trouver.
+      'Je sais que votre email est précieux. C’est pourquoi il est gardé secret. Il sera toujours utilisé pour vous envoyer des <strong>informations utiles</strong> pour vous tenir au courant de ce qui se passe, sans avoir à passer des heures à le trouver.
     hr

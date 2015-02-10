@@ -1,5 +1,6 @@
 ---
 about.html.slim: "/about.html.slim"
+ask-me.html.slim: "/ask-me.html.slim"
 blog:
   articles:
     2011-11-28-framework-php.markdown: "/blog/articles/2011-11-28-framework-php.markdown"
@@ -87,6 +88,7 @@ pricing.html.slim: "/pricing.html.slim"
 projects.html.slim: "/projects.html.slim"
 sitemap.html.slim: "/sitemap.html.slim"
 sos.html.slim: "/sos.html.slim"
+thankyou.html.slim: "/thankyou.html.slim"
 toolkit.html.slim: "/toolkit.html.slim"
 typography.html.slim: "/typography.html.slim"
 video.html.slim: "/video.html.slim"
