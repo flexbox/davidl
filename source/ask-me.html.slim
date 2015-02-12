@@ -7,7 +7,6 @@ changefreq: monthly
 priority: 0.8
 ---
 
-
 .row
   .medium-8.medium-centered.columns
     p.drop-cap
@@ -31,7 +30,7 @@ priority: 0.8
             'Nom
             abbr *
             small Ajoutez votre nom que je sache à qui m’adresser
-          input type="text" id="name" name="name" placeholder="Einstein"
+          input type="text" id="name" name="name" placeholder="Einstein" required=""
 
       label for="url"
         'Url
@@ -40,13 +39,12 @@ priority: 0.8
 
       label for="message"
         'Qu’est-ce qui vous préoccupe ?
+        abbr *
         small Limitez vous à une question en étant aussi précis que possible.
 
-      textarea id="message" name="message" rows="10"
+      textarea id="message" name="message" rows="10" required=""
 
       button type="submit" class="button large"
         'Demandez–moi
 
     p Je ne suis pas vraiment sûr de savoir si cela sera populaire. Tout le monde obtiendra une réponse mais cela pourra prendre un certain temps. Au maximum une semaine, au minimum une heure.
-
-
