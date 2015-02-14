@@ -12,7 +12,7 @@
   url: http://responsivewireframe.tumblr.com/
 -
   title: Guide CSS
-  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : un espace où s’entasse dans un chaos le plus complet divers éléments.<br>J’ai rédigé ce guide qui regroupe les <strong>bonnes pratiques</strong> pour coder des feuilles de styles de <strong>qualité</strong>, <strong>évolutives</strong> et <strong>maintenables</strong>."
+  description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : Un espace où s’entassent divers éléments, dans un chaos le plus complet. J’ai rédigé ce guide qui regroupe les <strong>bonnes pratiques</strong> pour coder des feuilles de styles de <strong>qualité</strong>, <strong>évolutives</strong> et <strong>maintenables</strong>."
   type: project
   button: primary
   url: http://guidecss.fr/
@@ -50,7 +50,7 @@
   stared: true
 -
   title: Refonte de site internet
-  description: "De nombreux sites web ne sont pas préparés pour le nouveau monde du multi-écran.<br>Ce guide présentent les différentes étapes pour transformer votre site web."
+  description: "De nombreux sites web ne sont pas préparés pour le nouveau monde du multi-écran.<br>Ce guide présente les différentes étapes pour transformer votre site web."
   type: writing
   button: secondary
   icon: fa-long-arrow-right
