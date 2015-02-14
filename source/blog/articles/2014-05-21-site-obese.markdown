@@ -81,7 +81,7 @@ Les techniques de minification et de concaténation devraient êtres mises en pl
 
 Minifier votre code source signifie simplement supprimer les octets inutiles d’un fichier (espaces, indentation et saut de ligne). Cette syntaxe est indispensable pour qu’un humain comprenne, mais elle n’est pas nécessaire pour l'éxécution du code sur une machine.
 
->Le code source est écrit pour les humain, pas pour les machines
+>Le code source est écrit pour les humains, pas pour les machines
 >
 ><cite>@drublic</cite>
 
