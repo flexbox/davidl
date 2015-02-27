@@ -1,43 +1,43 @@
 # Le front-end de A à Z
 
--
-  letter: "B"
-  term:
-    - content: "Breakpoint"
-    - content: "Point de rupture."
--
-  letter: "D"
-  term:
-    - content: "Duplicate content"
-    - content: "Contenu en double, mauvais pour Google."
--
-  letter: "F"
-  term:
-    - content: "Framework"
-    - content: "Cadre de développement. Ensemble de composants structurels qui servent à créer des fondations."
--
-  letter: "M"
-    - content: "Machine learning"
-    - content: "Apprentissage automatique."
--
-  letter: "P"
-  term:
-    - content: "Pattern"
-    - content: "Le mot anglais pattern est souvent utilisé pour désigner un modèle, une structure, un motif, un type, etc. Il s'agit souvent d'un phénomène ou d'une organisation quel'on peut observer de façon répétée."
--
-  letter: "S"
-  term:
-    - content: "Sémantique"
-    - content: "Donner du sens au contenu HTML des pages."
--
-  letter: "U"
-  term:
-    - content: "User flow"
-    - content: "Comportement des visites utilisateurs."
-    - content: "UX Designer"
-    - content: "L’UX Designer, ou ergonome, définit l’expérience utilisateur. Il facilite l'utilisation des applications web."
--
-  letter: "Z"
-  term:
-    - content: "Zoning"
-    - content: "Organisation des pages web."
+# -
+#   letter: "B"
+#   term:
+#     - content: "Breakpoint"
+#     - content: "Point de rupture."
+# -
+#   letter: "D"
+#   term:
+#     - content: "Duplicate content"
+#     - content: "Contenu en double, mauvais pour Google."
+# -
+#   letter: "F"
+#   term:
+#     - content: "Framework"
+#     - content: "Cadre de développement. Ensemble de composants structurels qui servent à créer des fondations."
+# -
+#   letter: "M"
+#     - content: "Machine learning"
+#     - content: "Apprentissage automatique."
+# -
+#   letter: "P"
+#   term:
+#     - content: "Pattern"
+#     - content: "Le mot anglais pattern est souvent utilisé pour désigner un modèle, une structure, un motif, un type, etc. Il s'agit souvent d'un phénomène ou d'une organisation quel'on peut observer de façon répétée."
+# -
+#   letter: "S"
+#   term:
+#     - content: "Sémantique"
+#     - content: "Donner du sens au contenu HTML des pages."
+# -
+#   letter: "U"
+#   term:
+#     - content: "User flow"
+#     - content: "Comportement des visites utilisateurs."
+#     - content: "UX Designer"
+#     - content: "L’UX Designer, ou ergonome, définit l’expérience utilisateur. Il facilite l'utilisation des applications web."
+# -
+#   letter: "Z"
+#   term:
+#     - content: "Zoning"
+#     - content: "Organisation des pages web."

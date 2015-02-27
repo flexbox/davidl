@@ -14,8 +14,8 @@ priority: 0.6
         li
           = link_to letter, "##{letter}"
 
-    - data.glossary.each do |item|
-      h2 = item.letter
-      - if item['term'].present?
-        - item['term'].each do |subitem|
-          p = subitem.content
+    / - data.glossary.each do |item|
+    /   h2 = item.letter
+    /   - if item['term'].present?
+    /     - item['term'].each do |subitem|
+    /       p = subitem.content
