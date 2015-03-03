@@ -58,13 +58,14 @@ activate :syntax
 # Page options, layouts, aliases and proxies
 ###
 
-page "/feed.xml", :layout => false
-page "/sitemap.xml", :layout => false
-page "/browserconfig.xml", :layout => false
+page '/feed.xml', layout: false
+page '/sitemap.xml', layout: false
+page '/browserconfig.xml', layout: false
 
 require 'slim'
 require 'builder'
 require 'kramdown'
+require 'better_errors'
 
 set :js_dir, 'assets/javascripts'
 set :css_dir, 'assets/stylesheets'
@@ -76,6 +77,11 @@ after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
 
+end
+
+configure :development do
+  use BetterErrors::Middleware
+  BetterErrors.application_root = __dir__
 end
 
 configure :build do

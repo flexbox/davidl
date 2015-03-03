@@ -14,7 +14,7 @@ priority: 0.8
 
     p Cela peut être un projet personnel ou un de vos projets professionnels... L’idée est que tout le monde peut apprendre. Demandez–moi !
 
-    form accept-charset="UTF-8" action="https://formkeep.com/f/8824976fd5b9" method="POST"
+    = form_tag 'https://formkeep.com/f/8824976fd5b9', method: :post
       input type="hidden" name="utf8" value="✓"
 
       .row
@@ -23,19 +23,19 @@ priority: 0.8
             'Adresse email
             abbr *
             small Pour que je puisse vous répondre
-          input type="email" id="email" name="email" placeholder="einstein@science.org" required=""
+          = email_field_tag 'email', id: 'email', placeholder: 'einstein@science.org', required: 'required'
 
         .medium-6.columns
           label for="name"
             'Nom
             abbr *
             small Ajoutez votre nom que je sache à qui m’adresser
-          input id="name" name="name" type="text" placeholder="Einstein" required=""
+          = text_field_tag 'name', id: 'name', placeholder: 'Einstein', required: 'required'
 
       label for="url"
         'Url
         small Inclure un lien si vous avez des problèmes de code
-      input type="url" id="url" name="url" placeholder="http://www.science.org"
+      = url_field_tag 'url', id: 'url', placeholder: 'http://www.science.org'
 
       label for="message"
         'Qu’est-ce qui vous préoccupe ?

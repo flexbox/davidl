@@ -18,4 +18,4 @@ Handcrafted with [Middleman](http://middlemanapp.com) & [slimmer](https://github
 
 ## License
 
-Licensed under [GNU GPL](LICENSE).
+This project is free software, and may be redistributed under [GNU/GPL license](LICENSE.md).

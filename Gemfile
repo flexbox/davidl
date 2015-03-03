@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
-# gem for linux
-gem 'therubyracer'
+if /linux/ =~ RUBY_PLATFORM
+  gem 'therubyracer'
+end
 
 gem 'middleman',               '~> 3.3.7'
 gem 'middleman-blog'
@@ -18,3 +19,4 @@ gem 'middleman-google-analytics'
 gem 'nokogiri','~> 1.6.3.1'
 gem 'slim',    '~> 3.0.2'
 gem 'builder', '~> 3.2.2'
+gem 'better_errors'
