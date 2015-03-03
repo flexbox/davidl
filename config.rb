@@ -58,9 +58,9 @@ activate :syntax
 # Page options, layouts, aliases and proxies
 ###
 
-page '/feed.xml', layout: false
-page '/sitemap.xml', layout: false
-page '/browserconfig.xml', layout: false
+page "/feed.xml", layout: false
+page "/sitemap.xml", layout: false
+page "/browserconfig.xml", layout: false
 
 require 'slim'
 require 'builder'
