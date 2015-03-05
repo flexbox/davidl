@@ -1,0 +1,67 @@
+@import "colors";
+@import "foundation/scss/normalize";
+
+@keyframes noise {
+  0%, 3%, 5%, 42%, 44%, 100% {opacity: 1; transform: scaleY(1);}
+  4.3% {opacity: 1; transform: scaleY(1.7);}
+  43% {opacity: 1; transform: scaleX(1.5);}
+}
+@keyframes noise-1 {
+  0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;}
+  10% {opacity: .1;}
+  50% {opacity: .5; left: -6px;}
+  80% {opacity: .3;}
+  100% {opacity: .6; left: 2px;}
+}
+@keyframes noise-2 {
+  0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;}
+  10% {opacity: .1;}
+  50% {opacity: .5; left: 6px;}
+  80% {opacity: .3;}
+  100% {opacity: .6; left: -2px;}
+}
+@keyframes noise-3 {
+  0%,3%,5%,42%,44%,100% {opacity: 1; transform: scaleY(1);}
+  4.3% {opacity: 1; transform: scaleY(4);}
+  43% {opacity: 1; transform: scaleX(10) rotate(60deg);}
+}
+
+html {
+  background: radial-gradient(#000, #111);
+}
+
+.error-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.error-content {
+  margin: auto;
+}
+
+.error--title {
+  position: relative;
+  color: $white;
+  animation: noise 2s linear infinite;
+  &:after,
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    content: '404';
+  }
+  &:after {
+    color: blue;
+    animation: noise-1 .2s linear infinite;
+  }
+  &:before {
+    color: red;
+    animation: noise-2 .2s linear infinite;
+  }
+}
+
+.error--emphasis {
+  color: $white;
+  animation: noise-3 1s linear infinite;
+}

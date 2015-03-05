@@ -51,6 +51,9 @@ activate :google_analytics do |ga|
   ga.minify = true
 end
 
+activate :autoprefixer,
+  browsers: ['last 2 versions', 'ie 8', 'ie 9']
+
 activate :livereload
 activate :syntax
 
@@ -113,9 +116,7 @@ configure :build do
     }
   end
 
-  activate :autoprefixer,
-    browsers: ['last 2 versions', 'ie 8', 'ie 9']
-  activate :sitemap, :hostname => data.settings.site.url
+  activate :sitemap, hostname: data.settings.site.url
 
   activate :minify_html
   activate :minify_css
