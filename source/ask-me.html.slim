@@ -19,18 +19,17 @@ priority: 0.8
 
       .row
         .medium-6.columns
+          label for="fullname"
+            'Nom
+            abbr *
+            small Ajoutez votre nom que je sache à qui m’adresser
+          = text_field_tag 'fullname', id: 'fullname', placeholder: 'Albert Einstein', required: 'required'
+        .medium-6.columns
           label for="email"
             'Adresse email
             abbr *
             small Pour que je puisse vous répondre
           = email_field_tag 'email', id: 'email', placeholder: 'einstein@science.org', required: 'required'
-
-        .medium-6.columns
-          label for="fullname"
-            'Nom
-            abbr *
-            small Ajoutez votre nom que je sache à qui m’adresser
-          = text_field_tag 'fullname', id: 'fullname', placeholder: 'Einstein', required: 'required'
 
       label for="url"
         'Url
@@ -44,8 +43,9 @@ priority: 0.8
 
       textarea id="message" name="message" rows="10" required=""
 
+      p Tout le monde obtiendra une réponse mais cela pourra prendre un certain temps. Au maximum une semaine, au minimum une heure.
+
       .text-center
         button type="submit" class="button secondary large"
           'Demandez–moi
 
-    p Je ne suis pas vraiment sûr de savoir si cela sera populaire. Tout le monde obtiendra une réponse mais cela pourra prendre un certain temps. Au maximum une semaine, au minimum une heure.

@@ -61,6 +61,7 @@ blog:
     2014-09-23-paris-web-2014.markdown: "/blog/articles/2014-09-23-paris-web-2014.markdown"
     2014-12-21-conseils-sketchnoting.markdown: "/blog/articles/2014-12-21-conseils-sketchnoting.markdown"
     2015-02-01-fosdem-2015.markdown: "/blog/articles/2015-02-01-fosdem-2015.markdown"
+    2015-02-27-foundation-mixin.markdown: "/blog/articles/2015-02-27-foundation-mixin.markdown"
     2015-02-27-grille-impair-centre.markdown: "/blog/articles/2015-02-27-grille-impair-centre.markdown"
   index.html.slim: "/blog/index.html.slim"
 books.html.slim: "/books.html.slim"
