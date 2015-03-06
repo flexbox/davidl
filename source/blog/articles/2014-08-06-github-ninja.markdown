@@ -41,7 +41,7 @@ Créer / savoir les différents raccourcis vous fera gagner de précieuses secon
 - __git poule__ - Récupérer la dernière version du projet.
 - __git br__ - Afficher la liste de vos branches.
 - __git co__ - Changer de branche.
-- __git push__ - Pousser vos modifications "dans le cloud" (dans mon cas la branche courrante)
+- __git push__ - Pousser vos modifications "dans le cloud" (dans mon cas la branche courante)
 - __git today__ - Qu'est ce que j'ai fait aujourd'hui ?
 
 Cette liste est simple et peut être grandement améliorée mais c'est ce que j'utilise 80% du temps.
