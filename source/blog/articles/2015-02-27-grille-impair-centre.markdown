@@ -1,15 +1,18 @@
 ---
-date: 2015-02-27
-slug: grille-impair-centre
+date: {}
+slug: "grille-impair-centre"
 title: Centrer des éléments impairs avec une grille CSS
 description: "Comment organiser sa mise en page avec une grille CSS contenant un nombre d'élément impair ? En utilisant les classes pull et push avec le framework Foundation"
 page_title: Une mise en page centrée avec des nombres impairs
 page_emphasis: Symétrie et nombres impairs
 changefreq: monthly
 priority: 0.8
+published: true
 ---
 
-Pour créer des mises en page je travaille quotidienement avec les mathématiques en respectant une certaine symétrie. Lorsqu’elle est bien faite, elle contribue à avoir des conceptions armonieuses. Je vais prendre par exemple une page de présentation d’équipe. Si vous avez huit personnes dans une grille de 3 colonnes, vous allez rencontrer un problème. Heureusement, il y a un moyen de contourner cela. Voici comment faire pour centrer un nombre impair d’éléments dans votre mise en page avec la grille CSS du [framework Foundation](http://foundation.zurb.com/docs/).
+Pour créer des mises en page je travaille quotidienement avec les mathématiques en respectant une certaine symétrie. Lorsqu’elle est bien faite, elle contribue à avoir des conceptions armonieuses.
+
+Je vais prendre par exemple une page de présentation d’équipe. Si vous avez 8 personnes dans une grille de 3 colonnes, vous allez rencontrer un problème. Heureusement, il y a un moyen de contourner cela. Voici comment faire pour centrer un nombre impair d’éléments dans votre mise en page avec la grille CSS du [framework Foundation](http://foundation.zurb.com/docs/).
 
 ![Centrer des éléments impairs avec une grille CSS](https://farm9.staticflickr.com/8613/16474630238_d41100070b_b.jpg)
 
@@ -17,7 +20,7 @@ Pour créer des mises en page je travaille quotidienement avec les mathématique
 
 L’organisation de la mise en page est de 3 photos. Nous pourrions utiliser une grille personnalisé de 3 colonnes. Mais pour des raisons qui deviendront plus claires par la suite, nous allons utiliser une grille standard de 12 colonnes.
 
-Nous devons d’abord créer une ligne, avec une mise en page de colonne `small-6`, centrée, pour que cela soit agréable et compact.
+La première étape est de créer une mise en page de colonne `small-6`, centrée, pour que cela soit agréable et compact.
 
 ~~~ html
   <div class="row">
