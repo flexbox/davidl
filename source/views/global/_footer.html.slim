@@ -3,11 +3,7 @@ footer.m-footer role="contentinfo"
     .medium-3.small-6.columns
       ul.side-nav
         li
-          = link_to 'À propos', '/about.html', title: 'En savoir plus sur moi'
-        li
           = link_to 'Manifeste', '/manifesto.html', title: 'Mes engagements envers le web'
-        li
-          = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
         li
           = link_to 'Plan du site', '/sitemap.html', title: 'Cliquez si vous êtes perdus'
         li
@@ -24,8 +20,6 @@ footer.m-footer role="contentinfo"
           = link_to 'Mentors', '/mentors.html', title: "Liste de personnes à suivre"
         li
           = link_to 'Outils', '/toolkit.html', title: "Travailler efficacement"
-        li
-          = link_to 'Webdesign', '/webdesign.html', title: "Les concepts du responsive web ddesign"
 
     .medium-6.columns
       p.m-footer--title Améliorer vos compétences
@@ -46,12 +40,19 @@ footer.m-footer role="contentinfo"
 
   hr
   p.text-center
-    'Ce site est rédigé et administré par
+    'Ce site open source est hébergé sur
+    = link_to 'GitHub', 'https://github.com/flexbox/davidl'
+    '. Patches, suggestions et commentaires sont les bienvenus.
+  hr
+  p.text-center
+    'davidl.fr est rédigé et administré par
     = link_to 'David Leuliette', '/human.txt'
     ', sous licence
     = link_to 'GNU/GPL', '/gnu.html'
+    '. Vous pouvez lire les
+    = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
     '.
-    br
+  p.text-center
     'Dernière mise à jour le
     time datetime="#{DateTime.now.strftime('%Y-%m-%d')}"
       = DateTime.now.strftime('%d/%m/%Y')

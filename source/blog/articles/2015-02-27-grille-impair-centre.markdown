@@ -1,13 +1,12 @@
 ---
-date: {}
-slug: "grille-impair-centre"
+date: 2015-02-27
+slug: grille-impair-centre
 title: Centrer des éléments impairs avec une grille CSS
 description: "Comment organiser sa mise en page avec une grille CSS contenant un nombre d'élément impair ? En utilisant les classes pull et push avec le framework Foundation"
 page_title: Une mise en page centrée avec des nombres impairs
 page_emphasis: Symétrie et nombres impairs
 changefreq: monthly
 priority: 0.8
-published: true
 ---
 
 Pour créer des mises en page je travaille quotidienement avec les mathématiques en respectant une certaine symétrie. Lorsqu’elle est bien faite, elle contribue à avoir des conceptions armonieuses.
