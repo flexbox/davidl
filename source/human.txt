@@ -45,6 +45,8 @@ http://www.google.com/fonts/specimen/Lato
 Font Awesome (icons)
 http://fontawesome.io/
 
+Atom Logo
+http://commons.wikimedia.org/wiki/File:Atom_editor_logo.svg
 _______________________________________________________________________________
 
 PHOTOGRAPHIES

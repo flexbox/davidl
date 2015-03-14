@@ -4,16 +4,21 @@ $topbar-height: rem-calc(60);
   position: fixed;
   top: 0;
   width: 100%;
-  height: $topbar-height;
+  min-height: $topbar-height;
   z-index: 15;
 
-  transition: all $transition-duration ease-in-out;
-
+  transition: transform 200ms ease-in-out;
+  background-color: $gray;
+  @media #{$medium}{
+    display: flex;
+  }
   a {
     border-bottom: 0;
     background-color: transparent;
+    padding: rem-calc(20);
+    color: $black;
     &:hover {
-      color: $black;
+      color: $primary-color;
     }
   }
 }
@@ -21,42 +26,75 @@ $topbar-height: rem-calc(60);
 .m-topbar--logo {
   padding: 0 !important;
   img {
-    margin-top: rem-calc(5);
-    max-height: rem-calc(40);
+    max-height: 64px;
+    margin: rem-calc(20 0);
     @media #{$small}{
-      max-height: rem-calc(60);
+      margin: rem-calc(10 0 0 0);
+      max-height: 44px;
     }
-
   }
 }
 
 .m-topbar--list {
   display: flex;
-  flex-direction: row;
   margin: auto;
-  width: 100%;
-
+  flex-direction: column;
+  @media #{$medium}{
+    flex-direction: row;
+    flex: 6;
+    display: flex;
+  }
+  &.is-away {
+    display: none;
+    @media #{$medium}{
+      display: flex;
+    }
+  }
+  &.is-on-viewport {
+    display: flex;
+  }
   a {
     text-align: center;
     display: block;
     flex: 1;
-    padding-top: rem-calc(20);
-    font-size: rem-calc(13);
-    @media #{$medium}{
-      font-size: rem-calc(16);
-    }
+    padding: rem-calc(20 0);
+  }
+}
+
+.m-topbar--form {
+  display: flex;
+  flex-direction: row;
+  @media #{$medium}{
+    display: inherit;
+    flex: 4;
   }
   .l-search-form {
-    display: none;
-    padding: rem-calc(10 0 0 20);
+    padding: rem-calc(15 0 0 20);
+    input {
+      margin-bottom: 0;
+    }
   }
-
-  .is-minimized {
+  .l-menu {
+    flex: 3;
+    @media #{$medium}{
+      flex: 0;
+      display: none;
+    }
+    span {
+      box-shadow: 0px 0px 0px 8px $gray, 0px 0px 0px 10px $gray-dark;
+      padding: rem-calc(0 10);
+    }
+  }
+  .l-action {
+    flex: 1;
+    text-align: right;
+  }
+  .is-hidden {
     flex: 0;
     display: none;
   }
   .is-expanded {
-    flex: 5;
+    flex: 3;
     display: block;
   }
 }
@@ -64,19 +102,11 @@ $topbar-height: rem-calc(60);
 
 
 .headroom--top {
-  background-color: transparent;
   box-shadow: 0px 0px 0px rgba(0,0,0,.5);
-  a {
-    color: $gray;
-  }
 }
 
 .headroom--not-top {
-  background-color: $white;
   box-shadow: 1px 0px 3px rgba(0,0,0,.2);
-}
-.headroom {
-  transition: transform 200ms ease-in-out;
 }
 .headroom--pinned {
   transform: translateY(0%);

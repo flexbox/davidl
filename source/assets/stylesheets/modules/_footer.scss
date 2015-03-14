@@ -13,6 +13,11 @@ $footer-border: scale-color($gray-light, $lightness: -70%);
   p {
     color: $gray-light;
   }
+  .l-text {
+    padding: 0 $column-gutter;
+    text-align: center;
+  }
+
   label {
     color: $white;
     margin-bottom: rem-calc(10);
@@ -32,6 +37,7 @@ $footer-border: scale-color($gray-light, $lightness: -70%);
 p.m-footer--title {
   @extend .vador;
   margin-top: 0;
+  margin-bottom: rem-calc(15);
   color: $secondary-color;
 }
 

@@ -39,12 +39,12 @@ footer.m-footer role="contentinfo"
             input type="submit" value="S’inscrire" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
 
   hr
-  p.text-center
+  p.l-text
     'Ce site open source est hébergé sur
     = link_to 'GitHub', 'https://github.com/flexbox/davidl'
     '. Patches, suggestions et commentaires sont les bienvenus.
   hr
-  p.text-center
+  p.l-text
     'davidl.fr est rédigé et administré par
     = link_to 'David Leuliette', '/human.txt'
     ', sous licence
@@ -52,7 +52,7 @@ footer.m-footer role="contentinfo"
     '. Vous pouvez lire les
     = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
     '.
-  p.text-center
+  p.l-text
     'Dernière mise à jour le
     time datetime="#{DateTime.now.strftime('%Y-%m-%d')}"
       = DateTime.now.strftime('%d/%m/%Y')

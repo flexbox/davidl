@@ -1,14 +1,19 @@
 #js-topbar.m-topbar role="banner"
-  nav role="navigation" aria-label="Primary" class="m-topbar--list js-topbar--list"
+  nav role="navigation" aria-label="Primary" class="m-topbar--list js-topbar--list is-away"
     = link_to '/', class: 'm-topbar--logo', title: 'Retour à l’accueil' do
-      = image_tag '/favicon_base.png', alt: 'davidl intégrateur web & développeur front-end lille'
+      = image_tag 'atom-logo.svg', alt: 'davidl intégrateur web & développeur front-end lille'
     = link_to 'À propos', '/about.html'
     = link_to 'Journal', '/blog/'
     = link_to 'Contact', '/contact.html'
-    form class="l-search-form" action="http://www.google.com/search" method="get"
-      input name="q" placeholder="Ex : Conseils et bonnes pratiques" type="search"
-      input name="sitesearch" value="davidl.fr" type="hidden"
-    = link_to '#', id: 'js-topbar--search' do
+
+  #js-topbar--form.m-topbar--form
+    = link_to '#', id: 'js-topbar--button', class: 'l-menu' do
+      span Menu
+
+    form class="l-search-form is-hidden" action="http://www.google.com/search" method="get"
+      input name="q" placeholder="Ex : Conseils et bonnes pratiques" type="search" id="js-search-input"
+      input name="sitesearch" value="#{data.settings.site.url}" type="hidden"
+    = link_to '#', id: 'js-topbar--search', class: 'l-action' do
       i.fa.fa-search
-    = link_to '#', id: 'js-topbar--close', class: 'is-minimized' do
+    = link_to '#', id: 'js-topbar--close', class: 'l-action is-hidden' do
       i.fa.fa-close

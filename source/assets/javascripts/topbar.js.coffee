@@ -1,14 +1,24 @@
+toggleNavigation = ->
+  button = $('#js-topbar--button')
+  button.click (event) ->
+    event.preventDefault()
+    $('.js-topbar--list').toggleClass('is-on-viewport','is-away')
+
 toggleSearch = (event) ->
   event.preventDefault()
-  items = $('.js-topbar--list')
-  items.find('a').toggleClass('is-minimized')
-  items.find('form').toggleClass('is-expanded')
+  form = $('#js-topbar--form form')
+  icon = $('#js-topbar--form .l-action')
+  button = $('#js-topbar--button')
+
+  icon.toggleClass('is-hidden')
+  button.toggleClass('is-hidden')
+  form.toggleClass('is-expanded')
 
 searchBar = ->
   $('#js-topbar--search').click (event) ->
     event.preventDefault()
     toggleSearch(event)
-    $('.js-topbar--list').find('input[type="search"]').focus()
+    $('#js-search-input').focus()
 
   $('#js-topbar--close').click (event) ->
     event.preventDefault()
@@ -29,3 +39,4 @@ launchHeadroom = ->
 $ ->
   launchHeadroom()
   searchBar()
+  toggleNavigation()
