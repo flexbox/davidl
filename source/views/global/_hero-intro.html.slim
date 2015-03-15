@@ -1,9 +1,7 @@
 header.m-hero-intro
-  .row#top
-    .medium-12.columns
-      h1.l-title
-        = current_page.data.page_title
-      - if current_page.data.page_emphasis.present?
-        p.l-emphasis = current_page.data.page_emphasis
-      .l-icon
-        i.fa.fa-angle-down
+  h1.l-title
+    = current_page.data.page_title
+  - if current_page.data.page_emphasis.present?
+    p.l-emphasis = current_page.data.page_emphasis
+  .l-icon
+    i.fa.fa-angle-down

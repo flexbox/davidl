@@ -10,7 +10,9 @@
 .m-hero-intro {
   background-color: $primary-color;
   margin-bottom: rem-calc(30);
-  padding-top: $topbar-height;
+  padding-top: $topbar-height ;
+  padding-left: $column-gutter;
+  padding-right: $column-gutter;
   i {
     color: $white !important;
   }
@@ -61,6 +63,6 @@
 }
 
 .m-projects .m-hero-intro {
-  background: url("https://farm4.staticflickr.com/3904/14327833686_9f4b21b2cc_h.jpg") repeat 0 0 $gray-dark;
+  background-image: url("https://farm4.staticflickr.com/3904/14327833686_9f4b21b2cc_h.jpg");
   background-size: cover;
 }

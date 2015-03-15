@@ -5,10 +5,11 @@ priority: 0
 layout: error_layout
 ---
 
-= link_to '← Revenir à la page d’acceuil', data.settings.site.url
+.m-topbar role="banner"
+  .m-topbar--form
+    = link_to '← Revenir à la page d’acceuil', data.settings.site.url
 
 .error-wrapper
   .error-content
     h1.error--title 404
     h2.error--emphasis Il n'y a rien à voir ici !
-

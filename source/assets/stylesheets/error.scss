@@ -1,5 +1,7 @@
 @import "colors";
 @import "foundation/scss/normalize";
+@import "foundation/scss/foundation/components/global";
+@import "components/topbar";
 
 @keyframes noise {
   0%, 3%, 5%, 42%, 44%, 100% {opacity: 1; transform: scaleY(1);}
@@ -26,8 +28,8 @@
   43% {opacity: 1; transform: scaleX(10) rotate(60deg);}
 }
 
-html {
-  background: radial-gradient(#000, #111);
+body {
+  background-color: $black;
 }
 
 .error-wrapper {

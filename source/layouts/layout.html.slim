@@ -17,14 +17,7 @@ html lang="fr"
     = partial 'views/global/topbar'
     .m-content role="main"
       = partial 'views/global/hero-intro'
-      #js-content
       == yield
-      .row
-        .small-12.columns
-          p
-            = link_to '#top' do
-              i.i-custom.fa.fa-arrow-up
-              'Haut de page
     = partial 'views/global/footer'
 
     / = javascript_include_tag 'application', defer: 'defer'
