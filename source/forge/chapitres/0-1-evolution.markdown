@@ -1,7 +1,7 @@
 ---
 date: 2014-03-14
 slug: 0-1-evolution
-title: ’Préparer la refonte de son site internet’
+title: "Préparer la refonte de son site internet"
 page_title: Evolution des usages
 changefreq: monthly
 priority: 0.8

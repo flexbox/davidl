@@ -12,38 +12,38 @@ Photographie : [Doug Menuez](http://menuez.com)
 
 ## Un document vivant
 
-Il existe une différence fondamentale entre le Print et le web. Le contenu d'un site est éditable. C'est impératif qu'il soit à jour.
+Il existe une différence fondamentale entre le Print et le web. Le contenu d’un site est éditable. C’est impératif qu’il soit à jour.
 
-En l'état actuel, le contenu de votre site n'a sûrement pas évolué depuis ces 5 dernières années.
+En l’état actuel, le contenu de votre site n’a sûrement pas évolué depuis ces 5 dernières années.
 Mauvaise nouvelle : votre contenu a dépassé sa date limite de consommation.
 Malgré vous. Il est devenu périmé.
 
-> ... Mais j'ai réalisé des mises à jours par-ici et par la ...
+> ... Mais j’ai réalisé des mises à jours par-ici et par la ...
 
 La seule chose que vous avez gagné est une organisation de type bidonville.
-Votre site web n'est pas simplement une présentation aléatoire de votre contenu. Pour garder l'attention de votre visiteur il faut sélectionner avec soin le contenu mis en avant.
+Votre site web n’est pas simplement une présentation aléatoire de votre contenu. Pour garder l’attention de votre visiteur il faut sélectionner avec soin le contenu mis en avant.
 
 ## Contenu pour le web
 
-Voici un exemple à mettre en place facilement. Dans le cas d'une organisation de type blog vous pouvez utiliser ce type de classement :
+Voici un exemple à mettre en place facilement. Dans le cas d’une organisation de type blog vous pouvez utiliser ce type de classement :
 
 - Articles utiles
 - Les classiques
 - Boite à outils
 - Les bases
 
-Une bonne organisation augmente le nombre d'actions par utilisateur ainsi que le temps passé sur votre site.
+Une bonne organisation augmente le nombre d’actions par utilisateur ainsi que le temps passé sur votre site.
 
-Il est aussi impératif d'architecturer votre contenu de façon sémantique :
+Il est aussi impératif d’architecturer votre contenu de façon sémantique :
 
 - Un titre `h1` par page
 - Plusieurs sous-titres `h2` - `h6`
 - Votre contenu en paragraphe `p`
 - Ne jamais mettre de balisage de titre sur les éléments de votre site qui se répètent (menu, footer …)
 
-Au delà d'avoir une organisation claire et compréhensible, ce travail vous permettra d'avoir un référencement de qualité. Pour vous aider à planifier et organiser la production de votre contenu, l’open web group a publié un excellent article : [Des contenus souples et réactifs grâce à la stratégie de contenu](http://openweb.eu.org/articles/des-contenus-souples-et-reactifs-grace-a-la-strategie).
+Au delà d’avoir une organisation claire et compréhensible, ce travail vous permettra d’avoir un référencement de qualité. Pour vous aider à planifier et organiser la production de votre contenu, l’open web group a publié un excellent article : [Des contenus souples et réactifs grâce à la stratégie de contenu](http://openweb.eu.org/articles/des-contenus-souples-et-reactifs-grace-a-la-strategie).
 
-J'ai aussi remarqué que sur le web : [nos yeux "scannent" une page web](http://conversionxl.com/19-things-we-can-learn-from-numerous-heatmap-tests/) de haut en bas, et sont attirés par les zones mises en valeur. Si l’on ne trouve pas rapidement ce qu’on cherche au cours de ce "scan", on va se désintéresser du site. Seulement les plus tenaces essayent d'entrer dans le détail... Il est donc obligatoire de bien hiérarchiser l’information, c’est même un métier : [architecte d'information](http://archinfo.umontreal.ca/ai/).
+J’ai aussi remarqué que sur le web : [nos yeux "scannent" une page web](http://conversionxl.com/19-things-we-can-learn-from-numerous-heatmap-tests/) de haut en bas, et sont attirés par les zones mises en valeur. Si l’on ne trouve pas rapidement ce qu’on cherche au cours de ce "scan", on va se désintéresser du site. Seulement les plus tenaces essayent d’entrer dans le détail... Il est donc obligatoire de bien hiérarchiser l’information, c’est même un métier : [architecte d’information](http://archinfo.umontreal.ca/ai/).
 
 > Dois-je utiliser du lorem ipsum pour mes test en attendant ?
 
