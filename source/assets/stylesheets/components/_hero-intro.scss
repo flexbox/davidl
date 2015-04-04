@@ -10,46 +10,32 @@
 .m-hero-intro {
   background-color: $primary-color;
   margin-bottom: rem-calc(30);
-  padding-top: $topbar-height ;
+  padding-top: $topbar-height * 2;
+  padding-bottom: $topbar-height;
   padding-left: $column-gutter;
   padding-right: $column-gutter;
   i {
     color: $white !important;
   }
 
-  .l-icon {
-    text-align: center;
-    padding-top: rem-calc(0);
-    padding-bottom: rem-calc(20);
-    font-size: rem-calc(32);
-    opacity: .4;
-    @media #{$small} {
-      font-size: rem-calc(64);
-    }
-    animation: 3s ease-in-out 0s normal none infinite bounce;
-  }
-
   .l-title,
   .l-emphasis {
-    text-align: center;
     color: $gray-light;
     text-shadow: $text-shadow;
   }
 
   .l-title {
     font-size: rem-calc(40);
-
     @media #{$small} {
-      margin-top: rem-calc(40);
+      margin-top: rem-calc(20);
       margin-bottom: 0;
-      font-size: rem-calc(70);
-      padding: rem-calc(40) rem-calc(60);
+      padding: rem-calc(40 60 20 60);
     }
   }
-
   .l-emphasis {
     @media #{$small} {
-      font-size: rem-calc(18);
+      margin-bottom: 0;
+      padding: rem-calc(0 60 60 60);
     }
   }
 
