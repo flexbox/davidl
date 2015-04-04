@@ -2,7 +2,7 @@
 title: Intégrateur web et développeur front-end à Lille
 description: "Anciennement intégrateur HTML & CSS, j’ai monté de niveau et j’exerce le métier de développeur front-end dans le Nord-Pas de Calais entre Lille et Calais"
 page_title: "Designer & développeur"
-page_emphasis: "Apprendre quelque chose de nouveau <em>chaque jour</em>"
+page_emphasis: Apprendre quelque chose de nouveau <em>chaque jour</em>
 changefreq: monthly
 priority: 1
 ---
@@ -11,44 +11,48 @@ priority: 1
   = javascript_include_tag 'front/about'
 
 .row
-  .medium-4.columns.hide-for-small
-    .m-photo-album
-      = image_tag 'front/windows-95.jpg', alt: 'Windows 95 party', title: 'Lancement de windows 95'
-      = image_tag 'front/aperture-science-avatar.jpg', alt: 'Portrait David Leuliette Aperture Science', title: 'Design basé sur la science'
-      = image_tag 'front/sublime-macosx.jpg', alt: 'Sublime text on Mac OS X', title: 'David Leuliette travaille sur un environement UNIX'
-
-  .medium-8.columns
+  .medium-10.medium-centered.columns
     h2 Mon histoire
-    p.dropcap
-      'J'ai découvert internet en 1998 à l'époque du 56k, de Caramail et de Lycos. Je n'ai rien râté depuis, grâce à un système de veille efficace, ma persévérance et ma passion.
-    p
-      ' Je vis à Lille, dans le nord de la France. Mon travail ? Coder des
-      => link_to 'features', 'http://git-scm.com/about'
-      'pour rendre le monde meilleur à travers un web plus libre, <strong>plus rapide</strong> et à <strong>l'épreuve du temps</strong>.
-    h3
-      small Jour après jour :
-    ul
-      li Découverte de nouveaux produits.
-      li Recherches sur l'expérience utilisateur.
-      li Croquis et brainstroming.
-      li Prototypage et validation.
-      li Tests d'utilisabilité.
-      li Conception d'interfaces
-      li Codage HTML / CSS (Généralement avec un préprocesseur comme Sass) correctement architecturé et évolutif.
-      li Tout cela en étroite collaboration avec les ingénieurs et les graphistes.
+    .row
+      .small-3.columns
+        .m-photo-album
+          = image_tag 'front/windows-95.jpg', alt: 'Windows 95 party', title: 'Lancement de windows 95'
+      .small-9.columns
+        markdown:
+          J'ai découvert internet en 1998 à l'époque du 56k, de Caramail et de Lycos. Je n'ai rien râté depuis, grâce à un système de veille efficace, ma persévérance et ma passion.
+
+          Je vis à Lille, dans le nord de la France. Mon travail ? Coder des [features](http://git-scm.com/about) pour rendre le monde meilleur à travers un _web plus libre_, _plus rapide_ et à _l'épreuve du temps_.
+
+    h3 Jour après jour
+    .row
+      .small-3.columns
+        .m-photo-album
+          = image_tag 'front/aperture-science-avatar.jpg', alt: 'Portrait David Leuliette Aperture Science', title: 'Design basé sur la science'
+      .small-9.columns
+        markdown:
+          - Découverte de nouveaux produits.
+          - Recherches sur l'expérience utilisateur.
+          - Croquis et brainstroming.
+          - Prototypage et validation.
+          - Tests d'utilisabilité.
+          - Conception d'interfaces.
+          - Codage HTML / CSS (Généralement avec un préprocesseur comme Sass) correctement architecturé et évolutif.
+          - Tout cela en étroite collaboration avec les ingénieurs et les graphistes.
 
     h3 Architecte front-end
-    p Je suis programmeur ayant une vaste expérience en codage, designer par passion, curieux intellectuellement, et dans la vie je donne le meilleur de moi même pour une chose :
-    blockquote
-      'Résoudre de réels problèmes pour les utilisateurs finaux
-    p
-      'J'aime construire des applications web, pousser du code tous les jours et rendre mes conceptions adaptables et rapides.
-      => link_to "Voici les outils que j'utilise", '/toolkit.html'
-      'au quotidien.
-    p
-      'N'hésitez pas à
-      = link_to 'me contacter', '/contact.html'
-      ', je lis tous mes emails et je réponds rapidement.
+    .row
+      .small-3.columns
+        .m-photo-album
+          = image_tag 'front/sublime-macosx.jpg', alt: 'Sublime text on Mac OS X', title: 'David Leuliette travaille sur un environement UNIX'
+      .small-9.columns
+        markdown:
+          Je suis programmeur ayant une vaste expérience en codage, designer par passion, curieux intellectuellement, et dans la vie je donne le meilleur de moi même pour une chose :
+
+          > Résoudre de réels problèmes pour les utilisateurs finaux
+
+          J'aime construire des applications web, pousser du code tous les jours et rendre mes conceptions adaptables et rapides. [Voici les outils que j'utilise](/toolkit.html) au quotidien.
+
+          N'hésitez pas à [me contacter](/contact.html), je lis tous mes emails et je réponds rapidement.
 
 section.m-section
   .row
@@ -93,22 +97,19 @@ section.m-section
 
 section.m-section
   .row
-    .medium-12.columns
+    .medium-10.medium-centered.columns
       h2 Lectures
       p Je suis autodidacte. Quand j'ai commencé à apprendre les fondamentaux du web, youtube n'existait pas ! J'ai pris l'habitude de dévorer des livres pour assouvir ma soif de connaissance.
-      ul.large-block-grid-2.medium-block-grid-2.small-block-grid-1.cs-style-3
+      ul.large-block-grid-4.medium-block-grid-2.small-block-grid-1
         - data.books.each_with_index do |book|
-          li
-            figure
+          - if book.stared.present?
+            li
               = image_tag "front/books/#{book.image}", alt: book.title
-              figcaption
-                h3
-                  = book.title
-                = link_to "J'achèèète", book.amazon.url, class: 'button'
-                = image_tag book.amazon.image
-      = link_to '/books.html', class: 'button large' do
-        |Lire mes recommandations
-        i.fa.fa-fw.fa-arrow-right
+        li
+          figure
+            = link_to '/books.html' do
+              |Lire mes recommandations
+              i.fa.fa-fw.fa-arrow-right
 
 section.m-section
   .row
@@ -171,7 +172,7 @@ section.m-section
 
 section.m-section
   .row
-    .medium-12.columns
+    .medium-10.medium-centered.columns
       h2 Où peut-on me trouver sur internet ?
       = partial 'views/social'
       hr

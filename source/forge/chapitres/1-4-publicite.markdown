@@ -34,7 +34,3 @@ Pour un créer un système efficace vous devez prioriser votre contenu, et sorti
 ![reponsive advertising](https://farm8.staticflickr.com/7124/13777101153_2d6ab4385a_z.jpg)
 
 Le schéma doit être simple et clair, pour vos annonceurs et pour vos utilisateurs. Dans cet exemple le premier prix démarre avec l'option A (visible sur tout les supports) et plus vos accordez d'importance à la publicité plus elle est chère. Ces différentes zones permettent de mettre plusieurs contenus en avant pour voir celui qui fonctionne le mieux. Cela est aussi plus acceptable pour vos utilisateurs car il est plus facile de mettre une "publicité" avec un contenu directement associé (exemple: Vendre un livre dans le contenu d'un site)
-
-Si vous trouvez cette idée intéressante, n'hésitez pas à vous abonner à la newsletter pour être prévenu lors de la sortie du e-book :)
-
-

@@ -2,6 +2,7 @@
   title: "The mobile book"
   description: "Concevoir un site mobile est différent : cela nous oblige à repenser et élargir nos pratiques. Nouveau contexte, nouvelles techniques, différents modèles et stratégies de conception. Ce livre se concentre sur la conception et la performance pour les appareils mobiles."
   collection: "Smashing magazine"
+  stared: true
   langage: Anglais
   image: "smashing-mobile.jpg"
   amazon:
@@ -11,6 +12,7 @@
   title: "Redesign the web"
   description: "The Smashing Book #3 est un livre incroyablement bien conçu. Il couvre les nouvelles normes de codage innovantes, la conception et les techniques d'UX et aborde les particularités du contexte mobile et design émotionnel."
   collection: Smashing magazine
+  stared: true
   langage: Anglais
   image: "smashing-redesign.jpg"
   amazon:
@@ -20,6 +22,7 @@
   title: "Jump start : Responsive Web Design"
   description: "Ce n'est plus seulement une expression à la mode, la conception adaptative est maintenant une compétence essentielle pour tous les webdesigners et développeurs. Ce livre est une très bonne introduction sur le sujet."
   collection: "Sitepoint"
+  stared: true
   langage: Anglais
   image: "sitepoint-jump-start-responsive.jpg"
   amazon:
