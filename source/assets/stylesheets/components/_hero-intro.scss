@@ -38,7 +38,20 @@
       padding: rem-calc(0 60 60 60);
     }
   }
+}
 
+.m-hero-contact {
+  padding-top: $topbar-height;
+  h1 {
+    font-size: rem-calc(40);
+    @media #{$small} {
+      margin-top: rem-calc(20);
+      margin-bottom: 0;
+    }
+  }
+  .m-panel {
+    margin-top: 0;
+  }
 }
 
 .m-homepage .m-hero-intro {
@@ -46,9 +59,4 @@
   @media #{$small} {
     animation: 35s linear 0s normal none infinite movebg;
   }
-}
-
-.m-projects .m-hero-intro {
-  background-image: url("https://farm4.staticflickr.com/3904/14327833686_9f4b21b2cc_h.jpg");
-  background-size: cover;
 }

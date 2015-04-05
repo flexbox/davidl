@@ -1,5 +1,6 @@
-header.m-hero-intro
-  h1.l-title
-    = current_page.data.page_title
-  - if current_page.data.page_emphasis.present?
-    p.l-emphasis = current_page.data.page_emphasis
+- if current_page.data.page_title.present?
+  header.m-hero-intro
+    h1.l-title
+      = current_page.data.page_title
+    - if current_page.data.page_emphasis.present?
+      p.l-emphasis = current_page.data.page_emphasis

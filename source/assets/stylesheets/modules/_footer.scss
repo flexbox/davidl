@@ -4,17 +4,42 @@ $footer-border: scale-color($gray-light, $lightness: -70%);
   padding-bottom: rem-calc(40);
 }
 
+.m-footer--section {
+  padding-top: $hr-margin;
+  padding-bottom: $hr-margin;
+  background-color: $gray;
+  position: relative;
+  z-index: 90;
+}
+
+.m-footer--side-nav {
+  @include side-nav(
+    $link-color: $gray-dark,
+    $link-color-hover: $primary-color,
+    $link-bg-hover: transparent
+  );
+  a {
+    border-bottom: 0;
+  }
+  .l-title {
+    padding: rem-calc(14);
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+  }
+}
+
 .m-footer {
   background-color: $black;
-  padding: rem-calc(40 0);
+  padding: rem-calc(40 0 10 0);
   position: relative;
   z-index: 90;
 
   p {
-    color: $gray-light;
+    color: $gray;
   }
   .l-text {
     padding: 0 $column-gutter;
+    font-size: rem-calc(14);
     text-align: center;
   }
 
@@ -39,8 +64,4 @@ p.m-footer--title {
   margin-top: 0;
   margin-bottom: rem-calc(15);
   color: $secondary-color;
-}
-
-.m-mailchimpemail {
-  border-right: 0 !important;
 }

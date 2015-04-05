@@ -1,27 +1,55 @@
-footer.m-footer role="contentinfo"
-  nav.row role="navigation"
-    .medium-3.small-6.columns
-      ul.side-nav
-        li
-          = link_to 'Manifeste', '/manifesto.html', title: 'Mes engagements envers le web'
-        li
-          = link_to 'Plan du site', '/sitemap.html', title: 'Cliquez si vous êtes perdus'
-        li
-          = link_to 'Contact', '/contact.html', title: 'Je lis TOUS mes emails'
-        li
-          = link_to 'Une question ?', '/ask-me.html', title: 'Je réponds chaque semaine à une question'
-    .medium-3.small-6.columns
-      ul.side-nav
-        li
-          = link_to 'Blog', '/blog/', title: "Publication d'articles sur l'intégration & le développement front-end"
-        li
-          = link_to 'Bibliothèque', '/books.html', title: "conseils de lecture"
-        li
-          = link_to 'Mentors', '/mentors.html', title: "Liste de personnes à suivre"
-        li
-          = link_to 'Outils', '/toolkit.html', title: "Travailler efficacement"
+.m-footer--section
+  .row
+    .medium-10.medium-centered.columns
+      nav.row role="navigation"
+        .small-6.medium-3.columns
+          ul.m-footer--side-nav
+            li class="l-title" Outils
+            li role="menuitem"
+              = link_to 'Applications', '/toolkit.html', title: 'Logiciels pour le développement et l’intégration web'
+            li role="menuitem"
+              = link_to 'Open source', '/projects.html', title: 'Mes projets'
+            li role="menuitem"
+              = link_to 'Manifeste', '/manifesto.html', title: 'Mes engagements envers le web'
+            li role="menuitem"
+              = link_to 'Responsive', '/webdesign.html', title: 'Méthode pour le design de sites internet'
+        .small-6.medium-3.columns
+          ul.m-footer--side-nav
+            li class="l-title" Ressources
+            li role="menuitem"
+              = link_to 'Blog', '/blog/', title: "Publication d'articles sur l'intégration & le développement front-end"
+            li role="menuitem"
+              = link_to 'Bibliothèque', '/books.html', title: "conseils de lecture"
+            li role="menuitem"
+              = link_to 'Typographie', '/typography.html', title: "conseils sur la typographie pour le web"
+            li role="menuitem"
+              = link_to 'Mentors', '/mentors.html', title: "Liste de personnes à suivre"
+        .small-6.medium-3.columns
+          ul.m-footer--side-nav
+            li class="l-title" A propos
+            li role="menuitem"
+              = link_to 'En savoir plus', '/about.html', title: 'Je peux vous aider'
+            li role="menuitem"
+              = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
+            li role="menuitem"
+              = link_to 'GNU/GPL', '/gnu.html'
+            li role="menuitem"
+              = link_to 'Plan du site', '/sitemap.html', title: 'Cliquez si vous êtes perdus'
+        .small-6.medium-3.columns
+          ul.m-footer--side-nav
+            li class="l-title" Contact
+            li role="menuitem"
+              = link_to 'Contact', '/contact.html', title: 'Je lis TOUS mes emails'
+            li role="menuitem"
+              = link_to 'Une question ?', '/ask-me.html', title: 'Je réponds chaque semaine à une question'
+            li role="menuitem"
+              = link_to 'Services', '/work.html', title: 'Vous pouvez m’enbaucher'
+            li role="menuitem"
+              = link_to 'Newsletter', '/newsletter.html', title: 'Suivre l’évolution de mes services'
 
-    .medium-6.columns
+footer.m-footer role="contentinfo"
+  .row
+    .medium-8.medium-centered.columns
       p.m-footer--title Améliorer vos compétences
       p Recevez mes conseils en développement front-end. Ne vous inquétez pas je déteste le spam, il suffit d'un clic pour se désabonner.
       form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
@@ -30,30 +58,24 @@ footer.m-footer role="contentinfo"
             label for="js-mailchimpemail"
               'S'abonner pour ne pas manquer les nouvelles publications
 
-        .row.collapse
+        .row
           .small-8.columns
             input type="email" name="EMAIL" id="js-mailchimpemail" class="m-mailchimpemail" placeholder="Saisissez votre adresse e-mail" required="" autocapitalize="none" autocorrect="off"
             .hide
               input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad"
           .small-4.columns
-            input type="submit" value="S’inscrire" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
+            button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
+              'S’inscrire
 
   hr
   p.l-text
     'Ce site open source est hébergé sur
     = link_to 'GitHub', 'https://github.com/flexbox/davidl'
     '. Patches, suggestions et commentaires sont les bienvenus.
-  hr
-  p.l-text
+    br
     'davidl.fr est rédigé et administré par
     = link_to 'David Leuliette', '/human.txt'
-    ', sous licence
-    = link_to 'GNU/GPL', '/gnu.html'
-    '. Vous pouvez lire les
-    = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
-    '.
-  p.l-text
-    'Dernière mise à jour le
+    '. Dernière mise à jour le
     time datetime="#{DateTime.now.strftime('%Y-%m-%d')}"
       = DateTime.now.strftime('%d/%m/%Y')
       '.

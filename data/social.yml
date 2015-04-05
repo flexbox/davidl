@@ -2,7 +2,7 @@
   title: Amazon
   icon: fa-gift
   url: https://www.amazon.fr/registry/wishlist/2DD1UFSWC721E/
-  description: Vous êtes fan de mes travaux ? Amazon propose un bon service pour me souhaiter un joyeux anniversaire.
+  description: Me souhaiter un joyeux anniversaire.
 -
   title: Coderwall
   icon: fa-code
@@ -17,7 +17,7 @@
   title: GitHub
   icon: fa-github
   url: 'https://github.com/flexbox'
-  description: Je partage mon code source librement avec toute la communauté.
+  description: Partage de code source libre avec toute la communauté.
 -
   title: Google+
   icon: fa-google-plus

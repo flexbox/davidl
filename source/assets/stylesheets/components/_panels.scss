@@ -72,6 +72,9 @@ $m-panel-bg-hover: $white;
   &.l-social {
     position: relative;
     overflow: hidden;
+    .l-title {
+      margin-top: 0;
+    }
 
     i {
       @include single-transition(all, $transition-duration, ease-in-out);
