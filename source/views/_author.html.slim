@@ -1,27 +1,29 @@
-aside.m-blog-panel itemprop="author" itemscope="" itemtype="http://schema.org/Person" role="complementary"
-  .row
-    .small-8.columns
+
+.row
+  .medium-8.medium-centered.columns
+    aside.m-blog-panel itemprop="author" itemscope="" itemtype="http://schema.org/Person" role="complementary"
       p
-        'Publié par
-        a href="#{data.settings.social.google_plus}?rel=author" itemprop="name"
-          |David Leuliette
-        br
-        span itemprop="jobTitle"
-          'Développeur front-end
+        strong
+          'Publié par
+          a href="#{data.settings.social.google_plus}?rel=author" itemprop="name" David Leuliette
+          span itemprop="jobTitle" , consultant développeur front-end.
       hr
-      p
-        'J'aime travailler avec les technologies web et le faire de la bonne façon.
-        'Je suis
-        em> itemprop="title" évangéliste open source
-        ', mon objectif est de partager les bonnes pratiques avec le plus grand nombre.
-      p
-        i.fa.fa-fw.fa-twitter
-        span itemprop="nickname"
-          => link_to data.settings.social.twitter.name, data.settings.social.twitter.url
-        'sur twitter
-      p
-        i.fa.fa-fw.fa-rss
-        = link_to "S'incrire au flux RSS", data.settings.social.rss.url
-    .small-4.columns
-      = link_to '/about.html', class: 'l-avatar'  do
-        = image_tag 'front/aperture-science-avatar.jpg', itemprop: 'image', alt: 'Avatar Aperture Science'
+      .row
+        .small-3.columns
+          = link_to '/about.html', class: 'l-avatar'  do
+            = image_tag 'front/aperture-science-avatar.jpg', itemprop: 'image', alt: 'Avatar Aperture Science'
+        .small-9.columns
+          p
+            'J'aime travailler avec les technologies web et le faire de la bonne façon.
+            |En tant qu'
+            em> itemprop="title" évangéliste open source
+            ', je partage mes bonnes pratiques avec le plus grand nombre.
+      .l-footer
+        = link_to data.settings.social.twitter.url do
+          i.fa.fa-fw.fa-twitter
+          span itemprop="nickname"
+            => data.settings.social.twitter.name
+          'sur twitter
+        = link_to data.settings.social.rss.url do
+          i.fa.fa-fw.fa-rss
+          'S'incrire au flux RSS

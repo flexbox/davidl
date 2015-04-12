@@ -5,15 +5,16 @@ title: Astuce raccourcis GitHub
 description: "Voici ma méthode de travail pour être plus efficace avec git et GitHub en utilisant les raccourcis claviers"
 image: https://octodex.github.com/images/dojocat.jpg
 page_title: Devenir un ninja sur GitHub
+page_emphasis: Configurer git comme un pro
 changefreq: monthly
 priority: 0.8
 ---
 
-Si je ne devais choisir qu'un seul outil [dans tous ceux que j'utilise](http://davidl.fr/toolkit.html), je choisirais sans hésiter le terminal. Concernant le site web se serait [GitHub](http://github.com). Vu que je passe beaucoups de temps à utiliser ces solutions, autant essayer d'être efficace.
-Créer / savoir les différents raccourcis vous fera gagner de précieuses secondes. Vous êtes plus productif, votre travail est plus efficace et vous libère du temps pour régler de vrais problèmes.
+Si je ne devais choisir qu'un seul outil [dans tous ceux que j'utilise](http://davidl.fr/toolkit.html), je choisirais sans hésiter le terminal. Concernant le site web se serait [GitHub](http://github.com). Je passe beaucoups de temps à utiliser ces solutions, autant essayer d'être efficace.
+Créer / connaitre différents raccourcis vous fera gagner de précieuses secondes. Vous êtes plus productif, votre travail est plus efficace et vous libère du temps pour régler de vrais problèmes.
 
-<div>
-<div class="medium-6 medium-centered columns">
+<div class="row">
+<div class="medium-4 medium-centered columns">
 <img src="https://octodex.github.com/images/dojocat.jpg" alt="Github ninja octocat">
 </div>
 </div>

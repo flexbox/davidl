@@ -20,7 +20,7 @@ $m-panel-bg-hover: $white;
   }
 
   &.l-callout {
-    border-bottom: 5px solid $secondary-color;
+    border-top: 5px solid $secondary-color;
     margin: rem-calc(60 0 80 0);
     position: relative;
     a {
@@ -33,11 +33,7 @@ $m-panel-bg-hover: $white;
     }
     &.l-callout--primary {
       text-align: center;
-      border-bottom: 5px solid $primary-color;
-      &:after {
-        left: 80%;
-        border-top-color: $primary-color;
-      }
+      border-top: 5px solid $primary-color;
       a {
         color: $primary-color;
         border-color: $primary-color;
@@ -96,13 +92,13 @@ $m-panel-bg-hover: $white;
         top: 5%;
       }
     }
-
-    [href^=""]:not([href*="davidl.fr"]):after,
-    [href^="https:"]:not([href*="davidl.fr"]):after {
-      content: "";
-    }
-
   }
+
+  a[href^=""]:not([href*="davidl.fr"]):after,
+  a[href*="https:"]:not([href*="davidl.fr"]):after {
+    content: "";
+  }
+
 }
 
 .m-blog-panel {
@@ -117,6 +113,9 @@ $m-panel-bg-hover: $white;
   a {
     border-bottom: 0;
   }
+  p {
+    font-size: rem-calc(14);
+  }
 
   .l-avatar {
     border: 3px solid $white;
@@ -127,6 +126,27 @@ $m-panel-bg-hover: $white;
       &:hover {
         border-color: $secondary-color;
       }
+    }
+  }
+
+  .l-footer {
+    border-top: 1px solid $hr-border-color;
+    @include clearfix;
+    a {
+      width: 50%;
+      float: left;
+      display: block;
+      text-align: center;
+      padding: rem-calc(10 0);
+      font-size: rem-calc(14);
+      color: $gray-dark;
+      &:hover {
+        color: $primary-color;
+        background-color: transparent;
+      }
+      // &[href*="https:"]:not([href*="davidl.fr"]):after {
+      //   content: "";
+      // }
     }
   }
 }

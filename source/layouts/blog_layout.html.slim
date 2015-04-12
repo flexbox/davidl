@@ -12,6 +12,4 @@
   article.row itemtype="http://schema.org/BlogPosting" itemscope="" role="article"
     .medium-8.medium-centered.columns.blog-article itemprop="articleBody"
       == yield
-      .row
-        .medium-8.medium-centered.columns
-          = partial 'views/author'
+      = partial 'views/author'
