@@ -79,6 +79,7 @@ forge:
     1-5-details.markdown: "/forge/chapitres/1-5-details.markdown"
     2-1-manifeste-refonte.markdown: "/forge/chapitres/2-1-manifeste-refonte.markdown"
   index.html.slim: "/forge/index.html.slim"
+formation.html.slim: "/formation.html.slim"
 glossary.html.slim: "/glossary.html.slim"
 gnu.html.slim: "/gnu.html.slim"
 index.html.slim: "/index.html.slim"

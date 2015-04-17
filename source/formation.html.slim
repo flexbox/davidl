@@ -1,0 +1,22 @@
+---
+title: Formation front-end et ruby à Lille
+description: "Workshop d’un consultant développeur front-end, qui partage son expértise en intégration HTML, développement avec Ruby, Sass et CoffeScript."
+page_title: Formation
+page_emphasis: Apprendre à construire des systèmes modulaires
+changefreq: monthly
+priority: 0.6
+---
+
+.row
+  .medium-10.medium-centered.columns
+    - data.formation.each_with_index do |course|
+      h2
+        = course.title
+      p
+        => course.provider
+        => course.place
+        => course.date
+      p
+        = course.description
+      - if course['url'].present?
+        = link_to 'Visiter le site', course.url
