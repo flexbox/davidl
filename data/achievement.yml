@@ -1,0 +1,22 @@
+interviews:
+  -
+    date: avril 2015
+    website: workspiration
+    url: http://workspiration.org/david-leuliette
+    title: "Interview de David Leuliette, développeur front-end & design hacker"
+  -
+    date: janvier 2015
+    website: dotnetdojo
+    url: https://www.dotnetdojo.com/technologies-a-suivre-en-2015/
+    title: "Quelles sont les technologies à suivre en 2015 ? (interview de David Leuliette)"
+blogpost:
+  -
+    date: Octobre 2014
+    website: webdesign.tutsplus
+    url: http://webdesign.tutsplus.com/fr/tutorials/foundations-sassy-styles-explained--webdesign-15549
+    title: "Méthode pour travailler avec Sass et Foundation"
+  -
+    date: Mars 2014
+    website: code.tutsplus
+    url: http://code.tutsplus.com/fr/tutorials/quick-tip-jquery-newbs-stop-jumping-in-the-pool--net-22142
+    title: "Astuce débutant jQuery : On ne saute pas dans la piscine"
