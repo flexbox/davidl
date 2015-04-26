@@ -25,6 +25,10 @@ activate :blog do |forge|
   forge.default_extension = ".markdown"
 end
 
+###
+# Navigation
+###
+
 activate :navtree do |options|
   options.data_file = 'tree.yml'
   options.source_dir = 'source' # The `source` directory we want to represent in our nav tree.
@@ -42,6 +46,10 @@ activate :navtree do |options|
   options.promote_files = ['index.html'] # Any files we might want to promote to the front of our navigation
   options.ext_whitelist = [] # If you add extensions (like '.md') to this array, it builds a whitelist of filetypes for inclusion in the navtree.
 end
+
+###
+# Analytics
+###
 
 activate :google_analytics do |ga|
   ga.tracking_id = data.settings.google_analytics.tracking_code
