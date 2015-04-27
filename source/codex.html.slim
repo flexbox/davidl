@@ -84,17 +84,34 @@ priority: 0
         | I do not fear computers. I fear the lack of them. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.
         cite Isaac Asimov
 
-    h3 Panel
+    h3 panel
     .row
       .medium-4.columns
         .panel
           p
-            'Je suis un panneau standard
+            '.panel
       .medium-4.columns
         .panel.callout
           p
-            'Je suis un panneau standard mis en avant
+            '.panel.callout
       .medium-4.columns
         .m-panel
           p
-            'Je suis un panneau module
+            '.m-panel
+
+    h2 alert-box (JS)
+    .alert-box.success data-alert=""
+      'This is a success alert.
+      = link_to '&times;' ,'#', class: 'close'
+    .alert-box.warning data-alert=""
+      'This is a warning alert.
+      = link_to '&times;' ,'#', class: 'close'
+    .alert-box.info data-alert=""
+      'This is an info alert.
+      = link_to '&times;' ,'#', class: 'close'
+    .alert-box.alert data-alert=""
+      'This is an alert - alert.
+      = link_to '&times;' ,'#', class: 'close'
+    .alert-box.basic data-alert=""
+      'This is a basic alert.
+      = link_to '&times;' ,'#', class: 'close'

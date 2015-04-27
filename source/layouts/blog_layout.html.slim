@@ -1,13 +1,10 @@
 = wrap_layout :layout do
   .row
-    .medium-10.medium-centered.columns
-      p.m-post-list--calendar
+    .medium-8.medium-centered.columns
+      p.text-right
         i.fa.fa-calendar.i-custom.fa-lg
-        span.l-day=current_page.data.date.strftime('%d')
-        |/
-        span.l-month=current_page.data.date.strftime('%m')
-        |/
-        span.l-year=current_page.data.date.strftime('%Y')
+        time datetime="#{current_page.data.date}" pubdate=""
+          = current_page.data.date.strftime('%d/%m/%Y')
 
   article.row itemtype="http://schema.org/BlogPosting" itemscope="" role="article"
     .medium-8.medium-centered.columns.blog-article itemprop="articleBody"

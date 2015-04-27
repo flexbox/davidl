@@ -9,72 +9,31 @@ blog: blog
 ---
 
 .row
-  .medium-8.columns
-    h2 Liste des dernières publications
-    - page_articles.each_with_index do |article, i|
-      - if i == 0
-        = link_to article, class: 'm-post-recent-list--link' do
-          .row
-            .medium-12.columns
-              time.m-post-list--calendar pubdate=""
-                span.l-day=article.date.strftime('%d')
-                |/
-                span.l-month=article.date.strftime('%m')
-                |/
-                span.l-year=article.date.strftime('%Y')
-              h3.l-title= article.title
-        hr
-      - else
-        = link_to article, class: 'm-post-list--link' do
-          .row
-            .medium-12.columns
-              time.m-post-list--calendar pubdate=""
-                span.l-day=article.date.strftime('%d')
-                |/
-                span.l-month=article.date.strftime('%m')
-                |/
-                span.l-year=article.date.strftime('%Y')
-              p.l-title= article.title
+  .medium-8.medium-centered.columns
+    ul.m-post-list
+      - page_articles.each_with_index do |article, i|
+        - if i == 10
+          section.m-section
+            i.fa.i-custom.fa-envelope
+            = link_to 'S’inscrire par email', '/newsletter.html'
+            'C’est gratuit
 
-  aside.medium-4.columns
-    h2
-      'S’inscrire
-      small C'est gratuit
-    p
-      i.fa.i-custom.fa-rss
-      = link_to 'Abonnement au flux RSS', data.settings.social.rss.url
-    p
-      i.fa.i-custom.fa-envelope
-      = link_to "S'inscrire par email", '/newsletter.html'
-    hr
-    h2 Ressources
-    p
-      = link_to '/forge/' do
-        'Forge
-    p
-      = link_to '/webdesign.html' do
-        'Responsive design
-    p
-      = link_to '/books.html' do
-        'Bibliothèque
-    p
-      = link_to '/manifesto.html' do
-        'Manifeste
-    p
-      = link_to '/mentors.html' do
-        'Mes mentors
-    p
-      = link_to '/toolkit.html' do
-        'Outils
-    p
-      = link_to '/typography.html' do
-        'Typographie sur le web
+        - elsif i == 30
+          section.m-section
+            i.fa.i-custom.fa-rss
+            = link_to 'Abonnement au flux RSS', data.settings.social.rss.url
 
-    hr
-    h2 Autres contributions
-    p
-      => link_to 'On ne saute pas dans la piscine', 'http://code.tutsplus.com/fr/tutorials/quick-tip-jquery-newbs-stop-jumping-in-the-pool--net-22142'
-      'publié sur tutsplus.com
-    p
-      => link_to 'Méthode pour travailler avec Sass et Foundation', 'http://webdesign.tutsplus.com/fr/tutorials/foundations-sassy-styles-explained--webdesign-15549'
-      'publié sur tutsplus.com
+        - elsif i == 50
+          section.m-section
+            'Suivez
+            b> = data.settings.social.twitter.name
+            ' sur Twitter pour obtenir les dernières mises à jour.
+            = link_to data.settings.social.twitter.url, class: 'button tiny' do
+              i.fa.i-custom.fa-twitter
+              'Suivre
+
+        - else
+          li
+            time datetime="#{article.date}" pubdate=""
+              => article.date.strftime('%d/%m/%Y')
+            = link_to article.title, article

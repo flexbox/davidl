@@ -26,18 +26,15 @@ $m-post-recent-link-border-color-hover: $secondary-color;
   }
 }
 
-.m-post-list--calendar {
-  span {
-    font-weight: $font-weight-normal;
+.m-post-list {
+  @extend .no-bullet;
+
+  li {
+    margin-bottom: rem-calc(10);
   }
-}
-
-.m-post-list--link {
-  @include post-list($m-post-link-border-color,$m-post-link-border-color-hover);
-}
-
-.m-post-recent-list--link {
-  @include post-list($m-post-recent-link-border-color,$m-post-recent-link-border-color-hover);
+  a {
+    border-bottom: 0;
+  }
 }
 
 .blog-article {
