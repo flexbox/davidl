@@ -9,7 +9,7 @@ blog: blog
 ---
 
 .row
-  .medium-8.medium-centered.columns
+  .medium-8.columns
     ul.m-post-list
       - page_articles.each_with_index do |article, i|
         - if i == 10
@@ -37,3 +37,18 @@ blog: blog
             time datetime="#{article.date}" pubdate=""
               => article.date.strftime('%d/%m/%Y')
             = link_to article.title, article
+  .medium-4.columns
+    i.fa.fa-5x.fa-github
+    h2 Sources
+    p Ce contenu est produit à partir d’expériences personnelles, MDN, et la documentation officielle.
+
+    h2 Contribuer
+    p
+      'Vous chezchez un sujet qui ne figure pas ici ? vous avez trouvé un article qui peut être amélioré ?
+      br
+      'Bravo ! Vous pouvez soumettre une demande de modification la page
+      => link_to 'Github', 'https://github.com/flexbox/davidl/tree/master/source/blog/articles'
+      'du projet.
+    p
+      'Des questions ?
+      = link_to 'Envoyer un tweet', data.settings.social.twitter.url
