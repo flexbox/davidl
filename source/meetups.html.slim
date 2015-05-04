@@ -1,0 +1,24 @@
+---
+title: Liste des meetups parlant de web dans le Nord de la France
+description: ""
+page_title: Rencontres entres travailleurs du web
+page_emphasis: Liste des groupes meetups que je recommande
+changefreq: monthly
+priority: 0.5
+---
+
+.row
+  .medium-8.medium-centered.columns
+
+    h2
+      'Mes meetups
+      small Sans ordre de classement
+
+    - data.meetups.each do |meetup|
+      p
+        strong
+          => link_to meetup.name, meetup.url
+        '—
+        = meetup.baseline
+        br
+        = meetup.place
