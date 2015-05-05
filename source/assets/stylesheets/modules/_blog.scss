@@ -35,6 +35,12 @@ $m-post-recent-link-border-color-hover: $secondary-color;
   a {
     border-bottom: 0;
   }
+  time {
+    margin: rem-calc(0 20 10 0);
+    @media #{$small-only} {
+      display: block;
+    }
+  }
 }
 
 .blog-article {

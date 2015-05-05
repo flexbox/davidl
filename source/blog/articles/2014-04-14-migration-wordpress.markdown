@@ -2,7 +2,8 @@
 date: 2014-04-14
 slug: migration-wordpress
 title: Migration de Wordpress vers ruby et Middleman
-page_title: J'ai quitté Wordpress,<br> Pourquoi ? Comment ?
+page_title: J’ai quitté Wordpress, Pourquoi ? Comment ?
+page_emphasis: Les fichiers textes et le versionning c’est l’avenir
 changefreq: monthly
 priority: 0.8
 ---

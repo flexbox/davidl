@@ -13,7 +13,21 @@ Demander combien coûte un site web adaptatif n’a simplement aucun sens. [Bria
 
 ## Quel est le coût d’un site internet ?
 
-> Imaginez demander à une agence immobilière, «&nbsp;Combien coûte une maison ?&nbsp;» Eh bien cela dépend. Tout d’abord, quels sont les éléments essentiels dont vous avez besoin ? Trois chambres à coucher parce que vous avez deux enfants ? Climatisation centrale parce que vous vivez dans le sud ? Maintenant que nous avons l’essentiel, il vous faut quelques extras ? Sous-sol ? Stockage supplémentaire ? Grande cour arrière ? Trois garages ? Et si vous pouviez avoir votre propre allée goudronnée ? Que diriez-vous d’une piscine ? Tout ça à l’air bien hein ?
+> Imaginez demander à une agence immobilière, “ Combien coûte une maison ? ”
+>
+> Eh bien cela dépend. Tout d’abord, quels sont les éléments essentiels dont vous avez besoin ?
+>
+> Trois chambres à coucher parce que vous avez deux enfants ?
+> Climatisation centrale parce que vous vivez dans le sud ?
+> Maintenant que nous avons l’essentiel, il vous faut quelques extras ?
+> Sous-sol ?
+> Stockage supplémentaire ?
+> Grande cour arrière ?
+> Trois garages ?
+> Et si vous pouviez avoir votre propre allée goudronnée ?
+> Que diriez-vous d’une piscine ?
+> Tout ça à l’air bien hein ?
+>
 >
 > <cite>Brian Hoff</cite>
 
@@ -58,7 +72,10 @@ C’est la partie la plus importante du budget. Beaucoup de personnes sont habit
 ### Plus d’essais / de phases de Test
 
 Rappelez-vous quand vous aviez&nbsp; à prendre en compte une poignée de navigateurs de bureau ? Ce n’es plus le monde dans lequel nous vivons. Assurez vous de construire une batterie de tests efficace et utilisez de vrai périphériques. Les émulateurs peuvent vous aider mais vous n’êtes pas à l’abri d’un changement de comportement entre les 2.
- «&nbsp;Avez quels appareils devons nous être compatible ?&nbsp;» C’est difficile car il y a beaucoup de facteurs à considérer pour décider quoi optimiser pour, mais ce qui est important: il y a une différence entre «support» et «optimisation».
+
+ > «&nbsp;Avez quels appareils devons nous être compatible ?&nbsp;»
+
+ C’est difficile car il y a beaucoup de facteurs à considérer pour décider quoi optimiser pour, mais ce qui est important: il y a une différence entre «support» et «optimisation».
  De nombreux contrats exigent un navigateur spécifique / une versions de la plateforme, et c’est impossible d’optimiser pour chaque dispositif sur la planète.
  Mais alors que les budgets sont limités, il est important pour l’équipe d’être à jour, avant-gardistes des solutions au lieu de mettre des oeillères et ne prêtant pas attention au paysage d’aujourd’hui.
 

@@ -13,30 +13,43 @@ blog: blog
     ul.m-post-list
       - page_articles.each_with_index do |article, i|
         - if i == 10
-          section.m-section
-            i.fa.i-custom.fa-envelope
-            = link_to 'S’inscrire par email', '/newsletter.html'
-            'C’est gratuit
+          section.m-section--inverse
+            .row
+              .medium-8.columns
+                p Recevoir gratuitement des conseils sur les technologies front-end
+              .medium-4.columns
+                = link_to '/newsletter.html', class: 'button small' do
+                  i.fa.i-custom.fa-envelope
+                  'S’inscrire par email
 
         - elsif i == 30
-          section.m-section
-            i.fa.i-custom.fa-rss
-            = link_to 'Abonnement au flux RSS', data.settings.social.rss.url
+          section.m-section--inverse
+            .row
+              .medium-8.columns
+                p Lire le contenu dans une autre application, ou en mode hors-ligne
+              .medium-4.columns
+                = link_to data.settings.social.rss.url, class: 'button small' do
+                  i.fa.i-custom.fa-rss
+                  'Abonnement au flux RSS
 
         - elsif i == 50
-          section.m-section
-            'Suivez
-            b> = data.settings.social.twitter.name
-            ' sur Twitter pour obtenir les dernières mises à jour.
-            = link_to data.settings.social.twitter.url, class: 'button tiny' do
-              i.fa.i-custom.fa-twitter
-              'Suivre
+          section.m-section--inverse
+            .row
+              .medium-8.columns
+                p
+                  'Suivez
+                  b> = data.settings.social.twitter.name
+                  ' sur Twitter pour obtenir les dernières mises à jour
+              .medium-4.columns
+                = link_to data.settings.social.twitter.url, class: 'button small' do
+                  i.fa.i-custom.fa-twitter
+                  'Suivre
 
         - else
           li
-            time datetime="#{article.date}" pubdate=""
+            time datetime="#{article.date}" pubdate="" class="text-tiny"
               => article.date.strftime('%d/%m/%Y')
-            = link_to article.title, article
+            = link_to article.title, article, class: 'm-post--title'
   .medium-4.columns
     i.fa.fa-5x.fa-github
     h2 Sources

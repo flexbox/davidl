@@ -68,3 +68,29 @@ label small {
   float: right;
   line-height: $form-label-font-size * 2;
 }
+
+
+
+.text-large {
+  font-size: rem-calc(18);
+  margin-bottom: rem-calc(26);
+}
+
+.text-medium {
+  font-size: rem-calc(16);
+  font-weight: $font-weight-normal;
+  margin-bottom: rem-calc(24);
+}
+
+.text-small {
+  font-size: rem-calc(14);
+  font-weight: $font-weight-normal;
+  margin-bottom: rem-calc(22);
+}
+
+.text-tiny {
+  font-size: rem-calc(13);
+  font-weight: $font-weight-normal;
+  margin-bottom: rem-calc(19);
+  color: $subheader-font-color;
+}

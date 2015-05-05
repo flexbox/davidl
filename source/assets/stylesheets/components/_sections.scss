@@ -8,11 +8,22 @@
   padding: rem-calc(40 20);
   margin: rem-calc(40 0);
 
-  .l-link {
+  p {
     @extend .sith;
+    color: $white;
+    margin: rem-calc(0 0 20 0);
+    @media #{$small} {
+      margin: 0;
+    }
+  }
+
+  .button {
+    margin: 0;
+  }
+
+  .l-link {
     margin: rem-calc(20 0);
     text-align: center;
-    color: $white;
     a {
       color: $white;
       border-color: $white;
