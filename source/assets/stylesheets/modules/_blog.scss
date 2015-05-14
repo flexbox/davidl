@@ -1,32 +1,4 @@
-$m-post-link-border-color: rgba($yellow,.4);
-$m-post-link-border-color-hover: $yellow;
-
-$m-post-recent-link-border-color: rgba($secondary-color,.4);
-$m-post-recent-link-border-color-hover: $secondary-color;
-
-@mixin post-list($color,$color-hover){
-  padding: rem-calc(10 20);
-  background-color: $m-panel-bg;
-  display: block;
-  border-left: 5px solid $color;
-  border-bottom: 0px;
-  color: $gray;
-
-  .l-title {
-    color: $gray-dark;
-  }
-
-  &:hover {
-    border-left-color: $color-hover;
-    background-color: $m-panel-bg-hover;
-    color: $gray-dark;
-    .l-title {
-      color: $black;
-    }
-  }
-}
-
-.m-post-list {
+.m-blog--post-list {
   @extend .no-bullet;
 
   li {
@@ -43,7 +15,7 @@ $m-post-recent-link-border-color-hover: $secondary-color;
   }
 }
 
-.blog-article {
+.m-blog--article {
   & > p:first-child {
     @include dropcap($dropcap-float-position, $dropcap-font-size, $dropcap-font-family, $dropcap-txt-indent, $dropcap-margin, $dropcap-padding, $dropcap-color, $dropcap-line-height, $dropcap-bg);
   }

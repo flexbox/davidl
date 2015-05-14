@@ -7,6 +7,6 @@
           = current_page.data.date.strftime('%d/%m/%Y')
 
   article.row itemtype="http://schema.org/BlogPosting" itemscope="" role="article"
-    .medium-8.medium-centered.columns.blog-article itemprop="articleBody"
+    .medium-8.medium-centered.columns.m-blog--article itemprop="articleBody"
       == yield
       = partial 'views/author'

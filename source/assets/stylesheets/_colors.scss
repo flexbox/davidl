@@ -35,6 +35,18 @@ $sc-flattr      : #8AAE2E;
 
 
 
+// Hover colors
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin color-hover($color, $color-hover) {
+  color: $color;
+  &:hover {
+    color: $color-hover;
+  }
+}
+
+
+
 .list-color {
   li {
     width: 5em;
