@@ -67,6 +67,16 @@ priority: 0.8
       p
         strong
           'NON !
+
+      h3 Le rendu des éléments de formulaire doit être le même quelque soit l’os utilisé ?
+      p
+        strong
+          'NON !
+
+      h3 Je veux que le rendu de mes pages soit strictement identique entre site et emails.
+      p
+        strong
+          'C’EST IMPOSSIBLE !
         br
         'Une page doit jouer son rôle d'information et ne pas apparaître cassée.
         'Le problème n'est pas le rendu des navigateurs, il s'agit d'offrir aux utilisateurs le meilleur contenu en fonction de leur appareil de navigation.
@@ -662,11 +672,11 @@ priority: 0.8
           h3 Déficience visuelle
           p J'utilise un schéma de couleur simple et correctement contrasté. Certaines personnes sont atteinte de daltonisme, mais la déficience visuelle existe aussi si l'on regarde son appareil mobile en plein soleil.
 
-      h3 Tableaux et formulaires accessibles
-      p
-        'Je conserve des tableaux simples avec une seule entête. J'utilise la balise <code>th</code> pour les cellules de titrage avec une portée appropriée.
-
       markdown:
+        ### Tableaux et formulaires accessibles
+
+        Je conserve des tableaux simples avec une seule entête. J’utilise la balise `th` pour les cellules de titrage avec une portée appropriée.
+
         ~~~ html
           <table>
             <tr>
@@ -682,10 +692,8 @@ priority: 0.8
           </table>
         ~~~
 
+        Associer le `label` à son `input` avec l’attribut `for` est la première étape pour avoir des formulaires accessibles.
 
-      p
-        'Associer le <code>label</code> à son <code>input</code> avec l'attribut <code>for</code> est la première étape pour avoir des formulaires accessibles.
-      markdown:
         ~~~ html
           <label for="email"> Adresse email </label>
           <input id="email" type="email">
