@@ -12,14 +12,15 @@ priority: 0.8
   .medium-10.medium-centered.columns
 
     - data.tools.each_with_index do |tool|
-      .m-panel
-        .row
-          .medium-2.medium-offset-1.columns
-            = image_tag "front/tools/#{tool.image}", alt: "Logo #{tool.name}"
-          .medium-8.columns
-            h2
-              = tool.name
-            p
-              = tool.description
-            = link_to tool.url, class: 'button' do
-              'Visiter le site
+      h2
+        = tool.name
+      .row
+        .small-2.columns
+          = image_tag "front/tools/#{tool.image}", alt: "Logo #{tool.name}"
+        .small-10.medium-6.columns
+          p
+            = tool.description
+        .medium-4.columns
+          = link_to tool.url, class: 'button' do
+            'Visiter le site
+      hr
