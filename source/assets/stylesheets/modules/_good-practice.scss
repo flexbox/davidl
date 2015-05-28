@@ -26,6 +26,9 @@
     }
     .l-title {
       @include clearfix;
+      h2, h3 {
+        margin-top: rem-calc(35);
+      }
     }
   }
 

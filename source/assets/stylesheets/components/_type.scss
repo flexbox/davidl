@@ -21,9 +21,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .emperor { @extend h1; }
-.vador { @extend h2; }
-.maul { @extend h3; }
-.sith { @extend h4; }
+.vador   { @extend h2; }
+.maul    { @extend h3; }
+.sith    { @extend h4; }
 .acolyte { @extend h5; }
 
 li {
