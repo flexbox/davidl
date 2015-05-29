@@ -13,10 +13,16 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding-top: rem-calc(3);
   font-weight: $font-weight-light;
-  margin: rem-calc(20 30 20 0);
+  margin: rem-calc(0 30 20 0);
   color: $header-font-color;
   & + h3 {
     float: left;
+  }
+
+  &.light {
+    border-color: $gray-dark;
+    background-color: $gray;
+    color: $gray-dark;
   }
 }
 
