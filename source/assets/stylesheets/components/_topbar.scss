@@ -31,6 +31,7 @@ $topbar-height: rem-calc(60);
     @media #{$small}{
       margin: rem-calc(10 0 0 0);
       max-height: 44px;
+      max-height: 48px;
     }
   }
 }
