@@ -10,13 +10,7 @@ priority: 0.5
     .medium-6.medium-centered.columns
       br
       h1 Contacter David Leuliette
-      .m-panel.l-callout
-        p.lead
-          'Vous cherchez à me contacter ? La façon la plus rapide est de me mentionner sur twitter
-          = link_to data.settings.social.twitter.name, data.settings.social.twitter.url
-        p
-          'Pour les demandes de plus de 140 caractères je vous invite à m'envoyer un email à
-          = link_to data.settings.social.email, "mailto:#{data.settings.social.email}"
+      = partial 'views/quick-contact'
 
 .row
   .medium-5.push-1.columns

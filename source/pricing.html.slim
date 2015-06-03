@@ -43,3 +43,13 @@ priority: 0.6
                 - item['delivers'].each do |subitem|
                   li = subitem.content
             h4.small = item.price
+
+section.m-section
+  .row
+    .medium-10.medium-centered.columns
+      h2.text-center Je suis là pour vous aider
+      .text-center
+        = mail_to data.settings.social.email, 'Contacter par email', class: 'button secondary'
+        p
+          span Vous pouvez aussi me
+          = link_to 'poser une question', '/ask-me.html'
