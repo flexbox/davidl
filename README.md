@@ -7,7 +7,7 @@ Handcrafted with [Middleman](http://middlemanapp.com) & [slimmer](https://github
 ###### Preprocessing
 
 - [Slim](http://slim-lang.com) *[for html]*
-- [SASS](http://sass-lang.com) *[for css]*
+- [Sass](http://sass-lang.com) *[for css]*
 - [CoffeeScript](http://coffeescript.org) *[for js]*
 
 ###### Tools

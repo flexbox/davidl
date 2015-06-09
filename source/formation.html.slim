@@ -9,14 +9,22 @@ priority: 0.6
 
 .row
   .medium-10.medium-centered.columns
-    - data.formation.each_with_index do |course|
-      h2
-        = course.title
-      p
-        => course.provider
-        => course.place
-        => course.date
-      p
-        = course.description
-      - if course['url'].present?
-        = link_to 'Visiter le site', course.url
+    - data.courses.each_with_index do |date|
+      h2.text-center.emperor => date.year
+      hr
+      - date['content'].each do |course|
+          .row
+            .medium-3.columns
+              h3
+              p.text-tiny
+                => course.provider
+                br
+                => course.place
+            .medium-9.columns
+              h3
+                = course.title
+              p
+                = course.description
+                br
+                - if course['url'].present?
+                  = link_to 'Consulter le programme', course.url

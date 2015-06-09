@@ -3,7 +3,7 @@ date: 2015-02-27
 slug: foundation-mixin
 title: Mixin Foundation 5.5
 description: Certaines choses en CSS sont un peu fastidieuses à écrire, voici comment gagner du temps avec les composants de Foundation
-page_title: Liste des mixin <br> Foundation 5
+page_title: Liste des mixin Foundation 5
 page_emphasis: Certaines choses en CSS sont un peu fastidieuses à écrire
 changefreq: monthly
 priority: 0.8

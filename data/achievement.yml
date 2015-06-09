@@ -11,6 +11,11 @@ interviews:
     title: "Quelles sont les technologies à suivre en 2015 ? (interview de David Leuliette)"
 blogpost:
   -
+    date: Mars 2015
+    website: tech.siliconsalad
+    url: http://tech.siliconsalad.com/prefixes-css-ruby-rails/
+    title: "Les prefixes css avec Ruby on Rails"
+  -
     date: Octobre 2014
     website: webdesign.tutsplus
     url: http://webdesign.tutsplus.com/fr/tutorials/foundations-sassy-styles-explained--webdesign-15549

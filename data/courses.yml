@@ -1,0 +1,35 @@
+-
+  year: 2015
+  content:
+    -
+      title: 'Concevoir un produit par itération'
+      provider: Omnéo solutions
+      place: Lille
+      description: "Comment favoriser la collaboration rapide avec les membres de l’équipe ? Avec une organisation basé sur l’agilité, les 2 jours de formation sont destinés à la construction d’un prototype, son amélioration continue ainsi que la mise en place d’outils facilitant le suivi."
+    -
+      title: 'Git & GitHub 101'
+      provider: Université du Littoral
+      place: Iut Calais
+      description: Vacation à l’université. Formation des étudiants à travailler en équipe de développeurs avec git.
+      url: http://courses.davidl.fr/programs/git-github.html
+    -
+      title: Réussir sa refonte de site internet
+      provider: Visiplus
+      place: Paris
+      description: "Formation de 2 jours destiné aux chefs de projets, responsables marketing ou webmaster. L’objectif est de savoir auditer un site existant, connaître les différentes étapes d’un projet pour réussir sa refonte de site web."
+      url: http://academy.visiplus.com/formation-refonte-sites-web.php
+    -
+      title: "Création de site internet, processus & étapes de conception"
+      provider: Omnéo solutions
+      place: Lille
+      description: Formation alternant cours théorique et cas pratique. Au bout des 2 jours, les participants ont appris à créer un CV HTML et CSS en suivant le même processus que celui pour la refonte de site internet.
+      url: http://flexbox.github.io/formation/
+-
+  year: 2013
+  content:
+    -
+      title: "Création de projet web, développer une culture web"
+      provider: Omnéo solutions
+      place: Lille
+      description: "Donner les bons outils & les bonnes méthode à une équipe de Graphiste print souhaitant s’orienter vers le web."
+      url: http://flexbox.github.io/formation/
