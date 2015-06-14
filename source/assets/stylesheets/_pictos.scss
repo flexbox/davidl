@@ -1,7 +1,0 @@
-//first we'll define the folders where the sprites are and their layouts
-$pictos: sprite-map("sprite/pictos/*.png", $layout: smart);
-$pictos-2x: sprite-map("sprite/pictos2x/*.png", $layout: smart);
-
-.picto-logo {
-  @include use-sprite("logo", $pictos, $pictos-2x);
-}

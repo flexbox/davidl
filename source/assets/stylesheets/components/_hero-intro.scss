@@ -22,6 +22,7 @@
   .l-emphasis {
     color: $gray-light;
     text-shadow: $text-shadow;
+    position: relative;
   }
 
   .l-title {
@@ -55,7 +56,7 @@
 }
 
 .m-homepage .m-hero-intro {
-  background: url("https://farm4.staticflickr.com/3946/15583794966_fd39f2f2e8_o.jpg") repeat top center;
+  background: url("https://farm4.staticflickr.com/3946/15583794966_fd39f2f2e8_o.jpg") repeat top center $primary-color;
   @media #{$small} {
     animation: 35s linear 0s normal none infinite movebg;
   }
