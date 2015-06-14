@@ -64,6 +64,7 @@ blog:
     2015-02-27-foundation-mixin.markdown: "/blog/articles/2015-02-27-foundation-mixin.markdown"
     2015-02-27-grille-impair-centre.markdown: "/blog/articles/2015-02-27-grille-impair-centre.markdown"
     2015-04-23-sublime-package.markdown: "/blog/articles/2015-04-23-sublime-package.markdown"
+    2015-06-08-outil-analyse-front-end.markdown: "/blog/articles/2015-06-08-outil-analyse-front-end.markdown"
   index.html.slim: "/blog/index.html.slim"
 books.html.slim: "/books.html.slim"
 clients.html.slim: "/clients.html.slim"
