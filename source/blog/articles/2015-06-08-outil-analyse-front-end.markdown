@@ -39,7 +39,7 @@ La liste des conseils & les bonnes pratiques vous permettent d’améliorer votr
 
 ### Automatisation
 
-Vous pouvez créer de multiples alertes en fonction de différents critères. C’est –selon moi la meilleure fonctionnalité du produit.
+Vous pouvez créer de multiples alertes en fonction de différents critères. C’est –selon moi, la meilleure fonctionnalité du produit.
 
 Imaginons, pour avoir une expérience acceptable, vous avez défini que le chargement de votre page d’acceuil __ne doit pas dépasser 3 secondes__. Vous fixez une alerte par email. Si dans 3 mois vous ajoutez une fonctionnalité qui ralenti votre site, vous êtes directement averti par email !
 
@@ -49,19 +49,19 @@ _Recevoir des alertes email si le chargement est trop long_
 
 ### Génération de rapports
 
-Pour collaborer avec de grandes équipes, ou des grandes entreprises il peut être utile de générer des rapports au format `.pdf`. Il existe aussi une fonctionnalité marque blanche si vous souhaitez afficher votre superbe logo.
+Pour collaborer avec de grandes équipes, ou de grandes entreprises il peut être utile de générer des rapports au format `.pdf`. Il existe aussi une fonctionnalité marque blanche si vous souhaitez afficher votre superbe logo.
 
 ## Avis
 
 En tant que développeur front-end je n’ai eu que très peu de changements à effectuer. Cependant, j’ai trouvé cet outil très utile pour les personnes ne connaissant pas les arcanes du développement web.
 
-Je n’ai pas encore énorméments de sites à auditer, mais si le cas se présente j’utiliserai cet application web sans hésiter. J’ai aussi eu l’ocasion de demander à la [communauté sur Slack](http://frontendfr.slack.com/) et la réception de cette soltion est plutôt bonne :
+Je n’ai pas encore énorméments de sites à auditer, mais si le cas se présente j’utiliserai cette application web sans hésiter. J’ai aussi eu l’ocasion de demander à la [communauté sur Slack](http://frontendfr.slack.com/) et la réception de cette solution est plutôt bonne :
 
 > Je l’utilise avant chaque mise en produstion, et il y a des remarques plutot intéressantes.
 >
 > – [maximeberard](https://twitter.com/maximeberard)
 
-> Sympa le concept, et le pricing et raisonnable.
+> Sympa le concept, et le pricing est raisonnable.
 >
 >– [bobmaerten](https://twitter.com/bobmaerten)
 
