@@ -1,4 +1,9 @@
 -
+  name: Atom
+  description: "Un éditeur de texte piratable pour le 21ème siècle"
+  url: "https://atom.io/"
+  image: atom.png
+-
   name: Evernote
   description: "Evernote est un moyen rapide et facile des synchroniser du contenu à travers toutes vos machines. Si vous créez un compte à partir du lien suivant, cela vous donne le droit à un mois d'abonnement premium gratuitement"
   url: "https://www.evernote.com/referral/Registration.action?uid=22499360&sig=20b14c77343018bd4f93762fc9fae90d"
@@ -9,9 +14,9 @@
   url: https://affiliates.mozilla.org/referral/64384/
   image: firefox.png
 -
-  name: Firefox Nightly
+  name: Firefox Developer Edition
   description: "La version alpha de Firefox permet de tester en avant-première les futures publications du navigateur."
-  url: http://nightly.mozilla.org/
+  url: "https://www.mozilla.org/fr/firefox/channel/#developer"
   image: nightly.png
 -
   name: GitHub

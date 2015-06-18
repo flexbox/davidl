@@ -57,7 +57,7 @@ En tant que développeur front-end je n’ai eu que très peu de changements à 
 
 Je n’ai pas encore énorméments de sites à auditer, mais si le cas se présente j’utiliserai cette application web sans hésiter. J’ai aussi eu l’ocasion de demander à la [communauté sur Slack](http://frontendfr.slack.com/) et la réception de cette solution est plutôt bonne :
 
-> Je l’utilise avant chaque mise en produstion, et il y a des remarques plutot intéressantes.
+> Je l’utilise avant chaque mise en production, et il y a des remarques plutot intéressantes.
 >
 > – [maximeberard](https://twitter.com/maximeberard)
 
