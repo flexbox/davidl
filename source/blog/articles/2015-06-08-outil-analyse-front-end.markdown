@@ -1,5 +1,5 @@
 ---
-date: 2015-04-23
+date: 2015-06-08
 slug: outil-analyse-front-end
 title: Améliorer la rapidité et la qualité d’un site internet
 description: Analyser le temps de chargement d’un site web et obtenir des recommandations
@@ -8,7 +8,6 @@ page_emphasis: Et améliorez leur rapidité de chargement
 changefreq: monthly
 priority: 0.6
 ---
-
 
 J’ai récemment été contacté par l’équipe de DareBoost pour tester leur service. Voici mon impression sur cet outil prometteur après avoir essayé plusieurs mois sur différents sites internet.
 

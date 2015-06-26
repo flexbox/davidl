@@ -79,6 +79,11 @@
   url: http://www.sequelpro.com/
   image: sequelpro.png
 -
+  name: Postico
+  description: 'Postico fournit une interface facile à utiliser, ce qui rend Postgres plus accessible pour les nouveaux arrivants et les spécialistes.'
+  url: https://eggerapps.at/postico
+  image: postico.png
+-
   name: Sublime Text
   description: "Selon moi c'est le meilleur éditeur de code. Facile à prendre en main, et évolutif presque à l'infini grâce à une énorme quantité de plug-in."
   url: http://www.sublimetext.com/

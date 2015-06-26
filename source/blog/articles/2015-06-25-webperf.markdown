@@ -1,0 +1,139 @@
+---
+date: 2015-06-25
+slug: webperf
+title: Améliorer le chargement CSS & JavaScript des pages web
+description: Ce que j’ai retenu de la vidéo de Jake Archibal sur les services workers et l’avenir du chargement des pages web
+page_title: Améliorer le chargement de votre site web
+page_emphasis: Une introduction aux services workers
+changefreq: monthly
+priority: 0.6
+---
+
+La connexion à internet n’est pas fiable. Dans l’industrie du web nous sommes habitués à avoir un débit en fibre optique. Mais ce n’est pas le cas de vos utilisateurs. N’oubliez pas qu’en situation de mobilité l’accès peut vite devenir compliqué avec de la 3G / edge, un wifi de qualité médiocre ou même un forfait téléphonique presqu’internet ©.
+
+![Forfait rapide internet](https://farm1.staticflickr.com/514/18529586753_6207aa5c6f_c.jpg)
+
+_Présentation des [services workers par Hubert Sablonnière](https://www.parleys.com/tutorial/la-revolution-hors-ligne-du-web-arrive-avec-les-service-workers)_
+
+Dans cet article je vais vous présenter des techniques simples à mettre en place pour améliorer le chargement de vos pages. Si le web hors ligne vous interesse je partage aussi en fin d’article des ressources sur les services workers.
+
+N’oubliez jamais que la rapidité est l’une de choses les plus importantes à prendre en compte car vos utilisateurs sont de plus en plus impatient.
+
+> Chaque -0,1s, +1% de revenus
+>
+> – Walmart
+
+## Page simple
+
+Généralement l’architecture de votre page web ressemble à ceci :
+
+~~~ html
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <link rel="stylesheet" href="application.css">
+    <script src="application.js"></script>
+  </head>
+  <body>
+
+  </body>
+  </html>
+~~~
+
+Cette solution est techniquement correcte mais l'expérience des utilisateurs ne sera pas optimale car nous pouvons améliorer le chargement du JavaScript et du CSS.
+
+## Amélioration du JavaScript
+
+~~~ html
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <link rel="stylesheet" href="application.css">
+    <script src="application.js" async></script>
+  </head>
+  <body>
+    <div class="toolbar">Wikipedia Demo</div>
+  </body>
+  </html>
+~~~
+
+Le javascript non-bloquant améliore le temps de chargement de la page. `async` télécharge le fichier JavaScript pendant le parcours du HTML et effectue une pause du parseur HTML dès qu’il a fini de le télécharger.
+
+## Chargement du CSS
+
+~~~ html
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <style>/* Basic interface styles */</style>
+    <script src="application.js" async></script>
+  </head>
+  <body>
+    <div class="toolbar">Wikipedia Demo</div>
+  </body>
+  </html>
+~~~
+
+Pour éviter de réaliser une requête http vers une feuille de style vous pouvez remplacer l'appel `<link rel="stylesheet" href="application.css">` par du style inline. Cela fonctionne pour des pages ultra basiques, mais cette solution montrera rapidement ses limites dès que vous aurez des milliers de déclarations CSS.
+
+### Comment charger du CSS de façon asynchrone comme le JavaScript ?
+
+Le filamentgroup a publié un projet pour [améliorer la vitesse de chargement du css](https://github.com/filamentgroup/loadCSS). Voici un exemple du fonctionnement
+
+~~~ html
+  <script>
+    function loadCSS() { ... }
+    function onloadCSS() { ... }
+  </script>
+  <main class="m-article" style="display:none">
+    <script>
+      onloadCSS(loadCSS('application.css'), function() {
+        document.querySelector('.m-article')
+          .style.display = '';
+      });
+    </script>
+    <noscript>
+      <link rel="stylesheet" href="application.css">
+    </noscript>
+  </main>
+~~~
+
+
+## Pour aller plus loin
+
+Le streamming de données avec JavaScript permet d'afficher les données progressivement. Voici un exemple simple d’application nodeJS qui affiche du contenu texte.
+
+~~~ javascript
+  app.get('/', function(req, res) {
+    res.stattus(200);
+    res.type('html');
+    res.write('<p>Hello</p>');
+
+    setTimeout(function() {
+      res.write('<p>World</p>');
+
+      request(url)
+        .pipe(transformStream)
+        .pipe(res);
+    }, 1000);
+  });
+~~~
+
+Comme illustré par le gif ci-dessous, le premier appel au serveur se charge de construire l’interface, et les données sont chargées à la demande.
+
+![Streamming de données JavaScript](https://farm1.staticflickr.com/538/19153693491_9e1a1333f4_o.gif)
+
+Pour comprendre comment fonctionne ce système je vous invite à regarder la vidéo de [Jake Archibald, Supercharging page load](https://www.youtube.com/watch?v=d5_6yHixpsQ).
+
+- [NodeJS](https://nodejs.org/)
+- [Introduction au services workers](http://www.html5rocks.com/en/tutorials/service-worker/introduction/)
+
+## En résumé
+
+![Graphique des solutions pour la performance web](https://farm1.staticflickr.com/380/19180093451_0849e9ce4f_c.jpg)
+
+1. Ajouter la balise `async` à vos scripts
+2. Charger le CSS de façon non-bloquante
+3. Streammer les données avec JavaScript
+4. Mettre en place un service worker
+5. Pensez votre contenu en `offline-first`
