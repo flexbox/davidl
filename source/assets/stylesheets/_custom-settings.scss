@@ -18,7 +18,7 @@ $body-font-color: $gray-dark;
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: $font-weight-light;
 
-
+$global-box-shadow: 0px 1px 1px rgba($black, 0.3);
 
 // e. Typography
 
@@ -48,6 +48,8 @@ $form-label-small-transform: none;
 
 
 // Panels
+
+$include-html-panel-classes: false;
 
 $panel-font-color: $body-font-color;
 

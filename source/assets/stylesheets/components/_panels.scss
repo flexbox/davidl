@@ -4,13 +4,13 @@ $m-panel-bg-hover: $white;
 .m-panel {
   @include panel($m-panel-bg);
   @include single-transition(box-shadow, $transition-duration, ease-in-out);
-  box-shadow: 0px 0px 0px rgba(0,0,0,.1);
+  box-shadow: 5px 5px 0px rgba($black,.1);
   @include css-hyphens(none);
 
 
   &:hover {
     background-color: $m-panel-bg-hover;
-    box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+    box-shadow: 1px 1px 0px rgba($black,.2);
   }
   a.m-panel--clean {
     border-bottom: 0;
@@ -144,9 +144,6 @@ $m-panel-bg-hover: $white;
         color: $primary-color;
         background-color: transparent;
       }
-      // &[href*="https:"]:not([href*="davidl.fr"]):after {
-      //   content: "";
-      // }
     }
   }
 }
