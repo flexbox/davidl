@@ -1,14 +1,9 @@
 = wrap_layout :layout do
-  article.row itemtype="http://schema.org/BlogPosting" itemscope=""
-    .medium-7.columns.m-blog--article itemprop="articleBody"
+  article.row itemtype="http://schema.org/BlogPosting" itemscope="" role="article"
+    .medium-2.columns
+      = previous_link data.tree
+    .medium-8.columns.m-blog--article itemprop="articleBody"
       == yield
-
-      .row
-        .medium-2.columns
-          = previous_link data.tree
-        .medium-8.columns
-          = partial 'views/author'
-        .medium-2.columns
-          = next_link data.tree
-    .medium-4.medium-offset-1.columns
-      = partial 'views/forge/summary'
+      = partial 'views/author'
+    .medium-2.columns
+      = next_link data.tree
