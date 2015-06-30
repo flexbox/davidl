@@ -1,6 +1,6 @@
 -
   title: Partage
-  description: "J'aime partager des informations. Chaque jour, j'apprends quelque chose de nouveau, et je participe à la conversation collective qu'est Twitter."
+  description: "J’aime partager des informations. Chaque jour, j’apprends quelque chose de nouveau, et je participe à la conversation collective qu’est Twitter."
   type: misc
   button: primary
   url: https://twitter.com/_flexbox
@@ -43,7 +43,7 @@
   url: http://webcitation.fr/
 -
   title: Foundation Boilerplate
-  description: "Le point le plus important pour la création de nouveaux projets est de créer un ensemble de règles directrices. Foundation Boilerplate aide les designers & les développeurs à construire <strong>rapidement</strong> des prototypes d'application ou des sites web <strong>responsive</strong> <strong>évolutifs</strong>."
+  description: "Le point le plus important pour la création de nouveaux projets est de créer un ensemble de règles directrices. Foundation Boilerplate aide les designers & les développeurs à construire <strong>rapidement</strong> des prototypes d’application ou des sites web <strong>responsive</strong> <strong>évolutifs</strong>."
   type: project
   button: primary
   url: http://flexbox.github.io/foundation-boilerplate
