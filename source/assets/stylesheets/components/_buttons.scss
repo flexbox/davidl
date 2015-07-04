@@ -1,0 +1,14 @@
+.button {
+  font-weight: $font-weight-bold;
+  transition: none;
+  &:hover {
+    background-color: $body-bg;
+    color: $primary-color;
+  }
+  &.secondary {
+    &:hover {
+      background-color: $body-bg;
+      color: $secondary-color;
+    }
+  }
+}
