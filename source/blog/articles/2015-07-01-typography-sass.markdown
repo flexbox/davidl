@@ -1,5 +1,5 @@
 ---
-date: 2016-07-01
+date: 2015-07-01
 slug: typography-sass
 title: Sass & typographie, une solution élégante
 description: Quelques principes de bases et bonnes pratiques pour avoir un rythme typographique simple avec le preprocesseur Sass

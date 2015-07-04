@@ -2,27 +2,27 @@
 # Blog settings
 ###
 
-Time.zone = "Paris"
+Time.zone = 'Paris'
 I18n.config.enforce_available_locales = false
 
 activate :blog do |blog|
-  blog.name = "blog"
+  blog.name = 'blog'
 
-  blog.permalink = "blog/:title.html"
-  blog.sources = "blog/articles/:title.html"
-  blog.layout = "layouts/blog_layout"
-  blog.default_extension = ".markdown"
+  blog.permalink = 'blog/:title.html'
+  blog.sources   = 'blog/articles/:title.html'
+  blog.layout    = 'layouts/blog_layout'
+  blog.default_extension = '.markdown'
 
   blog.paginate = false
 end
 
 activate :blog do |forge|
-  forge.name = "forge"
+  forge.name = 'forge'
 
-  forge.permalink = "forge/:title.html"
-  forge.sources = "forge/chapitres/:title.html"
-  forge.layout = "layouts/forge_layout"
-  forge.default_extension = ".markdown"
+  forge.permalink = 'forge/:title.html'
+  forge.sources   = 'forge/chapitres/:title.html'
+  forge.layout    = 'layouts/forge_layout'
+  forge.default_extension = '.markdown'
 end
 
 ###
@@ -59,9 +59,7 @@ activate :google_analytics do |ga|
   ga.minify = true
 end
 
-activate :autoprefixer,
-  browsers: ['last 2 versions', 'ie 8', 'ie 9']
-
+activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 activate :livereload
 activate :syntax
 
@@ -69,18 +67,18 @@ activate :syntax
 # Page options, layouts, aliases and proxies
 ###
 
-page "/feed.xml", layout: false
-page "/sitemap.xml", layout: false
-page "/browserconfig.xml", layout: false
+page '/browserconfig.xml', layout: false
+page '/feed.xml',          layout: false
+page '/sitemap.xml',       layout: false
 
-require 'slim'
+require 'better_errors'
 require 'builder'
 require 'kramdown'
-require 'better_errors'
+require 'slim'
 
-set :js_dir, 'assets/javascripts'
-set :css_dir, 'assets/stylesheets'
+set :css_dir,    'assets/stylesheets'
 set :images_dir, 'assets/images'
+set :js_dir,     'assets/javascripts'
 
 # Add bower's directory to sprockets asset path
 after_configuration do
