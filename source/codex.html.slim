@@ -27,20 +27,17 @@ priority: 0
           li.pink
           li.green
           li.blue
-          li.yellow
       .medium-6.columns
         ul class="inline-list list-color"
           li.cyan
-          li.yellow
           li.pink
         ul class="inline-list list-color"
           li.primary
           li.secondary
     h3 Boutons
-    = link_to 'button', '#', class: 'button primary'
-    = link_to 'button', '#', class: 'button secondary'
-    br
-    = link_to 'button animate', '#', class: 'button secondary'
+    ul.inline-list
+      li = link_to 'button', '#', class: 'button primary'
+      li = link_to 'button', '#', class: 'button secondary'
     h3 Grille
     h3 Typographie
 
