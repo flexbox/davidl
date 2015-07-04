@@ -6,7 +6,7 @@ description: Analyser le temps de chargement d’un site web et obtenir des reco
 page_title: Automatisez l’analyse de vos sites internet
 page_emphasis: Et améliorez leur rapidité de chargement
 changefreq: monthly
-priority: 0.6
+priority: 0.8
 ---
 
 J’ai récemment été contacté par l’équipe de DareBoost pour tester leur service. Voici mon impression sur cet outil prometteur après avoir essayé plusieurs mois sur différents sites internet.

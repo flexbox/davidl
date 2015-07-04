@@ -3,10 +3,11 @@ date: 2015-06-25
 slug: webperf
 title: Améliorer le chargement CSS & JavaScript des pages web
 description: Ce que j’ai retenu de la vidéo de Jake Archibal sur les services workers et l’avenir du chargement des pages web
+image: https://farm1.staticflickr.com/380/19180093451_0849e9ce4f_c.jpg
 page_title: Améliorer le chargement de votre site web
 page_emphasis: Une introduction aux services workers
 changefreq: monthly
-priority: 0.6
+priority: 0.8
 ---
 
 La connexion à internet n’est pas fiable. Dans l’industrie du web nous sommes habitués à avoir un débit en fibre optique. Mais ce n’est pas le cas de vos utilisateurs. N’oubliez pas qu’en situation de mobilité l’accès peut vite devenir compliqué avec de la 3G / edge, un wifi de qualité médiocre ou même un forfait téléphonique presqu’internet ©.

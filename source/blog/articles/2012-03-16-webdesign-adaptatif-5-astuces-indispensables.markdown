@@ -2,7 +2,7 @@
 date: 2012-03-16 16:07:02+00:00
 slug: webdesign-adaptatif-5-astuces-indispensables
 title: 'Webdesign adaptatif : 5 astuces indispensables'
-page_title: "Responsive webdesign<br>5 astuces indispensables"
+page_title: "Responsive webdesign 5 astuces indispensables"
 changefreq: monthly
 priority: 0.8
 ---

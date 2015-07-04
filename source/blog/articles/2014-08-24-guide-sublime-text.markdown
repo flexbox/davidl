@@ -1,10 +1,11 @@
 ---
 date: 2014-08-24
-slug: sublime-source-code
-title: Coder plus efficacement avec Sublime Text
+slug: guide-sublime-text
+title: Guide d’installation de Sublime Text
 description: "Pourquoi Foundation est à l'heure actuelle le meilleur framework pour le responsive design avec HTML & CSS ?"
 image: https://lh4.googleusercontent.com/U6kbOYceOAWw8Ptr9AtVLBt-h6j6mH4jm2s2DjducmM=w449-h300-no
 page_title: Sublimer votre code source
+page_emphasis: Coder plus efficacement avec Sublime Text
 changefreq: monthly
 priority: 0.8
 ---
