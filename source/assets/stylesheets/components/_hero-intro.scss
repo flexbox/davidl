@@ -10,10 +10,12 @@
 .m-hero-intro {
   background-color: $primary-color;
   margin-bottom: rem-calc(30);
-  padding-top: $topbar-height * 2;
   padding-bottom: $topbar-height;
-  padding-left: $column-gutter;
-  padding-right: $column-gutter;
+  padding-top: $topbar-height;
+  @media #{$small} {
+    padding-top: $topbar-height * 2;
+  }
+
   i {
     color: $white !important;
   }
@@ -23,20 +25,26 @@
     color: $gray-light;
     text-shadow: $text-shadow;
     position: relative;
+    @media #{$small} {
+      @include grid-column($columns: 8, $center: true);
+    }
   }
 
   .l-title {
     font-size: rem-calc(40);
+    margin-top: 0;
+    padding: rem-calc(20 10 10 10);
     @media #{$small} {
       margin-top: rem-calc(20);
       margin-bottom: 0;
-      padding: rem-calc(40 60 20 60);
     }
   }
   .l-emphasis {
+    padding-left: rem-calc(10);
+    padding-right: rem-calc(10);
     @media #{$small} {
       margin-bottom: 0;
-      padding: rem-calc(0 60 60 60);
+      padding-bottom: rem-calc(40);
     }
   }
 }

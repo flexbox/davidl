@@ -1,7 +1,7 @@
 = wrap_layout :layout do
   .row
-    .medium-8.medium-centered.columns
-      p.text-right
+    .medium-8.columns
+      .m-panel.l-blog-date
         i.fa.fa-calendar.i-custom.fa-lg
         time datetime="#{current_page.data.date}" pubdate=""
           = current_page.data.date.strftime('%d/%m/%Y')
