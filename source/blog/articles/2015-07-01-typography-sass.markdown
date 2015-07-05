@@ -10,9 +10,9 @@ changefreq: monthly
 priority: 0.8
 ---
 
-Quand il s’agit de faire du design, j’ai toujours accordé une _attention particulière à la typographie_. En tant que développeur front-end, c’est l’une des premières choses que je met en place pour mes nouveaux projets. J’ai déjà donné des [conseils pour avoir une bonne expérience de lecture](/typography.html), et je commence généralement par styler les paragraphes.
+Quand il s’agit de faire du design, j’ai toujours accordé une _attention particulière à la typographie_. En tant que développeur front-end, c’est l’une des premières choses que je mets en place pour mes nouveaux projets. J’ai déjà donné des [conseils pour avoir une bonne expérience de lecture](/typography.html), et je commence généralement par styler les paragraphes.
 
-La question que l’on peut se poser poser est la suivante : Comment organiser sa typographie sur l’intégralité des feuilles de styles CSS ?
+La question que l’on peut se poser est la suivante : Comment organiser sa typographie sur l’intégralité des feuilles de styles CSS ?
 
 J’ai déjà rencontré ce problème — un bon nombre de fois — et voici mes solutions.
 
@@ -21,7 +21,7 @@ J’ai déjà rencontré ce problème — un bon nombre de fois — et voici mes
 ## Principes de base avec Sass
 
 Comme les meilleurs joueurs de golf : __codez le moins de lignes possible__.
-J’ai vu un bon nombre de projet où les développeurs ont écris & re-écris du code sans en avoir besoin, cela ajoute plus de maintenance et détruit notre santé mentale.
+J’ai vu un bon nombre de projets où les développeurs ont écrit & re-écrit du code sans en avoir besoin, cela ajoute plus de maintenance et détruit notre santé mentale.
 
 __Coder pour le système__. La logique d’un designer est de créer des éléments graphiques et d’utiliser des variations. Vous devez chercher le plus petit dénominateur commun entre les éléments de votre interface, et les enrichir au besoin.
 
@@ -29,9 +29,9 @@ Rendez vous la vie plus facile. Utilisez [un preprocesseur](http://sass-lang.com
 
 ## Organiser son projet
 
-Choisissez le design de votre __chorégraphie du contenu__. Je commence souvent par des bases saines, styler le paragraphe. C'est à cette étape que je vais mettre en place l’impac visuel de manière générale.
+Choisissez le design de votre __chorégraphie du contenu__. Je commence souvent par des bases saines : styler le paragraphe. C'est à cette étape que je vais mettre en place l’impact visuel de manière générale. Grâce aux styles en cascade, pas besoin de créer de nouvelles règles typographiques pour vos balises `<p>`, `<li>`, `<dt>` …
 
-Configurez votre tableau de polices. Dans la plupart des systèmes, il existe 3 familles. (En avoir plus devient un problème de performance). Généralement un type `serif`, `sans-serif` ou encore `monospace`.
+Configurez votre tableau de polices. Dans la plupart des systèmes, il existe 3 familles (En avoir plus devient un problème de performance). Généralement un type `serif`, `sans-serif` ou encore `monospace`.
 Avec ces informations, je peux créer des variables Sass dès le début de mon projet :
 
 ~~~ scss
@@ -79,7 +79,7 @@ Avec ce style en place, vous pouvez commencer à styler vos éléments en utilis
   }
 ~~~
 
-Puisque vous avez déjà vos différentes police de caractères déclarées dans des variables, vous pouvez changer d’avis beaucoup plus rapidement.
+Puisque vous avez déjà vos différentes polices de caractères déclarées dans des variables, vous pouvez changer d’avis beaucoup plus rapidement.
 
 ## Entre design & seo
 
