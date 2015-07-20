@@ -67,6 +67,7 @@ blog:
     2015-06-08-outil-analyse-front-end.markdown: "/blog/articles/2015-06-08-outil-analyse-front-end.markdown"
     2015-06-25-webperf.markdown: "/blog/articles/2015-06-25-webperf.markdown"
     2015-07-01-typography-sass.markdown: "/blog/articles/2015-07-01-typography-sass.markdown"
+    2015-07-20-wireframe-font.markdown: "/blog/articles/2015-07-20-wireframe-font.markdown"
   index.html.slim: "/blog/index.html.slim"
 books.html.slim: "/books.html.slim"
 clients.html.slim: "/clients.html.slim"
