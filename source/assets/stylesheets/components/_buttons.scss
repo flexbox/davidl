@@ -1,6 +1,6 @@
 .button {
   font-weight: $font-weight-bold;
-  transition: none;
+  transition: background 150ms ease-in-out;
   &:hover {
     background-color: $body-bg;
     color: $primary-color;
