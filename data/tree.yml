@@ -72,6 +72,10 @@ blog:
 books.html.slim: "/books.html.slim"
 clients.html.slim: "/clients.html.slim"
 codex.html.slim: "/codex.html.slim"
+consulting:
+  audits.html.slim: "/consulting/audits.html.slim"
+  coaching.html.slim: "/consulting/coaching.html.slim"
+  index.html.slim: "/consulting/index.html.slim"
 contact.html.slim: "/contact.html.slim"
 cv.html.slim: "/cv.html.slim"
 forge:

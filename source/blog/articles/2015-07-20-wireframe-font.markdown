@@ -7,10 +7,10 @@ image: https://lh3.googleusercontent.com/p0jihJlrzMUQkGV5kPGvV3e0tPzwvxfrq15G4yl
 page_title: Gagner du temps en prototypage
 page_emphasis: Tester votre mise en page responsive sans contenu
 changefreq: monthly
-priority: 0.8
+priority: 0.5
 ---
 
-J’ai souvent rencontré ces problèmes lors de la création de nouveau projets. Je me suis rendu compte que je perdais énormément de temps pour des choses qui n’avaient pas de valeur, et c’était entièrement de ma faute. J’ai donné le choix au client pour quelque chose qui est [difficile à comprendre et à visualiser](https://fr.wikipedia.org/wiki/Tesseract) : valider une mise en page responsive.
+J’ai souvent rencontré ces problèmes lors de la création de nouveaux projets. Je me suis rendu compte que je perdais énormément de temps pour des choses qui n’avaient pas de valeur, et c’était entièrement de ma faute. J’ai donné le choix au client pour quelque chose qui est [difficile à comprendre et à visualiser](https://fr.wikipedia.org/wiki/Tesseract) : valider une mise en page responsive.
 
 Généralement le workflow est le suivant :
 
@@ -23,7 +23,7 @@ Tout ces échanges par email font __perdre du temps à tout le monde__ et [gére
 
 ## Solution
 
-[Redacted Font](https://github.com/christiannaths/Redacted-Font) masque le texte en blocs d’informations. Les informations sont illisible mais cela permet de donnée une idée sur la future mise en page sans se soucier du contenu.
+[Redacted Font](https://github.com/christiannaths/Redacted-Font) masque le texte en blocs d’informations. Les informations sont illisibles mais cela permet d’imaginer la future mise en page sans se soucier du contenu.
 
 Voici un exemple :
 

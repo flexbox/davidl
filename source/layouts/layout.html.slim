@@ -11,7 +11,7 @@ html lang="fr"
 
     = partial 'views/global/favicon'
     = stylesheet_link_tag 'application'
-    = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'
+    = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'
 
   body class="#{current_page.data.page_class}"
     = partial 'views/global/topbar'
@@ -20,7 +20,6 @@ html lang="fr"
       == yield
     = partial 'views/global/footer'
 
-    / = javascript_include_tag 'application', defer: 'defer'
     = javascript_include_tag 'application'
     = yield_content :javascripts
     = google_analytics_universal_tag

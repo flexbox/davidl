@@ -7,7 +7,7 @@ image: https://farm4.staticflickr.com/3955/19413555681_fd5d0f5e7c_b.jpg
 page_title: Organiser son rythme typographique avec Sass
 page_emphasis: Guide pour une bonne expérience de lecture
 changefreq: monthly
-priority: 0.8
+priority: 0.5
 ---
 
 Quand il s’agit de faire du design, j’ai toujours accordé une _attention particulière à la typographie_. En tant que développeur front-end, c’est l’une des premières choses que je mets en place pour mes nouveaux projets. J’ai déjà donné des [conseils pour avoir une bonne expérience de lecture](/typography.html), et je commence généralement par styler les paragraphes.
