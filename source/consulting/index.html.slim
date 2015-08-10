@@ -27,9 +27,12 @@ priority: 0.8
   .medium-4.columns
     .m-panel
       i.fa.fa-user-secret.fa-rounded.l-illu
-      h2 Audit
+      h2
+        'Audit
+        small
       hr
       p Peut-être que vous avez des problèmes de performance ?
+      = link_to 'Bientôt disponible', '#', class: 'button disabled'
       / = link_to 'Lire la suite', '/consulting/audits.html', class: 'button'
 
 .m-section
