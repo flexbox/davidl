@@ -111,6 +111,10 @@ configure :build do
   end
 
   activate :sitemap, hostname: data.settings.site.url
+  activate :sitemap_ping do |config|
+    config.host = "#{data.settings.site.url}"
+  end
+
 
   activate :minify_html, remove_input_attributes: false
   activate :minify_css

@@ -14,6 +14,7 @@ gem 'middleman-livereload',    '~>  3.4.2'
 gem 'middleman-minify-html',   '~>  3.4.1'
 gem 'middleman-navtree'
 gem 'middleman-sitemap',       '~> 0.0.13'
+gem 'middleman-sitemap-ping'
 gem 'middleman-syntax'
 
 gem 'nokogiri','~> 1.6.3.1'
