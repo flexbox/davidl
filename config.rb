@@ -52,7 +52,7 @@ end
 ###
 
 activate :google_analytics do |ga|
-  ga.tracking_id = data.settings.google_analytics.tracking_code
+  ga.tracking_id = data.settings.site.analytics_id
   ga.anonymize_ip = true
   ga.debug = false
   ga.development = false
@@ -114,7 +114,6 @@ configure :build do
   activate :sitemap_ping do |config|
     config.host = "#{data.settings.site.url}"
   end
-
 
   activate :minify_html, remove_input_attributes: false
   activate :minify_css

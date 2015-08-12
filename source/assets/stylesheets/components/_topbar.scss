@@ -2,14 +2,18 @@ $topbar-height: rem-calc(60);
 
 .m-topbar {
   position: fixed;
-  top: 0;
   width: 100%;
   min-height: $topbar-height;
   z-index: 15;
 
-  transition: transform 200ms ease-in-out;
+  transition: transform 150ms ease-in-out;
   background-color: $gray;
+
+  bottom: 0;
+  top: initial;
   @media #{$medium}{
+    top: 0;
+    bottom: initial;
     display: flex;
   }
   a {
@@ -19,6 +23,9 @@ $topbar-height: rem-calc(60);
     color: $black;
     &:hover {
       color: $secondary-color;
+    }
+    &.is-active {
+      color: $primary-color;
     }
   }
 }
@@ -113,5 +120,8 @@ $topbar-height: rem-calc(60);
   transform: translateY(0%);
 }
 .headroom--unpinned {
-  transform: translateY(-100%);
+  transform: translateY(100%);
+  @media #{$medium}{
+    transform: translateY(-100%);
+  }
 }

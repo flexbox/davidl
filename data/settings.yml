@@ -4,6 +4,9 @@ site:
   description: 'Je crée des sites internet qui fonctionnent à merveille sur n’importe quel appareil. Designer spécialisé HTML et CSS basé à Lille'
   url: 'http://davidl.fr'
   logo: 'http://davidl.fr/apple-touch-icon-144x144-precomposed.png'
+  active_navigation_item_class: 'is-active'
+  analytics_id: 'UA-46684635-1'
+
 social:
   google_plus: 'https://plus.google.com/+DavidLeulietteWeb'
   twitter:
@@ -15,5 +18,3 @@ social:
   rss:
     url: /feed.xml
   mailchimp: 'http://davidl.us3.list-manage2.com/subscribe/post?u=b72e60a9116993dde8d1547fe&amp;id=e99fbeb8ad'
-google_analytics:
-  tracking_code: 'UA-46684635-1'
