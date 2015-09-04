@@ -91,6 +91,12 @@ configure :development do
   BetterErrors.application_root = __dir__
 end
 
+activate :deploy do |deploy|
+  deploy.method       = :git
+  deploy.branch       = 'gh-pages'
+  deploy.build_before = true # always use --no-clean options
+end
+
 configure :build do
   activate :favicon_maker do |f|
     f.template_dir  = File.join(root, 'source')
