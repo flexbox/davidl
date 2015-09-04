@@ -1,0 +1,55 @@
+---
+date: 2015-08-26
+slug: truncate
+title: 'Sass truncate mixin pour ajouter ... à vos textes'
+description: 'Avec les déclaration CSS text-overflow: ellipsis; et overflow: hidden; vous pourrez masquer facilement le textes qui dépassent sur plusieurs lignes'
+image: https://farm6.staticflickr.com/5772/21107859806_4250069f6a_b.jpg
+page_title: Tronquer des caractères en CSS avec Ellipsis
+page_emphasis: Éviter que votre texte ne passe sur plusieurs lignes
+changefreq: monthly
+priority: 0.5
+---
+
+Il m’arrive souvent de rencontrer ce problème : un titre trop long passe sur plusieurs lignes ce qui casse la mise en page. Il est possible de [tronquer le texte après une ceraine taille](http://apidock.com/rails/String/truncate) dans un framework comme rails, mais le texte n’est plus indexable.
+
+La solution est d’utiliser du CSS. Voici un exemple de `mixin` Sass réutilisable :
+
+~~~scss
+  @mixin truncate($width: 100%) {
+    max-width: $width;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+~~~
+
+## Utilisation
+
+__Sass__
+
+~~~scss
+  .card {
+    &-title {
+      @include truncate();
+    }
+  }
+~~~
+
+__CSS__
+
+~~~css
+  .card-title {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+~~~
+
+## Démonstration
+
+Voici un exemple avant / après
+
+![Truncate mixin sass exemple](https://lh3.googleusercontent.com/CcvmerZO3gO0yR4hsad7IcX3p0vfP39ma0Hbu092nEo=w615-h289-no)
+
+__Protip :__ Il est possible de changer la taille directement avec `@include truncate(50%);`

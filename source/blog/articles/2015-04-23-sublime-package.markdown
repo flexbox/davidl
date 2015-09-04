@@ -75,3 +75,8 @@ _Utilisation_
 2. tapez `TidyHTML` pour convertir les caractères et réindenter le HTML.
 
 [HTMLTidy](https://packagecontrol.io/packages/TidyHTML5)
+
+
+## Productivity-tips
+
+Voici une liste des [raccourcis macOS & Linux pour sublime text](http://aug-riedinger.github.io/sublime-your-code/#/)

@@ -21,19 +21,18 @@
 
 .m-homepage {
   .l-illu {
-    font-size: rem-calc(64);
+    font-size: rem-calc(40);
     color: $primary-color;
     margin-bottom: rem-calc(20);
     & + h2 {
       margin-top: 0;
-      margin-bottom: 0;
+      margin-bottom: rem-calc(20);
     }
   }
   .fa-rounded {
     padding: rem-calc(20);
     color: $body-font-color;
-    border: 5px solid $body-font-color;
-    border-radius: 100%;
+    border: 2px dashed rgba($body-font-color, 0.2);
   }
 }
 

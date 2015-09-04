@@ -39,8 +39,9 @@ $footer-border: scale-color($gray-light, $lightness: -70%);
   }
   .l-text {
     padding: 0 $column-gutter;
-    font-size: rem-calc(14);
+    font-size: rem-calc(13);
     text-align: center;
+    opacity: 0.8;
   }
 
   label {
@@ -51,11 +52,7 @@ $footer-border: scale-color($gray-light, $lightness: -70%);
     border: none;
   }
   hr {
-    border-color: $footer-border;
-  }
-
-  .side-nav {
-    border-right: 1px solid $footer-border;
+    border-color: rgba($footer-border, 0.8);
   }
 }
 

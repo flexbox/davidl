@@ -1,19 +1,9 @@
-@keyframes movebg {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 1260px 0;
-  }
-}
-
 .m-hero-intro {
   background-color: $primary-color;
   margin-bottom: rem-calc(30);
-  padding-bottom: $topbar-height;
   padding-top: $topbar-height;
   @media #{$small} {
-    padding-top: $topbar-height * 2;
+    padding-top: ($topbar-height * 2.5);
   }
 
   i {
@@ -26,7 +16,7 @@
     text-shadow: $text-shadow;
     position: relative;
     @media #{$small} {
-      @include grid-column($columns: 8, $center: true);
+      @include grid-column($columns: 10, $center: true);
     }
   }
 
@@ -34,17 +24,18 @@
     font-size: rem-calc(40);
     margin-top: 0;
     padding: rem-calc(20 10 10 10);
+    margin-bottom: 0;
     @media #{$small} {
       margin-top: rem-calc(20);
-      margin-bottom: 0;
     }
   }
   .l-emphasis {
     padding-left: rem-calc(10);
     padding-right: rem-calc(10);
+    margin-bottom: rem-calc(60);
     @media #{$small} {
       margin-bottom: 0;
-      padding-bottom: rem-calc(40);
+      padding-bottom: rem-calc(20);
     }
   }
 }
@@ -53,6 +44,7 @@
   padding-top: $topbar-height;
   h1 {
     font-size: rem-calc(40);
+    margin-top: 0;
     @media #{$small} {
       margin-top: rem-calc(20);
       margin-bottom: 0;
@@ -60,6 +52,17 @@
   }
   .m-panel {
     margin-top: 0;
+  }
+}
+
+
+
+@keyframes movebg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1260px 0;
   }
 }
 

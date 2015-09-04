@@ -7,18 +7,18 @@ html lang="fr"
     title = current_page.data.title ? current_page.data.title : data.settings.site.title
     meta name="description" content="#{current_page.data.description}"
     meta name="robots" content="index,follow"
-    = partial 'views/global/open_graph'
+    = partial 'views/commons/open_graph'
 
-    = partial 'views/global/favicon'
+    = partial 'views/commons/favicon'
     = stylesheet_link_tag 'application'
     = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'
 
   body class="#{current_page.data.page_class}"
-    = partial 'views/global/topbar'
+    = partial 'views/commons/topbar'
     .m-content role="main"
-      = partial 'views/global/hero-intro'
+      = partial 'views/commons/hero-intro'
       == yield
-    = partial 'views/global/footer'
+    = partial 'views/commons/footer'
 
     = javascript_include_tag 'application'
     = yield_content :javascripts
