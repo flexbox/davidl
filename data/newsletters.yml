@@ -1,10 +1,14 @@
 -
+  title: JavaScript Weekly
+  description: 'Cette newsletter me permet d’être à jour sur tout ce qui est important dans la communauté JavaScript.'
+  url: http://javascriptweekly.com/
+-
   title: Middleman forum
-  description: La communauté du meilleur générateur de site statique en ruby
+  description: 'La communauté du meilleur générateur de site statique en ruby.'
   url: https://forum.middlemanapp.com/users/flexbox/preferences
 -
   title: Responsive Design Weekly
-  description: 'Newsletter hebdomadaire qui présente les meilleurs articles, tutoriels & Frameworks sur le responsive design'
+  description: 'Newsletter hebdomadaire qui présente les meilleurs articles, tutoriels & Frameworks sur le responsive design.'
   url: https://responsivedesign.is/
 -
   title: Medium

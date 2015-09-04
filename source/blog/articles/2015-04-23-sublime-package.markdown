@@ -80,3 +80,5 @@ _Utilisation_
 ## Productivity-tips
 
 Voici une liste des [raccourcis macOS & Linux pour sublime text](http://aug-riedinger.github.io/sublime-your-code/#/)
+
+[10 Essential SublimeText Plugins for JavaScript Developers](http://www.sitepoint.com/essential-sublime-text-javascript-plugins/)

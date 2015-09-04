@@ -5,7 +5,7 @@
   image: atom.png
 -
   name: Evernote
-  description: "Evernote est un moyen rapide et facile des synchroniser du contenu à travers toutes vos machines. Si vous créez un compte à partir du lien suivant, cela vous donne le droit à un mois d'abonnement premium gratuitement"
+  description: "Evernote est un moyen rapide et facile des synchroniser du contenu à travers toutes vos machines. Si vous créez un compte à partir du lien suivant, cela vous donne le droit à un mois d’abonnement premium gratuitement"
   url: "https://www.evernote.com/referral/Registration.action?uid=22499360&sig=20b14c77343018bd4f93762fc9fae90d"
   image: evernote.png
 -
@@ -20,13 +20,13 @@
   image: nightly.png
 -
   name: GitHub
-  description: "Hébergement de vos projets utilisant Git. Le site web possède des fonctionalités indispensable comme un navigateur de code source, l'édition en ligne, les wikis, et une gestion de tickets."
-  url: https://github.com/
+  description: "Hébergement de vos projets utilisant Git. Le site web possède des fonctionalités indispensable comme un navigateur de code source, l’édition en ligne, les wikis, et une gestion de tickets."
+  url: https://desktop.github.com/
   image: github.png
 -
-  name: GitX
-  description: "GitX est une interface graphique de git fait pour Mac OS X. Il dispose actuellement d'un historique comme gitk et une interface graphique de commit comme git gui. Mais il conserve le style Mac OS X !"
-  url: http://gitx.frim.nl/
+  name: GitX-dev
+  description: "GitX-dev – un fork de GitX – est une interface graphique pour utiliser le système de versioning Git. L’applicatione augmente la productivité & améliore l’expérience utilisateur."
+  url: http://rowanj.github.io/gitx/
   image: gitx.png
 -
   name: ImageOptim
@@ -45,17 +45,17 @@
   image: iterm2.png
 -
   name: JPEGmini
-  description: "Avec JPEGmini pour Mac, vous pouvez réduire la taille du fichier de vos photos jusqu'à 5x, tout en gardant leur qualité d'origine et le format JPEG."
+  description: "Avec JPEGmini pour Mac, vous pouvez réduire la taille du fichier de vos photos jusqu’à 5x, tout en gardant leur qualité d’origine et le format JPEG."
   url: http://www.jpegmini.com/mac
   image: jpegmini.png
 -
   name: LICEcap
-  description: "LICEcap permet d'enregistrer une partie de votre écran pour la convertir en .gif animé. Simple et efficace."
+  description: "LICEcap permet d’enregistrer une partie de votre écran pour la convertir en .gif animé. Simple et efficace."
   url: http://www.cockos.com/licecap/
   image: licecap.png
 -
   name: Papier et crayon
-  description: "Si vous ne possédez pas de carnet de notes et un beau crayon, s'il vous plaît faites-vous une faveur, arrêter de lire ce site et allez en acheter un. Forcez-vous à l'utiliser. Ensuite, remarquez comment il est plus facile de poser et d'articuler ses idées de design avec cet outil."
+  description: "Si vous ne possédez pas de carnet de notes et un beau crayon, s’il vous plaît faites-vous une faveur, arrêter de lire ce site et allez en acheter un. Forcez-vous à l’utiliser. Ensuite, remarquez comment il est plus facile de poser et d’articuler ses idées de design avec cet outil."
   url: "http://www.amazon.fr/gp/product/8883707168/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=8883707168&linkCode=as2&tag=davidl-21"
   image: front-end-papier-crayon.jpg
 -
@@ -70,7 +70,7 @@
   image: rename.png
 -
   name: Screaming Frog SEO Spider
-  description: "Ce logiciel permet d'analyser et d'effectuer rapidement l'examen comple d'un site d'un point de vue SEO. Il es particulièrement efficace pour les sites avec des milliers d'url où il est impossible de tout vérifier à la main."
+  description: "Ce logiciel permet d’analyser et d’effectuer rapidement l’examen comple d’un site d’un point de vue SEO. Il es particulièrement efficace pour les sites avec des milliers d’url où il est impossible de tout vérifier à la main."
   url: http://www.screamingfrog.co.uk/seo-spider/
   image: frog.png
 -
@@ -80,12 +80,12 @@
   image: sequelpro.png
 -
   name: Postico
-  description: 'Postico fournit une interface facile à utiliser, ce qui rend Postgres plus accessible pour les nouveaux arrivants et les spécialistes.'
+  description: "Postico fournit une interface facile à utiliser, ce qui rend Postgres plus accessible pour les nouveaux arrivants et les spécialistes."
   url: https://eggerapps.at/postico
   image: postico.png
 -
   name: Sublime Text
-  description: "Selon moi c'est le meilleur éditeur de code. Facile à prendre en main, et évolutif presque à l'infini grâce à une énorme quantité de plug-in."
+  description: "Selon moi c’est le meilleur éditeur de code. Facile à prendre en main, et évolutif presque à l’infini grâce à une énorme quantité de plug-in."
   url: http://www.sublimetext.com/
   image: sublimetext.png
 -
@@ -95,7 +95,7 @@
   image: tower.png
 -
   name: VirtualBox
-  description: "Pour tester le comportement d'Internet Explorer avec MacOS, la solution passe par la virtualisation."
+  description: "Pour tester le comportement d’Internet Explorer avec MacOS, la solution passe par la virtualisation."
   url: https://www.virtualbox.org/wiki/Downloads
   image: virtualbox.png
 -
