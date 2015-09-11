@@ -3,6 +3,10 @@
   description: 'Cette newsletter me permet d’être à jour sur tout ce qui est important dans la communauté JavaScript.'
   url: http://javascriptweekly.com/
 -
+  title: Medium
+  description: 'Medium connecte les gens, les histoires et les idées qui comptent pour vous.'
+  url: https://medium.com/me/settings
+-
   title: Middleman forum
   description: 'La communauté du meilleur générateur de site statique en ruby.'
   url: https://forum.middlemanapp.com/users/flexbox/preferences
@@ -11,13 +15,13 @@
   description: 'Newsletter hebdomadaire qui présente les meilleurs articles, tutoriels & Frameworks sur le responsive design.'
   url: https://responsivedesign.is/
 -
-  title: Medium
-  description: 'Medium connecte les gens, les histoires et les idées qui comptent pour vous.'
-  url: https://medium.com/me/settings
-
-
+  title: Tuts+ Translator Team
+  description: Le projet de traduction Tuts+ est une initiative communautaire pour que les tutoriels et les articles atteignent le plus de personnes possible.
+  url: http://tutsplus.com/translate-for-us
+-
+  title: Zub University
+  description: 'Cours, workshop & ressources en provencance des Designers Produits de chez Zurb'
+  url: https://zurb.com/university/lessons
 # Five newsletters that make my life better
-
 # It’s easy to find yourself subscribing to dozens of mailing lists, many of which make it straight to the trash.
-
 # But for me there are a few - just a few - that not only stay in my inbox, but put a smile on my face when they arrive.
