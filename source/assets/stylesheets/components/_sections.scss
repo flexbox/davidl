@@ -7,6 +7,7 @@
   background-color: $black;
   padding: rem-calc(40 20);
   margin: rem-calc(40 0);
+  box-shadow: rem-calc(-200) 0 0 0 $black;
 
   p {
     @extend .sith;

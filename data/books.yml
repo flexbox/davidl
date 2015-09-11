@@ -32,6 +32,7 @@
   title: "Javascript™ par Nicolas froidure"
   description: 'En 2013, un développeur web front-end compétent baigne dans HTML et CSS, JavaScript et jQuery, les préprocesseurs CSS ..., la complexification des interfaces demande une certaine maîtrise de JavaScript. Ce livre est la réponse à la question : "Je veux acheter un livre pour comprendre JavaScript."'
   collection: "Micro Application"
+  stared: true
   langage: Français
   image: "nicolas-froidure-js.jpg"
   blogpost: "http://davidl.fr/blog/javascript.html"

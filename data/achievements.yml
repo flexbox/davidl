@@ -1,4 +1,4 @@
-blogpost:
+blogposts:
   -
     date: Mars 2015
     website: tech.siliconsalad
@@ -16,18 +16,36 @@ blogpost:
     title: 'Astuce débutant jQuery : On ne saute pas dans la piscine'
 interviews:
   -
-    date: avril 2015
+    date: Septembre 2015
+    website: rue89
+    url: http://rue89.nouvelobs.com/2015/09/06/jai-fait-pendant-les-vacances-code-evidemment-261057
+    title: 'Témoignage : Ce que j’ai fait pendant les vacances ? Du code, évidemment'
+  -
+    date: Avril 2015
     website: workspiration
     url: http://workspiration.org/david-leuliette
     title: 'Interview de David Leuliette, développeur front-end & design hacker'
   -
-    date: janvier 2015
+    date: Janvier 2015
     website: dotnetdojo
     url: https://www.dotnetdojo.com/technologies-a-suivre-en-2015/
     title: 'Quelles sont les technologies à suivre en 2015 ? (interview de David Leuliette)'
+  -
+    date: Septembre 2014
+    website: bloomr
+    url: http://www.bloomr.org/portraits/82
+    title: ' Bloomr accompagne les jeunes dans la construction de leur formation en étude supérieure'
+
 talks:
   -
-    Août: Aout 2015
+    date: Août 2015
     website: RubycampBE
+    lang: ':en:'
     url: http://courses.davidl.fr/presentations/middleman/
     title: 'Craft everything with Middleman'
+  -
+    date: Septembre 2013
+    website: ChtiJS
+    lang: ':fr:'
+    url: http://chtijs.francejs.org/archives/2013-09-19/index.html
+    title: 'Pokémon breakpoint : Responsive design, CSS & JavaScript'

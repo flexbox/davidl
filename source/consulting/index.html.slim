@@ -46,3 +46,16 @@ priority: 0.8
           </g>
       </svg>
 
+.m-section
+  .row
+    .medium-8.medium-centered.columns.text-center
+      p I give talks too!
+      - data.achievements.talks.each do |talk|
+        p
+          => talk.lang
+          ' •
+          strong => talk.website
+          ' •
+          em: time.text-tiny = talk.date
+          br
+          = link_to talk.title, talk.url
