@@ -47,9 +47,10 @@ blog: blog
 
         - else
           li
-            time datetime="#{article.date}" pubdate="" class="text-tiny"
-              => article.date.strftime('%d/%m/%Y')
-            = link_to article.title, article, class: 'm-post--title'
+            em: time datetime="#{article.date}" pubdate="" class="text-tiny"
+              => article.date.strftime('%B %d, %Y')
+            = link_to article.title, article, class: 'm-post--link'
+            hr
   .medium-4.columns
     i.fa.fa-5x.fa-github
     h2 Sources
@@ -64,17 +65,11 @@ blog: blog
         br
         = link_to post.title, post.url
 
+    markdown:
+      ## Contribuer
+      Vous avez trouvé un article _qui peut être amélioré_ ?
 
-    h2 Contribuer
-    p
-      'Vous chezchez un sujet qui ne figure pas ici ? vous avez trouvé un article qui peut être amélioré ?
-      br
-      'Bravo ! Vous pouvez soumettre une demande de modification la page
-      => link_to 'Github', 'https://github.com/flexbox/davidl/tree/master/source/blog/articles'
-      'du projet.
-    p
-      'Des questions ?
-      = link_to 'Envoyer un tweet', data.settings.social.twitter.url
+      __Bravo__ ! Vous pouvez soumettre une demande de [modification sur Github](https://github.com/flexbox/davidl/tree/master/source/blog/articles).
 
 section.m-section
   .row

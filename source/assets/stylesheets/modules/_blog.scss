@@ -9,9 +9,18 @@
   }
   time {
     margin: rem-calc(0 20 10 0);
-    @media #{$small-only} {
-      display: block;
-    }
+    display: block;
+  }
+}
+
+.m-post--link {
+  font-size: 24px;
+  color: $black;
+  font-weight: $font-weight-normal;
+  display: block;
+  &:hover {
+    background: transparent;
+    color: $secondary-color;
   }
 }
 

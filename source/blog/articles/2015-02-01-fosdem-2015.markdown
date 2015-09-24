@@ -1,9 +1,9 @@
 ---
 date: 2015-02-01
 slug: fosdem-2015
-title: J’ai testé l’édition 2015 du plus grand festival européen de développeurs open source
+title: FOSDEM 2015
 description: "Sketchnoting des conférences du FOSDEM de l’ULB de Bruxelles"
-page_title: "FOSDEM"
+page_title: "J’ai testé l’édition 2015 du plus grand festival européen de développeurs open source"
 page_emphasis: Rencontres, partages d’idées et collaboration
 changefreq: monthly
 priority: 0.8
