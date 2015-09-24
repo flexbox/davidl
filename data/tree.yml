@@ -69,6 +69,7 @@ blog:
     2015-07-01-typography-sass.markdown: "/blog/articles/2015-07-01-typography-sass.markdown"
     2015-07-20-wireframe-font.markdown: "/blog/articles/2015-07-20-wireframe-font.markdown"
     2015-08-26-truncate.markdown: "/blog/articles/2015-08-26-truncate.markdown"
+    2015-09-21-365-jours-de-code.markdown: "/blog/articles/2015-09-21-365-jours-de-code.markdown"
   index.html.slim: "/blog/index.html.slim"
 books.html.slim: "/books.html.slim"
 clients.html.slim: "/clients.html.slim"

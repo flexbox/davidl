@@ -1,4 +1,8 @@
 -
+  title: Human coder forum
+  description: 'Recevez par email un résumé des nouveautés publiés sur le forum'
+  url: https://forum.humancoders.com/users/flexbox/preferences
+-
   title: JavaScript Weekly
   description: 'Cette newsletter me permet d’être à jour sur tout ce qui est important dans la communauté JavaScript.'
   url: http://javascriptweekly.com/
@@ -14,6 +18,10 @@
   title: Responsive Design Weekly
   description: 'Newsletter hebdomadaire qui présente les meilleurs articles, tutoriels & Frameworks sur le responsive design.'
   url: https://responsivedesign.is/
+-
+  title: The Smashing Newsletter
+  description: 'Recevez deux fois par mois des conseils, astuces et ressources pour designer et développeur.'
+  url: http://www.smashingmagazine.com/the-smashing-newsletter/
 -
   title: Tuts+ Translator Team
   description: Le projet de traduction Tuts+ est une initiative communautaire pour que les tutoriels et les articles atteignent le plus de personnes possible.

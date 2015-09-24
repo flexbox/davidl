@@ -75,7 +75,7 @@ La solution est d’utiliser ce qui a été conçu pour un tel usage :
 </div>
 
 ~~~ html
-    <form method="POST">
+    <form method="DELETE">
         <input type="hidden" name="delete" value="id">
         <button> Delete </button>
     </form>

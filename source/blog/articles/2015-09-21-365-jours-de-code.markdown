@@ -1,0 +1,71 @@
+---
+date: 2015-09-21
+slug: 365-jours-de-code
+title: "1 an de code en chiffre : 500h, expert Ruby Slim & Sass"
+description: "J’ai analysé pendant 365 jours mon travail de développeur front-end. J'ai codé sur dfférents langages pour un total de 500 heures, avec 5 ordinateurs tournant avec macOS ou Linux."
+image: https://c2.staticflickr.com/6/5630/21672508645_b950fb561b_o.png
+page_title: 365 jours avec un développeur front-end
+page_emphasis: 1 an d'utilisation de <strong>Codeivate</strong> — le quantified self des programmeurs
+changefreq: monthly
+priority: 0.5
+---
+
+Cela fait 365 jours que j’utilise [Codeivate](http://www.codeivate.com) avec Sublime Text. Ce plugin – utilisé avec n’importe quel éditeur de texte ou IDE – __analyse en temps réel__ le type de fichier sur lequel vous travaillez, et permet d’_extraire différentes statistiques_.
+
+__Plus vous codez, plus vous gagnez de points__ (je suis actellement niveau 20). Grâce à Codeivate j’ai appris à mieux connaître mes langages de prédilection & les moments de la journée les plus productifs.
+
+![Moment les plus productifs de ma journée](https://c2.staticflickr.com/6/5780/21051548453_ca5b635709_c.jpg)
+
+## 500 heures de code
+
+__365 jours__, le plugin se déclenche seulement quand vous utilisez votre éditeur de texte. Si l’on considère une journée de travail normal de 8 heures cela donne (365 jours * 8 heures) / 500 heures = __5,84 heures de code par jour__.
+
+__1247 branches__, j’utilise la logique de branches pour [travailler efficacement avec Git](http://nvie.com/posts/a-successful-git-branching-model/). Je passe en moyenne (500h * 60 minutes) / 1247 branches = __24 minutes par feature__.
+
+__1 heure 9 minutes__, c’est ma __meilleure série sans intéruption__. Je n’ai pas investigué au bout de combien de temps le compteur s’arrête, mais je pense que lire de la documentation – même 5 minutes – coupe le timeur.
+
+__Rating Novice__, en suivant la logique du livre <a href="http://www.amazon.fr/gp/product/0316017930/ref=as_li_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=0316017930&linkCode=as2&tag=davidl-21">Outliers : The Story of Success</a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=0316017930" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, il faut 10 000 heures pour être expert dans un domaine. En suivant le même rythme, devenir __expert développeur front-end__ demande 20 années de travail.
+
+### Langages majeurs
+
+__Ruby Slim__ _Level 8_
+
+J’utilise le [langage de templating slim](http://slim-lang.com/) pour gagner du temps car la syntaxe HTML est réduite au maximum (tout comme [Jade en NodeJS](http://jade-lang.com/)).
+
+__Sass__ _Level 8_
+
+Pour avoir un design maintenable et évolutif, j’utilise [Sass](http://sass-lang.com/).
+
+__Markdown__ _Level 3_
+
+Pour gérer les documents de type texte, j’écris TOUT en markdown. Si l’on vous demande d’en faire un beau document il est toujours possible de l’[exporter en .pdf](http://www.markdowntopdf.com/)
+
+### Langages mineurs
+
+__YAML__ _Level 2_
+
+J’applique le principe de [single point of failure](https://fr.wikipedia.org/wiki/Point_individuel_de_d%C3%A9faillance) pour gérer certaines informations comme les identifiants, mot de passe, medias sociaux…
+
+__JavaScript__ _Level 2_
+
+J’utilise quotidiennement ce langage. Force est de constater que je n’en code pas tant que ça, peut être parce que – dans certains cas – Angular élimine complètement le besoin d’écrire du JavaScript.
+
+__Ruby__ _Level 0_
+
+Je ne me ballade jamais dans les controlleurs ou les modèles, mais il m’arrive de créer mes propres `helpers` en ruby.
+
+![Image d’analyse de 1 an de code](https://c2.staticflickr.com/6/5630/21672508645_b950fb561b_o.png)
+
+Vous pouvez consulter la liste complète sur [mon profil Codeivate](http://www.codeivate.com/users/flexbox/).
+
+
+
+## 5 ordinateurs
+
+Une statistique interessante est le nombre de machines utilisées. En 1 an j’ai travaillé sur 5 ordinateurs différents, principalement sur OSX et un peu de Linux. Si l’on prend en compte le temps d’un setup complet d’une nouvelle machine de devéloppeur front-end cela donne environ (2 jours x 5 machines) __40 heures d’installation__, soit une semaine de travail à _regarder des barres de chargement_.
+
+C’est pour cette raison que j’utilise des solutions comme [Boxen de GitHub](https://github.com/blog/1345-introducing-boxen) ou encore [Laptop de Thoughtbot](https://robots.thoughtbot.com/laptop-setup-for-an-awesome-development-environment). Si vous souhaitez être efficace dans votre travail il est – à mon avis – indispensable d’automatiser ce processus pour pouvoir être efficace.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPjjiR4paVY" frameborder="0" allowfullscreen></iframe>
+
+> Whatever you do, make sure you are __automating__, because if you aren’t, all you are doing is making it harder for yourself when you revisit the __problem__, and making it even harder for the next __person__ who will inevitably have to __reproduce__ your __solution__.
