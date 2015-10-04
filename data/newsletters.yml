@@ -23,6 +23,10 @@
   description: 'Sass news est un bulletin d’information hebdomadaire, publié par Stu Robson.'
   url: http://sassnews.com/
 -
+  title: The UX newsletter
+  description: 'Articles de fond sélectionnés et rédigés par l’équipe de MailChimp'
+  url: http://www.theuxnewsletter.com/
+-
   title: The Smashing Newsletter
   description: 'Recevez deux fois par mois des conseils, astuces et ressources pour designer et développeur.'
   url: http://www.smashingmagazine.com/the-smashing-newsletter/

@@ -1,0 +1,131 @@
+---
+date: 2015-10-03
+slug: paris-web-2015
+title: "Ateliers Paris Web 2015 : accessibilité, design numérique & standards ouverts"
+description: ""
+image:
+page_title: 10 ans de Paris Web
+page_emphasis: "UX & code à l’édition 2015 de #parisweb"
+changefreq: monthly
+priority: 0.5
+---
+
+1 an déjà depuis l’[édition 2014 des ateliers Paris Web](/blog/paris-web-2014.html). Cette année le nord était présent en force représenté par [@rbwebdev](https://twitter.com/rbwebdev), [@lellexindo](https://twitter.com/lellexindo), [@kevinthenard](https://twitter.com/kevinthenard), [@nfroidure](https://twitter.com/nfroidure),[@hteumeuleu](https://twitter.com/hteumeuleu), [@JbPionnier](https://twitter.com/JbPionnier) & moi même.
+
+Voici mon retour sur les 3 ateliers auquels j’ai participé sur les thèmes du design le matin, et une session de code l’après–midi.
+
+![speed-test wifi paris web](https://c2.staticflickr.com/6/5665/21753471709_a3d833ae44_n.jpg)
+
+_Pas mal le speed test du wifi_
+
+## Le prototypage rapide
+
+Notre __principal problème__ dans l'industrie du web est _notre héritage de l’ingénierie classique_. Wireframes, maquettes & dévelopements s’enchaînent en effet de sylos, sans communication entre les équipes ni tests car :
+
+> Changer d’avis coûte cher
+
+Il y a pourtant __énormément de valeur à prototyper__, cela permet de _confronter nos idées avec le monde réel_.
+
+![Sketchnoting paris web par David leuliette](https://c2.staticflickr.com/6/5711/21317900884_1e639e97b6.jpg)
+![Sketchnoting paris web par David leuliette](https://c1.staticflickr.com/1/670/21916731711_e972e11c51.jpg)
+
+Après sa présentation [Louis](https://twitter.com/louije) nous a demandé de __réaliser le prototype papier__ de notre prochaine application en suivant la logique de [design sprint inspirée par Google](https://www.gv.com/lib/the-product-design-sprint-divergeday2).
+
+![paris web prototypage papier d’une application](https://c2.staticflickr.com/6/5661/21950384401_0c7c743b28_c.jpg)
+
+_SOSHERO la première application de géolocalisation de superhéro, avec un batsignal intégré_
+
+## Initiation à la facilitation graphique
+
+Merci [Romain](http://twitter.com/romaincouturier), grâce à toi je connais enfin la _traduction française pour sketchnoting_ :)
+
+Cet atelier – avec 100 participants ! – présentait les bases de la falicitation graphique en 3 parties :
+
+- Dessiner à partir des __formes de base__ : point, trait, carré, triangle & rond.
+- Créer une __bibliothèque d’icônes__
+- Le jeu du moulin à parole par binôme
+
+![Sketchnoting paris web par David leuliette la faliciation graphique 2](https://c2.staticflickr.com/6/5765/21317901964_21d99f768a.jpg)
+![Sketchnoting paris web par David leuliette la faliciation graphique 1](https://c2.staticflickr.com/6/5709/21288000583_08b39473b7.jpg)
+
+## Construire sa single page application avec reactJS, PouchDB & NodeJS
+
+[Frank Rousseau](https://twitter.com/gelnior) – CTO chez CozyCloud – nous a présenté comment créer une single page application & la partager sur [NPM](https://www.npmjs.com/).
+
+![Single page application nodeJS, reactJS et PouchDB](https://c2.staticflickr.com/6/5714/21730003449_eca2842c8c_z.jpg)
+
+Voici le `html` de notre super application de gestionnaire de marque–pages :
+
+~~~html
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My bookmarks</title>
+    <link rel="stylesheet" href="application.css">
+  </head>
+  <body>
+    <div id="app">
+      Loading…
+    </div>
+    <script src="browser-bundle.js"></script>
+  </body>
+  </html>
+~~~
+
+`browser-bundle.js` contient les sources de notre application compilées avec `npm start`.
+
+Le code JavaScript `application.js` se décompose de cette façon :
+
+~~~javascript
+  var React = require('react');
+~~~
+
+Exemple de notre class pour notre [application en ReactJS](http://facebook.github.io/react/).
+
+~~~javascript
+  var App = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <h1>My Bookmark Application</h1>
+          <BookmarkList bookmarks={this.props.bookmarks}></BookmarkList>
+        </div>
+      )
+    }
+  });
+~~~
+
+Notre composant bookmark.
+
+~~~javascript
+  var Bookmark = React.createClass({
+    onDeleteClicked: function() {
+      bookmark =  this.props;
+      this.props.removeLine(bookmark);
+    },
+
+    render: function() {
+      return (
+        <div>
+          <p class="title">{this.props.title}</p>
+          <a href="{this.props.title}">{this.props.link}</a>
+          <button onClick={this.onDeleteClicked}>X</button>
+        </div>
+      )
+    }
+  });
+~~~
+
+L’application est injectée dans le `DOM`.
+
+~~~javascript
+  React.render(<App bookmarks={bookmarks}></App>, document.getElementById('app'));
+~~~
+
+Le résultat final est [disponible sur npm](https://www.npmjs.com/package/my-bookmarks)
+
+J’ai trouvé très interessant l’utilisation de PouchDB – une Base de donnée en JavaSCript – qui permet d’avoir une logique de développement offline first.
+
+Encore merci aux équipes de Paris web pour cette 10ème édition au top ! Vous êtes formidables.
