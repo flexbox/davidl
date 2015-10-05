@@ -2,8 +2,8 @@
 date: 2015-10-03
 slug: paris-web-2015
 title: "Ateliers Paris Web 2015 : accessibilité, design numérique & standards ouverts"
-description: ""
-image:
+description: "L’édition 2015 des ateliers de paris web vu par un développeur front-end : prototypage, facilitation graphique et code avec reactJS, PouchDB & NodeJS"
+image: https://c2.staticflickr.com/6/5833/21343415384_55cf8836f7_b.jpg
 page_title: 10 ans de Paris Web
 page_emphasis: "UX & code à l’édition 2015 de #parisweb"
 changefreq: monthly
