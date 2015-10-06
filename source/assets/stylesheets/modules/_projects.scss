@@ -3,3 +3,23 @@
     display: none;
   }
 }
+
+.m-projects-mixitup {
+  @media #{$small-up}{
+    @include block-grid(1);
+    .m-panel {
+      min-height: rem-calc(350);
+    }
+  }
+
+  @media #{$large-up}{
+    @include block-grid(3);
+    .m-panel {
+      min-height: rem-calc(350);
+    }
+  }
+
+  > li {
+    clear: none !important;
+  }
+}
