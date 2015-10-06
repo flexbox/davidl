@@ -18,7 +18,7 @@ Je pars pour l’Amérique du sud, destination Lima au Pérou. __Pour 4 mois__. 
 
 __Je prends une pause__. J’ai besoin de temps pour me concentrer sur des activités hors-ligne. J’ai passé plus de 15 ans à arpenter les internets. Construire une réputation, travailler sur des projets open source, donner des conseils & prendre soin du web en général. _Je ne regrette rien_.
 
-Je vais fêter mes 30 ans – probablement en Bolivie – loin de ma famille et mes amis, et j’ai besoin de faire le point avant d’attaquer les 10 prochaines années. Appendre à __ignorer les choses qui font perdre du temps__. Ne plus m’investir dans des projets web avec des clients <del>de merde</del> pas aussi attentionné que moi.
+Je vais fêter mes 30 ans – probablement en Bolivie – loin de ma famille et mes amis, et j’ai besoin de faire le point avant d’attaquer les 10 prochaines années. Appendre à __ignorer les choses qui font perdre du temps__. Ne plus m’investir dans des projets web avec des clients <del>de merde</del> pas aussi attentionnés que moi.
 
 Pour être honnête j’ai du mal à mettre en pause mon activité en ligne (autrement dit travail). Comment vais–je gérer mes emails ? Twitter ? mon blog ? maîtriser ReactJS ? …
 
@@ -26,16 +26,16 @@ Pendant ce temps là, _la terre ne s’arrêtera pas de tourner_, et je ne vais 
 
 ## Apprendre
 
-Maîtriser & evangeliser sur le web en général est l’[un de mes principal passe temps](/blog/365-jours-de-code.html).
+Maîtriser & evangeliser sur le web en général est l’[un de mes principaux passe temps](/blog/365-jours-de-code.html).
 Devenir expert est une chose importante pour moi & je pense avoir réussi :) …
 
-Cela ne veux pas dire que je vais arrêter d’__améliorer mes compétences__, mais je ne peux pas imaginer passer ma vie derrière un écran ces 10 prochaines années.
+Cela ne veut pas dire que je vais arrêter d’__améliorer mes compétences__, mais je ne peux pas imaginer passer ma vie derrière un écran ces 10 prochaines années.
 
 Pendant ces 4 mois, je vais apprendre de nouvelles choses. Des choses qui ne sont pas pertinentes pour ma carrière et qui ne permettront pas d’être meilleur dans l’écriture de code. Je vais apprendre la base de l’espagnol, améliorer mes __compétences de sketchnoting__ de l’extrème & la __pratique du trekking en haute altitude__.
 
 ## Pourquoi l’Amérique du sud ?
 
-_Aucune idée_. 4 mois de trekking sur la cordillère des Andes me semble être une très bonne activitée. Mon objectif est de traverser 4 pays : __Pérou__, __Bolivie__, __Argentine__ & __Chili__.
+_Aucune idée_. 4 mois de trekking sur la cordillère des Andes me semble être une très bonne activité. Mon objectif est de traverser 4 pays : __Pérou__, __Bolivie__, __Argentine__ & __Chili__.
 
 ![trip off the grid in america](https://c2.staticflickr.com/6/5669/21809855829_ca0e468e5b_z.jpg)
 
