@@ -13,10 +13,10 @@ html lang="fr"
     = stylesheet_link_tag 'application'
     = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'
 
-  body class="#{current_page.data.page_class}"
+  body class="#{current_page.data.page_class} #{page_classes}"
     = partial 'views/commons/topbar'
     .m-content role="main"
-      = partial 'views/commons/hero-intro'
+      = partial 'views/commons/hero-banner'
       == yield
     = partial 'views/commons/footer'
 

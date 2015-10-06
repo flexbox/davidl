@@ -1,12 +1,38 @@
 ---
-title: 'davidl • designer & développeur frontend opensource'
+title: 'Conseils de Designer & développeur frontend opensource pour un meilleur web'
 description: Ressources pour la conception d’applications web et mobiles présentations, ateliers, articles et conseils sur les technologies front-end.
-page_title: Construire de meilleures applications web
-page_emphasis: J’écris du code pour rendre les utilisateurs heureux
 page_class: m-homepage
 changefreq: monthly
 priority: 0.8
 ---
+
+- content_for :javascripts do
+  = javascript_include_tag 'front/homepage'
+
+.m-hero-homepage.js-hero-homepage
+  h1.logo
+    .icon.animate Design
+    .pipe.animate |
+    .name.animate Develop
+
+  = link_to 'En savoir plus', '/consulting/',class: 'button secondary button-call-to-action'
+
+.row
+  .medium-8.columns.medium-centered.text-center
+    h2 Construire de meilleures applications web
+    p
+      'J’écris du code pour rendre les utilisateurs heureux &
+      em améliorer la performance.
+    p
+      'Je suis quelqu’un qui aime construire des applications web & pousser du code tous les jours. Mon objectif est de
+      strong construire des produits que les gens aiment utiliser.
+
+.m-section--inverse
+  p.l-link
+    'Envie de découvrir
+    = link_to '/about.html' do
+      |mon histoire et mes compétences
+    '&nbsp;?
 
 .row.text-center
   .medium-4.columns
@@ -36,19 +62,6 @@ priority: 0.8
         'Un
         strong> développement durable
         'nécessite de se renseigner sur les nouvelles technologies.
-
-.row
-  .medium-8.columns.medium-centered.text-center
-    p
-      'Je suis quelqu’un qui aime construire des applications web, pousser du code tous les jours pour améliorer la performance. Mon objectif est de
-      strong construire des produits que les gens aiment utiliser.
-
-.m-section--inverse
-  p.l-link
-    'Envie de découvrir
-    = link_to '/about.html' do
-      |mon histoire et mes compétences
-    '&nbsp;?
 
 .row
   .medium-12.columns.text-center
@@ -94,13 +107,11 @@ priority: 0.8
     ul.small-block-grid-3.m-homepage--pdca
       li
         p Planifier
-        i.fa.fa-lightbulb-o.l-illu.hide-for-small
       li.text-center
         p Mettre en oeuvre
         i.fa.fa-refresh.fa-spin.l-illu
         p Améliorer
       li
-        i.fa.fa-users.l-illu.hide-for-small
         p Contrôler
 
 .m-section--inverse
@@ -113,20 +124,20 @@ priority: 0.8
 .row
   .medium-12.columns
     h2.text-center Projets open source
-    p.text-center Je participe à l'intelligence collective du mouvement open source en partageant mes connaissances.
+    p.text-center
+      'Je participe à l'intelligence collective du mouvement open source en
+      = link_to 'partageant mes connaissances', '/projects.html'
     hr
-    ul class="m-homepage-mixitup"
-      - data.projects.each_with_index do |project, i|
-        - if project.stared.present?
-          li
-            div class="m-panel js-linkspy-start"
-              h3.l-title
-                = project.title
-              p.l-description
-                = project.description
-              = link_to project.url, class: 'js-linkspy-target' do
-                'Voir le projet
-                i class="fa #{project.icon}"
+    .row
+      .medium-8.medium-centered.columns
+        ul.m-blog--post-list
+          - data.projects.each_with_index do |project, i|
+            - if project.stared.present?
+              li
+                = link_to project.title, project.url, class: 'm-post--link'
+                p.l-description
+                  = project.description
+
     h2.text-center Mes engagements
     hr
     ul.small-block-grid-2.medium-block-grid-4

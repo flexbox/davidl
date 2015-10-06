@@ -19,6 +19,10 @@
   description: 'Newsletter hebdomadaire qui présente les meilleurs articles, tutoriels & Frameworks sur le responsive design.'
   url: https://responsivedesign.is/
 -
+  title: Sass News
+  description: 'Sass news est un bulletin d’information hebdomadaire, publié par Stu Robson.'
+  url: http://sassnews.com/
+-
   title: The Smashing Newsletter
   description: 'Recevez deux fois par mois des conseils, astuces et ressources pour designer et développeur.'
   url: http://www.smashingmagazine.com/the-smashing-newsletter/
@@ -30,6 +34,7 @@
   title: Zub University
   description: 'Cours, workshop & ressources en provencance des Designers Produits de chez Zurb'
   url: https://zurb.com/university/lessons
+
 # Five newsletters that make my life better
 # It’s easy to find yourself subscribing to dozens of mailing lists, many of which make it straight to the trash.
 # But for me there are a few - just a few - that not only stay in my inbox, but put a smile on my face when they arrive.
