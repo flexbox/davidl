@@ -22,6 +22,9 @@
     background: transparent;
     color: $secondary-color;
   }
+  &:visited {
+    color: scale-color($gray-dark, $lightness: 50%);
+  }
 }
 
 .m-blog--article {
