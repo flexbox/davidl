@@ -45,6 +45,11 @@
   @extend %icon-style;
 }
 
+.fa-block {
+  float: left;
+  padding: rem-calc(5 20 55 5);
+}
+
 .icon-at-email:before {
   content: "a";
 }

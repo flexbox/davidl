@@ -11,22 +11,38 @@ priority: 0.8
 .row
   .medium-8.medium-centered.columns
     markdown:
-      ## Newsletter mensuelle et gratuite
+      ## Newsletter gratuite
 
-      Recevez une fois par mois des informations sur le _design_ & le _développement front-end_ : articles, outils, conseils, tutoriaux et liens.
-      Je passe des heures à sélectionner le meilleur contenu sur le web. J’écris des articles pour partager mon expérience avec vous : succès comme échecs. Abonnez-vous gratuitement. Si vous n’aimez pas, vous pouvez vous désabonner à tout moment.
-    .row
-      .medium-6.medium-centered.columns
-        .m-blog-panel.text-center
-          form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
-            p S’abonner pour ne pas manquer les nouvelles publications
-            input type="email" name="EMAIL" placeholder="youare@weso.me" required=""
-            .hide
-              input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad"
-            input type="submit" value="S’inscrire" name="subscribe" class="button secondary"
+      Recevez une fois par mois des informations sur le __design__ & le __développement front-end__ : articles, outils, conseils, tutoriaux et liens.
+      Je passe des heures à sélectionner le meilleur contenu sur le web. J’écris des articles pour partager mon expérience avec vous : succès comme échecs.
+
+    form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
+      .hide
+        input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad"
+      .row.collapse
+        .small-8.columns
+          input type="email" name="EMAIL" placeholder="youare@weso.me" required=""
+        .small-4.columns
+          input type="submit" value="S’inscrire" name="subscribe" class="button secondary postfix"
 
     p
       'Je sais que votre email est précieux. C’est pourquoi il est gardé secret. Il sera toujours utilisé pour vous envoyer des <strong>informations utiles</strong> pour vous tenir au courant de ce qui se passe, sans avoir à passer des heures à le trouver.
 
 .m-section.text-center
   i.fa.fa-send.fa-5x
+
+.row
+  .medium-8.medium-centered.columns
+    markdown:
+      ## Ailleurs sur le web
+
+      Voici une liste de mes autres recommandations de newsletters :
+
+    ul.m-blog--post-list
+      - data.newsletters.each do |newsletter|
+          li
+            i class="fa fa-#{newsletter.icon} fa-2x fa-block"
+            = link_to newsletter.title, newsletter.url, class: 'm-post--link'
+            em
+              = newsletter.description
+            hr

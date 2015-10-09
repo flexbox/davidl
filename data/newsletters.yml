@@ -1,42 +1,52 @@
 -
   title: Human coder forum
   description: 'Recevez par email un résumé des nouveautés publiés sur le forum'
+  icon: 'university'
   url: https://forum.humancoders.com/users/flexbox/preferences
 -
   title: JavaScript Weekly
   description: 'Cette newsletter me permet d’être à jour sur tout ce qui est important dans la communauté JavaScript.'
+  icon: 'code'
   url: http://javascriptweekly.com/
 -
   title: Medium
   description: 'Medium connecte les gens, les histoires et les idées qui comptent pour vous.'
+  icon: 'university'
   url: https://medium.com/me/settings
 -
   title: Middleman forum
   description: 'La communauté du meilleur générateur de site statique en ruby.'
+  icon: 'university'
   url: https://forum.middlemanapp.com/users/flexbox/preferences
 -
   title: Responsive Design Weekly
   description: 'Newsletter hebdomadaire qui présente les meilleurs articles, tutoriels & Frameworks sur le responsive design.'
+  icon: 'laptop'
   url: https://responsivedesign.is/
 -
   title: Sass News
   description: 'Sass news est un bulletin d’information hebdomadaire, publié par Stu Robson.'
+  icon: 'code'
   url: http://sassnews.com/
 -
   title: The UX newsletter
   description: 'Articles de fond sélectionnés et rédigés par l’équipe de MailChimp'
+  icon: 'picture-o'
   url: http://www.theuxnewsletter.com/
 -
   title: The Smashing Newsletter
   description: 'Recevez deux fois par mois des conseils, astuces et ressources pour designer et développeur.'
+  icon: 'picture-o'
   url: http://www.smashingmagazine.com/the-smashing-newsletter/
 -
   title: Tuts+ Translator Team
-  description: Le projet de traduction Tuts+ est une initiative communautaire pour que les tutoriels et les articles atteignent le plus de personnes possible.
+  description: Initiative communautaire pour que les tutoriels et les articles atteignent le plus de personnes possible.
+  icon: 'code'
   url: http://tutsplus.com/translate-for-us
 -
   title: Zub University
   description: 'Cours, workshop & ressources en provencance des Designers Produits de chez Zurb'
+  icon: 'picture-o'
   url: https://zurb.com/university/lessons
 
 # Five newsletters that make my life better
