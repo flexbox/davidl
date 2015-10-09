@@ -1,8 +1,8 @@
 source 'http://rubygems.org'
 
-if /linux/ =~ RUBY_PLATFORM
-  gem 'therubyracer'
-end
+
+gem 'therubyracer'
+
 
 gem 'middleman',               '~> 3.3.12'
 gem 'middleman-autoprefixer',  '~>  2.5.0'
