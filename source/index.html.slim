@@ -4,6 +4,7 @@ description: Ressources pour la conception d’applications web et mobiles prés
 page_class: m-homepage
 changefreq: monthly
 priority: 0.8
+blog: blog
 ---
 
 - content_for :javascripts do
@@ -18,14 +19,15 @@ priority: 0.8
   = link_to 'En savoir plus', '/consulting/',class: 'button secondary button-call-to-action'
 
 .row
-  .medium-8.columns.medium-centered.text-center
-    h2 Construire de meilleures applications web
-    p
-      'J’écris du code pour rendre les utilisateurs heureux &
-      em améliorer la performance.
-    p
-      'Je suis quelqu’un qui aime construire des applications web & pousser du code tous les jours. Mon objectif est de
-      strong construire des produits que les gens aiment utiliser.
+  .medium-8.columns.medium-centered
+    .text-center
+      h2 Construire de meilleures applications web
+      p
+        'J’écris du code pour rendre les utilisateurs heureux &
+        em améliorer la performance.
+      p
+        'Je suis quelqu’un qui aime construire des applications web & pousser du code tous les jours. Mon objectif est de
+        strong construire des produits que les gens aiment utiliser.
 
 .m-section--inverse
   p.l-link
@@ -153,6 +155,17 @@ priority: 0.8
       li
         = link_to 'http://ruby-nord.org/', title: 'Mentor ruby spécialisé front-end', class: 'link-reset' do
           = image_tag 'front/homepage/logo-ruby-nord.png', alt: 'David Leuliette membre de ruby nord'
+
+    hr
+    .row
+      .medium-8.medium-centered.columns
+        ul.m-blog--post-list
+          - page_articles[0..2].each do |article, i|
+            li
+              em: time datetime="#{article.date}" pubdate="" class="text-tiny"
+                => article.date.strftime('%B %d, %Y')
+              = link_to article.title, article, class: 'm-post--link'
+              hr
 
 .m-section--inverse
   p.l-link
