@@ -161,7 +161,7 @@ En 2015 au niveau développement front–end, je dirais que [AngularJS](https://
 
 Mon premier conseil est de créer un compte GitHub et [maîtriser les bases de Git](http://courses.davidl.fr/programs/git-github.html)
 
-Dans un second temps, apprendre à développer en JavaScript, [comprendre la nature du web](http://localhost:4567/blog/esprit-web.html) & avoir des connaissances sur le runtime d’un navigateur web.
+Dans un second temps, apprendre à développer en JavaScript, [comprendre la nature du web](http://davidl.fr/blog/esprit-web.html) & avoir des connaissances sur le runtime d’un navigateur web.
 
 Par contre si le but est de développer des applications natives le paradigme est complètement différent.
 
@@ -173,7 +173,7 @@ Pour iOS il faut obligatoirement un mac et avoir des connaissances en [swift](ht
 
 ### Quel est votre meilleur souvenir en tant que développeur ?
 
-[Rencontrer Richard Stallman](http://localhost:4567/blog/fosdem-2015.html#surprise-de-fin) au FOSDEM.
+[Rencontrer Richard Stallman](http://davidl.fr/blog/fosdem-2015.html#surprise-de-fin) au FOSDEM.
 
 ### Et le pire ?
 
