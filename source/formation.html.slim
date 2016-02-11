@@ -28,3 +28,13 @@ priority: 0.6
                 br
                 - if course['url'].present?
                   = link_to 'Consulter le programme', course.url
+      hr
+
+section.m-section
+  .row
+    .medium-10.medium-centered.columns
+      h2.text-center Embauchez moi en tant que formateur
+      .text-center
+        = link_to '/contact.html', class: 'button secondary' do
+          'Contact &nbsp;&nbsp;&nbsp;
+          i.fa.fa-pencil
