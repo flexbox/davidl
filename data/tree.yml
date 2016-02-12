@@ -71,6 +71,7 @@ blog:
     2015-09-21-365-jours-de-code.markdown: "/blog/articles/2015-09-21-365-jours-de-code.markdown"
     2015-10-03-paris-web-2015.markdown: "/blog/articles/2015-10-03-paris-web-2015.markdown"
     2015-10-06-offthegrid.markdown: "/blog/articles/2015-10-06-offthegrid.markdown"
+    2016-02-08-online.markdown: "/blog/articles/2016-02-08-online.markdown"
   index.html.slim: "/blog/index.html.slim"
 books.html.slim: "/books.html.slim"
 clients.html.slim: "/clients.html.slim"
