@@ -4,7 +4,7 @@ slug: online
 title: "I AM BACK"
 description: "Voici la liste des choses que j’ai visité / réalisé au Pérou, en Bolivie et au Chili"
 image: https://c2.staticflickr.com/2/1582/24352983683_5de2121d97_b.jpg
-page_title: New achivement unlock
+page_title: New achievement unlocked
 page_emphasis: Retour après 100 jours de voyage <em>sans ordinateur</em>
 changefreq: monthly
 priority: 0.5
@@ -14,7 +14,7 @@ Bonjour à tous ! Aujourd’hui j’écris un article qui ne parlera pas d’__i
 
 En tant que créatif, j’ai réalisé de nombreux __sketchnoting__ de l’extrême pour présenter mon voyage, tout est [disponible dans un album FlickR](https://www.flickr.com/photos/geekgrunge/albums/72157663947436340). Pour terminer, j’ai fait un peu de veille en écoutant des podcast pendant les trajets de bus. N’hésitez pas à me dire si j’ai raison pour mes prédictions, je n’ai pas pu vérifier toutes les informations.
 
-__Pour mes amis Lillois__ : Je compte organiser une soirée de retour _#stayTunned_
+__Pour mes amis Lillois__ : Je compte organiser une soirée de retour _#stayTuned_
 
 ![Sandboard & buggy session in the desert – Hucachina Peru](https://c2.staticflickr.com/2/1483/24822137141_1fb7487b41_b.jpg)
 
@@ -24,7 +24,7 @@ _— Sandboard session in Hucachina Peru_
 
 J’ai eu le temps de réaliser des choses incroyables, si les voyages en sac à dos vous interessent n’hésitez pas à me contacter, j’ai quelques conseils pour vous ;)
 
-- Aller chercher 3 fois de suite une amie à l’aéroport (Toujours faire attention au décallage horaire)
+- Aller chercher 3 fois de suite une amie à l’aéroport (Toujours faire attention au décalage horaire)
 - Faire l’expérience de la solitude dans le désert
 - Survivre 3 jours dans le [Canyon del Colca](http://www.colcaperu.gob.pe/) (Plus de 1 000 mètres de dénivelé avec le village)
 - Passer 15h de bus sur de la piste en cailloux pour rejoindre l’__Amazonie Bolivienne__
@@ -34,7 +34,7 @@ J’ai eu le temps de réaliser des choses incroyables, si les voyages en sac à
 - Dormir dans un hôtel de sel
 - Assister au lever de soleil sur le __désert de sel de Uyuni__
 - Dépenser son argent vitesse lumière en marchandant dans les magasins de __Cuzco__
-- Réveil 4h, monter le Macchu Picchu + la Montaña dans la brume, tout redescendre, marcher le long de la voie ferrée, revenir à Cuzco, aller en dicothèque, couché 4h du matin
+- Réveil 4h, monter le Macchu Picchu + la Montaña dans la brume, tout redescendre, marcher le long de la voie ferrée, revenir à Cuzco, aller en discothèque, couché 4h du matin
 - Traverser la ville de __Iquique en parapente__
 - Assister à une [compétition internationale de bodyboard](https://www.isasurf.org/events/isa-world-bodyboard-championship/)
 - Se ballader dans le champ de geysers El tatio (les plus haut du monde)
@@ -86,7 +86,7 @@ J'ai suivi un peu l’actualité des internets grâce à 2 choses :
 
 Avant de partir, j‘avais parié que [vue.js](http://vuejs.org/) allait faire parler du lui… 4 mois plus tard je n‘ai pas vu un seul article passer contraitement à [ReactJS](https://github.com/facebook/react). En ce début d’année, voici mes prédiction pour un nouveau projet ou un redesign :
 
-1. ES6 + Compilation / transpillation de TOUT le code JavaScript
+1. ES6 + Compilation / transpilation de TOUT le code JavaScript
 2. Pas de librairies JavaScript — seulement [des promises](http://insertafter.com/fr/blog/promises_javascript_ouvrons_capot.html)
 3. Pas de librairies de chargement asynchrone
 4. Éviter les icônes en polices de caractère
