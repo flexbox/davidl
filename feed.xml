@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>davidl • design &amp; développement</title>
+  <subtitle>Je crée des sites internet qui fonctionnent à merveille sur n’importe quel appareil. Designer spécialisé HTML et CSS basé à Lille</subtitle>
+  <id>http://davidl.fr/blog/</id>
+  <link href="http://davidl.fr/blog/"/>
+  <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
+  <updated>2016-02-08T00:00:00+01:00</updated>
+  <author>
+    <name>David Leuliette</name>
+  </author>
+  <entry>
+    <title>I AM BACK</title>
+    <link rel="alternate" href="http://davidl.fr/blog/online.html"/>
+    <id>http://davidl.fr/blog/online.html</id>
+    <published>2016-02-08T00:00:00+01:00</published>
+    <updated>2016-02-14T21:51:55+01:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;Bonjour à tous ! Aujourd’hui j’écris un article qui ne parlera pas d’&lt;strong&gt;intégration web&lt;/strong&gt; ou de &lt;strong&gt;développement front-end&lt;/strong&gt; (rassurez vous j’y travaille). Dans cet article je vais présenter de façon non-exhaustive les différentes activitées que j’ai réalisé pendant mon voyage en Amérique du Sud.&lt;/p&gt;
+
+&lt;p&gt;En tant que créatif, j’ai réalisé de nombreux &lt;strong&gt;sketchnoting&lt;/strong&gt; de l’extrême pour présenter mon voyage, tout est &lt;a href="https://www.flickr.com/photos/geekgrunge/albums/72157663947436340"&gt;disponible dans un album FlickR&lt;/a&gt;. Pour terminer, j’ai fait un peu de veille en écoutant des podcast pendant les trajets de bus. N’hésitez pas à me dire si j’ai raison pour mes prédictions, je n’ai pas pu vérifier toutes les informations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pour mes amis Lillois&lt;/strong&gt; : Je compte organiser une soirée de retour &lt;em&gt;#stayTuned&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Sandboard &amp;amp; buggy session in the desert – Hucachina Peru" src="https://c2.staticflickr.com/2/1483/24822137141_1fb7487b41_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;— Sandboard session in Hucachina Peru&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id="jours-entre-prou-bolivie--chili"&gt;100 jours entre Pérou, Bolivie &amp;amp; Chili&lt;/h2&gt;
+
+&lt;p&gt;J’ai eu le temps de réaliser des choses incroyables, si les voyages en sac à dos vous interessent n’hésitez pas à me contacter, j’ai quelques conseils pour vous ;)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aller chercher 3 fois de suite une amie à l’aéroport (Toujours faire attention au décalage horaire)&lt;/li&gt;
+  &lt;li&gt;Faire l’expérience de la solitude dans le désert&lt;/li&gt;
+  &lt;li&gt;Survivre 3 jours dans le &lt;a href="http://www.colcaperu.gob.pe/"&gt;Canyon del Colca&lt;/a&gt; (Plus de 1 000 mètres de dénivelé avec le village)&lt;/li&gt;
+  &lt;li&gt;Passer 15h de bus sur de la piste en cailloux pour rejoindre l’&lt;strong&gt;Amazonie Bolivienne&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pêcher&lt;/strong&gt; le piranha&lt;/li&gt;
+  &lt;li&gt;Construire des bottes à l’aide de sac plastique &amp;amp; de ruban adhésif toilé pour chasser le serpent dans les marais&lt;/li&gt;
+  &lt;li&gt;Nager avec les &lt;a href="https://fr.wikipedia.org/wiki/Boto"&gt;dauphins roses d’eau douce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Dormir dans un hôtel de sel&lt;/li&gt;
+  &lt;li&gt;Assister au lever de soleil sur le &lt;strong&gt;désert de sel de Uyuni&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Dépenser son argent vitesse lumière en marchandant dans les magasins de &lt;strong&gt;Cuzco&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Réveil 4h, monter le Macchu Picchu + la Montaña dans la brume, tout redescendre, marcher le long de la voie ferrée, revenir à Cuzco, aller en discothèque, couché 4h du matin&lt;/li&gt;
+  &lt;li&gt;Traverser la ville de &lt;strong&gt;Iquique en parapente&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Assister à une &lt;a href="https://www.isasurf.org/events/isa-world-bodyboard-championship/"&gt;compétition internationale de bodyboard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Se ballader dans le champ de geysers El tatio (les plus haut du monde)&lt;/li&gt;
+  &lt;li&gt;Observer les étoiles avec un téléscope dans le &lt;strong&gt;désert d’Atacama&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Se perdre dans la ville labyrinthe de &lt;a href="http://www.routard.com/guide_voyage_lieu/3484-valparaiso.htm"&gt;Valparaiso&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;BA du voyage : éviter à une amie de se faire voler son sac&lt;/li&gt;
+  &lt;li&gt;Descendre un sentier de randonnée en courant (4h de montée, 1h de descente)&lt;/li&gt;
+  &lt;li&gt;Réaliser l’ascension d’un volcan en activité – &lt;a href="https://fr.wikipedia.org/wiki/Villarrica_%28volcan%29"&gt;Villarica au Chili&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tourner dans une &lt;a href="https://www.facebook.com/PuconSierraNevada/"&gt;publicité pour du rafting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Faire de l’ethnotourisme avec des pêcheurs locaux&lt;/li&gt;
+  &lt;li&gt;Manger du &lt;a href="https://www.youtube.com/watch?v=rVXFtaFvKa8"&gt;Curanto&lt;/a&gt;, la spécialité de l’&lt;strong&gt;île de Chiloé&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Explorer la &lt;strong&gt;Patagonie&lt;/strong&gt; en autostop (avec plus ou moins de succès) exactement comme Pekin Express&lt;/li&gt;
+  &lt;li&gt;Assister à une compétition de rodéo Chilien&lt;/li&gt;
+  &lt;li&gt;Se doucher dans un lac&lt;/li&gt;
+  &lt;li&gt;Visiter la capitale nationale de la cerise – Los antigo — Argentine&lt;/li&gt;
+  &lt;li&gt;Visiter la capitale nationale du trekking – El Chalten — Argentine&lt;/li&gt;
+  &lt;li&gt;Visiter la capitale nationale des glaciers – El Calafate — Argentine&lt;/li&gt;
+  &lt;li&gt;4 jours de trekking pour réaliser le “W” dans le parc national &lt;a href="http://www.torresdelpaine.com/"&gt;Torres del paine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Atteindre Ushuaïa, la terre de feu et visiter le dessous du glacier Vinciguerra&lt;/li&gt;
+  &lt;li&gt;Manger dans un restaurant — buffet &amp;amp; BBQ illimité&lt;/li&gt;
+  &lt;li&gt;90 heures de bus d’affilée pour rejoindre Lima en partant de Punta arenas&lt;/li&gt;
+  &lt;li&gt;Faire des selfie avec des animaux improbables : Lamas, pingouins, caïmans …&lt;/li&gt;
+  &lt;li&gt;Rencontrer énormément de personnes formidables&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt="Trekking Torres del Paine — Chile" src="https://c2.staticflickr.com/2/1590/24892127996_2e97c8910e_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;— Parc national Torres del Paine au Chili&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Sketchnoting puerto natales" src="https://c2.staticflickr.com/2/1513/24317249103_0547f9b8d2_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;— &lt;a href="https://www.flickr.com/photos/geekgrunge/albums/72157663947436340"&gt;Voir tous mes sketchnotes dans un album FlickR&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id="comment-se-tenir--jour-"&gt;Comment se tenir à jour ?&lt;/h2&gt;
+
+&lt;p&gt;Dans mon &lt;a href="http://davidl.fr/blog/offthegrid.html"&gt;précédent article&lt;/a&gt; je me posais quelques questions : comment vais–je gérer mes emails ? Twitter ? mon blog ? maîtriser ReactJS ? … J'ai commencé par me désabonner de mes &lt;a href="http://davidl.fr/newsletter.html"&gt;newsletters sur développement &amp;amp; le design&lt;/a&gt; et ensuite je n’avais plus accès à internet… Problème résolu !&lt;/p&gt;
+
+&lt;p&gt;Ma principale préoccupation était d’&lt;strong&gt;apprendre à parler espagnol&lt;/strong&gt; et comme en Bolivie la qualité du réseau et médiocre :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No hay aquì wifi&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;Un propriétaire d’hostel en Bolivie&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;J'ai suivi un peu l’actualité des internets grâce à 2 choses :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Parcourir mon fil d’&lt;strong&gt;actualité sur Twitter&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Écouter des podcasts&lt;/strong&gt; pendant les long trajets en bus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="objectifs-dun-redesign-en-2016-"&gt;Objectifs d’un redesign en 2016 ?&lt;/h3&gt;
+
+&lt;p&gt;Avant de partir, j‘avais parié que &lt;a href="http://vuejs.org/"&gt;vue.js&lt;/a&gt; allait faire parler du lui… 4 mois plus tard je n‘ai pas vu un seul article passer contraitement à &lt;a href="https://github.com/facebook/react"&gt;ReactJS&lt;/a&gt;. En ce début d’année, voici mes prédiction pour un nouveau projet ou un redesign :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ES6 + Compilation / transpilation de TOUT le code JavaScript&lt;/li&gt;
+  &lt;li&gt;Pas de librairies JavaScript — seulement &lt;a href="http://insertafter.com/fr/blog/promises_javascript_ouvrons_capot.html"&gt;des promises&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Pas de librairies de chargement asynchrone&lt;/li&gt;
+  &lt;li&gt;Éviter les icônes en polices de caractère&lt;/li&gt;
+  &lt;li&gt;Utiliser plus de SVG&lt;/li&gt;
+  &lt;li&gt;Utiliser les services workers pour la gestion avancée du cache&lt;/li&gt;
+  &lt;li&gt;Utiliser &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API"&gt;WebPush&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;N’hésitez pas à me contacter si vous avez lu / vu quelque chose de trop awesome ces 100 derniers jours.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>4 mois sans internet</title>
+    <link rel="alternate" href="http://davidl.fr/blog/offthegrid.html"/>
+    <id>http://davidl.fr/blog/offthegrid.html</id>
+    <published>2015-10-06T00:00:00+02:00</published>
+    <updated>2015-10-06T20:11:47+02:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="David est en mode hors connexion" src="https://c1.staticflickr.com/1/705/21182629074_bb72e0ffd1_c.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Je pars pour l’Amérique du sud, destination Lima au Pérou. &lt;strong&gt;Pour 4 mois&lt;/strong&gt;. &lt;em&gt;Sans internet&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id="pourquoi-"&gt;Pourquoi ?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Je prends une pause&lt;/strong&gt;. J’ai besoin de temps pour me concentrer sur des activités hors-ligne. J’ai passé plus de 15 ans à arpenter les internets. Construire une réputation, travailler sur des projets open source, donner des conseils &amp;amp; prendre soin du web en général. &lt;em&gt;Je ne regrette rien&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Je vais fêter mes 30 ans – probablement en Bolivie – loin de ma famille et mes amis, et j’ai besoin de faire le point avant d’attaquer les 10 prochaines années. Appendre à &lt;strong&gt;ignorer les choses qui font perdre du temps&lt;/strong&gt;. Ne plus m’investir dans des projets web avec des clients &lt;del&gt;de merde&lt;/del&gt; pas aussi attentionnés que moi.&lt;/p&gt;
+
+&lt;p&gt;Pour être honnête j’ai du mal à mettre en pause mon activité en ligne (autrement dit travail). Comment vais–je gérer mes emails ? Twitter ? mon blog ? maîtriser ReactJS ? …&lt;/p&gt;
+
+&lt;p&gt;Pendant ce temps là, &lt;em&gt;la terre ne s’arrêtera pas de tourner&lt;/em&gt;, et je ne vais pas changer le monde. C’est pourquoi je vais &lt;strong&gt;me forcer à être hors ligne&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id="apprendre"&gt;Apprendre&lt;/h2&gt;
+
+&lt;p&gt;Maîtriser &amp;amp; evangeliser sur le web en général est l’&lt;a href="/blog/365-jours-de-code.html"&gt;un de mes principaux passe temps&lt;/a&gt;.
+Devenir expert est une chose importante pour moi &amp;amp; je pense avoir réussi :) …&lt;/p&gt;
+
+&lt;p&gt;Cela ne veut pas dire que je vais arrêter d’&lt;strong&gt;améliorer mes compétences&lt;/strong&gt;, mais je ne peux pas imaginer passer ma vie derrière un écran ces 10 prochaines années.&lt;/p&gt;
+
+&lt;p&gt;Pendant ces 4 mois, je vais apprendre de nouvelles choses. Des choses qui ne sont pas pertinentes pour ma carrière et qui ne permettront pas d’être meilleur dans l’écriture de code. Je vais apprendre la base de l’espagnol, améliorer mes &lt;strong&gt;compétences de sketchnoting&lt;/strong&gt; de l’extrème &amp;amp; la &lt;strong&gt;pratique du trekking en haute altitude&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id="pourquoi-lamrique-du-sud-"&gt;Pourquoi l’Amérique du sud ?&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Aucune idée&lt;/em&gt;. 4 mois de trekking sur la cordillère des Andes me semble être une très bonne activité. Mon objectif est de traverser 4 pays : &lt;strong&gt;Pérou&lt;/strong&gt;, &lt;strong&gt;Bolivie&lt;/strong&gt;, &lt;strong&gt;Argentine&lt;/strong&gt; &amp;amp; &lt;strong&gt;Chili&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="trip off the grid in america" src="https://c2.staticflickr.com/6/5669/21809855829_ca0e468e5b_z.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Je ne connais absolument rien de cette culture — à part mes souvenirs de Tintin &amp;amp; Le Temple du Soleil — mais j’ai envie de voir ma réaction face à l’inconnu total.&lt;/p&gt;
+
+&lt;p&gt;Si vous me connaissez, vous savez que je vis dans beaucoups d’endroits différents. N’ayant pas de réel “foyer”, je ne suis donc chez moi nulle part. Dans ce cas là, autant installer son chez soi partout et voyager 4 mois me permettra de me rendre compte ce qui est essentiel &amp;amp; ignorer tout le reste.&lt;/p&gt;
+
+&lt;p&gt;J’ai envie de soleil. J’ai envie d’être surpis. J’ai envie de me perde.&lt;/p&gt;
+
+&lt;h2 id="et-aprs-"&gt;Et après ?&lt;/h2&gt;
+
+&lt;p&gt;J’ai arrêté de faire plusieurs plans en même temps. Ma prochaine “boucle” est de prendre l’avion. Cela me demandera un peu de temps pour me tenir à jours du nouveau framework JavaScript à maîtriser – je prends les paris pour &lt;a href="http://vuejs.org/"&gt;vue.js&lt;/a&gt; –, dépiler mes news / emails / twitter …&lt;/p&gt;
+
+&lt;p&gt;Même si 4 mois est une courte période, j’espère que vous m’attendrez patiemment.
+À mon retour, je serai un peu plus vieux, un peu plus sage, mais &lt;em&gt;heureux de vous retrouver&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Je suis en ligne pour encore 1 mois. &lt;strong&gt;Si vous avez quelque chose à vérifier&lt;/strong&gt; avant mon départ, n’hésitez &lt;a href="/contact.html"&gt;pas à me contacter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On se voit dans 4 mois !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;En attendant mon retour, suivez mon périple sur &lt;a href="http://tripoffthegrid.tumblr.com/"&gt;tripoffthegrid&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Ateliers Paris Web 2015 : accessibilité, design numérique &amp; standards ouverts</title>
+    <link rel="alternate" href="http://davidl.fr/blog/paris-web-2015.html"/>
+    <id>http://davidl.fr/blog/paris-web-2015.html</id>
+    <published>2015-10-03T00:00:00+02:00</published>
+    <updated>2015-10-06T17:58:46+02:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;1 an déjà depuis l’&lt;a href="/blog/paris-web-2014.html"&gt;édition 2014 des ateliers Paris Web&lt;/a&gt;. Cette année le nord était présent en force représenté par &lt;a href="https://twitter.com/rbwebdev"&gt;@rbwebdev&lt;/a&gt;, &lt;a href="https://twitter.com/lellexindo"&gt;@lellexindo&lt;/a&gt;, &lt;a href="https://twitter.com/kevinthenard"&gt;@kevinthenard&lt;/a&gt;, &lt;a href="https://twitter.com/nfroidure"&gt;@nfroidure&lt;/a&gt;,&lt;a href="https://twitter.com/hteumeuleu"&gt;@hteumeuleu&lt;/a&gt;, &lt;a href="https://twitter.com/JbPionnier"&gt;@JbPionnier&lt;/a&gt; &amp;amp; moi même.&lt;/p&gt;
+
+&lt;p&gt;Voici mon retour sur les 3 ateliers auquels j’ai participé sur les thèmes du design le matin, et une session de code l’après–midi.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="speed-test wifi paris web" src="https://c2.staticflickr.com/6/5665/21753471709_a3d833ae44_n.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pas mal le speed test du wifi&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id="le-prototypage-rapide"&gt;Le prototypage rapide&lt;/h2&gt;
+
+&lt;p&gt;Notre &lt;strong&gt;principal problème&lt;/strong&gt; dans l'industrie du web est &lt;em&gt;notre héritage de l’ingénierie classique&lt;/em&gt;. Wireframes, maquettes &amp;amp; dévelopements s’enchaînent en effet de sylos, sans communication entre les équipes ni tests car :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Changer d’avis coûte cher&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Il y a pourtant &lt;strong&gt;énormément de valeur à prototyper&lt;/strong&gt;, cela permet de &lt;em&gt;confronter nos idées avec le monde réel&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Sketchnoting paris web par David leuliette" src="https://c2.staticflickr.com/6/5711/21317900884_1e639e97b6.jpg" /&gt;
+&lt;img alt="Sketchnoting paris web par David leuliette" src="https://c1.staticflickr.com/1/670/21916731711_e972e11c51.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Après sa présentation &lt;a href="https://twitter.com/louije"&gt;Louis&lt;/a&gt; nous a demandé de &lt;strong&gt;réaliser le prototype papier&lt;/strong&gt; de notre prochaine application en suivant la logique de &lt;a href="https://www.gv.com/lib/the-product-design-sprint-divergeday2"&gt;design sprint inspirée par Google&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="paris web prototypage papier d’une application" src="https://c2.staticflickr.com/6/5661/21950384401_0c7c743b28_c.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;SOSHERO la première application de géolocalisation de superhéro, avec un batsignal intégré&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id="initiation--la-facilitation-graphique"&gt;Initiation à la facilitation graphique&lt;/h2&gt;
+
+&lt;p&gt;Merci &lt;a href="http://twitter.com/romaincouturier"&gt;Romain&lt;/a&gt;, grâce à toi je connais enfin la &lt;em&gt;traduction française pour sketchnoting&lt;/em&gt; :)&lt;/p&gt;
+
+&lt;p&gt;Cet atelier – avec 100 participants ! – présentait les bases de la falicitation graphique en 3 parties :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dessiner à partir des &lt;strong&gt;formes de base&lt;/strong&gt; : point, trait, carré, triangle &amp;amp; rond.&lt;/li&gt;
+  &lt;li&gt;Créer une &lt;strong&gt;bibliothèque d’icônes&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Le jeu du moulin à parole par binôme&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt="Sketchnoting paris web par David leuliette la faliciation graphique 2" src="https://c2.staticflickr.com/6/5765/21317901964_21d99f768a.jpg" /&gt;
+&lt;img alt="Sketchnoting paris web par David leuliette la faliciation graphique 1" src="https://c2.staticflickr.com/6/5709/21288000583_08b39473b7.jpg" /&gt;&lt;/p&gt;
+
+&lt;h2 id="construire-sa-single-page-application-avec-reactjs-pouchdb--nodejs"&gt;Construire sa single page application avec reactJS, PouchDB &amp;amp; NodeJS&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/gelnior"&gt;Frank Rousseau&lt;/a&gt; – CTO chez CozyCloud – nous a présenté comment créer une single page application &amp;amp; la partager sur &lt;a href="https://www.npmjs.com/"&gt;NPM&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Single page application nodeJS, reactJS et PouchDB" src="https://c2.staticflickr.com/6/5714/21730003449_eca2842c8c_z.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Voici le &lt;code&gt;html&lt;/code&gt; de notre super application de gestionnaire de marque–pages :&lt;/p&gt;
+
+&lt;pre class="highlight html"&gt;&lt;code&gt;  &lt;span class="cp"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;meta&lt;/span&gt; &lt;span class="na"&gt;charset=&lt;/span&gt;&lt;span class="s"&gt;"utf-8"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;meta&lt;/span&gt; &lt;span class="na"&gt;http-equiv=&lt;/span&gt;&lt;span class="s"&gt;"X-UA-Compatible"&lt;/span&gt; &lt;span class="na"&gt;content=&lt;/span&gt;&lt;span class="s"&gt;"IE=edge"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;title&amp;gt;&lt;/span&gt;My bookmarks&lt;span class="nt"&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;link&lt;/span&gt; &lt;span class="na"&gt;rel=&lt;/span&gt;&lt;span class="s"&gt;"stylesheet"&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;"application.css"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;id=&lt;/span&gt;&lt;span class="s"&gt;"app"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+      Loading…
+    &lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;"browser-bundle.js"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;browser-bundle.js&lt;/code&gt; contient les sources de notre application compilées avec &lt;code&gt;npm start&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le code JavaScript &lt;code&gt;application.js&lt;/code&gt; se décompose de cette façon :&lt;/p&gt;
+
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;  &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Exemple de notre class pour notre &lt;a href="http://facebook.github.io/react/"&gt;application en ReactJS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;  &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;App&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createClass&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
+    &lt;span class="na"&gt;render&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;div&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;h1&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="nx"&gt;My&lt;/span&gt; &lt;span class="nx"&gt;Bookmark&lt;/span&gt; &lt;span class="nx"&gt;Application&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/h1&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;          &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;BookmarkList&lt;/span&gt; &lt;span class="nx"&gt;bookmarks&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;props&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;bookmarks&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/BookmarkList&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/div&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;      &lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notre composant bookmark.&lt;/p&gt;
+
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;  &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;Bookmark&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createClass&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
+    &lt;span class="na"&gt;onDeleteClicked&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="nx"&gt;bookmark&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;  &lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;props&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+      &lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;props&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;removeLine&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;bookmark&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+
+    &lt;span class="na"&gt;render&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;div&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;p&lt;/span&gt; &lt;span class="kr"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"title"&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;props&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;title&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/p&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;          &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;a&lt;/span&gt; &lt;span class="nx"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"{this.props.title}"&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;props&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;link&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/a&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;          &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;button&lt;/span&gt; &lt;span class="nx"&gt;onClick&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;onDeleteClicked&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="nx"&gt;X&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/button&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/div&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
+&lt;/span&gt;      &lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;L’application est injectée dans le &lt;code&gt;DOM&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;  &lt;span class="nx"&gt;React&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;render&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;App&lt;/span&gt; &lt;span class="nx"&gt;bookmarks&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;bookmarks&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/App&amp;gt;, document.getElementById&lt;/span&gt;&lt;span class="se"&gt;(&lt;/span&gt;&lt;span class="sr"&gt;'app'&lt;/span&gt;&lt;span class="se"&gt;))&lt;/span&gt;&lt;span class="err"&gt;;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Le résultat final est &lt;a href="https://www.npmjs.com/package/my-bookmarks"&gt;disponible sur npm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai trouvé très interessant l’utilisation de PouchDB – une Base de donnée en JavaSCript – qui permet d’avoir une logique de développement offline first.&lt;/p&gt;
+
+&lt;p&gt;Encore merci aux équipes de Paris web pour cette 10ème édition au top ! Vous êtes formidables.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>1 an de code en chiffre : 500h, expert Ruby Slim &amp; Sass</title>
+    <link rel="alternate" href="http://davidl.fr/blog/365-jours-de-code.html"/>
+    <id>http://davidl.fr/blog/365-jours-de-code.html</id>
+    <published>2015-09-21T00:00:00+02:00</published>
+    <updated>2015-09-24T22:14:33+02:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;Cela fait 365 jours que j’utilise &lt;a href="http://www.codeivate.com"&gt;Codeivate&lt;/a&gt; avec Sublime Text. Ce plugin – utilisé avec n’importe quel éditeur de texte ou IDE – &lt;strong&gt;analyse en temps réel&lt;/strong&gt; le type de fichier sur lequel vous travaillez, et permet d’&lt;em&gt;extraire différentes statistiques&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Plus vous codez, plus vous gagnez de points&lt;/strong&gt; (je suis actellement niveau 20). Grâce à Codeivate j’ai appris à mieux connaître mes langages de prédilection &amp;amp; les moments de la journée les plus productifs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Moment les plus productifs de ma journée" src="https://c2.staticflickr.com/6/5780/21051548453_ca5b635709_c.jpg" /&gt;&lt;/p&gt;
+
+&lt;h2 id="heures-de-code"&gt;500 heures de code&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;365 jours&lt;/strong&gt;, le plugin se déclenche seulement quand vous utilisez votre éditeur de texte. Si l’on considère une journée classique de travail de 8 heures cela donne (365 jours * 8 heures) / 500 heures = &lt;strong&gt;5,84 heures de code par jour&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1247 branches&lt;/strong&gt;, j’utilise la logique de branches pour &lt;a href="http://nvie.com/posts/a-successful-git-branching-model/"&gt;travailler efficacement avec Git&lt;/a&gt;. Je passe en moyenne (500h * 60 minutes) / 1247 branches = &lt;strong&gt;24 minutes par feature&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1 heure 9 minutes&lt;/strong&gt;, c’est ma &lt;strong&gt;meilleure série sans interruption&lt;/strong&gt;. Je n’ai pas investigué au bout de combien de temps le compteur s’arrête, mais je pense que lire de la documentation – même 5 minutes – coupe le timeur.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rating Novice&lt;/strong&gt;, en suivant la logique du livre &lt;a href="http://www.amazon.fr/gp/product/0316017930/ref=as_li_tl?ie=UTF8&amp;amp;camp=1642&amp;amp;creative=19458&amp;amp;creativeASIN=0316017930&amp;amp;linkCode=as2&amp;amp;tag=davidl-21"&gt;Outliers : The Story of Success&lt;/a&gt;&lt;img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&amp;amp;l=as2&amp;amp;o=8&amp;amp;a=0316017930" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;, il faut 10 000 heures pour être expert dans un domaine. En suivant le même rythme, devenir &lt;strong&gt;expert développeur front-end&lt;/strong&gt; demande 20 années de travail.&lt;/p&gt;
+
+&lt;h3 id="langages-majeurs"&gt;Langages majeurs&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Ruby Slim&lt;/strong&gt; &lt;em&gt;Level 8&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;J’utilise le &lt;a href="http://slim-lang.com/"&gt;langage de templating slim&lt;/a&gt; pour gagner du temps car la syntaxe HTML est réduite au maximum (tout comme &lt;a href="http://jade-lang.com/"&gt;Jade en NodeJS&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sass&lt;/strong&gt; &lt;em&gt;Level 8&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour avoir un design maintenable et évolutif, j’utilise &lt;a href="http://sass-lang.com/"&gt;Sass&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; &lt;em&gt;Level 3&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour gérer les documents de type texte, j’écris TOUT en markdown. Si l’on vous demande d’en faire un beau document il est toujours possible de l’&lt;a href="http://www.markdowntopdf.com/"&gt;exporter en .pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="langages-mineurs"&gt;Langages mineurs&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;YAML&lt;/strong&gt; &lt;em&gt;Level 2&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;J’applique le principe de &lt;a href="https://fr.wikipedia.org/wiki/Point_individuel_de_d%C3%A9faillance"&gt;single point of failure&lt;/a&gt; pour gérer certaines informations comme les identifiants &amp;amp; mot de passe, la localisation, les media sociaux…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; &lt;em&gt;Level 2&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;J’utilise quotidiennement ce langage. Force est de constater que je n’en code pas tant que ça, peut être parce que – dans certains cas – Angular élimine complètement le besoin d’écrire du JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ruby&lt;/strong&gt; &lt;em&gt;Level 0&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Je ne me ballade jamais dans les controlleurs ou les modèles, mais il m’arrive de créer mes propres &lt;code&gt;helpers&lt;/code&gt; en ruby.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Image d’analyse de 1 an de code" src="https://c2.staticflickr.com/6/5630/21672508645_b950fb561b_o.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez consulter la liste complète sur &lt;a href="http://www.codeivate.com/users/flexbox/"&gt;mon profil Codeivate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="ordinateurs"&gt;5 ordinateurs&lt;/h2&gt;
+
+&lt;p&gt;Une statistique interessante est le nombre de machines utilisées. En 1 an j’ai travaillé sur 5 ordinateurs différents, principalement sur OSX et un peu de Linux. Si l’on prend en compte le temps d’un setup complet d’une nouvelle machine de devéloppeur front-end cela donne environ (2 jours x 5 machines) &lt;strong&gt;40 heures d’installation&lt;/strong&gt;, soit une semaine de travail à &lt;em&gt;regarder des barres de chargement&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;C’est pour cette raison que j’utilise des solutions comme &lt;a href="https://github.com/blog/1345-introducing-boxen"&gt;Boxen de GitHub&lt;/a&gt; ou encore &lt;a href="https://robots.thoughtbot.com/laptop-setup-for-an-awesome-development-environment"&gt;Laptop de Thoughtbot&lt;/a&gt;. Si vous souhaitez être efficace dans votre travail il est – à mon avis – indispensable d’automatiser ce processus pour pouvoir être efficace.&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ZPjjiR4paVY" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Whatever you do, make sure you are &lt;strong&gt;automating&lt;/strong&gt;, because if you aren’t, all you are doing is making it harder for yourself when you revisit the &lt;strong&gt;problem&lt;/strong&gt;, and making it even harder for the next &lt;strong&gt;person&lt;/strong&gt; who will inevitably have to &lt;strong&gt;reproduce&lt;/strong&gt; your &lt;strong&gt;solution&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Sass truncate mixin pour ajouter ... à vos textes</title>
+    <link rel="alternate" href="http://davidl.fr/blog/truncate.html"/>
+    <id>http://davidl.fr/blog/truncate.html</id>
+    <published>2015-08-26T00:00:00+02:00</published>
+    <updated>2015-09-04T11:57:34+02:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;Il m’arrive souvent de rencontrer ce problème : un titre trop long passe sur plusieurs lignes ce qui casse la mise en page. Il est possible de &lt;a href="http://apidock.com/rails/String/truncate"&gt;tronquer le texte après une ceraine taille&lt;/a&gt; dans un framework comme rails, mais le texte n’est plus indexable.&lt;/p&gt;
+
+&lt;p&gt;La solution est d’utiliser du CSS. Voici un exemple de &lt;code&gt;mixin&lt;/code&gt; Sass réutilisable :&lt;/p&gt;
+
+&lt;pre class="highlight scss"&gt;&lt;code&gt;  &lt;span class="k"&gt;@mixin&lt;/span&gt; &lt;span class="nf"&gt;truncate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$width&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;100%&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nv"&gt;$width&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;overflow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;hidden&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;text-overflow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;ellipsis&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;white-space&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;nowrap&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="utilisation"&gt;Utilisation&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Sass&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class="highlight scss"&gt;&lt;code&gt;  &lt;span class="nc"&gt;.card&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;&amp;amp;&lt;/span&gt;&lt;span class="nt"&gt;-title&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="k"&gt;@include&lt;/span&gt; &lt;span class="nd"&gt;truncate&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class="highlight css"&gt;&lt;code&gt;  &lt;span class="nc"&gt;.card-title&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;100%&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;overflow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;hidden&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;text-overflow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;ellipsis&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;white-space&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;nowrap&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="dmonstration"&gt;Démonstration&lt;/h2&gt;
+
+&lt;p&gt;Voici un exemple avant / après&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Truncate mixin sass exemple" src="https://lh3.googleusercontent.com/CcvmerZO3gO0yR4hsad7IcX3p0vfP39ma0Hbu092nEo=w615-h289-no" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Protip :&lt;/strong&gt; Il est possible de changer la taille directement avec &lt;code&gt;@include truncate(50%);&lt;/code&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Font, prototype &amp; wireframe</title>
+    <link rel="alternate" href="http://davidl.fr/blog/wireframe-font.html"/>
+    <id>http://davidl.fr/blog/wireframe-font.html</id>
+    <published>2015-07-20T00:00:00+02:00</published>
+    <updated>2015-07-30T10:51:04+02:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;J’ai souvent rencontré ces problèmes lors de la création de nouveaux projets. Je me suis rendu compte que je perdais énormément de temps pour des choses qui n’avaient pas de valeur, et c’était entièrement de ma faute. J’ai donné le choix au client pour quelque chose qui est &lt;a href="https://fr.wikipedia.org/wiki/Tesseract"&gt;difficile à comprendre et à visualiser&lt;/a&gt; : valider une mise en page responsive.&lt;/p&gt;
+
+&lt;p&gt;Généralement le workflow est le suivant :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Travailler dur pour mettre en place les idées du client, avec une mise en page originale de maquette statique.&lt;/li&gt;
+  &lt;li&gt;Créer des pages — sans contenu — avec du lorem ipsum.&lt;/li&gt;
+  &lt;li&gt;Envoyer un concept initial au client avec des arguments expliquant pourquoi la proposition n’était pas réalisable.&lt;/li&gt;
+  &lt;li&gt;Recevoir un email de retour sans commentaire constructif excepté ce n’est pas le bon contenu, pourquoi le texte est en latin, cela n’a aucun rapport avec mon produit…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tout ces échanges par email font &lt;strong&gt;perdre du temps à tout le monde&lt;/strong&gt; et &lt;a href="http://davidl.fr/clients.html"&gt;gérer les retours clients&lt;/a&gt; devient très vite chronophage.&lt;/p&gt;
+
+&lt;h2 id="solution"&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/christiannaths/Redacted-Font"&gt;Redacted Font&lt;/a&gt; masque le texte en blocs d’informations. Les informations sont illisibles mais cela permet d’imaginer la future mise en page sans se soucier du contenu.&lt;/p&gt;
+
+&lt;p&gt;Voici un exemple :&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Wireframe &amp;amp; prototype font" src="https://lh3.googleusercontent.com/p0jihJlrzMUQkGV5kPGvV3e0tPzwvxfrq15G4ylsYkE=w2168-h1514-no" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Redacted font sur une homepage&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Le principal avantage de cette solution est de tester votre mise en page à l’endroit où vous devez prendre vos décisions de design : &lt;strong&gt;dans un navigateur web&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id="mise-en-place"&gt;Mise en place&lt;/h2&gt;
+
+&lt;p&gt;Vous souhaitez utiliser Redacted Font ? Vous devez ajouter les polices de caractères à votre projet. Ajoutez aussi ces déclarations dans votre feuille de style :&lt;/p&gt;
+
+&lt;pre class="highlight css"&gt;&lt;code&gt;  &lt;span class="k"&gt;@font-face&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;"Redacted"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;src&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="sx"&gt;url("redacted-font/fonts/web/redacted-regular.eot")&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;src&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="sx"&gt;url("redacted-font/fonts/web/redacted-regular.woff2")&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;"woff2"&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+         &lt;span class="sx"&gt;url("redacted-font/fonts/web/redacted-regular.woff")&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;"woff"&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+         &lt;span class="sx"&gt;url("redacted-font/fonts/web/redacted-regular.otf")&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;"opentype"&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+         &lt;span class="sx"&gt;url("redacted-font/fonts/web/redacted-regular.svg#filename")&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;"svg"&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Une fois que votre police est disponible, vous pouvez l’utiliser pour remplacer votre texte afin de valider votre mise en page :&lt;/p&gt;
+
+&lt;pre class="highlight css"&gt;&lt;code&gt;  &lt;span class="nc"&gt;.prototype&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;"Redacted"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;#999&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+
+  &lt;span class="nc"&gt;.prototype-script&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;"Redacted Script"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;#999&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Redacted Font possède des variations comme Regular, Script, et Bold Script qui fonctionnent dans différentes tailles.&lt;/p&gt;
+
+&lt;h2 id="exemple"&gt;Exemple&lt;/h2&gt;
+
+&lt;p&gt;Si vous souhaitez tester la mise en page de votre site, vous devez le faire dans un navigateur. Créer une maquette fixe pour un contenu fluide &amp;amp; responsive n’a pas de sens.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://flexbox.github.io/foundation-boilerplate/templates/homepage.html" class="button"&gt;Démonstration&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;En utilisant cette solution dès aujourd’hui &lt;strong&gt;vous gagnerez un temps considérable&lt;/strong&gt; en évitant les commentaires inutiles. Redacted Font vous permet de créer des prototypes qui représentent l’espace réel, sans les problèmes de “faux contenu”.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

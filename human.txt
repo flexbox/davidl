@@ -1,0 +1,56 @@
+
+ ___  ___  _ _  _  ___  _
+| . \| . || | || || . \| |
+| | ||   || ' || || | || |_
+|___/|_|_||__/ |_||___/|___|
+
+    Code a la main depuis 2013
+
+    Humans TXT: Nous Sommes Des Humains, Pas Des Machines
+
+_______________________________________________________________________________
+
+TEAM
+
+Ce site est code a la main par David Leuliette.
+Developpeur front-end
+http://davidl.fr/about.html
+
+_______________________________________________________________________________
+
+TECHNOLOGIE
+
+Middleman
+http://middlemanapp.com/
+
+Foundation
+http://foundation.zurb.com/
+
+SASS
+http://sass-lang.com/
+
+Github
+https://github.com/
+
+_______________________________________________________________________________
+
+RESSOURCES GRAPHIQUES
+
+Droid Serif (font)
+http://www.google.com/fonts/specimen/Droid+Serif
+
+Lato (font)
+http://www.google.com/fonts/specimen/Lato
+
+Font Awesome (icons)
+http://fontawesome.io/
+
+Atom Logo
+http://commons.wikimedia.org/wiki/File:Atom_editor_logo.svg
+_______________________________________________________________________________
+
+PHOTOGRAPHIES
+
+Photos libres de droits
+http://www.raumrot.com/10/
+http://www.pexels.com/
