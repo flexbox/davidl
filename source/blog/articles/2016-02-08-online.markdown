@@ -2,7 +2,7 @@
 date: 2016-02-08
 slug: online
 title: "I AM BACK"
-description: "Voici la liste des choses que j’ai visité / réalisé au Pérou, en Bolivie et au Chili"
+description: "Voici la liste des choses que j’ai visité / réalisées au Pérou, en Bolivie et au Chili"
 image: https://c2.staticflickr.com/2/1582/24352983683_5de2121d97_b.jpg
 page_title: New achievement unlocked
 page_emphasis: Retour après 100 jours de voyage <em>sans ordinateur</em>
@@ -10,9 +10,9 @@ changefreq: monthly
 priority: 0.5
 ---
 
-Bonjour à tous ! Aujourd’hui j’écris un article qui ne parlera pas d’__intégration web__ ou de __développement front-end__ (rassurez vous j’y travaille). Dans cet article je vais présenter de façon non-exhaustive les différentes activitées que j’ai réalisé pendant mon voyage en Amérique du Sud.
+Bonjour à tous ! Aujourd’hui j’écris un article qui ne parlera pas d’__intégration web__ ou de __développement front-end__ (rassurez vous j’y travaille). Dans cet article je vais présenter de façon non-exhaustive les différentes activitées que j’ai réalisées pendant mon voyage en Amérique du Sud.
 
-En tant que créatif, j’ai réalisé de nombreux __sketchnoting__ de l’extrême pour présenter mon voyage, tout est [disponible dans un album FlickR](https://www.flickr.com/photos/geekgrunge/albums/72157663947436340). Pour terminer, j’ai fait un peu de veille en écoutant des podcast pendant les trajets de bus. N’hésitez pas à me dire si j’ai raison pour mes prédictions, je n’ai pas pu vérifier toutes les informations.
+En tant que créatif, j’ai réalisé de nombreux __sketchnoting__ de l’extrême pour présenter mon voyage, tout est [disponible dans un album FlickR](https://www.flickr.com/photos/geekgrunge/albums/72157663947436340). Pour terminer, j’ai fait un peu de veille en écoutant des podcasts pendant les trajets de bus. N’hésitez pas à me dire si j’ai raison pour mes prédictions, je n’ai pas pu vérifier toutes les informations.
 
 __Pour mes amis Lillois__ : Je compte organiser une soirée de retour _#stayTuned_
 
@@ -37,7 +37,7 @@ J’ai eu le temps de réaliser des choses incroyables, si les voyages en sac à
 - Réveil 4h, monter le Macchu Picchu + la Montaña dans la brume, tout redescendre, marcher le long de la voie ferrée, revenir à Cuzco, aller en discothèque, couché 4h du matin
 - Traverser la ville de __Iquique en parapente__
 - Assister à une [compétition internationale de bodyboard](https://www.isasurf.org/events/isa-world-bodyboard-championship/)
-- Se ballader dans le champ de geysers El tatio (les plus haut du monde)
+- Se ballader dans le champ de geysers El tatio (les plus hauts du monde)
 - Observer les étoiles avec un téléscope dans le __désert d’Atacama__
 - Se perdre dans la ville labyrinthe de [Valparaiso](http://www.routard.com/guide_voyage_lieu/3484-valparaiso.htm)
 - BA du voyage : éviter à une amie de se faire voler son sac
@@ -71,7 +71,7 @@ _— [Voir tous mes sketchnotes dans un album FlickR](https://www.flickr.com/pho
 
 Dans mon [précédent article](http://davidl.fr/blog/offthegrid.html) je me posais quelques questions : comment vais–je gérer mes emails ? Twitter ? mon blog ? maîtriser ReactJS ? … J'ai commencé par me désabonner de mes [newsletters sur développement & le design](http://davidl.fr/newsletter.html) et ensuite je n’avais plus accès à internet… Problème résolu !
 
-Ma principale préoccupation était d’__apprendre à parler espagnol__ et comme en Bolivie la qualité du réseau et médiocre :
+Ma principale préoccupation était d’__apprendre à parler espagnol__ et comme en Bolivie la qualité du réseau est médiocre :
 
 > No hay aquì wifi
 >
