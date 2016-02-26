@@ -5,22 +5,105 @@
   <id>http://davidl.fr/blog/</id>
   <link href="http://davidl.fr/blog/"/>
   <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2016-02-08T00:00:00+01:00</updated>
+  <updated>2016-02-14T00:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>Devenir intégrateur web en 6 mois</title>
+    <link rel="alternate" href="http://davidl.fr/blog/openclassroom-integrateur-web.html"/>
+    <id>http://davidl.fr/blog/openclassroom-integrateur-web.html</id>
+    <published>2016-02-14T00:00:00+01:00</published>
+    <updated>2016-02-26T16:28:20+01:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;Dans la vie de tous les jours, je reçois régulièrement des &lt;a href="/blog/metier-integrateur-web.html"&gt;questions sur mon parcours&lt;/a&gt;, quelles études ais-je suivies, l'intégration web à quoi ça sert ? Dans ce projet, le CSS c’est le chaos, apparement il y a une personne qui à demandé à une autre de gérer la chose, HTML pfff c’est trop facile (selon moi, c’est &lt;a href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5"&gt;FAUX !&lt;/a&gt;)…&lt;/p&gt;
+
+&lt;p&gt;Derrière toutes ces questions il existe un vrai métier à part entière : &lt;strong&gt;intégrateur web&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="developpeur front-end" src="https://c2.staticflickr.com/2/1548/25157237442_ef95ec52e2_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;— Sublime Text est mon meilleur ami&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;En tant qu’&lt;a href="/cv.html"&gt;autodidacte&lt;/a&gt;, j’ai appris mon métier au cours de mes &lt;a href="/books.html"&gt;nombreuses lectures&lt;/a&gt; et de mes &lt;a href="/projects.html"&gt;projets open-source&lt;/a&gt;. &lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&amp;amp;site=13881&amp;amp;type=text&amp;amp;tnb=5"&gt;OpenClassrooms&lt;/a&gt; (Le site d’apprentissage communautaire) vous facilite le travail &amp;amp; propose cette philosophie avec son parcours pour devenir &lt;strong&gt;intégrateur web&lt;/strong&gt;. Vidéos de cours &amp;amp; exercices sont &lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&amp;amp;site=13881&amp;amp;type=text&amp;amp;tnb=5"&gt;disponible sur le site&lt;/a&gt; et leur organisation vous permettra d’obtenir progressivement de solides bases pour comprendre HTML, CSS, responsive, Bootstrap, git, Wordpress…&lt;/p&gt;
+
+&lt;h2 id="programme-de-formation"&gt;Programme de formation&lt;/h2&gt;
+
+&lt;p&gt;La formation d’&lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&amp;amp;site=13881&amp;amp;type=text&amp;amp;tnb=5"&gt;OpenClassrooms&lt;/a&gt; est interessante car elle est basée sur une vraie démarche projet avec des documents comme &lt;em&gt;des maquettes graphiques&lt;/em&gt; ou encore le fameux &lt;em&gt;cahier des charges&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;L’objectif est de réaliser les &lt;strong&gt;12 cours&lt;/strong&gt; — de 5 à 30 heures — &lt;strong&gt;en 6 mois&lt;/strong&gt; (Personnelement j’ai mis environ 1 an quand je me suis formé en autodidacte en lisant des livres) :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Un peu de culture générale web (Car tout le monde ne connait pas la &lt;a href="http://davidl.fr/blog/esprit-web.html"&gt;différence entre les internets et le web&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Coder un &lt;strong&gt;site web responsive&lt;/strong&gt; avec HTML &amp;amp; CSS&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Mettre en ligne votre &lt;strong&gt;portfolio&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Prise en main du framework &lt;a href="https://github.com/twbs/bootstrap"&gt;Bootstrap&lt;/a&gt; (avec bientôt 100 000 stars sur GitHub)&lt;/li&gt;
+  &lt;li&gt;Gérer le futur comme Doc et Marty Mac fly grâce à &lt;strong&gt;git&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Votre premier site complet avec &lt;strong&gt;Bootstap&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Intégrer un &lt;strong&gt;thème Wordpress&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Donner vie à une maquette statique&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Rencontrer et client et &lt;strong&gt;concevoir un site vitrine&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Aidez la communauté en proposant votre aide ou en publiant des &lt;a href="http://davidl.fr/projects.html"&gt;outils open source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="m-panel"&gt;
+  &lt;p class="lead"&gt;
+  &lt;strong&gt;Plus d’informations sur le parcours ?&lt;/strong&gt;
+  &lt;br /&gt;
+  &lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&amp;amp;site=13881&amp;amp;type=text&amp;amp;tnb=5"&gt;Consultez la formation intégrateur web&lt;/a&gt; sur le site d’OpenClassrooms.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id="dbouchs"&gt;Débouchés&lt;/h2&gt;
+
+&lt;p&gt;En ce début de XXIème siècle, l'intégrateur web est la collone vertébrale d’un projet web. Tout le monde viendra demander son aide :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Le &lt;strong&gt;designer&lt;/strong&gt; souhaite un bouton qui a du swag&lt;/li&gt;
+  &lt;li&gt;Le &lt;strong&gt;chef de projet&lt;/strong&gt; souhaite changer les textes&lt;/li&gt;
+  &lt;li&gt;Le &lt;strong&gt;développeur&lt;/strong&gt; en a marre de bidouiller du css&lt;/li&gt;
+  &lt;li&gt;Le &lt;strong&gt;consulatant SEO&lt;/strong&gt; veut ses balises rich snippets&lt;/li&gt;
+  &lt;li&gt;Le &lt;strong&gt;client&lt;/strong&gt; veut ses &lt;del&gt;fuck$ng&lt;/del&gt; boutons de réseaux sociaux&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;À la suite de cette formation certifiante vous pourrez postuler pour les métiers suivants :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Administrateur de sites web&lt;/li&gt;
+  &lt;li&gt;Concepteur de sites web&lt;/li&gt;
+  &lt;li&gt;Développeur web (Avec des connaissances en &lt;a href="http://www.alticreation.com/difference-developpeur-front-end-et-developpeur-back-end/"&gt;backend&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Intégrateur Web&lt;/li&gt;
+  &lt;li&gt;Responsable Internet&lt;/li&gt;
+  &lt;li&gt;Webmaster&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="bonus--bnficiez-dun-coach-personnel"&gt;Bonus : bénéficiez d’un coach personnel&lt;/h3&gt;
+
+&lt;p&gt;Si vous ne souhaitez pas vous lancer seul, faites-vous accompagner et &lt;strong&gt;mentorer par un professeur particulier&lt;/strong&gt; en &lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&amp;amp;site=13881&amp;amp;type=text&amp;amp;tnb=5"&gt;devenant Premium Plus&lt;/a&gt; !&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;* Les liens ci-dessus sont des liens d’affiliation vers OpenClassroom. Si vos cookies sont activés cela nous permettra de toucher un petit pourcentage sur chaque vente. Cela vous permet d’aider davidl.fr sans que cela vous coûte plus cher. Merci de votre aide !&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+  </entry>
   <entry>
     <title>I AM BACK</title>
     <link rel="alternate" href="http://davidl.fr/blog/online.html"/>
     <id>http://davidl.fr/blog/online.html</id>
     <published>2016-02-08T00:00:00+01:00</published>
-    <updated>2016-02-14T21:51:55+01:00</updated>
+    <updated>2016-02-22T15:49:28+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
-    <content type="html">&lt;p&gt;Bonjour à tous ! Aujourd’hui j’écris un article qui ne parlera pas d’&lt;strong&gt;intégration web&lt;/strong&gt; ou de &lt;strong&gt;développement front-end&lt;/strong&gt; (rassurez vous j’y travaille). Dans cet article je vais présenter de façon non-exhaustive les différentes activitées que j’ai réalisé pendant mon voyage en Amérique du Sud.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Bonjour à tous ! Aujourd’hui j’écris un article qui ne parlera pas d’&lt;strong&gt;intégration web&lt;/strong&gt; ou de &lt;strong&gt;développement front-end&lt;/strong&gt; (rassurez vous j’y travaille). Dans cet article je vais présenter de façon non-exhaustive les différentes activitées que j’ai réalisées pendant mon voyage en Amérique du Sud.&lt;/p&gt;
 
-&lt;p&gt;En tant que créatif, j’ai réalisé de nombreux &lt;strong&gt;sketchnoting&lt;/strong&gt; de l’extrême pour présenter mon voyage, tout est &lt;a href="https://www.flickr.com/photos/geekgrunge/albums/72157663947436340"&gt;disponible dans un album FlickR&lt;/a&gt;. Pour terminer, j’ai fait un peu de veille en écoutant des podcast pendant les trajets de bus. N’hésitez pas à me dire si j’ai raison pour mes prédictions, je n’ai pas pu vérifier toutes les informations.&lt;/p&gt;
+&lt;p&gt;En tant que créatif, j’ai réalisé de nombreux &lt;strong&gt;sketchnoting&lt;/strong&gt; de l’extrême pour présenter mon voyage, tout est &lt;a href="https://www.flickr.com/photos/geekgrunge/albums/72157663947436340"&gt;disponible dans un album FlickR&lt;/a&gt;. Pour terminer, j’ai fait un peu de veille en écoutant des podcasts pendant les trajets de bus. N’hésitez pas à me dire si j’ai raison pour mes prédictions, je n’ai pas pu vérifier toutes les informations.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Pour mes amis Lillois&lt;/strong&gt; : Je compte organiser une soirée de retour &lt;em&gt;#stayTuned&lt;/em&gt;&lt;/p&gt;
 
@@ -46,7 +129,7 @@
   &lt;li&gt;Réveil 4h, monter le Macchu Picchu + la Montaña dans la brume, tout redescendre, marcher le long de la voie ferrée, revenir à Cuzco, aller en discothèque, couché 4h du matin&lt;/li&gt;
   &lt;li&gt;Traverser la ville de &lt;strong&gt;Iquique en parapente&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Assister à une &lt;a href="https://www.isasurf.org/events/isa-world-bodyboard-championship/"&gt;compétition internationale de bodyboard&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Se ballader dans le champ de geysers El tatio (les plus haut du monde)&lt;/li&gt;
+  &lt;li&gt;Se ballader dans le champ de geysers El tatio (les plus hauts du monde)&lt;/li&gt;
   &lt;li&gt;Observer les étoiles avec un téléscope dans le &lt;strong&gt;désert d’Atacama&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Se perdre dans la ville labyrinthe de &lt;a href="http://www.routard.com/guide_voyage_lieu/3484-valparaiso.htm"&gt;Valparaiso&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;BA du voyage : éviter à une amie de se faire voler son sac&lt;/li&gt;
@@ -81,7 +164,7 @@
 
 &lt;p&gt;Dans mon &lt;a href="http://davidl.fr/blog/offthegrid.html"&gt;précédent article&lt;/a&gt; je me posais quelques questions : comment vais–je gérer mes emails ? Twitter ? mon blog ? maîtriser ReactJS ? … J'ai commencé par me désabonner de mes &lt;a href="http://davidl.fr/newsletter.html"&gt;newsletters sur développement &amp;amp; le design&lt;/a&gt; et ensuite je n’avais plus accès à internet… Problème résolu !&lt;/p&gt;
 
-&lt;p&gt;Ma principale préoccupation était d’&lt;strong&gt;apprendre à parler espagnol&lt;/strong&gt; et comme en Bolivie la qualité du réseau et médiocre :&lt;/p&gt;
+&lt;p&gt;Ma principale préoccupation était d’&lt;strong&gt;apprendre à parler espagnol&lt;/strong&gt; et comme en Bolivie la qualité du réseau est médiocre :&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;No hay aquì wifi&lt;/p&gt;
@@ -421,78 +504,6 @@ Devenir expert est une chose importante pour moi &amp;amp; je pense avoir réuss
 &lt;p&gt;&lt;img alt="Truncate mixin sass exemple" src="https://lh3.googleusercontent.com/CcvmerZO3gO0yR4hsad7IcX3p0vfP39ma0Hbu092nEo=w615-h289-no" /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Protip :&lt;/strong&gt; Il est possible de changer la taille directement avec &lt;code&gt;@include truncate(50%);&lt;/code&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Font, prototype &amp; wireframe</title>
-    <link rel="alternate" href="http://davidl.fr/blog/wireframe-font.html"/>
-    <id>http://davidl.fr/blog/wireframe-font.html</id>
-    <published>2015-07-20T00:00:00+02:00</published>
-    <updated>2015-07-30T10:51:04+02:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;J’ai souvent rencontré ces problèmes lors de la création de nouveaux projets. Je me suis rendu compte que je perdais énormément de temps pour des choses qui n’avaient pas de valeur, et c’était entièrement de ma faute. J’ai donné le choix au client pour quelque chose qui est &lt;a href="https://fr.wikipedia.org/wiki/Tesseract"&gt;difficile à comprendre et à visualiser&lt;/a&gt; : valider une mise en page responsive.&lt;/p&gt;
-
-&lt;p&gt;Généralement le workflow est le suivant :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Travailler dur pour mettre en place les idées du client, avec une mise en page originale de maquette statique.&lt;/li&gt;
-  &lt;li&gt;Créer des pages — sans contenu — avec du lorem ipsum.&lt;/li&gt;
-  &lt;li&gt;Envoyer un concept initial au client avec des arguments expliquant pourquoi la proposition n’était pas réalisable.&lt;/li&gt;
-  &lt;li&gt;Recevoir un email de retour sans commentaire constructif excepté ce n’est pas le bon contenu, pourquoi le texte est en latin, cela n’a aucun rapport avec mon produit…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tout ces échanges par email font &lt;strong&gt;perdre du temps à tout le monde&lt;/strong&gt; et &lt;a href="http://davidl.fr/clients.html"&gt;gérer les retours clients&lt;/a&gt; devient très vite chronophage.&lt;/p&gt;
-
-&lt;h2 id="solution"&gt;Solution&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/christiannaths/Redacted-Font"&gt;Redacted Font&lt;/a&gt; masque le texte en blocs d’informations. Les informations sont illisibles mais cela permet d’imaginer la future mise en page sans se soucier du contenu.&lt;/p&gt;
-
-&lt;p&gt;Voici un exemple :&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Wireframe &amp;amp; prototype font" src="https://lh3.googleusercontent.com/p0jihJlrzMUQkGV5kPGvV3e0tPzwvxfrq15G4ylsYkE=w2168-h1514-no" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Redacted font sur une homepage&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Le principal avantage de cette solution est de tester votre mise en page à l’endroit où vous devez prendre vos décisions de design : &lt;strong&gt;dans un navigateur web&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id="mise-en-place"&gt;Mise en place&lt;/h2&gt;
-
-&lt;p&gt;Vous souhaitez utiliser Redacted Font ? Vous devez ajouter les polices de caractères à votre projet. Ajoutez aussi ces déclarations dans votre feuille de style :&lt;/p&gt;
-
-&lt;pre class="highlight css"&gt;&lt;code&gt;  &lt;span class="k"&gt;@font-face&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nl"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;"Redacted"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nl"&gt;src&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="sx"&gt;url("redacted-font/fonts/web/redacted-regular.eot")&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nl"&gt;src&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="sx"&gt;url("redacted-font/fonts/web/redacted-regular.woff2")&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;"woff2"&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
-         &lt;span class="sx"&gt;url("redacted-font/fonts/web/redacted-regular.woff")&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;"woff"&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
-         &lt;span class="sx"&gt;url("redacted-font/fonts/web/redacted-regular.otf")&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;"opentype"&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
-         &lt;span class="sx"&gt;url("redacted-font/fonts/web/redacted-regular.svg#filename")&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;"svg"&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Une fois que votre police est disponible, vous pouvez l’utiliser pour remplacer votre texte afin de valider votre mise en page :&lt;/p&gt;
-
-&lt;pre class="highlight css"&gt;&lt;code&gt;  &lt;span class="nc"&gt;.prototype&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nl"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;"Redacted"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;#999&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-
-  &lt;span class="nc"&gt;.prototype-script&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nl"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;"Redacted Script"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;#999&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Redacted Font possède des variations comme Regular, Script, et Bold Script qui fonctionnent dans différentes tailles.&lt;/p&gt;
-
-&lt;h2 id="exemple"&gt;Exemple&lt;/h2&gt;
-
-&lt;p&gt;Si vous souhaitez tester la mise en page de votre site, vous devez le faire dans un navigateur. Créer une maquette fixe pour un contenu fluide &amp;amp; responsive n’a pas de sens.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://flexbox.github.io/foundation-boilerplate/templates/homepage.html" class="button"&gt;Démonstration&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;En utilisant cette solution dès aujourd’hui &lt;strong&gt;vous gagnerez un temps considérable&lt;/strong&gt; en évitant les commentaires inutiles. Redacted Font vous permet de créer des prototypes qui représentent l’espace réel, sans les problèmes de “faux contenu”.&lt;/p&gt;
 </content>
   </entry>
 </feed>
