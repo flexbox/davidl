@@ -14,11 +14,11 @@
     <link rel="alternate" href="http://davidl.fr/blog/openclassroom-integrateur-web.html"/>
     <id>http://davidl.fr/blog/openclassroom-integrateur-web.html</id>
     <published>2016-02-14T00:00:00+01:00</published>
-    <updated>2016-02-26T16:50:55+01:00</updated>
+    <updated>2016-02-26T17:08:53+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
-    <content type="html">&lt;p&gt;Dans la vie de tous les jours, je reçois régulièrement des &lt;a href="/blog/metier-integrateur-web.html"&gt;questions sur mon parcours&lt;/a&gt;, quelles études ais-je suivies, l'intégration web à quoi ça sert ? Dans ce projet, le CSS c’est le chaos, apparement il y a une personne qui à demandé à une autre de gérer la chose, HTML pfff c’est trop facile (selon moi, c’est &lt;a href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5"&gt;FAUX !&lt;/a&gt;)…&lt;/p&gt;
+    <content type="html">&lt;p&gt;Dans la vie de tous les jours, je reçois régulièrement des &lt;a href="/blog/metier-integrateur-web.html"&gt;questions sur mon parcours&lt;/a&gt;, quelles études ais-je suivies, l'intégration web à quoi ça sert ? Dans ce projet, le CSS c’est le chaos, apparement il y a une personne qui a demandé à une autre de gérer la chose, HTML pfff c’est trop facile (selon moi, c’est &lt;a href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5"&gt;FAUX !&lt;/a&gt;)…&lt;/p&gt;
 
 &lt;p&gt;Derrière toutes ces questions il existe un vrai métier à part entière : &lt;strong&gt;intégrateur web&lt;/strong&gt;.&lt;/p&gt;
 
@@ -43,7 +43,7 @@
   &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Votre premier site complet avec &lt;strong&gt;Bootstap&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Intégrer un &lt;strong&gt;thème Wordpress&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Donner vie à une maquette statique&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Rencontrer et client et &lt;strong&gt;concevoir un site vitrine&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Rencontrer un client et &lt;strong&gt;concevoir un site vitrine&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Aidez la communauté en proposant votre aide ou en publiant des &lt;a href="http://davidl.fr/projects.html"&gt;outils open source&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -63,7 +63,7 @@
   &lt;li&gt;Le &lt;strong&gt;designer&lt;/strong&gt; souhaite un bouton qui a du swag&lt;/li&gt;
   &lt;li&gt;Le &lt;strong&gt;chef de projet&lt;/strong&gt; souhaite changer les textes&lt;/li&gt;
   &lt;li&gt;Le &lt;strong&gt;développeur&lt;/strong&gt; en a marre de bidouiller du css&lt;/li&gt;
-  &lt;li&gt;Le &lt;strong&gt;consulatant SEO&lt;/strong&gt; veut ses balises rich snippets&lt;/li&gt;
+  &lt;li&gt;Le &lt;strong&gt;consultant SEO&lt;/strong&gt; veut ses balises rich snippets&lt;/li&gt;
   &lt;li&gt;Le &lt;strong&gt;client&lt;/strong&gt; veut ses &lt;del&gt;fuck$ng&lt;/del&gt; boutons de réseaux sociaux&lt;/li&gt;
   &lt;li&gt;…&lt;/li&gt;
 &lt;/ul&gt;
