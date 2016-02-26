@@ -10,7 +10,7 @@ changefreq: monthly
 priority: 0.5
 ---
 
-Dans la vie de tous les jours, je reçois régulièrement des [questions sur mon parcours](/blog/metier-integrateur-web.html), quelles études ais-je suivies, l'intégration web à quoi ça sert ? Dans ce projet, le CSS c’est le chaos, apparement il y a une personne qui à demandé à une autre de gérer la chose, HTML pfff c’est trop facile (selon moi, c’est [FAUX !](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5))…
+Dans la vie de tous les jours, je reçois régulièrement des [questions sur mon parcours](/blog/metier-integrateur-web.html), quelles études ais-je suivies, l'intégration web à quoi ça sert ? Dans ce projet, le CSS c’est le chaos, apparement il y a une personne qui a demandé à une autre de gérer la chose, HTML pfff c’est trop facile (selon moi, c’est [FAUX !](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5))…
 
 Derrière toutes ces questions il existe un vrai métier à part entière : __intégrateur web__.
 
@@ -34,7 +34,7 @@ L’objectif est de réaliser les __12 cours__ — de 5 à 30 heures — __en 6 
 - _Projet :_ Votre premier site complet avec __Bootstap__
 - _Projet :_ Intégrer un __thème Wordpress__
 - Donner vie à une maquette statique
-- _Projet :_ Rencontrer et client et __concevoir un site vitrine__
+- _Projet :_ Rencontrer un client et __concevoir un site vitrine__
 - _Projet :_ Aidez la communauté en proposant votre aide ou en publiant des [outils open source](http://davidl.fr/projects.html)
 
 <div class="m-panel">
@@ -47,12 +47,12 @@ L’objectif est de réaliser les __12 cours__ — de 5 à 30 heures — __en 6 
 
 ## Débouchés
 
-En ce début de XXIème siècle, l'intégrateur web est la collone vertébrale d’un projet web. Tout le monde viendra demander son aide :
+En ce début de XXIème siècle, l'intégrateur web est la colonne vertébrale d’un projet web. Tout le monde viendra demander son aide :
 
 - Le __designer__ souhaite un bouton qui a du swag
 - Le __chef de projet__ souhaite changer les textes
 - Le __développeur__ en a marre de bidouiller du css
-- Le __consulatant SEO__ veut ses balises rich snippets
+- Le __consultant SEO__ veut ses balises rich snippets
 - Le __client__ veut ses <del>fuck$ng</del> boutons de réseaux sociaux
 - …
 
