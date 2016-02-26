@@ -2,7 +2,6 @@
 date: 2016-02-14
 slug: openclassroom-integrateur-web
 title: "Devenir intégrateur web en 6 mois"
-published: false
 description: "Présentation de la formation intégrateur web à suivre sur openclassrooms. Maîtriser HTML, CSS, jQuery et déployer votre propre site internet !"
 image: https://c2.staticflickr.com/2/1607/24849456980_e4f8902cfe_b.jpg
 page_title: Formation intégrateur web
@@ -15,11 +14,15 @@ Dans la vie de tous les jours, je reçois régulièrement des [questions sur mon
 
 Derrière toutes ces questions il existe un vrai métier à part entière : __intégrateur web__.
 
-En tant qu’[autodidacte](/cv.html), j’ai appris mon métier au cours de mes [nombreuses lectures](/books.html) et de mes [projets open-source](/projects.html). [OpenClassrooms](https://openclassrooms.com/paths/integrateur-web) (Le site d’apprentissage communautaire) vous facilite le travail & propose cette philosophie avec son parcours pour devenir __intégrateur web__. Vidéos de cours & exercices sont [disponible sur le site](https://openclassrooms.com/paths/integrateur-web) et leur organisation vous permettra d’obtenir progressivement de solides bases pour comprendre HTML, CSS, responsive, Bootstrap, git, Wordpress…
+![developpeur front-end](https://c2.staticflickr.com/2/1548/25157237442_ef95ec52e2_b.jpg)
+
+_— Sublime Text est mon meilleur ami_
+
+En tant qu’[autodidacte](/cv.html), j’ai appris mon métier au cours de mes [nombreuses lectures](/books.html) et de mes [projets open-source](/projects.html). [OpenClassrooms](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) (Le site d’apprentissage communautaire) vous facilite le travail & propose cette philosophie avec son parcours pour devenir __intégrateur web__. Vidéos de cours & exercices sont [disponible sur le site](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) et leur organisation vous permettra d’obtenir progressivement de solides bases pour comprendre HTML, CSS, responsive, Bootstrap, git, Wordpress…
 
 ## Programme de formation
 
-La formation d’[OpenClassrooms](https://openclassrooms.com/paths/integrateur-web) est interessante car elle est basée sur une vraie démarche projet avec des documents comme _des maquettes graphiques_ ou encore le fameux _cahier des charges_.
+La formation d’[OpenClassrooms](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) est interessante car elle est basée sur une vraie démarche projet avec des documents comme _des maquettes graphiques_ ou encore le fameux _cahier des charges_.
 
 L’objectif est de réaliser les __12 cours__ — de 5 à 30 heures — __en 6 mois__ (Personnelement j’ai mis environ 1 an quand je me suis formé en autodidacte en lisant des livres) :
 
@@ -38,7 +41,7 @@ L’objectif est de réaliser les __12 cours__ — de 5 à 30 heures — __en 6 
   <p class="lead">
   <strong>Plus d’informations sur le parcours ?</strong>
   <br>
-  <a href="https://openclassrooms.com/paths/integrateur-web">Consultez la formation intégrateur web</a> sur le site d’OpenClassrooms.
+  <a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5">Consultez la formation intégrateur web</a> sur le site d’OpenClassrooms.
   </p>
 </div>
 
@@ -64,6 +67,6 @@ En ce début de XXIème siècle, l'intégrateur web est la collone vertébrale d
 
 ### Bonus : bénéficiez d’un coach personnel
 
-Si vous ne souhaitez pas vous lancer seul, faites-vous accompagner et __mentorer par un professeur particulier__ en [devenant Premium Plus](https://openclassrooms.com/premium/souscrire/premium-plus) !
+Si vous ne souhaitez pas vous lancer seul, faites-vous accompagner et __mentorer par un professeur particulier__ en [devenant Premium Plus](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) !
 
 |* Les liens ci-dessus sont des liens d’affiliation vers OpenClassroom. Si vos cookies sont activés cela nous permettra de toucher un petit pourcentage sur chaque vente. Cela vous permet d’aider davidl.fr sans que cela vous coûte plus cher. Merci de votre aide !
