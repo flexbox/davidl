@@ -85,7 +85,7 @@
   image: postico.png
 -
   name: Sublime Text
-  description: "Selon moi c’est le meilleur éditeur de code. Facile à prendre en main, et évolutif presque à l’infini grâce à une énorme quantité de plug-in."
+  description: "Selon moi c’est le meilleur éditeur de code. Rapide, facile à prendre en main, et évolutif presque à l’infini grâce à une énorme quantité de plug-in."
   url: http://www.sublimetext.com/
   image: sublimetext.png
 -

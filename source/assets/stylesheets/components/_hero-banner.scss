@@ -126,6 +126,7 @@
   right: 0;
   margin: auto;
   width: rem-calc(430);
+  text-shadow: $text-shadow;
   @media #{$small-only} {
     width: auto;
     margin: rem-calc(140 0 0);
