@@ -28,7 +28,7 @@
   description: "Remplacer des icônes en images par des symboles HTML présente de nombreux avantages.<br>J’ai développé cette application pour rapidement copier / coller ces caractères utiles en webdesign."
   type: project
   button: primary
-  url: http://responsiveicon.fr/
+  url: http://flexbox.github.io/responsive-icons/
 -
   title: Hoooooo
   description: "Coder des sites web à longueur de temps peut vous griller les neurones. J’ai créé ce site pour détendre l’atmosphère lorsqu’une fonctionnalité / un site web plante."
