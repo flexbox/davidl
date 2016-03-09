@@ -5,10 +5,131 @@
   <id>http://davidl.fr/blog/</id>
   <link href="http://davidl.fr/blog/"/>
   <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2016-02-14T00:00:00+01:00</updated>
+  <updated>2016-03-04T00:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>Helper pour les images SVG avec Ruby on Rails (ou Middleman)</title>
+    <link rel="alternate" href="http://davidl.fr/blog/svg-helper-ruby.html"/>
+    <id>http://davidl.fr/blog/svg-helper-ruby.html</id>
+    <published>2016-03-04T00:00:00+01:00</published>
+    <updated>2016-03-09T14:05:16+01:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;J’utilise de plus en plus des images SVG sur mes projets web. Il y a 2 principaux avantages à utiliser ce type d’images :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;les Scalable Vector Graphics (en français &lt;a href="https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics"&gt;“graphique vectoriel adaptable”&lt;/a&gt;), sont par définition &lt;strong&gt;compatible avec les écrans HD&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Ce sont des fichiers textes qui sont intégrés directement dans le HTML, vous &lt;strong&gt;gagnez en performance&lt;/strong&gt; puisqu’il n’y a pas de requête http supplémentaire.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Le principal problème est que cela “&lt;em&gt;pollue&lt;/em&gt;” nos &lt;code&gt;partials&lt;/code&gt;. Dans un contexte d’&lt;strong&gt;application Ruby on Rails ou Middleman&lt;/strong&gt;, un simple appel avec une ligne &lt;code&gt;image_tag&lt;/code&gt; se transforme en centaines de lignes avec des &lt;code&gt;glyph unicode&lt;/code&gt; suivies de coordonnées.&lt;/p&gt;
+
+&lt;p&gt;Voici 2 solutions pour résoudre ce problème.&lt;/p&gt;
+
+&lt;h2 id="mthode-1--quickndirty"&gt;Méthode 1 : Quick’n’dirty&lt;/h2&gt;
+
+&lt;p&gt;Les SVG sont des fichiers textes basés sur du &lt;code&gt;.xml&lt;/code&gt;, nous pouvons les inclures dans nos fichiers &lt;code&gt;.html&lt;/code&gt;. Dans notre application Rails ou Middleman &lt;strong&gt;le hack est d’inclure&lt;/strong&gt; des &lt;code&gt;partials&lt;/code&gt; ou vues qui contiennent notre image.&lt;/p&gt;
+
+&lt;p&gt;Pour faire ceci, commencez par &lt;a href="/toolkit.html"&gt;renommer tous votres fichiers SVG&lt;/a&gt; en prefixant par un underscore et en ajoutant l’extention de votre langage de template.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Exemple&lt;/em&gt; : &lt;code&gt;logo.svg&lt;/code&gt; se transforme en &lt;code&gt;_logo.html.erb&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Ensuite nous devons le ranger au bon endroit.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Avec Rails &lt;code&gt;app/views/svg/_logo.html.erb&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Avec Middleman &lt;code&gt;source/svg/_logo.html.erb&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ensuite, vous pouvez ajouter une image simplement avec un &lt;code&gt;partial&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ruby on Rails&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sx"&gt;%= render :partial =&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="s1"&gt;'svg/logo'&lt;/span&gt; &lt;span class="o"&gt;%&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Middleman&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sx"&gt;%= partial 'svg/logo' %&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Boom ! sh$t done !&lt;/p&gt;
+
+&lt;h2 id="mthode-2--rendu-dynamique"&gt;Méthode 2 : Rendu dynamique&lt;/h2&gt;
+
+&lt;p&gt;La première solution fonctionne, mais ce n’est pas propre et comme je l’ai précisé : c’est un hack. Les images ne respectent plus l’architecture &lt;code&gt;app/assets/images&lt;/code&gt; (Rails) ou &lt;code&gt;source/images&lt;/code&gt; (Middleman). De plus nous devons renommer toutes les images. Ça ne change pas le comportement, mais ma santé mentale n’apprécie pas trop.&lt;/p&gt;
+
+&lt;p&gt;Il existe une &lt;strong&gt;méthode plus intelligente&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Au lieu d’utiliser un &lt;code&gt;partial&lt;/code&gt;, il serait beaucoup plus judicieux d’&lt;a href="https://coderwall.com/p/uip7xg/ruby-on-rails-image-helper-for-retina-display-with-foundation-interchange"&gt;utiliser un helper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ruby on Rails&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;svg&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;name&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;file_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="no"&gt;Rails&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;root&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/app/assets/images/&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="nb"&gt;name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.svg"&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="no"&gt;File&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;read&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;file_path&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nf"&gt;html_safe&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="no"&gt;File&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;exists?&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;file_path&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="s1"&gt;'(not found)'&lt;/span&gt;
+  &lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Middleman&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;svg&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;name&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;root&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="no"&gt;Middleman&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Application&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;root&lt;/span&gt;
+    &lt;span class="n"&gt;file_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;root&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/source/images/&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="nb"&gt;name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.svg"&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="no"&gt;File&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;read&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;file_path&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="no"&gt;File&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;exists?&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;file_path&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="s1"&gt;'(not found)'&lt;/span&gt;
+  &lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Le &lt;strong&gt;helper&lt;/strong&gt; cherche le chemin de l’image, dès qu’il le trouve il retourne le résultat au format texte. Pour éviter les erreurs on affiche &lt;code&gt;(not found)&lt;/code&gt; au lieu de provoquer une erreur.&lt;/p&gt;
+
+&lt;p&gt;Pour afficher une image c’est aussi simple que cela :&lt;/p&gt;
+
+&lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sx"&gt;%= svg 'logo' %&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="chargement-plus-rapide"&gt;Chargement plus rapide&lt;/h2&gt;
+
+&lt;p&gt;Pour aller plus loin vous pouvez ajouter une stratégie de cache afin d’&lt;strong&gt;améliorer la performance&lt;/strong&gt;, il est facile de mettre en place le &lt;a href="http://guides.rubyonrails.org/caching_with_rails.html"&gt;fragment caching de Rails&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rails&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;svg&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;name&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;file_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="no"&gt;Rails&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;root&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/app/assets/images/&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="nb"&gt;name&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.svg"&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="no"&gt;File&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;exists?&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;file_path&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="n"&gt;cache&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="no"&gt;File&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;read&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;file_path&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nf"&gt;html_safe&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;
+      &lt;span class="s1"&gt;'(not found)'&lt;/span&gt;
+    &lt;span class="k"&gt;end&lt;/span&gt;
+  &lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Je ne suis pas sur du comportement mais je pense qu’après chaque deploy en production vous devrez faire un &lt;code&gt;Rails.cache.clear&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id="attention"&gt;⚠ Attention&lt;/h2&gt;
+
+&lt;p&gt;Prenez garde, dans certains cas utiliser des SVG ralenti votre page comparé à des images &lt;code&gt;.png&lt;/code&gt;. Je n’ai personellement pas de chiffres à proposer mais GitHub a publié quelques données suite à leur &lt;a href="https://github.com/blog/2112-delivering-octicons-with-svg"&gt;abandon des font icon pour des images SVG&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Benchmark performance images SVG" src="https://cloud.githubusercontent.com/assets/54012/13176951/eedb1330-d6e3-11e5-8dfb-99932ff7ee25.png" /&gt;
+&lt;em&gt;Benchmark avant / après l’utilisation de SVG&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;N’utilisez jamais des images SVG pour des images complexes. Dans cet exemple les dégradés, ombres portées, … alourdissent l’image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Choix pour une image svg" src="https://c2.staticflickr.com/2/1564/25190117159_c0af1228d7_b.jpg" /&gt;
+&lt;em&gt;Comparaison des types d’images&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ressources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Logos sous &lt;a href="http://www.logodust.com/"&gt;Creative Commons&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Render &lt;a href="http://cobwwweb.com/render-inline-svg-rails-middleman#boost-performance-with-fragment-caching"&gt;inline SVG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Devenir intégrateur web en 6 mois</title>
     <link rel="alternate" href="http://davidl.fr/blog/openclassroom-integrateur-web.html"/>
@@ -453,57 +574,6 @@ Devenir expert est une chose importante pour moi &amp;amp; je pense avoir réuss
 &lt;blockquote&gt;
   &lt;p&gt;Whatever you do, make sure you are &lt;strong&gt;automating&lt;/strong&gt;, because if you aren’t, all you are doing is making it harder for yourself when you revisit the &lt;strong&gt;problem&lt;/strong&gt;, and making it even harder for the next &lt;strong&gt;person&lt;/strong&gt; who will inevitably have to &lt;strong&gt;reproduce&lt;/strong&gt; your &lt;strong&gt;solution&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Sass truncate mixin pour ajouter ... à vos textes</title>
-    <link rel="alternate" href="http://davidl.fr/blog/truncate.html"/>
-    <id>http://davidl.fr/blog/truncate.html</id>
-    <published>2015-08-26T00:00:00+02:00</published>
-    <updated>2015-09-04T11:57:34+02:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;Il m’arrive souvent de rencontrer ce problème : un titre trop long passe sur plusieurs lignes ce qui casse la mise en page. Il est possible de &lt;a href="http://apidock.com/rails/String/truncate"&gt;tronquer le texte après une ceraine taille&lt;/a&gt; dans un framework comme rails, mais le texte n’est plus indexable.&lt;/p&gt;
-
-&lt;p&gt;La solution est d’utiliser du CSS. Voici un exemple de &lt;code&gt;mixin&lt;/code&gt; Sass réutilisable :&lt;/p&gt;
-
-&lt;pre class="highlight scss"&gt;&lt;code&gt;  &lt;span class="k"&gt;@mixin&lt;/span&gt; &lt;span class="nf"&gt;truncate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$width&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;100%&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nl"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nv"&gt;$width&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nl"&gt;overflow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;hidden&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nl"&gt;text-overflow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;ellipsis&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nl"&gt;white-space&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;nowrap&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="utilisation"&gt;Utilisation&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Sass&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre class="highlight scss"&gt;&lt;code&gt;  &lt;span class="nc"&gt;.card&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="k"&gt;&amp;amp;&lt;/span&gt;&lt;span class="nt"&gt;-title&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-      &lt;span class="k"&gt;@include&lt;/span&gt; &lt;span class="nd"&gt;truncate&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre class="highlight css"&gt;&lt;code&gt;  &lt;span class="nc"&gt;.card-title&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nl"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;100%&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nl"&gt;overflow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;hidden&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nl"&gt;text-overflow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;ellipsis&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nl"&gt;white-space&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;nowrap&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="dmonstration"&gt;Démonstration&lt;/h2&gt;
-
-&lt;p&gt;Voici un exemple avant / après&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Truncate mixin sass exemple" src="https://lh3.googleusercontent.com/CcvmerZO3gO0yR4hsad7IcX3p0vfP39ma0Hbu092nEo=w615-h289-no" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Protip :&lt;/strong&gt; Il est possible de changer la taille directement avec &lt;code&gt;@include truncate(50%);&lt;/code&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
