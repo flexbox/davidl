@@ -74,6 +74,7 @@ blog:
     2016-02-08-online.markdown: "/blog/articles/2016-02-08-online.markdown"
     2016-02-14-openclassroom-integrateur-web.markdown: "/blog/articles/2016-02-14-openclassroom-integrateur-web.markdown"
     2016-03-04-svg-helper-ruby.markdown: "/blog/articles/2016-03-04-svg-helper-ruby.markdown"
+    2016-03-10-mobile-first-webdesign.markdown: "/blog/articles/2016-03-10-mobile-first-webdesign.markdown"
   index.html.slim: "/blog/index.html.slim"
 books.html.slim: "/books.html.slim"
 clients.html.slim: "/clients.html.slim"
