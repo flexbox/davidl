@@ -5,10 +5,60 @@
   <id>http://davidl.fr/blog/</id>
   <link href="http://davidl.fr/blog/"/>
   <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2016-03-04T00:00:00+01:00</updated>
+  <updated>2016-03-10T00:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>3 astuces pour un webdesign mobile first évolutif</title>
+    <link rel="alternate" href="http://davidl.fr/blog/mobile-first-webdesign.html"/>
+    <id>http://davidl.fr/blog/mobile-first-webdesign.html</id>
+    <published>2016-03-10T00:00:00+01:00</published>
+    <updated>2016-03-15T17:59:47+01:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;C’est officiel &lt;a href="http://www.journaldunet.com/media/publishers/1173852-les-francais-sont-mobile-first/"&gt;le mobile est le premier accès à internet&lt;/a&gt; des français. Depuis plusieurs années je suis convaincu de l’approche “mobile-fist”. Faire grandir un projet est plus facile que de &lt;a href="http://blog.impala-webstudio.fr/responsive-design-ou-comment-faire-entrer-une-girafe-dans-une-twingo-en-trois-temps"&gt;rentrer une girafe dans une twingo&lt;/a&gt;.
+Un code organisé simplement est plus facile à maintenir, s’analyse plus rapidement par les moteurs de recherche, nous force à &lt;strong&gt;prendre des décisions difficiles sur le contenu au début&lt;/strong&gt;, et nous encourage à conserver l’essentiel.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="David Leuliette mobile first" src="https://c2.staticflickr.com/2/1682/25809105455_9af84255e1_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dans la vraie vie, &lt;strong&gt;personne ne veut faire de mobile-first&lt;/strong&gt;. Les clients continuent à vouloir des &lt;a href="/blog/fin-psd.html"&gt;maquettes grand écran sur Photoshop&lt;/a&gt;, et il est plus difficile de vendre une petite version d’un grand projet. Cependant — pour votre santé mentale — il existe des méthodes de codage pour vous faciliter la vie, même si le design mobile vient dans un second temps.&lt;/p&gt;
+
+&lt;h2 id="rinitialiser-les-valeurs-pour-un-design-optimis-mobile"&gt;Réinitialiser les valeurs pour un design optimisé mobile&lt;/h2&gt;
+
+&lt;p&gt;Réinitialiser les propriétés CSS est souvent &lt;strong&gt;la chose la plus chronophage&lt;/strong&gt; dans la conception d’un site internet responsive. Si la version grand écran d’un composant est plus complexe que la version mobile, il aura plus de code CSS à réinitialiser. C’est pourquoi il existe des &lt;a href="https://github.com/necolas/normalize.css"&gt;solutions pour unifier le design&lt;/a&gt; sur des bases stables.&lt;/p&gt;
+
+&lt;p&gt;N’oubliez pas que la taille de base est du texte est de &lt;a href="http://uxcellence.com/2014/01/15/quick-fix-increase-font-size-to-16px-to-fix-input-zoom/"&gt;16px pour éviter le bug du zoom&lt;/a&gt; sur les &lt;code&gt;inputs&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Global font-size increased from 14px to 16px.&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;Bootstrap migration guide from v3.x to v4.x&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="utiliser-les-media-queries-dans-une-logique-volutive-et-non-destructrice"&gt;Utiliser les &lt;code&gt;media queries&lt;/code&gt; dans une logique évolutive et non destructrice.&lt;/h2&gt;
+
+&lt;p&gt;Commencez avec le CSS pour les petits écrans, puis ajoutez de la compléxité pour les écrans plus larges. Les sélecteurs CSS en fin de fichiers écrasent les déclarations précédentes. Codez vos styles pour le mobile en premier et utilisez les &lt;code&gt;media queries&lt;/code&gt; au besoin.&lt;/p&gt;
+
+&lt;pre class="highlight sass"&gt;&lt;code&gt;  &lt;span class="cm"&gt;/* Default to a small-friendly size by not using media queries … */
+&lt;/span&gt;  &lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;18px&lt;/span&gt;&lt;span class="err"&gt;;&lt;/span&gt;
+  &lt;span class="err"&gt;}&lt;/span&gt;
+
+  &lt;span class="cm"&gt;/* … then override it for larger screens. */
+&lt;/span&gt;  &lt;span class="k"&gt;@media&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="nf"&gt;and&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;min-size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;640px&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt; &lt;span class="err"&gt;…&lt;/span&gt; &lt;span class="err"&gt;}&lt;/span&gt;
+  &lt;span class="k"&gt;@media&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="nf"&gt;and&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;min-size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;1000px&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt; &lt;span class="err"&gt;…&lt;/span&gt; &lt;span class="err"&gt;}&lt;/span&gt;
+  &lt;span class="k"&gt;@media&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="nf"&gt;and&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;min-size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;1200px&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt; &lt;span class="err"&gt;…&lt;/span&gt; &lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="forcez-vous--tre-concentr-sur-des-composants"&gt;Forcez vous à être concentré sur des composants&lt;/h2&gt;
+
+&lt;p&gt;Heureusement, la conception mobile-first fonctionne à merveille avec cette technique. Au lieu de vous concentrer sur une grande mise en page, décomposez et soignez les petites parties. Repérez chaque composant &lt;code&gt;header&lt;/code&gt;, &lt;code&gt;navigation&lt;/code&gt; , &lt;code&gt;hero banner&lt;/code&gt; … dans un contexte de petit écran. Est-ce qu’il vit correctement tout seul ? Si ce n’est pas le cas, comment pouvons-nous l’améliorer?&lt;/p&gt;
+
+&lt;p&gt;Coder en conservant un état d’esprit mobile-first demande un certain temps pour s’y habituer, mais je pense qu’à la fin vos feuilles de styles seront plus simples à produire et à maintenir. Cela nous force à poser des questions difficiles dès le début — et pas la veille d’une deadline.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Helper pour les images SVG avec Ruby on Rails (ou Middleman)</title>
     <link rel="alternate" href="http://davidl.fr/blog/svg-helper-ruby.html"/>
@@ -218,7 +268,7 @@
     <link rel="alternate" href="http://davidl.fr/blog/online.html"/>
     <id>http://davidl.fr/blog/online.html</id>
     <published>2016-02-08T00:00:00+01:00</published>
-    <updated>2016-02-22T15:49:28+01:00</updated>
+    <updated>2016-03-15T17:59:47+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -228,7 +278,7 @@
 
 &lt;p&gt;&lt;strong&gt;Pour mes amis Lillois&lt;/strong&gt; : Je compte organiser une soirée de retour &lt;em&gt;#stayTuned&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Sandboard &amp;amp; buggy session in the desert – Hucachina Peru" src="https://c2.staticflickr.com/2/1483/24822137141_1fb7487b41_b.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="David Leuliette Sandboard &amp;amp; buggy session – Hucachina Peru" src="https://c2.staticflickr.com/2/1483/24822137141_1fb7487b41_b.jpg" /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;— Sandboard session in Hucachina Peru&lt;/em&gt;&lt;/p&gt;
 
@@ -504,76 +554,6 @@ Devenir expert est une chose importante pour moi &amp;amp; je pense avoir réuss
 &lt;p&gt;J’ai trouvé très interessant l’utilisation de PouchDB – une Base de donnée en JavaSCript – qui permet d’avoir une logique de développement offline first.&lt;/p&gt;
 
 &lt;p&gt;Encore merci aux équipes de Paris web pour cette 10ème édition au top ! Vous êtes formidables.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>1 an de code en chiffre : 500h, expert Ruby Slim &amp; Sass</title>
-    <link rel="alternate" href="http://davidl.fr/blog/365-jours-de-code.html"/>
-    <id>http://davidl.fr/blog/365-jours-de-code.html</id>
-    <published>2015-09-21T00:00:00+02:00</published>
-    <updated>2015-09-24T22:14:33+02:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;Cela fait 365 jours que j’utilise &lt;a href="http://www.codeivate.com"&gt;Codeivate&lt;/a&gt; avec Sublime Text. Ce plugin – utilisé avec n’importe quel éditeur de texte ou IDE – &lt;strong&gt;analyse en temps réel&lt;/strong&gt; le type de fichier sur lequel vous travaillez, et permet d’&lt;em&gt;extraire différentes statistiques&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Plus vous codez, plus vous gagnez de points&lt;/strong&gt; (je suis actellement niveau 20). Grâce à Codeivate j’ai appris à mieux connaître mes langages de prédilection &amp;amp; les moments de la journée les plus productifs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Moment les plus productifs de ma journée" src="https://c2.staticflickr.com/6/5780/21051548453_ca5b635709_c.jpg" /&gt;&lt;/p&gt;
-
-&lt;h2 id="heures-de-code"&gt;500 heures de code&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;365 jours&lt;/strong&gt;, le plugin se déclenche seulement quand vous utilisez votre éditeur de texte. Si l’on considère une journée classique de travail de 8 heures cela donne (365 jours * 8 heures) / 500 heures = &lt;strong&gt;5,84 heures de code par jour&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1247 branches&lt;/strong&gt;, j’utilise la logique de branches pour &lt;a href="http://nvie.com/posts/a-successful-git-branching-model/"&gt;travailler efficacement avec Git&lt;/a&gt;. Je passe en moyenne (500h * 60 minutes) / 1247 branches = &lt;strong&gt;24 minutes par feature&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1 heure 9 minutes&lt;/strong&gt;, c’est ma &lt;strong&gt;meilleure série sans interruption&lt;/strong&gt;. Je n’ai pas investigué au bout de combien de temps le compteur s’arrête, mais je pense que lire de la documentation – même 5 minutes – coupe le timeur.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rating Novice&lt;/strong&gt;, en suivant la logique du livre &lt;a href="http://www.amazon.fr/gp/product/0316017930/ref=as_li_tl?ie=UTF8&amp;amp;camp=1642&amp;amp;creative=19458&amp;amp;creativeASIN=0316017930&amp;amp;linkCode=as2&amp;amp;tag=davidl-21"&gt;Outliers : The Story of Success&lt;/a&gt;&lt;img src="http://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&amp;amp;l=as2&amp;amp;o=8&amp;amp;a=0316017930" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;, il faut 10 000 heures pour être expert dans un domaine. En suivant le même rythme, devenir &lt;strong&gt;expert développeur front-end&lt;/strong&gt; demande 20 années de travail.&lt;/p&gt;
-
-&lt;h3 id="langages-majeurs"&gt;Langages majeurs&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Ruby Slim&lt;/strong&gt; &lt;em&gt;Level 8&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;J’utilise le &lt;a href="http://slim-lang.com/"&gt;langage de templating slim&lt;/a&gt; pour gagner du temps car la syntaxe HTML est réduite au maximum (tout comme &lt;a href="http://jade-lang.com/"&gt;Jade en NodeJS&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sass&lt;/strong&gt; &lt;em&gt;Level 8&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Pour avoir un design maintenable et évolutif, j’utilise &lt;a href="http://sass-lang.com/"&gt;Sass&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; &lt;em&gt;Level 3&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Pour gérer les documents de type texte, j’écris TOUT en markdown. Si l’on vous demande d’en faire un beau document il est toujours possible de l’&lt;a href="http://www.markdowntopdf.com/"&gt;exporter en .pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id="langages-mineurs"&gt;Langages mineurs&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;YAML&lt;/strong&gt; &lt;em&gt;Level 2&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;J’applique le principe de &lt;a href="https://fr.wikipedia.org/wiki/Point_individuel_de_d%C3%A9faillance"&gt;single point of failure&lt;/a&gt; pour gérer certaines informations comme les identifiants &amp;amp; mot de passe, la localisation, les media sociaux…&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; &lt;em&gt;Level 2&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;J’utilise quotidiennement ce langage. Force est de constater que je n’en code pas tant que ça, peut être parce que – dans certains cas – Angular élimine complètement le besoin d’écrire du JavaScript.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ruby&lt;/strong&gt; &lt;em&gt;Level 0&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Je ne me ballade jamais dans les controlleurs ou les modèles, mais il m’arrive de créer mes propres &lt;code&gt;helpers&lt;/code&gt; en ruby.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Image d’analyse de 1 an de code" src="https://c2.staticflickr.com/6/5630/21672508645_b950fb561b_o.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Vous pouvez consulter la liste complète sur &lt;a href="http://www.codeivate.com/users/flexbox/"&gt;mon profil Codeivate&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id="ordinateurs"&gt;5 ordinateurs&lt;/h2&gt;
-
-&lt;p&gt;Une statistique interessante est le nombre de machines utilisées. En 1 an j’ai travaillé sur 5 ordinateurs différents, principalement sur OSX et un peu de Linux. Si l’on prend en compte le temps d’un setup complet d’une nouvelle machine de devéloppeur front-end cela donne environ (2 jours x 5 machines) &lt;strong&gt;40 heures d’installation&lt;/strong&gt;, soit une semaine de travail à &lt;em&gt;regarder des barres de chargement&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;C’est pour cette raison que j’utilise des solutions comme &lt;a href="https://github.com/blog/1345-introducing-boxen"&gt;Boxen de GitHub&lt;/a&gt; ou encore &lt;a href="https://robots.thoughtbot.com/laptop-setup-for-an-awesome-development-environment"&gt;Laptop de Thoughtbot&lt;/a&gt;. Si vous souhaitez être efficace dans votre travail il est – à mon avis – indispensable d’automatiser ce processus pour pouvoir être efficace.&lt;/p&gt;
-
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ZPjjiR4paVY" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Whatever you do, make sure you are &lt;strong&gt;automating&lt;/strong&gt;, because if you aren’t, all you are doing is making it harder for yourself when you revisit the &lt;strong&gt;problem&lt;/strong&gt;, and making it even harder for the next &lt;strong&gt;person&lt;/strong&gt; who will inevitably have to &lt;strong&gt;reproduce&lt;/strong&gt; your &lt;strong&gt;solution&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
 </content>
   </entry>
 </feed>
