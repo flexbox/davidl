@@ -4,7 +4,7 @@ meta property="dc:language"     content="fr-FR"
 
 meta property="og:site_name"    content="#{data.settings.site.title}"
 meta property="og:type"         content="website"
-meta property="og:url"          content="#{data.settings.site.url}"
+meta property="og:url"          content="#{data.settings.site.url + current_resource.url}"
 meta property="og:title"        content="#{current_page.data.title || data.settings.site.title}"
 meta property="og:description"  content="#{current_page.data.description || data.settings.site.description}"
 meta property="og:image"        content="#{current_page.data.image}"
@@ -16,6 +16,7 @@ meta name="geo.region"          content="FR-59"
 meta name="twitter:site"        content="#{data.settings.social.twitter.name}"
 meta name="twitter:title"       content="#{current_page.data.title || data.settings.site.title}"
 meta name="twitter:description" content="#{current_page.data.description || data.settings.site.description}"
+
 - if current_page.data.image
   meta name="twitter:card"        content="summary_large_image"
   meta name="twitter:image:src"   content="#{current_page.data.image}"
