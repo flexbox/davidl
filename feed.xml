@@ -5,10 +5,61 @@
   <id>http://davidl.fr/blog/</id>
   <link href="http://davidl.fr/blog/"/>
   <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2016-03-10T00:00:00+01:00</updated>
+  <updated>2016-03-25T00:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>Gagne ta place Early-bird pour la prochaine takeoffconf</title>
+    <link rel="alternate" href="http://davidl.fr/blog/takeoffconf-code-promo.html"/>
+    <id>http://davidl.fr/blog/takeoffconf-code-promo.html</id>
+    <published>2016-03-25T00:00:00+01:00</published>
+    <updated>2016-03-25T17:49:03+01:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;Ajourd’hui c’est un bonne journée pour plusieurs raisons : c’est vendredi et en tant que leader de communauté tech dans le nord de la France, j’ai eu la chance d’avoir des billets pour la prochaine grande conférence à ne manquer sous aucun prétexte : &lt;a href="http://takeoffconf.com/"&gt;Takeoffconf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Code promo takeoffconf" src="https://c2.staticflickr.com/2/1536/25936271932_433d27b0c3_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;h2 id="pourquoi-aller--cette-confrence-"&gt;Pourquoi aller à cette conférence ?&lt;/h2&gt;
+
+&lt;p&gt;Le programme n’est pas définitif mais voici pourquoi vous devez venir :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;En octobre il n’y a rien à faire d’autre&lt;/li&gt;
+  &lt;li&gt;Cette année c'est 3 jours qui sont prévu ! (Du Jeudi 06 octobre au Samedi 08 Octobre 2016)&lt;/li&gt;
+  &lt;li&gt;La soirée sur la Gare Saint Sauveur est top !&lt;/li&gt;
+  &lt;li&gt;Vous &lt;strong&gt;pourrez me voir en 3D&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Vous rencontrerez &lt;a href="https://twitter.com/takeoffconf/status/429257447866662912"&gt;pleins développeurs du futur&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Au tarif &lt;strong&gt;early-bird la place n’est pas chère&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Qui à besoin d’un programme avec une baseline comme “&lt;em&gt;Les sujets qui feront l’actualité des devs en 2017&lt;/em&gt; ”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="cest-par-o-la-glissade-"&gt;C’est par où la glissade ?&lt;/h2&gt;
+
+&lt;p&gt;Comme chaque année cela se passe dans l’un des plus gros incubateur de France, à Euratechnologies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Réserver votre place au takeoffconf avec David Leuliette" src="https://c2.staticflickr.com/6/5012/5455442855_2062c40e12_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Euratechnologies&lt;/strong&gt;
+165 Avenue de Bretagne
+59000 Lille, France&lt;/p&gt;
+
+&lt;h2 id="comment-participer-au-concours-"&gt;Comment participer au concours ?&lt;/h2&gt;
+
+&lt;p&gt;C’est facile ! Tout se passe sur Twitter&lt;/p&gt;
+
+&lt;p&gt;Vous devez mentionner &lt;a href="https://twitter.com/TakeOffConf"&gt;@takeoffconf&lt;/a&gt; et &lt;a href="https://twitter.com/_flexbox"&gt;@_flexbox&lt;/a&gt; et dire pourquoi vous souhaitez venir à cette super conférence. Comme je sais que certains ont la puissance de la flème j’ai même préparé un tweet en avance :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;En Octobre je participe @takeoffconf grâce à @_flexbox qui sera parmi nous ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Seulement les 8 premiers pourront bénéficier d’un tarif préférenciel alors battez-vous :P&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>3 astuces pour un webdesign mobile first évolutif</title>
     <link rel="alternate" href="http://davidl.fr/blog/mobile-first-webdesign.html"/>
@@ -425,135 +476,6 @@ Devenir expert est une chose importante pour moi &amp;amp; je pense avoir réuss
 &lt;hr /&gt;
 
 &lt;p&gt;En attendant mon retour, suivez mon périple sur &lt;a href="http://tripoffthegrid.tumblr.com/"&gt;tripoffthegrid&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Ateliers Paris Web 2015 : accessibilité, design numérique &amp; standards ouverts</title>
-    <link rel="alternate" href="http://davidl.fr/blog/paris-web-2015.html"/>
-    <id>http://davidl.fr/blog/paris-web-2015.html</id>
-    <published>2015-10-03T00:00:00+02:00</published>
-    <updated>2015-10-06T17:58:46+02:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;1 an déjà depuis l’&lt;a href="/blog/paris-web-2014.html"&gt;édition 2014 des ateliers Paris Web&lt;/a&gt;. Cette année le nord était présent en force représenté par &lt;a href="https://twitter.com/rbwebdev"&gt;@rbwebdev&lt;/a&gt;, &lt;a href="https://twitter.com/lellexindo"&gt;@lellexindo&lt;/a&gt;, &lt;a href="https://twitter.com/kevinthenard"&gt;@kevinthenard&lt;/a&gt;, &lt;a href="https://twitter.com/nfroidure"&gt;@nfroidure&lt;/a&gt;,&lt;a href="https://twitter.com/hteumeuleu"&gt;@hteumeuleu&lt;/a&gt;, &lt;a href="https://twitter.com/JbPionnier"&gt;@JbPionnier&lt;/a&gt; &amp;amp; moi même.&lt;/p&gt;
-
-&lt;p&gt;Voici mon retour sur les 3 ateliers auquels j’ai participé sur les thèmes du design le matin, et une session de code l’après–midi.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="speed-test wifi paris web" src="https://c2.staticflickr.com/6/5665/21753471709_a3d833ae44_n.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Pas mal le speed test du wifi&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id="le-prototypage-rapide"&gt;Le prototypage rapide&lt;/h2&gt;
-
-&lt;p&gt;Notre &lt;strong&gt;principal problème&lt;/strong&gt; dans l'industrie du web est &lt;em&gt;notre héritage de l’ingénierie classique&lt;/em&gt;. Wireframes, maquettes &amp;amp; dévelopements s’enchaînent en effet de sylos, sans communication entre les équipes ni tests car :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Changer d’avis coûte cher&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Il y a pourtant &lt;strong&gt;énormément de valeur à prototyper&lt;/strong&gt;, cela permet de &lt;em&gt;confronter nos idées avec le monde réel&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Sketchnoting paris web par David leuliette" src="https://c2.staticflickr.com/6/5711/21317900884_1e639e97b6.jpg" /&gt;
-&lt;img alt="Sketchnoting paris web par David leuliette" src="https://c1.staticflickr.com/1/670/21916731711_e972e11c51.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Après sa présentation &lt;a href="https://twitter.com/louije"&gt;Louis&lt;/a&gt; nous a demandé de &lt;strong&gt;réaliser le prototype papier&lt;/strong&gt; de notre prochaine application en suivant la logique de &lt;a href="https://www.gv.com/lib/the-product-design-sprint-divergeday2"&gt;design sprint inspirée par Google&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="paris web prototypage papier d’une application" src="https://c2.staticflickr.com/6/5661/21950384401_0c7c743b28_c.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;SOSHERO la première application de géolocalisation de superhéro, avec un batsignal intégré&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id="initiation--la-facilitation-graphique"&gt;Initiation à la facilitation graphique&lt;/h2&gt;
-
-&lt;p&gt;Merci &lt;a href="http://twitter.com/romaincouturier"&gt;Romain&lt;/a&gt;, grâce à toi je connais enfin la &lt;em&gt;traduction française pour sketchnoting&lt;/em&gt; :)&lt;/p&gt;
-
-&lt;p&gt;Cet atelier – avec 100 participants ! – présentait les bases de la falicitation graphique en 3 parties :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Dessiner à partir des &lt;strong&gt;formes de base&lt;/strong&gt; : point, trait, carré, triangle &amp;amp; rond.&lt;/li&gt;
-  &lt;li&gt;Créer une &lt;strong&gt;bibliothèque d’icônes&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Le jeu du moulin à parole par binôme&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img alt="Sketchnoting paris web par David leuliette la faliciation graphique 2" src="https://c2.staticflickr.com/6/5765/21317901964_21d99f768a.jpg" /&gt;
-&lt;img alt="Sketchnoting paris web par David leuliette la faliciation graphique 1" src="https://c2.staticflickr.com/6/5709/21288000583_08b39473b7.jpg" /&gt;&lt;/p&gt;
-
-&lt;h2 id="construire-sa-single-page-application-avec-reactjs-pouchdb--nodejs"&gt;Construire sa single page application avec reactJS, PouchDB &amp;amp; NodeJS&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href="https://twitter.com/gelnior"&gt;Frank Rousseau&lt;/a&gt; – CTO chez CozyCloud – nous a présenté comment créer une single page application &amp;amp; la partager sur &lt;a href="https://www.npmjs.com/"&gt;NPM&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Single page application nodeJS, reactJS et PouchDB" src="https://c2.staticflickr.com/6/5714/21730003449_eca2842c8c_z.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Voici le &lt;code&gt;html&lt;/code&gt; de notre super application de gestionnaire de marque–pages :&lt;/p&gt;
-
-&lt;pre class="highlight html"&gt;&lt;code&gt;  &lt;span class="cp"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;lt;meta&lt;/span&gt; &lt;span class="na"&gt;charset=&lt;/span&gt;&lt;span class="s"&gt;"utf-8"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;lt;meta&lt;/span&gt; &lt;span class="na"&gt;http-equiv=&lt;/span&gt;&lt;span class="s"&gt;"X-UA-Compatible"&lt;/span&gt; &lt;span class="na"&gt;content=&lt;/span&gt;&lt;span class="s"&gt;"IE=edge"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;lt;title&amp;gt;&lt;/span&gt;My bookmarks&lt;span class="nt"&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;lt;link&lt;/span&gt; &lt;span class="na"&gt;rel=&lt;/span&gt;&lt;span class="s"&gt;"stylesheet"&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;"application.css"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;id=&lt;/span&gt;&lt;span class="s"&gt;"app"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-      Loading…
-    &lt;span class="nt"&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;"browser-bundle.js"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-  &lt;span class="nt"&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;code&gt;browser-bundle.js&lt;/code&gt; contient les sources de notre application compilées avec &lt;code&gt;npm start&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Le code JavaScript &lt;code&gt;application.js&lt;/code&gt; se décompose de cette façon :&lt;/p&gt;
-
-&lt;pre class="highlight javascript"&gt;&lt;code&gt;  &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'react'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Exemple de notre class pour notre &lt;a href="http://facebook.github.io/react/"&gt;application en ReactJS&lt;/a&gt;.&lt;/p&gt;
-
-&lt;pre class="highlight javascript"&gt;&lt;code&gt;  &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;App&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createClass&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
-    &lt;span class="na"&gt;render&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-      &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
-        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;div&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
-          &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;h1&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="nx"&gt;My&lt;/span&gt; &lt;span class="nx"&gt;Bookmark&lt;/span&gt; &lt;span class="nx"&gt;Application&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/h1&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
-&lt;/span&gt;          &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;BookmarkList&lt;/span&gt; &lt;span class="nx"&gt;bookmarks&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;props&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;bookmarks&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/BookmarkList&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
-&lt;/span&gt;        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/div&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
-&lt;/span&gt;      &lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-  &lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Notre composant bookmark.&lt;/p&gt;
-
-&lt;pre class="highlight javascript"&gt;&lt;code&gt;  &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;Bookmark&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;React&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createClass&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
-    &lt;span class="na"&gt;onDeleteClicked&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-      &lt;span class="nx"&gt;bookmark&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;  &lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;props&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-      &lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;props&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;removeLine&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;bookmark&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-    &lt;span class="p"&gt;},&lt;/span&gt;
-
-    &lt;span class="na"&gt;render&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-      &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
-        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;div&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
-          &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;p&lt;/span&gt; &lt;span class="kr"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"title"&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;props&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;title&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/p&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
-&lt;/span&gt;          &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;a&lt;/span&gt; &lt;span class="nx"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"{this.props.title}"&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;props&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;link&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/a&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
-&lt;/span&gt;          &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;button&lt;/span&gt; &lt;span class="nx"&gt;onClick&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;this&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;onDeleteClicked&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="nx"&gt;X&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/button&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
-&lt;/span&gt;        &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/div&lt;/span&gt;&lt;span class="err"&gt;&amp;gt;
-&lt;/span&gt;      &lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-  &lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;L’application est injectée dans le &lt;code&gt;DOM&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre class="highlight javascript"&gt;&lt;code&gt;  &lt;span class="nx"&gt;React&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;render&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;App&lt;/span&gt; &lt;span class="nx"&gt;bookmarks&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="nx"&gt;bookmarks&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class="sr"&gt;/App&amp;gt;, document.getElementById&lt;/span&gt;&lt;span class="se"&gt;(&lt;/span&gt;&lt;span class="sr"&gt;'app'&lt;/span&gt;&lt;span class="se"&gt;))&lt;/span&gt;&lt;span class="err"&gt;;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Le résultat final est &lt;a href="https://www.npmjs.com/package/my-bookmarks"&gt;disponible sur npm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;J’ai trouvé très interessant l’utilisation de PouchDB – une Base de donnée en JavaSCript – qui permet d’avoir une logique de développement offline first.&lt;/p&gt;
-
-&lt;p&gt;Encore merci aux équipes de Paris web pour cette 10ème édition au top ! Vous êtes formidables.&lt;/p&gt;
 </content>
   </entry>
 </feed>
