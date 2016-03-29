@@ -5,10 +5,38 @@
   <id>http://davidl.fr/blog/</id>
   <link href="http://davidl.fr/blog/"/>
   <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2016-03-25T00:00:00+01:00</updated>
+  <updated>2016-03-29T00:00:00+02:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>Configurer les valeurs par défaut de Node.js</title>
+    <link rel="alternate" href="http://davidl.fr/blog/npm-init-config.html"/>
+    <id>http://davidl.fr/blog/npm-init-config.html</id>
+    <published>2016-03-29T00:00:00+02:00</published>
+    <updated>2016-03-29T11:45:02+02:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;Je viens d’installer une nouvelle machine et en parcourant la documentation de &lt;a href="https://docs.npmjs.com/cli/init"&gt;npm init&lt;/a&gt; j’ai remarqué que l’on pouvait &lt;strong&gt;utiliser des valeurs par défaut pour les nouveaux projets&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Je voulais simplement partager la configuration avec ceux qui ne l’ont pas encore fait et conserver une référence pour moi même :&lt;/p&gt;
+
+&lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;npm config &lt;span class="nb"&gt;set &lt;/span&gt;init.author.name &lt;span class="s2"&gt;"David Leuliette"&lt;/span&gt;
+  &lt;span class="nv"&gt;$ &lt;/span&gt;npm config &lt;span class="nb"&gt;set &lt;/span&gt;init.author.email dleuliette@gmail.com
+  &lt;span class="nv"&gt;$ &lt;/span&gt;npm config &lt;span class="nb"&gt;set &lt;/span&gt;init.author.url http://davidl.fr
+  &lt;span class="nv"&gt;$ &lt;/span&gt;npm config &lt;span class="nb"&gt;set &lt;/span&gt;init.license MIT
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;La prochaine fois que vous utiliserez &lt;code&gt;npm init&lt;/code&gt; ces valeurs seront déjà par défaut. Un &lt;strong&gt;gain de temps considérable&lt;/strong&gt; !&lt;/p&gt;
+
+&lt;h2 id="encore-une-petite-chose"&gt;Encore une petite chose&lt;/h2&gt;
+
+&lt;p&gt;Si vous souhaitez en savoir plus sur votre configuration &lt;code&gt;npm config list&lt;/code&gt; vous affichera des informations utiles. Si vous souhaitez aller plus loin vous pourvez lire les pages du manuel avec &lt;code&gt;npm help config&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Bonne lecture !&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Gagne ta place Early-bird pour la prochaine takeoffconf</title>
     <link rel="alternate" href="http://davidl.fr/blog/takeoffconf-code-promo.html"/>
@@ -416,66 +444,6 @@ Un code organisé simplement est plus facile à maintenir, s’analyse plus rapi
 &lt;/ol&gt;
 
 &lt;p&gt;N’hésitez pas à me contacter si vous avez lu / vu quelque chose de trop awesome ces 100 derniers jours.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>4 mois sans internet</title>
-    <link rel="alternate" href="http://davidl.fr/blog/offthegrid.html"/>
-    <id>http://davidl.fr/blog/offthegrid.html</id>
-    <published>2015-10-06T00:00:00+02:00</published>
-    <updated>2015-10-06T20:11:47+02:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img alt="David est en mode hors connexion" src="https://c1.staticflickr.com/1/705/21182629074_bb72e0ffd1_c.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Je pars pour l’Amérique du sud, destination Lima au Pérou. &lt;strong&gt;Pour 4 mois&lt;/strong&gt;. &lt;em&gt;Sans internet&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id="pourquoi-"&gt;Pourquoi ?&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Je prends une pause&lt;/strong&gt;. J’ai besoin de temps pour me concentrer sur des activités hors-ligne. J’ai passé plus de 15 ans à arpenter les internets. Construire une réputation, travailler sur des projets open source, donner des conseils &amp;amp; prendre soin du web en général. &lt;em&gt;Je ne regrette rien&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Je vais fêter mes 30 ans – probablement en Bolivie – loin de ma famille et mes amis, et j’ai besoin de faire le point avant d’attaquer les 10 prochaines années. Appendre à &lt;strong&gt;ignorer les choses qui font perdre du temps&lt;/strong&gt;. Ne plus m’investir dans des projets web avec des clients &lt;del&gt;de merde&lt;/del&gt; pas aussi attentionnés que moi.&lt;/p&gt;
-
-&lt;p&gt;Pour être honnête j’ai du mal à mettre en pause mon activité en ligne (autrement dit travail). Comment vais–je gérer mes emails ? Twitter ? mon blog ? maîtriser ReactJS ? …&lt;/p&gt;
-
-&lt;p&gt;Pendant ce temps là, &lt;em&gt;la terre ne s’arrêtera pas de tourner&lt;/em&gt;, et je ne vais pas changer le monde. C’est pourquoi je vais &lt;strong&gt;me forcer à être hors ligne&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id="apprendre"&gt;Apprendre&lt;/h2&gt;
-
-&lt;p&gt;Maîtriser &amp;amp; evangeliser sur le web en général est l’&lt;a href="/blog/365-jours-de-code.html"&gt;un de mes principaux passe temps&lt;/a&gt;.
-Devenir expert est une chose importante pour moi &amp;amp; je pense avoir réussi :) …&lt;/p&gt;
-
-&lt;p&gt;Cela ne veut pas dire que je vais arrêter d’&lt;strong&gt;améliorer mes compétences&lt;/strong&gt;, mais je ne peux pas imaginer passer ma vie derrière un écran ces 10 prochaines années.&lt;/p&gt;
-
-&lt;p&gt;Pendant ces 4 mois, je vais apprendre de nouvelles choses. Des choses qui ne sont pas pertinentes pour ma carrière et qui ne permettront pas d’être meilleur dans l’écriture de code. Je vais apprendre la base de l’espagnol, améliorer mes &lt;strong&gt;compétences de sketchnoting&lt;/strong&gt; de l’extrème &amp;amp; la &lt;strong&gt;pratique du trekking en haute altitude&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id="pourquoi-lamrique-du-sud-"&gt;Pourquoi l’Amérique du sud ?&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Aucune idée&lt;/em&gt;. 4 mois de trekking sur la cordillère des Andes me semble être une très bonne activité. Mon objectif est de traverser 4 pays : &lt;strong&gt;Pérou&lt;/strong&gt;, &lt;strong&gt;Bolivie&lt;/strong&gt;, &lt;strong&gt;Argentine&lt;/strong&gt; &amp;amp; &lt;strong&gt;Chili&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="trip off the grid in america" src="https://c2.staticflickr.com/6/5669/21809855829_ca0e468e5b_z.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Je ne connais absolument rien de cette culture — à part mes souvenirs de Tintin &amp;amp; Le Temple du Soleil — mais j’ai envie de voir ma réaction face à l’inconnu total.&lt;/p&gt;
-
-&lt;p&gt;Si vous me connaissez, vous savez que je vis dans beaucoups d’endroits différents. N’ayant pas de réel “foyer”, je ne suis donc chez moi nulle part. Dans ce cas là, autant installer son chez soi partout et voyager 4 mois me permettra de me rendre compte ce qui est essentiel &amp;amp; ignorer tout le reste.&lt;/p&gt;
-
-&lt;p&gt;J’ai envie de soleil. J’ai envie d’être surpis. J’ai envie de me perde.&lt;/p&gt;
-
-&lt;h2 id="et-aprs-"&gt;Et après ?&lt;/h2&gt;
-
-&lt;p&gt;J’ai arrêté de faire plusieurs plans en même temps. Ma prochaine “boucle” est de prendre l’avion. Cela me demandera un peu de temps pour me tenir à jours du nouveau framework JavaScript à maîtriser – je prends les paris pour &lt;a href="http://vuejs.org/"&gt;vue.js&lt;/a&gt; –, dépiler mes news / emails / twitter …&lt;/p&gt;
-
-&lt;p&gt;Même si 4 mois est une courte période, j’espère que vous m’attendrez patiemment.
-À mon retour, je serai un peu plus vieux, un peu plus sage, mais &lt;em&gt;heureux de vous retrouver&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Je suis en ligne pour encore 1 mois. &lt;strong&gt;Si vous avez quelque chose à vérifier&lt;/strong&gt; avant mon départ, n’hésitez &lt;a href="/contact.html"&gt;pas à me contacter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On se voit dans 4 mois !&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;En attendant mon retour, suivez mon périple sur &lt;a href="http://tripoffthegrid.tumblr.com/"&gt;tripoffthegrid&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>

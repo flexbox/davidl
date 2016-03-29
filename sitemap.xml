@@ -464,6 +464,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://davidl.fr/blog/npm-init-config.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://davidl.fr/blog</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
