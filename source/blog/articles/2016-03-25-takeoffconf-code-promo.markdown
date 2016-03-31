@@ -19,12 +19,12 @@ Ajourd’hui c’est un bonne journée pour plusieurs raisons : c’est vendredi
 Le programme n’est pas définitif mais voici pourquoi vous devez venir :
 
 - En octobre il n’y a rien à faire d’autre
-- Cette année c'est 3 jours qui sont prévu ! (Du Jeudi 06 octobre au Samedi 08 Octobre 2016)
+- Cette année c'est 3 jours qui sont prévus ! (Du Jeudi 06 octobre au Samedi 08 Octobre 2016)
 - La soirée sur la Gare Saint Sauveur est top !
 - Vous __pourrez me voir en 3D__
 - Vous rencontrerez [pleins développeurs du futur](https://twitter.com/takeoffconf/status/429257447866662912)
 - Au tarif __early-bird la place n’est pas chère__
-- Qui à besoin d’un programme avec une baseline comme “_Les sujets qui feront l’actualité des devs en 2017_ ”
+- Qui a besoin d’un programme avec une baseline comme “_Les sujets qui feront l’actualité des devs en 2017_ ”
 
 
 ## C’est par où la glissade ?
