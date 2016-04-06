@@ -1,6 +1,6 @@
 .m-hero-banner {
   position: relative;
-  background-color: $primary-color;
+  background: linear-gradient(to right, $blue-light 0%, $primary-color 80%);
   margin-bottom: rem-calc(30);
   padding-top: $topbar-height;
   @media #{$small} {
