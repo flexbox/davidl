@@ -17,7 +17,7 @@
   name: Firefox Developer Edition
   description: "La version alpha de Firefox permet de tester en avant-première les futures publications du navigateur."
   url: "https://www.mozilla.org/fr/firefox/channel/#developer"
-  image: nightly.png
+  image: logo-firefox-dev-edition.png
 -
   name: GitHub
   description: "Hébergement de vos projets utilisant Git. Le site web possède des fonctionalités indispensable comme un navigateur de code source, l’édition en ligne, les wikis, et une gestion de tickets."
@@ -88,11 +88,6 @@
   description: "Selon moi c’est le meilleur éditeur de code. Rapide, facile à prendre en main, et évolutif presque à l’infini grâce à une énorme quantité de plug-in."
   url: http://www.sublimetext.com/
   image: sublimetext.png
--
-  name: Tower
-  description: "Git tower un un bon remplaçant à GitX. Il dispose de beaucoups plus de fonctionalités et pourra vous sauver la vie pendant la résolution de conflits sous git."
-  url: http://www.git-tower.com/
-  image: tower.png
 -
   name: VirtualBox
   description: "Pour tester le comportement d’Internet Explorer avec MacOS, la solution passe par la virtualisation."
