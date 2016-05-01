@@ -11,13 +11,13 @@ blog: blog
   = javascript_include_tag 'front/homepage'
 
 .m-hero-homepage.js-hero-homepage
-  h1.logo
-    .icon.animate Conseils en Design
-    .pipe.animate &
-    .name.animate Développement
-  markdown:
-
-    Cherchez—vous des conseils sur la conception & le développement front-end ? Voulez-vous mieux atteindre les consommateurs connectés d'aujourd'hui? Si oui, vous êtes au bon endroit. Ce blog et podcast est là consultant de l'expérience utilisateur Paul Boag, partage ses idées dans le domaine du numérique.
+  .l-content
+    h1.title
+      strong> CONSEILS EN DESIGN
+      br
+      '& DÉVELOPPEMENT
+    markdown:
+      Vous cherchez des conseils sur la __conception & le développement front-end__?<br>Vous souhaitez mieux atteindre les consommateurs connectés d’aujourd'hui ? Si oui, __vous êtes au bon endroit__. Ce blog présente les travaux du __consultant développeur front-end__ David Leuliette, qui partage ses idées dans le domaine du numérique.
   = link_to 'En savoir plus', '/consulting/',class: 'button secondary button-call-to-action'
 
 .row
@@ -26,9 +26,9 @@ blog: blog
       h2 Construire de meilleures applications web
       p
         'J’écris du code pour rendre les utilisateurs heureux &
-        em améliorer la performance.
+        strong améliorer la performance.
       p
-        'Je suis quelqu’un qui aime construire des applications web & pousser du code tous les jours. Mon objectif est de
+        'Je suis quelqu’un qui aime développer des applications web & pousser du code tous les jours. Mon objectif est de
         strong construire des produits que les gens aiment utiliser.
 
 .m-section--inverse
@@ -179,8 +179,8 @@ blog: blog
 section.m-section
   .row
     .medium-10.medium-centered.columns.text-center
-      h2 Je veux un web meilleur
-      p Je suis designer et développeur, la conception et la convivialité sont mon mode de vie. Cependant, ce n’est pas vrai pour la plupart des gens. Concevoir un très bon produit est un processus, et généralement c’est cher. C’est pourquoi je m’engage à bâtir un meilleur web en faisant tout mon possible pour livrer des sites internet rapides et accessibles.
+      markdown:
+        ## Je veux un web meilleur
+        Je suis __designer et développeur__, la conception et la convivialité sont mon mode de vie. Cependant, ce n’est pas vrai pour la plupart des gens. Concevoir un très bon produit est un processus, et généralement c’est cher. C’est pourquoi je m’engage à bâtir un meilleur web en faisant tout mon possible pour livrer des sites internet rapides et accessibles.
       p.lead Un meilleur web est mon objectif
-      = link_to 'Travailler avec un designer', '/work.html', class: 'button secondary'
-
+      = link_to 'Travailler avec un consultant', '/work.html', class: 'button secondary'

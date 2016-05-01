@@ -8,7 +8,7 @@ $ ->
   pattern = Trianglify({
     height: window.innerHeight,
     width: window.innerWidth,
-    cell_size: 30+Math.random()*50,
+    cell_size: 150 + Math.random() * 50,
     color_function: randomColor
   })
 

@@ -1,3 +1,69 @@
+@keyframes slideUp {
+  0%, 50% { margin-bottom: -50%; }
+  100% { margin-bottom: 0; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+.m-hero-homepage {
+  display: flex;
+
+  .title {
+    letter-spacing: -2px;
+    strong {
+      letter-spacing: -4px;
+    }
+    @media #{$small-only} {
+      font-size: 40px;
+    }
+  }
+
+  .l-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 9;
+    flex-direction: column;
+    margin: 0px;
+    color: $black;
+    width: 100%;
+    h1, p {
+      margin: 0;
+      max-width: rem-calc(560);
+      padding: rem-calc(5);
+      color: $white;
+      text-shadow: 0px 1px 2px rgba(0,0,0,0.6);
+    }
+  }
+  canvas {
+    opacity: 0;  /* make things invisible upon start */
+    animation: fadeIn ease-in 0.4;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+  }
+
+  .button-call-to-action {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    margin: 0;
+    margin-left: rem-calc(-90);
+    animation: slideUp 3s;
+    bottom: rem-calc(40);
+    @media #{$small-only} {
+      bottom: rem-calc(80);
+      margin-left: -90px;
+    }
+  }
+}
+
+
+
 .m-homepage {
   .l-illu {
     font-size: rem-calc(40);

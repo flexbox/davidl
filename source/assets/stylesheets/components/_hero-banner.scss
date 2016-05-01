@@ -61,7 +61,7 @@ $banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%)
 .m-hero-homepage {
   position: relative;
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   text-align: center;
   background: $banner-linear-bg;
 
@@ -72,20 +72,6 @@ $banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%)
     font-weight: $font-weight-bold;
     top: 50%;
     z-index: 10;
-  }
-
-  .button-call-to-action {
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    margin: 0;
-    margin-left: rem-calc(-90);
-    animation: slideUp 3s;
-    bottom: rem-calc(40);
-    @media #{$small-only} {
-      bottom: rem-calc(80);
-      margin-left: -90px;
-    }
   }
 
   canvas {
@@ -113,98 +99,5 @@ $banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%)
   background: url("https://farm4.staticflickr.com/3946/15583794966_fd39f2f2e8_o.jpg") repeat top center $primary-color;
   @media #{$small} {
     animation: 35s linear 0s normal none infinite movebg;
-  }
-}
-
-
-
-.logo {
-  height: 80px;
-  z-index: 11;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: rem-calc(430);
-  text-shadow: $text-shadow;
-  @media #{$small-only} {
-    width: auto;
-    margin: rem-calc(140 0 0);
-  }
-
-  div {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .animate {
-    animation: logo 1s;
-  }
-
-  .icon {
-    font-weight: $font-weight-bold;
-  }
-
-  .pipe {
-      font-weight: $font-weight-light;
-      font-size: rem-calc(80);
-      margin-top: -10px;
-
-      &.animate {
-        animation: openPipe 1s;
-      }
-    }
-
-  .name {
-    font-weight: $font-weight-light;
-    &.animate {
-      animation: slideName 2s;
-    }
-  }
-}
-
-
-@keyframes logo {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1);
-  }
-}
-
-@keyframes openPipe {
-  0%, 50% {
-    transform: scale(0);
-  }
-  100% {
-   transform: scale(1);
-  }
-}
-
-@keyframes slideUp {
-  0%, 50% {
-    margin-bottom: -100%;
-  }
-  100% {
-   margin-bottom: 0;
-  }
-}
-
-@keyframes slideName {
-  0%, 40% {
-    transform: scale(0);
-    opacity: 0;
-    margin-left: -100%;
-  }
-  55% {
-    opacity: 0;
-  }
-  100% {
-    margin-left: 0%;
-    transform: scale(1);
-    opacity: 1;
   }
 }

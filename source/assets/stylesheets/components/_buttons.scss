@@ -1,4 +1,5 @@
 .button {
+  text-transform: uppercase;
   font-weight: $font-weight-bold;
   transition: background 150ms ease-in-out;
   &:hover {
