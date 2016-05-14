@@ -8,9 +8,9 @@
             li role="menuitem"
               = link_to 'Applications', '/toolkit.html', title: 'Logiciels pour le développement et l’intégration web'
             li role="menuitem"
-              = link_to 'Open source', '/projects.html', title: 'Mes projets'
-            li role="menuitem"
               = link_to 'Manifeste', '/manifesto.html', title: 'Mes engagements envers le web'
+            li role="menuitem"
+              = link_to 'Open source', '/projects.html', title: 'Mes projets'
             li role="menuitem"
               = link_to 'Responsive', '/webdesign.html', title: 'Méthode pour le design de sites internet'
         .small-6.medium-3.columns
@@ -21,18 +21,18 @@
             li role="menuitem"
               = link_to 'Bibliothèque', '/books.html', title: "conseils de lecture"
             li role="menuitem"
-              = link_to 'Typographie', '/typography.html', title: "conseils sur la typographie pour le web"
-            li role="menuitem"
               = link_to 'Mentors', '/mentors.html', title: "Liste de personnes à suivre"
+            li role="menuitem"
+              = link_to 'Typographie', '/typography.html', title: "conseils sur la typographie pour le web"
         .small-6.medium-3.columns
           ul.m-footer--side-nav role="menubar"
             li.l-title À propos
             li role="menuitem"
               = link_to 'En savoir plus', '/about.html', title: 'Je peux vous aider'
             li role="menuitem"
-              = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
+              = link_to 'GNU GPL', '/gnu.html'
             li role="menuitem"
-              = link_to 'GNU/GPL', '/gnu.html'
+              = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
             li role="menuitem"
               = link_to 'Plan du site', '/sitemap.html', title: 'Cliquez si vous êtes perdus'
         .small-6.medium-3.columns
@@ -41,17 +41,17 @@
             li role="menuitem"
               = link_to 'Contact', '/contact.html', title: 'Je lis TOUS mes emails'
             li role="menuitem"
-              = link_to 'Une question ?', '/ask-me.html', title: 'Je réponds chaque semaine à une question'
+              = link_to 'Newsletter', '/newsletter.html', title: 'Suivre l’évolution de mes services'
             li role="menuitem"
               = link_to 'Services', '/work.html', title: 'Vous pouvez m’enbaucher'
             li role="menuitem"
-              = link_to 'Newsletter', '/newsletter.html', title: 'Suivre l’évolution de mes services'
+              = link_to 'Une question ?', '/ask-me.html', title: 'Je réponds chaque semaine à une question'
 
 footer.m-footer role="contentinfo"
   .row
     .medium-8.medium-centered.columns
       p.m-footer--title Améliorer vos compétences
-      p Recevez mes conseils en développement front-end. Ne vous inquétez pas je déteste le spam, il suffit d'un clic pour se désabonner.
+      p Recevez mes conseils en design & développement front-end. Ne vous inquétez pas je déteste le spam, il suffit d’un clic pour se désabonner.
       form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
         .row
           .small-12.columns
