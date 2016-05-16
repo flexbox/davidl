@@ -5,10 +5,84 @@
   <id>http://davidl.fr/blog/</id>
   <link href="http://davidl.fr/blog/"/>
   <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2016-03-29T00:00:00+02:00</updated>
+  <updated>2016-05-04T00:00:00+02:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>GitShot — timelapse vidéo de chaque commit</title>
+    <link rel="alternate" href="http://davidl.fr/blog/gitshot.html"/>
+    <id>http://davidl.fr/blog/gitshot.html</id>
+    <published>2016-05-04T00:00:00+02:00</published>
+    <updated>2016-05-16T23:23:45+02:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;Ceux qui me connaissent savent que j’adore tracker un tas de trucs dans ma vie. J’utilise &lt;a href="https://www.evernote.com/referral/Registration.action?sig=20b14c77343018bd4f93762fc9fae90d&amp;amp;uid=22499360"&gt;evernote&lt;/a&gt; pour mes recettes de cuisine &amp;amp; mes sides projects, Foursquare pour les km parcourus, &lt;a href="http://www.codeivate.com/users/flexbox"&gt;codeivate&lt;/a&gt; pour mes heures de code.&lt;/p&gt;
+
+&lt;p&gt;Ajourd’hui je vous propose quelque chose de bien plus fun : &lt;strong&gt;prendre une photo avec votre webcam à chaque commit&lt;/strong&gt; !&lt;/p&gt;
+
+&lt;iframe width="640" height="360" src="https://www.youtube.com/embed/bU6_9RK7HR0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;em&gt;J’ai testé ce hack seulement sur macOS. Si quelqu’un a essayé sur Linux &lt;a href="http://twitter.com/_flexbox"&gt;je veux bien un tweet à ce sujet&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id="hacker-votre-webcam"&gt;Hacker votre webcam&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.iharder.net/current/macosx/imagesnap/"&gt;ImageSnap&lt;/a&gt; est un logiciel en ligne de commande qui permet de capturer une image depuis votre webcam. Sur macOS vous pourvez l’installer via &lt;a href="https://github.com/Homebrew/homebrew-bundle"&gt;brew&lt;/a&gt; :&lt;/p&gt;
+
+&lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;brew install imagesnap
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Une fois téléchargé, vous pouvez utiliser la commande &lt;code&gt;imagesnap&lt;/code&gt; pour capturer une image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Gitshot CLI" src="https://c2.staticflickr.com/8/7212/26964984922_8730424a83_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;h2 id="ajouter-un-git-hook"&gt;Ajouter un Git Hook&lt;/h2&gt;
+
+&lt;p&gt;Créez 2 dossiers &lt;code&gt;.gitshot&lt;/code&gt; et &lt;code&gt;.git-templates&lt;/code&gt; dans votre dossier utilisateur.&lt;/p&gt;
+
+&lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;mkdir ~/.gitshot ~/.git-templates
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ajoutez ces 2 lignes dans votre fichier &lt;code&gt;.gitconfig&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="o"&gt;[&lt;/span&gt;init]
+    templatedir &lt;span class="o"&gt;=&lt;/span&gt; ~/.git-templates
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Vous devez maintenant créer votre fichier de hook.&lt;/p&gt;
+
+&lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;vim .git-templates/hooks/post-commit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Collez-y les lignes suivantes :&lt;/p&gt;
+
+&lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="c1"&gt;#!/usr/bin/env ruby&lt;/span&gt;
+  &lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;"~/.gitshots/&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="no"&gt;Time&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;now&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;to_i&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.jpg"&lt;/span&gt;
+  &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="s2"&gt;"Taking capture into &lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;!"&lt;/span&gt;
+  &lt;span class="nb"&gt;system&lt;/span&gt; &lt;span class="s2"&gt;"imagesnap -q -w 3 &lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;
+  &lt;span class="nb"&gt;exit&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pour que votre Hook s’applique à vos anciens projets, n’oubliez pas de faire un &lt;code&gt;git init&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id="timelapse-vido"&gt;Timelapse vidéo&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.dayofthenewdan.com/projects/tlassemble/"&gt;tlassemble&lt;/a&gt; est un utilitaire qui permet de mettre des images les une à la suite des autres pour réaliser une vidéo.&lt;/p&gt;
+
+&lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;brew install tlassemble
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pour créer notre timelapse video vous devez spécifier le dossier d’origine et le fichier de sortie.&lt;/p&gt;
+
+&lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;tlassemble .gitshots time_lapse.mov
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Et voila !&lt;/p&gt;
+
+&lt;p&gt;Abonnez-vous à ma newsletter pour voir le timelapse des &lt;strong&gt;1 an de commit&lt;/strong&gt;. En tant que consultant front-end je suis curieux de voir en image les différents endroits d’où je travaille.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Configurer les valeurs par défaut de Node.js</title>
     <link rel="alternate" href="http://davidl.fr/blog/npm-init-config.html"/>
@@ -340,110 +414,6 @@ Un code organisé simplement est plus facile à maintenir, s’analyse plus rapi
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-</content>
-  </entry>
-  <entry>
-    <title>I AM BACK</title>
-    <link rel="alternate" href="http://davidl.fr/blog/online.html"/>
-    <id>http://davidl.fr/blog/online.html</id>
-    <published>2016-02-08T00:00:00+01:00</published>
-    <updated>2016-03-15T17:59:47+01:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;Bonjour à tous ! Aujourd’hui j’écris un article qui ne parlera pas d’&lt;strong&gt;intégration web&lt;/strong&gt; ou de &lt;strong&gt;développement front-end&lt;/strong&gt; (rassurez vous j’y travaille). Dans cet article je vais présenter de façon non-exhaustive les différentes activitées que j’ai réalisées pendant mon voyage en Amérique du Sud.&lt;/p&gt;
-
-&lt;p&gt;En tant que créatif, j’ai réalisé de nombreux &lt;strong&gt;sketchnoting&lt;/strong&gt; de l’extrême pour présenter mon voyage, tout est &lt;a href="https://www.flickr.com/photos/geekgrunge/albums/72157663947436340"&gt;disponible dans un album FlickR&lt;/a&gt;. Pour terminer, j’ai fait un peu de veille en écoutant des podcasts pendant les trajets de bus. N’hésitez pas à me dire si j’ai raison pour mes prédictions, je n’ai pas pu vérifier toutes les informations.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pour mes amis Lillois&lt;/strong&gt; : Je compte organiser une soirée de retour &lt;em&gt;#stayTuned&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="David Leuliette Sandboard &amp;amp; buggy session – Hucachina Peru" src="https://c2.staticflickr.com/2/1483/24822137141_1fb7487b41_b.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;— Sandboard session in Hucachina Peru&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id="jours-entre-prou-bolivie--chili"&gt;100 jours entre Pérou, Bolivie &amp;amp; Chili&lt;/h2&gt;
-
-&lt;p&gt;J’ai eu le temps de réaliser des choses incroyables, si les voyages en sac à dos vous interessent n’hésitez pas à me contacter, j’ai quelques conseils pour vous ;)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Aller chercher 3 fois de suite une amie à l’aéroport (Toujours faire attention au décalage horaire)&lt;/li&gt;
-  &lt;li&gt;Faire l’expérience de la solitude dans le désert&lt;/li&gt;
-  &lt;li&gt;Survivre 3 jours dans le &lt;a href="http://www.colcaperu.gob.pe/"&gt;Canyon del Colca&lt;/a&gt; (Plus de 1 000 mètres de dénivelé avec le village)&lt;/li&gt;
-  &lt;li&gt;Passer 15h de bus sur de la piste en cailloux pour rejoindre l’&lt;strong&gt;Amazonie Bolivienne&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Pêcher&lt;/strong&gt; le piranha&lt;/li&gt;
-  &lt;li&gt;Construire des bottes à l’aide de sac plastique &amp;amp; de ruban adhésif toilé pour chasser le serpent dans les marais&lt;/li&gt;
-  &lt;li&gt;Nager avec les &lt;a href="https://fr.wikipedia.org/wiki/Boto"&gt;dauphins roses d’eau douce&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Dormir dans un hôtel de sel&lt;/li&gt;
-  &lt;li&gt;Assister au lever de soleil sur le &lt;strong&gt;désert de sel de Uyuni&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Dépenser son argent vitesse lumière en marchandant dans les magasins de &lt;strong&gt;Cuzco&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Réveil 4h, monter le Macchu Picchu + la Montaña dans la brume, tout redescendre, marcher le long de la voie ferrée, revenir à Cuzco, aller en discothèque, couché 4h du matin&lt;/li&gt;
-  &lt;li&gt;Traverser la ville de &lt;strong&gt;Iquique en parapente&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Assister à une &lt;a href="https://www.isasurf.org/events/isa-world-bodyboard-championship/"&gt;compétition internationale de bodyboard&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Se ballader dans le champ de geysers El tatio (les plus hauts du monde)&lt;/li&gt;
-  &lt;li&gt;Observer les étoiles avec un téléscope dans le &lt;strong&gt;désert d’Atacama&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Se perdre dans la ville labyrinthe de &lt;a href="http://www.routard.com/guide_voyage_lieu/3484-valparaiso.htm"&gt;Valparaiso&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;BA du voyage : éviter à une amie de se faire voler son sac&lt;/li&gt;
-  &lt;li&gt;Descendre un sentier de randonnée en courant (4h de montée, 1h de descente)&lt;/li&gt;
-  &lt;li&gt;Réaliser l’ascension d’un volcan en activité – &lt;a href="https://fr.wikipedia.org/wiki/Villarrica_%28volcan%29"&gt;Villarica au Chili&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Tourner dans une &lt;a href="https://www.facebook.com/PuconSierraNevada/"&gt;publicité pour du rafting&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Faire de l’ethnotourisme avec des pêcheurs locaux&lt;/li&gt;
-  &lt;li&gt;Manger du &lt;a href="https://www.youtube.com/watch?v=rVXFtaFvKa8"&gt;Curanto&lt;/a&gt;, la spécialité de l’&lt;strong&gt;île de Chiloé&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Explorer la &lt;strong&gt;Patagonie&lt;/strong&gt; en autostop (avec plus ou moins de succès) exactement comme Pekin Express&lt;/li&gt;
-  &lt;li&gt;Assister à une compétition de rodéo Chilien&lt;/li&gt;
-  &lt;li&gt;Se doucher dans un lac&lt;/li&gt;
-  &lt;li&gt;Visiter la capitale nationale de la cerise – Los antigo — Argentine&lt;/li&gt;
-  &lt;li&gt;Visiter la capitale nationale du trekking – El Chalten — Argentine&lt;/li&gt;
-  &lt;li&gt;Visiter la capitale nationale des glaciers – El Calafate — Argentine&lt;/li&gt;
-  &lt;li&gt;4 jours de trekking pour réaliser le “W” dans le parc national &lt;a href="http://www.torresdelpaine.com/"&gt;Torres del paine&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Atteindre Ushuaïa, la terre de feu et visiter le dessous du glacier Vinciguerra&lt;/li&gt;
-  &lt;li&gt;Manger dans un restaurant — buffet &amp;amp; BBQ illimité&lt;/li&gt;
-  &lt;li&gt;90 heures de bus d’affilée pour rejoindre Lima en partant de Punta arenas&lt;/li&gt;
-  &lt;li&gt;Faire des selfie avec des animaux improbables : Lamas, pingouins, caïmans …&lt;/li&gt;
-  &lt;li&gt;Rencontrer énormément de personnes formidables&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img alt="Trekking Torres del Paine — Chile" src="https://c2.staticflickr.com/2/1590/24892127996_2e97c8910e_b.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;— Parc national Torres del Paine au Chili&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Sketchnoting puerto natales" src="https://c2.staticflickr.com/2/1513/24317249103_0547f9b8d2_b.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;— &lt;a href="https://www.flickr.com/photos/geekgrunge/albums/72157663947436340"&gt;Voir tous mes sketchnotes dans un album FlickR&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id="comment-se-tenir--jour-"&gt;Comment se tenir à jour ?&lt;/h2&gt;
-
-&lt;p&gt;Dans mon &lt;a href="http://davidl.fr/blog/offthegrid.html"&gt;précédent article&lt;/a&gt; je me posais quelques questions : comment vais–je gérer mes emails ? Twitter ? mon blog ? maîtriser ReactJS ? … J'ai commencé par me désabonner de mes &lt;a href="http://davidl.fr/newsletter.html"&gt;newsletters sur développement &amp;amp; le design&lt;/a&gt; et ensuite je n’avais plus accès à internet… Problème résolu !&lt;/p&gt;
-
-&lt;p&gt;Ma principale préoccupation était d’&lt;strong&gt;apprendre à parler espagnol&lt;/strong&gt; et comme en Bolivie la qualité du réseau est médiocre :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;No hay aquì wifi&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Un propriétaire d’hostel en Bolivie&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;J'ai suivi un peu l’actualité des internets grâce à 2 choses :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Parcourir mon fil d’&lt;strong&gt;actualité sur Twitter&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Écouter des podcasts&lt;/strong&gt; pendant les long trajets en bus&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="objectifs-dun-redesign-en-2016-"&gt;Objectifs d’un redesign en 2016 ?&lt;/h3&gt;
-
-&lt;p&gt;Avant de partir, j‘avais parié que &lt;a href="http://vuejs.org/"&gt;vue.js&lt;/a&gt; allait faire parler du lui… 4 mois plus tard je n‘ai pas vu un seul article passer contraitement à &lt;a href="https://github.com/facebook/react"&gt;ReactJS&lt;/a&gt;. En ce début d’année, voici mes prédiction pour un nouveau projet ou un redesign :&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;ES6 + Compilation / transpilation de TOUT le code JavaScript&lt;/li&gt;
-  &lt;li&gt;Pas de librairies JavaScript — seulement &lt;a href="http://insertafter.com/fr/blog/promises_javascript_ouvrons_capot.html"&gt;des promises&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Pas de librairies de chargement asynchrone&lt;/li&gt;
-  &lt;li&gt;Éviter les icônes en polices de caractère&lt;/li&gt;
-  &lt;li&gt;Utiliser plus de SVG&lt;/li&gt;
-  &lt;li&gt;Utiliser les services workers pour la gestion avancée du cache&lt;/li&gt;
-  &lt;li&gt;Utiliser &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API"&gt;WebPush&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;N’hésitez pas à me contacter si vous avez lu / vu quelque chose de trop awesome ces 100 derniers jours.&lt;/p&gt;
 </content>
   </entry>
 </feed>
