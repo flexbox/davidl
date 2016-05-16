@@ -3,7 +3,7 @@ date: 2016-05-04
 slug: gitshot
 title: "GitShot — timelapse vidéo de chaque commit"
 description: "Controler avec le terminal la webcam de votre ordinateur et prendre une photo à chaque commit pour réaliser une vidéo en timelapse"
-image:
+image: https://c2.staticflickr.com/8/7761/27026241186_524b91439a_b.jpg
 page_title: GitShot
 page_emphasis: Hacker sa webcam et jouer avec git c’est swag
 changefreq: monthly
@@ -14,7 +14,7 @@ Ceux qui me connaissent savent que j’adore tracker un tas de trucs dans ma vie
 
 Ajourd’hui je vous propose quelque chose de bien plus fun : __prendre une photo avec votre webcam à chaque commit__ !
 
-https://www.youtube.com/watch?v=bU6_9RK7HR0
+<iframe width="640" height="360" src="https://www.youtube.com/embed/bU6_9RK7HR0" frameborder="0" allowfullscreen></iframe>
 
 _J’ai testé ce hack seulement sur macOS. Si quelqu’un a essayé sur Linux [je veux bien un tweet à ce sujet](http://twitter.com/_flexbox)._
 
@@ -28,7 +28,7 @@ _J’ai testé ce hack seulement sur macOS. Si quelqu’un a essayé sur Linux [
 
 Une fois téléchargé, vous pouvez utiliser la commande `imagesnap` pour capturer une image.
 
-![Gitshot CLI](gitshot-cli.png)
+![Gitshot CLI](https://c2.staticflickr.com/8/7212/26964984922_8730424a83_b.jpg)
 
 ## Ajouter un Git Hook
 
