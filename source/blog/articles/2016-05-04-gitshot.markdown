@@ -1,0 +1,80 @@
+---
+date: 2016-05-04
+slug: gitshot
+title: "GitShot — timelapse vidéo de chaque commit"
+description: "Controler avec le terminal la webcam de votre ordinateur et prendre une photo à chaque commit pour réaliser une vidéo en timelapse"
+image:
+page_title: GitShot
+page_emphasis: Hacker sa webcam et jouer avec git c’est swag
+changefreq: monthly
+priority: 0.5
+---
+
+Ceux qui me connaissent savent que j’adore tracker un tas de trucs dans ma vie. J’utilise [evernote](https://www.evernote.com/referral/Registration.action?sig=20b14c77343018bd4f93762fc9fae90d&uid=22499360) pour mes recettes de cuisine & mes sides projects, Foursquare pour les km parcourus, [codeivate](http://www.codeivate.com/users/flexbox) pour mes heures de code.
+
+Ajourd’hui je vous propose quelque chose de bien plus fun : __prendre une photo avec votre webcam à chaque commit__ !
+
+https://www.youtube.com/watch?v=bU6_9RK7HR0
+
+_J’ai testé ce hack seulement sur macOS. Si quelqu’un a essayé sur Linux [je veux bien un tweet à ce sujet](http://twitter.com/_flexbox)._
+
+## Hacker votre webcam
+
+[ImageSnap](http://www.iharder.net/current/macosx/imagesnap/) est un logiciel en ligne de commande qui permet de capturer une image depuis votre webcam. Sur macOS vous pourvez l’installer via [brew](https://github.com/Homebrew/homebrew-bundle) :
+
+~~~bash
+  $ brew install imagesnap
+~~~
+
+Une fois téléchargé, vous pouvez utiliser la commande `imagesnap` pour capturer une image.
+
+![Gitshot CLI](gitshot-cli.png)
+
+## Ajouter un Git Hook
+
+Créez 2 dossiers `.gitshot` et `.git-templates` dans votre dossier utilisateur.
+
+~~~bash
+  $ mkdir ~/.gitshot ~/.git-templates
+~~~
+
+Ajoutez ces 2 lignes dans votre fichier `.gitconfig`
+
+~~~bash
+  [init]
+    templatedir = ~/.git-templates
+~~~
+
+Vous devez maintenant créer votre fichier de hook.
+
+~~~bash
+  $ vim .git-templates/hooks/post-commit
+~~~
+
+Collez-y les lignes suivantes :
+
+      #!/usr/bin/env ruby
+      file="~/.gitshots/#{Time.now.to_i}.jpg"
+      puts "Taking capture into #{file}!"
+      system "imagesnap -q -w 3 #{file}"
+      exit 0
+
+Pour que votre Hook s’applique à vos anciens projets, n’oubliez pas de faire un `git init`.
+
+## Timelapse vidéo
+
+[tlassemble](http://www.dayofthenewdan.com/projects/tlassemble/) est un utilitaire qui permet de mettre des images les une à la suite des autres pour réaliser une vidéo.
+
+~~~bash
+  $ brew install tlassemble
+~~~
+
+Pour créer notre timelapse video vous devez spécifier le dossier d’origine et le fichier de sortie.
+
+~~~bash
+  $ tlassemble .gitshots time_lapse.mov
+~~~
+
+Et voila !
+
+Abonnez-vous à ma newsletter pour voir le timelapse des __1 an de commit__. En tant que consultant front-end je suis curieux de voir en image les différents endroits d’où je travaille.

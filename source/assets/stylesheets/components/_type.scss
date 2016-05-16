@@ -15,6 +15,12 @@ h1, h2 {
   background: rgba($black, 0.1);
 }
 
+pre {
+  *::selection {
+    background: rgba($white, 0.6);
+  }
+}
+
 .i-rounded {
   border: 2px solid $secondary-color;
   border-radius: $global-rounded;
