@@ -32,10 +32,10 @@ Une fois téléchargé, vous pouvez utiliser la commande `imagesnap` pour captur
 
 ## Ajouter un Git Hook
 
-Créez 2 dossiers `.gitshot` et `.git-templates` dans votre dossier utilisateur.
+Créez 2 dossiers `.gitshots` et `.git-templates` dans votre dossier utilisateur.
 
 ~~~bash
-  $ mkdir ~/.gitshot ~/.git-templates
+  $ mkdir ~/.gitshots ~/.git-templates
 ~~~
 
 Ajoutez ces 2 lignes dans votre fichier `.gitconfig`
