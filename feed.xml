@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://davidl.fr/blog/gitshot.html"/>
     <id>http://davidl.fr/blog/gitshot.html</id>
     <published>2016-05-04T00:00:00+02:00</published>
-    <updated>2016-05-16T23:23:45+02:00</updated>
+    <updated>2016-05-17T10:46:37+02:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -39,9 +39,9 @@
 
 &lt;h2 id="ajouter-un-git-hook"&gt;Ajouter un Git Hook&lt;/h2&gt;
 
-&lt;p&gt;Créez 2 dossiers &lt;code&gt;.gitshot&lt;/code&gt; et &lt;code&gt;.git-templates&lt;/code&gt; dans votre dossier utilisateur.&lt;/p&gt;
+&lt;p&gt;Créez 2 dossiers &lt;code&gt;.gitshots&lt;/code&gt; et &lt;code&gt;.git-templates&lt;/code&gt; dans votre dossier utilisateur.&lt;/p&gt;
 
-&lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;mkdir ~/.gitshot ~/.git-templates
+&lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;mkdir ~/.gitshots ~/.git-templates
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Ajoutez ces 2 lignes dans votre fichier &lt;code&gt;.gitconfig&lt;/code&gt;&lt;/p&gt;
