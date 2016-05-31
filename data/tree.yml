@@ -99,6 +99,7 @@ forge:
     2-1-manifeste-refonte.markdown: "/forge/chapitres/2-1-manifeste-refonte.markdown"
   index.html.slim: "/forge/index.html.slim"
 formation.html.slim: "/formation.html.slim"
+git.html.slim: "/git.html.slim"
 gitclub.html.slim: "/gitclub.html.slim"
 glossary.html.slim: "/glossary.html.slim"
 gnu.html.slim: "/gnu.html.slim"

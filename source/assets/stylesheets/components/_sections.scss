@@ -31,3 +31,26 @@
     }
   }
 }
+
+.m-section--card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media #{$small-only} {
+    flex-direction: column;
+  }
+  .l-icon {
+    width: rem-calc(96);
+    text-align: center;
+    i {
+      margin: 0 rem-calc(5);
+    }
+  }
+
+  .l-content {
+    flex-grow: 1;
+    p, pre {
+      margin-bottom: 0;
+    }
+  }
+}

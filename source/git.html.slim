@@ -1,0 +1,165 @@
+---
+title: 'Comment configurer git & Github sur macOS, Linux & Windows ?'
+description: Récapitulatif sur les différentes configurations à mettre en place pour travailler efficacement avec git et GitHub
+page_title: Améliorer sa productivité avec git
+page_emphasis: 'Ça ne coûte pas plus cher de bien travailler'
+page_class: m-good-practice
+changefreq: monthly
+priority: 0.6
+---
+
+.row
+  .medium-10.medium-centered.columns
+    .row
+      .medium-10.medium-centered.columns
+        markdown:
+          ## Outils de base
+        h3
+          .i-custom.icon-command-promt-1
+          'Terminal
+        .m-panel
+          .m-section--card
+            .l-icon
+              i.fa.fa-2x.fa-apple
+            .l-content
+              markdown:
+                [iterm](http://www.iterm2.com/){:target="_blank"} c’est comme le terminal de base de macOS, mais en mieux.<br>
+                _Exemple_ : vous pouvez splitter vos écrans de façon horizontale et verticale avec `cmd` + `d` ou `cmd` + `shift` + `d`
+        .m-panel
+          .m-section--card
+            .l-icon
+              i.fa.fa-2x.fa-windows
+            .l-content
+              markdown:
+                [babun](http://babun.github.io/){:target="_blank"} le “moins pire” qu’on puisse faire sur Windows et la seule façon de survivre si l’on est obligé de bosser avec cet os.
+        br
+        br
+        h3
+          .i-custom.icon-wrench
+          'Raccourcis pour gagner du temps
+        .m-panel
+          .m-section--card
+            .l-icon
+              i.fa.fa-2x.fa-apple
+              i.fa.fa-2x.fa-linux
+            .l-content
+              markdown:
+                [ovmyzsh](http://github.com/robbyrussell/oh-my-zsh){:target="_blank"} Vous allez adorer utiliser un terminal ! À chaque fois que vous interagissez avec votre invite de commande, vous serez en mesure de tirer parti des centaines de plugins installés avec un joli thème.
+
+    .m-section
+      markdown:
+        ## Configurer git
+
+        La première étape est d'ouvrir un terminal et de créer un nouveau fichier.
+
+        ~~~zsh
+          $ touch .gitconfig
+        ~~~
+
+        Ouvrez le fichier créé avec `vim .gitconfig` — ou tout autre éditeur de texte — et collez les lignes ci-dessous :
+
+        ~~~zsh
+          [user]
+            name = David Leuliette
+            email = dleuliette@gmail.com
+
+          [color]
+            branch = auto
+            diff = auto
+            interactive = auto
+            status = auto
+            ui = auto
+
+          [alias]
+            poule = pull --rebase
+            co = checkout
+            br = branch
+            amend = commit --amend
+            today = log --since=midnight --author='David Leuliette' --oneline
+            lg = log --pretty=oneline --abbrev-commit --graph --decorate
+        ~~~
+
+    .m-section
+      markdown:
+        ## Associer son compte GitHub
+
+        ### Créer une clé SSH
+
+        Suivez les 4 étapes ci-dessous pour [générer une clé SSH](https://help.github.com/articles/generating-an-ssh-key/){:target="_blank"}
+
+        ~~~zsh
+          $ ls -al ~/.ssh
+          # Lists the files in your .ssh directory, if they exist
+        ~~~
+
+        #### Générer une nouvelle clé SSH
+
+        ~~~zsh
+          $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+          # Creates a new ssh key, using the provided email as a label
+          Generating public/private rsa key pair.
+        ~~~
+
+        #### Ajouter votre clé SSH au ssh-agent
+
+        ~~~zsh
+          # start the ssh-agent in the background
+          $ eval "$(ssh-agent -s)"
+          Agent pid 59566
+        ~~~
+
+        ~~~zsh
+          $ ssh-add ~/.ssh/id_rsa
+        ~~~
+
+        ### Lier votre clé SSH à votre compte GitHub
+
+        ~~~zsh
+          $ pbcopy < ~/.ssh/id_rsa.pub
+          # Copies the contents of the id_rsa.pub file to your clipboard
+        ~~~
+
+        Sur [github.com](http://github.com){:target="_blank"}, dans le coin droit, cliquez sur votre image de profil, puis sur Settings pour [ajouter une clé SSH à votre compte](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/){:target="_blank"}.
+
+        ### Tester votre connection SSH
+
+        ~~~zsh
+          $ ssh -T git@github.com
+          # Attempts to ssh to GitHub
+        ~~~
+
+    .m-section
+
+      .row
+        .medium-10.medium-centered.columns
+          markdown:
+            ## Visualiser son travail
+
+          .m-panel
+            .m-section--card
+              .l-icon
+                i.fa.fa-2x.fa-apple
+              .l-content
+                markdown:
+                  [GitX-dev](http://rowanj.github.io/gitx/){:target="_blank"} une interface pour rapidement revoir son code avant de commiter.
+
+          .m-panel
+            .m-section--card
+              .l-icon
+                i.fa.fa-2x.fa-linux
+              .l-content
+                markdown:
+                  __gitg__ est un clone de GitX pour gtk+/GNOME
+
+                  ~~~zsh
+                    $ apt-get install gitg
+                  ~~~
+
+section.m-section
+  .row
+    .medium-10.medium-centered.columns.text-center
+      markdown:
+        ## Besoin d’une formation git & GitHub?
+        En tant que __formateur__, je partage mes connaissances avec le plus grand nombre.
+      = link_to 'http://courses.davidl.fr/programs/git-github.html', class: 'button secondary' do
+          'Voir le programme
