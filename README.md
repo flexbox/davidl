@@ -1,8 +1,6 @@
-# davidl
-
 ### Yet another front-end dev website.
 
-Handcrafted with [Middleman](http://middlemanapp.com) & [slimmer](https://github.com/polymatt/slimmer) template.
+Handcrafted with [Middleman](http://middlemanapp.com) & [codeless](https://github.com/flexbox/codeless) template.
 
 ###### Preprocessing
 
