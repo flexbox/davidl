@@ -1,4 +1,13 @@
 -
+  year: 2016
+  content:
+    -
+      title: 'Git & GitHub 101'
+      provider: Université du Littoral
+      place: Iut Calais
+      description: "Vacation à l’université. Projet création de curriculum vitæ avec les technologies HTML, CSS & JavaScript. Hébergement sur GitHub."
+      url: http://courses.davidl.fr/programs/git-github.html
+-
   year: 2015
   content:
     -
