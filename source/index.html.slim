@@ -16,8 +16,9 @@ blog: blog
       strong> CONSEILS EN DESIGN
       br
       '& DÉVELOPPEMENT
-    markdown:
-      Vous cherchez des conseils sur la __conception & le développement front-end__?<br>Vous souhaitez mieux atteindre les consommateurs connectés d’aujourd'hui ? Si oui, __vous êtes au bon endroit__. Ce blog présente les travaux du __consultant développeur front-end__ David Leuliette, qui partage ses idées dans le domaine du numérique.
+    .hide-for-small
+      markdown:
+        Vous cherchez des conseils sur la __conception & le développement front-end__?<br>Vous souhaitez mieux atteindre les consommateurs connectés d’aujourd'hui ? Si oui, __vous êtes au bon endroit__. Ce blog présente les travaux du __consultant développeur front-end__ David Leuliette, qui partage ses idées dans le domaine du numérique.
   = link_to 'En savoir plus', '/consulting/',class: 'button secondary button-call-to-action'
 
 .row
@@ -30,13 +31,6 @@ blog: blog
       p
         'Je suis quelqu’un qui aime développer des applications web & pousser du code tous les jours. Mon objectif est de
         strong construire des produits que les gens aiment utiliser.
-
-.m-section--inverse
-  p.l-link
-    'Envie de découvrir
-    = link_to '/about.html' do
-      |mon histoire et mes compétences
-    '&nbsp;?
 
 .row.text-center
   .medium-4.columns
@@ -66,6 +60,13 @@ blog: blog
         'Un
         strong> développement durable
         'nécessite de se renseigner sur les nouvelles technologies.
+
+.m-section--inverse
+  p.l-link
+    'Envie de découvrir
+    = link_to '/about.html' do
+      |mon histoire et mes compétences
+    '&nbsp;?
 
 .row
   .medium-12.columns.text-center

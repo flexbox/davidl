@@ -9,11 +9,6 @@
   icon: 'code'
   url: http://javascriptweekly.com/
 -
-  title: Medium
-  description: 'Medium connecte les gens, les histoires et les idées qui comptent pour vous.'
-  icon: 'university'
-  url: https://medium.com/me/settings
--
   title: Middleman forum
   description: 'La communauté du meilleur générateur de site statique en ruby.'
   icon: 'university'
@@ -38,11 +33,6 @@
   description: 'Recevez deux fois par mois des conseils, astuces et ressources pour designer et développeur.'
   icon: 'picture-o'
   url: http://www.smashingmagazine.com/the-smashing-newsletter/
--
-  title: Tuts+ Translator Team
-  description: Initiative communautaire pour que les tutoriels et les articles atteignent le plus de personnes possible.
-  icon: 'code'
-  url: http://tutsplus.com/translate-for-us
 -
   title: Zub University
   description: 'Cours, workshop & ressources en provencance des Designers Produits de chez Zurb'
