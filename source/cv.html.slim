@@ -131,13 +131,28 @@ priority: 1
 
   .medium-4.columns.m-magellan
     div data-magellan-expedition="fixed"
-      section.m-section
-        .m-panel.text-center
-          p.lead Obtenir mon curriculum vitæ
-          p Envie d’en savoir plus sur mon parcours et mes compétences ?
-          p
-            i.fa.fa-4x.fa-file-pdf-o
-          = link_to '/assets/davidleuliette-cv.pdf', class: 'button secondary', target: '_blank' do
-            'Télécharger mon CV
-            i.fa.fa-external-link
+      .m-panel.text-center
+        p.lead Obtenir mon curriculum vitæ
+        p Envie d’en savoir plus sur mon parcours et mes compétences ?
+        p
+          i.fa.fa-4x.fa-file-pdf-o
+        = link_to '/assets/davidleuliette-cv.pdf', class: 'button secondary', target: '_blank' do
+          'Télécharger
+          br
+          'mon CV
+          i.fa.fa-external-link
+
+      .m-panel.text-center
+        p.lead Certification Google
+        p
+          'J’ai validé avec succès la formation les fondamentaux du
+          br
+          strong marketing digital
+        p
+          i.fa.fa-4x.fa-file-pdf-o
+        = link_to '/assets/davidleuliette-certification-google.pdf', class: 'button primary', target: '_blank' do
+          'Télécharger
+          br
+          'ma certification
+          i.fa.fa-external-link
 
