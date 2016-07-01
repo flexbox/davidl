@@ -5,10 +5,71 @@
   <id>http://davidl.fr/blog/</id>
   <link href="http://davidl.fr/blog/"/>
   <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2016-05-04T00:00:00+02:00</updated>
+  <updated>2016-06-14T00:00:00+02:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>Comment passer sa certification Digital Marketing par Google</title>
+    <link rel="alternate" href="http://davidl.fr/blog/certification-google.html"/>
+    <id>http://davidl.fr/blog/certification-google.html</id>
+    <published>2016-06-14T00:00:00+02:00</published>
+    <updated>2016-07-01T12:57:22+02:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;En travaillant dans l’industrie du web depuis longtemps, j’ai eu la chance — ou le malheur — d’aller dans diverses structures plus ou moins importantes. Au travers des années j’ai résolu les problèmatiques d’un bon nombre de personnes qui étaient très compétente — ou complètement à la ramasse — dans l’industrie du web.
+La bonne nouvelle est qu’au XXIième il est très facile d’&lt;strong&gt;aquérir de nouvelles compétences&lt;/strong&gt; si l’on est un peu curieux.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Construire des ponts entre le marketing &amp;amp; les développeurs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Souvent les développeurs ne comprennent pas les demandes du marketing &amp;amp; inversement. Parce que oui mettre “juste” un bouton en production ne prends pas toujours 5 minutes. C’est pour cela que j’ai décidé de passer ma certification afin de mieux comprendre le monde des personnes travaillant dans le marketing digital, parler le même language et faire un peu de &lt;a href="https://www.linkedin.com/in/david-leuliette-456701121"&gt;Growth Hacking sur LinkedIn&lt;/a&gt;. Cela me permettra aussi de mieux conseiller les chefs de produits, responsables &amp;amp; assistants marketing qui — contrairement à moi — ne vivent pas encore dans le futur.&lt;/p&gt;
+
+&lt;h2 id="tout-un-programme"&gt;Tout un programme&lt;/h2&gt;
+
+&lt;p&gt;La certification “Digital Active by Google” est une formation gratuite, en ligne &amp;amp; disponible dans certaines universités partenaires. À la clef, un &lt;strong&gt;certificat reconnu&lt;/strong&gt; par l’&lt;a href="https://fr.wikipedia.org/wiki/Interactive_Advertising_Bureau"&gt;IAB Europe&lt;/a&gt; et des &lt;strong&gt;compétences numériques&lt;/strong&gt; que vous pourrez faire valoir dans le monde professionnel.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Une formation totalement gratuite&lt;/li&gt;
+  &lt;li&gt;Apprenez avec des experts travaillant avec les technologies de Google&lt;/li&gt;
+  &lt;li&gt;Testez vos connaissances&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si vous avez un compte gmail tout est disponible à cette url &lt;a href="https://digitalactive.withgoogle.com"&gt;https://digitalactive.withgoogle.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Badges certification digital active par google" src="https://c2.staticflickr.com/8/7438/28015063095_9eecf4cd4f_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;h3 id="badges"&gt;Badges&lt;/h3&gt;
+
+&lt;p&gt;Les 90 cours vidéos abordent différents thèmes comme :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Développer une présence en ligne&lt;/li&gt;
+  &lt;li&gt;La communication par e-mail&lt;/li&gt;
+  &lt;li&gt;Le mobile et ses possibilités&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Quand la formation est validée, vous obtenez un super &lt;code&gt;.pdf&lt;/code&gt; à imprimmer pour l’accorcher dans votre salon. Vous pouvez aussi l’ajouter — dans mon cas — à votre &lt;a href="http://davidl.fr/cv.html"&gt;CV de développeur front-end&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Diplome Marketing de David Leuliette" src="https://c2.staticflickr.com/8/7338/27913306722_8bab30348d_z.jpg" /&gt;&lt;/p&gt;
+
+&lt;h2 id="comment-russir-sa-certification-"&gt;Comment réussir sa certification ?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img alt="Citation sur la productivité par David Leuliette" src="https://c2.staticflickr.com/8/7369/27913002322_cd6a92e1e2_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mon principal conseil est l’assiduité. Suivez simplement les vidéos et soyez logique. Souvent les réponses tiennent du bon sens si l’on connait le vocabulaire comme SEO, SEM, les réseaux sociaux… J’ai obtenu ma certification en environ 1 mois, à raison de 3 cours par jour.
+&lt;strong&gt;C’est tout&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Vous êtes maintenant certifié digital active&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Note pour les personnes parlant français&lt;/strong&gt; :
+Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wikipedia&lt;/a&gt;, le mot digital est l’adjectif associé au substantif doigt (Tracé digital, Empreinte digitale, …). Donc les personnes expertes en digital sont … (troll)&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>GitShot — timelapse vidéo de chaque commit</title>
     <link rel="alternate" href="http://davidl.fr/blog/gitshot.html"/>
@@ -331,89 +392,6 @@ Un code organisé simplement est plus facile à maintenir, s’analyse plus rapi
   &lt;li&gt;Logos sous &lt;a href="http://www.logodust.com/"&gt;Creative Commons&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Render &lt;a href="http://cobwwweb.com/render-inline-svg-rails-middleman#boost-performance-with-fragment-caching"&gt;inline SVG&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Devenir intégrateur web en 6 mois</title>
-    <link rel="alternate" href="http://davidl.fr/blog/openclassroom-integrateur-web.html"/>
-    <id>http://davidl.fr/blog/openclassroom-integrateur-web.html</id>
-    <published>2016-02-14T00:00:00+01:00</published>
-    <updated>2016-02-26T17:08:53+01:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;Dans la vie de tous les jours, je reçois régulièrement des &lt;a href="/blog/metier-integrateur-web.html"&gt;questions sur mon parcours&lt;/a&gt;, quelles études ais-je suivies, l'intégration web à quoi ça sert ? Dans ce projet, le CSS c’est le chaos, apparement il y a une personne qui a demandé à une autre de gérer la chose, HTML pfff c’est trop facile (selon moi, c’est &lt;a href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5"&gt;FAUX !&lt;/a&gt;)…&lt;/p&gt;
-
-&lt;p&gt;Derrière toutes ces questions il existe un vrai métier à part entière : &lt;strong&gt;intégrateur web&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="developpeur front-end" src="https://c2.staticflickr.com/2/1548/25157237442_ef95ec52e2_b.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;— Sublime Text est mon meilleur ami&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;En tant qu’&lt;a href="/cv.html"&gt;autodidacte&lt;/a&gt;, j’ai appris mon métier au cours de mes &lt;a href="/books.html"&gt;nombreuses lectures&lt;/a&gt; et de mes &lt;a href="/projects.html"&gt;projets open-source&lt;/a&gt;. &lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&amp;amp;site=13881&amp;amp;type=text&amp;amp;tnb=5"&gt;OpenClassrooms&lt;/a&gt; (Le site d’apprentissage communautaire) vous facilite le travail &amp;amp; propose cette philosophie avec son parcours pour devenir &lt;strong&gt;intégrateur web&lt;/strong&gt;. Vidéos de cours &amp;amp; exercices sont &lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&amp;amp;site=13881&amp;amp;type=text&amp;amp;tnb=5"&gt;disponible sur le site&lt;/a&gt; et leur organisation vous permettra d’obtenir progressivement de solides bases pour comprendre HTML, CSS, responsive, Bootstrap, git, Wordpress…&lt;/p&gt;
-
-&lt;h2 id="programme-de-formation"&gt;Programme de formation&lt;/h2&gt;
-
-&lt;p&gt;La formation d’&lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&amp;amp;site=13881&amp;amp;type=text&amp;amp;tnb=5"&gt;OpenClassrooms&lt;/a&gt; est interessante car elle est basée sur une vraie démarche projet avec des documents comme &lt;em&gt;des maquettes graphiques&lt;/em&gt; ou encore le fameux &lt;em&gt;cahier des charges&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;L’objectif est de réaliser les &lt;strong&gt;12 cours&lt;/strong&gt; — de 5 à 30 heures — &lt;strong&gt;en 6 mois&lt;/strong&gt; (Personnelement j’ai mis environ 1 an quand je me suis formé en autodidacte en lisant des livres) :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Un peu de culture générale web (Car tout le monde ne connait pas la &lt;a href="http://davidl.fr/blog/esprit-web.html"&gt;différence entre les internets et le web&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Coder un &lt;strong&gt;site web responsive&lt;/strong&gt; avec HTML &amp;amp; CSS&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Mettre en ligne votre &lt;strong&gt;portfolio&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Prise en main du framework &lt;a href="https://github.com/twbs/bootstrap"&gt;Bootstrap&lt;/a&gt; (avec bientôt 100 000 stars sur GitHub)&lt;/li&gt;
-  &lt;li&gt;Gérer le futur comme Doc et Marty Mac fly grâce à &lt;strong&gt;git&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Votre premier site complet avec &lt;strong&gt;Bootstap&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Intégrer un &lt;strong&gt;thème Wordpress&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Donner vie à une maquette statique&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Rencontrer un client et &lt;strong&gt;concevoir un site vitrine&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Projet :&lt;/em&gt; Aidez la communauté en proposant votre aide ou en publiant des &lt;a href="http://davidl.fr/projects.html"&gt;outils open source&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class="m-panel"&gt;
-  &lt;p class="lead"&gt;
-  &lt;strong&gt;Plus d’informations sur le parcours ?&lt;/strong&gt;
-  &lt;br /&gt;
-  &lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&amp;amp;site=13881&amp;amp;type=text&amp;amp;tnb=5"&gt;Consultez la formation intégrateur web&lt;/a&gt; sur le site d’OpenClassrooms.
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2 id="dbouchs"&gt;Débouchés&lt;/h2&gt;
-
-&lt;p&gt;En ce début de XXIème siècle, l'intégrateur web est la colonne vertébrale d’un projet web. Tout le monde viendra demander son aide :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Le &lt;strong&gt;designer&lt;/strong&gt; souhaite un bouton qui a du swag&lt;/li&gt;
-  &lt;li&gt;Le &lt;strong&gt;chef de projet&lt;/strong&gt; souhaite changer les textes&lt;/li&gt;
-  &lt;li&gt;Le &lt;strong&gt;développeur&lt;/strong&gt; en a marre de bidouiller du css&lt;/li&gt;
-  &lt;li&gt;Le &lt;strong&gt;consultant SEO&lt;/strong&gt; veut ses balises rich snippets&lt;/li&gt;
-  &lt;li&gt;Le &lt;strong&gt;client&lt;/strong&gt; veut ses &lt;del&gt;fuck$ng&lt;/del&gt; boutons de réseaux sociaux&lt;/li&gt;
-  &lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;À la suite de cette formation certifiante vous pourrez postuler pour les métiers suivants :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Administrateur de sites web&lt;/li&gt;
-  &lt;li&gt;Concepteur de sites web&lt;/li&gt;
-  &lt;li&gt;Développeur web (Avec des connaissances en &lt;a href="http://www.alticreation.com/difference-developpeur-front-end-et-developpeur-back-end/"&gt;backend&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Intégrateur Web&lt;/li&gt;
-  &lt;li&gt;Responsable Internet&lt;/li&gt;
-  &lt;li&gt;Webmaster&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="bonus--bnficiez-dun-coach-personnel"&gt;Bonus : bénéficiez d’un coach personnel&lt;/h3&gt;
-
-&lt;p&gt;Si vous ne souhaitez pas vous lancer seul, faites-vous accompagner et &lt;strong&gt;mentorer par un professeur particulier&lt;/strong&gt; en &lt;a href="http://clic.reussissonsensemble.fr/click.asp?ref=760613&amp;amp;site=13881&amp;amp;type=text&amp;amp;tnb=5"&gt;devenant Premium Plus&lt;/a&gt; !&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;* Les liens ci-dessus sont des liens d’affiliation vers OpenClassroom. Si vos cookies sont activés cela nous permettra de toucher un petit pourcentage sur chaque vente. Cela vous permet d’aider davidl.fr sans que cela vous coûte plus cher. Merci de votre aide !&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
 </content>
   </entry>
 </feed>
