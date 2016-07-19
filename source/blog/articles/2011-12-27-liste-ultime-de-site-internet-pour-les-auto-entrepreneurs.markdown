@@ -148,21 +148,9 @@ Sur ce site, vous trouverez toutes les [aides disponibles](http://www.aides-entr
 ## Le <del>magnifique</del> site de Pôle Emploi
 
 
-[![Pôle Emploi](blog/legacy/2011/12/poleEmploi_logo.jpg?raw=true)](blog/legacy/2011/12/poleEmploi_logo.jpg?raw=true)
+[![Pôle Emploi](blog/legacy/2011/12/poleEmploi_logo.jpg?raw=true)](http://pole-emploi.fr)
 
 Pour tout savoir sur les droits chômage, les offres d'emploi de votre ville, les formations dont vous pouvez bénéficier...
-
-
-
-
-## Le Salon des entrepreneurs
-
-
-[![Salon des entrepreneurs](blog/legacy/2011/12/salonEntrepreneur_logo.jpg?raw=true)](blog/legacy/2011/12/salonEntrepreneur_logo.jpg?raw=true)
-
-Site de networking professionnel pour les villes de Paris, Lyon et Nantes.
-
-
 
 
 ## La chaîne des entrepreneurs
