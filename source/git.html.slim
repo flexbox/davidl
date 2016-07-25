@@ -63,23 +63,41 @@ priority: 0.6
             name = David Leuliette
             email = dleuliette@gmail.com
 
-          [push]
-            default = current
-
           [color]
-            branch = auto
-            diff = auto
-            interactive = auto
-            status = auto
             ui = auto
+          [color "branch"]
+            upstream = cyan
 
           [alias]
             poule = pull --rebase
             co = checkout
+            ci = commit
             br = branch
-            amend = commit --amend
             today = log --since=midnight --author='David Leuliette' --oneline
-            lg = log --pretty=oneline --abbrev-commit --graph --decorate
+            lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
+            oops = commit --amend --no-edit
+
+          [push]
+            # Default push should only push the current branch to its push target, regardless of its remote name
+            default = upstream
+            # When pushing, also push tags whose commit-ishs are now reachable upstream
+            followTags = true
+
+          [diff]
+            # Use better, descriptive initials (c, i, w) instead of a/b.
+            mnemonicPrefix = true
+            # Show renames/moves as such
+            renames = true
+            # When using --word-diff, assume --word-diff-regex=.
+            wordRegex = .
+            # Display submodule-related information (commit listings)
+            submodule = log
+
+          [log]
+            # Use abbrev SHAs whenever possible/relevant instead of full 40 chars
+            abbrevCommit = true
+            # Automatically --follow when given a single path
+            follow = true
         ~~~
       .row
         .medium-10.medium-centered.columns
