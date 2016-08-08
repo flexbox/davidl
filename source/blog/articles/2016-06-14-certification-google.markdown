@@ -1,7 +1,7 @@
 ---
 date: 2016-06-14
 slug: certification-google
-title: "Comment passer sa certification Digital Marketing par Google"
+title: "Devenir expert en Digital Marketing grâce à la certification Google"
 description: "Conseils pour réussir sa formation de Digital Marketing par Google, comment développer efficacement sa présence en ligne & améliorer ses compétences en valorisant son CV"
 image: https://c2.staticflickr.com/8/7411/28015535345_5f9d9b481f_b.jpg
 page_title: Certification Digital Active

@@ -2,12 +2,14 @@
   text-transform: uppercase;
   font-weight: $font-weight-bold;
   transition: background 150ms ease-in-out;
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $body-bg;
     color: $primary-color;
   }
   &.secondary {
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $body-bg;
       color: $secondary-color;
     }

@@ -39,7 +39,8 @@ $sc-coderwall   : #398CCE;
 
 @mixin color-hover($color, $color-hover) {
   color: $color;
-  &:hover {
+  &:hover,
+  &:focus {
     color: $color-hover;
   }
 }
