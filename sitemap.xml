@@ -44,6 +44,11 @@
     <priority>0</priority>
   </url>
   <url>
+    <loc>http://davidl.fr/sublime.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>http://davidl.fr/sponsorship.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -80,8 +85,8 @@
   </url>
   <url>
     <loc>http://davidl.fr/meetups.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>http://davidl.fr/manifesto.html</loc>
@@ -469,14 +474,9 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/blog/gitshot.html</loc>
+    <loc>http://davidl.fr/blog/certification-google.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/gnu.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0</priority>
   </url>
   <url>
     <loc>http://davidl.fr/blog</loc>
@@ -584,7 +584,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/blog/certification-google.html</loc>
+    <loc>http://davidl.fr/gnu.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/blog/gitshot.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
