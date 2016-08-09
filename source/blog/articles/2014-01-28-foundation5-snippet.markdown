@@ -8,7 +8,7 @@ priority: 0.8
 ---
 Si vous avez visité ma sélection d'[outils pour développeur front-end](http://davidl.fr/toolkit.html), vous savez que j'utilise (selon moi) le meilleur éditeur de code : Sublime Text.
 
-Le principal avantage de cet éditeur de code est son système de packet, qui permet une personnalisation poussée de l’éditeur.
+Le principal avantage de cet éditeur de code est son système de paquets, qui permet une personnalisation poussée de l’éditeur.
 
 ## Snippets pour Foudation 5
 

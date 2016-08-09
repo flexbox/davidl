@@ -29,11 +29,11 @@ Et je pense que cette liste n’est pas complète. Cependant mon éditeur de pr�
 
 Dans cet article je vais vous expliquer comment ce logiciel m’aide chaque jour à coder plus rapidement.
 
-## Installer le gestionnaire de packet
+## Installer le gestionnaire de paquet
 
-La première chose à faire après une nouvelle installation est d’installer _le gestionnaire de packets_.
+La première chose à faire après une nouvelle installation est d’installer _le gestionnaire de paquets_.
 
-Il suffit pour cela d’ouvrir la console `View` > `Show Console` et de copier le script disponible sur le [site de gestion des packets pour Sublime Text](https://sublime.wbond.net/installation).
+Il suffit pour cela d’ouvrir la console `View` > `Show Console` et de copier le script disponible sur le [site de gestion des paquets pour Sublime Text](https://sublime.wbond.net/installation).
 
 __C’est tout__. Une fois cette étape terminée vous êtes prêt à travailler.
 
@@ -44,8 +44,8 @@ Cela vous amènera à personnaliser l’éditeur _en fonction de vos besoins_. L
 Pour installer une extention c’est très facile. Il vous manque la coloration syntaxique pour les fichier `.coffee` ou `.sass` ?
 Utilisez simplement le raccourci `cmd` + `shift` + `P` et tapez `install`. Il ne vous reste ensuite plus qu’à faire votre recherche.
 
-![Packets Sublime Text front-end dev](https://lh4.googleusercontent.com/31cDqfLhm9BWGYEI2H7el1BgXi5axo2vuR0rjRyLsh0=w423-h239-no)
-_Voici la liste des packets que j’utilise_
+![Paquets Sublime Text front-end dev](https://lh4.googleusercontent.com/31cDqfLhm9BWGYEI2H7el1BgXi5axo2vuR0rjRyLsh0=w423-h239-no)
+_Voici la liste des paquets que j’utilise_
 
 Si je ne devais en choisir qu’une liste réduite cela serait sans hésiter :
 
@@ -137,4 +137,4 @@ Voici une liste des raccourcis que j’utilise quotidienement :
 
 Vous voila convaincu pour utiliser Sublime Text pour votre prochain projet, même si ces conseils sont plus accès intégration et développement front-end.
 
-N’hésitez pas à me partager vos packets pour compléter cette liste.
+N’hésitez pas à me partager vos paquets pour compléter cette liste.

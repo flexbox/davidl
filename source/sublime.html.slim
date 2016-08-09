@@ -1,0 +1,120 @@
+---
+title: Sublime Text — Astuces pour devenir expert avec les raccourcis
+description: "Conseils et astuces pour maitriser Sublime Text comme un pro : Raccourcis pour macOS et Linux, liste des pacquets et configuration aux oignons pour créer du code de qualité"
+image: https://lh3.googleusercontent.com/2d7U5At4ATPNPcXwculv9-ulcH2idYjVU3Cm_tJpFxuqBNQJ4_gh-51gb36M6wDr7pvPl3uNxYq83Sd8Gnelawm6dZ0UcX6A-cHzedrEsxNnRaaTzEyFNM6X4cl2NFwgo9bItFFINs5OT8jeZQ27B5_ljdc0xmFKMWLbp9heKPi1l3LoO9NWduH1NzZ7arreA5atQbF0CwgQukBRu2HNz1p_4SZd91Y3sVYztBr6TdP2aoHADhIlLhfkgoS-KoUXR3TF1ibewFXJ-UdMDYULd1m6n7TDAqn8TFUB-M7rdRtYKmtJFXp2AyOoKlWuDNjZKuYDoa6GaupbbEJv5VOkcqzvmqnr8QeIWEh_4QqBCDY_3MUUSinuruIZdwDhm98E06fa6edb91XshpQbveKRbO9LbXY_YvarJSi6s92NcNkLc7mCAKZkBQdEiu679A-jkdgxdJBpA8GDryjzqea7xVXGPkbkzXn6YiHckesA7JSrV6A1KWDCacIzhU3g2GYxHjCVj7AEEP8rdMuL1cazHES8qcavo3HT78hI3uzxEjIq-mzzN3plPcgmvt1uOCWVjfZ2gC6o0bGmaZ9roZ_mFRK7WxYZKew=w1024-h512-no
+page_title: "Sublime Text 101"
+page_emphasis: Comment utiliser Sublime Text comme un pro pour être plus efficace au quotidien
+changefreq: yearly
+priority: 0.4
+---
+
+.row
+  .medium-10.medium-centered.columns
+    .text-center
+      - data.sublime.each do |section|
+        h2 = section.title
+        = image_tag section.picture, alt: "Sublime Text gif #{section.title}", class: 'm-good-practice--sublime'
+        - section.advices.each do |advice|
+          .m-panel
+            strong = advice.title
+            hr
+            .m-good-practice--shorcut
+              i.fa.fa-2x.fa-linux
+              - advice.linux.each_with_index do |shorcut, i|
+                = image_tag "front/keyboard/#{shorcut.keyboard}.png"
+                - if (i === 0) && advice.linux.length === 2
+                  i.fa.fa-2x.fa-plus
+                - elsif advice.linux.length === 3
+                  - if (i === 0)
+                    i.fa.fa-2x.fa-plus
+                  - elsif (i === 1)
+                    i.fa.fa-2x.fa-plus
+            .m-good-practice--shorcut
+              i.fa.fa-2x.fa-apple
+              - advice.macos.each_with_index do |shorcut, i|
+                = image_tag "front/keyboard/#{shorcut.keyboard}.png"
+                - if (i === 0) && advice.macos.length === 2
+                  i.fa.fa-2x.fa-plus
+                - elsif advice.macos.length === 3
+                  - if (i === 0)
+                    i.fa.fa-2x.fa-plus
+                  - elsif (i === 1)
+                    i.fa.fa-2x.fa-plus
+
+    .m-section.text-center
+      markdown:
+        ## Pimper Sublime Text<br>avec des paquets
+
+        Vous devez [installer le gestionnaire des paquets](https://packagecontrol.io/installation) en ouvrant la console de Sublime Text `View` > `Show Console`. Une fois le script installé vous pouvez rechercher et installer facilement de nombreux paquets pour améliorer votre éditeur de texte.
+
+      = image_tag 'https://lh3.googleusercontent.com/a6OcqU5MedwdW_W-8QjixsVDJ96lDlcinVxj0woAVLt1WXUSgKA5WjoDsvrtoZzzbJyAKdPjhvU17_ZqUlZPz-PVaZt_mQUClRmm-oDUJiczj8lUcZ-eLIwQGvTzyY40jmyNBp4uKwkVjl2PD421Xh7OKQ3j4T9_ugTMX1GKltQRfX6zjjUBtv3VoR6SBnk9RftiLjAbfsRwge4Gi2JwbsQnGoGdnBKAx4gCynkscu6weW-rr2LO7gb38EA2GE6f-ie9Htpf0KIc1LnDQsyuzN8qrQf1Ng3M4729WKcKc_QHwy-vc7-lqvGPs-cj9QH7dufXeq3G3fCiKQO795iZY7g5TnOLITKVZ4MvhonhCuKGbWt33KoAmH2OpWjevfBuH5KaHlj5z3xNOGT3hkjCisOdsFoWYJUzmJ0L0nN7ItOOcBp2Vu1rmfCydL5TAygfQ1FIYhhoYes-Jj_AcAjVst0M6Se7LmRxY118hL5G1SJ6KMiDM-2f_Luz12vf51ekgZWcU0RALXjpihkz4fLQNaVNa06AwW60ZSR93Kmg_ID3MdQsvHcbN9AdDjbebufUcTnN5LkrSaKBs8GV1LSgXCSp6d5udno=w550-h200-no', alt: 'Sublime Text gif install packages', class: 'm-good-practice--sublime'
+      .m-panel
+        strong Rechercher & Installer des paquets
+        hr
+        .m-good-practice--shorcut
+          i.fa.fa-2x.fa-linux
+          = image_tag "front/keyboard/ctrl.png"
+          i.fa.fa-2x.fa-plus
+          = image_tag "front/keyboard/shift.png"
+          i.fa.fa-2x.fa-plus
+          = image_tag "front/keyboard/p.png"
+        .m-good-practice--shorcut
+          i.fa.fa-2x.fa-apple
+          = image_tag "front/keyboard/cmd.png"
+          i.fa.fa-2x.fa-plus
+          = image_tag "front/keyboard/shift.png"
+          i.fa.fa-2x.fa-plus
+          = image_tag "front/keyboard/p.png"
+        em Dans l’invite de commande qui s’affiche vous devez taper install
+
+      markdown:
+        Voici une liste de __5 paquets indispensables__ à installer :
+
+        - [GitGutter](https://packagecontrol.io/packages/GitGutter)
+        - [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
+        - [Emmet](https://packagecontrol.io/packages/Emmet)
+        - [editorConfig](https://packagecontrol.io/packages/EditorConfig)
+        - [allAutocomplete](https://packagecontrol.io/packages/All%20Autocomplete)
+
+    .m-section
+      .text-center
+        markdown:
+          ## Hacker l’interface
+
+          Sublime est écrit en Pyhton. Vous pouvez écrire vos propres paquets mais vous pouvez aussi personnaliser l’intface simplement à l’aide d’un fichier `.json`
+
+          Si vous souhaitez utiliser le même il suffit d’ouvrir les `Preferences` > `Settings - user` et de modifier le fichier `Preferences.sublime-settings`.
+
+      markdown:
+        ~~~ json
+        {
+          "default_encoding": "UTF-8",
+          "detect_indentation": true,
+          "ensure_newline_at_eof_on_save": true,
+          "folder_exclude_patterns":
+          [
+            ".sql",
+            "*/sql/*",
+            ".svn",
+            ".git"
+          ],
+          "highlight_line": true,
+          "highlight_modified_tabs": true,
+          "hot_exit": false,
+          "ignored_packages":
+          [
+            "Vintage"
+          ],
+          "open_files_in_new_window": true,
+          "remember_open_files": false,
+          "rulers":
+          [
+            78
+          ],
+          "show_full_path": true,
+          "tab_size": 2,
+          "translate_tabs_to_spaces": true,
+          "trim_automatic_white_space": true,
+          "trim_trailing_white_space_on_save": true
+        }
+        ~~~

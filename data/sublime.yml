@@ -1,0 +1,118 @@
+-
+  title: Naviger dans votre projet
+  picture: https://lh3.googleusercontent.com/F44mq5M0ltvKKh6kaj7TON2MGxZWME_-CB_jiywpRgUSQYnCLEl6pwp-RlUnSsJNnwmfscXEV8KX6ccXH1vigJzaos7b6MKN4i_lw5K0QAUVByUNnWgyHQR-mDjX-4Z7jsYq7lcX7kdoJmMEFgKWLmSU6lGqI-iJP690X0j-sPBew-4C7aT6Phvps0_284ysLGqkeGbreFwYTpB-kky0QhjAsEnuF37SnNfUyE0z5iFS0SLJTocLQwWPeAUHbs8F8XSzfg-CnuxTnVMU77yVyBzKXJVcbEebp9Dl21-9cgQO5FGawutPD8yt6RjbPS3z0j5Ae-GOxcZTFCqlyg_UXPjQJzeBo_VzX8pRmECIWtIpVW5g_Rk2ui8J9EM4XZ1TZtoGUeuoMfrUtAIX9K-4saMEOI5YPxR81gONMQv4Z-sq-jOny1Kt_C_3qazvjxX2CDMLks9HzEI4WPD6-Gs201uw9m-_6DRelWGQXBSjsTiRsSgCBDe5fpSfCf0FyqgyTPpLHnFWFlmC6mneLH5TnGICAn9w8CfA2vrU_cssi0CjsZCjLb0LcJ7y4-j2tuD52VqBebeOO75deJtyQVj-xbGVpK7qOFs=w550-h200-no
+  advices:
+    -
+      title: Accéder à un fichier avec son nom
+      linux:
+        - keyboard: ctrl
+        - keyboard: p
+      macos:
+        - keyboard: cmd
+        - keyboard: p
+-
+  title: Se déplacer dans le fichier ouvert
+  picture: https://lh3.googleusercontent.com/VTX-zYsEwXTrbPvSXZctlzONsRrPpBWKc8De927_MEaD1nb2zhOJm8Tx_e8EyXJ6Sy7HcRFvXqHBmIg-2WtMISOyPk38gJkraDqGv0MbczanZYrr0v9ahn0jgq2JuLeEgx_MhNWuyL5me9CghKB7NjVk3tVvz8HuNT9q3w_jNwuaWAE_RrjOAwOuyxnQ8LA27QTMK7ODsDoy_i45xN12x16GwURbrSTI_BmAvUfiQ8eiIoKrC7oFlWK5S7JvZ-5XCNX9BgE1TjROcfY1SKSm0BoN4CzNfQOopI1Y-7JMrbT4I5sRCPsDHgdyD7OXhQ8eNHTObYuwKsNn_yP9TIGSmp8h1j-rNFOxnvCrmwl9iYG_HREql1zJT4em5X4QJtAjbCFJmayHpqW0iXKfeync5cvgsh-1f-aLrQJnfEMdfIuArYrE7pbwixBLdH8YqAf0D5rtvWQKFq-cB68ipTeGcqRGtfB_rowc32-_KHTLsjRiiTyG7xuSKptnyJaxuSKDvGdFLpURG0JH38o_stdevJhDciA4jya3dHQ36p023CX-4z2soN-ejc3CXnhOIWVraJNJHaAZ9r_Cc5yM6HWUIa5wLsxGe9M=w550-h200-no
+  advices:
+    -
+      title: Accéder à un numéro de ligne
+      linux:
+        - keyboard: ctrl
+        - keyboard: g
+      macos:
+        - keyboard: ctrl
+        - keyboard: g
+    -
+      title: Déplacer le curseur au mot suivant
+      linux:
+        - keyboard: ctrl
+        - keyboard: arrow-right
+      macos:
+        - keyboard: alt
+        - keyboard: arrow-right
+    -
+      title: Déplacer le curseur au mot précédent
+      linux:
+        - keyboard: ctrl
+        - keyboard: arrow-left
+      macos:
+        - keyboard: alt
+        - keyboard: arrow-left
+-
+  title: Organiser votre code source
+  picture: https://lh3.googleusercontent.com/Dpon_ucuj9XOGLmiIvzx_8l9EiYYwmMFx8PaWg1OvckHSjDn3pOt5cdkAIUkXs8zOvrjtyX5w3sbC-d1JztZU1icCV8PvTm0kA-Bl9EhFooJO6um4e7lD7cmI8xKa1DlBZdm0_2oKho6S7b4M8MeCnljc4zRY5-rsS5xQWaCJbOk6ZgT7Z4UibMDhLKLUmDy2oIZi3atATlHbbFyd3grAFJJJaVzipMpuApBYiY43BIvNH9atw3JsXTCWtDV0yGF3qDuTPBGoTD59IQu4CrLsZhLEWCQS9Qq1z2b4BYf44FO5lvVeu_mc_BGWyrT0VUxhkZBLViHsePosDWfaTwzkKa6-e8NHR6uBvpwVOkdYG5UOKyZ5Li8uyo55ncccPvepqGM9pHFjGMz-fJ0kcje5X_8jKJE2UzDKiLxpDRzUQKg1CytvRskpO4YCzAcOlCoiD3sUbcRE-Yqw1fdkL9gZcRAS5y-wOVi7rkHbLCIRPomOR_FWTilT6D-jw4JtWbaTbABBvjg_51s1Io1_LLXhV7tFQ6rZ9eCMItVU0JbK18SnjhLjobwwxLIbQaMjxRUC6wavuCTcVEdQllhvWNt1tJjpU8XGBA=w550-h200-no
+  advices:
+    -
+      title: Duppliquer une ligne
+      linux:
+        - keyboard: ctrl
+        - keyboard: shift
+        - keyboard: d
+      macos:
+        - keyboard: cmd
+        - keyboard: shift
+        - keyboard: d
+    -
+      title: Déplacer une ligne vers le haut
+      linux:
+        - keyboard: ctrl
+        - keyboard: shift
+        - keyboard: arrow-up
+      macos:
+        - keyboard: ctrl
+        - keyboard: cmd
+        - keyboard: arrow-up
+    -
+      title: Déplacer une ligne vers le bas
+      linux:
+        - keyboard: ctrl
+        - keyboard: shift
+        - keyboard: arrow-down
+      macos:
+        - keyboard: ctrl
+        - keyboard: cmd
+        - keyboard: arrow-down
+    -
+      title: Déplacer vers la droite
+      linux:
+        - keyboard: tab
+      macos:
+        - keyboard: tab
+    -
+      title: Déplacer vers la gauche
+      linux:
+        - keyboard: shift
+        - keyboard: tab
+      macos:
+        - keyboard: shift
+        - keyboard: tab
+    -
+      title: Commenter / décommenter une ligne
+      linux:
+        - keyboard: ctrl
+        - keyboard: shift
+        - keyboard: slash
+      macos:
+        - keyboard: cmd
+        - keyboard: shift
+        - keyboard: slash
+-
+  title: Edition multi-lignes
+  picture: https://lh3.googleusercontent.com/4A5j_7KThd2EvKrUua5D6TCJLKp6f9cGBWsv8DHWAC8EYxr--8453ZkCV0t2XxRni_5QVxWnsN4hPCpoAbM70VUdumR1nxAtvhnx7HBXcMYSx6xRWnZegYcbt_vHysAZ1G-X_0UUg28r3JuuYrFIGp4svRDjxGi4AYrJY9ZpBaalKL5pNMjHA36seYUVEdubL-Rn-hKIlMKR512o3aFaqlqcwXEkcp9WOVsKOG6jqlfBsiHR_NZbuPRFs9KViksgrT6DBKPZjrPihbMv2jMOtqwY7XNp1jF-_SlOAJobTedoappNHcQnlNLIXG2Cu4FIos-gRsgtNY4ehXPOBvDoK7Q2Yx2daPRCB9XuLSRWs_yMW-EIsfRxpktWE7kNe-2K7WubIr7gM_PmjGs3kuj28OB5RL1qdExmR16gwf--LLUnaMX5Wch38qjdgStMiTF0pT2zP1V25H3t62yiQ69q2fdqCmrdcA9yfpqWMd6UbvUCpIGiUFxy9Joly8DjzkZYne-Fh3HnkuAdh53MZ2fN3fS1S9ZV8KBjLyJTYrhmXyJtDlRFNWZmsaSOjUmUThUQQmzOFd0bVJvrGJOyGIDLfg0JsTW6GW4=w550-h200-no
+  advices:
+    -
+      title: Créer une édition multiple avec la souris
+      linux:
+        - keyboard: ctrl
+        - keyboard: pointer
+      macos:
+        - keyboard: cmd
+        - keyboard: pointer
+    -
+      title: Sélectionner de multiples occurences
+      linux:
+        - keyboard: ctrl
+        - keyboard: d
+      macos:
+        - keyboard: cmd
+        - keyboard: d

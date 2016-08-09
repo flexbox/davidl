@@ -12,7 +12,7 @@ priority: 0.8
 J’ai récemment effectué une nouvelle installation de sublime Text. Je partage dans cet articles une liste des 10 extentions qui me semblent indispensable pour gagner du temps et produire du code de qualité.
 
 ## Package control
-La première chose à faire pour installer des extention est d’installer le gestionnaire de packets.
+La première chose à faire pour installer des extentions est d’installer le gestionnaire de paquets.
 
 _Utilisation_
 
