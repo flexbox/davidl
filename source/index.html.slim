@@ -18,8 +18,9 @@ blog: blog
       '& DÉVELOPPEMENT
     .hide-for-small
       markdown:
-        Vous cherchez des conseils sur la __conception & le développement front-end__ ?<br>Vous souhaitez mieux atteindre les consommateurs connectés d’aujourd'hui ? Si oui, __vous êtes au bon endroit__. Ce blog présente les travaux du __consultant développeur front-end__ David Leuliette, qui partage ses idées dans le domaine du numérique.
-  = link_to 'En savoir plus', '/consulting/',class: 'button secondary button-call-to-action'
+        Vous cherchez des conseils sur la __conception & le développement front-end__ ?<br>Vous souhaitez mieux atteindre les utilisateurs connectés d’aujourd'hui ?<br> Si oui, __vous êtes au bon endroit__.<br><br>Ce blog présente les travaux du __consultant développeur front-end__ David Leuliette, qui partage ses idées dans le domaine du numérique.
+      markdown:
+  = link_to 'Travailler avec un consultant', '/consulting/',class: 'button secondary button-call-to-action'
 
 .row
   .medium-8.columns.medium-centered
@@ -36,7 +37,7 @@ blog: blog
   .medium-4.columns
     .m-panel
       i.fa.fa-picture-o.fa-rounded.l-illu
-      h2 Design
+      h3 Design
       = link_to 'Responsive design', '/webdesign.html', class: 'button small'
       p
         'Concevoir des
@@ -46,7 +47,7 @@ blog: blog
   .medium-4.columns
     .m-panel
       i.fa.fa-code.fa-rounded.l-illu
-      h2 Code
+      h3 Code
       = link_to 'Projets opensource', '/projects.html', class: 'button small'
       p
         'Je programme des solutions
@@ -54,7 +55,7 @@ blog: blog
   .medium-4.columns
     .m-panel
       i.fa.fa-eye.fa-rounded.l-illu
-      h2 Veille
+      h3 Veille
       = link_to 'Apprendre', '/newsletter.html', class: 'button small'
       p
         'Un
@@ -62,16 +63,17 @@ blog: blog
         'nécessite de se renseigner sur les nouvelles technologies.
 
 .m-section--inverse
-  p.l-link
-    'Envie de découvrir
-    = link_to '/about.html' do
-      |mon histoire et mes compétences
-    '&nbsp;?
+  .row
+    .medium-8.columns
+      h2.l-title Améliorer le design de vos produits
+      p.l-baseline Je travaille de façon agile pour créer des applications web de qualité
+    .medium-4.columns
+      = link_to 'Compétences', '/about.html', class: 'button secondary'
 
 .row
   .medium-12.columns.text-center
     markdown:
-      ## Processus de conception
+      ## Agile workflow
 
       Je reste concentré sur les 3 philosophies du __webdesign moderne__, basé sur les bonnes pratiques de Google.
 
@@ -120,11 +122,12 @@ blog: blog
         p Contrôler
 
 .m-section--inverse
-  p.l-link
-    'Pourquoi vous devez
-    = link_to '/work.html' do
-      |travailler avec un designer
-    '&nbsp;?
+  .row
+    .medium-8.columns
+      h2.l-title Investissez dans un design durable
+      p.l-baseline Je crée des ponts entre graphistes et développeurs backend
+    .medium-4.columns
+      = link_to 'Travailler avec un designer', '/work.html', class: 'button secondary'
 
 .row
   .medium-12.columns
@@ -171,11 +174,12 @@ blog: blog
               hr
 
 .m-section--inverse
-  p.l-link
-    'Apprendre de nouvelle choses
-    = link_to '/projects.html' do
-      |en découvrant mes projets
-    '&nbsp;?
+  .row
+    .medium-8.columns
+      h2.l-title Développeur front-end open source
+      p.l-baseline Je crée des ponts entre graphistes et développeurs backend
+    .medium-4.columns
+      = link_to 'Projets open source', '/projects.html', class: 'button secondary'
 
 section.m-section
   .row
