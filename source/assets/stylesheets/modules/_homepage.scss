@@ -51,15 +51,8 @@
   }
 
   .button-call-to-action {
-    position: absolute;
-    z-index: 10;
-    left: 50%;
-    margin: 0;
-    margin-left: rem-calc(-188);
-    bottom: rem-calc(140);
+    margin-top: rem-calc(40);
     @media #{$small-only} {
-      bottom: rem-calc(80);
-      margin-left: rem-calc(-110);
       max-width: rem-calc(240);
     }
   }
