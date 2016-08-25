@@ -9,6 +9,7 @@
   padding: rem-calc(40 20);
   margin: rem-calc(40 0);
   box-shadow: rem-calc(-200) 0 0 0 $black;
+  @include css-hyphens(none);
 
   p {
     @extend .sith;
@@ -21,7 +22,6 @@
 
   .button {
     margin: 0;
-    line-height: rem-calc(45);
   }
 
   .l-title {
@@ -39,6 +39,15 @@
     a {
       color: $white;
       border-color: $white;
+    }
+  }
+}
+
+.m-homepage {
+  .m-section--inverse {
+    .button {
+      margin: 0;
+      line-height: rem-calc(45);
     }
   }
 }
