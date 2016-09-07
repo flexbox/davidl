@@ -2,7 +2,10 @@
 date: 2014-05-21
 slug: site-obese
 title: "Performance site internet : Astuces et bonnes pratiques"
+description: Voici différentes techniques pour améliorer la vitesse de navigation sur votre site internet. Elles sont classées par ordre de complexité de la plus simple et rapide à mettre en place à la plus compliquée
+image: https://lh3.googleusercontent.com/Sg3X0Z_H4hchMseGwWabHGM03ceDk-H257RWS3HjS1Oi5yI2rvCghMd1C_W4Sjg9bbCUukfflZSeUuYtrqjXZitRm3a558Vk1WcaF8oN9b_4bU7VnvGrAyt2AeObs6UGFT_DQ_SyNixoegeO_CWekLJz4j3ViJYNpze-GsGxcyUkRVXmK6h12c3mU94dOhpR_ruropNnzxdNt5DK3IuFf167wIWTVRI1JeZ3H5v1eTql5Hw3TjDfku8UaO3c04xxgjpyKp70QQKEHHuA4QLabDYALstOQkGk1MQOWgys333RDR6PInt1rt8nNFJWj7lgLTFlN-unkyupoLsEnTFu9RZrfvHI4Xajl9LI2B3aCvQ3829pyhbakNkk8TF4LmdoOyy8wCSgj5cZOw2IWvm1V3o7WTs1T2DtUxDFT7g9-s5PBFCtnVbxCKtUpfn0oamxKsaoKH38Ap-bhSf7-aRU1l9B7vNXNCeB06-aLT1-6XqjArUf4b0TVY7VRQIoodBeBfLolNN8_iWfaB8QXZNnNoXGR8ZY1V5d2suwYGaADG_3gdkLP-BYqDuki7LP5NnPYBvnHl8xGY8UgHt-g7yXn3TK6-8wtDWupBluhp-CFis5phVS=w1024-h512-no
 page_title: Votre site web est obèse
+page_emphasis: Comment améliorer l’expérience utilisateur avec un site rapide
 changefreq: monthly
 priority: 0.8
 ---
@@ -12,9 +15,9 @@ Certains d’entre vous ont sûrement connu l'époque du 56k. En ce temps là, c
 
 ![Site internet obèse](https://farm6.staticflickr.com/5519/14256724243_9a829c4dd1_o.jpg)
 
-De nos jours les sites sont de plus en plus complexes, embarquent de plus en plus de contenu. Grâce à la fibre optique ces derniers se chargent de plus en plus vite... En théorie car paradoxalement le web évolue vite, mais les sites web sont toujours aussi long à charger.
+De nos jours les sites sont de plus en plus complexes, embarquent de plus en plus de contenu. Grâce à la fibre optique ces derniers se chargent de plus en plus vite… — En théorie — car paradoxalement le web évolue vite, mais les sites web sont toujours aussi long à charger.
 
-Il existe beaucoup d’options pour améliorer la performance de votre site internet. Pour vous aider à décider comment mettre en place ces solutions j’ai découpé cet article en 3 parties :
+Il existe beaucoup d’options pour __améliorer la performance de votre site internet__. Pour vous aider à décider comment mettre en place ces solutions j’ai découpé cet article en 3 parties :
 
 - Geek
 - Hacker
@@ -113,7 +116,7 @@ N’oubliez pas de cocher la case __jpg progressif__, cette technique utilisée 
 
 #### 2. Supprimer les informations inutiles
 
-Pour gagner quelques octets supplémentaires il est possible de supprimer d’autres informations encapsulées dans les images (métadonnées, informations de claques, ...) Cette opération peut se faire très facilement avec des logiciels comme :
+Pour gagner quelques octets supplémentaires il est possible de supprimer d’autres informations encapsulées dans les images (métadonnées, informations de claques, …) Cette opération peut se faire très facilement avec des logiciels comme :
 
 - [imgOptim](http://imageoptim.com/) pour macOS
 - [pngGauntlet](http://pnggauntlet.com/) pour windows
@@ -127,7 +130,9 @@ Si vous souhaitez en savoir plus sur l’optimisation des images, je vous invite
 
 Avec la puissance de node et [ImageOptim-CLI](https://github.com/JamieMason/ImageOptim-CLI) il est possible d’automatiser tout ce processus pour vous permettre de gagner un temps considérable.
 
-    npm install -g imageoptim-cli
+~~~ zsh
+  npm install -g imageoptim-cli
+~~~
 
 #### 4. Lazy Loading d’images
 
@@ -141,8 +146,8 @@ Toutes les techniques précédentes, ormis la concaténation, vous aiderons à r
 La performance n’augmentera pas, c’est le sentiment de vitesse que ressentira l’utilisateur qui doit être perceptible. Le moyen le plus simple de retarder le chargement d’un fichier JavaScript en utilisant l’attribut HTML5 `defer` ou `async`.
 
 ~~~ html
-    <script defer src="application.js"></script>
-    <script async src="application.js"></script>
+  <script defer src="application.js"></script>
+  <script async src="application.js"></script>
 ~~~
 
 D’un point de vue latence et performance ces attributs se comportent de façon similaire. Ils demandent au navigateur d'éxécuter les scripts seulement après avoir téléchargé l’intégralité du contenu de la page.
@@ -166,7 +171,7 @@ Les techniques de guru peuvent êtres mises en place pour des applications web H
 - Optimiser le chargement du contenu pour être utilisé plus rapidement.
 
 <div class="alert-box alert">
-Le principal désavantage est le support des navigateurs
+  Le principal désavantage est le support des navigateurs
 </div>
 
 Dans certains cas il ne sera pas possible de garantir le résultat sur de vieux navigateurs. N’hésitez pas à vérifier les différentes fonctionnalités sur le site [caniuse](http://caniuse.com).
@@ -187,7 +192,6 @@ Voici un très mauvais exemple que je rencontre quotidiennement :
       <link rel="stylesheet" href="small.css">
       <link rel="stylesheet" href="big.css">
     </head>
-    ...
 ~~~
 
 Vous ne devez __JAMAIS__ faire cela. Le JavaScript bloque téléchargement des autres ressources en parallèle comme les images. Sauf exception votre JavaScript doit toujours être appelé uniquement avant la fin du `</body>`
@@ -244,7 +248,7 @@ Le navigateur télécharge et évalue l’intégralité de votre JavaScript, mai
 
 ~~~ html
     <html>
-    ...
+    …
     <script id="js-module-lazy">
     /*
       JavaScript commented code
@@ -269,7 +273,7 @@ Cette technique est complexe à mettre en place car votre architecture JavaScrip
 
 ### Le cas des boutons sociaux
 
-Fin 2011, le magazine Allemand Heise a publié un nouvel ensemble d'[icônes pour les réseau sociaux](http://www.heise.de/extras/socialshareprivacy/) très connu. La différence ? Il faut 2 clics pour "aimer", "tweeter" ou ajouter "+1".
+Fin 2011, le magazine Allemand Heise a publié un nouvel ensemble d’[icônes pour les réseau sociaux](http://www.heise.de/extras/socialshareprivacy/) très connu. La différence ? Il faut 2 clics pour “aimer”, “tweeter” ou ajouter “+1”.
 
 De base les images des icones sont chargées. Si l’utilisateur souhaite partager, alors les widgets de partage sont téléchargés. Cette solution présente de nombreux avantages non négligeables.
 
