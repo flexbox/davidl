@@ -2,7 +2,7 @@
 date: 2013-11-15 12:57:20+00:00
 slug: javascript
 title: Maitriser rapidement JavaScript
-description: Maitriser rapidement JavaScript
+description: JavaScript par la pratique. Découvrez ou redécouvrez le language JavaScript lors de la création d’un jeu de memory.
 image: https://lh3.googleusercontent.com/xwdp6MR-DwtmSiIMvNO1UUwG-iMf07q8aB84YmjOXkaqzR83_L2CBLzOFXwTXe9u0n01ds3Nzjen-VCVkBs5mhEMX29TIHIb2uuWYsBLbaxFsCrfTu2zginOrn4YixqrDT-kVox-FTpVpSbtq7b1PjLe-7hzbHUYo1_ycD1KZHDx2OrTGpTu0UI5Ge5ObCvD9NBj1fb5QE_Ld_u1Px94rs_VdqTqUmIrdYWiEBYwDrcbtSekJ_UaQOoSEZKE509S3_ANep0f84eJfRinSq8pusauOjQV_ZdBI65TMJFiFMydr1MLx8i-ENDxunGtp9ILMUnko2TY2eiAGFMkfYM4D1o0g5io9HA8m0PBDa9TiTrLL8VU_9jglg2NJjASNxyOWnk6zFwyUJtCURtlJSVA4SHXOfaG7HGAXvgPlM3yUFEOLZzoYYw2XdSDWH4QqYr8MdSAbCPe_ZdsDdjwspyfgzCILZlZFlzgU8oNxMc0Vk-t70K3u-HNYKRVsKwcABGQPeY-2BsfALtEnycwVf5kysX4yLDEj8B3gL5SyTMXRD-RNsznAzzMHT5GcXG1eUiSXKL4M18kFkxX0iLoGjE3kFJVnPA3bcn100pQ2PYejZDqosUA=w1024-h512-no
 page_title: JavaScript™ par Nicolas froidure
 page_emphasis: JavaScript ? même au XXIème siècle ça n’a rien à voir avec Java ou J2EE
