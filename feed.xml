@@ -93,7 +93,6 @@ Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wi
 
 &lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;brew install imagesnap
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Une fois téléchargé, vous pouvez utiliser la commande &lt;code&gt;imagesnap&lt;/code&gt; pour capturer une image.&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="Gitshot CLI" src="https://c2.staticflickr.com/8/7212/26964984922_8730424a83_b.jpg" /&gt;&lt;/p&gt;
@@ -104,18 +103,15 @@ Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wi
 
 &lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;mkdir ~/.gitshots ~/.git-templates
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Ajoutez ces 2 lignes dans votre fichier &lt;code&gt;.gitconfig&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="o"&gt;[&lt;/span&gt;init]
     templatedir &lt;span class="o"&gt;=&lt;/span&gt; ~/.git-templates
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Vous devez maintenant créer votre fichier de hook.&lt;/p&gt;
 
 &lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;vim .git-templates/hooks/post-commit
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Collez-y les lignes suivantes :&lt;/p&gt;
 
 &lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="c1"&gt;#!/usr/bin/env ruby&lt;/span&gt;
@@ -124,7 +120,6 @@ Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wi
   &lt;span class="nb"&gt;system&lt;/span&gt; &lt;span class="s2"&gt;"imagesnap -q -w 3 &lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;
   &lt;span class="nb"&gt;exit&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Pour que votre Hook s’applique à vos anciens projets, n’oubliez pas de faire un &lt;code&gt;git init&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id="timelapse-vido"&gt;Timelapse vidéo&lt;/h2&gt;
@@ -133,12 +128,10 @@ Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wi
 
 &lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;brew install tlassemble
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Pour créer notre timelapse video vous devez spécifier le dossier d’origine et le fichier de sortie.&lt;/p&gt;
 
 &lt;pre class="highlight shell"&gt;&lt;code&gt;  &lt;span class="nv"&gt;$ &lt;/span&gt;tlassemble .gitshots time_lapse.mov
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Et voila !&lt;/p&gt;
 
 &lt;p&gt;Abonnez-vous à ma newsletter pour voir le timelapse des &lt;strong&gt;1 an de commit&lt;/strong&gt;. En tant que consultant front-end je suis curieux de voir en image les différents endroits d’où je travaille.&lt;/p&gt;
@@ -162,7 +155,6 @@ Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wi
   &lt;span class="nv"&gt;$ &lt;/span&gt;npm config &lt;span class="nb"&gt;set &lt;/span&gt;init.author.url http://davidl.fr
   &lt;span class="nv"&gt;$ &lt;/span&gt;npm config &lt;span class="nb"&gt;set &lt;/span&gt;init.license MIT
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;La prochaine fois que vous utiliserez &lt;code&gt;npm init&lt;/code&gt; ces valeurs seront déjà par défaut. Un &lt;strong&gt;gain de temps considérable&lt;/strong&gt; !&lt;/p&gt;
 
 &lt;h2 id="encore-une-petite-chose"&gt;Encore une petite chose&lt;/h2&gt;
@@ -265,7 +257,6 @@ Un code organisé simplement est plus facile à maintenir, s’analyse plus rapi
   &lt;span class="k"&gt;@media&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="nf"&gt;and&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;min-size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;1000px&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt; &lt;span class="err"&gt;…&lt;/span&gt; &lt;span class="err"&gt;}&lt;/span&gt;
   &lt;span class="k"&gt;@media&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="nf"&gt;and&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;min-size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;1200px&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt; &lt;span class="err"&gt;…&lt;/span&gt; &lt;span class="err"&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;h2 id="forcez-vous--tre-concentr-sur-des-composants"&gt;Forcez vous à être concentré sur des composants&lt;/h2&gt;
 
 &lt;p&gt;Heureusement, la conception mobile-first fonctionne à merveille avec cette technique. Au lieu de vous concentrer sur une grande mise en page, décomposez et soignez les petites parties. Repérez chaque composant &lt;code&gt;header&lt;/code&gt;, &lt;code&gt;navigation&lt;/code&gt; , &lt;code&gt;hero banner&lt;/code&gt; … dans un contexte de petit écran. Est-ce qu’il vit correctement tout seul ? Si ce n’est pas le cas, comment pouvons-nous l’améliorer?&lt;/p&gt;
@@ -314,12 +305,10 @@ Un code organisé simplement est plus facile à maintenir, s’analyse plus rapi
 
 &lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sx"&gt;%= render :partial =&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="s1"&gt;'svg/logo'&lt;/span&gt; &lt;span class="o"&gt;%&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;&lt;strong&gt;Middleman&lt;/strong&gt;&lt;/p&gt;
 
 &lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sx"&gt;%= partial 'svg/logo' %&amp;gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Boom ! sh$t done !&lt;/p&gt;
 
 &lt;h2 id="mthode-2--rendu-dynamique"&gt;Méthode 2 : Rendu dynamique&lt;/h2&gt;
@@ -338,7 +327,6 @@ Un code organisé simplement est plus facile à maintenir, s’analyse plus rapi
     &lt;span class="s1"&gt;'(not found)'&lt;/span&gt;
   &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;&lt;strong&gt;Middleman&lt;/strong&gt;&lt;/p&gt;
 
 &lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;svg&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;name&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
@@ -348,14 +336,12 @@ Un code organisé simplement est plus facile à maintenir, s’analyse plus rapi
     &lt;span class="s1"&gt;'(not found)'&lt;/span&gt;
   &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Le &lt;strong&gt;helper&lt;/strong&gt; cherche le chemin de l’image, dès qu’il le trouve il retourne le résultat au format texte. Pour éviter les erreurs on affiche &lt;code&gt;(not found)&lt;/code&gt; au lieu de provoquer une erreur.&lt;/p&gt;
 
 &lt;p&gt;Pour afficher une image c’est aussi simple que cela :&lt;/p&gt;
 
 &lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="sx"&gt;%= svg 'logo' %&amp;gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
 &lt;h2 id="chargement-plus-rapide"&gt;Chargement plus rapide&lt;/h2&gt;
 
 &lt;p&gt;Pour aller plus loin vous pouvez ajouter une stratégie de cache afin d’&lt;strong&gt;améliorer la performance&lt;/strong&gt;, il est facile de mettre en place le &lt;a href="http://guides.rubyonrails.org/caching_with_rails.html"&gt;fragment caching de Rails&lt;/a&gt;.&lt;/p&gt;
@@ -371,7 +357,6 @@ Un code organisé simplement est plus facile à maintenir, s’analyse plus rapi
     &lt;span class="k"&gt;end&lt;/span&gt;
   &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Je ne suis pas sur du comportement mais je pense qu’après chaque deploy en production vous devrez faire un &lt;code&gt;Rails.cache.clear&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id="attention"&gt;⚠ Attention&lt;/h2&gt;
