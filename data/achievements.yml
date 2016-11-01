@@ -38,14 +38,20 @@ interviews:
 
 talks:
   -
+    date: Octobre 2016
+    website: Agile Tour
+    lang: '🇫🇷'
+    url: http://courses.davidl.fr/presentations/workflow/
+    title: 'How to hack your company & succeed your Slack onboarding ?'
+  -
     date: Août 2015
     website: RubycampBE
-    lang: ':en:'
+    lang: '🇺🇸'
     url: http://courses.davidl.fr/presentations/middleman/
     title: 'Craft everything with Middleman'
   -
     date: Septembre 2013
     website: ChtiJS
-    lang: ':fr:'
+    lang: '🇫🇷'
     url: http://chtijs.francejs.org/archives/2013-09-19/index.html
     title: 'Pokémon breakpoint : Responsive design, CSS & JavaScript'
