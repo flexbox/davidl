@@ -75,6 +75,7 @@ require 'better_errors'
 require 'builder'
 require 'kramdown'
 require 'slim'
+Slim::Engine.disable_option_validator!
 
 set :css_dir,    'assets/stylesheets'
 set :images_dir, 'assets/images'

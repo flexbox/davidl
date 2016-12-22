@@ -79,6 +79,7 @@ blog:
     2016-03-29-npm-init-config.markdown: "/blog/articles/2016-03-29-npm-init-config.markdown"
     2016-05-04-gitshot.markdown: "/blog/articles/2016-05-04-gitshot.markdown"
     2016-06-14-certification-google.markdown: "/blog/articles/2016-06-14-certification-google.markdown"
+    2016-12-11-indonesia.markdown: "/blog/articles/2016-12-11-indonesia.markdown"
   index.html.slim: "/blog/index.html.slim"
 books.html.slim: "/books.html.slim"
 clients.html.slim: "/clients.html.slim"

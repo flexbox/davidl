@@ -25,7 +25,7 @@ Si vous avez choisi d'acheter votre nom de domaine sans hébergement vous pouver
 
 ![Modifier votre DNS](blog/legacy/2013/08/DNS-github.png?raw=true)
 
-Pour un domaine comme exemple.fr vous devez utiliser un enregistrement de type A et le faire pointer sur `204.232.175.78`
+Pour un domaine comme exemple.fr vous devez utiliser un enregistrement de type A et le faire pointer sur `192.30.252.153`
 
 
 ## Créer un fichier CNAME
