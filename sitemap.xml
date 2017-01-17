@@ -64,6 +64,9 @@
     <priority>0</priority>
   </url>
   <url>
+    <loc>http://davidl.fr/setup.html</loc>
+  </url>
+  <url>
     <loc>http://davidl.fr/projects.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -102,11 +105,6 @@
     <loc>http://davidl.fr/integrateur-web-lille.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://davidl.fr/blog/framework-php.html</loc>
@@ -474,9 +472,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/blog/certification-google.html</loc>
+    <loc>http://davidl.fr/blog/gitshot.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://davidl.fr/blog/indonesia.html</loc>
@@ -525,7 +528,7 @@
   </url>
   <url>
     <loc>http://davidl.fr/cv.html</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>1</priority>
   </url>
   <url>
@@ -594,7 +597,7 @@
     <priority>0</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/blog/gitshot.html</loc>
+    <loc>http://davidl.fr/blog/certification-google.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
