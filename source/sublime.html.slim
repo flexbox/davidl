@@ -11,37 +11,6 @@ priority: 0.4
 .row
   .medium-10.medium-centered.columns
     .text-center
-      - data.sublime.each do |section|
-        h2 = section.title
-        = image_tag section.picture, alt: "Sublime Text gif #{section.title}", class: 'm-good-practice--sublime'
-        - section.advices.each do |advice|
-          .m-panel
-            strong = advice.title
-            hr
-            .m-good-practice--shorcut
-              i.fa.fa-2x.fa-linux
-              - advice.linux.each_with_index do |shorcut, i|
-                = image_tag "front/keyboard/#{shorcut.keyboard}.png"
-                - if (i === 0) && advice.linux.length === 2
-                  i.fa.fa-2x.fa-plus
-                - elsif advice.linux.length === 3
-                  - if (i === 0)
-                    i.fa.fa-2x.fa-plus
-                  - elsif (i === 1)
-                    i.fa.fa-2x.fa-plus
-            .m-good-practice--shorcut
-              i.fa.fa-2x.fa-apple
-              - advice.macos.each_with_index do |shorcut, i|
-                = image_tag "front/keyboard/#{shorcut.keyboard}.png"
-                - if (i === 0) && advice.macos.length === 2
-                  i.fa.fa-2x.fa-plus
-                - elsif advice.macos.length === 3
-                  - if (i === 0)
-                    i.fa.fa-2x.fa-plus
-                  - elsif (i === 1)
-                    i.fa.fa-2x.fa-plus
-
-    .m-section.text-center
       markdown:
         ## Pimper Sublime Text<br>avec des paquets
 
@@ -70,11 +39,12 @@ priority: 0.4
       markdown:
         Voici une liste de __5 paquets indispensables__ à installer :
 
-        - [GitGutter](https://packagecontrol.io/packages/GitGutter)
-        - [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
-        - [Emmet](https://packagecontrol.io/packages/Emmet)
-        - [editorConfig](https://packagecontrol.io/packages/EditorConfig)
-        - [allAutocomplete](https://packagecontrol.io/packages/All%20Autocomplete)
+      ul.no-bullet
+        li = link_to 'GitGutter', 'https://packagecontrol.io/packages/GitGutter', target: '_blank'
+        li = link_to 'BracketHighlighter', 'https://packagecontrol.io/packages/BracketHighlighter', target: '_blank'
+        li = link_to 'Emmet', 'https://packagecontrol.io/packages/Emmet', target: '_blank'
+        li = link_to 'editorConfig', 'https://packagecontrol.io/packages/EditorConfig', target: '_blank'
+        li = link_to 'allAutocomplete', 'https://packagecontrol.io/packages/All%20Autocomplete', target: '_blank'
 
     .m-section
       .text-center
@@ -118,3 +88,34 @@ priority: 0.4
           "trim_trailing_white_space_on_save": true
         }
         ~~~
+
+    .text-center
+      - data.sublime.each do |section|
+        h2 = section.title
+        = image_tag section.picture, alt: "Sublime Text gif #{section.title}", class: 'm-good-practice--sublime'
+        - section.advices.each do |advice|
+          .m-panel
+            strong = advice.title
+            hr
+            .m-good-practice--shorcut
+              i.fa.fa-2x.fa-linux
+              - advice.linux.each_with_index do |shorcut, i|
+                = image_tag "front/keyboard/#{shorcut.keyboard}.png"
+                - if (i === 0) && advice.linux.length === 2
+                  i.fa.fa-2x.fa-plus
+                - elsif advice.linux.length === 3
+                  - if (i === 0)
+                    i.fa.fa-2x.fa-plus
+                  - elsif (i === 1)
+                    i.fa.fa-2x.fa-plus
+            .m-good-practice--shorcut
+              i.fa.fa-2x.fa-apple
+              - advice.macos.each_with_index do |shorcut, i|
+                = image_tag "front/keyboard/#{shorcut.keyboard}.png"
+                - if (i === 0) && advice.macos.length === 2
+                  i.fa.fa-2x.fa-plus
+                - elsif advice.macos.length === 3
+                  - if (i === 0)
+                    i.fa.fa-2x.fa-plus
+                  - elsif (i === 1)
+                    i.fa.fa-2x.fa-plus

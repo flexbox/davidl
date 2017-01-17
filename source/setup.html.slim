@@ -1,0 +1,83 @@
+---
+title: Installer sa machine de developpeur web avec ubunutu
+description: "Tutoriel pour développeur web : installer correctement votre éditeur de texte sublime Text, installer et associer git avec GitHub et presonnaliser son terminal"
+image: https://lh3.googleusercontent.com/LpgUHnmpCk9esCX7u8OVFWCd4SjPPcBt58E3lyqYLR4J2TXeaCK24skZ1_wtg7BgGQE76qEP-P0po2lyHhg6oJjEYkbb_GvrrTskzVcgoq_xD3F46CmYgwLPxBl7YHCzz9UYCB95ErXnB_vHo6zwgJJNtwkXkeXrWzUzdJp61UUwadwEcuZODdzEsGmJWHPzhtn7MU2IdRbSEm6FgpZ4xsVRg6ehaUkldaf_vze69guvp8zddQ_JLArBnPFyvgrN1B_UlAhjHIUU0r_IeRPJACRCA35Ol8HERUEokrJL5_CPqmgOL0duX73O6MePMPXzgm7GfmDi_4G6Tn4FUC4dOV-gU4dAphKu13YHXlRgrFySZRSdaU7ri1Amb3QOwDLikWChKYMbY6l86GLLSJYvbJQiH09MXmkolmMxxn55l7QXc8wsWCe07KUArpYCdgRrsLqZ6uo3cdK4lnmZfE6GSZ8VNLWR1gzzI_NNrJZuyLdhDClRLf7t4BHkWSvTobgG4tUrNX0wjpFHLwvXioWX5mniK787uQ8iklkdDb2swvti_udGPqOQd3kyWK1_UH0yKjar_gYSZ7dKr0yLKMYYiu9aYaov9P71Q4FSnuhfmxEZmr6EQINsOQ=w1024-h512-no
+page_title: Setup ubuntu machine
+page_emphasis: Transformer votre ordinateur linux en une machine de développement web productive
+page_class: m-manifest
+---
+
+.row
+  .medium-2.hide-for-small.columns
+    div data-magellan-expedition="fixed"
+      dl.side-nav
+        dd.l-title Thèmes
+        dd data-magellan-arrival="instructions-dinstallation"
+          = link_to 'Introduction', '#instructions-dinstallation'
+        dd data-magellan-arrival="sublime-text-3---votre-diteur"
+          = link_to 'Sublime Text 3', '#sublime-text-3---votre-diteur'
+        dd data-magellan-arrival="git--github"
+          = link_to 'git & GitHub', '#git--github'
+        dd data-magellan-arrival="terminal"
+          = link_to 'terminal', '#terminal'
+
+  .medium-9.small-12.columns
+    markdown:
+        # Instructions d’installation
+
+        Les instructions suivantes vous aiderons à être prêt pour suivre la [formation git & GitHub](http://courses.davidl.fr/programs/git-github.html) dans de bonnes conditions.
+
+        - Choisir un bon éditeur de texte
+        - Installer un bon gestionnaire de paquet
+        - Installer git et associer votre profil GitHub
+        - Personnaliser votre Terminal
+
+        ## Sublime Text 3 - Votre éditeur
+
+        Un bon editeur de texte est l’outil __le plus important pour un developpeur web__.<br>
+        Tapez ces commandes dans un Terminal:
+
+        ~~~bash
+          sudo add-apt-repository ppa:webupd8team/sublime-text-3
+          sudo apt-get update
+          sudo apt-get install -y sublime-text-installer
+        ~~~
+
+        ## Installer le gestionnaire des paquets
+
+        Pour télécharger automatiquement les mises à jour de votre éditeur de texte, vous devez [installer un gestionnaire de paquets](/sublime.html#pimper-sublime-textbravec-des-paquets).
+        Vous pouvez installer le nombre de paquet que vous souhaitez, mais __commencez par les 5 paquets indispensables__ est une bonne base.
+
+        Terminez votre installation en [hackant l’interface de Sublime Text](/sublime.html#hacker-linterface).
+
+        ## Git & GitHub
+
+        Téléchargez `git`, le logiciel de gestion de versions qui vous permettra d’archiver votre code :
+
+        ~~~bash
+          sudo add-apt-repository ppa:git-core/ppa
+          sudo apt-get update
+          sudo apt-get install -y git
+        ~~~
+
+        Dès que l’installation est terminée, vous devez [configurer git & GitHub](/git.html).
+
+        ## Terminal
+
+        Nous allons utiliser un shell nommé `zsh` au lieu de `bash`, celui par default.
+
+        ~~~bash
+          sudo apt-get install zsh
+        ~~~
+
+        Ensuite vous devez installer [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) pour bénéficier de pleins de raccourcis trop cools !
+
+        ~~~bash
+          sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+        ~~~
+
+        Pour afficher les changements, vous dever redemarrer votre machine :
+
+        ~~~bash
+          sudo shutdown -r 0
+        ~~~

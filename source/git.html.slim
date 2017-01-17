@@ -1,6 +1,6 @@
 ---
-title: 'Comment configurer git & Github sur macOS, Linux & Windows ?'
-description: Récapitulatif sur les différentes configurations à mettre en place pour travailler efficacement avec git et GitHub
+title: 'Comment installer git & Github sur macOS, Linux & Windows ?'
+description: Récapitulatif sur les différentes configurations à mettre en place pour travailler efficacement avec git et GitHub. Ajout de fichier de configuration et association des clefs SSH
 page_title: Améliorer sa productivité avec git
 page_emphasis: 'Ça ne coûte pas plus cher de bien travailler'
 page_class: m-good-practice
@@ -10,95 +10,59 @@ priority: 0.6
 
 .row
   .medium-10.medium-centered.columns
-    .row
-      .medium-10.medium-centered.columns
-        markdown:
-          ## Outils de base
-        h3
-          .i-custom.icon-command-promt-1
-          'Terminal
-        .m-panel
-          .m-section--card
-            .l-icon
-              i.fa.fa-2x.fa-apple
-            .l-content
-              markdown:
-                [iterm](http://www.iterm2.com/){:target="_blank"} c’est comme le terminal de base de macOS, mais en mieux.<br>
-                _Exemple_ : vous pouvez splitter vos écrans de façon horizontale et verticale avec `cmd` + `d` ou `cmd` + `shift` + `d`
-        .m-panel
-          .m-section--card
-            .l-icon
-              i.fa.fa-2x.fa-windows
-            .l-content
-              markdown:
-                [babun](http://babun.github.io/){:target="_blank"} le “moins pire” qu’on puisse faire sur Windows et la seule façon de survivre si l’on est obligé de bosser avec cet os.
-        br
-        br
-        h3
-          .i-custom.icon-wrench
-          'Raccourcis pour gagner du temps
-        .m-panel
-          .m-section--card
-            .l-icon
-              i.fa.fa-2x.fa-apple
-              i.fa.fa-2x.fa-linux
-            .l-content
-              markdown:
-                [ovmyzsh](http://github.com/robbyrussell/oh-my-zsh){:target="_blank"} Vous allez adorer utiliser un terminal ! À chaque fois que vous interagissez avec votre invite de commande, vous serez en mesure de tirer parti des centaines de plugins installés avec un joli thème.
+    markdown:
+      ## Configurer git
 
+      La première étape est d'ouvrir un terminal et de créer un nouveau fichier.
+
+      ~~~zsh
+        $ touch .gitconfig
+      ~~~
+
+      Ouvrez le fichier créé avec `vim .gitconfig` — ou tout autre éditeur de texte — et collez les lignes ci-dessous :
+
+      ~~~zsh
+        [user]
+          name = David Leuliette
+          email = dleuliette@gmail.com
+
+        [color]
+          ui = auto
+        [color "branch"]
+          upstream = cyan
+
+        [alias]
+          poule = pull --rebase
+          co = checkout
+          ci = commit
+          br = branch
+          today = log --since=midnight --author='David Leuliette' --oneline
+          lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
+          oops = commit --amend --no-edit
+
+        [push]
+          # Default push should only push the current branch to its push target, regardless of its remote name
+          default = current
+          # When pushing, also push tags whose commit-ishs are now reachable upstream
+          followTags = true
+
+        [diff]
+          # Use better, descriptive initials (c, i, w) instead of a/b.
+          mnemonicPrefix = true
+          # Show renames/moves as such
+          renames = true
+          # When using --word-diff, assume --word-diff-regex=.
+          wordRegex = .
+          # Display submodule-related information (commit listings)
+          submodule = log
+
+        [log]
+          # Use abbrev SHAs whenever possible/relevant instead of full 40 chars
+          abbrevCommit = true
+          # Automatically --follow when given a single path
+          follow = true
+      ~~~
     .m-section
-      markdown:
-        ## Configurer git
-
-        La première étape est d'ouvrir un terminal et de créer un nouveau fichier.
-
-        ~~~zsh
-          $ touch .gitconfig
-        ~~~
-
-        Ouvrez le fichier créé avec `vim .gitconfig` — ou tout autre éditeur de texte — et collez les lignes ci-dessous :
-
-        ~~~zsh
-          [user]
-            name = David Leuliette
-            email = dleuliette@gmail.com
-
-          [color]
-            ui = auto
-          [color "branch"]
-            upstream = cyan
-
-          [alias]
-            poule = pull --rebase
-            co = checkout
-            ci = commit
-            br = branch
-            today = log --since=midnight --author='David Leuliette' --oneline
-            lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
-            oops = commit --amend --no-edit
-
-          [push]
-            # Default push should only push the current branch to its push target, regardless of its remote name
-            default = current
-            # When pushing, also push tags whose commit-ishs are now reachable upstream
-            followTags = true
-
-          [diff]
-            # Use better, descriptive initials (c, i, w) instead of a/b.
-            mnemonicPrefix = true
-            # Show renames/moves as such
-            renames = true
-            # When using --word-diff, assume --word-diff-regex=.
-            wordRegex = .
-            # Display submodule-related information (commit listings)
-            submodule = log
-
-          [log]
-            # Use abbrev SHAs whenever possible/relevant instead of full 40 chars
-            abbrevCommit = true
-            # Automatically --follow when given a single path
-            follow = true
-        ~~~
       .row
         .medium-10.medium-centered.columns
           markdown:
@@ -127,6 +91,12 @@ priority: 0.6
     .m-section
       markdown:
         ## Associer son compte GitHub
+
+        Vous n’avez pas encore enregistré votre compte GitHub? [Faites-le tout de suite](https://github.com/join).
+
+        👉 **[Uploadez votre avatar](https://github.com/settings/profile)** et écrivez votre nom complet correctement sur votre compte GitHub. C’est important pour que nous puissions tous travailler ensemble.
+
+        👉 Allez sur votre [Compte GitHub](https://github.com/settings/emails) et utilisez le même email que celui de votre fichier `.gitconfig`.
 
         ### Créer une clé SSH
 
@@ -172,6 +142,42 @@ priority: 0.6
           $ ssh -T git@github.com
           # Attempts to ssh to GitHub
         ~~~
+
+    .row
+      .medium-10.medium-centered.columns
+        markdown:
+          ## Outils de base
+        h3
+          .i-custom.icon-command-promt-1
+          'Terminal
+        .m-panel
+          .m-section--card
+            .l-icon
+              i.fa.fa-2x.fa-apple
+            .l-content
+              markdown:
+                [iterm](http://www.iterm2.com/){:target="_blank"} c’est comme le terminal de base de macOS, mais en mieux.<br>
+                _Exemple_ : vous pouvez splitter vos écrans de façon horizontale et verticale avec `cmd` + `d` ou `cmd` + `shift` + `d`
+        .m-panel
+          .m-section--card
+            .l-icon
+              i.fa.fa-2x.fa-windows
+            .l-content
+              markdown:
+                [babun](http://babun.github.io/){:target="_blank"} le “moins pire” qu’on puisse faire sur Windows et la seule façon de survivre si l’on est obligé de bosser avec cet os.
+        br
+        br
+        h3
+          .i-custom.icon-wrench
+          'Raccourcis pour gagner du temps
+        .m-panel
+          .m-section--card
+            .l-icon
+              i.fa.fa-2x.fa-apple
+              i.fa.fa-2x.fa-linux
+            .l-content
+              markdown:
+                [ovmyzsh](http://github.com/robbyrussell/oh-my-zsh){:target="_blank"} Vous allez adorer utiliser un terminal ! À chaque fois que vous interagissez avec votre invite de commande, vous serez en mesure de tirer parti des centaines de plugins installés avec un joli thème.
 
     .m-section
       .row
