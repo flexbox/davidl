@@ -5,16 +5,99 @@
   <id>http://davidl.fr/blog/</id>
   <link href="http://davidl.fr/blog/"/>
   <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2016-12-11T00:00:00+01:00</updated>
+  <updated>2017-02-06T00:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>FOSDEM 2017</title>
+    <link rel="alternate" href="http://davidl.fr/blog/fosdem-2017.html"/>
+    <id>http://davidl.fr/blog/fosdem-2017.html</id>
+    <published>2017-02-06T00:00:00+01:00</published>
+    <updated>2017-02-06T19:00:41+01:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;Cela va bientôt faire 10 ans que je fréquente les barbus du monde de l’open source. Chaque année, &lt;strong&gt;des milliers de développeurs / hackers&lt;/strong&gt; du monde entier se retrouvent à Bruxelles pour un événement entièrement gratuit sans réservation préalable : le &lt;a href="https://fosdem.org/"&gt;FOSDEM&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dans cet article je partage mon expérience sur l’édition 2017. En tant que &lt;strong&gt;développeur front-end&lt;/strong&gt; j’ai partagé mon samedi entre l’amphithéâtre principal Janson et la &lt;a href="https://fosdem.org/2017/schedule/track/mozilla/"&gt;devroom Mozilla&lt;/a&gt;. Le dimanche mes amis &lt;a href="https://twitter.com/bustaja"&gt;@bustaJa&lt;/a&gt; et &lt;a href="https://twitter.com/lapinture"&gt;@lapinture&lt;/a&gt; m’ont embarqué pour assister aux conférences PHP — bizarrement j’ai survécu 😂&lt;/p&gt;
+
+&lt;h2 id="mozilla-au-fosdem--mozdemhttpstwittercomsearchq23mozdemsrctyah"&gt;Mozilla au FOSDEM — &lt;a href="https://twitter.com/search?q=%23mozdem&amp;amp;src=tyah"&gt;#mozdem&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;La &lt;a href="http://davidl.fr/blog/fosdem-2015.html"&gt;devroom de Mozilla&lt;/a&gt; est toujours aussi pleine avec des sujets comme la présentation du navigateur Firefox nightly, l’état de l’art du langage de programmation Rust ou encore les technologies web en général.&lt;/p&gt;
+
+&lt;p&gt;J’aime bien Mozilla et vous savez pourquoi ? Ils mettent en place des initiatives comme &lt;a href="https://webcompat.com/"&gt;webcompat&lt;/a&gt;. La proposition de valeur de ce site est simple :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Signaler un bug pour sur un site web.&lt;/li&gt;
+  &lt;li&gt;Une équipe de volontaires diagnostique de chez Mozilla qualifie le bug.&lt;/li&gt;
+  &lt;li&gt;Une proposition de correction est envoyée au propriétaire du site.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote class="twitter-tweet" data-lang="fr"&gt;&lt;p lang="en" dir="ltr"&gt;Lesson learned from the Mozilla devroom : avoid browser specific feature and UA sniffing like a plage &lt;a href="https://twitter.com/hashtag/deadtobullshit?src=hash"&gt;#deadtobullshit&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/mozdev?src=hash"&gt;#mozdev&lt;/a&gt; &lt;a href="https://t.co/LEuXkyKhJt"&gt;pic.twitter.com/LEuXkyKhJt&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Leuliette (@_flexbox) &lt;a href="https://twitter.com/_flexbox/status/827898739591376896"&gt;4 février 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;h3 id="firefox-devtools-deep-dive"&gt;Firefox DevTools Deep Dive&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/@lakatos88"&gt;@lakatos88&lt;/a&gt; nous a présenté les différentes &lt;strong&gt;fonctionnalités de la console de debug&lt;/strong&gt; pour les développeurs webs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="David leuliette sketchnote au FOSDEM FireFox DevTools" src="https://c1.staticflickr.com/1/738/32578567111_27e2de7e0a_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;h3 id="learning-internet-of-things--coding-with-html5-games"&gt;Learning Internet of Things &amp;amp; coding with HTML5 games&lt;/h3&gt;
+
+&lt;p&gt;De nos jours le web est LA plateforme qui permet de répondre à la demande “code once, deploy anywhere”. &lt;a href="https://twitter.com/slsoftworks"&gt;@slsoftworks&lt;/a&gt; code du JavaScript qui est compilé en C et l’envoie sur un arduino pour créer des jeux 8-bits.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="David leuliette FOSDEM sketchnote HTML5 games" src="https://c1.staticflickr.com/1/267/31862064384_4013613f6a_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;h3 id="so-that-was-http2-whats-next"&gt;So that was HTTP/2 what’s next?&lt;/h3&gt;
+
+&lt;p&gt;Daniel Stenberg a présenté la norme HTTP/2 et son évolution par rapport à HTTP/1.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nothing is lost, H2 is just faster&lt;/p&gt;
+
+  &lt;p&gt;— Daniel Stenberg&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img alt="David leuliette FOSDEM sketchnote HTTP/2" src="https://c1.staticflickr.com/1/554/31930327223_001ced7067_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour ce talk la salle était pleine ! Et vous pouvez jouer à “où est charlie” et me chercher dans la photo suivante :&lt;/p&gt;
+&lt;blockquote class="twitter-tweet" data-lang="fr"&gt;&lt;p lang="en" dir="ltr"&gt;The record for today at &lt;a href="https://twitter.com/hashtag/mozdem?src=hash"&gt;#mozdem&lt;/a&gt; - might be hard to overcome it.. &lt;a href="https://twitter.com/bagder"&gt;@bagder&lt;/a&gt;&amp;#39;s talk about HTTP2 ! &lt;a href="https://twitter.com/hashtag/fosdem?src=hash"&gt;#fosdem&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/fosdem2017?src=hash"&gt;#fosdem2017&lt;/a&gt; (sorry for those outside) &lt;a href="https://t.co/QeZ8CETVcf"&gt;pic.twitter.com/QeZ8CETVcf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ioana ‍ FOSDEM (@ioana_cis) &lt;a href="https://twitter.com/ioana_cis/status/827903012375031808"&gt;4 février 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;N’hésitez pas à regarder la &lt;strong&gt;vidéo de la conférence&lt;/strong&gt; si vous souhaitez en savoir plus sur &lt;a href="https://fosdem.cu.be/2017/UD2.218A/mozilla_http2_whats_next.vp8.webm"&gt;Hypertext Transfer Protocol/2&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="auditoire-paul-emile-janson"&gt;Auditoire Paul Emile Janson&lt;/h2&gt;
+
+&lt;h3 id="you-know-whats-cool-running-on-a-billion-devices"&gt;You know what’s cool? Running on a billion devices&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/bagder"&gt;Daniel Stenberg&lt;/a&gt; (principal contributeur à &lt;code&gt;curl&lt;/code&gt; depuis 20 ans) a présenté le quotidient d’un projet qui est utilisé par des milliards d’appareils. Si vous le connaissez pas encore Daniel je vous invite à fouiller un peu dans votre GPS / frigo connecté. Il y a des chances que son nom soit cité.&lt;/p&gt;
+
+&lt;p&gt;Regarder la &lt;a href="https://fosdem.cu.be/2017/Janson/curl.vp8.webm"&gt;vidéo sur talk sur curl&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" data-lang="fr"&gt;&lt;p lang="en" dir="ltr"&gt;Curl’s roadmap is very honest!&lt;br /&gt;&lt;br /&gt;Enjoyable talk by &lt;a href="https://twitter.com/bagder"&gt;@bagder&lt;/a&gt; - recommended. &lt;a href="https://twitter.com/hashtag/FOSDEM?src=hash"&gt;#FOSDEM&lt;/a&gt; &lt;a href="https://t.co/BI8SsR4Ulm"&gt;pic.twitter.com/BI8SsR4Ulm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rob Allen (@akrabat) &lt;a href="https://twitter.com/akrabat/status/827873881956442112"&gt;4 février 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;h2 id="php--friends"&gt;php &amp;amp; friends&lt;/h2&gt;
+
+&lt;h3 id="creating-a-dashboard-with-laravel-vuejs-and-pusher"&gt;Creating a dashboard with Laravel, Vue.js and Pusher&lt;/h3&gt;
+
+&lt;p&gt;Chez Spatie, ils ont un écran TV contre le mur qui affiche un tableau de bord. Ce tableau de bord affiche les tâches sur lesquelles l’équipe doit travailler, les événements importants dans un avenir proche, la musique jouée dans leurs bureaux…&lt;/p&gt;
+
+&lt;p&gt;Le code source &lt;a href="https://github.com/spatie/dashboard.spatie.be"&gt;du dashboard est diponible sur GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="David leuliette FOSDEM sketchnote PHP" src="https://c1.staticflickr.com/1/622/32684628986_dbc805a0c5_b.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Avec &lt;strong&gt;plus de 600 talks&lt;/strong&gt; il est impossible d’assister à toutes les conférences. Grâce à la magie d’internet les vidéos des &lt;a href="https://video.fosdem.org/2017/"&gt;conférences sont disponibles en ligne&lt;/a&gt;. Dans mon cas c’est le talk sur &lt;code&gt;curl&lt;/code&gt; qui m’a le plus marqué et je suis curieux de découvrir le vôtre.&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>30 jours en Indonésie : trekking, snorkeling &amp; nasi goreng</title>
     <link rel="alternate" href="http://davidl.fr/blog/indonesia.html"/>
     <id>http://davidl.fr/blog/indonesia.html</id>
     <published>2016-12-11T00:00:00+01:00</published>
-    <updated>2016-12-22T13:58:09+01:00</updated>
+    <updated>2017-02-06T18:58:59+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -334,55 +417,6 @@ Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wi
 
 &lt;p&gt;Seulement les 8 premiers pourront bénéficier d’un tarif préférenciel alors battez-vous :P&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>3 astuces pour un webdesign mobile first évolutif</title>
-    <link rel="alternate" href="http://davidl.fr/blog/mobile-first-webdesign.html"/>
-    <id>http://davidl.fr/blog/mobile-first-webdesign.html</id>
-    <published>2016-03-10T00:00:00+01:00</published>
-    <updated>2016-03-15T17:59:47+01:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;C’est officiel &lt;a href="http://www.journaldunet.com/media/publishers/1173852-les-francais-sont-mobile-first/"&gt;le mobile est le premier accès à internet&lt;/a&gt; des français. Depuis plusieurs années je suis convaincu de l’approche “mobile-fist”. Faire grandir un projet est plus facile que de &lt;a href="http://blog.impala-webstudio.fr/responsive-design-ou-comment-faire-entrer-une-girafe-dans-une-twingo-en-trois-temps"&gt;rentrer une girafe dans une twingo&lt;/a&gt;.
-Un code organisé simplement est plus facile à maintenir, s’analyse plus rapidement par les moteurs de recherche, nous force à &lt;strong&gt;prendre des décisions difficiles sur le contenu au début&lt;/strong&gt;, et nous encourage à conserver l’essentiel.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="David Leuliette mobile first" src="https://c2.staticflickr.com/2/1682/25809105455_9af84255e1_b.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Dans la vraie vie, &lt;strong&gt;personne ne veut faire de mobile-first&lt;/strong&gt;. Les clients continuent à vouloir des &lt;a href="/blog/fin-psd.html"&gt;maquettes grand écran sur Photoshop&lt;/a&gt;, et il est plus difficile de vendre une petite version d’un grand projet. Cependant — pour votre santé mentale — il existe des méthodes de codage pour vous faciliter la vie, même si le design mobile vient dans un second temps.&lt;/p&gt;
-
-&lt;h2 id="rinitialiser-les-valeurs-pour-un-design-optimis-mobile"&gt;Réinitialiser les valeurs pour un design optimisé mobile&lt;/h2&gt;
-
-&lt;p&gt;Réinitialiser les propriétés CSS est souvent &lt;strong&gt;la chose la plus chronophage&lt;/strong&gt; dans la conception d’un site internet responsive. Si la version grand écran d’un composant est plus complexe que la version mobile, il aura plus de code CSS à réinitialiser. C’est pourquoi il existe des &lt;a href="https://github.com/necolas/normalize.css"&gt;solutions pour unifier le design&lt;/a&gt; sur des bases stables.&lt;/p&gt;
-
-&lt;p&gt;N’oubliez pas que la taille de base est du texte est de &lt;a href="http://uxcellence.com/2014/01/15/quick-fix-increase-font-size-to-16px-to-fix-input-zoom/"&gt;16px pour éviter le bug du zoom&lt;/a&gt; sur les &lt;code&gt;inputs&lt;/code&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Global font-size increased from 14px to 16px.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Bootstrap migration guide from v3.x to v4.x&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id="utiliser-les-media-queries-dans-une-logique-volutive-et-non-destructrice"&gt;Utiliser les &lt;code&gt;media queries&lt;/code&gt; dans une logique évolutive et non destructrice.&lt;/h2&gt;
-
-&lt;p&gt;Commencez avec le CSS pour les petits écrans, puis ajoutez de la compléxité pour les écrans plus larges. Les sélecteurs CSS en fin de fichiers écrasent les déclarations précédentes. Codez vos styles pour le mobile en premier et utilisez les &lt;code&gt;media queries&lt;/code&gt; au besoin.&lt;/p&gt;
-
-&lt;pre class="highlight sass"&gt;&lt;code&gt;  &lt;span class="cm"&gt;/* Default to a small-friendly size by not using media queries … */
-&lt;/span&gt;  &lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt;
-    &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="m"&gt;18px&lt;/span&gt;&lt;span class="err"&gt;;&lt;/span&gt;
-  &lt;span class="err"&gt;}&lt;/span&gt;
-
-  &lt;span class="cm"&gt;/* … then override it for larger screens. */
-&lt;/span&gt;  &lt;span class="k"&gt;@media&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="nf"&gt;and&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;min-size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;640px&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt; &lt;span class="err"&gt;…&lt;/span&gt; &lt;span class="err"&gt;}&lt;/span&gt;
-  &lt;span class="k"&gt;@media&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="nf"&gt;and&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;min-size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;1000px&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt; &lt;span class="err"&gt;…&lt;/span&gt; &lt;span class="err"&gt;}&lt;/span&gt;
-  &lt;span class="k"&gt;@media&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="nf"&gt;and&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;min-size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;1200px&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt; &lt;span class="err"&gt;…&lt;/span&gt; &lt;span class="err"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="forcez-vous--tre-concentr-sur-des-composants"&gt;Forcez vous à être concentré sur des composants&lt;/h2&gt;
-
-&lt;p&gt;Heureusement, la conception mobile-first fonctionne à merveille avec cette technique. Au lieu de vous concentrer sur une grande mise en page, décomposez et soignez les petites parties. Repérez chaque composant &lt;code&gt;header&lt;/code&gt;, &lt;code&gt;navigation&lt;/code&gt; , &lt;code&gt;hero banner&lt;/code&gt; … dans un contexte de petit écran. Est-ce qu’il vit correctement tout seul ? Si ce n’est pas le cas, comment pouvons-nous l’améliorer?&lt;/p&gt;
-
-&lt;p&gt;Coder en conservant un état d’esprit mobile-first demande un certain temps pour s’y habituer, mais je pense qu’à la fin vos feuilles de styles seront plus simples à produire et à maintenir. Cela nous force à poser des questions difficiles dès le début — et pas la veille d’une deadline.&lt;/p&gt;
 </content>
   </entry>
 </feed>

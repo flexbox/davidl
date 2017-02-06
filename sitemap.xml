@@ -483,8 +483,9 @@
   </url>
   <url>
     <loc>http://davidl.fr/blog/indonesia.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/blog/fosdem-2017.html</loc>
   </url>
   <url>
     <loc>http://davidl.fr/blog</loc>
