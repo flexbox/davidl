@@ -1,0 +1,79 @@
+---
+date: 2017-02-06
+slug: fosdem-2017
+title: FOSDEM 2017
+description: "Rétrospective du FOSDEM 2017 d’un développeur front-end. Sketchnoting des conférences de la mozilla devroom de l'amphi Jason et de la salle php"
+image: https://lh3.googleusercontent.com/3J9JGwyvGbCSLgGul7cBcb3_cQQHA_nymUyK5J_ek4W7kT8TrtA9EHGqIF7C1fqC0fKheaUm5MphVGUetSpali6hQ0tzh-0_UB0yg8LC45GLzZ8brnAFLXeYmq3W3S3W3zGE3CewTy1nU6RuizdNwpfFrZSPuQW23kDU0R0TGil-rCCz0MXakKFDJMq94SwIzk3gsunU66MgdOsviLoIfsBUVGUszApKUmduJ40eOf7RZxeU3mhxvPZ8R4i0Z__T5EeP1B9xDnwuk9q_KN0VJxvZ6Tr22SmfmTWGlOsveBSmCXfYhinCL92eROn4rfPfzBGNuEjSpqNj1dy5YS8Px1_bFxeZR9gOGGlqjqL_hX3f60o3GjTvfRfxkEUlhT--SrNldpqZdNTP9Qnct52xeHEcvJoNaw23U0mrj3wel2blM0bOeDcZkeG57zYyLn_Fktn5tBT84dhkGT4qGjpW0N9L7RItt4jNtZee8165xvjIYoqJZyMBw2zCYOeDn-4m1yesFHLEbpsJ3R7xIka9VjRElpDV73gWDEYnU_AoRRpLWRclfBzKroE-ee1A0Gky3D3XkOQhc6t9C7wK_QEo4Q8kK3o_qcUEfLNw-1a-ryKD9Ow57d7dZw=w1024-h512-no
+page_title: "10 ans d’open source"
+page_emphasis: Partage de connaissance et bienveillance chez nos amis Belges
+---
+
+Cela va bientôt faire 10 ans que je fréquente les barbus du monde de l’open source. Chaque année, __des milliers de développeurs / hackers__ du monde entier se retrouvent à Bruxelles pour un événement entièrement gratuit sans réservation préalable : le [FOSDEM](https://fosdem.org/).
+
+Dans cet article je partage mon expérience sur l’édition 2017. En tant que __développeur front-end__ j’ai partagé mon samedi entre l’amphithéâtre principal Janson et la [devroom Mozilla](https://fosdem.org/2017/schedule/track/mozilla/). Le dimanche mes amis [@bustaJa](https://twitter.com/bustaja) et [@lapinture](https://twitter.com/lapinture) m’ont embarqué pour assister aux conférences PHP — bizarrement j’ai survécu 😂
+
+## Mozilla au FOSDEM — [#mozdem](https://twitter.com/search?q=%23mozdem&src=tyah)
+
+La [devroom de Mozilla](http://davidl.fr/blog/fosdem-2015.html) est toujours aussi pleine avec des sujets comme la présentation du navigateur Firefox nightly, l’état de l’art du langage de programmation Rust ou encore les technologies web en général.
+
+J’aime bien Mozilla et vous savez pourquoi ? Ils mettent en place des initiatives comme [webcompat](https://webcompat.com/). La proposition de valeur de ce site est simple :
+
+1. Signaler un bug pour sur un site web.
+1. Une équipe de volontaires diagnostique de chez Mozilla qualifie le bug.
+1. Une proposition de correction est envoyée au propriétaire du site.
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Lesson learned from the Mozilla devroom : avoid browser specific feature and UA sniffing like a plage <a href="https://twitter.com/hashtag/deadtobullshit?src=hash">#deadtobullshit</a> <a href="https://twitter.com/hashtag/mozdev?src=hash">#mozdev</a> <a href="https://t.co/LEuXkyKhJt">pic.twitter.com/LEuXkyKhJt</a></p>&mdash; David Leuliette (@_flexbox) <a href="https://twitter.com/_flexbox/status/827898739591376896">4 février 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Firefox DevTools Deep Dive
+
+[@lakatos88](https://twitter.com/@lakatos88) nous a présenté les différentes __fonctionnalités de la console de debug__ pour les développeurs webs.
+
+![David leuliette sketchnote au FOSDEM FireFox DevTools](https://c1.staticflickr.com/1/738/32578567111_27e2de7e0a_b.jpg)
+
+### Learning Internet of Things & coding with HTML5 games
+
+De nos jours le web est LA plateforme qui permet de répondre à la demande “code once, deploy anywhere”. [@slsoftworks](https://twitter.com/slsoftworks) code du JavaScript qui est compilé en C et l’envoie sur un arduino pour créer des jeux 8-bits.
+
+![David leuliette FOSDEM sketchnote HTML5 games](https://c1.staticflickr.com/1/267/31862064384_4013613f6a_b.jpg)
+
+### So that was HTTP/2 what’s next?
+
+Daniel Stenberg a présenté la norme HTTP/2 et son évolution par rapport à HTTP/1.
+
+> Nothing is lost, H2 is just faster
+>
+> — Daniel Stenberg
+
+![David leuliette FOSDEM sketchnote HTTP/2](https://c1.staticflickr.com/1/554/31930327223_001ced7067_b.jpg)
+
+Pour ce talk la salle était pleine ! Et vous pouvez jouer à “où est charlie” et me chercher dans la photo suivante :
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">The record for today at <a href="https://twitter.com/hashtag/mozdem?src=hash">#mozdem</a> - might be hard to overcome it.. <a href="https://twitter.com/bagder">@bagder</a>&#39;s talk about HTTP2 ! <a href="https://twitter.com/hashtag/fosdem?src=hash">#fosdem</a> <a href="https://twitter.com/hashtag/fosdem2017?src=hash">#fosdem2017</a> (sorry for those outside) <a href="https://t.co/QeZ8CETVcf">pic.twitter.com/QeZ8CETVcf</a></p>&mdash; Ioana ‍ FOSDEM (@ioana_cis) <a href="https://twitter.com/ioana_cis/status/827903012375031808">4 février 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+N’hésitez pas à regarder la __vidéo de la conférence__ si vous souhaitez en savoir plus sur [Hypertext Transfer Protocol/2](https://fosdem.cu.be/2017/UD2.218A/mozilla_http2_whats_next.vp8.webm).
+
+
+## Auditoire Paul Emile Janson
+
+### You know what’s cool? Running on a billion devices
+
+[Daniel Stenberg](https://twitter.com/bagder) (principal contributeur à `curl` depuis 20 ans) a présenté le quotidient d’un projet qui est utilisé par des milliards d’appareils. Si vous le connaissez pas encore Daniel je vous invite à fouiller un peu dans votre GPS / frigo connecté. Il y a des chances que son nom soit cité.
+
+Regarder la [vidéo sur talk sur curl](https://fosdem.cu.be/2017/Janson/curl.vp8.webm).
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Curl’s roadmap is very honest!<br><br>Enjoyable talk by <a href="https://twitter.com/bagder">@bagder</a> - recommended. <a href="https://twitter.com/hashtag/FOSDEM?src=hash">#FOSDEM</a> <a href="https://t.co/BI8SsR4Ulm">pic.twitter.com/BI8SsR4Ulm</a></p>&mdash; Rob Allen (@akrabat) <a href="https://twitter.com/akrabat/status/827873881956442112">4 février 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## php & friends
+
+### Creating a dashboard with Laravel, Vue.js and Pusher
+
+Chez Spatie, ils ont un écran TV contre le mur qui affiche un tableau de bord. Ce tableau de bord affiche les tâches sur lesquelles l’équipe doit travailler, les événements importants dans un avenir proche, la musique jouée dans leurs bureaux…
+
+Le code source [du dashboard est diponible sur GitHub](https://github.com/spatie/dashboard.spatie.be).
+
+![David leuliette FOSDEM sketchnote PHP](https://c1.staticflickr.com/1/622/32684628986_dbc805a0c5_b.jpg)
+
+Avec __plus de 600 talks__ il est impossible d’assister à toutes les conférences. Grâce à la magie d’internet les vidéos des [conférences sont disponibles en ligne](https://video.fosdem.org/2017/). Dans mon cas c’est le talk sur `curl` qui m’a le plus marqué et je suis curieux de découvrir le vôtre.
+

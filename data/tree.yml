@@ -80,6 +80,7 @@ blog:
     2016-05-04-gitshot.markdown: "/blog/articles/2016-05-04-gitshot.markdown"
     2016-06-14-certification-google.markdown: "/blog/articles/2016-06-14-certification-google.markdown"
     2016-12-11-indonesia.markdown: "/blog/articles/2016-12-11-indonesia.markdown"
+    2017-02-06-fosdem-2017.markdown: "/blog/articles/2017-02-06-fosdem-2017.markdown"
   index.html.slim: "/blog/index.html.slim"
 books.html.slim: "/books.html.slim"
 clients.html.slim: "/clients.html.slim"

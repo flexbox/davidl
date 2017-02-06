@@ -6,8 +6,6 @@ description: "Voici la liste des choses que j’ai visité / réalisées en indo
 image: https://lh3.googleusercontent.com/MxPynvhIBCK8j4JHNxwN3-cuNVtyjlHxO6luL7ND3U3Nujlw2FagZ43QIe-Z1dVkdjhhlV-yjSMk30W8zk9xaeVPgw7njaU8qp556dm-y7eT108MtPgz0DLFBBW7NM7qaqj5JoQvA-eM31cbxZMXq_cWTcYKmLa8tjewItIJtw4jcmzf_Ak1Nw6rkmiIeSP_U1M2g5qwOHSCc5jD4shO0Pq4-dYu0qzs2FK9n-eiTSPgB6rRtXUmwwy4PzVHMrvvCu2LF0FSAnFbyYkAiC_MwOreb_K79G6JKQoY1pPEVcUTIIZqM319WXodOjOYJYNOjjPyVBKfLVGDlmruHdEzXT07CD28Yzld4Eh-QoVLEZckC8_BvSscTPHCchKr2yqMlWOekXi6XcxMpZa01q5J-w9kcfuHpmlmOZn2b8x_gdRspKetxOapDgaH67jeloh9SHnsKjbgBkvrMSOD3xYOEa0bwEiyNrKfGcwUdwQCsLWHtMU8KvlGup0EowelyW_MX-U59gRnQ4zgzHhotJZJYG_Ep7LuZUt4e6Szx1xeBcHr6yaru5mv8RvehV5jeM-upSulXlipdMI1VcS4t_Bz9y1PtfQoTi9ur4L3D712bDz8hzrm0peh9A=w1024-h512-no
 page_title: Mission Indonesia complete
 page_emphasis: Retour après 30 jours d’aventure en Asie
-changefreq: monthly
-priority: 0.5
 ---
 
 Ceux qui me connaissent savent que [je voyage souvent](/blog/online.html). Cette année je suis reparti en Asie pour une aventure de 30 jours en Indonésie. Dans cet article je présente de façon non-exhaustive les différentes activitées que j’ai réalisées.
