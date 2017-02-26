@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/flexbox
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://davidl.fr
+  * I am flexbox (https://keybase.io/flexbox) on keybase.
+  * I have a public key ASD0uHrYzMtMUAjnMd1Nlw5MtRBT3ArkQO6bOepLXgqkPAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120f4b87ad8cccb4c5008e731dd4d970e4cb51053dc0ae440ee9b39ea4b5e0aa43c0a",
+            "host": "keybase.io",
+            "kid": "0120f4b87ad8cccb4c5008e731dd4d970e4cb51053dc0ae440ee9b39ea4b5e0aa43c0a",
+            "uid": "08e857f6f01f391e79fe818b5d516419",
+            "username": "flexbox"
+        },
+        "service": {
+            "hostname": "davidl.fr",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1488138200,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1488138189,
+        "hash": "fe77bee2da4fd0a0d1a8fcc299c4aa68254cb76361900d34820051395acf8132eb56a85abb6495547dfd4e782aabab9021d6a49dfa8d53133f6f2d447a8c6533",
+        "seqno": 925743
+    },
+    "prev": "34fd6ee20993a1849018325e905c9ad54b16a451ce97d177e0f5ae7316c5bb2d",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9Lh62MzLTFAI5zHdTZcOTLUQU9wK5EDumznqS14KpDwKp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjRiODdhZDhjY2NiNGM1MDA4ZTczMWRkNGQ5NzBlNGNiNTEwNTNkYzBhZTQ0MGVlOWIzOWVhNGI1ZTBhYTQzYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjRiODdhZDhjY2NiNGM1MDA4ZTczMWRkNGQ5NzBlNGNiNTEwNTNkYzBhZTQ0MGVlOWIzOWVhNGI1ZTBhYTQzYzBhIiwidWlkIjoiMDhlODU3ZjZmMDFmMzkxZTc5ZmU4MThiNWQ1MTY0MTkiLCJ1c2VybmFtZSI6ImZsZXhib3gifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImRhdmlkbC5mciIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODgxMzgyMDAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4ODEzODE4OSwiaGFzaCI6ImZlNzdiZWUyZGE0ZmQwYTBkMWE4ZmNjMjk5YzRhYTY4MjU0Y2I3NjM2MTkwMGQzNDgyMDA1MTM5NWFjZjgxMzJlYjU2YTg1YWJiNjQ5NTU0N2RmZDRlNzgyYWFiYWI5MDIxZDZhNDlkZmE4ZDUzMTMzZjZmMmQ0NDdhOGM2NTMzIiwic2Vxbm8iOjkyNTc0M30sInByZXYiOiIzNGZkNmVlMjA5OTNhMTg0OTAxODMyNWU5MDVjOWFkNTRiMTZhNDUxY2U5N2QxNzdlMGY1YWU3MzE2YzViYjJkIiwic2Vxbm8iOjE0LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEm22u0+Z1x/uQjSNzpjcBzRWgAq2gYqhlLT6AfGlmnqYp7R/cBFWJmynRxaj/yYNcwd6w0LwzgFfuChuCYQ0AOoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCA5W/exW1IZFQQYu03k96sGUepKy/PRq9M7uS1yae59AaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/flexbox
+
+==================================================================
