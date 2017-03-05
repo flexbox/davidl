@@ -1,18 +1,8 @@
 -
-  title: Human coder forum
-  description: 'Recevez par email un résumé des nouveautés publiés sur le forum'
-  icon: 'university'
-  url: https://forum.humancoders.com/users/flexbox/preferences
--
   title: JavaScript Weekly
   description: 'Cette newsletter me permet d’être à jour sur tout ce qui est important dans la communauté JavaScript.'
   icon: 'code'
   url: http://javascriptweekly.com/
--
-  title: Middleman forum
-  description: 'La communauté du meilleur générateur de site statique en ruby.'
-  icon: 'university'
-  url: https://forum.middlemanapp.com/users/flexbox/preferences
 -
   title: Responsive Design Weekly
   description: 'Newsletter hebdomadaire qui présente les meilleurs articles, tutoriels & Frameworks sur le responsive design.'
@@ -33,12 +23,3 @@
   description: 'Recevez deux fois par mois des conseils, astuces et ressources pour designer et développeur.'
   icon: 'picture-o'
   url: http://www.smashingmagazine.com/the-smashing-newsletter/
--
-  title: Zub University
-  description: 'Cours, workshop & ressources en provencance des Designers Produits de chez Zurb'
-  icon: 'picture-o'
-  url: https://zurb.com/university/lessons
-
-# Five newsletters that make my life better
-# It’s easy to find yourself subscribing to dozens of mailing lists, many of which make it straight to the trash.
-# But for me there are a few - just a few - that not only stay in my inbox, but put a smile on my face when they arrive.
