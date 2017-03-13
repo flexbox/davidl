@@ -29,6 +29,6 @@
 
 .m-blog--article {
   & > p:first-child {
-    @include dropcap($dropcap-float-position, $dropcap-font-size, $dropcap-font-family, $dropcap-txt-indent, $dropcap-margin, $dropcap-padding, $dropcap-color, $dropcap-line-height, $dropcap-bg);
+    @include typl8-dropcap($typl8-dropcap-float-position,$typl8-dropcap-font-size,$typl8-dropcap-font-family,$typl8-dropcap-txt-indent,$typl8-dropcap-margin,$typl8-dropcap-padding,$typl8-dropcap-color,$typl8-dropcap-line-height,$typl8-dropcap-bg);
   }
 }

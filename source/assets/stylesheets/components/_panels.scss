@@ -5,7 +5,7 @@ $m-panel-bg-hover: $white;
   @include panel($m-panel-bg);
   @include single-transition(box-shadow, $transition-duration, ease-in-out);
   box-shadow: 5px 5px 0px rgba($black,.1);
-  @include css-hyphens(none);
+  @include typl8-hyphens(none);
 
   &:hover {
     background-color: $m-panel-bg-hover;

@@ -9,6 +9,8 @@
 
   .title {
     letter-spacing: -2px;
+    font-size: 65px;
+
     strong {
       letter-spacing: -4px;
     }
@@ -26,7 +28,7 @@
     margin: 0px;
     color: $black;
     width: 100%;
-    @include css-hyphens(none);
+    @include typl8-hyphens(none);
 
     h1, p {
       margin: 0;
@@ -74,37 +76,5 @@
     padding: rem-calc(20);
     color: $body-font-color;
     border: 2px dashed rgba($body-font-color, 0.2);
-  }
-}
-
-.m-homepage--pdca {
-  p {
-    font-family: $header-font-family;
-    font-size: rem-calc(22);
-    display: block;
-    @media #{$small}{
-      line-height: rem-calc(40);
-      margin: rem-calc(20);
-    }
-  }
-  li:first-child {
-    text-align: right;
-    margin-top: rem-calc(100);
-    @media #{$small}{
-      margin-top: rem-calc(70);
-    }
-    p, i {
-      float: right;
-    }
-  }
-  li:last-child {
-    text-align: left;
-    margin-top: rem-calc(100);
-    @media #{$small}{
-      margin-top: rem-calc(70);
-    }
-    p, i {
-      float: left;
-    }
   }
 }
