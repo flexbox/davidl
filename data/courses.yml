@@ -1,4 +1,19 @@
 -
+  year: 2017
+  content:
+    -
+      title: 'Lead Machine'
+      provider: Efficom
+      place: Lille
+      description: "Semaine de spécialisation web à destination des étudiants en 4ème et 5ème année. 5 thèmes abordée pour sensibiliser à la création d’une application web de façon agile : DEV, DESIGN, API, GROWTH-HACKING & BUILD"
+      url: http://courses.davidl.fr/programs/leadmachine.html
+    -
+      title: 'JavaScript & Git'
+      provider: Université du Littoral
+      place: Iut Calais
+      description: Vacation à l’université. Formation des étudiants à travailler en équipe de développeurs avec git. Introduction à JavaScript avec appel à une API et consommation de données via AJAX.
+      url: http://courses.davidl.fr/programs/git-github.html
+-
   year: 2016
   content:
     -

@@ -90,7 +90,7 @@ Pour ceux qui veulent approfondir vous pouvez télécharger mon [CV de développ
 Très bonne question, pour y répondre il faut demander à des [spécialistes de l’emploi](http://www.pole-emploi.fr/accueil/) #bonCourage.
 
 Selon moi, je pense que l’on peut plus juger quelqu’un à ses réalisation plutôt qu’à sa plaquette de présentation (autrement appelé le CV).
-C’est très personnel mais je conseillerais d’avoir un [profil GitHub](http://github.com/flexbox) et contribuer à des projets open source.
+C’est très personnel mais je conseillerais d’avoir un [profil GitHub](https://github.com/flexbox/) et contribuer à des projets open source.
 
 
 ### Quelles sont les compétences requises ?

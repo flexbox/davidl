@@ -6,11 +6,9 @@ description: "Présentation de la formation intégrateur web à suivre sur openc
 image: https://c2.staticflickr.com/2/1607/24849456980_e4f8902cfe_b.jpg
 page_title: Formation intégrateur web
 page_emphasis: Maîtriser les langages HTML & CSS pour créer des sites web
-changefreq: monthly
-priority: 0.5
 ---
 
-Dans la vie de tous les jours, je reçois régulièrement des [questions sur mon parcours](/blog/metier-integrateur-web.html), quelles études ais-je suivies, l'intégration web à quoi ça sert ? Dans ce projet, le CSS c’est le chaos, apparement il y a une personne qui a demandé à une autre de gérer la chose, HTML pfff c’est trop facile (selon moi, c’est [FAUX !](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5))…
+Dans la vie de tous les jours, je reçois régulièrement des [questions sur mon parcours](/blog/metier-integrateur-web.html), quelles études ais-je suivies, l’intégration web à quoi ça sert ? Dans ce projet, le `CSS` c’est le chaos, apparement il y a une personne qui a demandé à une autre de gérer la chose, HTML pfff c’est trop facile (selon moi, c’est [FAUX !](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5))…
 
 Derrière toutes ces questions il existe un vrai métier à part entière : __intégrateur web__.
 
@@ -18,7 +16,7 @@ Derrière toutes ces questions il existe un vrai métier à part entière : __in
 
 _— Sublime Text est mon meilleur ami_
 
-En tant qu’[autodidacte](/cv.html), j’ai appris mon métier au cours de mes [nombreuses lectures](/books.html) et de mes [projets open-source](/projects.html). [OpenClassrooms](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) (Le site d’apprentissage communautaire) vous facilite le travail & propose cette philosophie avec son parcours pour devenir __intégrateur web__. Vidéos de cours & exercices sont [disponible sur le site](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) et leur organisation vous permettra d’obtenir progressivement de solides bases pour comprendre HTML, CSS, responsive, Bootstrap, git, Wordpress…
+En tant qu’[autodidacte](/cv.html), j’ai appris mon métier au cours de mes [nombreuses lectures](/books.html) et de mes [projets open-source](https://github.com/flexbox/). [OpenClassrooms](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) (Le site d’apprentissage communautaire) vous facilite le travail & propose cette philosophie avec son parcours pour devenir __intégrateur web__. Vidéos de cours & exercices sont [disponible sur le site](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) et leur organisation vous permettra d’obtenir progressivement de solides bases pour comprendre HTML, CSS, responsive, Bootstrap, git, Wordpress…
 
 ## Programme de formation
 
@@ -35,7 +33,7 @@ L’objectif est de réaliser les __12 cours__ — de 5 à 30 heures — __en 6 
 - _Projet :_ Intégrer un __thème Wordpress__
 - Donner vie à une maquette statique
 - _Projet :_ Rencontrer un client et __concevoir un site vitrine__
-- _Projet :_ Aidez la communauté en proposant votre aide ou en publiant des [outils open source](http://davidl.fr/projects.html)
+- _Projet :_ Aidez la communauté en proposant votre aide ou en publiant des [outils open source](https://github.com/flexbox/)
 
 <div class="m-panel">
   <p class="lead">

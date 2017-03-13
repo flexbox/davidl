@@ -66,6 +66,6 @@ Foundation est un projet open source, hébergé sur GitHub. Il est publié sous 
 
 ## Vous souhaitez apprendre Foundation ?
 
-La première étape conciste [à lire la documentation](http://foundation.zurb.com/docs/). Ensuite pour tester rapidement une mise en page vous pouvez [télécharger un boilerplate](https://github.com/flexbox/foundation-boilerplate/archive/gh-pages.zip). Pour finir je construit presque [tous mes projets](http://davidl.fr/projects.html) avec une base plus ou moins important de composants issus du framework. N'hésitez pas à aller hacker mon code source.
+La première étape conciste [à lire la documentation](http://foundation.zurb.com/docs/). Ensuite pour tester rapidement une mise en page vous pouvez [télécharger un boilerplate](https://github.com/flexbox/foundation-boilerplate/archive/gh-pages.zip). Pour finir je construit presque [tous mes projets](https://github.com/flexbox/) avec une base plus ou moins important de composants issus du framework. N'hésitez pas à aller hacker mon code source.
 
 J'espère que vous avez trouvé cet article interessant et qu'il vous a convaincu d'essayer [Foundation](http://foundation.zurb.com/) pour vos futurs projets.

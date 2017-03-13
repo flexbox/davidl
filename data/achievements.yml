@@ -38,6 +38,12 @@ interviews:
 
 talks:
   -
+    date: Février 2017
+    website: ChtiJS
+    lang: '🇫🇷'
+    url: http://courses.davidl.fr/presentations/yarn/#/
+    title: 'Pray for bower'
+  -
     date: Octobre 2016
     website: Agile Tour
     lang: '🇫🇷'
