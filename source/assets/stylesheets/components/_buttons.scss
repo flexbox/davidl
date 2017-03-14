@@ -1,6 +1,6 @@
 .button {
-  text-transform: uppercase;
-  font-weight: $font-weight-bold;
+  font-family: $font-family-monospace;
+  letter-spacing: -1px;
   transition: background 150ms ease-in-out;
   &:hover,
   &:focus {

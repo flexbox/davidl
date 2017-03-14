@@ -1,9 +1,3 @@
-$footer-border: scale-color($gray-light, $lightness: -70%);
-
-.m-content {
-  padding-bottom: rem-calc(40);
-}
-
 .m-footer--section {
   padding-top: $hr-margin;
   padding-bottom: $hr-margin;
@@ -25,6 +19,7 @@ $footer-border: scale-color($gray-light, $lightness: -70%);
     padding: rem-calc(14);
     text-transform: uppercase;
     font-weight: $font-weight-bold;
+    font-family: $font-family-monospace;
   }
 }
 
@@ -52,7 +47,7 @@ $footer-border: scale-color($gray-light, $lightness: -70%);
     border: none;
   }
   hr {
-    border-color: rgba($footer-border, 0.8);
+    border-color: rgba($gray-light, 0.2);
   }
 }
 

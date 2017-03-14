@@ -10,7 +10,7 @@ priority: 0.6
 .row
   .medium-10.medium-centered.columns
     - data.courses.each_with_index do |date|
-      h2.text-center.emperor => date.year
+      p.lead = date.year
       hr
       - date['content'].each do |course|
           .row
@@ -21,7 +21,7 @@ priority: 0.6
                 br
                 => course.place
             .medium-9.columns
-              h3
+              h2
                 = course.title
               p
                 = course.description
@@ -35,6 +35,5 @@ section.m-section
     .medium-10.medium-centered.columns
       h2.text-center Embauchez moi en tant que formateur
       .text-center
-        = link_to '/contact.html', class: 'button secondary' do
-          'Contact &nbsp;&nbsp;&nbsp;
-          i.fa.fa-pencil
+        = link_to "mailto:#{data.settings.social.email}?subject=Demande%20contact&body=Bonjour%20David%20%21%0D%0A%0D%0ANom%20complet%20%3A%0D%0A%0D%0AActuellement%20mon%20plus%20grand%20d%C3%A9fi%20c%27est%20%0D%0A%0D%0AJ%27ai%20entendu%20parler%20de%20ton%20site%20sur%20", class: 'button secondary' do
+          'Contact

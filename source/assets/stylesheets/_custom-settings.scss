@@ -9,20 +9,23 @@ $row-width: rem-calc(1200);
 $font-family-sans-serif: 'Lato', Helvetica, Roboto, Arial, sans-serif;
 $font-family-monospace: 'Ubuntu Mono', 'Monaco', monospace;
 
+
 $font-weight-light:  300;
 $font-weight-normal: 400;
 $font-weight-bold:   700;
+$font-weight-black:  900;
 
 $body-bg: $gray-light;
 $body-font-color: $gray-dark;
 $body-font-family: $font-family-sans-serif;
-$body-font-weight: $font-weight-light;
+$body-font-weight: $font-weight-normal;
 
 $global-box-shadow: 0px 1px 1px rgba($black, 0.3);
 
 // e. Typography
 
-$header-font-weight: $font-weight-light;
+$header-font-family: 'Chivo', sans-serif;
+$header-font-weight: $font-weight-black;
 
 $code-font-weight: $font-weight-bold;
 $code-background-color: transparent;
@@ -52,17 +55,6 @@ $form-label-small-transform: none;
 $include-html-panel-classes: false;
 
 $panel-font-color: $body-font-color;
-
-
-
-// Sub Nav
-
-$sub-nav-font-size: rem-calc(16);
-$sub-nav-border-radius: 0px;
-
-$sub-nav-active-bg: $gray;
-$sub-nav-active-color: $black;
-$sub-nav-font-color-hover: $white;
 
 
 

@@ -52,24 +52,27 @@ blog: blog
             = link_to article.title, article, class: 'm-post--link'
             hr
   .medium-4.columns
-    i.fa.fa-5x.fa-github
-    h2 Sources
-    p Ce contenu est produit à partir d’expériences personnelles, MDN, et la documentation officielle.
+    section.m-section
+      i.fa.fa-5x.fa-github
+      h2 Sources
+      p Ce contenu est produit à partir d’expériences personnelles, MDN, et la documentation officielle.
 
-    h2 Blogposts
-
-    - data.achievements.blogposts.each do |post|
-      p
-        strong => post.website
-        em: time.text-tiny = post.date
-        br
-        = link_to post.title, post.url
+    section.m-section
+      h2 Blogposts
+      - data.achievements.blogposts.each do |post|
+        p
+          strong => post.website
+          em: time.text-tiny = post.date
+          br
+          = link_to post.title, post.url
 
     markdown:
       ## Contribuer
       Vous avez trouvé un article _qui peut être amélioré_ ?
 
-      __Bravo__ ! Vous pouvez soumettre une demande de [modification sur Github](https://github.com/flexbox/davidl/tree/master/source/blog/articles).
+      __Bravo__ !
+
+      Vous pouvez soumettre une demande de [modification sur Github](https://github.com/flexbox/davidl/tree/master/source/blog/articles).
 
 section.m-section
   .row

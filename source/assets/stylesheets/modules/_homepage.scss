@@ -12,7 +12,9 @@
     font-size: 65px;
 
     strong {
-      letter-spacing: -4px;
+      font-family: $font-family-monospace;
+      letter-spacing: -1px;
+      font-size: 75%;
     }
     @media #{$small-only} {
       font-size: 40px;

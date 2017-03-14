@@ -52,7 +52,7 @@ priority: 1
           Je développe en conservant la performance à l’esprit – parce que sur internet, comme dans la vraie vie, le temps c’est de l’argent.
 
     section.m-section
-      h2 Mes compagnons
+      h2 Compagnons
       .row
         .medium-6.columns
           h3
@@ -86,6 +86,7 @@ priority: 1
               => link_to 'd’autres outils du XXIème siècle', '/toolkit.html'
               'pour coder de façon sérieuse et évolutive.
 
+    section.m-section
       h2 Compétences
       .row
         .medium-8.columns
@@ -96,7 +97,7 @@ priority: 1
               ul data-pie-id="js-svg-skills"
                 li data-value="60" HTML
                 li data-value="50" Sass
-                li data-value="20" CoffeeScript
+                li data-value="20" JavaScript
                 li data-value="12" Git
                 li data-value="32" Ruby
           p
@@ -144,7 +145,7 @@ section.m-section
   .row
     .medium-6.columns
       h2
-        .i-custom.icon-champion-cup-winner
+        .i-custom.icon-champion-cup-winner.subheader
         'Récompenses
       markdown:
         Vainqueur des open du web #3 : [catégorie intégration](http://blog.open-du-web.fr/2012/12/les-gagnants-repartent-en-trottinette/)
@@ -158,7 +159,7 @@ section.m-section
         Member of [sketchnote army](http://sketchnotearmy.com/blog/2016/8/17/100-days-across-south-america-lima-to-ushuaia-david-leuliett.html)
     .medium-6.columns
       h2
-        i.fa.fa-microphone>
+        i.fa.fa-microphone.subheader>
         'Interviews
       - data.achievements.interviews.each do |interview|
         p

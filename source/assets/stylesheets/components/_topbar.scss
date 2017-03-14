@@ -7,7 +7,7 @@ $topbar-height: rem-calc(60);
   z-index: 15;
 
   transition: transform 150ms ease-in-out;
-  background-color: $gray;
+  background-color: $gray-light;
 
   bottom: 0;
   top: initial;
@@ -20,7 +20,10 @@ $topbar-height: rem-calc(60);
     border-bottom: 0;
     background-color: transparent;
     padding: rem-calc(20);
-    color: $black;
+    color: $blue-dark;
+    font-family: $font-family-monospace;
+    letter-spacing: -1px;
+
     &:hover {
       color: $secondary-color;
     }
