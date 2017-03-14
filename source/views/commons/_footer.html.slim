@@ -4,48 +4,44 @@
       nav.row role="navigation"
         .small-6.medium-3.columns
           ul.m-footer--side-nav role="menubar"
-            li.l-title Outils
+            li.l-title Apprendre
             li role="menuitem"
-              = link_to 'Applications', '/toolkit.html', title: 'Logiciels pour le développement et l’intégration web'
+              = link_to 'Formations', '/formation.html'
             li role="menuitem"
-              = link_to 'Manifeste', '/manifesto.html', title: 'Mes engagements envers le web'
+              = link_to 'Bibliothèque', '/books.html', title: "Conseils de lecture"
             li role="menuitem"
-              = link_to 'Open source', '/projects.html', title: 'Mes projets'
+              = link_to 'Design', '/webdesign.html', title: 'Méthode pour le design de sites internet'
             li role="menuitem"
-              = link_to 'Responsive', '/webdesign.html', title: 'Méthode pour le design de sites internet'
+              = link_to 'Typographie', '/typography.html', title: "Conseils sur la typographie pour le web"
         .small-6.medium-3.columns
           ul.m-footer--side-nav role="menubar"
-            li.l-title Ressources
+            li.l-title Open Source
             li role="menuitem"
-              = link_to 'Blog', '/blog/', title: "Publication d'articles sur l'intégration & le développement front-end"
+              = link_to 'Guide CSS', 'https://guidecss.fr', title: "Comment architecturer de larges applications web"
             li role="menuitem"
-              = link_to 'Bibliothèque', '/books.html', title: "conseils de lecture"
+              = link_to 'Middleman template', 'https://github.com/flexbox/codeless', title: "Générateur de site statique"
             li role="menuitem"
-              = link_to 'Mentors', '/mentors.html', title: "Liste de personnes à suivre"
-            li role="menuitem"
-              = link_to 'Typographie', '/typography.html', title: "conseils sur la typographie pour le web"
+              = link_to 'More…', 'https://github.com/flexbox', title: "Projet open source sur GitHub"
         .small-6.medium-3.columns
           ul.m-footer--side-nav role="menubar"
             li.l-title À propos
             li role="menuitem"
               = link_to 'En savoir plus', '/about.html', title: 'Je peux vous aider'
             li role="menuitem"
-              = link_to 'GNU GPL', '/gnu.html'
+              = link_to 'Manifeste', '/manifesto.html', title: 'Mes engagements envers le web'
             li role="menuitem"
               = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
-            li role="menuitem"
-              = link_to 'Plan du site', '/sitemap.html', title: 'Cliquez si vous êtes perdus'
         .small-6.medium-3.columns
           ul.m-footer--side-nav role="menubar"
             li.l-title Contact
+            li role="menuitem"
+              = link_to data.settings.social.email, "mailto:#{data.settings.social.email}?subject=Demande%20contact&body=Bonjour%20David%20%21%0D%0A%0D%0ANom%20complet%20%3A%0D%0A%0D%0AActuellement%20mon%20plus%20grand%20d%C3%A9fi%20c%27est%20%0D%0A%0D%0AJ%27ai%20entendu%20parler%20de%20ton%20site%20sur%20"
             li role="menuitem"
               = link_to 'Contact', '/contact.html', title: 'Je lis TOUS mes emails'
             li role="menuitem"
               = link_to 'Newsletter', '/newsletter.html', title: 'Suivre l’évolution de mes services'
             li role="menuitem"
               = link_to 'Services', '/work.html', title: 'Vous pouvez m’enbaucher'
-            li role="menuitem"
-              = link_to 'Une question ?', '/ask-me.html', title: 'Je réponds chaque semaine à une question'
 
 footer.m-footer role="contentinfo"
   .row

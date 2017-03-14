@@ -118,48 +118,61 @@ blog: blog
 
 .row
   .medium-12.columns
-    .text-center
-      markdown:
-        ## Projets open source
+    section.m-section
+      .text-center
+        markdown:
+          ## Projets open source
 
-        Je participe à l’__intelligence collective du mouvement open source__ en partageant mes connaissances
-    hr
-    .row
-      .medium-8.medium-centered.columns
-        ul.m-blog--post-list
-          - data.projects.each_with_index do |project, i|
-            - if project.stared.present?
+          Je participe à l’__intelligence collective du mouvement open source__ en partageant mes connaissances
+      hr
+      .row
+        .medium-8.medium-centered.columns
+          ul.m-blog--post-list
+            - data.projects.each_with_index do |project, i|
+              - if project.stared.present?
+                li
+                  = link_to project.title, project.url, class: 'm-post--link'
+                  p.l-description
+                    = project.description
+
+    section.m-section
+      .text-center
+        markdown:
+          ## Community leader
+
+          J’aide à l’organisation / donne des conférences dans différents meetups
+      hr
+      ul.small-block-grid-2.medium-block-grid-4
+        li
+          = link_to 'http://opensource.org/', title: 'J’adhère au mouvement open soure', class: 'link-reset' do
+            = image_tag 'front/homepage/logo-opensource.png', alt: 'David Leuliette développeur open source'
+        li
+          = link_to 'http://chtijs.francejs.org/', title: 'Fondateur associé de Chtijs', class: 'link-reset' do
+            = image_tag 'front/homepage/logo-chtijs.svg', alt: 'David Leuliette membre de la communauté de développeurs JavaScript Lillois'
+        li
+          = link_to 'http://takeoffconf.com/', title: 'Je réalise des sketchnotes aux rencontres', class: 'link-reset' do
+            = image_tag 'front/homepage/logo-takeofftalks.png', alt: 'David Leuliette membre de Design, web et startups'
+        li
+          = link_to 'http://ruby-nord.org/', title: 'Mentor ruby spécialisé front-end', class: 'link-reset' do
+            = image_tag 'front/homepage/logo-ruby-nord.png', alt: 'David Leuliette coach pour ruby nord'
+
+    section.m-section
+      .text-center
+        markdown:
+          ## Publication d’articles
+
+          Pour maîtriser un sujet, vous devez l’enseigner aux autres
+      hr
+      p
+      .row
+        .medium-8.medium-centered.columns
+          ul.m-blog--post-list
+            - page_articles[0..2].each do |article, i|
               li
-                = link_to project.title, project.url, class: 'm-post--link'
-                p.l-description
-                  = project.description
-
-    h2.text-center Mes engagements
-    hr
-    ul.small-block-grid-2.medium-block-grid-4
-      li
-        = link_to 'http://opensource.org/', title: 'J’adhère au mouvement open soure', class: 'link-reset' do
-          = image_tag 'front/homepage/logo-opensource.png', alt: 'David Leuliette développeur open source'
-      li
-        = link_to 'http://chtijs.francejs.org/', title: 'Fondateur associé de Chtijs', class: 'link-reset' do
-          = image_tag 'front/homepage/logo-chtijs.svg', alt: 'David Leuliette membre de la communauté de développeurs JavaScript Lillois'
-      li
-        = link_to 'http://takeoffconf.com/', title: 'Je réalise des sketchnotes aux rencontres', class: 'link-reset' do
-          = image_tag 'front/homepage/logo-takeofftalks.png', alt: 'David Leuliette membre de Design, web et startups'
-      li
-        = link_to 'http://ruby-nord.org/', title: 'Mentor ruby spécialisé front-end', class: 'link-reset' do
-          = image_tag 'front/homepage/logo-ruby-nord.png', alt: 'David Leuliette membre de ruby nord'
-
-    hr
-    .row
-      .medium-8.medium-centered.columns
-        ul.m-blog--post-list
-          - page_articles[0..2].each do |article, i|
-            li
-              em: time datetime="#{article.date}" pubdate="" class="text-tiny"
-                => article.date.strftime('%B %d, %Y')
-              = link_to article.title, article, class: 'm-post--link'
-              hr
+                em: time datetime="#{article.date}" pubdate="" class="text-tiny"
+                  => article.date.strftime('%B %d, %Y')
+                = link_to article.title, article, class: 'm-post--link'
+                hr
 
 .m-section--inverse
   .row
