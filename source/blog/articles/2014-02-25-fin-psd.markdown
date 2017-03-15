@@ -4,8 +4,7 @@ slug: fin-psd
 title: "Pourquoi créer un site web avec Photoshop n’est pas efficace ?"
 page_title: L’ère post PSD
 page_emphasis: Donner aux utilisateurs la façon la plus simple d’accéder au meilleur contenu
-changefreq: monthly
-priority: 0.8
+page_class: m-good-practice
 ---
 
 Certaines personnes adorent Photoshop —j’en fait parti. Cet article ne parle pas de se désintéresser de ce logiciel. C’est un outil très utile pour de nombreuses choses. Au XXIème siècle Photoshop est simplement utilisé différement pour la création de site web.
@@ -227,13 +226,13 @@ Allan Grinshtein nous explique pourquoi le skeumorphisme est [irrationnel dans l
 
 ## Surprise et réjouissement
 
-Un site internet est un document vivant. Une chose _trop souvent_ oubliée dans le webdesign concerne l’interation.
+Un site internet est un document vivant. Une chose __trop souvent__ oubliée dans le webdesign concerne l’interaction.
 
 Prenez le cas de squarespace, leur design est centré uniquement sur le travail typographique et les animations.
 
 Être webdesigner au XXIème siècle devient de plus en plus difficile.
 
-- <i class="fa fa-times"></i> concevoir une belle maquette statique dans Photoshop
+- <i class="fa fa-thumbs-o-down"></i> concevoir une belle maquette statique dans Photoshop
 
 - <i class="fa fa-thumbs-o-up"></i> Connaitre HTML & CSS
 - <i class="fa fa-thumbs-o-up"></i> Avoir des bases de responsive design
