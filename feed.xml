@@ -5,10 +5,129 @@
   <id>http://davidl.fr/blog/</id>
   <link href="http://davidl.fr/blog/"/>
   <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2017-02-06T00:00:00+01:00</updated>
+  <updated>2017-03-13T00:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>JavaScript, API et Markup. Avantages &amp; bonnes pratiques de la JAM stack</title>
+    <link rel="alternate" href="http://davidl.fr/blog/jamstack.html"/>
+    <id>http://davidl.fr/blog/jamstack.html</id>
+    <published>2017-03-13T00:00:00+01:00</published>
+    <updated>2017-03-15T10:11:47+01:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;Prenons la définition de wikipédia pour &lt;a href="https://en.wikipedia.org/wiki/Solution_stack"&gt;stack technique&lt;/a&gt; : un ensemble de logiciels ou composants nécessaires pour créer une plate-forme complète. Si l’on examine 2 secondes mon profil de &lt;a href="https://stackshare.io/flexbox/my-stack"&gt;développeur front-end sur stackshare&lt;/a&gt; on remaque que je travaille avec avec des outils du modernes comme Slack, GitHub ou encore Stripe.&lt;/p&gt;
+
+&lt;p&gt;Au début des années 2000 la stack populaire ressemblait à LAMP ou encore WAMP. Pour avoir un site internet il fallait une stack complète avec Linux, Apache MySQL et php. Le web a changé, JavaScript a évolué. Au XXIème siècle il est possible d’avoir de nouvelles solutions comme la &lt;a href="https://jamstack.org/"&gt;JAM stack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="dfinition-de-jam-stack"&gt;Définition de JAM stack&lt;/h2&gt;
+
+&lt;p&gt;&lt;img alt="JAM stack logo" src="https://c2.staticflickr.com/4/3728/32601011274_882287e21f_o.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Votre projet de site web est considéré comme JAM stack s’il respecte 3 critères :&lt;/p&gt;
+
+&lt;h3 id="javascript"&gt;JavaScript&lt;/h3&gt;
+
+&lt;p&gt;Toute programmation dynamique du cycle de requête / réponse est gérée par JavaScript, exécutée entièrement sur le client.&lt;br /&gt;
+Cela peut être n’importe quel librairie, framework front-end ou encore JavaScript vanilla.&lt;/p&gt;
+
+&lt;h3 id="api"&gt;API&lt;/h3&gt;
+
+&lt;p&gt;Les processus côté serveur ou les actions de base de données sont abstraites en &lt;code&gt;API&lt;/code&gt; réutilisables, accessibles via &lt;code&gt;HTTP&lt;/code&gt; avec JavaScript.&lt;br /&gt;
+Cela peut être des API personnalisées ou utiliser des services tiers.&lt;/p&gt;
+
+&lt;h3 id="markup"&gt;Markup&lt;/h3&gt;
+
+&lt;p&gt;Le balisage &lt;code&gt;HTML&lt;/code&gt; doit être pré-construit au moment du déploiement, généralement à l’aide d’un générateur de site pour les sites de contenu ou un outil de création d’applications Web.&lt;/p&gt;
+
+&lt;h2 id="partir-de-quand-un-projet-nest-pas-dvelopp-en-jam-stack-"&gt;À partir de quand un projet n’est pas développé en JAM stack ?&lt;/h2&gt;
+
+&lt;p&gt;Tout projet qui repose sur un couplage fort entre le client et le serveur n’est pas construit en &lt;code&gt;JAM stack&lt;/code&gt;. Exemple :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class="fa fa-fw fa-thumbs-o-down"&gt;&lt;/i&gt; Un site développpé avec un CMS serveur comme WordPress, Drupal, Joomla, ou Squarespace.&lt;/li&gt;
+  &lt;li&gt;&lt;i class="fa fa-fw fa-thumbs-o-down"&gt;&lt;/i&gt; Une application web monolithique développpé en &lt;code&gt;Ruby&lt;/code&gt;, &lt;code&gt;Node&lt;/code&gt;, ou tout autre langage backend.&lt;/li&gt;
+  &lt;li&gt;&lt;i class="fa fa-fw fa-thumbs-o-down"&gt;&lt;/i&gt; Une Single Page Application utilisant un rendu isomorphique pour construire des vues sur le serveur à l’exécution.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="pourquoi-utiliser-une-jam-stack-"&gt;Pourquoi utiliser une JAM stack ?&lt;/h2&gt;
+
+&lt;h3 id="une-meilleure-performance"&gt;Une meilleure performance&lt;/h3&gt;
+
+&lt;p&gt;Pourquoi attendre la construction des pages à la volée quand vous pouvez les générer lors de l’étape du déploiement ?&lt;br /&gt;
+Quand il faut minimiser le temps d’attente pour le téléchargment du premier byte, rien n’égale des fichiers pré-construits servis par un &lt;code&gt;CDN&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id="scurit-accrue"&gt;Sécurité accrue&lt;/h3&gt;
+
+&lt;p&gt;Avec une architecture serveur éclatée en microservices et abstraite en APIs, les zones d’attaques sont réduites.&lt;br /&gt;
+Vous pouvez également tirer parti de l’expertise métier en utilisant des services tiers spécialisés.&lt;/p&gt;
+
+&lt;p&gt;Plus besoin de mettre à jour votre faille critique de Drupal car il n’y a pas de base de données. Les certificats SSL sont également faciles à installer et disponibles gratuitement grâce à des services comme &lt;a href="https://letsencrypt.org/"&gt;LetsEncrypt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id="moins-cher-plus-volutif"&gt;Moins cher, plus évolutif&lt;/h3&gt;
+
+&lt;p&gt;Quand votre déploiement consiste à rassembler des fichier pour être distribués depuis n'importe où, l’elasticité d’une plateforme consiste à servir ces fichiers depuis d’autres endroits.&lt;br /&gt;
+Les &lt;code&gt;CDN&lt;/code&gt; sont parfait pour cela, et possèdent de base des solutions pour &lt;strong&gt;mettre à l’echelle rapidement&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id="une-meilleure-dx"&gt;Une meilleure DX&lt;/h3&gt;
+
+&lt;p&gt;Certains d’entre vous sont familers avec l’UX ou User eXperience ? Sachez qu’il existe aussi la &lt;a href="https://www.heroku.com/dx"&gt;Developer eXperience&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;La perte du couplage et la séparation des responsabilités permettent un développement et un débogage plus ciblés. Les générateurs de sites suppriment la nécessité de maintenir une stack distincte pour le contenu et une autre pour le marketing.&lt;/p&gt;
+
+&lt;h2 id="bonnes-pratiques"&gt;Bonnes pratiques&lt;/h2&gt;
+
+&lt;p&gt;Lors de la construction de projets JAM stack, vous pouvez exploiter le meilleur de cette solution si vous respectez quelques pratiques exemplaires.&lt;/p&gt;
+
+&lt;h3 id="i-classfa-fa-fw-fa-thumbs-o-upi-hbergement-sur-un-cdn"&gt;&lt;i class="fa fa-fw fa-thumbs-o-up"&gt;&lt;/i&gt; Hébergement sur un CDN&lt;/h3&gt;
+
+&lt;p&gt;Étant donné que les projets JAM stack ne s’appuient pas sur du code côté serveur, ils peuvent être distribués au lieu de vivre sur un seul serveur.
+Servis directement depuis un &lt;code&gt;CDN&lt;/code&gt; les applications web la vitesses et des performances qui ne peuvent pas être battus.&lt;br /&gt;
+Le plus de votre application, vous pouvez pousser vers le bord, le mieux l'expérience utilisateur.&lt;/p&gt;
+
+&lt;h3 id="i-classfa-fa-fw-fa-thumbs-o-upi-tout-est-historis-avec-git"&gt;&lt;i class="fa fa-fw fa-thumbs-o-up"&gt;&lt;/i&gt; TOUT est historisé avec git&lt;/h3&gt;
+
+&lt;p&gt;Avec un projet JAM stack, tout le monde devrait être capable de &lt;code&gt;git clone&lt;/code&gt;, installer toutes les dépendences avec une procédure standart (comme &lt;code&gt;npm install&lt;/code&gt;), et être prêt à lancer le projet localement.&lt;br /&gt;
+Pas de base de données à cloner, aucune complexité dans l'installation.
+Cela réduit la frustrastion des contributeurs, et simplifie la gestion des environements de &lt;code&gt;test&lt;/code&gt; et de &lt;code&gt;staging&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez facilement permettre à d’autres personnes de contribuer avec des solutions comme &lt;a href="http://prose.io/"&gt;prose.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="i-classfa-fa-fw-fa-thumbs-o-upi-outils-du-futur"&gt;&lt;i class="fa fa-fw fa-thumbs-o-up"&gt;&lt;/i&gt; Outils du futur&lt;/h3&gt;
+
+&lt;p&gt;Profitez du monde des outils de construction modernes.&lt;br /&gt;
+Cela peut ressembler à une jungle pour à l’installation et les technologies évoluent rapidement, mais vous aurez envie d'utiliser les standards web de demain sans attendre les navigateurs de demain.&lt;/p&gt;
+
+&lt;p&gt;Actuellement cela signifie utiliser &lt;a href="https://babeljs.io/"&gt;Babel&lt;/a&gt;, &lt;a href="http://postcss.org/"&gt;PostCSS&lt;/a&gt;, &lt;a href="https://webpack.js.org/"&gt;Webpack&lt;/a&gt;, &amp;amp; leurs amis.&lt;/p&gt;
+
+&lt;h3 id="i-classfa-fa-fw-fa-thumbs-o-upi-builds-automatiques"&gt;&lt;i class="fa fa-fw fa-thumbs-o-up"&gt;&lt;/i&gt; Builds automatiques&lt;/h3&gt;
+
+&lt;p&gt;Comme le &lt;code&gt;HTML&lt;/code&gt; de la JAM stack est pré-construit, les modifications de contenu ne seront pas visibles tant que vous n'aurez pas exécuté une autre build.
+Automatiser ce processus vous permettra d'économiser beaucoup de maux de tête. Vous pouvez le faire vous-même avec des &lt;code&gt;webhooks&lt;/code&gt;, ou utiliser une plate-forme de publication qui inclut ce service automatiquement.&lt;/p&gt;
+
+&lt;h3 id="i-classfa-fa-fw-fa-thumbs-o-upi-dployement-atomiques"&gt;&lt;i class="fa fa-fw fa-thumbs-o-up"&gt;&lt;/i&gt; Déployement atomiques&lt;/h3&gt;
+
+&lt;p&gt;Au fur et à mesure que les projets JAM stack grandissent, de nouvelles modifications peuvent nécessiter le redéploiement de centains de fichiers.
+Le téléchargement de ces derniers un par un peut provoquer un état incohérent avant la fin du processus.&lt;br /&gt;
+Vous pouvez éviter cela avec un système qui vous permet de faire des “déploiements atomiques”, où aucun changement ne sera mis en ligne avant que tous les fichiers modifiés n’aient été téléchargés.&lt;/p&gt;
+
+&lt;h3 id="i-classfa-fa-fw-fa-thumbs-o-upi-invalidation-du-cache-instantanne"&gt;&lt;i class="fa fa-fw fa-thumbs-o-up"&gt;&lt;/i&gt; Invalidation du cache instantannée&lt;/h3&gt;
+
+&lt;p&gt;Lorsque le cycle : construction &amp;gt; déploiement terminé devient régulier, vous devez savoir que lorsqu'un déploiement est en production, il est réellement en production.&lt;br /&gt;
+Éliminez tout doute en vous assurant que votre &lt;code&gt;CDN&lt;/code&gt; peut gérer des purges de cache instantanées.&lt;/p&gt;
+
+&lt;h2 id="whats-next-"&gt;What’s next ?&lt;/h2&gt;
+
+&lt;p&gt;J’ai abandonné wordpress depuis 2014 pour &lt;a href="/blog/migration-wordpress.html"&gt;migrer vers middleman&lt;/a&gt;. Je pense avoir eu raison car en 2017 l’industrie du web commence à s’interesser à ce type de solutions, même pour des sites à fort traffic comme smashing magazine.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" data-lang="fr"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/smdly"&gt;@smdly&lt;/a&gt; We’re moving to &lt;a href="https://twitter.com/Netlify"&gt;@Netlify&lt;/a&gt;, and the JAM stack. &lt;a href="https://t.co/38Lg04VpwC"&gt;https://t.co/38Lg04VpwC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Smashing Magazine (@smashingmag) &lt;a href="https://twitter.com/smashingmag/status/839866697632862213"&gt;9 mars 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;Pour votre prochain projet JAM Stack je vous conseille d’essayer &lt;a href="https://phenomic.io/"&gt;Phenomic&lt;/a&gt;, un générateur de site statique basé sur l'écosytème React et Webpack.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>FOSDEM 2017</title>
     <link rel="alternate" href="http://davidl.fr/blog/fosdem-2017.html"/>
@@ -366,57 +485,6 @@ Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wi
 &lt;p&gt;Si vous souhaitez en savoir plus sur votre configuration &lt;code&gt;npm config list&lt;/code&gt; vous affichera des informations utiles. Si vous souhaitez aller plus loin vous pourvez lire les pages du manuel avec &lt;code&gt;npm help config&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Bonne lecture !&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Gagne ta place Early-bird pour la prochaine takeoffconf</title>
-    <link rel="alternate" href="http://davidl.fr/blog/takeoffconf-code-promo.html"/>
-    <id>http://davidl.fr/blog/takeoffconf-code-promo.html</id>
-    <published>2016-03-25T00:00:00+01:00</published>
-    <updated>2016-03-31T14:53:50+02:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;Ajourd’hui c’est un bonne journée pour plusieurs raisons : c’est vendredi et en tant que leader de communauté tech dans le nord de la France, j’ai eu la chance d’avoir des billets pour la prochaine grande conférence à ne manquer sous aucun prétexte : &lt;a href="http://takeoffconf.com/"&gt;Takeoffconf&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Code promo takeoffconf" src="https://c2.staticflickr.com/2/1536/25936271932_433d27b0c3_b.jpg" /&gt;&lt;/p&gt;
-
-&lt;h2 id="pourquoi-aller--cette-confrence-"&gt;Pourquoi aller à cette conférence ?&lt;/h2&gt;
-
-&lt;p&gt;Le programme n’est pas définitif mais voici pourquoi vous devez venir :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;En octobre il n’y a rien à faire d’autre&lt;/li&gt;
-  &lt;li&gt;Cette année c'est 3 jours qui sont prévus ! (Du Jeudi 06 octobre au Samedi 08 Octobre 2016)&lt;/li&gt;
-  &lt;li&gt;La soirée sur la Gare Saint Sauveur est top !&lt;/li&gt;
-  &lt;li&gt;Vous &lt;strong&gt;pourrez me voir en 3D&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Vous rencontrerez &lt;a href="https://twitter.com/takeoffconf/status/429257447866662912"&gt;pleins développeurs du futur&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Au tarif &lt;strong&gt;early-bird la place n’est pas chère&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Qui a besoin d’un programme avec une baseline comme “&lt;em&gt;Les sujets qui feront l’actualité des devs en 2017&lt;/em&gt; ”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="cest-par-o-la-glissade-"&gt;C’est par où la glissade ?&lt;/h2&gt;
-
-&lt;p&gt;Comme chaque année cela se passe dans l’un des plus gros incubateur de France, à Euratechnologies.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Réserver votre place au takeoffconf avec David Leuliette" src="https://c2.staticflickr.com/6/5012/5455442855_2062c40e12_b.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Euratechnologies&lt;/strong&gt;
-165 Avenue de Bretagne
-59000 Lille, France&lt;/p&gt;
-
-&lt;h2 id="comment-participer-au-concours-"&gt;Comment participer au concours ?&lt;/h2&gt;
-
-&lt;p&gt;C’est facile ! Tout se passe sur Twitter&lt;/p&gt;
-
-&lt;p&gt;Vous devez mentionner &lt;a href="https://twitter.com/TakeOffConf"&gt;@takeoffconf&lt;/a&gt; et &lt;a href="https://twitter.com/_flexbox"&gt;@_flexbox&lt;/a&gt; et dire pourquoi vous souhaitez venir à cette super conférence. Comme je sais que certains ont la puissance de la flème j’ai même préparé un tweet en avance :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;En Octobre je participe @takeoffconf grâce à @_flexbox qui sera parmi nous ?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Seulement les 8 premiers pourront bénéficier d’un tarif préférenciel alors battez-vous :P&lt;/p&gt;
-
 </content>
   </entry>
 </feed>

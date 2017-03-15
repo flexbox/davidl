@@ -34,11 +34,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/integrateur-web-lille.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://davidl.fr/toolkit.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -72,11 +67,6 @@
     <loc>http://davidl.fr/setup.html</loc>
   </url>
   <url>
-    <loc>http://davidl.fr/projects.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>http://davidl.fr/pricing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -88,11 +78,6 @@
     <loc>http://davidl.fr/mentors.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/meetups.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
   </url>
   <url>
     <loc>http://davidl.fr/manifesto.html</loc>
@@ -306,8 +291,6 @@
   </url>
   <url>
     <loc>http://davidl.fr/blog/fin-psd.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://davidl.fr/blog/conseil-dev.html</loc>
@@ -446,8 +429,6 @@
   </url>
   <url>
     <loc>http://davidl.fr/blog/openclassroom-integrateur-web.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://davidl.fr/blog/svg-helper-ruby.html</loc>
@@ -480,10 +461,15 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/blog/indonesia.html</loc>
+    <loc>http://davidl.fr/integrateur-web-lille.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://davidl.fr/blog/fosdem-2017.html</loc>
+  </url>
+  <url>
+    <loc>http://davidl.fr/blog/jamstack.html</loc>
   </url>
   <url>
     <loc>http://davidl.fr/blog</loc>
@@ -504,11 +490,6 @@
     <loc>http://davidl.fr/codex.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/consulting/audits.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>http://davidl.fr/consulting/coaching.html</loc>
@@ -599,5 +580,8 @@
     <loc>http://davidl.fr</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/blog/indonesia.html</loc>
   </url>
 </urlset>
