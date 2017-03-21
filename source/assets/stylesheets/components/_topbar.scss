@@ -1,5 +1,11 @@
 $topbar-height: rem-calc(60);
 
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
 .m-topbar {
   position: fixed;
   width: 100%;
@@ -35,7 +41,8 @@ $topbar-height: rem-calc(60);
 
 .m-topbar--logo {
   padding: 0 !important;
-  img {
+  svg {
+    animation: logo-spin infinite 20s linear;
     max-height: 64px;
     margin: rem-calc(20 0);
     @media #{$small}{
@@ -75,12 +82,15 @@ $topbar-height: rem-calc(60);
 .m-topbar--form {
   display: flex;
   flex-direction: row;
+
   @media #{$medium}{
     display: inherit;
     flex: 4;
   }
   .l-search-form {
     padding: rem-calc(15 0 0 20);
+    transition: all .2s ease-out;
+
     input {
       margin-bottom: 0;
     }
@@ -105,8 +115,13 @@ $topbar-height: rem-calc(60);
     display: none;
   }
   .is-expanded {
-    flex: 3;
+    flex: 15;
     display: block;
+  }
+  .l-twitter-link {
+    &:after {
+      content: '';
+    }
   }
 }
 

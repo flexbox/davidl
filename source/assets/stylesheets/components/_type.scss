@@ -7,8 +7,6 @@
 
 h1, h2 {
   @include typl8-hyphens(none);
-  // margin-top: 1em;
-  // margin-bottom: 1.5em;
 }
 
 *::selection {

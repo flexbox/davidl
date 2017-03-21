@@ -38,10 +38,16 @@ interviews:
 
 talks:
   -
+    date: Mars 2017
+    website: GooglePex
+    lang: '🇧🇪'
+    url: http://courses.davidl.fr/presentations/devtools/
+    title: 'Presentation des DevTools'
+  -
     date: Février 2017
     website: ChtiJS
     lang: '🇫🇷'
-    url: http://courses.davidl.fr/presentations/yarn/#/
+    url: http://courses.davidl.fr/presentations/yarn/
     title: 'Pray for bower'
   -
     date: Octobre 2016

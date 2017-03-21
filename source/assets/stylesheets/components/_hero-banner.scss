@@ -61,9 +61,10 @@ $banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%)
 .m-hero-homepage {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   text-align: center;
   background: $banner-linear-bg;
+  margin-top: 70px;
 
   canvas {
     width: 100%;

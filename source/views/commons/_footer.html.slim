@@ -1,3 +1,23 @@
+footer.m-footer role="contentinfo"
+  .row
+    .medium-8.medium-centered.columns
+      p.m-footer--title Améliorer vos compétences jusqu’au prochain niveau
+      p Êtes-vous prêt à aller au-delà de la construction de site internet de base ? Vous maitrisez les technologies web et vous souhaitez apprendre les techniques que les développeurs senior utilisent ?
+      form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
+        .row
+          .small-12.columns
+            label for="js-mailchimpemail"
+              'Abonnez-vous et commencez votre voyage pour devenir un expert
+
+        .row
+          .small-8.columns
+            input type="email" name="EMAIL" id="js-mailchimpemail" class="m-mailchimpemail" placeholder="youare@weso.me" required="" autocapitalize="none" autocorrect="off"
+            .hide
+              input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad"
+          .small-4.columns
+            button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
+              'Apprenez-moi
+
 .m-footer--section
   .row
     .medium-10.medium-centered.columns
@@ -43,27 +63,7 @@
             li role="menuitem"
               = link_to 'Services', '/work.html', title: 'Vous pouvez m’enbaucher'
 
-footer.m-footer role="contentinfo"
-  .row
-    .medium-8.medium-centered.columns
-      p.m-footer--title Améliorer vos compétences jusqu’au prochain niveau
-      p Êtes-vous prêt à aller au-delà de la construction de site internet de base ? Vous maitrisez les technologies web et vous souhaitez apprendre les techniques que les développeurs senior utilisent ?
-      form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
-        .row
-          .small-12.columns
-            label for="js-mailchimpemail"
-              'Abonnez-vous et commencez votre voyage pour devenir un expert
-
-        .row
-          .small-8.columns
-            input type="email" name="EMAIL" id="js-mailchimpemail" class="m-mailchimpemail" placeholder="youare@weso.me" required="" autocapitalize="none" autocorrect="off"
-            .hide
-              input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad"
-          .small-4.columns
-            button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
-              'Apprenez-moi
-
-  hr
+footer.m-footer
   p.l-text
     'Ce site open source est hébergé sur
     = link_to 'GitHub', 'https://github.com/flexbox/davidl'
