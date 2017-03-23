@@ -1,7 +1,7 @@
 ---
 date: 2017-03-13
 slug: jamstack
-title: "JavaScript, API et Markup. Avantages & bonnes pratiques de la JAM stack"
+title: "Introduction à JAMstack : JavaScript, API et Markup"
 description: "Quels sont les avantages et bonnes pratiques dans la génération de sites statiques. Pourquoi cette solution est meilleure en terme de performance, sécurité et coûts par rapport aux classiques CMS comme wordpress et Drupal"
 image: https://lh3.googleusercontent.com/iwrKvS1SO5PW-_yPJBXHJA32FxPDIyWB9RuWbNv98HA_k1hiUVsro1ZF7uLeB6Avl7cN7v6_oBKhjWN-k1yEUJMh64g0-sIiceIQJrOe5tHnPPfNw1UADwt0V_T2J-yU-4xJmOAQ45hxmQJ7uyEfv7NkjwOFKIeQHdXVVUi7ohUF0QRE23ma9kHLpBgXYrHqk1gPuJj2aLbAaFL9pGf3gz-zYnWhMYkuM_3CL7iTC1o964EHenPUoBtKsTAs153IUPhHClkPbByjnMjoPbv10zlDKOYvQEsVOL_OMLKAaZJ6OdrDk9xxHfiMGe05mgbYNse4jzey-hWq4IQoqeD_BAXJ0n2KLdOfBpTfsrSTduX8UCKve44F7CopqutL3lu32_VMqmcyx5o7zMd8PVEKL8xlh8fvS-TSUaThJac1Mn5K5p7DZ28PoUhy82AfTltDhKjufEX272QvEg_BBa0g7mBMo4LSnrjAcE3nyfBDmo5FjEbxYArXbWpkJCL4j5IEhleBMQqFYUoG0fmF4BaDwt7fzmBYbH7kYg5kEkmimF-gMqYKEyC5Z6QPmkiumidHnNL9kjy0ba_m-D2y7cVULFa9uPQpChCAWzvQeMwFfeMdRM50NrGo_w=w1024-h512-no
 page_title: "Architecture de développement Web moderne"
