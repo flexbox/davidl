@@ -41,7 +41,7 @@ activate :navtree do |options|
     'browserconfig.xml',
     'CNAME'
   ]
-  options.ignore_dir = ['assets', 'views'] # An array of directories we want to ignore when building our tree.
+  options.ignore_dir = ['assets', 'layouts'] # An array of directories we want to ignore when building our tree.
   options.home_title = 'Home' # The default link title of the home page (located at "/"), if otherwise not detected.
   options.promote_files = ['index.html'] # Any files we might want to promote to the front of our navigation
   options.ext_whitelist = [] # If you add extensions (like '.md') to this array, it builds a whitelist of filetypes for inclusion in the navtree.

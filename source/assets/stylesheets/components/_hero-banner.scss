@@ -15,7 +15,7 @@ $banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%)
 
   .l-title,
   .l-emphasis {
-    color: $gray-light;
+    color: $white;
     text-shadow: $text-shadow;
     position: relative;
     @media #{$small} {
@@ -55,41 +55,5 @@ $banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%)
   }
   .m-panel {
     margin-top: 0;
-  }
-}
-
-.m-hero-homepage {
-  position: relative;
-  width: 100%;
-  height: 50vh;
-  text-align: center;
-  background: $banner-linear-bg;
-  margin-top: 70px;
-
-  canvas {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-}
-
-@keyframes movebg {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 1260px 0;
-  }
-}
-
-.m-homepage .m-hero-banner {
-  background-position: 0 0;
-  background: url("https://farm4.staticflickr.com/3946/15583794966_fd39f2f2e8_o.jpg") repeat top center $primary-color;
-  @media #{$small} {
-    animation: 35s linear 0s normal none infinite movebg;
   }
 }

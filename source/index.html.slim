@@ -11,47 +11,48 @@ blog: blog
 - content_for :javascripts do
   = javascript_include_tag 'front/homepage'
 
-.m-hero-homepage.js-hero-homepage
+.m-hero-homepage
   .l-content
     h1.title
       'Conseils en Design
       br
-      strong et développement web
+      strong
+        span.ampersand> &&
+        'développement web
     .hide-for-small
       markdown:
-        Vous cherchez des conseils sur la __conception & le développement front-end__ ?<br>Vous souhaitez mieux atteindre les utilisateurs connectés d’aujourd'hui ?<br> Si oui, __vous êtes au bon endroit__.<br><br>Ce blog présente les travaux du __consultant développeur front-end__ David Leuliette, qui partage ses idées dans le domaine du numérique.
-      markdown:
-    = link_to 'Travailler avec un consultant', '/consulting/',class: 'button secondary button-call-to-action'
+        À la recherche de conseils en __design & développement front-end__ ?<br>Votre objectif est de capter l’attention des utilisateurs connectés d’aujourd'hui ?<br>__Vous êtes au bon endroit__.
+    .hide-for-small.left
+      = link_to 'Découvrez mes compétences', '/workflow/',class: 'button'
+    = link_to 'Embaucher un consultant', '/workflow/',class: 'button secondary button-call-to-action'
 
 .m-section
-  .row.text-center
+  .row
     .medium-4.columns
-      .m-panel
-        i.fa.fa-picture-o.fa-rounded.l-illu
-        h3 Design
-        = link_to 'Responsive design', '/webdesign.html', class: 'button small'
-        p
-          'Concevoir des
-          strong
-            'interfaces simples pour les utilisateurs
-          'est ma priorité.
+      .text-center
+        = image_tag 'icons/animat-lightbulb-color.gif', alt: 'Product Designer animation', style: 'max-width: 100px;'
+
+        = fa 'fa-picture-o fa-rounded l-illu'
+      markdown:
+        __Product Designer.__
+        J’ai travaillé avec des start-ups et des grandes entreprises sur la recherche utilisateur, wireframes, création de MVP et tests utilisateurs.
+
     .medium-4.columns
-      .m-panel
-        i.fa.fa-code.fa-rounded.l-illu
-        h3 Code
-        = link_to 'Projets open-source', 'https://github.com/flexbox/', class: 'button small'
-        p
-          'Je programme des solutions
-          strong évolutives et respectueuses des standards.
+      .text-center
+        = image_tag 'icons/animat-pencil-color.gif', alt: 'CSS front-end animation', style: 'max-width: 100px;'
+        = fa 'fa-code fa-rounded l-illu'
+      markdown:
+        __Architecte CSS.__
+        Je suis archimage certifié en `CSS` et `Sass`, avec une certaine expérience dans le développement de framework, création de guides de style et formation d’étudiants sur les technologies front-end.
+
     .medium-4.columns
-      .m-panel
-        i.fa.fa-eye.fa-rounded.l-illu
-        h3 Veille
-        = link_to 'Apprendre', '/newsletter.html', class: 'button small'
-        p
-          'Un
-          strong> développement durable
-          'nécessite de se renseigner sur les nouvelles technologies.
+      .text-center
+        = image_tag 'icons/animat-rocket-color.gif', alt: 'JavaScript user', style: 'max-width: 100px;'
+        = fa 'fa-terminal fa-rounded l-illu'
+      markdown:
+        __JavaScript Developer.__
+        I've published nearly twenty Node libraries focused around various aspects of front-end tooling and workflow.
+        J'ai publié près de vingt bibliothèques de nœuds focalisées autour de divers aspects de l'outillage et du workflow de front-end.
 
 .m-section--inverse
   .row
@@ -61,41 +62,42 @@ blog: blog
     .medium-4.columns
       = link_to 'Compétences', '/about.html', class: 'button secondary'
 
-.row
-  .medium-12.columns.text-center
-    markdown:
-      ## Agile workflow
+.m-section
+  .row
+    .medium-12.columns.text-center
+      markdown:
+        ## Agile workflow
 
-      Je reste concentré sur les 3 philosophies du __webdesign moderne__, basé sur les bonnes pratiques de Google.
+        Je reste concentré sur les 3 philosophies du __webdesign moderne__, basé sur les bonnes pratiques de Google.
 
-      - - -
+        - - -
 
-    .row
-      .large-4.columns
-        h3 Mobile first
-        i.fa.fa-mobile.l-illu
-        p
-          em Des sites web qui atteignent plus de clients.
-        p Avec plus d'un milliard d'appareils dans le monde, il est important de prioriser ses efforts sur cette population grandissante.
-      .large-4.columns
-        h3 Responsive design
-        i.fa.fa-arrows-h.l-illu
-        p
-          em Des sites internet pour tous les appareils.
-        p
-          'Une conception fluide permet à votre site internet de
-          strong
-            'répondre aux besoins de vos utilisateurs
-          'en s'adaptant à leur largeur d'écran. Avec de nouveaux appareils disponibles chaque jour, un site responsive est une nécessité.
-      .large-4.columns
-        h3 Performance
-        i.fa.fa-bar-chart-o.l-illu
-        p
-          em Un chargement rapide est indispensable.
-        p
-          'La plupart des consommateurs s'attendent à avoir
-          strong une page web chargée en moins de 2 secondes
-          '. Près de la moitié d'eux va abandonner un site web mettant plus de 3 secondes à se charger.
+      .row
+        .large-4.columns
+          h3 Mobile first
+          i.fa.fa-mobile.l-illu
+          p
+            em Des sites web qui atteignent plus de clients.
+          p Avec plus d'un milliard d'appareils dans le monde, il est important de prioriser ses efforts sur cette population grandissante.
+        .large-4.columns
+          h3 Responsive design
+          i.fa.fa-arrows-h.l-illu
+          p
+            em Des sites internet pour tous les appareils.
+          p
+            'Une conception fluide permet à votre site internet de
+            strong
+              'répondre aux besoins de vos utilisateurs
+            'en s'adaptant à leur largeur d'écran. Avec de nouveaux appareils disponibles chaque jour, un site responsive est une nécessité.
+        .large-4.columns
+          h3 Performance
+          i.fa.fa-bar-chart-o.l-illu
+          p
+            em Un chargement rapide est indispensable.
+          p
+            'La plupart des consommateurs s'attendent à avoir
+            strong une page web chargée en moins de 2 secondes
+            '. Près de la moitié d'eux va abandonner un site web mettant plus de 3 secondes à se charger.
 
 .m-section--inverse
   .row
@@ -103,7 +105,7 @@ blog: blog
       h2.l-title Investissez dans un design durable et évolutif
       p.l-baseline Je crée des ponts entre graphistes et développeurs
     .medium-4.columns
-      = link_to 'Travailler avec un designer', '/work.html', class: 'button secondary'
+      = link_to 'Travailler avec un designer', '/workflow/work.html', class: 'button secondary'
 
 .row
   .medium-12.columns
@@ -129,7 +131,7 @@ blog: blog
         markdown:
           ## Community leader
 
-          J’aide à l’organisation / donne des conférences dans différents meetups
+          J’aide à l’organisation & donne des conférences dans différents meetups
       hr
       ul.small-block-grid-2.medium-block-grid-4
         li
@@ -177,4 +179,4 @@ section.m-section
       markdown:
         ## Je veux un web meilleur
         Je suis __designer et développeur__, la conception et la convivialité sont mon mode de vie. Cependant, ce n’est pas vrai pour la plupart des gens. Concevoir un très bon produit est un processus, et généralement c’est cher. C’est pourquoi je m’engage à bâtir un meilleur web en faisant tout mon possible pour livrer des sites internet rapides et accessibles.
-      = link_to 'Travailler avec un consultant', '/work.html', class: 'button secondary'
+      = link_to 'Travailler avec un consultant', '/workflow/work.html', class: 'button secondary'

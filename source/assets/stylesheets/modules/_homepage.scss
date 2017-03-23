@@ -3,13 +3,40 @@
   to { opacity: 1; }
 }
 
+@mixin canvas-cover() {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
 .m-hero-homepage {
   display: flex;
+  position: relative;
+  background: $banner-linear-bg;
+  padding-bottom: $topbar-height;
+  padding-top: $topbar-height;
+  @media #{$medium} {
+    padding-top: ($topbar-height * 2);
+  }
 
+  p,
+  .title {
+    @include typl8-hyphens(none);
+    color: $white;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.6);
+  }
+  p {
+    margin-bottom: rem-calc(40);
+  }
   .title {
     letter-spacing: -2px;
-    font-size: 65px;
+    line-height: 0.75;
+    font-size: rem-calc(65);
+    margin-bottom: rem-calc(20);
 
     strong {
       font-family: $font-family-monospace;
@@ -22,58 +49,34 @@
   }
 
   .l-content {
-    justify-content: center;
-    align-items: center;
-    display: flex;
     z-index: 9;
-    flex-direction: column;
-    margin: 0px;
-    color: $black;
-    width: 100%;
-    @include typl8-hyphens(none);
-
-    h1, p {
-      margin: 0;
-      max-width: rem-calc(560);
-      padding: rem-calc(5);
-      color: $white;
-      text-shadow: 0px 1px 2px rgba(0,0,0,0.6);
-    }
-    h1 {
-      margin-bottom: rem-calc(20);
-    }
-    p {
-      font-size: rem-calc(16);
+    margin: 0 auto;
+    min-width: 1320px;
+    @media #{$small-only} {
+      font-size: rem-calc(20);
+      padding: rem-calc(20);
+      min-width: inherit;
     }
   }
   canvas {
-    opacity: 0;  /* make things invisible upon start */
-    animation: fadeIn ease-in 0.4;
+    opacity: 0;
+    animation: fadeIn ease-in-out 0.4;
     animation-fill-mode: forwards;
     animation-duration: 1s;
-    animation-delay: 0.7s;
+    animation-delay: 700ms;
+    @include canvas-cover();
   }
 
   .button-call-to-action {
-    position: absolute;
-    bottom: -50px;
-    @media #{$small-only} {
-      max-width: rem-calc(240);
-    }
+    margin-left: rem-calc(30);
   }
 }
-
-
 
 .m-homepage {
   .l-illu {
     font-size: rem-calc(40);
     color: $primary-color;
     margin-bottom: rem-calc(20);
-    & + h3 {
-      margin-top: 0;
-      margin-bottom: rem-calc(20);
-    }
   }
   .fa-rounded {
     padding: rem-calc(20);

@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
-gem 'therubyracer'
 
+# Core
 gem 'middleman',               '~> 3.3.12'
 gem 'middleman-autoprefixer',  '~>  2.5.0'
 gem 'middleman-blog'
@@ -14,8 +14,15 @@ gem 'middleman-sitemap',       '~> 0.0.13'
 gem 'middleman-sitemap-ping'
 gem 'middleman-syntax'
 
+# Linux Support
+gem 'therubyracer'
+
+# Templating Engines
 gem 'nokogiri','~> 1.6.3.1'
 gem 'slim',    '~> 3.0.2'
 gem 'builder', '~> 3.2.2'
-gem 'better_errors'
 gem 'oga'
+
+# Debug
+gem 'html-proofer'
+gem 'better_errors'

@@ -118,7 +118,7 @@ Cette méthode peut être largement optimisée, et j’ai certainement perdu que
 
 ## Conclusion
 
-Ce système n’est pas adapté à tout le monde, et il faut une certaine philosophie de hacker / développeur / GitHuber pour travailler de cette façon. Dans mon cas, j’ai remarqué que c’est beaucoup plus efficace. Couplé avec `bower` je peux tester n’importe quelle fonctionnalité très rapidement comme les filtres avec mixitup, les [vidéos en background](http://davidl.fr/webdesign.html), changer complètement [l’aspect du layout](http://davidl.fr/books.html) et utiliser des fichiers de données `.yml` pour être évolutif…
+Ce système n’est pas adapté à tout le monde, et il faut une certaine philosophie de hacker / développeur / GitHuber pour travailler de cette façon. Dans mon cas, j’ai remarqué que c’est beaucoup plus efficace. Couplé avec `bower` je peux tester n’importe quelle fonctionnalité très rapidement comme les filtres avec mixitup, les [vidéos en background](/design/webdesign.html), changer complètement [l’aspect du layout](http://davidl.fr/books.html) et utiliser des fichiers de données `.yml` pour être évolutif…
 
 ## Ressources
 

@@ -1,11 +1,11 @@
 header#js-topbar.m-topbar role="banner"
   nav role="navigation" aria-label="Primary" class="m-topbar--list js-topbar--list is-away"
     = link_to '/', class: 'm-topbar--logo', title: 'Retour à l’accueil' do
-      = svg_tag 'atom-logo.svg', alt: 'davidl intégrateur web & développeur front-end lille'
-    = link_to '⚡ Articles',   '/blog/',        nav_active('/blog/')
-    = link_to 'Consulting', '/consulting/',  nav_active('/consulting/')
-    = link_to 'À propos',   '/about.html',   nav_active('/about.html')
-    = link_to 'Contact',    '/contact.html', nav_active('/contact.html')
+      = svg_tag 'atom-logo.svg', alt: 'Développeur front-end & Intégrateur web lille'
+    = link_to '⚡ Articles', '/blog/', nav_active('/blog/')
+    = link_to 'Consulting', '/workflow/', nav_active('/workflow/')
+    = link_to 'Contact', '/contact.html', nav_active('/contact.html')
+    = link_to 'Work', '#', class: 'm-topbar--button'
 
   #js-topbar--form.m-topbar--form
     = link_to '#', id: 'js-topbar--button', class: 'l-menu' do

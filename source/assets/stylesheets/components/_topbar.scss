@@ -30,9 +30,7 @@ $topbar-height: rem-calc(60);
     font-family: $font-family-monospace;
     letter-spacing: -1px;
 
-    &:hover {
-      color: $secondary-color;
-    }
+    &:hover,
     &.is-active {
       color: $primary-color;
     }
@@ -51,6 +49,10 @@ $topbar-height: rem-calc(60);
       max-height: 48px;
     }
   }
+}
+
+a.m-topbar--button {
+  color: $secondary-color;
 }
 
 .m-topbar--list {

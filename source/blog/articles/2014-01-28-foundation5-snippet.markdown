@@ -6,7 +6,7 @@ page_title: Développer votre HTML vitesse lumière avec Foundation 5
 changefreq: monthly
 priority: 0.8
 ---
-Si vous avez visité ma sélection d'[outils pour développeur front-end](http://davidl.fr/toolkit.html), vous savez que j'utilise (selon moi) le meilleur éditeur de code : Sublime Text.
+Si vous avez visité ma sélection d'[outils pour développeur front-end](/dev/tools.html), vous savez que j'utilise (selon moi) le meilleur éditeur de code : Sublime Text.
 
 Le principal avantage de cet éditeur de code est son système de paquets, qui permet une personnalisation poussée de l’éditeur.
 

@@ -69,7 +69,7 @@ _— [Voir tous mes sketchnotes dans un album FlickR](https://www.flickr.com/pho
 
 ## Comment se tenir à jour ?
 
-Dans mon [précédent article](http://davidl.fr/blog/offthegrid.html) je me posais quelques questions : comment vais–je gérer mes emails ? Twitter ? mon blog ? maîtriser ReactJS ? … J'ai commencé par me désabonner de mes [newsletters sur développement & le design](http://davidl.fr/newsletter.html) et ensuite je n’avais plus accès à internet… Problème résolu !
+Dans mon [précédent article](http://davidl.fr/blog/offthegrid.html) je me posais quelques questions : comment vais–je gérer mes emails ? Twitter ? mon blog ? maîtriser ReactJS ? … J'ai commencé par me désabonner de mes [newsletters sur développement & le design](/learn/newsletter.html) et ensuite je n’avais plus accès à internet… Problème résolu !
 
 Ma principale préoccupation était d’__apprendre à parler espagnol__ et comme en Bolivie la qualité du réseau est médiocre :
 

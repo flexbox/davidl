@@ -7,9 +7,9 @@ html lang="fr"
     title = current_page.data.title ? current_page.data.title : data.settings.site.title
     meta name="description" content="#{current_page.data.description}"
     meta name="robots" content="index,follow"
-    = partial 'views/commons/open_graph'
+    = partial 'layouts/commons/open_graph'
 
-    = partial 'views/commons/favicon'
+    = partial 'layouts/commons/favicon'
     = stylesheet_link_tag 'error'
 
   body class="#{current_page.data.page_class}"

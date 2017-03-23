@@ -27,7 +27,7 @@ priority: 1
     .row
       .medium-3.columns
         .m-photo-album
-          = image_tag 'front/aperture-science-avatar.jpg', alt: 'Portrait David Leuliette Aperture Science', title: 'Design basé sur la science'
+          = image_tag gravatar_for(data.settings.social.email), alt: 'Portrait David Leuliette Aperture Science', title: 'Design basé sur la science'
       .medium-9.columns
         markdown:
           - Découverte de nouveaux produits.
@@ -83,7 +83,7 @@ priority: 1
           p
             em
               'Je travaille exclusivement avec un terminal et
-              => link_to 'd’autres outils du XXIème siècle', '/toolkit.html'
+              => link_to 'd’autres outils du XXIème siècle', '/dev/tools.html'
               'pour coder de façon sérieuse et évolutive.
 
     section.m-section
@@ -174,7 +174,7 @@ section.m-section
   .row
     .medium-10.medium-centered.columns
       h2 Où peut-on me trouver sur internet ?
-      = partial 'views/social'
+      = partial 'layouts/social'
 
 section.m-section
   .row
@@ -182,4 +182,4 @@ section.m-section
       h2.text-center Toujours pas convaincu ?
       .text-center
         p Découvez comment je respecte les standards du web en créant des produits évolutifs
-        = link_to 'Méthode de travail', '/work.html', class: 'button secondary'
+        = link_to 'Méthode de travail', '/workflow/work.html', class: 'button secondary'

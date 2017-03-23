@@ -1,7 +1,6 @@
 ---
 404.html.slim: "/404.html.slim"
 about.html.slim: "/about.html.slim"
-ask-me.html.slim: "/ask-me.html.slim"
 blog:
   articles:
     2011-11-28-framework-php.markdown: "/blog/articles/2011-11-28-framework-php.markdown"
@@ -85,12 +84,18 @@ blog:
   index.html.slim: "/blog/index.html.slim"
 books.html.slim: "/books.html.slim"
 clients.html.slim: "/clients.html.slim"
-codex.html.slim: "/codex.html.slim"
-consulting:
-  coaching.html.slim: "/consulting/coaching.html.slim"
-  index.html.slim: "/consulting/index.html.slim"
 contact.html.slim: "/contact.html.slim"
 cv.html.slim: "/cv.html.slim"
+design:
+  typography.html.slim: "/design/typography.html.slim"
+  webdesign.html.slim: "/design/webdesign.html.slim"
+dev:
+  git.html.slim: "/dev/git.html.slim"
+  gitclub.html.slim: "/dev/gitclub.html.slim"
+  index.html.slim: "/dev/index.html.slim"
+  setup.html.slim: "/dev/setup.html.slim"
+  sublime.html.slim: "/dev/sublime.html.slim"
+  tools.html.slim: "/dev/tools.html.slim"
 forge:
   chapitres:
     0-1-evolution.markdown: "/forge/chapitres/0-1-evolution.markdown"
@@ -101,26 +106,24 @@ forge:
     1-5-details.markdown: "/forge/chapitres/1-5-details.markdown"
     2-1-manifeste-refonte.markdown: "/forge/chapitres/2-1-manifeste-refonte.markdown"
   index.html.slim: "/forge/index.html.slim"
-formation.html.slim: "/formation.html.slim"
-git.html.slim: "/git.html.slim"
-gitclub.html.slim: "/gitclub.html.slim"
 glossary.html.slim: "/glossary.html.slim"
 gnu.html.slim: "/gnu.html.slim"
 index.html.slim: "/index.html.slim"
 integrateur-web-lille.html.slim: "/integrateur-web-lille.html.slim"
 keybase.txt: "/keybase.txt"
+learn:
+  formations.html.slim: "/learn/formations.html.slim"
+  newsletter.html.slim: "/learn/newsletter.html.slim"
 legal.html.slim: "/legal.html.slim"
 manifesto.html.slim: "/manifesto.html.slim"
 mentors.html.slim: "/mentors.html.slim"
-newsletter.html.slim: "/newsletter.html.slim"
 pricing.html.slim: "/pricing.html.slim"
-setup.html.slim: "/setup.html.slim"
 sitemap.html.slim: "/sitemap.html.slim"
-sos.html.slim: "/sos.html.slim"
 sponsorship.html.slim: "/sponsorship.html.slim"
-sublime.html.slim: "/sublime.html.slim"
+styleguide.html.slim: "/styleguide.html.slim"
 thankyou.html.slim: "/thankyou.html.slim"
-toolkit.html.slim: "/toolkit.html.slim"
-typography.html.slim: "/typography.html.slim"
-webdesign.html.slim: "/webdesign.html.slim"
-work.html.slim: "/work.html.slim"
+workflow:
+  coaching.html.slim: "/workflow/coaching.html.slim"
+  index.html.slim: "/workflow/index.html.slim"
+  sos.html.slim: "/workflow/sos.html.slim"
+  work.html.slim: "/workflow/work.html.slim"

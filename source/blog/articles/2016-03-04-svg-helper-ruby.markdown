@@ -23,7 +23,7 @@ Voici 2 solutions pour résoudre ce problème.
 
 Les SVG sont des fichiers textes basés sur du `.xml`, nous pouvons les inclures dans nos fichiers `.html`. Dans notre application Rails ou Middleman __le hack est d’inclure__ des `partials` ou vues qui contiennent notre image.
 
-Pour faire ceci, commencez par [renommer tous votres fichiers SVG](/toolkit.html) en prefixant par un underscore et en ajoutant l’extention de votre langage de template.
+Pour faire ceci, commencez par [renommer tous votres fichiers SVG](/dev/tools.html) en prefixant par un underscore et en ajoutant l’extention de votre langage de template.
 
 _Exemple_ : `logo.svg` se transforme en `_logo.html.erb`
 

@@ -10,7 +10,7 @@ changefreq: monthly
 priority: 0.5
 ---
 
-Quand il s’agit de faire du design, j’ai toujours accordé une _attention particulière à la typographie_. En tant que développeur front-end, c’est l’une des premières choses que je mets en place pour mes nouveaux projets. J’ai déjà donné des [conseils pour avoir une bonne expérience de lecture](/typography.html), et je commence généralement par styler les paragraphes.
+Quand il s’agit de faire du design, j’ai toujours accordé une _attention particulière à la typographie_. En tant que développeur front-end, c’est l’une des premières choses que je mets en place pour mes nouveaux projets. J’ai déjà donné des [conseils pour avoir une bonne expérience de lecture](/design/typography.html), et je commence généralement par styler les paragraphes.
 
 La question que l’on peut se poser est la suivante : Comment organiser sa typographie sur l’intégralité des feuilles de styles CSS ?
 

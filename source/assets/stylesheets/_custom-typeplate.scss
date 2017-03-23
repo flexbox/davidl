@@ -33,3 +33,10 @@ $typl8-dropcap-font-size: rem-calc(88);
 $typl8-dropcap-margin: rem-calc(-10 0 0 -30);
 $typl8-dropcap-padding: rem-calc(11);
 $typl8-dropcap-color: $secondary-color;
+
+
+
+$typl8-amp-fontface: Ampersand;
+$typl8-amp-fontfamily: Verdana, sans-serif;
+$typl8-amp-src: local('Georgia'), local('Garamond'), local('Palatino'), local('Book Antiqua');
+$typl8-amp-fallback: local('Georgia');
