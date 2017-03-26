@@ -48,11 +48,11 @@ Cet atelier – avec 100 participants ! – présentait les bases de la falicita
 ![Sketchnoting paris web par David leuliette la faliciation graphique 2](https://c2.staticflickr.com/6/5765/21317901964_21d99f768a.jpg)
 ![Sketchnoting paris web par David leuliette la faliciation graphique 1](https://c2.staticflickr.com/6/5709/21288000583_08b39473b7.jpg)
 
-## Construire sa single page application avec reactJS, PouchDB & NodeJS
+## Construire sa single page application avec reactJS, PouchDB & Node.js
 
 [Frank Rousseau](https://twitter.com/gelnior) – CTO chez CozyCloud – nous a présenté comment créer une single page application & la partager sur [NPM](https://www.npmjs.com/).
 
-![Single page application nodeJS, reactJS et PouchDB](https://c2.staticflickr.com/6/5714/21730003449_eca2842c8c_z.jpg)
+![Single page application Node.js, reactJS et PouchDB](https://c2.staticflickr.com/6/5714/21730003449_eca2842c8c_z.jpg)
 
 Voici le `html` de notre super application de gestionnaire de marque–pages :
 

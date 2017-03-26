@@ -30,7 +30,7 @@ __Rating Novice__, en suivant la logique du livre <a href="http://www.amazon.fr/
 
 __Ruby Slim__ _Level 8_
 
-J’utilise le [langage de templating slim](http://slim-lang.com/) pour gagner du temps car la syntaxe HTML est réduite au maximum (tout comme [Jade en NodeJS](http://jade-lang.com/)).
+J’utilise le [langage de templating slim](http://slim-lang.com/) pour gagner du temps car la syntaxe HTML est réduite au maximum (tout comme [Jade en Node.js](http://jade-lang.com/)).
 
 __Sass__ _Level 8_
 

@@ -19,7 +19,7 @@ Pour commencer, j’ai trouvé le format poche (ou tablette 9') génial. Il se g
 
 [![Les bases de Javascript](front/books/nicolas-froidure-js.jpg?raw=true)](http://amzn.to/2d9AhoS)
 
-Il m’a fallu un peu plus d’un mois pour parcourir l’intégralité des __12 chapitres consacrés au langage JavaScript__ : rappel des fondamentaux, travailler avec des objets, utiliser des tableaux, les API HTML5, NodeJS …
+Il m’a fallu un peu plus d’un mois pour parcourir l’intégralité des __12 chapitres consacrés au langage JavaScript__ : rappel des fondamentaux, travailler avec des objets, utiliser des tableaux, les API HTML5, Node.js …
 
 ## Contenu
 
@@ -41,7 +41,7 @@ L’objectif du livre est de guider pas à pas les lecteurs en expliquant chaque
 - Coder dans le navigateur et comprendre le `DOM`.
 - Le chargement de contenu distant avec `XMLHttpRequest` — aka Ajax — et leur transport via `JSON`.
 - Les API HTML5 (TouchEvent, Camera, appcache, …)
-- Créer des applications interactives et participatives avec NodeJS.
+- Créer des applications interactives et participatives avec Node.js.
 
 ## Ce que le front-end dev a retenu
 
@@ -57,7 +57,7 @@ J’ai découvert grâce à ce livre pas mal de notions :
 - `document.getElementByTagNames()` pour récupérer une liste d’élément ayant un nom de balisage précis. `.is()` en jQuery c’est tout de suite plus simple.
 - Créer des applications web hors-ligne à l’aide d’un fichier `.manifest`
 - Les Touch event mdn API HTML5 et son équivalent `pointerEvent` pour les technologies Microsoft.
-- NodeJS : Créer un serveur et utiliser `npm`
+- Node.js : Créer un serveur et utiliser `npm`
 
 ## Pour le prochain Tome
 

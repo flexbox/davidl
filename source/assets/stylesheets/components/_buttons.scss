@@ -2,6 +2,8 @@
   font-family: $font-family-monospace;
   letter-spacing: -1px;
   transition: background 150ms ease-in-out;
+  position: relative;
+
   &:hover,
   &:focus {
     background-color: $body-bg;
@@ -12,6 +14,26 @@
     &:focus {
       background-color: $body-bg;
       color: $secondary-color;
+    }
+  }
+  &.button-icon {
+    &:after {
+      position: absolute;
+      color: #ffffff;
+      line-height: 1.7em;
+      font-size: 22px !important;
+      opacity: 0;
+      margin-left: -1em;
+      left: auto;
+      display: inline-block;
+      content: attr(data-icon);
+    }
+    &:hover {
+      &:after {
+        left: auto;
+        margin-left: .3em;
+        opacity: 1;
+      }
     }
   }
 }

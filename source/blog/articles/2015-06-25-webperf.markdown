@@ -102,7 +102,7 @@ Le filamentgroup a publié un projet pour [améliorer la vitesse de chargement d
 
 ## Pour aller plus loin
 
-Le streamming de données avec JavaScript permet d'afficher les données progressivement. Voici un exemple simple d’application nodeJS qui affiche du contenu texte.
+Le streamming de données avec JavaScript permet d'afficher les données progressivement. Voici un exemple simple d’application Node.js qui affiche du contenu texte.
 
 ~~~ javascript
   app.get('/', function(req, res) {
