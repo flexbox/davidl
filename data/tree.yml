@@ -81,6 +81,7 @@ blog:
     2016-12-11-indonesia.markdown: "/blog/articles/2016-12-11-indonesia.markdown"
     2017-02-06-fosdem-2017.markdown: "/blog/articles/2017-02-06-fosdem-2017.markdown"
     2017-03-13-jamstack.markdown: "/blog/articles/2017-03-13-jamstack.markdown"
+    2017-03-24-npm.markdown: "/blog/articles/2017-03-24-npm.markdown"
   index.html.slim: "/blog/index.html.slim"
 books.html.slim: "/books.html.slim"
 clients.html.slim: "/clients.html.slim"
@@ -91,7 +92,6 @@ design:
   webdesign.html.slim: "/design/webdesign.html.slim"
 dev:
   git.html.slim: "/dev/git.html.slim"
-  gitclub.html.slim: "/dev/gitclub.html.slim"
   index.html.slim: "/dev/index.html.slim"
   setup.html.slim: "/dev/setup.html.slim"
   sublime.html.slim: "/dev/sublime.html.slim"
@@ -109,7 +109,6 @@ forge:
 glossary.html.slim: "/glossary.html.slim"
 gnu.html.slim: "/gnu.html.slim"
 index.html.slim: "/index.html.slim"
-integrateur-web-lille.html.slim: "/integrateur-web-lille.html.slim"
 keybase.txt: "/keybase.txt"
 learn:
   formations.html.slim: "/learn/formations.html.slim"
@@ -124,6 +123,7 @@ styleguide.html.slim: "/styleguide.html.slim"
 thankyou.html.slim: "/thankyou.html.slim"
 workflow:
   coaching.html.slim: "/workflow/coaching.html.slim"
+  growth-hacking.html.slim: "/workflow/growth-hacking.html.slim"
   index.html.slim: "/workflow/index.html.slim"
   sos.html.slim: "/workflow/sos.html.slim"
   work.html.slim: "/workflow/work.html.slim"

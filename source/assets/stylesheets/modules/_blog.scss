@@ -1,6 +1,6 @@
 @mixin reset-link(){
   &:after {
-    content: none;
+    content: none !important;
   }
 }
 
@@ -117,4 +117,8 @@
       background-color: transparent;
     }
   }
+}
+
+a.typeform-share {
+  @include reset-link();
 }

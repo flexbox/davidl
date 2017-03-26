@@ -4,8 +4,6 @@ description:
 image:
 page_title: Développer votre application web de façon agile
 page_emphasis: 'Conseils pour le développement d’applications web, méthodes de travail collaboratif & design évolutif'
-changefreq: yearly
-priority: 0.8
 ---
 
 section
@@ -33,32 +31,33 @@ section
           ## /learn
 
           - [Formations](/learn/formations.html)
-          - ~~[Growth-Hacking](/learn/growth-hacking.html)~~
-          - ~~[Chatbots]()~~
           - [Newsletter](/learn/newsletter.html)
+          - Talks
+        .row
+          .medium-8.medium-centered.columns
+            h3 I give talks too!
+            ul.m-blog--post-list
+              - data.achievements.talks.each do |talk|
+                li
+                  strong
+                    => talk.lang
+                    => talk.website
+                  ' —
+                  em
+                    time.text-tiny style="display: inherit;"
+                      = talk.date
+                  = link_to talk.title, talk.url, class: 'm-post--link'
+                  hr
 
       section.m-section
         markdown:
           ## [/workflow](/workflow/)
 
           - [Coaching](/workflow/coaching.html)
+          - Growth-Hacking
+          - Chatbots
           - [SOS](/workflow/sos.html)
           - [Work](/workflow/work.html)
-
-    .row
-      .medium-8.medium-centered.columns
-        h3 I give talks too!
-        ul.m-blog--post-list
-          - data.achievements.talks.each do |talk|
-            li
-              em
-                time.text-tiny
-                  = talk.date
-              strong
-                => talk.website
-                => talk.lang
-              = link_to talk.title, talk.url, class: 'm-post--link'
-              hr
 
 section.m-section
   .row.text-center
