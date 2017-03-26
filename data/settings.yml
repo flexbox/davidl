@@ -8,11 +8,12 @@ site:
   analytics_id: 'UA-46684635-1'
 
 social:
-  google_plus: 'https://plus.google.com/+DavidLeulietteWeb'
+  google_plus: https://plus.google.com/+DavidLeulietteWeb
   twitter:
-    url: 'https://twitter.com/_flexbox'
+    url: https://twitter.com/_flexbox
     name: '@_flexbox'
-  github: 'https://github.com/flexbox'
+  github: https://github.com/flexbox
+  linkedin: https://www.linkedin.com/in/david-leuliette-456701121
   email: dleuliette@gmail.com
   rss:
     url: /feed.xml

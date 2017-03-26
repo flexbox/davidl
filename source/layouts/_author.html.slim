@@ -1,29 +1,15 @@
-.row
-  .medium-8.medium-centered.columns
-    aside.m-blog-panel itemprop="author" itemscope="" itemtype="http://schema.org/Person" role="complementary"
-      p
-        strong
-          'Publié par
-          a href="#{data.settings.social.google_plus}?rel=author" itemprop="name"
-            |David Leuliette
-          span itemprop="jobTitle" consultant développeur front-end.
-      hr
-      .row
-        .small-3.columns
-          = link_to '/about.html', class: 'l-avatar'  do
-            = image_tag gravatar_for(data.settings.social.email), itemprop: 'image', alt: 'Avatar Aperture Science front-end developer'
-        .small-9.columns
-          p
-            'J’aime travailler avec les technologies web et le faire de la bonne façon.
-            |En tant qu’
-            strong itemprop="title" évangéliste open source
-            ', je partage mes bonnes pratiques avec le plus grand nombre.
-      .l-footer
-        = link_to data.settings.social.twitter.url do
-          = fa 'fa-fw fa-twitter'
-          span itemprop="nickname"
-            => data.settings.social.twitter.name
-          'sur twitter
-        = link_to data.settings.social.rss.url do
-          = fa 'fa-fw fa-rss'
-          'S’incrire au flux RSS
+.m-blog-author itemprop="author" itemscope="" itemtype="http://schema.org/Person" role="complementary"
+  .l-avatar
+    = image_tag gravatar_for(data.settings.social.email), itemprop: 'image', alt: 'Avatar Aperture Science front-end developer'
+  p
+    a href="#{data.settings.social.google_plus}?rel=author" itemprop="name" class="l-name" David Leuliette
+    = link_to data.settings.social.twitter.url, class: 'l-twitter' do
+      = fa 'fa-fw fa-twitter'
+      span itemprop="nickname"
+        => data.settings.social.twitter.name
+
+  p
+    'David Leuliette est
+    span> itemprop="jobTitle" Consultant développeur front-end.
+    'Il aime Ruby, HTML, CSS, JavaScript, git, le Growth Hacking et les chatbots, mais pas nécessairement dans cet ordre.
+

@@ -1,18 +1,3 @@
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@mixin canvas-cover() {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
 .m-hero-homepage {
   display: flex;
   position: relative;
@@ -27,7 +12,7 @@
   .title {
     @include typl8-hyphens(none);
     color: $white;
-    text-shadow: 0px 1px 2px rgba(0,0,0,0.6);
+    text-shadow: 0px 1px 2px rgba($black ,0.6);
   }
   p {
     margin-bottom: rem-calc(40);
@@ -52,19 +37,13 @@
     z-index: 9;
     margin: 0 auto;
     min-width: 1320px;
+    padding-left: rem-calc(20);
+    padding-right: rem-calc(20);
     @media #{$small-only} {
       font-size: rem-calc(20);
       padding: rem-calc(20);
       min-width: inherit;
     }
-  }
-  canvas {
-    opacity: 0;
-    animation: fadeIn ease-in-out 0.4;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 700ms;
-    @include canvas-cover();
   }
 
   .button-call-to-action {
@@ -73,6 +52,10 @@
 }
 
 .m-homepage {
+  .icons-skills {
+    max-width: 150px;
+  }
+
   .l-illu {
     font-size: rem-calc(40);
     color: $primary-color;

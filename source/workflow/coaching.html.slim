@@ -8,6 +8,9 @@ changefreq: yearly
 priority: 0.6
 ---
 
+- content_for :javascripts do
+  = javascript_include_tag 'front/trianglify'
+
 .row
   .medium-5.columns
     = image_tag 'front/work/coaching.jpg', alt: 'Coaching & revue de code developement front-end'
@@ -25,16 +28,15 @@ priority: 0.6
 
     = link_to 'Contactez–moi', "mailto:#{data.settings.social.email}", class: 'button secondary'
 
-.row
-  .medium-10.medium-centered.columns
-    hr
-    p.vador.text-center
-      'J’aide les développeurs à
-      strong> améliorer leur compétences
-      'et les entreprises à
-      strong> faire grandir leurs talents
-      'sur l’organisation CSS & le développement front-end.
-    hr
+section.m-section.js-trianglify.canvas-container
+  .row
+    .medium-10.medium-centered.columns
+      p.maul
+        'J’aide les développeurs à
+        strong> améliorer leurs compétences
+        'et les entreprises à
+        strong> faire grandir leurs talents
+        'sur l’organisation CSS <span class="ampersand">&</span> le développement front-end.
 
 .row
   .medium-12.columns

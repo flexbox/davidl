@@ -9,11 +9,6 @@
   url: "https://www.evernote.com/referral/Registration.action?uid=22499360&sig=20b14c77343018bd4f93762fc9fae90d"
   image: evernote.png
 -
-  name: Firefox
-  description: "Le navigateur web sécurisé, performant et personnalisable."
-  url: https://affiliates.mozilla.org/referral/64384/
-  image: firefox.png
--
   name: Firefox Developer Edition
   description: "La version alpha de Firefox permet de tester en avant-première les futures publications du navigateur."
   url: "https://www.mozilla.org/fr/firefox/channel/#developer"
@@ -59,11 +54,6 @@
   url: "http://www.amazon.fr/gp/product/8883707168/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=8883707168&linkCode=as2&tag=davidl-21"
   image: front-end-papier-crayon.jpg
 -
-  name: PixelWindow
-  description: "Une application simple et multi-plateforme pour mesurer des choses sur votre écran."
-  url: http://www.pixelwindowapp.com/
-  image: pixelwindow.png
--
   name: Rename
   description: "Renomer ses fichiers, de la façon la plus simple possible."
   url: http://www.pathossoftware.com/index.html
@@ -93,8 +83,3 @@
   description: "Pour tester le comportement d’Internet Explorer avec MacOS, la solution passe par la virtualisation."
   url: https://www.virtualbox.org/wiki/Downloads
   image: virtualbox.png
--
-  name: Validator Stand Alone Complex
-  description: Validator S.A.C. peut être configuré en tant que service Web. Cela permet aux développeurs de valider la sémantique en respectant le W3C sur le réseau local avant de deployer en production.
-  url: http://habilis.net/validator-sac/
-  image: validator-sac.png

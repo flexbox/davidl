@@ -1,3 +1,13 @@
+@mixin reset-link(){
+  &:after {
+    content: none;
+  }
+}
+
+.m-blog-row {
+  max-width: 100%;
+}
+
 .m-blog--post-list {
   @extend .no-bullet;
 
@@ -27,12 +37,84 @@
   }
 }
 
-.m-blog--article {
-  & > p:first-child {
-    @include typl8-dropcap($typl8-dropcap-float-position,$typl8-dropcap-font-size,$typl8-dropcap-font-family,$typl8-dropcap-txt-indent,$typl8-dropcap-margin,$typl8-dropcap-padding,$typl8-dropcap-color,$typl8-dropcap-line-height,$typl8-dropcap-bg);
+.m-blog {
+  &--article {
+    p:first-child {
+      margin-bottom: rem-calc(80);
+    }
+
+    h2 {
+      margin-top: rem-calc(80);
+    }
+  }
+  &--follow-list {
+    display: flex;
+    text-align: center;
+
+    a {
+      color: $white;
+      border-bottom: 0;
+      font-size: rem-calc(35);
+      margin-right: rem-calc(10);
+      min-width: rem-calc(60);
+      min-height: rem-calc(60);
+      transition: transform 100ms;
+      &:hover {
+        transform: translateY(-5px);
+      }
+
+      &.twitter {
+        background-color: #1DA1F2;
+        @include reset-link();
+      }
+      &.linkedin {
+        background-color: #3B5998;
+        @include reset-link();
+      }
+      &.github {
+        background-color: #24292E;
+        @include reset-link();
+      }
+      &.rss {
+        background-color: #EF8647;
+      }
+    }
+  }
+}
+
+.m-blog-author {
+  text-align: center;
+  max-width: 350px;
+  margin: 0 auto;
+  padding-top: 80px;
+
+  .l-avatar {
+    position: absolute;
+    transform: translateY(-100%) translateX(50%);
+    margin-left: rem-calc(20);
+    img {
+      border: 3px solid $white;
+      border-radius: $global-rounded;
+      max-height: 160px;
+      max-width: 160px;
+    }
+  }
+  .l-twitter {
+    display: block;
+    @include reset-link();
+    border-bottom: 0;
   }
 
-  h2 {
-    margin-top: rem-calc(80);
+  .l-name {
+    @extend .acolyte;
+    @include reset-link();
+    color: $black;
+    border-bottom: 0;
+    margin-top: rem-calc(20);
+    display: block;
+    margin-bottom: 0;
+    &:hover {
+      background-color: transparent;
+    }
   }
 }

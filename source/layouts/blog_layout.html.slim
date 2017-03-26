@@ -1,12 +1,48 @@
 = wrap_layout :layout do
-  .row
-    .medium-12.columns
-      .m-panel.l-blog-date
-        i.fa.fa-calendar.i-custom.fa-lg
-        time datetime="#{current_page.data.date}" pubdate=""
-          = current_page.data.date.strftime('%d/%m/%Y')
-
-  article.row itemtype="http://schema.org/BlogPosting" itemscope="" role="article"
-    .medium-8.medium-centered.columns.m-blog--article itemprop="articleBody"
-      == yield
+  article.row.m-blog-row itemtype="http://schema.org/BlogPosting" itemscope="" role="article"
+    aside.medium-4.columns
       = partial 'layouts/author'
+      hr
+      .m-section
+        = partial 'layouts/stalk'
+      hr
+      .m-section
+        .acolyte Recevoir des nouvelles par email
+        form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
+          .row.collapse
+            .small-8.columns
+              input type="email" name="EMAIL" id="js-mailchimpemail" placeholder="youare@weso.me" required="" autocapitalize="none" autocorrect="off"
+              .hide
+                input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad"
+            .small-4.columns
+              button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
+                'GO 🚀
+
+
+      hr
+      .m-section
+        .acolyte Derniers articles
+        ul.m-blog--post-list
+          - page_articles[0..4].each do |article|
+            li
+              = link_to article, class: 'm-post--link truncate' do
+                = fa 'fa-fw fa-caret-right'
+                = article.title
+      hr
+      .m-section
+        .acolyte Recherche sur le blog
+        form action="http://www.google.com/search" method="get"
+          input name="q" placeholder="Ex : Responsive design" type="search"
+          input name="sitesearch" value="#{data.settings.site.url}/blog/" type="hidden"
+    .medium-8.columns.m-blog--article itemprop="articleBody"
+      .row style="padding: 30px;"
+        .medium-10.columns
+          p
+            span.emperor = current_page.data.title
+            br
+            span.text-tiny> Par
+            => link_to 'David Leuliette', '/about.html'
+            span.text-tiny> le
+            time datetime="#{current_page.data.date}" pubdate=""
+              = current_page.data.date.strftime('%d/%m/%Y')
+          == yield

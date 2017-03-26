@@ -8,9 +8,6 @@ priority: 0.8
 blog: blog
 ---
 
-- content_for :javascripts do
-  = javascript_include_tag 'front/homepage'
-
 .m-hero-homepage
   .l-content
     h1.title
@@ -26,41 +23,37 @@ blog: blog
       = link_to 'Découvrez mes compétences', '/workflow/',class: 'button'
     = link_to 'Embaucher un consultant', '/workflow/',class: 'button secondary button-call-to-action'
 
-.m-section
+.m-section style="margin-top: 0;"
   .row
     .medium-4.columns
       .text-center
-        = image_tag 'icons/animat-lightbulb-color.gif', alt: 'Product Designer animation', style: 'max-width: 100px;'
-
-        = fa 'fa-picture-o fa-rounded l-illu'
+        = image_tag 'icons/animat-lightbulb-color.gif', alt: 'Product Designer animation', class: 'icons-skills'
       markdown:
         __Product Designer.__
         J’ai travaillé avec des start-ups et des grandes entreprises sur la recherche utilisateur, wireframes, création de MVP et tests utilisateurs.
 
     .medium-4.columns
       .text-center
-        = image_tag 'icons/animat-pencil-color.gif', alt: 'CSS front-end animation', style: 'max-width: 100px;'
-        = fa 'fa-code fa-rounded l-illu'
+        = image_tag 'icons/animat-pencil-color.gif', alt: 'CSS front-end animation', class: 'icons-skills'
       markdown:
         __Architecte CSS.__
-        Je suis archimage certifié en `CSS` et `Sass`, avec une certaine expérience dans le développement de framework, création de guides de style et formation d’étudiants sur les technologies front-end.
+        Je suis archimage certifié en `CSS` et `Sass`, avec une certaine expérience dans le développement de framework, création de styleguide et formation d’étudiants sur les technologies front-end.
 
     .medium-4.columns
       .text-center
-        = image_tag 'icons/animat-rocket-color.gif', alt: 'JavaScript user', style: 'max-width: 100px;'
-        = fa 'fa-terminal fa-rounded l-illu'
+        = image_tag 'icons/animat-rocket-color.gif', alt: 'JavaScript user', class: 'icons-skills'
       markdown:
         __JavaScript Developer.__
-        I've published nearly twenty Node libraries focused around various aspects of front-end tooling and workflow.
-        J'ai publié près de vingt bibliothèques de nœuds focalisées autour de divers aspects de l'outillage et du workflow de front-end.
+        J’utilise quotidiennement le terminal et NodeJS pour automatiser les choses.<br>
+        Je suis aussi co-fondateur du célèbre ChtiJS.
 
 .m-section--inverse
   .row
-    .medium-8.columns
+    .medium-9.columns
       h2.l-title Améliorer le design de vos applications web
       p.l-baseline Créer des produits de qualité de façon agile
-    .medium-4.columns
-      = link_to 'Compétences', '/about.html', class: 'button secondary'
+    .medium-3.columns
+      = link_to 'Compétences', '/about.html', class: 'button secondary expand'
 
 .m-section
   .row
@@ -101,11 +94,11 @@ blog: blog
 
 .m-section--inverse
   .row
-    .medium-8.columns
+    .medium-9.columns
       h2.l-title Investissez dans un design durable et évolutif
       p.l-baseline Je crée des ponts entre graphistes et développeurs
-    .medium-4.columns
-      = link_to 'Travailler avec un designer', '/workflow/work.html', class: 'button secondary'
+    .medium-3.columns
+      = link_to 'Workflow', '/workflow/work.html', class: 'button secondary expand'
 
 .row
   .medium-12.columns
@@ -158,25 +151,27 @@ blog: blog
       .row
         .medium-8.medium-centered.columns
           ul.m-blog--post-list
-            - page_articles[0..2].each do |article, i|
+            - page_articles[0..4].each do |article, i|
               li
-                em: time datetime="#{article.date}" pubdate="" class="text-tiny"
-                  => article.date.strftime('%B %d, %Y')
-                = link_to article.title, article, class: 'm-post--link'
-                hr
+                = link_to article, class: 'm-post--link' do
+                  = fa 'fa-fw fa-caret-right'
+                  = article.title
+          p
+            'Continuer la lecture et voir
+            = link_to 'tous les articles', '/blog/'
 
 .m-section--inverse
   .row
-    .medium-8.columns
+    .medium-9.columns
       h2.l-title Développeur front-end
       p.l-baseline Je partage mes connaissances avec la communauté
-    .medium-4.columns
-      = link_to 'Projets open source', 'https://github.com/flexbox/', class: 'button'
+    .medium-3.columns
+      = link_to 'Projets open source', 'https://github.com/flexbox/', class: 'button expand'
 
 section.m-section
   .row
     .medium-10.medium-centered.columns.text-center
       markdown:
         ## Je veux un web meilleur
-        Je suis __designer et développeur__, la conception et la convivialité sont mon mode de vie. Cependant, ce n’est pas vrai pour la plupart des gens. Concevoir un très bon produit est un processus, et généralement c’est cher. C’est pourquoi je m’engage à bâtir un meilleur web en faisant tout mon possible pour livrer des sites internet rapides et accessibles.
+        Je suis __designer et développeur__, la conception et la convivialité sont mon mode de vie. Cependant, ce n’est pas vrai pour la plupart des gens. Concevoir un très bon produit est un processus, et généralement c’est cher.<br> Je m’engage à bâtir un meilleur web en faisant tout mon possible pour livrer des sites internet rapides et accessibles.
       = link_to 'Travailler avec un consultant', '/workflow/work.html', class: 'button secondary'

@@ -19,27 +19,19 @@ $banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%)
     text-shadow: $text-shadow;
     position: relative;
     @media #{$small} {
-      @include grid-column($columns: 10, $center: true);
+      @include grid-column($columns: 8, $center: true);
     }
   }
 
   .l-title {
     font-size: rem-calc(40);
-    margin-top: 0;
     padding: rem-calc(20 10 10 10);
     margin-bottom: 0;
-    @media #{$small} {
-      margin-top: rem-calc(20);
-    }
   }
   .l-emphasis {
     padding-left: rem-calc(10);
     padding-right: rem-calc(10);
     margin-bottom: rem-calc(60);
-    @media #{$small} {
-      margin-bottom: 0;
-      padding-bottom: rem-calc(20);
-    }
   }
 }
 

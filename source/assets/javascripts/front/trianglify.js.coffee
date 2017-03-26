@@ -12,4 +12,4 @@ $ ->
     color_function: randomColor
   })
 
-  $('.js-hero-homepage').append(pattern.canvas())
+  $('.js-trianglify').append(pattern.canvas())
