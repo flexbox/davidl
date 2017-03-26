@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://davidl.fr/404.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0</priority>
+    <loc>http://davidl.fr/workflow/work.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://davidl.fr/about.html</loc>
@@ -11,50 +11,30 @@
     <priority>1</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/ask-me.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/work.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/assets/font/icons-reference.html</loc>
-  </url>
-  <url>
-    <loc>http://davidl.fr/webdesign.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/typography.html</loc>
+    <loc>http://davidl.fr/learn/formations.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/toolkit.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>http://davidl.fr/learn/newsletter.html</loc>
   </url>
   <url>
-    <loc>http://davidl.fr/thankyou.html</loc>
+    <loc>http://davidl.fr/legal.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/sublime.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <loc>http://davidl.fr/manifesto.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/sponsorship.html</loc>
+    <loc>http://davidl.fr/mentors.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/sos.html</loc>
+    <loc>http://davidl.fr/pricing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -64,30 +44,41 @@
     <priority>0</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/setup.html</loc>
-  </url>
-  <url>
-    <loc>http://davidl.fr/pricing.html</loc>
+    <loc>http://davidl.fr/sponsorship.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/newsletter.html</loc>
-  </url>
-  <url>
-    <loc>http://davidl.fr/mentors.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/manifesto.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/legal.html</loc>
+    <loc>http://davidl.fr/styleguide.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/thankyou.html</loc>
+  </url>
+  <url>
+    <loc>http://davidl.fr/workflow/coaching.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/workflow/growth-hacking.html</loc>
+  </url>
+  <url>
+    <loc>http://davidl.fr/workflow</loc>
+  </url>
+  <url>
+    <loc>http://davidl.fr/workflow/sos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/404.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/assets/font/icons-reference.html</loc>
   </url>
   <url>
     <loc>http://davidl.fr/blog/framework-php.html</loc>
@@ -461,9 +452,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/integrateur-web-lille.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>http://davidl.fr/blog/indonesia.html</loc>
   </url>
   <url>
     <loc>http://davidl.fr/blog/fosdem-2017.html</loc>
@@ -473,8 +462,6 @@
   </url>
   <url>
     <loc>http://davidl.fr/blog</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://davidl.fr/books.html</loc>
@@ -487,21 +474,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/codex.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/consulting/coaching.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/consulting</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://davidl.fr/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -510,6 +482,35 @@
     <loc>http://davidl.fr/cv.html</loc>
     <changefreq>yearly</changefreq>
     <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/design/typography.html</loc>
+  </url>
+  <url>
+    <loc>http://davidl.fr/design/webdesign.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/dev/git.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/dev</loc>
+  </url>
+  <url>
+    <loc>http://davidl.fr/dev/setup.html</loc>
+  </url>
+  <url>
+    <loc>http://davidl.fr/dev/sublime.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://davidl.fr/dev/tools.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://davidl.fr/forge/0-1-evolution.html</loc>
@@ -552,21 +553,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/formation.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/git.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/gitclub.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>http://davidl.fr/glossary.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -578,10 +564,5 @@
   </url>
   <url>
     <loc>http://davidl.fr</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/blog/indonesia.html</loc>
   </url>
 </urlset>
