@@ -1,0 +1,48 @@
+dev:
+  -
+    link: /dev/git.html
+    icon: fa-git
+    title: git
+    description: Installation de git et configuration avec GitHub.
+  -
+    link: /dev/setup.html
+    icon: fa-terminal
+    title: Setup
+    description: Configurer une machine de hacker.
+  -
+    link: /dev/sublime.html
+    icon: fa-file-text-o
+    title: Sublime Text
+    description: Astuces pour devenir expert avec les raccourcis et utiliser de façon efficace un bon éditeur de texte.
+  -
+    link: /dev/tool.html
+    icon: fa-git
+    title: Tools
+    description: Outils du développeur front-end.
+design:
+  -
+    link: /design/typography.html
+    icon: fa-font
+    title: Typographie
+    description: Améliorer l’expérience de lecture grâce au CSS.
+  -
+    link: /design/webdesign.html
+    icon: fa-mobile
+    title: Responsive
+    description: 'De nos jours, votre design doit pensé pour vos utilisateurs mobiles.'
+  -
+    link: https://www.flickr.com/photos/geekgrunge/albums/72157644681767590
+    icon: fa-file-image-o
+    title: Sketchnoting
+    description: La facilitation graphique favorise les échanges et les réflexions au sein d’un groupe pour construire une vision commune.
+learn:
+  -
+    link: /learn/formations.html
+    icon: fa-users
+    title: Formations
+    description: 'Je donne des formations sur l’agilité, les technologies front-end et le travail collaboratif avec git & GitHub.'
+  -
+    link: /learn/newsletter.html
+    icon: fa-send
+    title: Newsletter
+    description: Apprenez les techniques des développeurs senior.

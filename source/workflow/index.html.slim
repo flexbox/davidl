@@ -8,46 +8,78 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
 
 section
   .row
-    .medium-8.medium-centered.columns
+    .medium-10.medium-centered.columns
       markdown:
         ## /dev
         Je suis développeur web avec une expertise dans les __technologies front-end__.
 
-        - [git](/dev/git.html)
-        - [setup](/dev/setup.html)
-        - [sublime](/dev/sublime.html)
-        - [toolkit](/dev/tools.html)
+      ul.small-block-grid-1.medium-block-grid-2
+        - data.work.dev.each do |w|
+          li
+            = link_to w.link, class: 'm-panel-container' do
+              .m-panel
+                .l-icon-card
+                  span.fa-stack.fa-lg
+                    = fa 'fa-circle fa-stack-2x'
+                    = fa "#{w.icon} fa-stack-1x fa-inverse"
+                  .l-icon-content
+                    h3 = w.title
+                    p = w.description
 
       section.m-section
         markdown:
           ## /design
+          Avoir une belle __interface UI__ & bonne __expérience UX__ est important.<br>
+          C’est pourquoi nous devons créer des prototypes et des itérations pour trouver une solution.
 
-          - [Typographie](/design/typography.html)
-          - [Responsive webdesign 101](/design/webdesign.html)
-          - [Sketchnoting](https://www.flickr.com/photos/geekgrunge/albums/72157644681767590)
+        ul.small-block-grid-1.medium-block-grid-2
+          - data.work.design.each do |w|
+            li
+              = link_to w.link, class: 'm-panel-container' do
+                .m-panel
+                  .l-icon-card
+                    span.fa-stack.fa-lg
+                      = fa 'fa-circle fa-stack-2x'
+                      = fa "#{w.icon} fa-stack-1x fa-inverse"
+                    .l-icon-content
+                      h3 = w.title
+                      p = w.description
+
 
       section.m-section
         markdown:
           ## /learn
+          En tant que développeur open source, je partage avec la communauté mes expériences — succès comme échecs — afin d’avoir un web meilleur.
 
-          - [Formations](/learn/formations.html)
-          - [Newsletter](/learn/newsletter.html)
-          - Talks
-        .row
-          .medium-8.medium-centered.columns
-            h3 I give talks too!
-            ul.m-blog--post-list
-              - data.achievements.talks.each do |talk|
-                li
-                  strong
-                    => talk.lang
-                    => talk.website
-                  ' —
-                  em
-                    time.text-tiny style="display: inherit;"
-                      = talk.date
-                  = link_to talk.title, talk.url, class: 'm-post--link'
-                  hr
+          De plus pour maitriser un sujet vous devez savoir l'apprendre aux autres.
+
+        ul.small-block-grid-1.medium-block-grid-2
+          - data.work.learn.each do |w|
+            li
+              = link_to w.link, class: 'm-panel-container' do
+                .m-panel
+                  .l-icon-card
+                    span.fa-stack.fa-lg
+                      = fa 'fa-circle fa-stack-2x'
+                      = fa "#{w.icon} fa-stack-1x fa-inverse"
+                    .l-icon-content
+                      h3 = w.title
+                      p = w.description
+
+
+        h3 I give talks too!
+        ul.m-blog--post-list.small-block-grid-1.medium-block-grid-2
+          - data.achievements.talks.each do |talk|
+            li
+              strong
+                => talk.lang
+                => talk.website
+              ' —
+              em
+                time.text-tiny style="display: inherit;"
+                  = talk.date
+              = link_to talk.title, talk.url, class: 'm-post--link'
+              hr
 
       section.m-section
         markdown:

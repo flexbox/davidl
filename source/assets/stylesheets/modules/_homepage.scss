@@ -35,10 +35,7 @@
 
   .l-content {
     z-index: 9;
-    margin: 0 auto;
-    min-width: 1320px;
-    padding-left: rem-calc(20);
-    padding-right: rem-calc(20);
+    @include grid-column($columns: 10, $center: true);
     @media #{$small-only} {
       font-size: rem-calc(20);
       padding: rem-calc(20);

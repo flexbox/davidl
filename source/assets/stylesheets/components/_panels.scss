@@ -30,38 +30,6 @@ $m-panel-bg-hover: $white;
         background-color: $secondary-color;
       }
     }
-    &.l-callout--primary {
-      text-align: center;
-      border-top: 5px solid $primary-color;
-      a {
-        color: $primary-color;
-        border-color: $primary-color;
-        &:hover {
-          color: $white;
-          background-color: $primary-color;
-        }
-      }
-      img {
-        padding: rem-calc(5);
-        border: 2px solid $white;
-        border-radius: $global-rounded;
-      }
-      blockquote {
-        text-align: left;
-        padding-left: rem-calc(20);
-      }
-      .l-callout--image {
-        position: relative;
-        i {
-          position: absolute;
-          right: 50%;
-          bottom: rem-calc(-5);
-          color: $sc-js;
-          font-size: rem-calc(40);
-          margin-right: rem-calc(-20);
-        }
-      }
-    }
   }
 
   &.l-social {
@@ -94,39 +62,38 @@ $m-panel-bg-hover: $white;
 
   a[href^=""]:not([href*="davidl.fr"]):after,
   a[href*="https:"]:not([href*="davidl.fr"]):after {
-    content: "";
+    content: none;
   }
 
-}
-
-.m-blog-panel {
-  @extend .m-panel;
-  @extend .l-callout;
-
-  .fa {
-    font-size: rem-calc(20);
-    margin-right: rem-calc(10);
-  }
-
-  a {
-    border-bottom: 0;
-  }
-  p {
-    font-size: rem-calc(14);
-  }
-
-  .l-avatar {
-    border: 3px solid $white;
-    border-radius: $global-rounded;
-    display: block;
-    img {
-      border-radius: $global-rounded;
-      &:hover {
-        border-color: $secondary-color;
+  .l-icon {
+    &-card {
+      display: flex;
+      align-items: center;
+      @media #{$small-only} {
+        flex-direction: column;
       }
     }
-  }
 
+    &-content {
+      margin-left: 40px;
+      @media #{$small-only} {
+        align-self: flex-start;
+      }
+
+    }
+  }
+}
+
+a.m-panel-container[href^=""]:not([href*="davidl.fr"]):after,
+a.m-panel-container[href*="https:"]:not([href*="davidl.fr"]):after {
+  content: none;
+}
+
+.m-panel-container {
+  padding: 0;
+  .m-panel {
+    min-height: 180px;
+  }
 }
 
 .js-linkspy-start {
