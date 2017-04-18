@@ -9,6 +9,11 @@
   icon: 'laptop'
   url: https://responsivedesign.is/
 -
+  title: React status
+  description: 'Latest React and React Native links and tutorials.'
+  icon: 'code'
+  url: https://react.statuscode.com/
+-
   title: Sass News
   description: 'Sass news est un bulletin d’information hebdomadaire, publié par Stu Robson.'
   icon: 'code'
