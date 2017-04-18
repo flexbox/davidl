@@ -15,7 +15,7 @@ dev:
     title: Sublime Text
     description: Astuces pour devenir expert avec les raccourcis et utiliser de façon efficace un bon éditeur de texte.
   -
-    link: /dev/tool.html
+    link: /dev/tools.html
     icon: fa-git
     title: Tools
     description: Outils du développeur front-end.
