@@ -60,7 +60,7 @@
   image: rename.png
 -
   name: Screaming Frog SEO Spider
-  description: "Ce logiciel permet d’analyser et d’effectuer rapidement l’examen comple d’un site d’un point de vue SEO. Il es particulièrement efficace pour les sites avec des milliers d’url où il est impossible de tout vérifier à la main."
+  description: "Ce logiciel permet d’analyser et d’effectuer rapidement l’examen complet d’un site d’un point de vue SEO. Il es particulièrement efficace pour les sites avec des milliers d’url où il est impossible de tout vérifier à la main."
   url: http://www.screamingfrog.co.uk/seo-spider/
   image: frog.png
 -
