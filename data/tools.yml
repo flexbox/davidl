@@ -1,85 +1,98 @@
--
-  name: Atom
-  description: "Un éditeur de texte piratable pour le 21ème siècle"
-  url: "https://atom.io/"
-  image: atom.png
--
-  name: Evernote
-  description: "Evernote est un moyen rapide et facile des synchroniser du contenu à travers toutes vos machines. Si vous créez un compte à partir du lien suivant, cela vous donne le droit à un mois d’abonnement premium gratuitement"
-  url: "https://www.evernote.com/referral/Registration.action?uid=22499360&sig=20b14c77343018bd4f93762fc9fae90d"
-  image: evernote.png
--
-  name: Firefox Developer Edition
-  description: "La version alpha de Firefox permet de tester en avant-première les futures publications du navigateur."
-  url: "https://www.mozilla.org/fr/firefox/channel/#developer"
-  image: logo-firefox-dev-edition.png
--
-  name: GitHub
-  description: "Hébergement de vos projets utilisant Git. Le site web possède des fonctionalités indispensable comme un navigateur de code source, l’édition en ligne, les wikis, et une gestion de tickets."
-  url: https://desktop.github.com/
-  image: github.png
--
-  name: GitX-dev
-  description: "GitX-dev – un fork de GitX – est une interface graphique pour utiliser le système de versioning Git. L’applicatione augmente la productivité & améliore l’expérience utilisateur."
-  url: http://rowanj.github.io/gitx/
-  image: gitx.png
--
-  name: ImageOptim
-  description: "ImageOptim optimise les images PNG, JPEG et GIF animés. Elles prennent moins de place sur votre disque et se chargeront plus vite sur votre site web."
-  url: http://imageoptim.com/fr.html
-  image: imageoptim.png
--
-  name: ImageAlpha
-  description: "ImageAlpha réduit considérablement la taille des fichiers PNG24 bits (y compris la transparence alpha) en appliquant une compression avec perte + une conversion PNG8 plus efficace et y ajoute le format alpha."
-  url: http://pngmini.com/
-  image: imagealpha.png
--
-  name: iTerm2
-  description: "iTerm2 est un émulateur de terminal pour Mac OS X qui fait des choses étonnantes."
-  url: http://www.iterm2.com/
-  image: iterm2.png
--
-  name: JPEGmini
-  description: "Avec JPEGmini pour Mac, vous pouvez réduire la taille du fichier de vos photos jusqu’à 5x, tout en gardant leur qualité d’origine et le format JPEG."
-  url: http://www.jpegmini.com/mac
-  image: jpegmini.png
--
-  name: LICEcap
-  description: "LICEcap permet d’enregistrer une partie de votre écran pour la convertir en .gif animé. Simple et efficace."
-  url: http://www.cockos.com/licecap/
-  image: licecap.png
--
-  name: Papier et crayon
-  description: "Si vous ne possédez pas de carnet de notes et un beau crayon, s’il vous plaît faites-vous une faveur, arrêter de lire ce site et allez en acheter un. Forcez-vous à l’utiliser. Ensuite, remarquez comment il est plus facile de poser et d’articuler ses idées de design avec cet outil."
-  url: "http://www.amazon.fr/gp/product/8883707168/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=8883707168&linkCode=as2&tag=davidl-21"
-  image: front-end-papier-crayon.jpg
--
-  name: Rename
-  description: "Renomer ses fichiers, de la façon la plus simple possible."
-  url: http://www.pathossoftware.com/index.html
-  image: rename.png
--
-  name: Screaming Frog SEO Spider
-  description: "Ce logiciel permet d’analyser et d’effectuer rapidement l’examen complet d’un site d’un point de vue SEO. Il es particulièrement efficace pour les sites avec des milliers d’url où il est impossible de tout vérifier à la main."
-  url: http://www.screamingfrog.co.uk/seo-spider/
-  image: frog.png
--
-  name: Sequel Pro
-  description: "Sequel Pro est une application rapide & facile à utiliser pour travailler avec des bases de données MySQL."
-  url: http://www.sequelpro.com/
-  image: sequelpro.png
--
-  name: Postico
-  description: "Postico fournit une interface facile à utiliser, ce qui rend Postgres plus accessible pour les nouveaux arrivants et les spécialistes."
-  url: https://eggerapps.at/postico
-  image: postico.png
--
-  name: Sublime Text
-  description: "Selon moi c’est le meilleur éditeur de code. Rapide, facile à prendre en main, et évolutif presque à l’infini grâce à une énorme quantité de plug-in."
-  url: http://www.sublimetext.com/
-  image: sublimetext.png
--
-  name: VirtualBox
-  description: "Pour tester le comportement d’Internet Explorer avec MacOS, la solution passe par la virtualisation."
-  url: https://www.virtualbox.org/wiki/Downloads
-  image: virtualbox.png
+dev:
+  -
+    name: iTerm
+    description: "iTerm est un émulateur de terminal pour Mac OS X qui fait des choses étonnantes."
+    url: http://www.iterm2.com/
+    image: iterm2.png
+  -
+    name: Atom
+    description: "Un éditeur de texte piratable pour le 21ème siècle"
+    url: "https://atom.io/"
+    image: atom.png
+  -
+    name: Sublime Text
+    description: "Selon moi c’est le meilleur éditeur de code. Rapide, facile à prendre en main, et évolutif presque à l’infini grâce à une énorme quantité de plug-in."
+    url: http://www.sublimetext.com/
+    image: sublimetext.png
+  -
+    name: Firefox Developer Edition
+    description: "La version alpha de Firefox permet de tester en avant-première les futures publications du navigateur."
+    url: "https://www.mozilla.org/fr/firefox/channel/#developer"
+    image: logo-firefox-dev-edition.png
+  -
+    name: GitHub
+    description: "Hébergement de vos projets utilisant Git. Le site web possède des fonctionalités indispensable comme un navigateur de code source, l’édition en ligne, les wikis, et une gestion de tickets."
+    url: https://desktop.github.com/
+    image: github.png
+  -
+    name: GitX-dev
+    description: "GitX-dev – un fork de GitX – est une interface graphique pour utiliser le système de versioning Git. L’applicatione augmente la productivité & améliore l’expérience utilisateur."
+    url: http://rowanj.github.io/gitx/
+    image: gitx.png
+  -
+    name: Rename
+    description: "Renomer ses fichiers, de la façon la plus simple possible."
+    url: http://www.pathossoftware.com/index.html
+    image: rename.png
+  -
+    name: Screaming Frog SEO Spider
+    description: "Ce logiciel permet d’analyser et d’effectuer rapidement l’examen complet d’un site d’un point de vue SEO. Il es particulièrement efficace pour les sites avec des milliers d’url où il est impossible de tout vérifier à la main."
+    url: http://www.screamingfrog.co.uk/seo-spider/
+    image: frog.png
+  -
+    name: Sequel Pro
+    description: "Sequel Pro est une application rapide & facile à utiliser pour travailler avec des bases de données MySQL."
+    url: http://www.sequelpro.com/
+    image: sequelpro.png
+  -
+    name: Postico
+    description: "Postico fournit une interface facile à utiliser, ce qui rend Postgres plus accessible pour les nouveaux arrivants et les spécialistes."
+    url: https://eggerapps.at/postico
+    image: postico.png
+  -
+    name: VirtualBox
+    description: "Pour tester le comportement d’Internet Explorer avec MacOS, la solution passe par la virtualisation."
+    url: https://www.virtualbox.org/wiki/Downloads
+    image: virtualbox.png
+design:
+  -
+    name: Sip
+    description: "La meilleure façon de collecter, organiser et partager vos couleurs."
+    url: http://sipapp.io/
+    image: sipapp.png
+  -
+    name: ImageOptim
+    description: "ImageOptim optimise les images PNG, JPEG et GIF animés. Elles prennent moins de place sur votre disque et se chargeront plus vite sur votre site web."
+    url: http://imageoptim.com/fr.html
+    image: imageoptim.png
+  -
+    name: ImageAlpha
+    description: "ImageAlpha réduit considérablement la taille des fichiers PNG24 bits (y compris la transparence alpha) en appliquant une compression avec perte + une conversion PNG8 plus efficace et y ajoute le format alpha."
+    url: http://pngmini.com/
+    image: imagealpha.png
+  -
+    name: JPEGmini
+    description: "Avec JPEGmini pour Mac, vous pouvez réduire la taille du fichier de vos photos jusqu’à 5x, tout en gardant leur qualité d’origine et le format JPEG."
+    url: http://www.jpegmini.com/mac
+    image: jpegmini.png
+  -
+    name: Papier et crayon
+    description: "Si vous ne possédez pas de carnet de notes et un beau crayon, s’il vous plaît faites-vous une faveur, arrêter de lire ce site et allez en acheter un. Forcez-vous à l’utiliser. Ensuite, remarquez comment il est plus facile de poser et d’articuler ses idées de design avec cet outil."
+    url: "http://www.amazon.fr/gp/product/8883707168/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=8883707168&linkCode=as2&tag=davidl-21"
+    image: front-end-papier-crayon.jpg
+misc:
+  -
+    name: Evernote
+    description: "Evernote est un moyen rapide et facile des synchroniser du contenu à travers toutes vos machines. Si vous créez un compte à partir du lien suivant, cela vous donne le droit à un mois d’abonnement premium gratuitement"
+    url: "https://www.evernote.com/referral/Registration.action?uid=22499360&sig=20b14c77343018bd4f93762fc9fae90d"
+    image: evernote.png
+  -
+    name: Record It
+    description: "Record It permet d’enregistrer une partie de votre écran pour la convertir en .gif animé. Simple et efficace."
+    url: http://recordit.co/
+    image: recordit.png
+  -
+    name: Spectacle
+    description: "Un gestionnaire de fenêtre simple et efficace utilisant des raccourcis claviers"
+    url: https://www.spectacleapp.com/
+    image: spectacleapp.gif
