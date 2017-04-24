@@ -9,12 +9,7 @@
     <priority>1</priority>
   </url>
   <url>
-    <loc>http://davidl.fr/learn/books.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://davidl.fr/learn/formations.html</loc>
+    <loc>http://davidl.fr/learn</loc>
   </url>
   <url>
     <loc>http://davidl.fr/learn/newsletter.html</loc>
@@ -56,6 +51,9 @@
   </url>
   <url>
     <loc>http://davidl.fr/thankyou.html</loc>
+  </url>
+  <url>
+    <loc>http://davidl.fr/workflow/chatbot.html</loc>
   </url>
   <url>
     <loc>http://davidl.fr/workflow/coaching.html</loc>
@@ -560,5 +558,11 @@
   </url>
   <url>
     <loc>http://davidl.fr</loc>
+  </url>
+  <url>
+    <loc>http://davidl.fr/learn/books.html</loc>
+  </url>
+  <url>
+    <loc>http://davidl.fr/learn/formations.html</loc>
   </url>
 </urlset>
