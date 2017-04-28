@@ -16,7 +16,7 @@ Derrière toutes ces questions il existe un vrai métier à part entière : __in
 
 _— Sublime Text est mon meilleur ami_
 
-En tant qu’[autodidacte](/cv.html), j’ai appris mon métier au cours de mes [nombreuses lectures](/books.html) et de mes [projets open-source](https://github.com/flexbox/). [OpenClassrooms](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) (Le site d’apprentissage communautaire) vous facilite le travail & propose cette philosophie avec son parcours pour devenir __intégrateur web__. Vidéos de cours & exercices sont [disponible sur le site](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) et leur organisation vous permettra d’obtenir progressivement de solides bases pour comprendre HTML, CSS, responsive, Bootstrap, git, Wordpress…
+En tant qu’[autodidacte](/cv.html), j’ai appris mon métier au cours de mes [nombreuses lectures](/learn/books.html) et de mes [projets open-source](https://github.com/flexbox/). [OpenClassrooms](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) (Le site d’apprentissage communautaire) vous facilite le travail & propose cette philosophie avec son parcours pour devenir __intégrateur web__. Vidéos de cours & exercices sont [disponible sur le site](http://clic.reussissonsensemble.fr/click.asp?ref=760613&site=13881&type=text&tnb=5) et leur organisation vous permettra d’obtenir progressivement de solides bases pour comprendre HTML, CSS, responsive, Bootstrap, git, Wordpress…
 
 ## Programme de formation
 

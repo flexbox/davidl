@@ -1,6 +1,11 @@
 .m-section {
   margin: rem-calc(60) 0 rem-calc(80);
   padding: rem-calc(40) 0;
+  &.l-light {
+    margin: 0;
+    background-color: $gray;
+    padding: rem-calc(60) 0;
+  }
 }
 
 .m-section--inverse {

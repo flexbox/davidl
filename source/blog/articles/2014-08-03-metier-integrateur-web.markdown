@@ -60,7 +60,7 @@ En sortant de cette formation, qui n’était pas orientée web, je savais que j
 
 Le point positif c’est que j’ai énormément appris de mes camarades de promotion en découvrant une galaxie qui fait maintenant parti de mon ADN : _le mouvement open source_.
 
-C’est à cette époque que j’ai commencé à lire sérieusement des [livres en anglais sur la construction de site internet](http://davidl.fr/books.html).
+C’est à cette époque que j’ai commencé à lire sérieusement des [livres en anglais sur la construction de site internet](/learn/books.html).
 J’ai aussi appris que pour __travailler efficacement__ vous devez utiliser un système à base d’unix (Autrement dit mac OS ou Linux).
 
 >Je vais vous désactiver l’interface graphique et vous serez obligés d’utiliser un terminal.
@@ -78,7 +78,7 @@ Pendant ce cursus j’ai quand même énormément appris, mais pas forcément le
 
 -  Autoformation
 
-Au travers des années j’ai contruit ma propre formation à base de mailing list, flux RSS, twitter, ... Mais ma meilleure source d’information reste de [lire des livres sur le développement web](http://davidl.fr/books.html).
+Au travers des années j’ai contruit ma propre formation à base de mailing list, flux RSS, twitter, ... Mais ma meilleure source d’information reste de [lire des livres sur le développement web](/learn/books.html).
 
 ### Quel est votre parcours personnel ?
 
