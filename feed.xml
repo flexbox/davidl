@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>davidl • design &amp; développement</title>
   <subtitle>Je crée des sites internet qui fonctionnent à merveille sur n’importe quel appareil. Designer spécialisé HTML et CSS basé à Lille</subtitle>
-  <id>http://davidl.fr/blog/</id>
-  <link href="http://davidl.fr/blog/"/>
-  <link href="http://davidl.fr/blog/feed.xml" rel="self"/>
+  <id>https://davidl.fr/blog/</id>
+  <link href="https://davidl.fr/blog/"/>
+  <link href="https://davidl.fr/blog/feed.xml" rel="self"/>
   <updated>2017-03-13T00:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
   <entry>
     <title>Introduction à JAMstack : JavaScript, API et Markup</title>
-    <link rel="alternate" href="http://davidl.fr/blog/jamstack.html"/>
-    <id>http://davidl.fr/blog/jamstack.html</id>
+    <link rel="alternate" href="https://davidl.fr/blog/jamstack.html"/>
+    <id>https://davidl.fr/blog/jamstack.html</id>
     <published>2017-03-13T00:00:00+01:00</published>
     <updated>2017-03-22T10:36:58+01:00</updated>
     <author>
@@ -130,8 +130,8 @@ Vous pouvez éviter cela avec un système qui vous permet de faire des “déplo
   </entry>
   <entry>
     <title>FOSDEM 2017</title>
-    <link rel="alternate" href="http://davidl.fr/blog/fosdem-2017.html"/>
-    <id>http://davidl.fr/blog/fosdem-2017.html</id>
+    <link rel="alternate" href="https://davidl.fr/blog/fosdem-2017.html"/>
+    <id>https://davidl.fr/blog/fosdem-2017.html</id>
     <published>2017-02-06T00:00:00+01:00</published>
     <updated>2017-02-10T15:07:47+01:00</updated>
     <author>
@@ -213,8 +213,8 @@ Vous pouvez éviter cela avec un système qui vous permet de faire des “déplo
   </entry>
   <entry>
     <title>30 jours en Indonésie : trekking, snorkeling &amp; nasi goreng</title>
-    <link rel="alternate" href="http://davidl.fr/blog/indonesia.html"/>
-    <id>http://davidl.fr/blog/indonesia.html</id>
+    <link rel="alternate" href="https://davidl.fr/blog/indonesia.html"/>
+    <id>https://davidl.fr/blog/indonesia.html</id>
     <published>2016-12-11T00:00:00+01:00</published>
     <updated>2017-02-06T18:58:59+01:00</updated>
     <author>
@@ -334,8 +334,8 @@ I am open minded and I am here to meet amazing people ;)&lt;/p&gt;
   </entry>
   <entry>
     <title>Devenir expert en Digital Marketing grâce à la certification Google</title>
-    <link rel="alternate" href="http://davidl.fr/blog/certification-google.html"/>
-    <id>http://davidl.fr/blog/certification-google.html</id>
+    <link rel="alternate" href="https://davidl.fr/blog/certification-google.html"/>
+    <id>https://davidl.fr/blog/certification-google.html</id>
     <published>2016-06-14T00:00:00+02:00</published>
     <updated>2016-08-03T14:22:32+02:00</updated>
     <author>
@@ -395,8 +395,8 @@ Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wi
   </entry>
   <entry>
     <title>GitShot — timelapse vidéo de chaque commit</title>
-    <link rel="alternate" href="http://davidl.fr/blog/gitshot.html"/>
-    <id>http://davidl.fr/blog/gitshot.html</id>
+    <link rel="alternate" href="https://davidl.fr/blog/gitshot.html"/>
+    <id>https://davidl.fr/blog/gitshot.html</id>
     <published>2016-05-04T00:00:00+02:00</published>
     <updated>2016-05-17T10:46:37+02:00</updated>
     <author>
@@ -462,8 +462,8 @@ Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wi
   </entry>
   <entry>
     <title>Configurer les valeurs par défaut de Node.js</title>
-    <link rel="alternate" href="http://davidl.fr/blog/npm-init-config.html"/>
-    <id>http://davidl.fr/blog/npm-init-config.html</id>
+    <link rel="alternate" href="https://davidl.fr/blog/npm-init-config.html"/>
+    <id>https://davidl.fr/blog/npm-init-config.html</id>
     <published>2016-03-29T00:00:00+02:00</published>
     <updated>2016-03-29T11:45:02+02:00</updated>
     <author>
