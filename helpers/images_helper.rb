@@ -12,7 +12,7 @@ module ImagesHelper
 
   def gravatar_for(email)
     hash = Digest::MD5.hexdigest(email.chomp.downcase)
-    "http://www.gravatar.com/avatar/#{hash}?size=250"
+    "https://www.gravatar.com/avatar/#{hash}?size=250"
   end
 
   def fa(name)

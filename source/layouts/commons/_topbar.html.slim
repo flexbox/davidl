@@ -3,14 +3,14 @@ header#js-topbar.m-topbar role="banner"
     = link_to '/', class: 'm-topbar--logo', title: 'Retour à l’accueil' do
       = svg_tag 'atom-logo.svg', alt: 'Développeur front-end & Intégrateur web lille'
     = link_to '⚡ Articles', '/blog/', nav_active('/blog/')
-    = link_to 'Guides', '/workflow/', nav_active('/workflow/')
+    = link_to 'Workflow', '/workflow/', nav_active('/workflow/')
     a class="typeform-share m-topbar--button" href="https://flexbox.typeform.com/to/yzVxhi" data-mode="popup" target="_blank" Book a dev
 
   #js-topbar--form.m-topbar--form
     = link_to '#', id: 'js-topbar--button', class: 'l-menu' do
       span Menu
 
-    form class="l-search-form is-hidden" action="http://www.google.com/search" method="get"
+    form class="l-search-form is-hidden" action="https://www.google.com/search" method="get"
       input name="q" placeholder="Ex : Sublime text" type="search" id="js-search-input"
       input name="sitesearch" value="#{data.settings.site.url}" type="hidden"
     = link_to '#', id: 'js-topbar--search', class: 'l-action' do

@@ -1,4 +1,4 @@
-### Yet another [front-end dev website](http://davidl.fr).
+### Yet another [front-end dev website](https://davidl.fr).
 
 Handcrafted with [Middleman](http://middlemanapp.com) & [codeless](https://github.com/flexbox/codeless) template.
 
