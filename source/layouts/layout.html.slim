@@ -9,6 +9,12 @@ html lang="fr"
     meta name="robots" content="index,follow"
     = partial 'layouts/commons/open_graph'
 
+    javascript:
+      var host = "http://davidl.fr".replace(/http(s)?:\/\//g, "");
+      if ((host == window.location.host) && (window.location.protocol != "https:")) {
+        window.location.protocol = "https";
+      }
+
     = partial 'layouts/commons/favicon'
     = stylesheet_link_tag 'application'
     = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Chivo:900|Lato'
