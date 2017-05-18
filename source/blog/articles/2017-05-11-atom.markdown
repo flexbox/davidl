@@ -1,0 +1,187 @@
+---
+date: 2017-05-11
+slug: atom
+title: "Atom pour les développeurs JavaScript"
+description: "Comment éviter les erreurs dans une équipe de développpeurs full stack JavaScript ? avec des linter ! Dans cet article vous allez installer les différents packets pour l’éditeur Atom."
+image: https://lh3.googleusercontent.com/zSHUoLT1HSAeCyFN29PYHaPmfTJY1a19okNw7Ul1_ybq1LYQXV_W8ubFKLjXndS71wloXtF7DJQ8iLZiHejvQN-QzY7DIIaOqoPCj8v_9WmDEd3GfhiBwsWJNsBxst-xUDpWFdQsUYuVOxB8XS9kt4h7KgORTEUSXTrV_rimlwGkFiIG5BV4uuPh4hvNh5MgOIDzoe3mLrdRVvVucjH61WVg93ZjlUCnJWlxduOejPNJkxMLrn5bv3AVGNg-JONXS82txMi_pwlCRvHJmUteV-EuQN8mwIKYPqF0mLlmzD3pHug_nOCC2utg0__XEuRsnIu8eX705P-UUJMlNWpdSCVBcnzTIL_ivUayi0nZrVL4A4Gu3xWEs0ab8PT7f_bRy477d1l6x4MyteAlM-sFRfzPDfWfCQ81-eQ5L67A8aT9URZrr1lwBfe4OPU3TV0DS7V94dlAM7ptIFABrFrWwLsCh2hcGoSbCdeYXwnegfocJWuFIArhavNQV_htexHPYh724xZ6ONAz5GOWiNdOmWDMGfokwCS2vFXCPh0Hb8QWCEKbskPde9tasWKW1ykAgPlG-mEZcvRRh4Fa2kuMe523ay0SldXPlQwSnjXbctqJkHHYVmGKnQ=w1024-h512-no
+page_title: "Le setup JavaScript ultime pour l’editeur de texte Atom"
+page_emphasis: "J’adore Sublime text, mais j’ai décidé de donner une chance à Atom"
+---
+
+J’utilise depuis des années l’éditeur Sublime Text car il possède une stabilité à toute épreuve et c’est rapiiiiiiiide. __Problème__ : le développemeent assuré par une seule personne est lent, la documentation est assez obscure.
+
+Atom c’est lent, ça lag et c’est aussi gourmant en ressource qu’un Google Chrome. Par contre quand on code du JavaScript, je dois avouer qu’utiliser __Atom que c’est super cool__ !
+
+![Atom + JavaScript = love](https://lh3.googleusercontent.com/A_82IoHOTv8sGR0rjvpG8JPDT_jvF7YaGQDDgNmwBgTTVHf849nel8ivB9CMxEtP3epB5Rpe3KzOyzHOEc6cBFtu2h6Eoip8RjDm0frFBuUdNb0-OZtenlIKoHjbx7ZLl85063tykrhANhpnfcNEvOK6cQnfZRtlDgIqMrhgg7l7wo67umoxmUglrlpDnKAQn2Kr4QTQYQiuP0i_aAznO8CEesc95oCKvv3Jpzw4FODyorydEdYkzBMdkODBRdxKLwa-3sfzlsKnpsrHVjp2ynpVgTziYRSTDnCyD0ZgX8gKBDV5o20kf5nTDmmImOlC3u7hL5sr1mRR26_v4gPzLkgghSFklCtxZ_yAPgJ6dBgdp1UvB8uoGoIEsFwaryDaeTrjKul5gpf3NSvGxEK-NRcA3MNgMrGDJDleSYDp0NcJrU-ST-bvv5aWFGX5fD2aUtEd1dCJpsY34unbHWEpe2I9YpGDFxUPBjgWAoPQX1RxFCrRkZpcZeKaGTadOxzm-fYVb9pT9R-Jb-2fsr87TCJqnAH5lddOhhR38DDinveunm5u36jjyF8hzIHWEQ1HC_kurRVukQi0ZVhsadturw2HxxPpqehZFb2mVOL8OBKh8VPEB5GTpg=w1026-h218-no)
+
+Dans cet article je vais vous montrer comment j’ai pimpé Atom pour être efficace quand on developppe des applications webs fullstack JavaScript.
+
+## [Atom](https://atom.io/) en 10 secondes
+
+- __1 million d’utilisateurs__ actifs
+- Crée et __maintenu par GitHub__ depuis 2014
+- Basé sur Chromium, codé avec l’aide du framework [Electron](https://electron.atom.io/) (Avec des technologies web comme CoffeeScript / JavaScript / Less / HTML)
+- __Facilement modifiable__ avec des plug-ins écrits en Node.js (voir le [manuel du hacker](http://flight-manual.atom.io/hacking-atom/sections/tools-of-the-trade/))
+- Très bonne __intégration avec git__ et GitHub
+
+`alt` + `cmd` + `i` et 💥 vous ouvrez la console de [Chromium](https://fr.wikipedia.org/wiki/Chromium_(navigateur_web)). C’est là que __coder du JavaScript directement dans un navigateur web__ prend tout son sens.
+
+## Configuration pour les packets de base et ceux de la communauté
+
+Avec un simple `cmd + ?` vous accédez à la configuration d’Atom. Même si je préfère la [personnalisation de Sublime Text](https://davidl.fr/blog/guide-sublime-text.html) vous devriez rapidement pouvoir configurer votre interface.
+
+![Atom settings packages gif](https://lh3.googleusercontent.com/6g_V2lJS0Tg5pfbKyqzMSpyDdIJCArXxrVMYk4r_2AYWiKmTWkWFinVZ1jviqb7PHwCwGde3qaJj6oSRtaSvsqFYvQjSBHxziVSJXfR62Ss_MY4xg8dFj95r9_3OPK5ncKAFO9_zRxYAvRrKNsI_ea_D7YYuUkrUk_cw45xWGGmjzjCIjhFXq-JmZLmX3P64vWuz6vDU2J3f2kvbRpi4tP0BOJYbd194ooV1rYwikyGuO7qrz89ZF_6rZ0dfRZBDKKVsrkHRywz8Pmk6mtC1EQMG3SkgEaZxRme55RgWjWQ2JBKQN1GxtudZA48LKqj38_cOZf51RzOnTCdYJjfIbiEKksgfxc-vbXBmxtKDKbv9x71Dou7qzeHdicsW8aXHHV9KCsIKiAuJIUIH0iiHLgo4SatMinqJbJCC-WooqMnPrvehK-cCA27ucaqV9sWQt69NXc7FYhj27NcdHGawMXGyOhwkj745QpuhwetcGh8iH6w4gA-zhAetXzif4eNlfmiEQvnGanZrG0Ib6fj174bC-Ieoni5TPbzDUABNgqA307ouEXiEQbfC7zcvMt6Vm2wy8BZ_J_FSJZik__8liB2P4RHMLjZi51KWwUrGzTepaVXvmJtF2g=w864-h446-no)
+
+`cmd + shift + P` permet de chercher, d’installer de nouveaux packets et des thèmes.
+
+![Atom install packages gif](https://lh3.googleusercontent.com/Kfc9YvxhNnoeOertHQSTHxBdvc_SWHtmdo_0GkM6Eh9Q_yxI4nYBOSB36wsoakneRzduG7uVzxYolo9Mh_BrG0Bbi8sKVXrA7Qo9gqnTBrIyeao2gGzN8z5gljseHbgdTZ_WUb7GfmR_bnLnviYM8zirETrMSNtbaQ1yWIeAawD10Uvs23k5KtI8InDqIXE72Bo33LnCLo78OM8EUbS-_hx9njOzxLPEfoW3lc1MqCsG--pi3J6SjqI_F21d9lT30raGY-cLIwc602E3dLs84m3bv1ZobKQ_Es9YKALBmIANwe0WG7_IL3hN4ckTM9jDOoQwvZIM_yu49UR_Nw7HNl8SVhIQTLPqoL6q4lMKlzFSIWg3_YTjpQl8NtsT3qmZrAriykfkcZ7RcnlTu3Ur1Y5fPN0T0WlGBRAb6k9WxG-1yI30WuTngWR9KXh3nJS3I5oy7LCfV9JO8vCSQKo5LqbneeL5lwa0pvduwe9R615fjXYNYPxKpvmrqK00UpQuLE2aO-hPfKSsa88pI8nMRjc07H7qldy6uJFicOj6oOpAVemyP2Jow71jBj7hF9_acBEmAYSo723TCvMqiRczeYQ26rVmmH-c6AMKjqVfnVTGIhJBrRMSGQ=w1076-h423-no)
+
+Une forte intégration entre git et GitHub permet de gagner beaucoup de temps. Les commandes que j’utilise le plus sont `blame` (Open on GitHub: Blame) et `issues` (Open on GitHub: Issues)
+
+![Atom git integration](https://lh3.googleusercontent.com/eVx4BgzsSn2HBCUIPwRvO64rZjHVWrLBh0DaV9qS8otY2nRvCht1UWOLLsLynxaWEU_9Ux3hy9d1phIQgDItsagN20kBxxqacoJwLmzZx-T6bvQmIbOgjFjunGdUgr85-L2VdNQfzdkKznx3VWgAO_y-W1zRLt3TojzZvu_2ai6vVtON2-_H_CYugx0iTqlG3AKOqxnf2MJdDh0q0iOH12pGO7-Q9_fj7dagwE_vhElouRE3IqOABpCkpxnI8Ej7-vd9H-Eq2D54ASrFFgtJZTw-jm8MkpbmKo8dYu3PrJNN37_9PwCiIO-PM6Q5I2R-Vaw4Tn0Qka3A5pSSozcc_rlcuO13G74xjCw40rLO95EwKUBDcv54NnLaiT5_nrDa-gZrPo7xGLKD-5iCfSTerxQ5W2GaWJH0vwwdzwJmNEFGqRHz9KlkFqQsuZxyxgXAjaS4_xI1Te3JANIL9dGe8dnAd0ycKIm2yuZp0-gigZjUHl_qgaFbjlh043mGlPi_jMZSctoyPrGQQGhVac0WaX_4sq1NnviQwM_IkS4CGOFEe1lTh0ES1TwS_GD9YiX1QRLjdpttuhGoUWc0uHP5TkoUfgCIRB2ocHXmGujQHYm9AeeSlAhaoA=w1676-h984-no)
+
+## Don’t make me think — Use linter
+
+Je travaille sur différentes technologies qui ont chacunes leurs spécifité. Pour avoir une meilleure DX et un code évolutif de qualité il est __indispensable d’avoir différents outils d’analyse de code HTML et JavaScript__.
+
+### Travail d’équipe avec `editorconfig`
+
+Personnellement quand je développe — comme Google — __j’utilise 2 espaces sans tabulations__. Ce détail peut paraître annodin mais si vous utilisez des règles différentes dans une équipe vous arrivez très vite à un projet ou la seule règle est le chaos.
+
+Oui, je m’adresse à vous développeurs qui n’encodez pas vos fichiers en UTF8 lors de la sauvegarde ou qui n’ajoutez pas de [caractère en fin de fichier](https://robots.thoughtbot.com/no-newline-at-end-of-file).
+
+Il est pourtant très facile de régler ces problème. Voici un exemple de fichier `.editorconfig` à la racine du projet.
+
+~~~zsh
+  # EditorConfig is awesome: http://EditorConfig.org
+
+  root = true
+
+  [*]
+  charset = utf-8
+  indent_style = space
+  indent_size = 2
+  end_of_line = lf
+  trim_trailing_whitespace = true
+  insert_final_newline = true
+
+  [*.md]
+  [*.markdown]
+  trim_trailing_whitespace = false
+~~~
+
+### HTML avec `linter-htmlhint`
+
+[htmlhint](http://htmlhint.com/) est un outil d’analyse HTML qui vous permettra d’éviter le syndrome de la balise fermante fantôme 👻.
+
+Créez un fichier `.htmlhintrc` dans votre projet et ajoutez les rêgles suivantes :
+
+~~~json
+  # Good hunter use HTMLHint https://github.com/yaniswang/HTMLHint
+
+  {
+    "attr-lowercase": true,
+    "attr-no-duplication": true,
+    "attr-unsafe-chars": true,
+    "attr-value-double-quotes": true,
+    "attr-value-not-empty": true,
+    "doctype-first": false,
+    "doctype-html5": false,
+    "head-script-disabled": true,
+    "href-abs-or-rel": false,
+    "id-class-ad-disabled": true,
+    "id-class-value": "dash",
+    "id-unique": true,
+    "img-alt-require": true,
+    "space-tab-mixed-disabled": false,
+    "spec-char-escape": true,
+    "src-not-empty": true,
+    "style-disabled": true,
+    "tag-pair": true,
+    "tag-self-close": false,
+    "tagname-lowercase": true
+  }
+~~~
+
+### JavaScript avec `linter-eslint`
+
+[Eslint](http://eslint.org/) est un utilitaire Node.js d’analyse de code. Il est souvent utilisé pour identifier les problèmes de patterns de code qui ne respectent pas certaines conventions.
+
+![Atom linter JavaScript gif](https://lh3.googleusercontent.com/ZfTKqT-iAlp7v9x0GADDd0bRYHQiWdyJFKKxaifT3Ps4yCkoirGIB6qBD78pTBYuiVTsS71Br4kMoaupHQDo7kFxF8yF5flaFc-n7NqyOFMliiR9T8l-CS-mtDXzRzo7tfuCkPeHCSy7DPVwULP6FbJXZG5A_i0F1KQeQ4tY0shGYsSCmHCcYn7u2sNhZA9DKFdpiCRwKt9dRDAMNF1L3m5RwVcEHLkIMsqLnWxxoQQlrIR35l9PGvTRKwSJFJvO6iKhFuTmYxFuxUZC0XRolRl5hDqYr2kZPb23Wb_3xmiS2pIWilMO-kC2Xv1L9W4Wp5tM97oetS-p6DG6Te7OsQBfdz-QqEnbehS_WGQjQ4oMX0Tkgyn5QPdbF3Y2kden9TXKIic4-Xd7sUsVGZpkUHybU4u2LgyjSAo9IpnYeeUtvsc-FPJ_TvvvT_pVrzTck_XVUZEvTfkG-IfZSJLgVJQ1zgcVUafnxsGWPDpjluWs5x34WtU5QFit66BylsvI93eLis9IXzlHH4nAaGnRtJUxD6JhLNx4AITJwrlScZX9GqLsBm-dvo0FPHavoHKK-0-1Bh0dGvz42GyqkACerRytEvS_34RoqLBTZpFbapwe4af0TYZHpg=w804-h225-no)
+
+Chaque projet est différent mais vous pouvez commencer par la configuration utilisée par les [Développeurs JavaScript au nord de Paris](https://github.com/ChtiJS/eslint-config).
+
+~~~zsh
+  $ npm install @chtijs/eslint-config --save-dev
+~~~
+
+Dans votre fichier `.eslintrc`
+
+~~~json
+  {
+    "extends": "@chtijs"
+  }
+~~~
+
+Vous pouvez créer votre propre configuration à l’aide de la [documentation Eslint](http://eslint.org/docs/user-guide/getting-started), ou encore séparer la configuration pour votre Backend et Front-end comme chez [SimpliField](https://github.com/SimpliField/eslint-config-simplifield).
+
+## Autocomplete avec `atom-ternjs`
+
+[Tern](http://ternjs.net/) est un __moteur d’analyse de code JavaScript__ indépendant. Il s’intégre dans n’importe quel éditeur, dans notre cas ce sera un [plugin pour Atom](http://ternjs.net/#plugins). Ses principales fonctionnalités sont :
+
+- Autocompletion des variables et des méthodes
+- Affichage des arguments d’une fonction
+- Interrogation du type d'expression
+- Trouver la définition de quelquechose
+- Refactoring automatique
+
+### Configuration
+
+- Ouvrez n’importe quel fichier JavaScript dans votre projet
+- `Packages` __>__ `Atom Ternjs` __>__ `Configure project`
+- Le fichier de configuration apparaît.
+- _“Save & Restart Server”_ pour créer / mettre à jour le fichier `.tern-project`
+
+~~~json
+{
+  "ecmaVersion": 6,
+  "libs": [],
+  "loadEagerly": [],
+  "dontLoad": [
+    "node_modules/**",
+    "bower_components/**"
+  ],
+  "plugins": {
+    "doc_comment": true,
+    "angular": {}
+  }
+}
+~~~
+_Exemple de fichier `.tern-project` pour une application AngularJS_
+
+Si ça ne fonctionne pas vous pouvez [consulter la documentation](https://atom.io/packages/atom-ternjs#installation)
+
+## Bonus
+
+Il y a encore pleins d’autres extentions pour Atom que j’utilise — principalement pour du développement web.
+
+- emmet
+- git-time-machine
+- atom-pigments
+- file-icons
+- lodash-snippets
+- js-hyperclick
+
+💥 Pour tout installer d’un coup il vous suffit de copier / coller cette ligne dans votre terminal préféré
+
+~~~zsh
+  $ apm editorconfig atom-ternjs file-icons set-syntax sort-lines autocomplete-modules emmet es6-javascript js-hyperclick hyperclick pigments linter-eslint lodash-snippets
+~~~
+
+Si vous souhaitez optimiser le chargment d’Atom vous pouvez toujours analyser le temps de chargement des différents plugins avec  `Package` __>__ `Timecop` __>__ `Show` 
+
+![Atom show plugin loading time](https://lh3.googleusercontent.com/r4Q1zqziOUjTgMDX78z5RhQwpnEEqYCdxEPtHtoXE0_SrWJpLE9UUCHWxyG2E19zfo-BlOH9J6FugIQS72vmvntpZZBBiDLfIv45ZdsOr8QYK38CqJkcarfo2D7GcHerhqJOC19Zcq-OeP197DE9-DbKyifDH0dRRfK3igWqEPjIez6ygZCQxrrIBN1iUwMW3mOtla28atvk2FavG_XDIwngjmM3egRh9ez77PDHnd2LmAmkwcsj5yVSMNuxGQFszV_xUL99HOQC-zu45K5b2iDu34reXIC29RqsT2zykuP_H1mEAlV74BqKckieRAPlqp0WH_--ggWx9sh2zxeq7tzTiHsj8zEaz0dKGi-tMC_hm4wWfNsm7otEMWca3oy_B2DnPaR3AFElucy3NzohSkXcWymE2y_QQ1aQzIlIbtcd76G-r_3eHF1ZqqaLjHP_q9QLZS6Djt_iFQ5aGoiHLshgagI1XUDOtPU6AnfJjhgTF79d3zWik01ZZXQJnF_YKmRT59GzZQbt4ZMj1CX0Bn_PJ_imb07ulHvbw-0S1eDPmTKxvon30SXJ2fcc6cZrOhJFWVa2-pqf05hl17-WThazoCK98amb3k5FN_jBLgeEivK8kUHCzQ=w598-h910-no)
+
+Je suis curieux de savoir ce qu’il manque, n’hésitez pas à m’__envoyer votre config__ si vous utilisez un Framework comme React 🚀
+
+__EDIT:__ Juste avant de publier l’article j’ai eu la [réponse à ma question](https://medium.com/productivity-freak/my-atom-editor-setup-for-js-react-9726cd69ad20) 
