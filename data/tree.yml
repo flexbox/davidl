@@ -81,6 +81,7 @@ blog:
     2016-12-11-indonesia.markdown: "/blog/articles/2016-12-11-indonesia.markdown"
     2017-02-06-fosdem-2017.markdown: "/blog/articles/2017-02-06-fosdem-2017.markdown"
     2017-03-13-jamstack.markdown: "/blog/articles/2017-03-13-jamstack.markdown"
+    2017-05-11-atom.markdown: "/blog/articles/2017-05-11-atom.markdown"
   index.html.slim: "/blog/index.html.slim"
 clients.html.slim: "/clients.html.slim"
 contact.html.slim: "/contact.html.slim"

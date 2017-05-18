@@ -6,6 +6,9 @@
 
 .m-blog-row {
   max-width: 100%;
+  aside {
+    background-color: $gray;
+  }
 }
 
 .m-blog--post-list {

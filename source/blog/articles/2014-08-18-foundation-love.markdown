@@ -54,7 +54,7 @@ Cette méthode permet d'écraser les styles et le comportement par défaut du Ja
 
 ### Développeur front-end
 
-Si vous maîtrisez l'utilisation de [bower](http://bower.io/) avec [nodeJS](http://nodejs.org/), et que vous utilisez un préprocesseur comme Sass vous pourrez utiliser toute la puissance de ce framework. En modifiant le fichier `_settings.scss` il est facile et rapide de personnaliser le design. Cette méthode permet de mettre à jour facilement le framework et ses dépendances dans votre fichier `bower.json`.
+Si vous maîtrisez l'utilisation de [bower](http://bower.io/) avec [Node.js](http://nodejs.org/), et que vous utilisez un préprocesseur comme Sass vous pourrez utiliser toute la puissance de ce framework. En modifiant le fichier `_settings.scss` il est facile et rapide de personnaliser le design. Cette méthode permet de mettre à jour facilement le framework et ses dépendances dans votre fichier `bower.json`.
 
 ### Guru de Foundation
 

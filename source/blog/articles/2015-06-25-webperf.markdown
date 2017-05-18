@@ -126,7 +126,7 @@ Comme illustré par le gif ci-dessous, le premier appel au serveur se charge de 
 
 Pour comprendre comment fonctionne ce système je vous invite à regarder la vidéo de [Jake Archibald, Supercharging page load](https://www.youtube.com/watch?v=d5_6yHixpsQ).
 
-- [NodeJS](https://nodejs.org/)
+- [Node.js](https://nodejs.org/)
 - [Introduction au services workers](http://www.html5rocks.com/en/tutorials/service-worker/introduction/)
 
 ## En résumé
