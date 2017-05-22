@@ -8,6 +8,11 @@
   max-width: 100%;
   aside {
     background-color: $gray;
+    box-shadow: 0px -34px 0px 0px $gray;
+    .m-section {
+      padding-left: rem-calc(20);
+      padding-right: rem-calc(20);
+    }
   }
 }
 
