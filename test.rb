@@ -1,6 +1,8 @@
 # test.rb
 
 require 'html-proofer'
+require 'html/pipeline'
+require 'find'
 
 raise IOError, 'Directory ./build does not exist. Run `middleman build` before running tests' unless Dir.exists?('./build')
 
