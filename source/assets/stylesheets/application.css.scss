@@ -23,10 +23,10 @@
 
 @import "custom-typeplate";
 @import "typeplate-starter-kit/scss/typeplate-index";
-@import "animate.css/source/base";
-@import "animate.css/source/attention_seekers/bounce";
-@import "animate.css/source/bouncing_entrances/bounceInDown";
-@import "animate.css/source/bouncing_exits/bounceOutUp";
+@import "animate.css/source/base.css";
+@import "animate.css/source/attention_seekers/bounce.css";
+@import "animate.css/source/bouncing_entrances/bounceInDown.css";
+@import "animate.css/source/bouncing_exits/bounceOutUp.css";
 
 @import "components/type";
 @import "components/topbar";
@@ -45,3 +45,5 @@
 @import "modules/webdesign";
 @import "modules/good-practice";
 @import "modules/footer";
+
+//= require components/sections

@@ -52,16 +52,17 @@ end
 ###
 
 activate :google_analytics do |ga|
-  ga.tracking_id = data.settings.site.analytics_id
-  ga.anonymize_ip = true
+  ga.tracking_id = @app.data.settings.site.analytics_id
+  ga.domain_name = @app.data.settings.site.analytics_domain_name
   ga.debug = false
-  ga.development = false
+  ga.test = false
   ga.minify = true
 end
 
-activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
-activate :livereload
+activate :autoprefixer, browsers: ['last 2 versions', 'Explorer >= 9']
 activate :syntax
+activate :sprockets
+sprockets.append_path File.join(root, 'bower_components')
 
 ###
 # Page options, layouts, aliases and proxies
@@ -71,7 +72,6 @@ page '/browserconfig.xml', layout: false
 page '/feed.xml',          layout: false
 page '/sitemap.xml',       layout: false
 
-require 'better_errors'
 require 'builder'
 require 'kramdown'
 require 'slim'
@@ -87,15 +87,15 @@ after_configuration do
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
 
-configure :development do
-  use BetterErrors::Middleware
-  BetterErrors.application_root = __dir__
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch        = 'gh-pages'
+  deploy.build_before  = true # always use --no-clean options
 end
 
-activate :deploy do |deploy|
-  deploy.method       = :git
-  deploy.branch       = 'gh-pages'
-  deploy.build_before = true # always use --no-clean options
+# Reload the browser automatically whenever files change
+configure :development do
+  activate :livereload
 end
 
 configure :build do
@@ -117,9 +117,9 @@ configure :build do
     }
   end
 
-  activate :sitemap, hostname: data.settings.site.url
+  activate :sitemap, hostname: @app.data.settings.site.url
   activate :sitemap_ping do |config|
-    config.host = "#{data.settings.site.url}"
+    config.host = "#{@app.data.settings.site.url}"
   end
 
   activate :minify_html, remove_input_attributes: false

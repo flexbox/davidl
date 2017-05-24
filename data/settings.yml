@@ -6,6 +6,7 @@ site:
   logo: 'https://davidl.fr/apple-touch-icon.png'
   active_navigation_item_class: 'is-active'
   analytics_id: 'UA-46684635-1'
+  analytics_domain_name: 'davidl.fr'
 
 social:
   google_plus: https://plus.google.com/+DavidLeulietteWeb
