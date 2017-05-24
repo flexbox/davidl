@@ -30,6 +30,7 @@
 
 body {
   background-color: $black;
+  color: $white;
 }
 
 .error-wrapper {
@@ -51,7 +52,7 @@ body {
     top: 0;
     left: 0;
     opacity: 0;
-    content: '404';
+    content: attr(data-text);
   }
   &:after {
     color: blue;
@@ -66,4 +67,31 @@ body {
 .error--emphasis {
   color: $white;
   animation: noise-3 1s linear infinite;
+}
+
+a {
+  opacity: 0.8;
+  color: $white;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.button-cta {
+  color: rgba(0,0,0,0.38);
+  padding: 9px 12px;
+  font-weight: bold;
+  border-radius: 2px;
+  background-color: #f8f8f8;
+  background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+  text-decoration: none;
+  transition: box-shadow .3s ease;
+  margin-right: 5px;
+  &:hover {
+    color: #222;
+    text-decoration: none;
+  }
 }

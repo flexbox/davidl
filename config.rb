@@ -53,13 +53,13 @@ end
 
 activate :google_analytics do |ga|
   ga.tracking_id = @app.data.settings.site.analytics_id
-  ga.anonymize_ip = true
+  ga.domain_name = @app.data.settings.site.analytics_domain_name
   ga.debug = false
   ga.test = false
   ga.minify = true
 end
 
-activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
+activate :autoprefixer, browsers: ['last 2 versions', 'Explorer >= 9']
 activate :syntax
 activate :sprockets
 sprockets.append_path File.join(root, 'bower_components')

@@ -5,10 +5,13 @@ layout: error_layout
 
 .m-topbar role="banner"
   .m-topbar--form
-    = link_to '← Revenir à la page d’acceuil', data.settings.site.url
+    = link_to '← Homepage', data.settings.site.url
 
 .error-wrapper
   .error-content
-    h1.error--title 404
-    h2.error--emphasis Il n'y a rien à voir ici !
-    = link_to '← Revenir à la page d’acceuil', data.settings.site.url
+    h1.error--title data-text="404 Not Found" 404 Not Found
+    h2.error--emphasis Sorry, this page does not exist anymore 😢
+    p
+      = link_to 'Go home', data.settings.site.url, class: 'button-cta'
+      'or
+      = link_to 'read the blog', '/blog/'

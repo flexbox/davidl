@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 # Core
-gem 'middleman',                '4.2.0'
-gem 'middleman-autoprefixer', '~> 2.7.1'
+gem 'middleman',                   '4.2.0'
+gem 'middleman-autoprefixer',      '~> 2.7.1'
 gem 'middleman-blog'
 gem 'middleman-favicon-maker'
-gem 'middleman-google-analytics'
+gem 'middleman-google-analytics' , '~> 3.0'
 gem 'middleman-livereload'
-gem 'middleman-minify-html', '~> 3.4.1'
+gem 'middleman-minify-html',       '~> 3.4.1'
 gem 'middleman-navtree'
 gem 'middleman-sitemap-ping'
 gem 'middleman-syntax'
