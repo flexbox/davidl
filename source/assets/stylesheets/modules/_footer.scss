@@ -25,7 +25,14 @@
 }
 
 .m-footer {
-  background-color: $black;
+  // background-color: $black;
+  background-color: #24292e;
+  background-image: image-url('star-bg.svg'), linear-gradient(#191c20, #24292e 15%);
+  background-repeat: repeat-x;
+  background-position: center 0, 0 0, 0 0;
+  background-size: 100% auto;
+
+
   padding: rem-calc(40 0);
   position: relative;
   z-index: 90;

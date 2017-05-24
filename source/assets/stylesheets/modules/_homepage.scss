@@ -1,7 +1,11 @@
 .m-hero-homepage {
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 110% auto;
+  background-image: image-url('bg-hero.svg'), $banner-linear-bg;
+
   display: flex;
   position: relative;
-  background: $banner-linear-bg;
   padding-bottom: $topbar-height;
   padding-top: $topbar-height;
   @media #{$medium} {

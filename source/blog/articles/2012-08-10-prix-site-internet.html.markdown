@@ -1,7 +1,7 @@
 ---
 date: 2012-08-10 14:29:25+00:00
-title: Prix d'un site internet compatible mobile
 slug: prix-site-internet
+title: Prix d'un site internet compatible mobile
 page_title: Combien coûte un site web responsive ?
 changefreq: monthly
 priority: 0.8

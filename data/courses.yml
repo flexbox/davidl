@@ -2,7 +2,13 @@
   year: 2017
   content:
     -
-      title: 'Lead Machine'
+      title: 'Workshop Chatbot'
+      provider: Efficom
+      place: Lille
+      description: "Semaine de spécialisation web à destination des étudiants en 4ème et 5ème année. 5 thèmes abordée pour sensibiliser à la création d’une application web de façon agile : DEV, DESIGN, CHATBOTS & BUILD"
+      url: http://courses.davidl.fr/programs/robotsinmarch.html
+    -
+      title: 'Workshop Lead Machine'
       provider: Efficom
       place: Lille
       description: "Semaine de spécialisation web à destination des étudiants en 4ème et 5ème année. 5 thèmes abordée pour sensibiliser à la création d’une application web de façon agile : DEV, DESIGN, API, GROWTH-HACKING & BUILD"
@@ -11,6 +17,12 @@
       title: 'JavaScript & Git'
       provider: Université du Littoral
       place: Iut Calais
+      description: Vacation à l’université. Formation des étudiants à travailler en équipe de développeurs avec git. Introduction à JavaScript avec appel à une API et consommation de données via AJAX.
+      url: http://courses.davidl.fr/programs/git-github.html
+    -
+      title: 'Git & GitHub'
+      provider: Atecna
+      place: Lille
       description: Vacation à l’université. Formation des étudiants à travailler en équipe de développeurs avec git. Introduction à JavaScript avec appel à une API et consommation de données via AJAX.
       url: http://courses.davidl.fr/programs/git-github.html
 -
