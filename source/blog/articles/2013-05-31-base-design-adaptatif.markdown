@@ -1,11 +1,9 @@
 ---
-date: 2013-05-31 16:41:03+00:00
+date: 2013-05-31
 slug: base-design-adaptatif
 title: Definition webdesign responsive
-page_title: Principes fondamentaux du design adaptatif
-page_emphasis: Le responsive est la face cachée de l’iceberg
-changefreq: monthly
-priority: 0.8
+page_title: "Principes fondamentaux du design adaptatif"
+page_emphasis: "Le responsive est la face cachée de l’iceberg"
 ---
 
 Dans cet article je vais essayer de faire une synthèse sur l’état des différentes bases à connaître absolument avant de créer un site internet compatible mobile. Peu à peu le design adaptatif se standardise autour de différents principes, ce qui permet de créer une véritable stratégie de pour votre contenu.

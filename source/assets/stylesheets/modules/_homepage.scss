@@ -39,7 +39,7 @@
 
   .l-content {
     z-index: 9;
-    @include grid-column($columns: 10, $center: true);
+    @include grid-column($columns: 8, $center: true);
     @media #{$small-only} {
       font-size: rem-calc(20);
       padding: rem-calc(20);

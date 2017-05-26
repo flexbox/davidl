@@ -1,10 +1,8 @@
 ---
-date: 2013-02-25 15:37:16+00:00
+date: 2013-02-25
 slug: webdesign-adaptatif-vs-site-mobile-vs-application-native
-title: Site web responsive ou application native ?
-page_title: 'Webdesign adaptatif <br>vs. site mobile <br>vs. application native'
-changefreq: monthly
-priority: 0.8
+title: "Site web responsive ou application native ?"
+page_title: "Webdesign adaptatif <br>vs. site mobile <br>vs. application native"
 ---
 
 Suite à l'évolution constante des tendances et une multiplication par 5 du nombre d'utilisateurs de l'Internet mobile, les entreprises prennent <del>enfin</del> conscience que leurs services doit être mis à disposition des utilisateurs de téléphones mobiles.

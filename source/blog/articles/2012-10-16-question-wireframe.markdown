@@ -27,9 +27,3 @@ C'est tout.
 
 
 Si vous êtes déjà en train de réfléchir à propos des polices et des images c'est que vous êtes déjà sorti de cette étape. Vous n'êtes plus concentré sur le contenu et la structure.
-
-
-
-
-
-
