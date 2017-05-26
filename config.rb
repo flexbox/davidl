@@ -6,23 +6,21 @@ Time.zone = 'Paris'
 I18n.config.enforce_available_locales = false
 
 activate :blog do |blog|
-  blog.name = 'blog'
+  blog.name   = 'blog'
 
   blog.permalink = 'blog/:title.html'
   blog.sources   = 'blog/articles/:title.html'
   blog.layout    = 'layouts/blog_layout'
-  blog.default_extension = '.markdown'
 
   blog.paginate = false
 end
 
 activate :blog do |forge|
-  forge.name = 'forge'
+  forge.name   = 'forge'
 
   forge.permalink = 'forge/:title.html'
   forge.sources   = 'forge/chapitres/:title.html'
   forge.layout    = 'layouts/forge_layout'
-  forge.default_extension = '.markdown'
 end
 
 ###
