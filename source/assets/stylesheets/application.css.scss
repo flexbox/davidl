@@ -1,49 +1,48 @@
 @charset "utf-8";
 
-@import "colors";
-@import "foundation/scss/foundation/functions";
-@import "custom-settings";
+@import 'colors';
+@import 'settings-custom';
+@import 'foundation-sites/scss/foundation';
+
+@include foundation-everything(true);
 
 @import "icones";
 
-@import "foundation/scss/normalize";
-@import "foundation/scss/foundation/components/global";
-@import "foundation/scss/foundation/components/block-grid";
-@import "foundation/scss/foundation/components/buttons";
-@import "foundation/scss/foundation/components/alert-boxes";
-@import "foundation/scss/foundation/components/forms";
-@import "foundation/scss/foundation/components/grid";
-@import "foundation/scss/foundation/components/inline-lists";
-@import "foundation/scss/foundation/components/magellan";
-@import "foundation/scss/foundation/components/panels";
-@import "foundation/scss/foundation/components/tables";
-@import "foundation/scss/foundation/components/type";
-@import "foundation/scss/foundation/components/side-nav";
-@import "foundation/scss/foundation/components/visibility";
+// @import "foundation/scss/normalize";
+// @import "foundation/scss/foundation/components/global";
+// @import "foundation/scss/foundation/components/buttons";
+// @import "foundation/scss/foundation/components/forms";
+// @import "foundation/scss/foundation/components/grid";
+// @import "foundation/scss/foundation/components/magellan";
+// @import "foundation/scss/foundation/components/panels";
+// @import "foundation/scss/foundation/components/type";
+// @import "foundation/scss/foundation/components/visibility";
 
-@import "custom-typeplate";
-@import "typeplate-starter-kit/scss/typeplate-index";
+// @import "foundation/scss/foundation/components/inline-lists";
+// @import "foundation/scss/foundation/components/tables";
+// @import "foundation/scss/foundation/components/side-nav";
+
+// @import "custom-typeplate";
+// @import "typeplate-starter-kit/scss/typeplate-index";
 // @import "animate.css/source/base.css";
 // @import "animate.css/source/attention_seekers/bounce.css";
 // @import "animate.css/source/bouncing_entrances/bounceInDown.css";
 // @import "animate.css/source/bouncing_exits/bounceOutUp.css";
 
-@import "components/type";
-@import "components/topbar";
-@import "components/hero-banner";
-@import "components/panels";
+// @import "components/type";
+// @import "components/topbar";
+// @import "components/hero-banner";
+// @import "components/panels";
 @import "components/pizza";
-@import "components/sections";
+// @import "components/sections";
 @import "components/buttons";
-@import "components/trianglify";
+// @import "components/trianglify";
 @import "code";
 
-@import "modules/about";
-@import "modules/blog";
-@import "modules/homepage";
-@import "components/magellan";
+// @import "modules/about";
+// @import "modules/blog";
+// @import "modules/homepage";
+// @import "components/magellan";
 @import "modules/webdesign";
-@import "modules/good-practice";
-@import "modules/footer";
-
-//= require components/sections
+// @import "modules/good-practice";
+// @import "modules/footer";

@@ -7,6 +7,7 @@
     "headroom.js": "~0.7.0",
     "animate.css": "~3.2.0",
     "typeplate-starter-kit": "~3.0.1",
-    "trianglify": "~0.3.1"
+    "trianglify": "~0.3.1",
+    "foundation-sites": "^6.3.1"
   }
 }
