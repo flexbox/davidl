@@ -12,9 +12,9 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
       ## /dev
       Je suis développeur web avec une expertise dans les __technologies front-end__.
 
-    ul.small-block-grid-1.medium-block-grid-2
+    .row.small-up-1.medium-up-2
       - data.work.dev.each do |w|
-        li
+        .columns
           = link_to w.link, class: 'm-panel-container' do
             .m-panel
               .l-icon-card
@@ -31,9 +31,9 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
         Avoir une belle __interface UI__ & bonne __expérience UX__ est important.<br>
         C’est pourquoi nous devons créer des prototypes et des itérations pour trouver une solution.
 
-      ul.small-block-grid-1.medium-block-grid-2
+      .row.small-up-1.medium-up-2
         - data.work.design.each do |w|
-          li
+          .columns
             = link_to w.link, class: 'm-panel-container' do
               .m-panel
                 .l-icon-card
@@ -52,9 +52,9 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
 
         De plus pour maitriser un sujet vous devez savoir l'apprendre aux autres.
 
-      ul.small-block-grid-1.medium-block-grid-2
+      .row.small-up-1.medium-up-2
         - data.work.learn.each do |w|
-          li
+          .columns
             = link_to w.link, class: 'm-panel-container' do
               .m-panel
                 .l-icon-card
@@ -67,9 +67,9 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
 
 
       h3 I give talks too!
-      ul.m-blog--post-list.small-block-grid-1.medium-block-grid-2
+      .row.m-blog--post-list.small-up-1.medium-up-2
         - data.achievements.talks.each do |talk|
-          li
+          .columns
             strong
               => talk.lang
               => talk.website

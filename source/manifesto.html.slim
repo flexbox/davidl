@@ -543,11 +543,11 @@ priority: 0.8
 
       h3 Les meilleures pratiques de Yahoo
       p
-        |L'
+        |L’
         =>link_to'équipe YUI', 'http://yuilibrary.com/'
         'a réalisé beaucoup plus de recherches sur la performance du front-end que n'importe qui.
         =>link_to'Leur article reste une référence', 'http://developer.yahoo.com/performance/rules.html'
-        'que je conseille à n'importe qui.
+        'que je conseille à de nombreuses personnes.
       p
         =>link_to 'Steve Souders', 'http://stevesouders.com/'
         'est mon maître jedi en ce qui concerne la performance des sites internet.
@@ -558,49 +558,49 @@ priority: 0.8
         =link_to 'convention de nommage précises','http://guidecss.fr/convention.html#ancres_javascript'
         ', je gère les occurrences de cet événement dans la page.
       p Je n'oublie pas de mettre en cache mes objets dans des variables afin de minimiser les accès au DOM.
-      ul.large-block-grid-3.medium-block-grid-2
-        li
+      .row.small-up-1.medium-up-2.large-up-3
+        .columns
           h4 Minimiser les requêtes HTTP
           p
             'Je combine, minifie et Gzip tous les <code>assets</code> de mes sites (Feuilles de styles et scripts). J'utilise des images. Ces optimisations permettent de réduire le nombre d'allers-retours vers le serveur.
-        li
+        .columns
           h4 Utiliser un CDN
           p
             'Tous mes <code>assets</code> sont hébergés sur un serveur spécifique comme Cloudfront. Je n’oublie pas que le cache est mon ami — notamment pour les éléments récurrents.
-        li
+        .columns
           h4 Feuille de styles au début
           p
             'Les feuilles de styles doivent êtres appellées le plus tôt pour permettre un rendu progressif de la page.
-        li
+        .columns
           h4 Scripts à la fin
           p
             'Les balises <code>script</code> bloquent les téléchargements parallèles, les mettre en dernier permet aux autres ressources d'être téléchargées en premier.
-        li
+        .columns
           h4 Éviter redirections
           p Elles ralentissent l'expérience utilisateur.
-        li
+        .columns
           h4 Réduire le nombres d'élément du DOM
           p Des pages plus petites avec moins d'éléments sont plus rapides à parcourir et modifier. CQFD.
-        li
+        .columns
           h4
             'Bannir les <code>iframes</code>
           p
             'Même si elles sont vides, c'est très coûteux car ce sont de nouvelles fenêtres, qui bloquent l'événement <code>onload</code> de la page.
-        li
+        .columns
           h4 Supprimer les filtres IE en CSS
           p Les filtres sont des "caractéristiques particulières" en CSS pour IE, ils ralentissent la page, donc à utiliser avec parcimonie.
-        li
+        .columns
           h4 Optimiser les images
           p Je met en place des traitements par lot avec le compresseur d'image YUI, ImageOptim ou des générateurs de sprite. Je les utilise pour avoir une taille d'image aussi faible que possible tout en conservant leur qualité.
-        li
+        .columns
           h4 Conserver ses composants en dessous de 25 Ko
           p L'iPhone ne met pas en cache quoi que ce soit plus grand que 25 Ko non compressé.
 
-        li
+        .columns
           h4 Pas de 404s
-          p Avec les google webmaster tools j'identifie et supprime ces déplacements inutiles vers le serveur.
+          p Avec les google webmaster tools j’identifie et supprime ces déplacements inutiles vers le serveur.
 
-        li
+        .columns
           h4 Réduire la taille des Cookies
           p Transféré dans les en-têtes de page, je supprime les cookies inutiles, en conservant une petite taille et je fixe une date d'expiration.
 

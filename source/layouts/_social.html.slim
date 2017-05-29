@@ -1,6 +1,6 @@
-ul.medium-block-grid-2.small-block-grid-1
+.row.small-up-1.medium-up-2
   - data.social.each_with_index do |social|
-    li
+    .columns
       .m-panel.l-social.js-linkspy-start
         = link_to social.url, class: 'js-linkspy-target m-panel--clean' do
           i class="fa #{social.icon}"

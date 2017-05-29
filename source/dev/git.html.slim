@@ -98,12 +98,24 @@ priority: 0.6
 
         👉 Allez sur votre [Compte GitHub](https://github.com/settings/emails) et utilisez le même email que celui de votre fichier `.gitconfig`.
 
-        ### The lazy way for mac users
 
-        ~~~zsh
-          $ git config --global credential.helper osxkeychain
-        ~~~
+      .row
+        .medium-10.medium-centered.columns
+          .m-panel
+            .m-section--card
+              .l-icon
+                i.fa.fa-2x.fa-apple
+                br
+                small only
+              .l-content
+                markdown:
+                  ### The lazy way
 
+                  ~~~zsh
+                    $ git config --global credential.helper osxkeychain
+                  ~~~
+
+      markdown:
         ### Créer une clé SSH
 
         Suivez les 4 étapes ci-dessous pour [générer une clé SSH](https://help.github.com/articles/generating-an-ssh-key/){:target="_blank"}
@@ -174,7 +186,7 @@ priority: 0.6
         br
         br
         h3
-          .i-custom.icon-wrench
+          = fa 'fa-fw fa-clock-o'
           'Raccourcis pour gagner du temps
         .m-panel
           .m-section--card

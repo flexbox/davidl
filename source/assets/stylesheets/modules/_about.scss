@@ -12,7 +12,7 @@
   box-shadow: $global-box-shadow;
 
   transition: transform $transition-duration ease-in-out;
-  border-radius: $global-rounded;
+  border-radius: 100%;
   max-height: rem-calc(200);
   margin-bottom: rem-calc(20);
 
