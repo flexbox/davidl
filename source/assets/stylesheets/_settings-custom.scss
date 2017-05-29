@@ -2,32 +2,34 @@
 // ---------
 
 $global-flexbox: true;
-$row-width: rem-calc(1200);
-
-
-
-// c. Global
-
-$font-family-sans-serif: 'Lato', Helvetica, Roboto, Arial, sans-serif;
-$font-family-monospace: 'Ubuntu Mono', 'Monaco', monospace;
-
+$global-width: 1200px;
+$global-box-shadow: 0px 1px 1px rgba($black, 0.3);
 
 $font-weight-light:  300;
 $font-weight-normal: 400;
 $font-weight-bold:   700;
 $font-weight-black:  900;
 
-$body-bg: $gray-light;
+$body-background: $gray-light;
 $body-font-color: $gray-dark;
+
+
+
+// c. Global
+
+$font-family-sans-serif: 'Lato', Helvetica, Roboto, Arial, sans-serif;
+$font-family-monospace:  'Ubuntu Mono', 'Monaco', monospace;
+
 $header-font-color: rgba($gray-dark, 0.8);
 $subheader-font-color: rgba($gray-dark, 0.6);
 $anchor-font-color: $primary-color;
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: $font-weight-normal;
 
-$global-box-shadow: 0px 1px 1px rgba($black, 0.3);
 
-// e. Typography
+
+// 4. Base Typography
+// ------------------
 
 $header-font-family: 'Chivo', sans-serif;
 $header-font-weight: $font-weight-black;
@@ -65,5 +67,5 @@ $panel-font-color: $body-font-color;
 
 // Magellan
 
-$magellan-bg: $body-bg;
+$magellan-bg: $body-background;
 $magellan-padding: 0 !important;

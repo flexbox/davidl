@@ -1,5 +1,4 @@
 $white      : #FFFFFF;
-$oil        : #333333;
 $black      : #1A1A1A;
 
 $gray-light : #FFF9EB;
@@ -12,16 +11,22 @@ $blue-dark:  #11256C;
 
 $pink:       #F53FC7;
 
-
+// --
+$foundation-palette: (
+  primary:   $blue,
+  secondary: $pink,
+  success:   #259B24,
+  warning:   #FF5722,
+  alert:     #E51C23,
+);
+$light-gray:  #F2F2F2;
+$medium-gray: #DEDEDE;
+$dark-gray:   #3F3F44;
+$black:       #111111;
+// --
 
 $primary-color:   $blue;
 $secondary-color: $pink;
-
-$alert-color:   #E51C23;
-$success-color: #259B24;
-$warning-color: #FF5722;
-$info-color:    #03A9F4;
-
 
 
 $sc-amazon      : #E47911;
@@ -43,21 +48,4 @@ $sc-js          : #F0DB4F;
   &:focus {
     color: $color-hover;
   }
-}
-
-
-
-.list-color {
-  li {
-    width: 5em;
-    height: 5em;
-    border: 5px solid $white;
-    box-shadow: 0 1px 5px rgba($black, 0.8);
-  }
-
-  .blue { background-color: $blue; }
-  .pink { background-color: $pink; }
-
-  .primary  { background-color: $primary-color; }
-  .secondary  { background-color: $secondary-color; }
 }

@@ -19,8 +19,7 @@
 // @import "foundation/scss/foundation/components/type";
 // @import "foundation/scss/foundation/components/visibility";
 
-// burn list
-// @import "foundation/scss/foundation/components/tables";
+// Update list
 // @import "foundation/scss/foundation/components/side-nav";
 
 // @import "custom-typeplate";
@@ -40,10 +39,11 @@
 // @import "components/trianglify";
 @import "code";
 
-// @import "modules/about";
-// @import "modules/blog";
-// @import "modules/homepage";
+// @import "pages/about";
+// @import "pages/blog";
+// @import "pages/homepage";
 // @import "components/magellan";
-@import "modules/webdesign";
-// @import "modules/good-practice";
-// @import "modules/footer";
+@import "pages/webdesign";
+// @import "pages/good-practice";
+// @import "pages/footer";
+@import "pages/styleguide";

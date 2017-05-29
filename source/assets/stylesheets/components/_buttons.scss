@@ -6,13 +6,13 @@
 
   &:hover,
   &:focus {
-    background-color: $body-bg;
+    background-color: $body-background;
     color: $primary-color;
   }
   &.secondary {
     &:hover,
     &:focus {
-      background-color: $body-bg;
+      background-color: $body-background;
       color: $secondary-color;
     }
   }
