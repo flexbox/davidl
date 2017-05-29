@@ -20,11 +20,3 @@
     transform: scale(1.2);
   }
 }
-
-.m-about--social-list {
-  @include inline-list;
-  a {
-    padding: rem-calc(5 10);
-    border-bottom: 0;
-  }
-}
