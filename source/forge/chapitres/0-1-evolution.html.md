@@ -18,7 +18,7 @@ Les gens supportent de moins en moins l’informatique classique synonyme de com
 
 > Les ordinateurs sont des camions
 >
-> <cite>Steeve jobs</cite>
+> <cite>Steve jobs</cite>
 
 
 L’informatique grand public tel que nous la connaissons est amenée à disparaitre. Les ordinateurs classiques ne seront utilisés que pour réaliser de lourdes tâches. Prenez par exemple les tablettes tactiles : un enfant de 2 ans est capable de comprendre comment cela fonctionne pour voir des vidéos sur youtube.
