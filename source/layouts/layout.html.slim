@@ -15,6 +15,7 @@ html lang="fr"
         if ((host == window.location.host) && (window.location.protocol != "https:")) {
           window.location.protocol = "https";
         }
+      = google_analytics_tag
 
     = partial 'layouts/commons/favicon'
     = stylesheet_link_tag 'application'
@@ -28,8 +29,9 @@ html lang="fr"
       == yield
     = partial 'layouts/commons/footer'
 
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     = javascript_include_tag 'application'
     = yield_content :javascripts
     javascript:
       (function() { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://s3-eu-west-1.amazonaws.com/share.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "share.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()
-    = google_analytics_tag
