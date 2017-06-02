@@ -11,5 +11,6 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 
 [*.md]
+[*.html.md]
 [*.markdown]
 trim_trailing_whitespace = false

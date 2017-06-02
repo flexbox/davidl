@@ -8,15 +8,17 @@ page_emphasis: Apprendre à construire des systèmes modulaires
 .row
   .medium-10.medium-centered.columns
     - data.courses.each_with_index do |date|
-      p.lead = date.year
+      p.lead.text-center = date.year
       hr
       - date['content'].each do |course|
           .row
             .medium-3.columns
               h3
               p.text-tiny
+                = fa 'fa-fw fa-building'
                 => course.provider
                 br
+                = fa 'fa-fw fa-map-pin'
                 => course.place
             .medium-9.columns
               h2
