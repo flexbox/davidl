@@ -1,7 +1,7 @@
 site:
   title: 'davidl • design & développement'
   author: David Leuliette
-  description: 'Je crée des sites internet qui fonctionnent à merveille sur n’importe quel appareil. Designer spécialisé HTML et CSS basé à Lille'
+  description: 'Je crée des sites internet et des applications web qui fonctionnent à merveille sur n’importe quel appareil. Designer spécialisé Ruby, HTML, CSS et JavaScript basé à Lille'
   url: 'https://davidl.fr'
   logo: 'https://davidl.fr/apple-touch-icon.png'
   active_navigation_item_class: 'is-active'

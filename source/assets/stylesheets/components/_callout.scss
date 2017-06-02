@@ -1,24 +1,14 @@
-$m-panel-bg: rgba($white, 0.4);
-$m-panel-bg-hover: $white;
-
-.m-panel {
-  // @include panel($m-panel-bg);
+.callout {
   transition: box-shadow $transition-duration ease-in-out;
   box-shadow: 5px 5px 0px rgba($black, 0.2);
   // @include typl8-hyphens(none);
 
   &:hover {
-    background-color: $m-panel-bg-hover;
+    background-color: $callout-background-hover;
     box-shadow: 1px 1px 0px rgba($black, 0.2);
   }
-  a.m-panel--clean {
-    border-bottom: 0;
-    &:hover {
-      background-color: transparent;
-    }
-  }
 
-  &.l-callout {
+  &.callout-border {
     border-top: 5px solid $secondary-color;
     margin: rem-calc(60 0 80 0);
     position: relative;
@@ -32,12 +22,10 @@ $m-panel-bg-hover: $white;
     }
   }
 
-  &.l-social {
+  &.callout-social {
     position: relative;
     overflow: hidden;
-    .l-title {
-      margin-top: 0;
-    }
+    padding-top: rem-calc(60);
 
     i {
       transition: all $transition-duration ease-in-out;
@@ -45,7 +33,6 @@ $m-panel-bg-hover: $white;
       right: 20%;
       top: -100%;
       font-size: rem-calc(60);
-      color: $primary-color;
       &.fa-google-plus { color: $sc-google-plus; }
       &.fa-twitter { color: $sc-twitter; }
       &.fa-github { color: $sc-github; }
@@ -68,14 +55,14 @@ $m-panel-bg-hover: $white;
     &-card {
       display: flex;
       align-items: center;
-      @include breakpoint(small-only) {
+      @include breakpoint(small only) {
         flex-direction: column;
       }
     }
 
     &-content {
-      margin-left: 40px;
-      @include breakpoint(small-only) {
+      margin-left: rem-calc(40);
+      @include breakpoint(small only) {
         align-self: flex-start;
       }
 
@@ -83,18 +70,33 @@ $m-panel-bg-hover: $white;
   }
 }
 
-a.m-panel-container[href^=""]:not([href*="davidl.fr"]):after,
-a.m-panel-container[href*="https:"]:not([href*="davidl.fr"]):after {
+a.callout-link[href^=""]:not([href*="davidl.fr"]):after,
+a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
   content: none;
 }
 
-.m-panel-container {
-  padding: 0;
-  .m-panel {
-    min-height: 180px;
+.callout-link {
+  .callout {
+    min-height: rem-calc(180);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $blue-dark;
+  }
+  &:hover {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $primary-color;
+    }
   }
 }
 
-.js-linkspy-start {
-  cursor: pointer;
-}
+

@@ -1,11 +1,10 @@
 .row.small-up-1.medium-up-2
   - data.social.each_with_index do |social|
     .columns
-      .m-panel.l-social.js-linkspy-start
-        = link_to social.url, class: 'js-linkspy-target m-panel--clean' do
+      = link_to social.url, class: 'callout-link' do
+        .callout.callout-social
           i class="fa #{social.icon}"
-          h3.l-title
+          h3
             = social.title
-        p
-          = social.description
-
+          p
+            = social.description

@@ -19,10 +19,9 @@ $foundation-palette: (
   warning:   #FF5722,
   alert:     #E51C23,
 );
-$light-gray:  #F2F2F2;
-$medium-gray: #DEDEDE;
-$dark-gray:   #3F3F44;
-$black:       #111111;
+$light-gray:  $gray-light;
+$medium-gray: $gray;
+$dark-gray:   $gray-dark;
 // --
 
 $primary-color:   $blue;

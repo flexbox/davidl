@@ -1,23 +1,28 @@
-.row
-  .column
-    .m-panel
-      .section--card
-        .l-icon
-          i.fa.fa-2x.fa-windows
-        .l-content
-          markdown:
-            [babun](http://babun.github.io/){:target="_blank"} le “moins pire” qu’on puisse faire sur Windows et la seule façon de survivre si l’on est obligé de bosser avec cet os.
+section.section
+  .row.expanded
+    .medium-4.columns
+      .callout
+        h3 Title
+        p Description
+    .medium-8.columns
+      .callout
+        .section--card
+          .l-icon
+            i.fa.fa-2x.fa-windows
+          .l-content
+            markdown:
+              [babun](http://babun.github.io/){:target="_blank"} le “moins pire” qu’on puisse faire sur Windows et la seule façon de survivre si l’on est obligé de bosser avec cet os.
 
-.row
-  .medium-4.columns
-    .panel
-      p
-        '.panel
-  .medium-4.columns
-    .panel.callout
-      p
-        '.panel.callout
-  .medium-4.columns
-    .m-panel
-      p
-        '.m-panel
+section.section
+  .row
+    - data.work.design.each do |w|
+      .columns
+        = link_to w.link, class: 'callout-link' do
+          .callout
+            .l-icon-card
+              span.fa-stack.fa-lg
+                = fa 'fa-circle fa-stack-2x'
+                = fa "#{w.icon} fa-stack-1x fa-inverse"
+              .l-icon-content
+                h3 = w.title
+                p = w.description

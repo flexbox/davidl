@@ -1,5 +1,3 @@
-#= require "jquery.linkspy"
-
 #= require "headroom.js/dist/headroom"
 #= require "topbar"
 #= require "jquery-videobackground/script/jquery.videobackground"

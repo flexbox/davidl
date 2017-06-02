@@ -29,7 +29,7 @@ $magellan-padding: 0;
     z-index: 1;
     @include grid-column($columns: 2);
   }
-  .m-panel {
+  .callout {
     max-width: rem-calc(300);
   }
 }

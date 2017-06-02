@@ -8,7 +8,7 @@
   position: relative;
   padding-bottom: $topbar-height;
   padding-top: $topbar-height;
-  @media #{$medium} {
+  @include breakpoint(medium) {
     padding-top: ($topbar-height * 2);
   }
 
@@ -32,7 +32,7 @@
       letter-spacing: -1px;
       font-size: 75%;
     }
-    @media #{$small-only} {
+    @include breakpoint(small only) {
       font-size: 40px;
     }
   }
@@ -40,7 +40,7 @@
   .l-content {
     z-index: 9;
     @include grid-column($columns: 8, $center: true);
-    @media #{$small-only} {
+    @include breakpoint(small only) {
       font-size: rem-calc(20);
       padding: rem-calc(20);
       min-width: inherit;

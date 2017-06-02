@@ -15,8 +15,8 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
     .row.small-up-1.medium-up-2
       - data.work.dev.each do |w|
         .columns
-          = link_to w.link, class: 'm-panel-container' do
-            .m-panel
+          = link_to w.link, class: 'callout-link' do
+            .callout
               .l-icon-card
                 span.fa-stack.fa-lg
                   = fa 'fa-circle fa-stack-2x'
@@ -34,8 +34,8 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
       .row.small-up-1.medium-up-2
         - data.work.design.each do |w|
           .columns
-            = link_to w.link, class: 'm-panel-container' do
-              .m-panel
+            = link_to w.link, class: 'callout-link' do
+              .callout
                 .l-icon-card
                   span.fa-stack.fa-lg
                     = fa 'fa-circle fa-stack-2x'
@@ -55,8 +55,8 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
       .row.small-up-1.medium-up-2
         - data.work.learn.each do |w|
           .columns
-            = link_to w.link, class: 'm-panel-container' do
-              .m-panel
+            = link_to w.link, class: 'callout-link' do
+              .callout
                 .l-icon-card
                   span.fa-stack.fa-lg
                     = fa 'fa-circle fa-stack-2x'

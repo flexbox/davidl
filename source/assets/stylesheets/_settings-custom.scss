@@ -57,11 +57,15 @@ $form-label-font-size: rem-calc(16);
 $form-label-small-transform: none;
 
 
-// Panels
 
-$include-html-panel-classes: false;
+// 13. Callout
+// -----------
 
-$panel-font-color: $body-font-color;
+$callout-background: rgba($white, 0.4);
+$callout-background-hover: $white;
+
+$callout-background-fade: 0%;
+$callout-border: none;
 
 
 
