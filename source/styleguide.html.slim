@@ -6,81 +6,83 @@ changefreq: yearly
 priority: 0
 ---
 
-.row
-  .medium-12.columns
-    h3 Couleurs
-    .row
-      .medium-6.columns
-        ul.list-color
-          li.red
-          li.pink
-          li.green
-          li.blue
-      .medium-6.columns
-        ul.list-color
-          li.cyan
-          li.pink
-        ul.list-color
-          li.primary
-          li.secondary
-    h3 Boutons
-    ul
-      li = link_to 'button', '#', class: 'button primary'
-      li = link_to 'button', '#', class: 'button secondary'
-    h3 Grille
-    h3 Typographie
+.row.expanded
+  .medium-2.columns
+    section.section
+      ul.no-bullet
+        li
+          strong Pages
+        li
+          = link_to 'search', 'search'
+        li
+          = link_to 'product', 'product'
+        li
+          = link_to 'homepage', 'homepage'
+  .medium-10.columns
+    section.section
+      h1 = data.settings.site.title
+      p = data.settings.site.description
 
-    h1 h1. This is a very large header.
-    h2 h2. This is a large header.
-    h3 h3. This is a medium header.
-    h4 h4. This is a moderate header.
-    h5 h5. This is a small header. h1.
-    h6 h6. This is a tiny header. h1.
-    br
-    h1.subheader h1.subheader
-    h2.subheader h2.subheader
-    h3.subheader h3.subheader
-    h4.subheader h4.subheader
-    h5.subheader h5.subheader
-    h6.subheader h6.subheader
-    br
-    ul.disc
-      li List item with a much longer description or more content.
-      li List item
-      li
-        | List item
-        ul
-          li Nested List Item
-          li Nested List Item
-          li Nested List Item
-      li List item
-      li List item
-      li List item
+    section.section
+      h2 Colors
+      = partial 'layouts/styleguide/colors'
 
-      ol
-        li List Item 1
-        li List Item 2
-        li List Item 3
+    section.section
+      h2 Icon list
+      = partial 'layouts/styleguide/icons'
 
-      dl
-        dt Definition List
-        dd Definition Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    section.section
+      h2 Buttons style
+      = partial 'layouts/styleguide/buttons'
+      .callout style="padding-top: 2rem;"
+        = partial 'layouts/styleguide/buttons'
+      .callout.dark style="padding-top: 2rem;"
+        = partial 'layouts/styleguide/buttons'
+
+    section.section
+      h3 Typography
+
+      h1 h1. This is a very large header.
+      h2 h2. This is a large header.
+      h3 h3. This is a medium header.
+      h4 h4. This is a moderate header.
+      h5 h5. This is a small header. h1.
+      h6 h6. This is a tiny header. h1.
       br
-      blockquote
-        | I do not fear computers. I fear the lack of them. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.
-        cite Isaac Asimov
+      h1.subheader h1.subheader
+      h2.subheader h2.subheader
+      h3.subheader h3.subheader
+      h4.subheader h4.subheader
+      h5.subheader h5.subheader
+      h6.subheader h6.subheader
+      br
+      ul.disc
+        li List item with a much longer description or more content.
+        li List item
+        li
+          | List item
+          ul
+            li Nested List Item
+            li Nested List Item
+            li Nested List Item
+        li List item
+        li List item
+        li List item
 
-    h3 panel
-    .row
-      .medium-4.columns
-        .panel
-          p
-            '.panel
-      .medium-4.columns
-        .panel.callout
-          p
-            '.panel.callout
-      .medium-4.columns
-        .m-panel
-          p
-            '.m-panel
+        ol
+          li List Item 1
+          li List Item 2
+          li List Item 3
+
+        dl
+          dt Definition List
+          dd Definition Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit.
+        br
+        blockquote
+          | I do not fear computers. I fear the lack of them. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.
+          cite Isaac Asimov
+
+    section.section
+      h2 Callout
+      = partial 'layouts/styleguide/callout'
+

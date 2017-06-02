@@ -2,10 +2,10 @@ $m-panel-bg: rgba($white, 0.4);
 $m-panel-bg-hover: $white;
 
 .m-panel {
-  @include panel($m-panel-bg);
-  @include single-transition(box-shadow, $transition-duration, ease-in-out);
+  // @include panel($m-panel-bg);
+  transition: box-shadow $transition-duration ease-in-out;
   box-shadow: 5px 5px 0px rgba($black, 0.2);
-  @include typl8-hyphens(none);
+  // @include typl8-hyphens(none);
 
   &:hover {
     background-color: $m-panel-bg-hover;
@@ -40,7 +40,7 @@ $m-panel-bg-hover: $white;
     }
 
     i {
-      @include single-transition(all, $transition-duration, ease-in-out);
+      transition: all $transition-duration ease-in-out;
       position: absolute;
       right: 20%;
       top: -100%;
@@ -68,14 +68,14 @@ $m-panel-bg-hover: $white;
     &-card {
       display: flex;
       align-items: center;
-      @media #{$small-only} {
+      @include breakpoint(small-only) {
         flex-direction: column;
       }
     }
 
     &-content {
       margin-left: 40px;
-      @media #{$small-only} {
+      @include breakpoint(small-only) {
         align-self: flex-start;
       }
 

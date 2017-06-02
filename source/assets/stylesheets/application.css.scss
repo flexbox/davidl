@@ -4,7 +4,7 @@
 @import 'settings-custom';
 @import 'foundation-sites/scss/foundation';
 
-@include foundation-everything(true);
+@include foundation-everything($flex: true);
 
 @import "icones";
 
@@ -19,9 +19,10 @@
 // @import "foundation/scss/foundation/components/type";
 // @import "foundation/scss/foundation/components/visibility";
 
-// Update list
+// Need to update
 // @import "foundation/scss/foundation/components/side-nav";
 
+// Need refactor
 // @import "custom-typeplate";
 // @import "typeplate-starter-kit/scss/typeplate-index";
 // @import "animate.css/source/base.css";
@@ -30,11 +31,11 @@
 // @import "animate.css/source/bouncing_exits/bounceOutUp.css";
 
 // @import "components/type";
-// @import "components/topbar";
-// @import "components/hero-banner";
-// @import "components/panels";
+@import "components/topbar";
+@import "components/hero-banner";
+@import "components/callout";
 @import "components/pizza";
-// @import "components/sections";
+@import "components/sections";
 @import "components/buttons";
 // @import "components/trianglify";
 @import "code";

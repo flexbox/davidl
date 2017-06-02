@@ -11,7 +11,7 @@ blog: blog
     ul.m-blog--post-list
       - page_articles.each_with_index do |article, i|
         - if i == 10
-          section.m-section--inverse
+          section.section--inverse
             .row
               .medium-8.columns
                 p Recevoir gratuitement des conseils sur les technologies front-end
@@ -21,7 +21,7 @@ blog: blog
                   'S’inscrire par email
 
         - elsif i == 30
-          section.m-section--inverse
+          section.section--inverse
             .row
               .medium-8.columns
                 p Lire le contenu dans une autre application, ou en mode hors-ligne
@@ -31,7 +31,7 @@ blog: blog
                   'Abonnement au flux RSS
 
         - elsif i == 50
-          section.m-section--inverse
+          section.section--inverse
             .row
               .medium-8.columns
                 p
@@ -50,12 +50,12 @@ blog: blog
             = link_to article.title, article, class: 'm-post--link'
             hr
   .medium-4.columns
-    section.m-section
+    section.section
       i.fa.fa-5x.fa-github
       h2 Sources
       p Ce contenu est produit à partir d’expériences personnelles, MDN, et la documentation officielle.
 
-    section.m-section
+    section.section
       h2 Blogposts
       - data.achievements.blogposts.each do |post|
         p
@@ -72,7 +72,7 @@ blog: blog
 
       Vous pouvez soumettre une demande de [modification sur Github](https://github.com/flexbox/davidl/tree/master/source/blog/articles).
 
-section.m-section
+section.section
   .row
     .small-12.columns
       markdown:

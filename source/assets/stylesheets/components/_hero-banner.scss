@@ -1,11 +1,10 @@
 $banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%);
 
-.m-hero-banner {
-  position: relative;
+.hero-banner {
   background: $banner-linear-bg;
   margin-bottom: rem-calc(30);
   padding-top: $topbar-height;
-  @media #{$small} {
+  @include breakpoint(small) {
     padding-top: ($topbar-height * 2.5);
   }
 
@@ -13,34 +12,30 @@ $banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%)
     color: $white !important;
   }
 
-  .l-title,
-  .l-emphasis {
+  .title,
+  .emphasis {
     color: $white;
     text-shadow: $text-shadow;
-    position: relative;
-    @media #{$small} {
-      @include grid-column($columns: 8, $center: true);
-    }
   }
 
-  .l-title {
+  .title {
     font-size: rem-calc(40);
     padding: rem-calc(20 10 10 10);
     margin-bottom: 0;
   }
-  .l-emphasis {
+  .emphasis {
     padding-left: rem-calc(10);
     padding-right: rem-calc(10);
     margin-bottom: rem-calc(60);
   }
 }
 
-.m-hero-contact {
+.hero-contact {
   padding-top: $topbar-height;
   h1 {
     font-size: rem-calc(40);
     margin-top: 0;
-    @media #{$small} {
+    @include breakpoint(small) {
       margin-top: rem-calc(20);
       margin-bottom: 0;
     }

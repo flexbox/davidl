@@ -5,62 +5,34 @@ changefreq: monthly
 priority: 0.5
 ---
 
-.m-hero-contact
-  .row
-    .medium-6.medium-centered.columns
+.hero-contact
+  .row.align-center
+    .medium-6.columns
       br
       h1 Contacter David Leuliette
       = partial 'layouts/quick-contact'
 
-.row
-  .medium-5.push-1.columns
-    h2 Envoyer un message
-    ul
-      li
-        p
-          'Si vous cherchez un formateur sur les technologies front-end (HTML, JavaScript et CSS).
-      li
-        p
-          'Pour construire la prochaine application web moderne compatible smartphone, tablette, TV et ordinateur.
-      li
-        p
-          => link_to 'Coder du css de qualité', "http://guidecss.fr/"
-          'ou tout autre sujet autour du développement web.
-      li
-        p
-          'Organiser un co–voiturage pour la prochaine conférence abordant la thématique du web.
-      li
-        p
-          'Vous pouvez aussi me donner des nouvelles, je lis
-          strong
-           'tous mes emails.
+.row.align-center
+  .medium-5.columns
+    markdown:
+      ## Envoyer un message
 
-  .medium-5.pull-1.columns
-    h2 Coordonnées
-    ul
-      li
-        p
-          strong
-            'David Leuliette
-          'est enregistré au registre des commerces et des sociétés
-      li
-        p
-          strong
-            'Activité
-          'Programmation informatique
-      li
-        p
-          strong
-            'SIREN
-          '538202235
-      li
-        p
-          strong
-            'SIRET
-          '53820223500015
+      - Si vous cherchez un __formateur sur les technologies web__.
+      - __Mettre en ligne un MVP__ et valider votre idée de startup.
+      - Organiser un __co–voiturage pour la prochaine conférence__ abordant la thématique du web.
+      - Vous pouvez aussi me donner des nouvelles, je lis __tous mes emails__.
 
-section.m-section
-  .row
-    .medium-10.medium-centered.columns
+  .medium-5.columns
+    markdown:
+     ## Coordonnées
+
+      - __David Leuliette__ est enregistré au registre des commerces et des sociétés
+      - __Activité__ Programmation informatique
+      - __SIREN__ 538202235
+      - __SIRET__ 53820223500015
+
+section.section
+  .row.align-center
+    .medium-10.columns
       h2.text-center Ailleurs sur le web
       = partial 'layouts/social'

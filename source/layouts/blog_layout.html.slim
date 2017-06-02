@@ -3,10 +3,10 @@
     aside.medium-4.columns.hide-for-small
       = partial 'layouts/author'
       hr
-      .m-section
+      .section
         = partial 'layouts/stalk'
       hr
-      .m-section
+      .section
         .acolyte Recevoir des nouvelles par email
         form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
           .row.collapse
@@ -20,7 +20,7 @@
 
 
       hr
-      .m-section
+      .section
         .acolyte Derniers articles
         ul.m-blog--post-list
           - page_articles[0..4].each do |article|
@@ -29,7 +29,7 @@
                 = fa 'fa-fw fa-caret-right'
                 = article.title
       hr
-      .m-section
+      .section
         .acolyte Recherche sur le blog
         form action="https://www.google.com/search" method="get"
           input name="q" placeholder="Ex : Responsive design" type="search"
