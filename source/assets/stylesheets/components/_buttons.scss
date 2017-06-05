@@ -18,10 +18,8 @@
   }
   &.button-icon {
     &:after {
+      transition: all 200ms ease-in-out;
       position: absolute;
-      color: #ffffff;
-      line-height: 1.7em;
-      font-size: 22px !important;
       opacity: 0;
       margin-left: -1em;
       left: auto;

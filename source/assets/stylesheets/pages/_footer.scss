@@ -7,14 +7,12 @@
 }
 
 .m-footer--side-nav {
-  @include side-nav(
-    $link-color: $gray-dark,
-    $link-color-hover: $primary-color,
-    $link-bg-hover: transparent
-  );
+  @include menu-base;
+  @include menu-direction(vertical);
+
   a {
     font-weight: $font-weight-normal;
-    border-bottom: 0;
+    @include color-hover($gray-dark, $primary-color);
   }
   .l-title {
     padding: rem-calc(14);
@@ -25,7 +23,6 @@
 }
 
 .m-footer {
-  // background-color: $black;
   background-color: #24292e;
   background-image: image-url('star-bg.svg'), linear-gradient(#191c20, #24292e 15%);
   background-repeat: repeat-x;
@@ -41,7 +38,7 @@
     color: $gray;
   }
   .l-text {
-    padding: 0 $column-gutter;
+    // padding: 0 $column-gutter;
     font-size: rem-calc(13);
     text-align: center;
     opacity: 0.8;
@@ -60,7 +57,7 @@
 }
 
 p.m-footer--title {
-  @extend .vador;
+  @extend h3;
   margin-top: 0;
   margin-bottom: rem-calc(15);
   color: $secondary-color;

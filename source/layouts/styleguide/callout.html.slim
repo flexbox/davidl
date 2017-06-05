@@ -20,9 +20,7 @@ section.section
         = link_to w.link, class: 'callout-link' do
           .callout
             .l-icon-card
-              span.fa-stack.fa-lg
-                = fa 'fa-circle fa-stack-2x'
-                = fa "#{w.icon} fa-stack-1x fa-inverse"
+              = fa "#{w.icon} fa-2x"
               .l-icon-content
                 h3 = w.title
                 p = w.description

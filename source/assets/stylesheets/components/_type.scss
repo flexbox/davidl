@@ -73,10 +73,6 @@ pre {
 .sith    { @extend h4; }
 .acolyte { @extend h5; }
 
-blockquote {
-  font-style: italic;
-}
-
 a {
   font-weight: $font-weight-bold;
   padding: rem-calc(2);
@@ -105,10 +101,6 @@ a {
     content: " " !important;
     padding: 0;
   }
-}
-
-label small {
-  float: right;
 }
 
 .text-tiny {

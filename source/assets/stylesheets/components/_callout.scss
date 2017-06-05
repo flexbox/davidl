@@ -52,6 +52,9 @@
   }
 
   .l-icon {
+    .fa {
+      margin-left: rem-calc(20);
+    }
     &-card {
       display: flex;
       align-items: center;
@@ -61,7 +64,7 @@
     }
 
     &-content {
-      margin-left: rem-calc(40);
+      margin-left: rem-calc(20);
       @include breakpoint(small only) {
         align-self: flex-start;
       }
@@ -84,7 +87,8 @@ a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  i {
     color: $blue-dark;
   }
   &:hover {
@@ -93,7 +97,8 @@ a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
     h3,
     h4,
     h5,
-    h6 {
+    h6,
+    i {
       color: $primary-color;
     }
   }

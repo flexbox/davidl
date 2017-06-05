@@ -6,8 +6,6 @@
 
 @include foundation-everything($flex: true);
 
-@import "icones";
-
 // Usefull
 // @import "foundation/scss/normalize";
 // @import "foundation/scss/foundation/components/global";
@@ -23,8 +21,8 @@
 // @import "foundation/scss/foundation/components/side-nav";
 
 // Need refactor
-// @import "custom-typeplate";
-// @import "typeplate-starter-kit/scss/typeplate-index";
+@import "custom-typeplate";
+@import "typeplate-starter-kit/scss/typeplate-index";
 // @import "animate.css/source/base.css";
 // @import "animate.css/source/attention_seekers/bounce.css";
 // @import "animate.css/source/bouncing_entrances/bounceInDown.css";
@@ -37,14 +35,13 @@
 @import "components/pizza";
 @import "components/sections";
 @import "components/buttons";
-// @import "components/trianglify";
 @import "code";
 
 // @import "pages/about";
 // @import "pages/blog";
 // @import "pages/homepage";
 // @import "components/magellan";
-@import "pages/webdesign";
+// @import "pages/webdesign";
 // @import "pages/good-practice";
-// @import "pages/footer";
+@import "pages/footer";
 @import "pages/styleguide";
