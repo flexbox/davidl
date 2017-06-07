@@ -11,7 +11,6 @@ $blue-dark:  #11256C;
 
 $pink:       #F53FC7;
 
-// --
 $foundation-palette: (
   primary:   $blue,
   secondary: $pink,
@@ -22,19 +21,22 @@ $foundation-palette: (
 $light-gray:  $gray-light;
 $medium-gray: $gray;
 $dark-gray:   $gray-dark;
-// --
 
 $primary-color:   $blue;
 $secondary-color: $pink;
 
 
-$sc-amazon      : #E47911;
-$sc-twitter     : #00aced;
-$sc-google-plus : #dd4b39;
-$sc-github      : #333333;
-$sc-html        : #F06529;
-$sc-css         : #3399FF;
-$sc-js          : #F0DB4F;
+
+// Hover colors
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$sc-amazon:       #E47911;
+$sc-twitter:      #00aced;
+$sc-google-plus:  #dd4b39;
+$sc-github:       #333333;
+$sc-html:         #F06529;
+$sc-css:          #3399FF;
+$sc-js:           #F0DB4F;
 
 
 

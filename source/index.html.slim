@@ -25,21 +25,21 @@ blog: blog
 
 .section style="margin-top: 0;"
   .row
-    .medium-4.columns
+    .small-12.medium-4.columns
       .text-center
         = image_tag 'icons/animat-lightbulb-color.gif', alt: 'Product Designer animation', class: 'icons-skills'
       markdown:
         __Product Designer.__
         J’ai travaillé avec des start-ups et des grandes entreprises sur la recherche utilisateur, wireframes, création de MVP et tests utilisateurs.
 
-    .medium-4.columns
+    .small-12.medium-4.columns
       .text-center
         = image_tag 'icons/animat-pencil-color.gif', alt: 'CSS front-end animation', class: 'icons-skills'
       markdown:
         __Architecte CSS.__
         Je suis archimage certifié en `CSS` et `Sass`, avec une certaine expérience dans le développement de framework, création de styleguide et formation d’étudiants sur les technologies front-end.
 
-    .medium-4.columns
+    .small-12.medium-4.columns
       .text-center
         = image_tag 'icons/animat-rocket-color.gif', alt: 'JavaScript user', class: 'icons-skills'
       markdown:
@@ -109,8 +109,8 @@ blog: blog
 
           Je participe à l’__intelligence collective du mouvement open source__ en partageant mes connaissances
       hr
-      .row
-        .medium-8.medium-centered.columns
+      .row.align-center
+        .medium-8.columns
           ul.m-blog--post-list
             - data.projects.each_with_index do |project, i|
               - if project.stared.present?
@@ -148,8 +148,8 @@ blog: blog
           Pour maîtriser un sujet, vous devez l’enseigner aux autres
       hr
       p
-      .row
-        .medium-8.medium-centered.columns
+      .row.align-center
+        .medium-8.columns
           ul.m-blog--post-list
             - page_articles[0..4].each do |article, i|
               li
@@ -169,8 +169,8 @@ blog: blog
       = link_to 'Projets open source', 'https://github.com/flexbox/', class: 'button expand'
 
 section.section
-  .row
-    .medium-10.medium-centered.columns.text-center
+  .row.align-center
+    .medium-10.columns.text-center
       markdown:
         ## Je veux un web meilleur
         Je suis __designer et développeur__, la conception et la convivialité sont mon mode de vie. Cependant, ce n’est pas vrai pour la plupart des gens. Concevoir un très bon produit est un processus, et généralement c’est cher.<br> Je m’engage à bâtir un meilleur web en faisant tout mon possible pour livrer des sites internet rapides et accessibles.

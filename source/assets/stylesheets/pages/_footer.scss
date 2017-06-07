@@ -17,7 +17,7 @@
   .l-title {
     padding: rem-calc(14);
     text-transform: uppercase;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-black;
     font-family: $font-family-monospace;
   }
 }
@@ -61,5 +61,5 @@ p.m-footer--title {
   margin-top: 0;
   margin-bottom: rem-calc(15);
   color: $secondary-color;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-black;
 }

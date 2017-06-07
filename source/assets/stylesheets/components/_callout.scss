@@ -1,15 +1,15 @@
 .callout {
   transition: box-shadow $transition-duration ease-in-out;
-  box-shadow: 5px 5px 0px rgba($black, 0.2);
-  // @include typl8-hyphens(none);
+  box-shadow: 5px 5px 0px rgba($dark-gray, 0.2);
+  @include typl8-hyphens(none);
 
   &:hover {
     background-color: $callout-background-hover;
-    box-shadow: 1px 1px 0px rgba($black, 0.2);
+    box-shadow: 1px 1px 0px rgba($dark-gray, 0.2);
   }
 
   &.callout-border {
-    border-top: 5px solid $secondary-color;
+    border-left: 5px solid $secondary-color;
     margin: rem-calc(60 0 80 0);
     position: relative;
     a {

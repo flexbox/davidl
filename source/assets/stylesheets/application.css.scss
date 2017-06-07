@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+@import 'foundation-sites/scss/util/unit';
 @import 'colors';
 @import 'settings-custom';
 @import 'foundation-sites/scss/foundation';
@@ -20,15 +21,15 @@
 // Need to update
 // @import "foundation/scss/foundation/components/side-nav";
 
-// Need refactor
 @import "custom-typeplate";
-@import "typeplate-starter-kit/scss/typeplate-index";
+@import "typeplate-starter-kit/scss/typeplate-mixins";
+// Need refactor
 // @import "animate.css/source/base.css";
 // @import "animate.css/source/attention_seekers/bounce.css";
 // @import "animate.css/source/bouncing_entrances/bounceInDown.css";
 // @import "animate.css/source/bouncing_exits/bounceOutUp.css";
 
-// @import "components/type";
+@import "components/typography";
 @import "components/topbar";
 @import "components/hero-banner";
 @import "components/callout";
