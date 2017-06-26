@@ -1,0 +1,30 @@
+work:
+  -
+    name: Mailchimp
+    link: http://eepurl.com/O9G7H
+    win: 30$ de crédit pour vos premiers tests
+  -
+    name: Evernote
+    link: https://www.evernote.com/referral/Registration.action?sig=3258311152e8cedf974c65f4c6b60bb17474335313afcebb6f914444f22b4995&uid=22499360
+    win: Pro account pour 1 mois
+  -
+    name: Dropbox
+    link: https://db.tt/fQ4OCyZHyQ
+    win: 1 Go d‘espace de stockage supplémentaire
+  -
+    name: Typeform
+    link: http://referral.typeform.com/mzclYBD
+    win: -10% sur votre prochaine facture
+  -
+    name: RescueTime
+    link: https://www.rescuetime.com/ref/1486380
+    win: Pro account pour 1 mois
+travel:
+  -
+    name: Airbnb
+    link: https://www.airbnb.fr/c/dleuliette
+    win: 35€ de réduction sur votre premier voyage
+  -
+    name: Revolut
+    win: Makes currency exchange totally free
+    link: https://revolut.com/r/davidgp1

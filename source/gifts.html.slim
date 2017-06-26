@@ -1,0 +1,32 @@
+---
+title: Programme d'affiliation
+description:
+page_title: Code promotion
+page_emphasis: Inscrivez vous à ces services et bénéficiez de cadeau
+---
+
+section.m-section.l-light
+  .row
+    .medium-10.medium-centered.columns
+      h2 Work
+      ul
+        - data.gifts.work.each do |w|
+          li
+            strong = w.name
+            br
+            = w.win
+            br
+            = link_to w.link, w.link
+
+section.m-section
+  .row
+    .medium-10.medium-centered.columns
+      h2 Voyages
+      ul
+        - data.gifts.travel.each do |t|
+          li
+            strong = t.name
+            br
+            = t.win
+            br
+            = link_to t.link, t.link
