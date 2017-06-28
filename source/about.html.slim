@@ -2,7 +2,7 @@
 title: Intégrateur web et développeur front-end à Lille et Bruxelles
 description: "Anciennement intégrateur HTML & CSS, j’ai monté de niveau et j’exerce le métier de développeur front-end dans le Nord Hau de France entre Lille, Paris et Bruxelles"
 page_title: 'Designer & développeur'
-page_emphasis: Apprendre quelque chose de nouveau <em>chaque jour</em>
+page_emphasis: Mon nindo est d’apprendre quelque chose de nouveau chaque jour
 changefreq: monthly
 priority: 1
 ---
@@ -10,66 +10,77 @@ priority: 1
 - content_for :javascripts do
   = javascript_include_tag 'front/about'
 
-.row
-  .medium-10.medium-centered.columns
-    h2 Mon histoire
-    .row
-      .medium-3.columns
-        .m-photo-album
-          = image_tag 'front/windows-95.jpg', alt: 'Windows 95 party', title: 'Lancement de windows 95'
-      .medium-9.columns
-        markdown:
-          J’ai découvert internet en 1998 à l’époque du 56k, de Caramail et de Lycos. Je n’ai rien râté depuis, grâce à un système de veille efficace, ma persévérance et ma passion.
+section.section style="margin-top: 0;"
+  .row.align-center
+    .medium-10.columns
+      .row.align-middle
+        .medium-3.columns
+          .m-photo-album
+            = image_tag 'front/windows-95.jpg', alt: 'Windows 95 party', title: 'Lancement de windows 95'
+        .medium-9.columns
+          markdown:
+            ## Mon histoire
 
-          Je vis à Lille, dans le nord de la France. Mon travail ? Coder des [features](http://git-scm.com/about) pour rendre le monde meilleur à travers un __web plus libre__, __plus rapide__ et à __l’épreuve du temps__.
+            J’ai découvert internet en 1998 à l’époque du 56k, de Caramail et de Lycos. Je n’ai rien râté depuis, grâce à un système de veille efficace, ma persévérance et ma passion.
 
-    h3 Jour après jour
-    .row
-      .medium-3.columns
-        .m-photo-album
-          = image_tag gravatar_for(data.settings.social.email), alt: 'Portrait David Leuliette Aperture Science', title: 'Design basé sur la science'
-      .medium-9.columns
-        markdown:
-          - Découverte de nouveaux produits.
-          - Recherches sur l’__expérience utilisateur__.
-          - Croquis et brainstroming.
-          - __Prototypage d’interfaces__.
-          - Tests d’utilisabilité.
-          - Codage HTML / CSS (Généralement avec un préprocesseur comme Sass) correctement architecturé et évolutif.
-          - Tout cela en étroite collaboration avec les ingénieurs et les graphistes.
+            Je vis à Lille, dans le nord de la France. Mon travail ? Coder des [features](http://git-scm.com/about) pour rendre le monde meilleur à travers un __web plus libre__, __plus rapide__ et à __l’épreuve du temps__.
 
-    h3 Architecte front-end
-    .row
-      .medium-3.columns
-        .m-photo-album
-          = image_tag 'front/sublime-macosx.jpg', alt: 'David Leuliette travaille sur un environement UNIX', title: 'Sublime text on Mac OS X'
-      .medium-9.columns
-        markdown:
-          Je suis __programmeur__ ayant une vaste expérience en codage, __designer__ par passion, curieux intellectuellement, et dans la vie je donne le meilleur de moi même pour une chose :
+      section.section
+        .row.align-middle
+          .medium-3.columns
+            .m-photo-album
+              = image_tag gravatar_for(data.settings.social.email), alt: 'Portrait David Leuliette Aperture Science', title: 'Design basé sur la science'
+          .medium-9.columns
+            markdown:
+              ### Jour après jour
 
-          > Résoudre de réels problèmes pour les utilisateurs finaux
+              - Découverte de nouveaux produits.
+              - Recherches sur l’__expérience utilisateur__.
+              - Croquis et brainstroming.
+              - __Prototypage d’interfaces__.
+              - Tests d’utilisabilité.
+              - Codage HTML / CSS (Généralement avec un préprocesseur comme Sass) correctement architecturé et évolutif.
+              - Tout cela en étroite collaboration avec les ingénieurs et les graphistes.
 
-          Je développe en conservant la performance à l’esprit – parce que sur internet, comme dans la vraie vie, le temps c’est de l’argent.
 
-    section.section
+      .row.align-middle
+        .medium-3.columns
+          .m-photo-album
+            = image_tag 'front/sublime-macosx.jpg', alt: 'David Leuliette travaille sur un environement UNIX', title: 'Sublime text on Mac OS X'
+        .medium-9.columns
+          markdown:
+            ### Architecte front-end
+
+            Je suis __programmeur__ ayant une vaste expérience en codage, __designer__ par passion, curieux intellectuellement, et dans la vie je donne le meilleur de moi même pour une chose :
+
+            > Résoudre de réels problèmes pour les utilisateurs finaux
+
+            Je développe en conservant la performance à l’esprit – parce que sur internet, comme dans la vraie vie, le temps c’est de l’argent.
+
+
+section.section.l-light
+  .row.align-center
+    .medium-10.columns
       h2 Compagnons
       .row
         .medium-6.columns
           h3
-            .i-custom.icon-html
+            = fa 'fa-html5 fa-fw text-html'
             'HTML5
           p
             'Les <strong>standards du Web sont importants</strong>, et j'y adhère. Plus précisément, je valide que mon marquage respecte HTML5.
           h3
-            .i-custom.icon-3-css
+            = fa 'fa-css3 fa-fw text-css'
             'CSS3
           p
             'Si vous rencontrez un problème de mise en page dans votre navigateur, vous utillisez probablement un navigateur <strike>de merde</strike> qui ne supporte pas les standards du web.
           h3
-            .i-custom.icon-js
+            = fa 'fa-jsfiddle fa-fw text-js'
             'JavaScript
           p
-            'Pour donner des interactions à vos pages il est de nos jours indispensable d'utiliser du JavaScript. Je suis également fondateur et participant
+            'Pour donner des interactions à vos pages il est de nos jours indispensable d'utiliser du JavaScript.
+            br
+            'Je suis également fondateur
             = link_to 'du groupe chtiJS', 'http://chtijs.francejs.org/'
             '.
         .medium-6.columns
@@ -86,7 +97,9 @@ priority: 1
               => link_to 'd’autres outils du XXIème siècle', '/dev/tools.html'
               'pour coder de façon sérieuse et évolutive.
 
-    section.section
+section.section
+  .row.align-center
+    .medium-10.columns
       h2 Compétences
       .row
         .medium-8.columns
@@ -116,7 +129,7 @@ priority: 1
                 'Télécharger mon CV
                 i.fa.fa-external-link
 
-section.section
+section.section.l-light
   .row
     .medium-12.columns
       h2 Ma philosophie ? évolution et partage
@@ -170,15 +183,15 @@ section.section
           = interview.title
 
 
-section.section
-  .row
-    .medium-10.medium-centered.columns
+section.section.l-light
+  .row.align-center
+    .medium-10.columns
       h2 Où peut-on me trouver sur internet ?
       = partial 'layouts/social'
 
 section.section
-  .row
-    .medium-10.medium-centered.columns
+  .row.align-center
+    .medium-10.columns
       h2.text-center Toujours pas convaincu ?
       .text-center
         p Découvez comment je respecte les standards du web en créant des produits évolutifs
