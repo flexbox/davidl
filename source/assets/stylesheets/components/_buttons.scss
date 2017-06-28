@@ -7,12 +7,16 @@
   &:hover,
   &:focus {
     background-color: $body-background;
+    border-color: $body-background;
     color: $primary-color;
   }
   &.secondary {
+    color: $white;
+
     &:hover,
     &:focus {
       background-color: $body-background;
+      border-color: $body-background;
       color: $secondary-color;
     }
   }

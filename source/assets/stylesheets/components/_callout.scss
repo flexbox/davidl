@@ -79,6 +79,16 @@ a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
 }
 
 .callout-link {
+  font-weight: inherit;
+  padding: inherit;
+  border-bottom: 0;
+  transition: none;
+
+  &:hover {
+    border-bottom: 0;
+    background-color: transparent;
+  }
+
   .callout {
     min-height: rem-calc(180);
   }
@@ -89,7 +99,7 @@ a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
   h5,
   h6,
   i {
-    color: $blue-dark;
+    color: $gray-blue;
   }
   &:hover {
     h1,
@@ -103,5 +113,3 @@ a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
     }
   }
 }
-
-

@@ -5,21 +5,41 @@
 @import 'settings-custom';
 @import 'foundation-sites/scss/foundation';
 
+@mixin foundation-everything(
+  $flex: true
+) {
+  @if $flex {
+    $global-flexbox: true !global;
+  }
+
+  @include foundation-global-styles;
+  @if not $flex {
+    @include foundation-grid;
+  }
+  @else {
+    @if $xy-grid {
+      @include foundation-xy-grid-classes;
+    }
+    @else {
+      @include foundation-flex-grid;
+    }
+  }
+  @include foundation-typography;
+  @include foundation-forms;
+  @include foundation-button;
+  @include foundation-callout;
+  @include foundation-menu;
+  @include foundation-responsive-embed;
+  @include foundation-media-object;
+  @include foundation-title-bar;
+  @include foundation-visibility-classes;
+
+  @if $flex {
+    @include foundation-flex-classes;
+  }
+}
+
 @include foundation-everything($flex: true);
-
-// Usefull
-// @import "foundation/scss/normalize";
-// @import "foundation/scss/foundation/components/global";
-// @import "foundation/scss/foundation/components/buttons";
-// @import "foundation/scss/foundation/components/forms";
-// @import "foundation/scss/foundation/components/grid";
-// @import "foundation/scss/foundation/components/magellan";
-// @import "foundation/scss/foundation/components/panels";
-// @import "foundation/scss/foundation/components/type";
-// @import "foundation/scss/foundation/components/visibility";
-
-// Need to update
-// @import "foundation/scss/foundation/components/side-nav";
 
 @import "custom-typeplate";
 @import "typeplate-starter-kit/scss/typeplate-mixins";
@@ -41,8 +61,12 @@
 // @import "pages/about";
 // @import "pages/blog";
 // @import "pages/homepage";
-// @import "components/magellan";
 // @import "pages/webdesign";
 // @import "pages/good-practice";
 @import "pages/footer";
 @import "pages/styleguide";
+
+// Need to refactor for menu
+// @import "foundation/scss/foundation/components/magellan";
+// @import "foundation/scss/foundation/components/side-nav";
+// @import "components/magellan";
