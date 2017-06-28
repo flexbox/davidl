@@ -1,31 +1,33 @@
-.m-footer--section {
+.footer-navigation {
   padding-top: rem-calc(40);
   padding-bottom: rem-calc(40);
-  background-color: $gray;
+  background-color: $turquoise;
   position: relative;
   z-index: 90;
+  font-size: rem-calc(16);
+
+  .footer-links {
+    @include menu-base;
+    @include menu-direction(vertical);
+
+    a {
+      font-weight: $font-weight-normal;
+      @include color-hover($gray-dark, $primary-color);
+      background: transparent;
+      border-bottom: 0;
+    }
+    .title {
+      padding: rem-calc(14);
+      text-transform: uppercase;
+      font-family: $font-family-monospace;
+      color: $yellow;
+      font-weight: $global-weight-bold;
+    }
+  }
 }
 
-.m-footer--side-nav {
-  @include menu-base;
-  @include menu-direction(vertical);
 
-  a {
-    font-weight: $font-weight-normal;
-    @include color-hover($gray-dark, $primary-color);
-    background: transparent;
-    border-bottom: 0;
-  }
-  .l-title {
-    padding: rem-calc(14);
-    text-transform: uppercase;
-    font-weight: $font-weight-black;
-    font-family: $font-family-monospace;
-    color: $gray-blue;
-  }
-}
-
-.m-footer {
+.footer {
   background-color: #24292e;
   background-image: image-url('star-bg.svg'), linear-gradient(#191c20, #24292e 15%);
   background-repeat: repeat-x;
@@ -38,13 +40,7 @@
   z-index: 90;
 
   p {
-    color: $gray;
-  }
-  .l-text {
-    padding: 0 rem-calc(20);;
-    font-size: rem-calc(13);
-    text-align: center;
-    opacity: 0.8;
+    color: $white;
   }
 
   label {
@@ -54,15 +50,16 @@
   a {
     border: none;
   }
-  hr {
-    border-color: rgba($gray-light, 0.2);
+  .title-subscribe {
+    @extend h4;
+    margin-top: rem-calc(40);
+    color: $secondary-color;
+    font-weight: $font-weight-black;
+  }
+
+  .colophon {
+    text-align: center;
+    margin-top: rem-calc(40);
   }
 }
 
-p.m-footer--title {
-  @extend h3;
-  margin-top: 0;
-  margin-bottom: rem-calc(15);
-  color: $secondary-color;
-  font-weight: $font-weight-black;
-}

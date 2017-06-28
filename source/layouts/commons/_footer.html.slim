@@ -1,10 +1,10 @@
-.m-footer--section
+.footer-navigation
   .row.align-center
     .medium-10.columns
       nav.row role="navigation"
         .small-6.medium-3.columns
-          ul.m-footer--side-nav role="menubar"
-            li.l-title Apprendre
+          ul.footer-links role="menubar"
+            li.title Apprendre
             li role="menuitem"
               = link_to 'Formations', '/learn/formations.html'
             li role="menuitem"
@@ -14,8 +14,8 @@
             li role="menuitem"
               = link_to 'Typographie', '/design/typography.html', title: "Conseils sur la typographie pour le web"
         .small-6.medium-3.columns
-          ul.m-footer--side-nav role="menubar"
-            li.l-title Open Source
+          ul.footer-links role="menubar"
+            li.title Open Source
             li role="menuitem"
               = link_to 'Guide CSS', 'http://guidecss.fr', title: "Comment architecturer de larges applications web"
             li role="menuitem"
@@ -25,8 +25,8 @@
             li role="menuitem"
               = link_to 'More…', 'https://github.com/flexbox', title: "Projet open source sur GitHub"
         .small-6.medium-3.columns
-          ul.m-footer--side-nav role="menubar"
-            li.l-title À propos
+          ul.footer-links role="menubar"
+            li.title À propos
             li role="menuitem"
               = link_to 'En savoir plus', '/about.html', title: 'Je peux vous aider'
             li role="menuitem"
@@ -36,8 +36,8 @@
             li role="menuitem"
               = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
         .small-6.medium-3.columns
-          ul.m-footer--side-nav role="menubar"
-            li.l-title Contact
+          ul.footer-links role="menubar"
+            li.title Contact
             li role="menuitem"
               = link_to data.settings.social.email, "mailto:#{data.settings.social.email}?subject=Demande%20contact&body=Bonjour%20David%20%21%0D%0A%0D%0ANom%20complet%20%3A%0D%0A%0D%0AActuellement%20mon%20plus%20grand%20d%C3%A9fi%20c%27est%20%0D%0A%0D%0AJ%27ai%20entendu%20parler%20de%20ton%20site%20sur%20"
             li role="menuitem"
@@ -48,10 +48,11 @@
               = link_to 'Services', '/workflow/work.html', title: 'Vous pouvez m’enbaucher'
 
 
-footer.m-footer role="contentinfo"
+footer.footer role="contentinfo"
   .row.align-center
     .medium-8.columns
-      p.m-footer--title Améliorer vos compétences jusqu’au prochain niveau
+      p.title-subscribe
+        'Améliorer vos compétences jusqu’au prochain niveau
       p Vous êtes prêt à aller au-delà de la construction de site internet de base. Vous connaissez les technologies web et vous souhaitez maitriser les techniques que les développeurs senior utilisent ?
       form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
         .row
@@ -59,7 +60,7 @@ footer.m-footer role="contentinfo"
             label for="js-mailchimpemail"
               'Abonnez-vous et commencez votre voyage pour devenir un expert
 
-        .row
+        .row.expanded
           .small-8.columns
             input type="email" name="EMAIL" id="js-mailchimpemail" class="m-mailchimpemail" placeholder="youare@weso.me" required="" autocapitalize="none" autocorrect="off"
             .hide
@@ -67,16 +68,15 @@ footer.m-footer role="contentinfo"
           .small-4.columns
             button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button postfix"
               'Apprenez-moi
-
-footer.m-footer
-  p.l-text
-    'Ce site open source est hébergé sur
-    = link_to 'GitHub', 'https://github.com/flexbox/davidl'
-    '. Patches, suggestions et commentaires sont les bienvenus.
-    br
-    'davidl.fr est rédigé et administré par
-    = link_to 'David Leuliette', '/human.txt'
-    '. Dernière mise à jour le
-    time datetime="#{DateTime.now.strftime('%Y-%m-%d')}"
-      = DateTime.now.strftime('%d/%m/%Y')
-      '.
+      .colophon
+        p
+          small
+            'davidl.fr est rédigé et administré par
+            = link_to 'David Leuliette', '/human.txt'
+            ', Hébergé sur
+            => link_to 'GitHub', 'https://github.com/flexbox/davidl/'
+            br
+            'Dernière mise à jour le
+            time datetime="#{DateTime.now.strftime('%Y-%m-%d')}"
+              = DateTime.now.strftime('%d/%m/%Y')
+              '.
