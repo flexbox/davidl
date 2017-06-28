@@ -100,9 +100,9 @@ blog: blog
     .medium-3.columns
       = link_to 'Workflow', '/workflow/work.html', class: 'button secondary expand'
 
-.row
-  .medium-12.columns
-    section.section
+section.section
+  .row
+    .medium-12.columns
       .text-center
         markdown:
           ## Projets open source
@@ -119,12 +119,13 @@ blog: blog
                   p.l-description
                     = project.description
 
-    section.section
-      .text-center
-        markdown:
-          ## Community leader
+section.section.l-light
+  .row
+    .medium-12.columns.text-center
+      markdown:
+        ## Community leader
 
-          J’aide à l’organisation & donne des conférences dans différents meetups
+        J’aide à l’organisation & donne des conférences dans différents meetups
       hr
       .row.align-center
         .columns.shrink
@@ -140,7 +141,9 @@ blog: blog
           = link_to 'http://ruby-nord.org/', title: 'Mentor ruby spécialisé front-end', class: 'link-reset' do
             = image_tag 'front/homepage/logo-ruby-nord.png', alt: 'David Leuliette coach pour ruby nord'
 
-    section.section
+section.section
+  .row
+    .medium-12.columns
       .text-center
         markdown:
           ## Publication d’articles

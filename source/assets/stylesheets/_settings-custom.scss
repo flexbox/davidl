@@ -26,8 +26,9 @@ $header-font-family: 'Chivo', sans-serif;
 $header-font-weight: $font-weight-black;
 $font-family-monospace:  'Ubuntu Mono', 'Monaco', monospace;
 
-$code-font-weight: $font-weight-black;
-$code-background-color: transparent;
+$code-font-weight: normal;
+$code-background: transparent;
+$code-border: none;
 
 $header-color: $body-font-color;
 $header-lineheight: 1.1;

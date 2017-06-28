@@ -9,11 +9,10 @@
 }
 
 .section--inverse {
-  background-color: $black;
-  background-image: linear-gradient(to bottom, rgba($gray-dark, 0.4), $black);
+  background-color: $blue-dark;
   padding: rem-calc(40 20);
   margin: rem-calc(40 0);
-  box-shadow: rem-calc(-200) 0 0 0 $black;
+  box-shadow: rem-calc(-500) 0 0 0 $blue-dark;
   @include typl8-hyphens(none);
 
   p {

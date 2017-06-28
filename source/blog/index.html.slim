@@ -19,6 +19,11 @@ blog: blog
                 = link_to '/learn/newsletter.html', class: 'button secondary small' do
                   i.fa.i-custom.fa-envelope
                   'S’inscrire par email
+          li
+            em: time datetime="#{article.date}" pubdate="" class="text-tiny"
+              => article.date.strftime('%B %d, %Y')
+            = link_to article.title, article, class: 'm-post--link'
+            hr
 
         - elsif i == 30
           section.section--inverse
@@ -29,6 +34,11 @@ blog: blog
                 = link_to data.settings.social.rss.url, class: 'button small' do
                   i.fa.i-custom.fa-rss
                   'Abonnement au flux RSS
+          li
+            em: time datetime="#{article.date}" pubdate="" class="text-tiny"
+              => article.date.strftime('%B %d, %Y')
+            = link_to article.title, article, class: 'm-post--link'
+            hr
 
         - elsif i == 50
           section.section--inverse
