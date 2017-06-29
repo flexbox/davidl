@@ -5,8 +5,8 @@ page_title: Consultant front-end
 page_emphasis: Ma vision d'un travail bien fait préparé pour l'avenir
 ---
 
-.row
-  .medium-8.medium-centered.columns
+.row.align-center
+  .medium-8.columns
     markdown:
       ## Pourquoi travailler avec un designer ?
 
@@ -39,69 +39,72 @@ page_emphasis: Ma vision d'un travail bien fait préparé pour l'avenir
 
       > Le design est une façon de travailler, d’être ouvert et inspiré. C’est une façon de résoudre les problèmes, et peut s’appliquer à n’importe qui, que vous soyez directeur général, graphiste, enseignant ou encore étudiant.
 
-    h2 Compétences
+section.section.l-light
+  .row.align-center
+    .medium-8.columns
+      h2 Compétences
 
-    .row
-      .medium-8.columns
+      .row
+        .medium-8.columns
+          p
+            'Depuis plusieurs années je développe mon framework de conception qui contient divers délivrables :
+          ul
+            li Création de wireframe
+            li Développement de styleguide
+            li Interactions utilisateurs
+        .medium-4.columns
+          .m-photo-album
+            = image_tag 'front/work/kanban.jpg', alt: 'Post-it gestion de projet'
+
+        markdown:
+          ### Gestion de projet
+
+          Pour la plupart des personnes travaillant dans le numérique, quelques notions de gestion de projet sont nécessaires pour travailler efficacement. Il faut être certain que le produit final corresponde à la demande du client, sans dépasser le budget alloué.
+
+          ### Implémentation technique
+
+          Architecturer correctement des applications web est une partie intrasèque de mon métier. C'est pour cette raison que j'ai des connaissances spécialisées.
+
+          - Langages
+          - Protocoles
+          - Codage
+          - Débugage
+          - Phase de test
+
+          ### Production de contenu
+
+          > Le code source est écrit pour les humains, pas pour les machines
+          > <cite> Hans Christian Reinl</cite>
+
+
         p
-          'Depuis plusieurs années je développe mon framework de conception qui contient divers délivrables :
-        ul
-          li Création de wireframe
-          li Développement de styleguide
-          li Interactions utilisateurs
-      .medium-4.columns
-        .m-photo-album
-          = image_tag 'front/work/kanban.jpg', alt: 'Post-it gestion de projet'
+          'Pour l'évolution des projets, il est impératif d'écrire un minimum de documentation, pour les prochains développeurs, pour les collègues et pour moi même. En tant que
+          => link_to 'développeur open source', data.settings.social.github
+          ', partager ses connaissances me semble essentiel.
 
       markdown:
-        ### Gestion de projet
+        ### Mise en oeuvre de la conception
 
-        Pour la plupart des personnes travaillant dans le numérique, quelques notions de gestion de projet sont nécessaires pour travailler efficacement. Il faut être certain que le produit final corresponde à la demande du client, sans dépasser le budget alloué.
+        J'utilise _intelligement_ les frameworks que je maitrise pour être rapide et resté concentré sur la “big picture” des projets.
 
-        ### Implémentation technique
+        Cela permet de dégager du temps pour travailler sur les détails visuels, mais aussi plus spécifiquement au niveau des interactions utilisateurs.
 
-        Architecturer correctement des applications web est une partie intrasèque de mon métier. C'est pour cette raison que j'ai des connaissances spécialisées.
+        ## Un sytème gagnant - gagnant
 
-        - Langages
-        - Protocoles
-        - Codage
-        - Débugage
-        - Phase de test
+        En tant que client vous avez deux options :
 
-        ### Production de contenu
+        - me rémunérer pour mon travail d'investigation bien documenté,
+        - donner la feuille de route à quelqu'un d'autre pour réaliser la mise en œuvre
 
-        > Le code source est écrit pour les humains, pas pour les machines
-        > <cite> Hans Christian Reinl</cite>
+        Vous ne prenez donc __aucun risque__ car vous êtes gagnant dans les 2 cas.
 
+        J’espère qu’il est facile pour vous de voir la valeur de payer un consultant pour une feuille de route (Généralement moins de 10% des frais de projet).
 
-      p
-        'Pour l'évolution des projets, il est impératif d'écrire un minimum de documentation, pour les prochains développeurs, pour les collègues et pour moi même. En tant que
-        => link_to 'développeur open source', data.settings.social.github
-        ', partager ses connaissances me semble essentiel.
-
-    markdown:
-      ### Mise en oeuvre de la conception
-
-      J'utilise _intelligement_ les frameworks que je maitrise pour être rapide et resté concentré sur la “big picture” des projets.
-
-      Cela permet de dégager du temps pour travailler sur les détails visuels, mais aussi plus spécifiquement au niveau des interactions utilisateurs.
-
-      ## Un sytème gagnant - gagnant
-
-      En tant que client vous avez deux options :
-
-      - me rémunérer pour mon travail d'investigation bien documenté,
-      - donner la feuille de route à quelqu'un d'autre pour réaliser la mise en œuvre
-
-      Vous ne prenez donc __aucun risque__ car vous êtes gagnant dans les 2 cas.
-
-      J’espère qu’il est facile pour vous de voir la valeur de payer un consultant pour une feuille de route (Généralement moins de 10% des frais de projet).
-
-      - - -
+        - - -
 
 section.section
-  .row
-    .medium-10.medium-centered.columns
+  .row.align-center
+    .medium-10.columns
       h2.text-center Je peux vous aider, faites le moi savoir
       .text-center
         = link_to 'https://flexbox.typeform.com/to/yzVxhi', class: 'button secondary typeform-share', 'data-mode' => 'popup', target: '_blank' do
