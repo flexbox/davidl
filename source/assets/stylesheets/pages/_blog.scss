@@ -28,15 +28,17 @@
   time {
     margin: rem-calc(0 20 10 0);
     display: block;
+    font-family: $font-family-monospace;
   }
 }
 
 .m-post--link {
   font-size: 24px;
-  color: $black;
   font-weight: $font-weight-normal;
   display: block;
-  &:hover {
+  color: $body-font-color;
+  &:hover,
+  &:focus {
     background: transparent;
     color: $secondary-color;
   }
