@@ -12,12 +12,11 @@ blog: blog
       - page_articles.each_with_index do |article, i|
         - if i == 10
           section.section--inverse
-            .row
+            .row.align-middle
               .medium-8.columns
                 p Recevoir gratuitement des conseils sur les technologies front-end
               .medium-4.columns
                 = link_to '/learn/newsletter.html', class: 'button secondary small' do
-                  i.fa.i-custom.fa-envelope
                   'S’inscrire par email
           li
             = link_to article.title, article, class: 'blog-post-link'
@@ -27,12 +26,11 @@ blog: blog
 
         - elsif i == 30
           section.section--inverse
-            .row
+            .row.align-middle
               .medium-8.columns
                 p Lire le contenu dans une autre application, ou en mode hors-ligne
               .medium-4.columns
                 = link_to data.settings.social.rss.url, class: 'button small' do
-                  i.fa.i-custom.fa-rss
                   'Abonnement au flux RSS
           li
             = link_to article.title, article, class: 'blog-post-link'
@@ -42,15 +40,14 @@ blog: blog
 
         - elsif i == 50
           section.section--inverse
-            .row
+            .row.align-middle
               .medium-8.columns
                 p
                   'Suivez
-                  b> = data.settings.social.twitter.name
+                  strong> = data.settings.social.twitter.name
                   ' sur Twitter pour obtenir les dernières mises à jour
               .medium-4.columns
                 = link_to data.settings.social.twitter.url, class: 'button info small' do
-                  i.fa.i-custom.fa-twitter
                   'Suivre
 
         - else
@@ -93,7 +90,7 @@ section.section
           - if book.stared.present?
             .columns
               = image_tag "front/books/#{book.image}", alt: book.title
+      br
       .text-center
-        = link_to '/learn/books.html', class: 'button' do
+        = link_to '/learn/books.html', class: 'button button-icon', data: {icon: '▸'} do
           |Lire mes recommandations
-          i.fa.fa-fw.fa-arrow-right

@@ -2,14 +2,33 @@
   margin: rem-calc(60) 0 rem-calc(80);
   padding: rem-calc(40) 0;
   &.l-light {
-    margin: 0;
     background-color: $gray;
-    padding: rem-calc(60) 0;
+    margin: 0;
+    padding: rem-calc(60 0);
+  }
+  &.secondary {
+    margin: 0;
+    background-color: $secondary-color;
+    padding: rem-calc(60 0);
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $yellow;
+    }
   }
 }
 
 .section--inverse {
   background-color: $blue-dark;
+  background-image: image-url('star-bg.svg');
+  background-repeat: repeat-x;
+  background-position: center 0;
+  background-size: 100% auto;
+
   padding: rem-calc(40 20);
   margin: rem-calc(40 0);
   box-shadow: rem-calc(-500) 0 0 0 $blue-dark;
@@ -44,15 +63,6 @@
     a {
       color: $white;
       border-color: $white;
-    }
-  }
-}
-
-.m-homepage {
-  .section--inverse {
-    .button {
-      margin: 0;
-      line-height: rem-calc(45);
     }
   }
 }

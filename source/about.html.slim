@@ -1,10 +1,8 @@
 ---
 title: Intégrateur web et développeur front-end à Lille et Bruxelles
-description: "Anciennement intégrateur HTML & CSS, j’ai monté de niveau et j’exerce le métier de développeur front-end dans le Nord Haut de France entre Lille, Paris et Bruxelles"
-page_title: 'Designer & développeur'
-page_emphasis: Mon nindo est d’apprendre quelque chose de nouveau chaque jour
-changefreq: monthly
-priority: 1
+description: Anciennement intégrateur web, j’ai monté de niveau et j’exerce le métier de développeur front-end dans le Nord Haut de France entre Lille, Paris et Bruxelles
+page_title: "Designer & développeur"
+page_emphasis: "Mon nindo est d’apprendre quelque chose de nouveau chaque jour"
 ---
 
 - content_for :javascripts do
@@ -84,9 +82,7 @@ section.section.l-light
             = link_to 'du groupe chtiJS', 'http://chtijs.francejs.org/'
             '.
         .medium-6.columns
-          h3
-            .i-custom.icon-command-promt-1
-            'Terminal
+          h3 Terminal
           p Je déploie mes applications web grâce à git.
           = image_tag 'front/init-npm-install.gif', alt: 'Node package manager install'
           br
@@ -154,11 +150,11 @@ section.section.l-light
       p
         'Vous l’avez compris, ma plus grande satisfaction est celle des utilisateurs. La course à la notoriété n’est rien à côté des rencontres enrichissantes que je provoque en participant aux nombreux événements organisés par la communauté.
 
-section.section
+section.section.secondary
   .row
     .medium-6.columns
       h2
-        .i-custom.icon-champion-cup-winner.subheader
+        = fa 'fa-trophy  fa-fw subheader'
         'Récompenses
       markdown:
         Vainqueur des open du web #3 : [catégorie intégration](http://blog.open-du-web.fr/2012/12/les-gagnants-repartent-en-trottinette/)
@@ -172,7 +168,7 @@ section.section
         Member of [sketchnote army](http://sketchnotearmy.com/blog/2016/8/17/100-days-across-south-america-lima-to-ushuaia-david-leuliett.html)
     .medium-6.columns
       h2
-        i.fa.fa-microphone.subheader>
+        = fa 'fa-microphone fa-fw subheader'
         'Interviews
       - data.achievements.interviews.each do |interview|
         p
@@ -188,11 +184,3 @@ section.section.l-light
     .medium-10.columns
       h2 Où peut-on me trouver sur internet ?
       = partial 'layouts/social'
-
-section.section
-  .row.align-center
-    .medium-10.columns
-      h2.text-center Toujours pas convaincu ?
-      .text-center
-        p Découvez comment je respecte les standards du web en créant des produits évolutifs
-        = link_to 'Méthode de travail', '/workflow/work.html', class: 'button secondary'

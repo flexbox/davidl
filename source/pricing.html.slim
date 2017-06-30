@@ -45,9 +45,10 @@ priority: 0.6
                     li = subitem.content
               h4.small = item.price
 
-section.section
+section.section.l-light
   .row.align-center
-    .medium-10.columns
-      h2.text-center Je suis là pour vous aider
-      .text-center
-        = mail_to data.settings.social.email, 'Contacter par email', class: 'button secondary'
+    .medium-10.columns.text-center
+      markdown:
+        ## Réussir votre prochain projet
+        Je peux vous aider le temps d’une journée ou plus.
+      a class="typeform-share button secondary" href="https://flexbox.typeform.com/to/yzVxhi" data-mode="popup" target="_blank" Rencontrer David Leuliette
