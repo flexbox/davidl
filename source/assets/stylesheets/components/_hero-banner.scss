@@ -22,6 +22,7 @@ $banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%)
     font-size: rem-calc(40);
     padding: rem-calc(20 10 10 10);
     margin-bottom: 0;
+    letter-spacing: -1px;
   }
   .emphasis {
     padding-left: rem-calc(10);

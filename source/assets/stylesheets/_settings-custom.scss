@@ -58,11 +58,13 @@ $anchor-color-hover: $white;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 
-$blockquote-color: $dark-gray;
+$blockquote-color: $turquoise;
 $blockquote-padding: rem-calc(9 20 0 19);
-$blockquote-border: 5px solid $dark-gray;
-$cite-font-size: rem-calc(13);
-$cite-color: $dark-gray;
+$blockquote-border: 0;
+$cite-font-size: rem-calc(14);
+$cite-color: $turquoise;
+
+
 
 $transition-duration: 200ms;
 

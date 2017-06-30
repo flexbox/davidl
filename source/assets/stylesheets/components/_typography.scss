@@ -13,6 +13,14 @@ h1,
 h2,
 h3 {
   @include typl8-hyphens(none);
+  letter-spacing: -3px;
+}
+h1,
+h2 {
+  letter-spacing: -3px;
+}
+h3 {
+  letter-spacing: -1px;
 }
 
 // .heading-style {
@@ -46,7 +54,19 @@ pre {
 }
 
 blockquote {
+  font-weight: $global-weight-bold;
+  position: relative;
 
+  &:before {
+    color: $gray-blue;
+    font-family: "FontAwesome";
+    content: "\f10d";
+    position: absolute;
+    top: -30px;
+    left: -5px;
+    font-size: rem-calc(64);
+    opacity: 0.2;
+  }
 }
 
 .i-rounded {
