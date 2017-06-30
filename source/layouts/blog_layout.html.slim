@@ -44,5 +44,5 @@
             => link_to 'David Leuliette', '/about.html'
             span.text-tiny> le
             time datetime="#{current_page.data.date}" pubdate=""
-              = current_page.data.date.strftime('%d/%m/%Y')
+              = current_page.data.date.strftime('%d %B %Y')
           == yield

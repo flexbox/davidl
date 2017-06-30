@@ -57,6 +57,10 @@
     h2 {
       margin-top: rem-calc(80);
     }
+
+    time {
+      font-family: $font-family-monospace;
+    }
   }
   &--follow-list {
     display: flex;
@@ -93,13 +97,13 @@
   }
 }
 
-.m-blog-author {
+.blog-author {
   text-align: center;
   max-width: 350px;
   margin: 0 auto;
   padding-top: 80px;
 
-  .l-avatar {
+  .avatar {
     position: absolute;
     transform: translateY(-100%) translateX(50%);
     margin-left: rem-calc(20);
@@ -110,13 +114,13 @@
       max-width: 160px;
     }
   }
-  .l-twitter {
+  .twitter-link {
     display: block;
     @include reset-link();
     border-bottom: 0;
   }
 
-  .l-name {
+  .name {
     @extend .acolyte;
     @include reset-link();
     color: $black;
