@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-@import 'foundation-sites/scss/util/unit';
-@import 'colors';
-@import 'settings-custom';
-@import 'foundation-sites/scss/foundation';
+@import "foundation-sites/scss/util/unit";
+@import "colors";
+@import "settings-custom";
+@import "foundation-sites/scss/foundation";
 
 @mixin foundation-everything(
   $flex: true

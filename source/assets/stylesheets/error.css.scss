@@ -1,6 +1,30 @@
+@charset "utf-8";
+
+@import "foundation-sites/scss/util/unit";
 @import "colors";
-@import "foundation/scss/normalize";
-@import "foundation/scss/foundation/components/global";
+@import "settings-custom";
+@import "foundation-sites/scss/foundation";
+
+@mixin foundation-everything(
+  $flex: true
+) {
+  @if $flex {
+    $global-flexbox: true !global;
+  }
+
+  @include foundation-global-styles;
+  @include foundation-flex-grid;
+  @include foundation-typography;
+  @include foundation-button;
+  @include foundation-menu;
+  @include foundation-title-bar;
+
+  @if $flex {
+    @include foundation-flex-classes;
+  }
+}
+
+@include foundation-everything($flex: true);
 @import "components/topbar";
 
 @keyframes noise {
