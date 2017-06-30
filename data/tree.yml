@@ -129,5 +129,4 @@ workflow:
   coaching.html.slim: "/workflow/coaching.html.slim"
   growth-hacking.html.slim: "/workflow/growth-hacking.html.slim"
   index.html.slim: "/workflow/index.html.slim"
-  sos.html.slim: "/workflow/sos.html.slim"
   work.html.slim: "/workflow/work.html.slim"

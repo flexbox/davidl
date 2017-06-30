@@ -61,6 +61,9 @@
       @include breakpoint(small only) {
         flex-direction: column;
       }
+      .fa-stack {
+        min-width: 3em;
+      }
     }
 
     &-content {
@@ -98,9 +101,10 @@ a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
   h4,
   h5,
   h6,
-  i {
+  i:not(.fa-inverse) {
     color: $gray-blue;
   }
+
   &:hover {
     h1,
     h2,
@@ -108,8 +112,8 @@ a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
     h4,
     h5,
     h6,
-    i {
-      color: $primary-color;
+    i:not(.fa-inverse) {
+      color: $secondary-color;
     }
   }
 }

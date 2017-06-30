@@ -5,8 +5,8 @@ page_title: Inscrivez–vous aujourd’hui
 page_emphasis: Je sélectionne le meilleur contenu du web
 ---
 
-.row
-  .medium-8.medium-centered.columns
+.row.align-center
+  .medium-8.columns
     markdown:
       ## Apprenez les techniques des développeurs senior
 
@@ -26,23 +26,24 @@ page_emphasis: Je sélectionne le meilleur contenu du web
       'Je sais que votre email est précieux. C’est pourquoi il est gardé secret. Il sera toujours utilisé pour vous envoyer des <strong>informations utiles</strong> pour vous tenir au courant de ce qui se passe, sans avoir à passer des heures à le trouver.
 
 
-.section.text-center
-  = fa 'fa-send fa-5x'
 
-.row
-  .medium-8.medium-centered.columns
-    markdown:
-      ## 5 newsletters qui rendent ma vie meilleure
+section.section.l-light
+  section.section.text-center
+    = fa 'fa-send fa-5x'
+  .row.align-center
+    .medium-8.columns
+      markdown:
+        ## 5 newsletters qui rendent ma vie meilleure
 
-      Il est facile de vous abonner à des dizaines de listes de diffusion, dont beaucoups partent directement à la poubelle.
+        Il est facile de vous abonner à des dizaines de listes de diffusion, dont beaucoups partent directement à la poubelle.
 
-      Mais pour moi, il y en a quelques-unes — qui ne font pas que rester dans ma boîte de réception, mais qui me donnent le sourire quand elles arrivent.
+        Mais pour moi, il y en a quelques-unes — qui ne font pas que rester dans ma boîte de réception, mais qui me donnent le sourire quand elles arrivent.
 
-    ul.m-blog--post-list
-      - data.newsletters.each do |newsletter|
-          li
-            i class="fa fa-#{newsletter.icon} fa-2x fa-block"
-            = link_to newsletter.title, newsletter.url, class: 'm-post--link'
-            em
-              = newsletter.description
-            hr
+      ul.m-blog--post-list
+        - data.newsletters.each do |newsletter|
+            li
+              i class="fa fa-#{newsletter.icon} fa-2x fa-block"
+              = link_to newsletter.title, newsletter.url, class: 'blog-post-link'
+              em
+                = newsletter.description
+              hr

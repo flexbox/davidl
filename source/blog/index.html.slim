@@ -20,9 +20,9 @@ blog: blog
                   i.fa.i-custom.fa-envelope
                   'S’inscrire par email
           li
-            em: time datetime="#{article.date}" pubdate="" class="text-tiny"
-              => article.date.strftime('%B %d, %Y')
-            = link_to article.title, article, class: 'm-post--link'
+            = link_to article.title, article, class: 'blog-post-link'
+            time datetime="#{article.date}" pubdate="" class="text-tiny"
+              => article.date.strftime('%d %B %Y')
             hr
 
         - elsif i == 30
@@ -35,9 +35,9 @@ blog: blog
                   i.fa.i-custom.fa-rss
                   'Abonnement au flux RSS
           li
-            em: time datetime="#{article.date}" pubdate="" class="text-tiny"
-              => article.date.strftime('%B %d, %Y')
-            = link_to article.title, article, class: 'm-post--link'
+            = link_to article.title, article, class: 'blog-post-link'
+            time datetime="#{article.date}" pubdate="" class="text-tiny"
+              => article.date.strftime('%d %B %Y')
             hr
 
         - elsif i == 50
@@ -55,9 +55,9 @@ blog: blog
 
         - else
           li
-            em: time datetime="#{article.date}" pubdate="" class="text-tiny"
-              => article.date.strftime('%B %d, %Y')
-            = link_to article.title, article, class: 'm-post--link'
+            = link_to article.title, article, class: 'blog-post-link'
+            time datetime="#{article.date}" pubdate="" class="text-tiny"
+              => article.date.strftime('%d %B %Y')
             hr
   .medium-4.columns
     section.section

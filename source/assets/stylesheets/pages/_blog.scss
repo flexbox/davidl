@@ -32,11 +32,12 @@
   }
 }
 
-.m-post--link {
+.blog-post-link {
   font-size: 24px;
   font-weight: $font-weight-normal;
   display: block;
   color: $body-font-color;
+
   &:hover,
   &:focus {
     background: transparent;

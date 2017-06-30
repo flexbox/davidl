@@ -116,7 +116,7 @@ section.section
             - data.projects.each_with_index do |project, i|
               - if project.stared.present?
                 li
-                  = link_to project.title, project.url, class: 'm-post--link'
+                  = link_to project.title, project.url, class: 'blog-post-link'
                   p.l-description
                     = project.description
 
@@ -157,7 +157,7 @@ section.section
           ul.m-blog--post-list
             - page_articles[0..4].each do |article, i|
               li
-                = link_to article, class: 'm-post--link' do
+                = link_to article, class: 'blog-post-link' do
                   = fa 'fa-fw fa-caret-right'
                   = article.title
           p.text-center

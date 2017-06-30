@@ -25,7 +25,7 @@
         ul.m-blog--post-list
           - page_articles[0..4].each do |article|
             li
-              = link_to article, class: 'm-post--link truncate' do
+              = link_to article, class: 'blog-post-link truncate' do
                 = fa 'fa-fw fa-caret-right'
                 = article.title
       hr
