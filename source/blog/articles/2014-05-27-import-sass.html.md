@@ -1,13 +1,11 @@
 ---
 date: 2014-05-27
 slug: import-sass
-title: Solutions aux problèmes @import des fichiers Sass
+title: Solutions aux problèmes <code>@import</code> des fichiers Sass
 description: Guide & conseils pour organiser ses fichiers Sass en créant des partials.
 image: https://farm6.staticflickr.com/5095/5449679657_46fed579c2_z.jpg
 page_title: Architecture des fichiers Sass
 page_emphasis: Un fichier pour tous les gouverner
-changefreq: monthly
-priority: 0.8
 ---
 
 Avec ses variables, fonctions et imports, Sass donne des supers pouvoirs au fichiers CSS. Plus précisément, il est possible d’importer et d’organiser ses fichiers SCSS de différentes manières. Mais tout ce pouvoir amène d’autres problèmes : la possibilité d’importer différents fichiers dans votre projet signifie que vous aller devoir gérer ses fichiers.

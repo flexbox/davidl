@@ -33,10 +33,10 @@
       right: 20%;
       top: -100%;
       font-size: rem-calc(60);
-      &.fa-google-plus { color: $color-google-plus; }
-      &.fa-twitter { color: $color-twitter; }
-      &.fa-github { color: $color-github; }
-      &.fa-gift { color: $color-amazon; }
+      &.fa-google-plus { color: $color-google-plus !important; }
+      &.fa-twitter { color: $color-twitter !important; }
+      &.fa-github { color: $color-github !important; }
+      &.fa-gift { color: $color-amazon !important; }
     }
 
     &:hover {

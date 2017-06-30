@@ -3,8 +3,8 @@ date: 2012-03-16 16:07:02+00:00
 slug: webdesign-adaptatif-5-astuces-indispensables
 title: 'Webdesign adaptatif : 5 astuces indispensables'
 page_title: "Responsive webdesign 5 astuces indispensables"
-changefreq: monthly
-priority: 0.8
+page_emphasis: "Le contenu de votre site doit s’adapter aux utilisateurs"
+
 ---
 
 Depuis l’année dernière, la tendance est au webdesign adaptatif.

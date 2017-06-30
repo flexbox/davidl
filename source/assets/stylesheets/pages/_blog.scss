@@ -50,16 +50,21 @@
 
 .m-blog {
   &--article {
-    p:first-child {
-      margin-bottom: rem-calc(80);
+    &-infos {
+      margin-bottom: rem-calc(100);
     }
 
     h2 {
       margin-top: rem-calc(80);
     }
+    h3 {
+      margin-top: rem-calc(40);
+    }
 
     time {
       font-family: $font-family-monospace;
+      color: $turquoise;
+      font-weight: $global-weight-bold;
     }
   }
   &--follow-list {
