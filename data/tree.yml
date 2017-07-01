@@ -107,7 +107,6 @@ forge:
     2-1-manifeste-refonte.html.md: "/forge/chapitres/2-1-manifeste-refonte.html.md"
   index.html.slim: "/forge/index.html.slim"
 gifts.html.slim: "/gifts.html.slim"
-glossary.html.slim: "/glossary.html.slim"
 gnu.html.slim: "/gnu.html.slim"
 index.html.slim: "/index.html.slim"
 keybase.txt: "/keybase.txt"
