@@ -1,4 +1,4 @@
-.m-good-practice {
+.good-practice {
   .fa-thumbs-o-up {
     color: $success-color;
     & + span {
@@ -14,25 +14,6 @@
 
   .l-spacing {
     letter-spacing: rem-calc(1);
-  }
-
-  section {
-    @include grid-row();
-    article {
-      @include grid-column($columns:12);
-      @media #{$small}{
-        @include grid-column($columns:8, $center:true);
-      }
-    }
-    .l-title {
-      @include clearfix;
-      h2, h3 {
-        margin-top: rem-calc(35);
-      }
-      .i-rounded {
-        margin-top: rem-calc(20);
-      }
-    }
   }
 
   &--shorcut {
