@@ -87,7 +87,8 @@ $topbar-height: rem-calc(60);
   }
   .l-search-form {
     padding: rem-calc(15 0 0 20);
-    transition: all .2s ease-out;
+    flex-grow: 10;
+    transition: all $speed ease-in-out;
 
     input {
       margin-bottom: 0;
