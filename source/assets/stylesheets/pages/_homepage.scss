@@ -9,8 +9,13 @@
   padding-bottom: $topbar-height;
   padding-top: $topbar-height;
   color: $white;
+
   h1 {
+    text-shadow: 1px 2px 0px rgba($black, 0.4);
     color: $yellow;
+  }
+  em {
+    letter-spacing: -2px;
   }
   @include breakpoint(medium) {
     padding-top: ($topbar-height * 2);
@@ -24,7 +29,7 @@
 
   .l-illu {
     font-size: rem-calc(40);
-    color: $primary-color;
+    color: $turquoise;
     margin-bottom: rem-calc(20);
   }
 }

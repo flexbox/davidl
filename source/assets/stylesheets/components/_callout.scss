@@ -1,5 +1,5 @@
 .callout {
-  transition: box-shadow $transition-duration ease-in-out;
+  transition: box-shadow $speed ease-in-out;
   box-shadow: 5px 5px 0px rgba($dark-gray, 0.2);
   @include typl8-hyphens(none);
 
@@ -28,7 +28,7 @@
     padding-top: rem-calc(60);
 
     i {
-      transition: all $transition-duration ease-in-out;
+      transition: all $speed ease-in-out;
       position: absolute;
       right: 20%;
       top: -100%;

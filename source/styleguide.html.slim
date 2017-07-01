@@ -6,18 +6,7 @@ changefreq: yearly
 priority: 0
 ---
 
-.row.expanded
-  .medium-2.columns
-    section.section
-      ul.no-bullet
-        li
-          strong Pages
-        li
-          = link_to 'search', 'search'
-        li
-          = link_to 'product', 'product'
-        li
-          = link_to 'homepage', 'homepage'
+.row.align-center
   .medium-10.columns
     section.section
       h1 = data.settings.site.title
@@ -44,10 +33,13 @@ priority: 0
       = partial 'layouts/styleguide/typography'
 
     section.section
+      h3 Forms
+      = partial 'layouts/styleguide/forms'
+
+    section.section
       h2 Callout
       = partial 'layouts/styleguide/callout'
       = partial 'layouts/social'
       .row.align-center
         .medium-6.column
           = partial 'layouts/quick-contact'
-

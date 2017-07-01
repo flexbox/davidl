@@ -5,7 +5,7 @@
   span {
     margin: rem-calc(5);
     display: block;
-    background-color: $gray;
+    background-color: $gray-blue;
     height: rem-calc(50);
   }
 }
@@ -13,7 +13,7 @@
 .m-webdesign,
 .m-manifest {
   .fa {
-    color: $primary-color;
+    color: $turquoise;
     &.l-large {
       font-size: rem-calc(80);
       margin: rem-calc(20 0);
