@@ -32,6 +32,7 @@
   @include foundation-responsive-embed;
   @include foundation-media-object;
   @include foundation-title-bar;
+  @include foundation-sticky;
   @include foundation-visibility-classes;
 
   @if $flex {
@@ -68,4 +69,4 @@
 
 // Need to refactor for menu
 // @import "foundation/scss/foundation/components/side-nav";
-// @import "components/magellan";
+@import "components/magellan";

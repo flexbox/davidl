@@ -1,35 +1,16 @@
-$magellan-padding: 0;
-
-[data-magellan-expedition] {
-
-  .side-nav {
-    dd {
-      margin: 0;
-    }
-    .l-title {
-      padding: rem-calc(15);
-      text-transform: uppercase;
-      font-weight: $font-weight-black;
-    }
-    a {
-      border-bottom: 0;
-      display: block;
-      padding: rem-calc(10 15);
-      background: transparent;
-      @include color-hover($gray-dark,$primary-color);
-    }
-    .active a {
-      color: $secondary-color;
-    }
+.menu-magellan {
+  .title {
+    padding: 0.7rem 1rem;
+    text-transform: uppercase;
+    font-family: $font-family-monospace;
   }
-}
-
-.m-magellan {
-  [data-magellan-expedition] {
-    z-index: 1;
-    @include grid-column($columns: 2);
+  a {
+    font-weight: $font-weight-normal;
+    border-bottom: 0;
+    background: transparent;
+    @include color-hover($gray-blue,$primary-color);
   }
-  .callout {
-    max-width: rem-calc(300);
+  a.is-active {
+    color: $turquoise;
   }
 }

@@ -10,24 +10,25 @@ page_class: m-webdesign
   = javascript_include_tag 'front/webdesign'
 
 .row.expanded
-  .medium-2.hide-for-small.columns
-    div data-magellan-expedition="fixed"
-      dl.side-nav
-        dd.l-title Thèmes
-        dd data-magellan-arrival="intro"
+  .small-12.medium-3.large-2.columns data-sticky-container=""
+    nav class="columns sticky" data-sticky="" data-sticky-on="large" data-top-anchor="js-maincontent"
+      ul class="vertical menu menu-magellan" data-magellan=""
+        li.title
+          'Thèmes
+        li
           = link_to 'Introduction', '#intro'
-        dd data-magellan-arrival="grid"
+        li
           = link_to 'La grille', '#grid'
-        dd data-magellan-arrival="images"
+        li
           = link_to 'Images flexibles', '#images'
-        dd data-magellan-arrival="mediaqueries"
+        li
           = link_to 'Media Queries', '#mediaqueries'
-        dd data-magellan-arrival="enhancement"
+        li
           = link_to 'Améliorations', '#enhancement'
-        dd data-magellan-arrival="future"
+        li
           = link_to 'Evolution', '#future'
 
-  .medium-9.small-12.columns
+  .small-12.medium-9.large-8.columns
     p.typl8-drop-cap
       'Ce n'est un secret pour personne, la navigation mobile sur internet fera mordre la poussière au traffic de bureau classique -plus tôt que vous le pensez. Aux États-Unis, il représente déjà 20% du web global. En Asie et en Afrique, plus de la moitié de tout le traffic  provient du mobile. En plus de cela, il y a <del>des milliers et des milliers</del>
       =>link_to 'des millards', 'http://techcrunch.com/2012/10/16/mobile-milestone-the-number-of-smartphones-in-use-passed-1-billion-in-q3-says-strategy-analytics/'
@@ -63,7 +64,7 @@ page_class: m-webdesign
     hr
     .row
       .medium-4.columns
-        h2#intro data-magellan-destination="intro"
+        h2#intro data-magellan-target="intro"
           'Les avantages d'une conception adaptative
           br
           small Il y a de nombreux avantages au design adaptatif. Voici quelques-uns d'entre eux :
@@ -109,7 +110,7 @@ page_class: m-webdesign
 
     hr
     = image_tag 'front/responsive-design-tron-grid.jpg', alt: 'Grille responsive design'
-    h2#grid data-magellan-destination="grid"
+    h2#grid data-magellan-target="grid"
       'Devenez fluide avec votre grille
       small C'est la base pour vos créations adaptatives.
     p
@@ -254,7 +255,7 @@ page_class: m-webdesign
               span
         p.text-center Style timeline
     hr
-    h2#images data-magellan-destination="images"
+    h2#images data-magellan-target="images"
       'Une règle pour les grouverner toutes
 
     p La taille des images n'est pas bloqué en pixels fixe.
@@ -269,7 +270,7 @@ page_class: m-webdesign
       '. Il est possible d'utiliser des classes pour cacher les images plus grandes pour les petits sur mobile. Mais <strong>les deux images seront toujours chargées</strong>, ce qui peut gâcher la performance d'une page. Je travaille quotidiennement sur ces problématiques.
 
     hr
-    h2#mediaqueries data-magellan-destination="mediaqueries"
+    h2#mediaqueries data-magellan-target="mediaqueries"
       'Ordinateurs, TVs, tablettes, smartphones, nintendo 3DS ™ ?
 
     p
@@ -366,7 +367,7 @@ page_class: m-webdesign
     hr
     .row
       .medium-4.columns
-        h2#enhancement data-magellan-destination="enhancement"
+        h2#enhancement data-magellan-target="enhancement"
           'Les améliorations possibles
           br
           small Les techniques commencent à se standardiser pour règler les problèmes du monde multi-écran. Cela étant dit, il y a encore beaucoup de place pour l'amélioration en ce qui concerne la conception adaptative.
@@ -398,10 +399,10 @@ page_class: m-webdesign
           = link_to 'comme celle-ci', 'http://zurb.com/playground/responsive-tables'
           '.
 
-section.section
+section.section.l-light
   .row.align-center
     .medium-10.columns.text-center
-      h2#future data-magellan-destination="future" Démarrer un nouveau projet
+      h2#future data-magellan-target="future" Démarrer un nouveau projet
       p
         'Il existe quelques bons outils dehors quand il s'agit de conception adaptative. Mon préféré reste
         = link_to 'Foundation', 'http://foundation.zurb.com/docs/'

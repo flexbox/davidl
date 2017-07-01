@@ -10,34 +10,20 @@
 }
 
 h1,
-h2,
-h3 {
-  @include typl8-hyphens(none);
-  letter-spacing: -3px;
-}
-h1,
 h2 {
   letter-spacing: -3px;
 }
 h3 {
   letter-spacing: -1px;
 }
-
-// .heading-style {
-//   position: relative;
-//   &:after {
-//     content: '';
-//     width: 100%;
-//     height: 6px;
-//     display: block;
-//     background: #004EFF;
-//     position: absolute;
-//     bottom: 8px;
-//     opacity: 0.5;
-//     left: 10px;
-//     right: -10px;
-//   }
-// }
+h1,
+h2,
+h3 {
+  @include typl8-hyphens(none);
+  @include breakpoint(small only) {
+    letter-spacing: 0;
+  }
+}
 
 *::selection {
   background: rgba($black, 0.1);

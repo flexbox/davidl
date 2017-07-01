@@ -1,36 +1,35 @@
 ---
 title: Manifeste pour la création d’application web au XXIème siècle
-description: "Pendant trop longtemps, il n’existait aucune règle pour développer des sites internet. Coder une application web de qualité est de plus en plus complexe. Voici ma lettre ouverte qui expose mon programme d’action en développement front-end."
+description: Pendant trop longtemps, il n’existait aucune règle pour développer des sites internet. Coder une application web de qualité est de plus en plus complexe. Voici ma lettre ouverte qui expose mon programme d’action en développement front-end.
 page_title: Manifeste d’un développeur front-end éclairé
 page_emphasis: Travailler ensemble en respectant les standards du web
 page_class: m-manifest
-changefreq: daily
-priority: 0.8
 ---
 
-.row
-  .medium-2.hide-for-small.columns
-    div data-magellan-expedition="fixed"
-      dl.side-nav
-        dd.l-title Thèmes
-        dd data-magellan-arrival="js-browser"
+.row.expanded
+  .small-12.medium-3.large-2.columns data-sticky-container=""
+    nav class="columns sticky" data-sticky="" data-sticky-on="large" data-top-anchor="js-maincontent"
+      ul class="vertical menu menu-magellan" data-magellan=""
+        li.title
+          'Thèmes
+        li
           = link_to 'Navigateurs', '#js-browser'
-        dd data-magellan-arrival="js-html"
+        li
           = link_to 'HTML', '#js-html'
-        dd data-magellan-arrival="js-css"
+        li
           = link_to 'CSS', '#js-css'
-        dd data-magellan-arrival="js-javascript"
+        li
           = link_to 'JavaScript', '#js-javascript'
-        dd data-magellan-arrival="js-framework"
+        li
           = link_to 'Framework', '#js-framework'
-        dd data-magellan-arrival="js-performance"
+        li
           = link_to 'Performance', '#js-performance'
-        dd data-magellan-arrival="js-htmlfive"
+        li
           = link_to 'HTML5 & CSS3', '#js-htmlfive'
-        dd data-magellan-arrival="js-accessibility"
+        li
           = link_to 'Accessibilité', '#js-accessibility'
 
-  .medium-9.small-12.columns
+  .small-12.medium-9.large-8.columns
     p.typl8-drop-cap
       'À l’origine d’<a href="http://interneeeeet.com/">internet</a> il existait une personne qui possédait tous les pouvoirs. Cet individu avait le droit de vie ou de mort sur un site internet. Cette personne c’était <strong>le maître du web</strong> aka webmaster.
       br
@@ -52,7 +51,7 @@ priority: 0.8
       'Pour vous aider à fournir un contenu de haute qualité qui fonctionne mieux, atteint plus de personnes —pas seulement avec les navigateurs et appareils d’aujourd'hui, mais surtout ceux de demain.
 
     .section
-      h2#js-browser data-magellan-destination="js-browser" Navigateurs
+      h2#js-browser.heading-style data-magellan-target="js-browser" Navigateurs
       = image_tag 'front/south-park-browser.jpg', alt: 'Liste des navigateurs web et personnages de south park'
       h3 Les chiffres, les chiffres, les chiffres
       p
@@ -224,7 +223,7 @@ priority: 0.8
 
 
     .section
-      h2#js-html data-magellan-destination="js-html" HTML
+      h2#js-html data-magellan-target="js-html" HTML
       .row
         .medium-4.columns
           p
@@ -315,7 +314,7 @@ priority: 0.8
 
 
     .section
-      h2#js-css data-magellan-destination="js-css" Feuilles de style
+      h2#js-css data-magellan-target="js-css" Feuilles de style
       h3 CSS maintenable
       ul
         li Je conserve mon CSS complètement séparé du HTML
@@ -413,7 +412,7 @@ priority: 0.8
           'Je code pour le système dans une logique de modules et non de pages
 
     .section
-      h2#js-javascript data-magellan-destination="js-javascript" JavaScript
+      h2#js-javascript data-magellan-target="js-javascript" JavaScript
 
       .row
         .medium-4.columns
@@ -485,7 +484,7 @@ priority: 0.8
           'Précéder chaque déclaration de variable par <code>var</code>
 
     .section
-      h2#js-framework data-magellan-destination="js-framework" Framework
+      h2#js-framework data-magellan-target="js-framework" Framework
       .row
         .medium-4.columns
           blockquote
@@ -536,7 +535,7 @@ priority: 0.8
             ', …)
 
     .section
-      h2#js-performance data-magellan-destination="js-performance" Performance
+      h2#js-performance data-magellan-target="js-performance" Performance
       blockquote
         'Quand il s'agit de naviguer sur le web, être rapide, c'est mieux.
         cite Joseph Scott
@@ -605,7 +604,7 @@ priority: 0.8
           p Transféré dans les en-têtes de page, je supprime les cookies inutiles, en conservant une petite taille et je fixe une date d'expiration.
 
     .section
-      h2#js-htmlfive data-magellan-destination="js-htmlfive" HTML5 & CSS3
+      h2#js-htmlfive data-magellan-target="js-htmlfive" HTML5 & CSS3
       .row
         .medium-4.columns
           markdown:
@@ -653,7 +652,7 @@ priority: 0.8
         li Utiliser des polyfill HTML5 seulement s'ils sont assez abouti
 
     .section
-      h2#js-accessibility data-magellan-destination="js-accessibility" Accessibilité
+      h2#js-accessibility data-magellan-target="js-accessibility" Accessibilité
       .row
         .medium-4.columns
           p
