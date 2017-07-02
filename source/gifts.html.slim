@@ -1,11 +1,24 @@
 ---
 title: Programme d'affiliation
-description:
+description: Apprenez à coder
 page_title: Code promotion
-page_emphasis: Inscrivez vous à ces services et bénéficiez de cadeau
+page_emphasis: Inscrivez vous à ces services et bénéficiez de cadeaux
 ---
 
 section.m-section.l-light
+  .row
+    .medium-10.medium-centered.columns
+      h2 Voyages
+      ul
+        - data.gifts.travel.each do |t|
+          li
+            strong = t.name
+            br
+            = t.win
+            br
+            = link_to t.link, t.link
+
+section.m-section
   .row
     .medium-10.medium-centered.columns
       h2 Work
@@ -18,15 +31,15 @@ section.m-section.l-light
             br
             = link_to w.link, w.link
 
-section.m-section
+section.m-section.l-light
   .row
     .medium-10.medium-centered.columns
-      h2 Voyages
+      h2 Learn
       ul
-        - data.gifts.travel.each do |t|
+        - data.gifts.learn.each do |w|
           li
-            strong = t.name
+            strong = w.name
             br
-            = t.win
+            = w.win
             br
-            = link_to t.link, t.link
+            = link_to w.link, w.link

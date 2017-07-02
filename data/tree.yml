@@ -120,7 +120,6 @@ manifesto.html.slim: "/manifesto.html.slim"
 mentors.html.slim: "/mentors.html.slim"
 pricing.html.slim: "/pricing.html.slim"
 sitemap.html.slim: "/sitemap.html.slim"
-sponsorship.html.slim: "/sponsorship.html.slim"
 styleguide.html.slim: "/styleguide.html.slim"
 thankyou.html.slim: "/thankyou.html.slim"
 workflow:
