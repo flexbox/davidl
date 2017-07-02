@@ -85,7 +85,7 @@ Je vais prendre un exemple avec la grille de Foundation. Notez que chaque `<div>
       </div>
     </div>
 
-    <div class="row" id="m-footer">
+    <div class="row" id="footer">
       <div class="small-12 columns">
         ...
       </div>

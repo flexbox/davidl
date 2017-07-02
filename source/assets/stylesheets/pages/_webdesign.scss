@@ -1,37 +1,37 @@
-.template {
+.template-grid {
   padding: rem-calc(5);
   background-color: $white;
 
   span {
     margin: rem-calc(5);
     display: block;
-    background-color: $gray;
+    background-color: $gray-blue;
     height: rem-calc(50);
   }
 }
 
 .m-webdesign,
 .m-manifest {
-  [data-magellan-expedition] {
-    z-index: auto;
-  }
-
-  [class*=" icon-"],
   .fa {
-    @extend %icon-style;
-    color: $primary-color;
+    color: $turquoise;
     &.l-large {
       font-size: rem-calc(80);
-      margin: rem-calc(20) 0;
+      margin: rem-calc(20 0);
     }
   }
 }
 
 .m-webdesign {
-  .m-hero-banner {
+  .hero-banner {
     position: relative;
     overflow: hidden;
     background-color: #3D779A;
+    min-height: 60vh;
+
+    .row {
+      position: relative;
+      z-index: 100;
+    }
   }
 }
 
@@ -43,13 +43,8 @@
   width: 100%;
   height: 100%;
   z-index: 0;
-}
-.m-video-background video {
-  height: 720px;
-  min-width: 100%;
-}
-
-#main {
-  padding: 10px;
-  margin: 10px 0;
+  video {
+    height: 720px;
+    min-width: 100%;
+  }
 }

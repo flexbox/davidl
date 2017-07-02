@@ -7,55 +7,62 @@ blog: blog
 ---
 
 .row
-  .medium-8.columns
+  .small-12.medium-8.columns
     ul.m-blog--post-list
       - page_articles.each_with_index do |article, i|
         - if i == 10
-          section.m-section--inverse
-            .row
+          section.section--inverse
+            .row.align-middle
               .medium-8.columns
                 p Recevoir gratuitement des conseils sur les technologies front-end
               .medium-4.columns
                 = link_to '/learn/newsletter.html', class: 'button secondary small' do
-                  i.fa.i-custom.fa-envelope
                   'S’inscrire par email
+          li
+            = link_to article.title, article, class: 'blog-post-link'
+            time datetime="#{article.date}" pubdate="" class="text-tiny"
+              => article.date.strftime('%d %B %Y')
+            hr
 
         - elsif i == 30
-          section.m-section--inverse
-            .row
+          section.section--inverse
+            .row.align-middle
               .medium-8.columns
                 p Lire le contenu dans une autre application, ou en mode hors-ligne
               .medium-4.columns
                 = link_to data.settings.social.rss.url, class: 'button small' do
-                  i.fa.i-custom.fa-rss
                   'Abonnement au flux RSS
+          li
+            = link_to article.title, article, class: 'blog-post-link'
+            time datetime="#{article.date}" pubdate="" class="text-tiny"
+              => article.date.strftime('%d %B %Y')
+            hr
 
         - elsif i == 50
-          section.m-section--inverse
-            .row
+          section.section--inverse
+            .row.align-middle
               .medium-8.columns
                 p
                   'Suivez
-                  b> = data.settings.social.twitter.name
+                  strong> = data.settings.social.twitter.name
                   ' sur Twitter pour obtenir les dernières mises à jour
               .medium-4.columns
                 = link_to data.settings.social.twitter.url, class: 'button info small' do
-                  i.fa.i-custom.fa-twitter
                   'Suivre
 
         - else
           li
-            em: time datetime="#{article.date}" pubdate="" class="text-tiny"
-              => article.date.strftime('%B %d, %Y')
-            = link_to article.title, article, class: 'm-post--link'
+            = link_to article.title, article, class: 'blog-post-link'
+            time datetime="#{article.date}" pubdate="" class="text-tiny"
+              => article.date.strftime('%d %B %Y')
             hr
-  .medium-4.columns
-    section.m-section
+  .small-12.medium-4.columns
+    section.section
       i.fa.fa-5x.fa-github
       h2 Sources
       p Ce contenu est produit à partir d’expériences personnelles, MDN, et la documentation officielle.
 
-    section.m-section
+    section.section
       h2 Blogposts
       - data.achievements.blogposts.each do |post|
         p
@@ -72,18 +79,18 @@ blog: blog
 
       Vous pouvez soumettre une demande de [modification sur Github](https://github.com/flexbox/davidl/tree/master/source/blog/articles).
 
-section.m-section
+section.section
   .row
     .small-12.columns
       markdown:
         ## Conseils de lecture
         Je suis autodidacte. J’ai remarqué que __la lecture sur le web favorise le butinage__. En lisant un livre, vous êtes plus concentré pour retenir leurs notions.
-      ul.large-block-grid-4.medium-block-grid-2.small-block-grid-1
+      .row.small-up-1.medium-up-2.large-up-4
         - data.books.each_with_index do |book|
           - if book.stared.present?
-            li
+            .columns
               = image_tag "front/books/#{book.image}", alt: book.title
+      br
       .text-center
-        = link_to '/learn/books.html', class: 'button' do
+        = link_to '/learn/books.html', class: 'button button-icon', data: {icon: '▸'} do
           |Lire mes recommandations
-          i.fa.fa-fw.fa-arrow-right

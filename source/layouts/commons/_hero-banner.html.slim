@@ -1,7 +1,8 @@
 - if current_page.data.page_title.present?
-  header.m-hero-banner
+  header.hero-banner
     .row
-      h1.l-title
-        = current_page.data.page_title
-      - if current_page.data.page_emphasis.present?
-        p.l-emphasis = current_page.data.page_emphasis
+      .column
+        h1.title
+          = current_page.data.page_title
+        - if current_page.data.page_emphasis.present?
+          p.emphasis = current_page.data.page_emphasis

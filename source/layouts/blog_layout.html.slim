@@ -1,12 +1,12 @@
 = wrap_layout :layout do
   article.row.m-blog-row itemtype="http://schema.org/BlogPosting" itemscope="" role="article"
-    aside.medium-4.columns.hide-for-small
+    aside.small-12.medium-4.columns.small-order-2.medium-order-1
       = partial 'layouts/author'
       hr
-      .m-section
+      .section
         = partial 'layouts/stalk'
       hr
-      .m-section
+      .section
         .acolyte Recevoir des nouvelles par email
         form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
           .row.collapse
@@ -20,29 +20,28 @@
 
 
       hr
-      .m-section
+      .section
         .acolyte Derniers articles
         ul.m-blog--post-list
           - page_articles[0..4].each do |article|
             li
-              = link_to article, class: 'm-post--link truncate' do
+              = link_to article, class: 'blog-post-link truncate' do
                 = fa 'fa-fw fa-caret-right'
                 = article.title
       hr
-      .m-section
+      .section
         .acolyte Recherche sur le blog
         form action="https://www.google.com/search" method="get"
           input name="q" placeholder="Ex : Responsive design" type="search"
           input name="sitesearch" value="#{data.settings.site.url}/blog/" type="hidden"
-    .medium-8.columns.m-blog--article itemprop="articleBody"
+    .small-12.medium-8.columns.m-blog--article.small-order-1.medium-order-2 itemprop="articleBody"
       .row style="padding: 30px;"
         .medium-10.columns
-          p
-            span.emperor = current_page.data.title
-            br
+          p.emperor = current_page.data.title
+          p.m-blog--article-infos
             span.text-tiny> Par
             => link_to 'David Leuliette', '/about.html'
             span.text-tiny> le
             time datetime="#{current_page.data.date}" pubdate=""
-              = current_page.data.date.strftime('%d/%m/%Y')
+              = current_page.data.date.strftime('%d %B %Y')
           == yield

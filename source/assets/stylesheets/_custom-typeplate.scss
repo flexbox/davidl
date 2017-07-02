@@ -1,8 +1,7 @@
 // $BaseType
 // -------------------------------------//
 
-$typl8-font-family: $body-font-family;
-$typl8-font-weight: $font-weight-light;
+$typl8-prefixes: -webkit-, -moz-, -ms-, '' !default;
 
 
 
@@ -21,8 +20,18 @@ $typl8-indent-val: rem-calc(16);
 // $Color
 // -------------------------------------//
 
-$typl8-heading-color: $black;
-$typl8-copy-color: $gray-dark;
+$typl8-heading-color: $header-color;
+$typl8-copy-color: $body-font-color;
+
+
+
+// $Ampersands
+// -------------------------------------//
+
+$typl8-amp-fontface: Ampersand;
+$typl8-amp-fontfamily: Verdana, sans-serif;
+$typl8-amp-src: local('Georgia'), local('Garamond'), local('Palatino'), local('Book Antiqua');
+$typl8-amp-fallback: local('Georgia');
 
 
 
@@ -33,10 +42,3 @@ $typl8-dropcap-font-size: rem-calc(88);
 $typl8-dropcap-margin: rem-calc(-10 0 0 -30);
 $typl8-dropcap-padding: rem-calc(11);
 $typl8-dropcap-color: $secondary-color;
-
-
-
-$typl8-amp-fontface: Ampersand;
-$typl8-amp-fontfamily: Verdana, sans-serif;
-$typl8-amp-src: local('Georgia'), local('Garamond'), local('Palatino'), local('Book Antiqua');
-$typl8-amp-fallback: local('Georgia');

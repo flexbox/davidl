@@ -8,8 +8,8 @@ changefreq: monthly
 priority: 0.6
 ---
 
-.row
-  .medium-8.medium-centered.columns
+.row.align-center
+  .medium-8.columns
     markdown:
       ## Pourquoi ?
 
@@ -23,33 +23,32 @@ priority: 0.6
       ### Encore des petites choses
 
       - Dans tous les cas, considérez que la cession des droits est comprise dans les tarifs.
-      - Certains type de travaux __ne sont pas inclus__ dans les budgets : stratégie du contenu, recherches, et autres type de travail préparatoire. Je considère que cela est déjà effectué en partie par mes clients. Si ce n'est pas le cas il est possible de réaliser une évaluation séparée pour ça.
+      - Certains type de travaux __ne sont pas inclus__ dans les budgets : stratégie du contenu, recherches, et autres types de travail préparatoire. Je considère que cela est déjà effectué en partie par mes clients. Si ce n'est pas le cas il est possible de réaliser une évaluation séparée pour ça.
       - Chaque catégorie est illustrée __par un exemple réel__ de réalisation.
 
-.row
-  .medium-10.medium-centered.columns
+.row.align-center
+  .medium-10.columns
     - data.pricing.each do |item|
-      h2.text-center = item.title
-      hr
-      .row
-        .medium-6.columns
-          h3.small = item.baseline
-          p
-            = Kramdown::Document.new(item.description).to_html
-        .medium-6.columns
-          .m-panel.l-callout
-            - if item['delivers'].present?
-              ul
-                - item['delivers'].each do |subitem|
-                  li = subitem.content
-            h4.small = item.price
+      section.section
+        h2.text-center = item.title
+        hr
+        .row
+          .medium-6.columns
+            h3.small = item.baseline
+            p
+              = Kramdown::Document.new(item.description).to_html
+          .medium-6.columns
+            .callout.callout-border
+              - if item['delivers'].present?
+                ul
+                  - item['delivers'].each do |subitem|
+                    li = subitem.content
+              h4.small = item.price
 
-section.m-section
-  .row
-    .medium-10.medium-centered.columns
-      h2.text-center Je suis là pour vous aider
-      .text-center
-        = mail_to data.settings.social.email, 'Contacter par email', class: 'button secondary'
-        p
-          span Vous pouvez aussi me
-          = link_to 'poser une question', '/ask-me.html'
+section.section.l-light
+  .row.align-center
+    .medium-10.columns.text-center
+      markdown:
+        ## Réussir votre prochain projet
+        Je peux vous aider le temps d’une journée ou plus.
+      a class="typeform-share button secondary" href="https://flexbox.typeform.com/to/yzVxhi" data-mode="popup" target="_blank" Rencontrer David Leuliette

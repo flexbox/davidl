@@ -6,17 +6,17 @@ page_title: Développer votre application web de façon agile
 page_emphasis: 'Conseils pour le développement d’applications web, méthodes de travail collaboratif & design évolutif'
 ---
 
-.row
-  .medium-10.medium-centered.columns
+.row.align-center
+  .medium-10.columns
     markdown:
       ## /dev
       Je suis développeur web avec une expertise dans les __technologies front-end__.
 
-    ul.small-block-grid-1.medium-block-grid-2
+    .row.small-up-1.medium-up-2
       - data.work.dev.each do |w|
-        li
-          = link_to w.link, class: 'm-panel-container' do
-            .m-panel
+        .columns
+          = link_to w.link, class: 'callout-link' do
+            .callout
               .l-icon-card
                 span.fa-stack.fa-lg
                   = fa 'fa-circle fa-stack-2x'
@@ -25,17 +25,20 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
                   h3 = w.title
                   p = w.description
 
-    section.m-section
+
+section.section.l-light
+  .row.align-center
+    .medium-10.columns
       markdown:
         ## /design
         Avoir une belle __interface UI__ & bonne __expérience UX__ est important.<br>
         C’est pourquoi nous devons créer des prototypes et des itérations pour trouver une solution.
 
-      ul.small-block-grid-1.medium-block-grid-2
+      .row.small-up-1.medium-up-2
         - data.work.design.each do |w|
-          li
-            = link_to w.link, class: 'm-panel-container' do
-              .m-panel
+          .columns
+            = link_to w.link, class: 'callout-link' do
+              .callout
                 .l-icon-card
                   span.fa-stack.fa-lg
                     = fa 'fa-circle fa-stack-2x'
@@ -45,18 +48,20 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
                     p = w.description
 
 
-    section.m-section
+section.section
+  .row.align-center
+    .medium-10.columns
       markdown:
         ## [/learn](/learn/)
         En tant que développeur open source, je partage avec la communauté mes expériences — succès comme échecs — afin d’avoir un web meilleur.
 
         De plus pour maitriser un sujet vous devez savoir l'apprendre aux autres.
 
-      ul.small-block-grid-1.medium-block-grid-2
+      .row.small-up-1.medium-up-2
         - data.work.learn.each do |w|
-          li
-            = link_to w.link, class: 'm-panel-container' do
-              .m-panel
+          .columns
+            = link_to w.link, class: 'callout-link' do
+              .callout
                 .l-icon-card
                   span.fa-stack.fa-lg
                     = fa 'fa-circle fa-stack-2x'
@@ -65,11 +70,14 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
                     h3 = w.title
                     p = w.description
 
-
-      h3 I give talks too!
-      ul.m-blog--post-list.small-block-grid-1.medium-block-grid-2
-        - data.achievements.talks.each do |talk|
-          li
+      markdown:
+        ### /talks
+        Meetup c’est cool ! J’y participe souvent pour réaliser des sketchnotes, donner des conférences ou simplement rencontrer la communauté des developpeurs.
+  .row.expanded.small-up-1.medium-up-3.m-blog--post-list
+    - data.achievements.talks.each do |talk|
+      .columns
+        = link_to talk.url, class: 'callout-link' do
+          .callout
             strong
               => talk.lang
               => talk.website
@@ -77,22 +85,31 @@ page_emphasis: 'Conseils pour le développement d’applications web, méthodes 
             em
               time.text-tiny style="display: inherit;"
                 = talk.date
-            = link_to talk.title, talk.url, class: 'm-post--link'
-            hr
+            p.lead = talk.title
 
-    section.m-section
+section.section.l-light
+  .row.align-center
+    .medium-10.columns
       markdown:
         ## [/workflow](/workflow/)
 
-        - [Coaching](/workflow/coaching.html)
-        - [Growth-Hacking](/workflow/growth-hacking.html)
-        - Chatbots
-        - [SOS](/workflow/sos.html)
-        - [Work](/workflow/work.html)
+      .row.small-up-1.medium-up-2
+        - data.work.workflow.each do |w|
+          .columns
+            = link_to w.link, class: 'callout-link' do
+              .callout
+                .l-icon-card
+                  span.fa-stack.fa-lg
+                    = fa 'fa-circle fa-stack-2x'
+                    = fa "#{w.icon} fa-stack-1x fa-inverse"
+                  .l-icon-content
+                    h3 = w.title
+                    p = w.description
 
-section.m-section
-  .row.text-center
-    .medium-10.medium-centered.columns
+
+section.section
+  .row.text-center.align-center
+    .medium-10.columns
       markdown:
         ## Curieux d’en apprendre plus ?
         Découvez comment je __respecte les standards du web__ en créant des __solutions évolutives__.

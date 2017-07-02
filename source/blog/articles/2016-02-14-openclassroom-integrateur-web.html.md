@@ -35,7 +35,7 @@ L’objectif est de réaliser les __12 cours__ — de 5 à 30 heures — __en 6 
 - _Projet :_ Rencontrer un client et __concevoir un site vitrine__
 - _Projet :_ Aidez la communauté en proposant votre aide ou en publiant des [outils open source](https://github.com/flexbox/)
 
-<div class="m-panel">
+<div class="callout">
   <p class="lead">
   <strong>Plus d’informations sur le parcours ?</strong>
   <br>

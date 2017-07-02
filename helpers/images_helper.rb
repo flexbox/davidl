@@ -18,4 +18,12 @@ module ImagesHelper
   def fa(name)
     return "<i class='fa #{name}' aria-hidden='true'></i>"
   end
+
+  def fa_stack(name, background)
+    return "<span class='fa-stack fa-lg'>
+              <i class='fa #{background} fa-stack-2x'></i>
+              <i class='fa #{name} fa-stack-1x fa-inverse'></i>
+            </span>"
+  end
+
 end

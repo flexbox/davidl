@@ -1,0 +1,119 @@
+.callout {
+  transition: box-shadow $speed ease-in-out;
+  box-shadow: 5px 5px 0px rgba($dark-gray, 0.2);
+  @include typl8-hyphens(none);
+
+  &:hover {
+    background-color: $callout-background-hover;
+    box-shadow: 1px 1px 0px rgba($dark-gray, 0.2);
+  }
+
+  &.callout-border {
+    border-left: 5px solid $secondary-color;
+    margin: rem-calc(60 0 80 0);
+    position: relative;
+    a {
+      color: $secondary-color;
+      border-color: $secondary-color;
+      &:hover {
+        color: $white;
+        background-color: $secondary-color;
+      }
+    }
+  }
+
+  &.callout-social {
+    position: relative;
+    overflow: hidden;
+    padding-top: rem-calc(60);
+
+    i {
+      transition: all $speed ease-in-out;
+      position: absolute;
+      right: 20%;
+      top: -100%;
+      font-size: rem-calc(60);
+      &.fa-google-plus { color: $color-google-plus !important; }
+      &.fa-twitter { color: $color-twitter !important; }
+      &.fa-github { color: $color-github !important; }
+      &.fa-gift { color: $color-amazon !important; }
+    }
+
+    &:hover {
+      i {
+        top: 5%;
+      }
+    }
+  }
+
+  a[href^=""]:not([href*="davidl.fr"]):after,
+  a[href*="https:"]:not([href*="davidl.fr"]):after {
+    content: none;
+  }
+
+  .l-icon {
+    .fa {
+      margin-left: rem-calc(20);
+    }
+    &-card {
+      display: flex;
+      align-items: center;
+      @include breakpoint(small only) {
+        flex-direction: column;
+      }
+      .fa-stack {
+        min-width: 3em;
+      }
+    }
+
+    &-content {
+      margin-left: rem-calc(20);
+      @include breakpoint(small only) {
+        align-self: flex-start;
+      }
+
+    }
+  }
+}
+
+a.callout-link[href^=""]:not([href*="davidl.fr"]):after,
+a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
+  content: none;
+}
+
+.callout-link {
+  font-weight: inherit;
+  padding: inherit;
+  border-bottom: 0;
+  transition: none;
+
+  &:hover {
+    border-bottom: 0;
+    background-color: transparent;
+  }
+
+  .callout {
+    min-height: rem-calc(180);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  i:not(.fa-inverse) {
+    color: $gray-blue;
+  }
+
+  &:hover {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    i:not(.fa-inverse) {
+      color: $secondary-color;
+    }
+  }
+}

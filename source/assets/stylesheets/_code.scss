@@ -1,8 +1,7 @@
-$code-bg: $oil;
+$code-bg: $dark-gray;
 $code-font-family: $font-family-monospace;
 
 $code-color: $secondary-color;
-$code-background-color: rgba($white,0.8);
 
 
 
@@ -28,7 +27,7 @@ pre {
   }
 
   &:hover {
-    cursor: $cursor-text-value;
+    cursor: text;
   }
 }
 

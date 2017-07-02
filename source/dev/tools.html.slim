@@ -1,57 +1,56 @@
 ---
 title: "La toolbox du developpeur front-end / intégrateur web - Outils"
-description: Pour travailler efficacement un artisan a besoin de bons outils. C’est la même chose pour la programation web. Voici une sélection d’application Mac OS indispensable à tout dev front-end
-page_title: Les meilleurs outils pour les développeurs front-end
-page_emphasis: Cette liste rassemble toutes les applications pour être efficace sur Mac OS
-page_class: m-toolkit
-changefreq: monthly
-priority: 0.8
+description: Pour travailler efficacement un artisan a besoin de bons outils. C’est la même chose pour la programation web. Voici une sélection d’application macOS indispensables à tout dev front-end
+page_title: Les meilleures applications pour développeurs front-end
+page_emphasis: Cette liste rassemble tous les outils pour être efficace sur macOS
 ---
 
-section.m-section
-  .row
-    .medium-10.medium-centered.columns
+section.section
+  .row.align-center
+    .medium-12.columns
       h2 Dev
-      ul.small-block-grid-1.medium-block-grid-2
+      .row.small-up-1.medium-up-2
         - data.tools.dev.each do |tool|
-          li
-            .row
-              .small-4.columns
-                = image_tag "front/tools/#{tool.image}", alt: "Logo #{tool.name}"
-              .small-8.columns
-                h3
-                  = link_to tool.name, tool.url
-                p
-                  = tool.description
+          .columns
+            = link_to tool.url, class: 'callout-link' do
+              .callout
+                .row
+                  .small-4.columns
+                    = image_tag "front/tools/#{tool.image}", alt: "Logo #{tool.name}"
+                  .small-8.columns
+                    h3
+                      = tool.name
+                    p
+                      = tool.description
 
-section.m-section
-  .row
-    .medium-10.medium-centered.columns
+section.section.l-light
+  .row.align-center
+    .medium-12.columns
       h2 Design
-      ul.small-block-grid-1.medium-block-grid-2
+      .row.small-up-1.medium-up-2
         - data.tools.design.each do |tool|
-          li
-            .row
-              .small-4.columns
-                = image_tag "front/tools/#{tool.image}", alt: "Logo #{tool.name}"
-              .small-8.columns
-                h3
-                  = link_to tool.name, tool.url
-                p
-                  = tool.description
+          .columns
+            = link_to tool.url, class: 'callout-link' do
+              .callout
+                .row
+                  .small-4.columns
+                    = image_tag "front/tools/#{tool.image}", alt: "Logo #{tool.name}"
+                  .small-8.columns
+                    h3 = tool.name
+                    p = tool.description
 
-section.m-section
-  .row
-    .medium-10.medium-centered.columns
+section.section
+  .row.align-center
+    .medium-12.columns
       h2 Divers
-      ul.small-block-grid-1.medium-block-grid-2
+      .row.small-up-1.medium-up-2
         - data.tools.misc.each do |tool|
-          li
-            .row
-              .small-4.columns
-                = image_tag "front/tools/#{tool.image}", alt: "Logo #{tool.name}"
-              .small-8.columns
-                h3
-                  = link_to tool.name, tool.url
-                p
-                  = tool.description
+          .columns
+            = link_to tool.url, class: 'callout-link' do
+              .callout
+                .row
+                  .small-4.columns
+                    = image_tag "front/tools/#{tool.image}", alt: "Logo #{tool.name}"
+                  .small-8.columns
+                    h3 = tool.name
+                    p = tool.description

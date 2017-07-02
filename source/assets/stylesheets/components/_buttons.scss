@@ -3,33 +3,38 @@
   letter-spacing: -1px;
   transition: background 150ms ease-in-out;
   position: relative;
+  border: 2px solid $primary-color;
 
   &:hover,
   &:focus {
-    background-color: $body-bg;
+    background-color: $body-background;
+    border-color: $primary-color;
     color: $primary-color;
   }
   &.secondary {
+    color: $white;
+    border: 2px solid $secondary-color;
+
     &:hover,
     &:focus {
-      background-color: $body-bg;
+      background-color: $body-background;
+      border-color: $secondary-color;
       color: $secondary-color;
     }
   }
   &.button-icon {
-    &:after {
+    &::after {
+      transition: all 200ms ease-in-out;
       position: absolute;
-      color: #ffffff;
-      line-height: 1.7em;
-      font-size: 22px !important;
       opacity: 0;
       margin-left: -1em;
       left: auto;
       display: inline-block;
       content: attr(data-icon);
+      // font: normal normal normal 14px/1 FontAwesome;
     }
     &:hover {
-      &:after {
+      &::after {
         left: auto;
         margin-left: .3em;
         opacity: 1;

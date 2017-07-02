@@ -2,44 +2,45 @@
 title: 'Consultant en Design, développement front-end et Ruby on Rails'
 description: "Designer, Consultant développeur front-end, Teacher à le wagon et à l’université, David Leuliette partage ses bonnes pratiques dans le développement de sites et d’applications web avec les startups et les entreprises"
 image: https://lh3.googleusercontent.com/A1PVcmfCfUy4udtAX5ws0weX77iwYYK__ORVZVr1YrLB6LJn13GnhNynJb5WIOjy8DWBcXl3HAK8eN7GO9tkbhv7UKYqnIEQQSZMwPrwGxPGvf5QAFIaCD5CV9w7aD_N3e7-WkYZ4xLVVsHQRJbM3pCF7uF2YHRZ6bGSQxLBFucw0c49uZbSivWnzrJfnVkC39Iv1W1ayZQviGdc7LBP36u25M5sm7FYBCeWOO-01LewVkDTDURltePETTe0nJw-9-Ea2OgqNPogZ7Uzsl715i0yU0tgrT_MlAuXW_v4VbI4cOcCEQWqowgxETgTr8rdgY5u_CxkmIppDhUEuqvVq5Wg6lnhD-H4v6g9dgas2YHxEDdx-YUa4hbF0-Om9bJwptq7QA43UFfL_VU1y3pKPFnIl8V_BWQNykkUIyOIpbv_bthYM9P58BJ_OHlSwzAOh-Ujw4lELuUxiEFrzTJIHoDxav9wugFbyL9yxnQW7o5JAK4W47pNi_kwv2g1FQm0cptwrAKBZS-0lVPuWxtkpxPHos5RTz9mZO2OuvjJTCzdX2Efj7IwjNbCWw3XaSC6Sx-cZBLufCTcz7GJtssydGkcH016sLLeXjVXb2g4kOmcnlF7=w1024-h512-no
-page_class: m-homepage
+page_class: homepage
 blog: blog
 ---
 
-.m-hero-homepage
-  .l-content
-    h1.title
-      'Conseils en Design
-      br
-      strong
-        span.ampersand> et
-        'dieu du front-end
-    .hide-for-small
-      markdown:
-        J’écris du CSS évolutif et des toggle en JavaScript, mais pas que…<br>
-        Vous cherchez de conseils en __design & développement web__ ?<br>__Vous êtes au bon endroit__.
-    .hide-for-small.left
-      = link_to 'Découvrez mes compétences', '/workflow/',class: 'button'
+.hero-homepage
+  .row.align-center.align-middle
+    .small-10.medium-8.large-12.columns
+      h1.title
+        'Design & dévelopement
+        br
+        em
+          '— pour start-up agiles
+      .hide-for-small
+        markdown:
+          J’écris du CSS évolutif et des toggle en JavaScript, mais pas que…<br>
+          Vous cherchez de conseils en __design & développement web__ ?<br>__Vous êtes au bon endroit__.
+      .row
+        .small-6.columns
+          = link_to 'Découvrez mes compétences', '/workflow/',class: 'button expanded'
+        .small-6.columns
+          a class="typeform-share button secondary expanded" href="https://flexbox.typeform.com/to/yzVxhi" data-mode="popup" target="_blank" Embaucher un consultant
 
-    a class="typeform-share button secondary button-call-to-action" href="https://flexbox.typeform.com/to/yzVxhi" data-mode="popup" target="_blank" Embaucher un consultant
-
-.m-section style="margin-top: 0;"
+.section style="margin-top: 0;"
   .row
-    .medium-4.columns
+    .small-12.medium-4.columns
       .text-center
         = image_tag 'icons/animat-lightbulb-color.gif', alt: 'Product Designer animation', class: 'icons-skills'
       markdown:
         __Product Designer.__
         J’ai travaillé avec des start-ups et des grandes entreprises sur la recherche utilisateur, wireframes, création de MVP et tests utilisateurs.
 
-    .medium-4.columns
+    .small-12.medium-4.columns
       .text-center
         = image_tag 'icons/animat-pencil-color.gif', alt: 'CSS front-end animation', class: 'icons-skills'
       markdown:
         __Architecte CSS.__
         Je suis archimage certifié en `CSS` et `Sass`, avec une certaine expérience dans le développement de framework, création de styleguide et formation d’étudiants sur les technologies front-end.
 
-    .medium-4.columns
+    .small-12.medium-4.columns
       .text-center
         = image_tag 'icons/animat-rocket-color.gif', alt: 'JavaScript user', class: 'icons-skills'
       markdown:
@@ -47,15 +48,15 @@ blog: blog
         J’utilise quotidiennement le terminal et Node.js pour automatiser les choses.<br>
         Je suis aussi co-fondateur du célèbre ChtiJS.
 
-.m-section--inverse
-  .row
+.section--inverse
+  .row.align-middle
     .medium-9.columns
       h2.l-title Améliorer le design de vos applications web
       p.l-baseline Créer des produits de qualité de façon agile
     .medium-3.columns
-      = link_to 'Compétences', '/about.html', class: 'button secondary expand'
+      = link_to 'Compétences', '/about.html', class: 'button secondary expanded'
 
-.m-section
+.section
   .row
     .medium-12.columns.text-center
       markdown:
@@ -92,55 +93,58 @@ blog: blog
             strong une page web chargée en moins de 2 secondes
             '. Près de la moitié d'eux va abandonner un site web mettant plus de 3 secondes à se charger.
 
-.m-section--inverse
-  .row
+.section--inverse
+  .row.align-middle
     .medium-9.columns
       h2.l-title Investissez dans un design durable et évolutif
       p.l-baseline Je crée des ponts entre graphistes et développeurs
     .medium-3.columns
-      = link_to 'Workflow', '/workflow/work.html', class: 'button secondary expand'
+      = link_to 'Workflow', '/workflow/work.html', class: 'button secondary expanded'
 
-.row
-  .medium-12.columns
-    section.m-section
+section.section
+  .row
+    .medium-12.columns
       .text-center
         markdown:
           ## Projets open source
 
           Je participe à l’__intelligence collective du mouvement open source__ en partageant mes connaissances
       hr
-      .row
-        .medium-8.medium-centered.columns
+      .row.align-center
+        .medium-8.columns
           ul.m-blog--post-list
             - data.projects.each_with_index do |project, i|
               - if project.stared.present?
                 li
-                  = link_to project.title, project.url, class: 'm-post--link'
+                  = link_to project.title, project.url, class: 'blog-post-link'
                   p.l-description
                     = project.description
 
-    section.m-section
-      .text-center
-        markdown:
-          ## Community leader
+section.section.l-light
+  .row
+    .medium-12.columns.text-center
+      markdown:
+        ## Community leader
 
-          J’aide à l’organisation & donne des conférences dans différents meetups
+        J’aide à l’organisation & donne des conférences dans différents meetups
       hr
-      ul.small-block-grid-2.medium-block-grid-4
-        li
+      .row.align-center
+        .columns.shrink
           = link_to 'http://opensource.org/', title: 'J’adhère au mouvement open soure', class: 'link-reset' do
             = image_tag 'front/homepage/logo-opensource.png', alt: 'David Leuliette développeur open source'
-        li
+        .columns.shrink
           = link_to 'http://chtijs.francejs.org/', title: 'Fondateur associé de Chtijs', class: 'link-reset' do
             = image_tag 'front/homepage/logo-chtijs.svg', alt: 'David Leuliette membre de la communauté de développeurs JavaScript Lillois'
-        li
+        .columns.shrink
           = link_to 'http://takeoffconf.com/', title: 'Je réalise des sketchnotes aux rencontres', class: 'link-reset' do
             = image_tag 'front/homepage/logo-takeofftalks.png', alt: 'David Leuliette membre de Design, web et startups'
-        li
+        .columns.shrink
           = link_to 'http://ruby-nord.org/', title: 'Mentor ruby spécialisé front-end', class: 'link-reset' do
             = image_tag 'front/homepage/logo-ruby-nord.png', alt: 'David Leuliette coach pour ruby nord'
 
-    section.m-section
+section.section
+  .row
+    .medium-12.columns
       .text-center
         markdown:
           ## Publication d’articles
@@ -148,30 +152,30 @@ blog: blog
           Pour maîtriser un sujet, vous devez l’enseigner aux autres
       hr
       p
-      .row
-        .medium-8.medium-centered.columns
+      .row.align-center
+        .medium-8.columns
           ul.m-blog--post-list
             - page_articles[0..4].each do |article, i|
               li
-                = link_to article, class: 'm-post--link' do
+                = link_to article, class: 'blog-post-link' do
                   = fa 'fa-fw fa-caret-right'
                   = article.title
           p.text-center
             'Continuer la lecture et voir
             = link_to 'tous les articles', '/blog/'
 
-.m-section--inverse
-  .row
+.section--inverse
+  .row.align-middle
     .medium-9.columns
       h2.l-title Développeur front-end
       p.l-baseline Je partage mes connaissances avec la communauté
     .medium-3.columns
-      = link_to 'Projets open source', 'https://github.com/flexbox/', class: 'button expand'
+      = link_to 'Projets open source', 'https://github.com/flexbox/', class: 'button expanded'
 
-section.m-section
-  .row
-    .medium-10.medium-centered.columns.text-center
+section.section
+  .row.align-center
+    .medium-10.columns.text-center
       markdown:
         ## Je veux un web meilleur
         Je suis __designer et développeur__, la conception et la convivialité sont mon mode de vie. Cependant, ce n’est pas vrai pour la plupart des gens. Concevoir un très bon produit est un processus, et généralement c’est cher.<br> Je m’engage à bâtir un meilleur web en faisant tout mon possible pour livrer des sites internet rapides et accessibles.
-      = link_to 'Travailler avec un consultant', '/workflow/work.html', class: 'button secondary'
+      a class="typeform-share button secondary" href="https://flexbox.typeform.com/to/yzVxhi" data-mode="popup" target="_blank" Travailler avec un consultant

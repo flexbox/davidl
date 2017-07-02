@@ -7,21 +7,22 @@ page_emphasis: Transformer votre ordinateur linux en une machine de développeme
 page_class: m-manifest
 ---
 
-.row
-  .medium-2.hide-for-small.columns
-    div data-magellan-expedition="fixed"
-      dl.side-nav
-        dd.l-title Thèmes
-        dd data-magellan-arrival="instructions-dinstallation"
+.row.expanded
+  .small-12.medium-3.large-2.columns data-sticky-container=""
+    nav class="columns sticky" data-sticky="" data-sticky-on="large" data-top-anchor="js-maincontent"
+      ul class="vertical menu menu-magellan" data-magellan=""
+        li.title
+          'Thèmes
+        li
           = link_to 'Introduction', '#instructions-dinstallation'
-        dd data-magellan-arrival="sublime-text-3---votre-diteur"
+        li
           = link_to 'Sublime Text 3', '#sublime-text-3---votre-diteur'
-        dd data-magellan-arrival="git--github"
+        li
           = link_to 'git & GitHub', '#git--github'
-        dd data-magellan-arrival="terminal"
+        li
           = link_to 'terminal', '#terminal'
 
-  .medium-9.small-12.columns
+  .small-12.medium-9.large-8.columns
     markdown:
         # Instructions d’installation
 

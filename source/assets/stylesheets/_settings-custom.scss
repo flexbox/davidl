@@ -1,0 +1,95 @@
+// 1. Global
+// ---------
+
+$global-font-size: 120%;
+$global-width: rem-calc(1200);
+$global-lineheight: 1.6;
+
+$font-weight-normal: 400;
+$global-weight-bold: 900;
+$font-weight-black:  900;
+$global-flexbox: true;
+$global-radius: 2px;
+
+$body-background: $gray-light;
+$body-font-color: $blue-dark;
+
+$font-family-sans-serif: 'Lato', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: $font-family-sans-serif;
+
+$speed: 200ms;
+
+
+// 4. Base Typography
+// ------------------
+
+$header-font-family: 'Chivo', sans-serif;
+$header-font-weight: $font-weight-black;
+$font-family-monospace:  'Ubuntu Mono', 'Monaco', monospace;
+
+$code-font-weight: normal;
+$code-background: transparent;
+$code-border: none;
+
+$header-color: $body-font-color;
+$header-lineheight: 1.1;
+$header-styles: (
+  small: (
+    'h1': ('font-size': 24),
+    'h2': ('font-size': 20),
+    'h3': ('font-size': 19),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 17),
+    'h6': ('font-size': 16),
+  ),
+  medium: (
+    'h1': ('font-size': 60),
+    'h2': ('font-size': 48),
+    'h3': ('font-size': 36),
+    'h4': ('font-size': 24),
+    'h5': ('font-size': 21),
+    'h6': ('font-size': 18),
+  ),
+);
+$header-small-font-color: $gray-blue;
+$hr-border: 1px solid rgba($gray-blue, 0.4);
+
+$anchor-color: $primary-color;
+$anchor-color-hover: $white;
+$anchor-text-decoration: none;
+$anchor-text-decoration-hover: none;
+
+$blockquote-color: $turquoise;
+$blockquote-padding: rem-calc(9 20 0 19);
+$blockquote-border: 0;
+$cite-font-size: rem-calc(14);
+$cite-color: $turquoise;
+
+
+
+// Forms
+
+$form-spacing: rem-calc(26);
+$input-placeholder-color: $gray-blue;
+$input-font-family: $font-family-monospace;
+$input-border: 2px solid $gray-blue;
+$input-border-focus: 2px solid $primary-color;
+$input-shadow: none;
+$input-shadow-focus: 0 0 0 3px rgba($primary-color, 0.4);
+$input-transition: box-shadow $speed, border-color 0.25s ease-in-out;
+
+
+// 13. Callout
+// -----------
+
+$callout-background: rgba($white, 0.4);
+$callout-background-hover: $white;
+$callout-background-fade: 0%;
+$callout-border: none;
+
+
+
+// 56. Xy Grid
+// -----------
+
+$xy-grid: false;

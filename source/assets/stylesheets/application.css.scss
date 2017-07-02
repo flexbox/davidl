@@ -1,49 +1,72 @@
 @charset "utf-8";
 
+@import "foundation-sites/scss/util/unit";
 @import "colors";
-@import "foundation/scss/foundation/functions";
-@import "custom-settings";
+@import "settings-custom";
+@import "foundation-sites/scss/foundation";
 
-@import "icones";
+@mixin foundation-everything(
+  $flex: true
+) {
+  @if $flex {
+    $global-flexbox: true !global;
+  }
 
-@import "foundation/scss/normalize";
-@import "foundation/scss/foundation/components/global";
-@import "foundation/scss/foundation/components/block-grid";
-@import "foundation/scss/foundation/components/buttons";
-@import "foundation/scss/foundation/components/alert-boxes";
-@import "foundation/scss/foundation/components/forms";
-@import "foundation/scss/foundation/components/grid";
-@import "foundation/scss/foundation/components/inline-lists";
-@import "foundation/scss/foundation/components/magellan";
-@import "foundation/scss/foundation/components/panels";
-@import "foundation/scss/foundation/components/tables";
-@import "foundation/scss/foundation/components/type";
-@import "foundation/scss/foundation/components/side-nav";
-@import "foundation/scss/foundation/components/visibility";
+  @include foundation-global-styles;
+  @if not $flex {
+    @include foundation-grid;
+  }
+  @else {
+    @if $xy-grid {
+      @include foundation-xy-grid-classes;
+    }
+    @else {
+      @include foundation-flex-grid;
+    }
+  }
+  @include foundation-typography;
+  @include foundation-forms;
+  @include foundation-button;
+  @include foundation-callout;
+  @include foundation-menu;
+  @include foundation-responsive-embed;
+  @include foundation-media-object;
+  @include foundation-title-bar;
+  @include foundation-sticky;
+  @include foundation-visibility-classes;
+
+  @if $flex {
+    @include foundation-flex-classes;
+  }
+}
+
+@include foundation-everything($flex: true);
 
 @import "custom-typeplate";
-@import "typeplate-starter-kit/scss/typeplate-index";
+@import "typeplate-starter-kit/scss/typeplate-mixins";
+// Need refactor
 // @import "animate.css/source/base.css";
 // @import "animate.css/source/attention_seekers/bounce.css";
 // @import "animate.css/source/bouncing_entrances/bounceInDown.css";
 // @import "animate.css/source/bouncing_exits/bounceOutUp.css";
 
-@import "components/type";
+@import "components/typography";
 @import "components/topbar";
 @import "components/hero-banner";
-@import "components/panels";
+@import "components/callout";
 @import "components/pizza";
 @import "components/sections";
 @import "components/buttons";
-@import "components/trianglify";
 @import "code";
 
-@import "modules/about";
-@import "modules/blog";
-@import "modules/homepage";
-@import "components/magellan";
-@import "modules/webdesign";
-@import "modules/good-practice";
-@import "modules/footer";
+@import "pages/about";
+@import "pages/blog";
+@import "pages/homepage";
+@import "pages/webdesign";
+@import "pages/good-practice";
+@import "pages/footer";
+@import "pages/styleguide";
 
-//= require components/sections
+// Need to refactor for menu
+// @import "foundation/scss/foundation/components/side-nav";
+@import "components/magellan";

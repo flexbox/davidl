@@ -107,7 +107,6 @@ forge:
     2-1-manifeste-refonte.html.md: "/forge/chapitres/2-1-manifeste-refonte.html.md"
   index.html.slim: "/forge/index.html.slim"
 gifts.html.slim: "/gifts.html.slim"
-glossary.html.slim: "/glossary.html.slim"
 gnu.html.slim: "/gnu.html.slim"
 index.html.slim: "/index.html.slim"
 keybase.txt: "/keybase.txt"
@@ -129,5 +128,4 @@ workflow:
   coaching.html.slim: "/workflow/coaching.html.slim"
   growth-hacking.html.slim: "/workflow/growth-hacking.html.slim"
   index.html.slim: "/workflow/index.html.slim"
-  sos.html.slim: "/workflow/sos.html.slim"
   work.html.slim: "/workflow/work.html.slim"

@@ -5,8 +5,8 @@ page_title: Bibliothèque de l’archiviste front-end
 page_emphasis: "Les livres physiques sont plus faciles à lire & se digèrent plus rapidement."
 ---
 
-.row
-  .medium-8.medium-centered.columns
+.row.align-center
+  .medium-8.columns
     p.typl8-drop-cap
       'Pour se tenir à jour des technologies, suivre l’actualité est indispensable. Personellement j’ai des flux RSS, des mailling list, twitter et google plus pour m’informer. Problème : <strong>trop d’informations tue l’information</strong> et la lecture sur le web favorise le butinage. Je scanne les pages et ne prends pas le temps nécéssaire à l’assimilation des concepts.
 
@@ -20,10 +20,10 @@ page_emphasis: "Les livres physiques sont plus faciles à lire & se digèrent pl
 
       Voici une liste de livres que vous pouvez acheter si vous souhaitez vous perfertionner en intégration CSS, développement front-end et responsive design. J’ai lu l'intégralité de leur contenu et je ne présente une sélection que des _meilleurs livres_.
 
-.row
-  .medium-10.medium-centered.columns
+.row.align-center
+  .medium-10.columns
     - data.books.each_with_index do |book|
-      .m-panel
+      .callout
         .row itemscope="" itemtype="http://schema.org/Book"
           .medium-8.columns
             h2

@@ -1,14 +1,12 @@
 ---
 title: Plan du site
-description: "Retrouvez les liens vers les pages importantes du site. Vous cherchez un lien vers les projets open-source d’un développeur front-end ? Découvrez également ma méthode de travail et les outils que j’utilise."
+description: Retrouvez les liens vers les pages importantes du site. Vous cherchez un lien vers les projets open-source d’un développeur front-end ? Découvrez également ma méthode de travail et les outils que j’utilise.
 page_title: Plan du site
 page_emphasis: Retrouvez toutes les pages et les rubriques du site.
-changefreq: monthly
-priority: 0
 ---
 
-.row
-  .medium-8.medium-centered.columns
+.row.align-center
+  .medium-8.columns
     p.typl8-drop-cap
       'J’ai créé un bon nombre de pages web pour enseigner aux visiteurs les bonnes pratiques du développement front-end. Pour vous aider à trouver ce que vous cherchez, j’ai organisé ces pages en groupes.
 
@@ -27,7 +25,7 @@ priority: 0
     ul
       = tree_to_html data.tree
 
-    section.m-section.text-center
+    section.section.text-center
       h2 En savoir plus sur moi
       p Découvrez plus d’informations sur les technologies que j’utilise, mes lectures, mes compétences et mes langages de programmation de prédilection.
       = link_to 'À propos', '/about.html', class: 'button secondary'

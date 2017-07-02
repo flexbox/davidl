@@ -1,36 +1,45 @@
-$white      : #FFFFFF;
-$oil        : #333333;
-$black      : #1A1A1A;
+$white:      #FFFFFF;
+$black:      #1A1A1A;
 
-$gray-light : #FFF9EB;
-$gray       : #fbf3df;
-$gray-dark  : #727272;
+$gray-light: #FFF9EB;
+$gray:       #fbf3df;
+$gray-blue:  #888FAB;
+$gray-dark:  #3F3F44;
 
 $blue:       #1C56FB;
 $blue-light: #2196F3;
 $blue-dark:  #11256C;
 
+$turquoise:  #24CCDF;
 $pink:       #F53FC7;
+$yellow:     #FFF637;
 
-
+$foundation-palette: (
+  primary:   $blue,
+  secondary: $pink,
+  success:   #259B24,
+  warning:   #FF5722,
+  alert:     #E51C23,
+);
+$light-gray:  $gray-light;
+$medium-gray: $gray;
+$dark-gray:   $gray-dark;
 
 $primary-color:   $blue;
 $secondary-color: $pink;
 
-$alert-color:   #E51C23;
-$success-color: #259B24;
-$warning-color: #FF5722;
-$info-color:    #03A9F4;
 
 
+// Hover colors
+// - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$sc-amazon      : #E47911;
-$sc-twitter     : #00aced;
-$sc-google-plus : #dd4b39;
-$sc-github      : #333333;
-$sc-html        : #F06529;
-$sc-css         : #3399FF;
-$sc-js          : #F0DB4F;
+$color-amazon:       #E47911;
+$color-twitter:      #00aced;
+$color-google-plus:  #dd4b39;
+$color-github:       #333333;
+$color-html:         #F06529;
+$color-css:          #3399FF;
+$color-js:           #F0DB4F;
 
 
 
@@ -43,21 +52,4 @@ $sc-js          : #F0DB4F;
   &:focus {
     color: $color-hover;
   }
-}
-
-
-
-.list-color {
-  li {
-    width: 5em;
-    height: 5em;
-    border: 5px solid $white;
-    box-shadow: 0 1px 5px rgba($black, 0.8);
-  }
-
-  .blue { background-color: $blue; }
-  .pink { background-color: $pink; }
-
-  .primary  { background-color: $primary-color; }
-  .secondary  { background-color: $secondary-color; }
 }

@@ -1,0 +1,65 @@
+.footer-navigation {
+  padding-top: rem-calc(40);
+  padding-bottom: rem-calc(40);
+  background-color: $turquoise;
+  position: relative;
+  z-index: 90;
+  font-size: rem-calc(16);
+
+  .footer-links {
+    @include menu-base;
+    @include menu-direction(vertical);
+
+    a {
+      font-weight: $font-weight-normal;
+      @include color-hover($gray-dark, $primary-color);
+      background: transparent;
+      border-bottom: 0;
+    }
+    .title {
+      padding: rem-calc(14);
+      text-transform: uppercase;
+      font-family: $font-family-monospace;
+      color: $yellow;
+      font-weight: $global-weight-bold;
+    }
+  }
+}
+
+
+.footer {
+  background-color: #24292e;
+  background-image: image-url('star-bg.svg'), linear-gradient(#191c20, #24292e 15%);
+  background-repeat: repeat-x;
+  background-position: center 0, 0 0, 0 0;
+  background-size: 100% auto;
+
+
+  padding: rem-calc(40 0);
+  position: relative;
+  z-index: 90;
+
+  p {
+    color: $white;
+  }
+
+  label {
+    color: $white;
+    margin-bottom: rem-calc(10);
+  }
+  a {
+    border: none;
+  }
+  .title-subscribe {
+    @extend h4;
+    margin-top: rem-calc(40);
+    color: $secondary-color;
+    font-weight: $font-weight-black;
+  }
+
+  .colophon {
+    text-align: center;
+    margin-top: rem-calc(40);
+  }
+}
+

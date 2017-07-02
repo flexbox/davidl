@@ -5,34 +5,33 @@ page_title: Formation
 page_emphasis: Apprendre à construire des systèmes modulaires
 ---
 
-.row
-  .medium-10.medium-centered.columns
+.row.align-center
+  .medium-10.columns
     - data.courses.each_with_index do |date|
-      p.lead.text-center = date.year
-      hr
-      - date['content'].each do |course|
-          .row
-            .medium-3.columns
-              h3
-              p.text-tiny
-                = fa 'fa-fw fa-building'
-                => course.provider
-                br
-                = fa 'fa-fw fa-map-pin'
-                => course.place
-            .medium-9.columns
-              h2
-                = course.title
-              p
-                = course.description
-                br
-                - if course['url'].present?
-                  = link_to 'Consulter le programme', course.url
-      hr
+      section.section
+        p.lead.text-center = date.year
+        hr
+        - date['content'].each do |course|
+            .row
+              .medium-3.columns
+                p
+                  = fa 'fa-fw fa-building'
+                  => course.provider
+                  br
+                  = fa 'fa-fw fa-map-pin'
+                  => course.place
+              .medium-9.columns
+                h2
+                  = course.title
+                p
+                  = course.description
+                  br
+                  - if course['url'].present?
+                    = link_to 'Consulter le programme', course.url
 
-section.m-section
-  .row
-    .medium-10.medium-centered.columns
+section.section.l-light
+  .row.align-center
+    .medium-10.columns
       h2.text-center Embauchez moi en tant que formateur
       .text-center
         = link_to "mailto:#{data.settings.social.email}?subject=Demande%20contact&body=Bonjour%20David%20%21%0D%0A%0D%0ANom%20complet%20%3A%0D%0A%0D%0AActuellement%20mon%20plus%20grand%20d%C3%A9fi%20c%27est%20%0D%0A%0D%0AJ%27ai%20entendu%20parler%20de%20ton%20site%20sur%20", class: 'button secondary' do

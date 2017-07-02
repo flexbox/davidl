@@ -12,7 +12,7 @@ toggleSearch = (event) ->
 
   icon.toggleClass('is-hidden')
   button.toggleClass('is-hidden')
-  form.toggleClass('is-expanded')
+  form.toggleClass('is-hidden','is-expanded')
 
 searchBar = ->
   $('#js-topbar--search').click (event) ->

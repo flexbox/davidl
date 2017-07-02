@@ -17,7 +17,7 @@ $topbar-height: rem-calc(60);
 
   bottom: 0;
   top: initial;
-  @media #{$medium}{
+  @include breakpoint(medium){
     top: 0;
     bottom: initial;
     display: flex;
@@ -43,7 +43,7 @@ $topbar-height: rem-calc(60);
     animation: logo-spin infinite 20s linear;
     max-height: 64px;
     margin: rem-calc(20 0);
-    @media #{$small}{
+    @include breakpoint(small) {
       margin: rem-calc(10 0 0 0);
       max-height: 44px;
       max-height: 48px;
@@ -51,22 +51,18 @@ $topbar-height: rem-calc(60);
   }
 }
 
-// a.m-topbar--button {
-//   color: $secondary-color;
-// }
-
 .m-topbar--list {
   display: flex;
   margin: auto;
   flex-direction: column;
-  @media #{$medium}{
+  @include breakpoint(medium){
     flex-direction: row;
     flex: 6;
     display: flex;
   }
   &.is-away {
     display: none;
-    @media #{$medium}{
+    @include breakpoint(medium){
       display: flex;
     }
   }
@@ -85,13 +81,14 @@ $topbar-height: rem-calc(60);
   display: flex;
   flex-direction: row;
 
-  @media #{$medium}{
+  @include breakpoint(medium){
     display: inherit;
     flex: 4;
   }
   .l-search-form {
     padding: rem-calc(15 0 0 20);
-    transition: all .2s ease-out;
+    flex-grow: 10;
+    transition: all $speed ease-in-out;
 
     input {
       margin-bottom: 0;
@@ -99,7 +96,7 @@ $topbar-height: rem-calc(60);
   }
   .l-menu {
     flex: 3;
-    @media #{$medium}{
+    @include breakpoint(medium){
       flex: 0;
       display: none;
     }
@@ -141,7 +138,7 @@ $topbar-height: rem-calc(60);
 }
 .headroom--unpinned {
   transform: translateY(100%);
-  @media #{$medium}{
+  @include breakpoint(medium){
     transform: translateY(-100%);
   }
 }

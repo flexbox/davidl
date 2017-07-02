@@ -1,13 +1,13 @@
 ---
-title: Guide CSS pour une typographie web avec des polices personnalisées
+title: Bonnes pratiques CSS pour une typographie web avec des polices personnalisées
 description: Il existe un pouvoir de la typographie pour raconter des histoires.
 page_title: Typographie & CSS
 page_emphasis: "Améliorer l’accessibilité & lisibilité des caractères"
-page_class: m-good-practice
+page_class: good-practice
 ---
 
-section
-  article
+.row.align-center
+  .medium-10.columns
     p.typl8-drop-cap
       'Ces dernières années, il y a eu énormément de progrès concernant la typographie web. Mais si vous souhaitez sublimer votre expérience de lecture il existe certains points que vous pouvez améliorer.
 
@@ -26,19 +26,17 @@ section
 
       - `text-rendering: optimizeLegibility` avec cette seule ligne vous pouvez corriger instantanément les 2 problèmes précédemment cités et améliorer la typographie sur le web.
 
-.row
-  .medium-12.medium-centered.columns.text-center
+section.section.secondary
+  .row
+    .medium-12.columns.text-center
       h2 6 Conseils pour une meilleure typographie
-      hr
-
-section itemtype="http://schema.org/BlogPosting" itemscope=""
-  article itemprop="articleBody"
       markdown:
-        __NB__ : Tout ces conseils sont donnés par le [typographe Erik Spiekermann](http://fontfeed.com/archives/erik-spiekermanns-typo-tips/), j’ai simplement adapté ses propos au monde de l’intégration CSS.
+        __NB__ : Tout ces conseils sont donnés par le [typographe Erik Spiekermann](http://fontfeed.com/archives/erik-spiekermanns-typo-tips/), j’ai adapté ses propos au monde de l’intégration CSS.
 
-      .l-title
-        p.gamma.i-rounded 1
-        h3 L’ERREUR DE LA MAJUSCULE
+section.section.l-light
+  .row.align-center
+    .medium-10.columns
+      h3 1. L’ERREUR DE LA MAJUSCULE
 
       markdown:
         Ne JAMAIS utiliser de majuscules pour accentuer les mots dans une phrase.
@@ -78,9 +76,10 @@ section itemtype="http://schema.org/BlogPosting" itemscope=""
               'La simplicité est uniquement simple quand quelqu’un a
               em supprimé toute la complexité.
 
-      .l-title
-        span.gamma.i-rounded 2
-        h3 Liaisons
+section.section
+  .row.align-center
+    .medium-10.columns
+      h3 2. Liaisons
       markdown:
         Il existe 3 façons de connecter des mots distincts : le trait d'union -, le tiret demi-cadratin – `&ndash;` et le tiret cadratin —, qui est plus large `&mdash;`. Le trait d'union est facilement accessible sur n'importe quel clavier Mac ou PC, alors que le cadratin est une combinaison des touches `options + tiret` sur Mac. Le demi-cadratin est accessible en utilisant les touches `option + shift + tiret`.
 
@@ -122,9 +121,10 @@ section itemtype="http://schema.org/BlogPosting" itemscope=""
             p
               'Il est essentiel — selon moi — de suivre les standards du web.
 
-      .l-title
-        span.gamma.i-rounded 3
-        h3 “ & ”
+section.section.l-light
+  .row.align-center
+    .medium-10.columns
+      h3 3. “ & ”
       markdown:
         La principale régression, apportée par l’informatique en typographie, concerne la mauvaise utilisation des citations et apostrophes. Les citations peuvent avoir différentes formes. Généralement elles ressemblent à “ceci”, et sont facilement mémorisable par leur début “66” et leur fin “99”. Sur Mac `option + apostrophe` et `option + shift + apostrophe`.
       .row
@@ -143,9 +143,10 @@ section itemtype="http://schema.org/BlogPosting" itemscope=""
             p.lead
               '“Bonjour”
 
-      .l-title
-        span.gamma.i-rounded 4
-        h3 Unir les forces
+section.section
+  .row.align-center
+    .medium-10.columns
+      h3 4. Unir les forces
       markdown:
         En typographie une bonne gestion des espaces est indispensable. Ce travail est extrèmement long car il doit être réalisé à la main, caractère par caractère. Heureusement il existe des solutions pour améliorer la gestion des espaces entre deux lettres.
 
@@ -181,9 +182,10 @@ section itemtype="http://schema.org/BlogPosting" itemscope=""
               br
               'Configure
 
-      .l-title
-        span.gamma.i-rounded 5
-        h3 Ne pas justifier
+section.section.l-light
+  .row.align-center
+    .medium-10.columns
+      h3 5. Ne pas justifier
       markdown:
         Évitez les réglages de chasse ! La plupart des applications créent un texte hideusement justifié par étirement en créant de nombreux espaces entre les mots. Notez qu’il faut _de nombreuses heures de travail fastidieux_, pour composer un texte justifié qui soit vraiment bien proportionné et lisible.
 
@@ -208,9 +210,10 @@ section itemtype="http://schema.org/BlogPosting" itemscope=""
                 p
                   'The world at once present and absent which the spectacle makes visible is the world of the commodity dominating all that…
 
-      .l-title
-        span.gamma.i-rounded 6
-        h3 Sauvez les listes
+section.section
+  .row.align-center
+    .medium-10.columns
+      h3 6. Sauvez les listes
       markdown:
         Utilisez des puces `&bull;` ou des points centrés `&sdot;` au lieu des traits d'union `-` lorsque vous listez des éléments.
         Ils appartiennent au jeu de [caractères standard](http://flexbox.github.io/responsive-icons/) et s'utilisent facilement :
@@ -243,5 +246,3 @@ section itemtype="http://schema.org/BlogPosting" itemscope=""
         Pour aller plus loin :
 
         [spiekermann.com](http://spiekermann.com/)
-
-

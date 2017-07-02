@@ -4,32 +4,31 @@ description: Comment mettre en place un design responsive avec le framework Foun
 page_title: Webdesign orienté mobile
 page_emphasis: Comment fonctionne le responsive design et pourquoi est-ce important ?
 page_class: m-webdesign
-changefreq: yearly
-priority: 0.8
 ---
 
 - content_for :javascripts do
   = javascript_include_tag 'front/webdesign'
 
-.row
-  .medium-2.hide-for-small.columns
-    div data-magellan-expedition="fixed"
-      dl.side-nav
-        dd.l-title Thèmes
-        dd data-magellan-arrival="intro"
+.row.expanded
+  .small-12.medium-3.large-2.columns data-sticky-container=""
+    nav class="columns sticky" data-sticky="" data-sticky-on="large" data-top-anchor="js-maincontent"
+      ul class="vertical menu menu-magellan" data-magellan=""
+        li.title
+          'Thèmes
+        li
           = link_to 'Introduction', '#intro'
-        dd data-magellan-arrival="grid"
+        li
           = link_to 'La grille', '#grid'
-        dd data-magellan-arrival="images"
+        li
           = link_to 'Images flexibles', '#images'
-        dd data-magellan-arrival="mediaqueries"
+        li
           = link_to 'Media Queries', '#mediaqueries'
-        dd data-magellan-arrival="enhancement"
+        li
           = link_to 'Améliorations', '#enhancement'
-        dd data-magellan-arrival="future"
+        li
           = link_to 'Evolution', '#future'
 
-  .medium-9.small-12.columns
+  .small-12.medium-9.large-8.columns
     p.typl8-drop-cap
       'Ce n'est un secret pour personne, la navigation mobile sur internet fera mordre la poussière au traffic de bureau classique -plus tôt que vous le pensez. Aux États-Unis, il représente déjà 20% du web global. En Asie et en Afrique, plus de la moitié de tout le traffic  provient du mobile. En plus de cela, il y a <del>des milliers et des milliers</del>
       =>link_to 'des millards', 'http://techcrunch.com/2012/10/16/mobile-milestone-the-number-of-smartphones-in-use-passed-1-billion-in-q3-says-strategy-analytics/'
@@ -65,14 +64,14 @@ priority: 0.8
     hr
     .row
       .medium-4.columns
-        h2#intro data-magellan-destination="intro"
+        h2#intro data-magellan-target="intro"
           'Les avantages d'une conception adaptative
           br
           small Il y a de nombreux avantages au design adaptatif. Voici quelques-uns d'entre eux :
 
       .medium-7.columns
         h3
-          i.fa.fa-refresh
+          = fa 'fa-fw fa-refresh'
           'Prototypes et itérations rapides
         p
           'En choississant un
@@ -80,7 +79,7 @@ priority: 0.8
           ', vous pouvez rapidement prototyper et itérer sur vos créations, réduisant de manière significative le développement de votre produit. Vous pouvez coder vos wireframes pour tester le comportement de vos créations sur un ordinateur de bureau, un téléphone ou une tablette.
         hr
         h3
-          .i-custom.icon-gameboy
+          = fa 'fa-fw fa-gamepad'
           'Travailler avec de vrais appareils
         p
           'Un <strong>framework responsive</strong> permet à votre design de se condenser sur les appareils plus petits et de s'étendre sur les plus grands. En travaillant avec
@@ -88,7 +87,7 @@ priority: 0.8
           ', vous n'avez pas à vous soucier du fonctionnement de vos créations sur tous les appareils.
         hr
         h3
-          i.fa.fa-clock-o
+          = fa 'fa-fw fa-clock-o'
           'Préparé pour l'avenir
         p
           'La conception de sites responsive vous permet d'être prêt pour les périphériques <strong>qui n'existent pas encore</strong>, parce que vous avez déjà assuré que votre produit sera adapté à toutes les résolutions.
@@ -111,7 +110,7 @@ priority: 0.8
 
     hr
     = image_tag 'front/responsive-design-tron-grid.jpg', alt: 'Grille responsive design'
-    h2#grid data-magellan-destination="grid"
+    h2#grid data-magellan-target="grid"
       'Devenez fluide avec votre grille
       small C'est la base pour vos créations adaptatives.
     p
@@ -133,19 +132,19 @@ priority: 0.8
     .row
       .medium-4.columns
         .text-center
-          .fa.fa-tasks.l-large
+          = fa 'fa-fw fa-tasks l-large'
         h3 Uniformité
         p Une grille assure la cohérence entre les pages Web, réduis les erreurs de codage CSS. Cela contribue également à un placement HTML fiable.
 
       .medium-4.columns
         .text-center
-          .fa.fa-terminal.l-large
+          = fa 'fa-fw fa-terminal l-large'
         h3 Moins de code
         p Avec un système de grille, vous ne réinventez pas la roue, ce qui fait gagner beaucoups de temps. Un autre avantage est que la grille rend les itérations rapides et plus facile.
 
       .medium-4.columns
         .text-center
-          .fa.fa-keyboard-o.l-large
+          = fa 'fa-fw fa-keyboard-o l-large'
         h3 Contrôle de la structure
         p Une grille permet d'organiser ses éléments, avec un contrôle sur la structure visuelle et sur la page.
 
@@ -159,7 +158,7 @@ priority: 0.8
 
       .medium-7.columns
         h3
-          .fa.fa-square-o
+          = fa 'fa-fw fa-square-o'
           'Box Model
         p
           'Un "modèle de boîte" est un composant du navigateur. Je recommandes d'utiliser <code>box-sizing</code> pour
@@ -167,17 +166,17 @@ priority: 0.8
           'utilisé par le navigateur. Cela permet une conserver une certaine retro-compatibilité.
 
         h3
-          .fa.fa-files-o
+          = fa 'fa-fw fa-files-o'
           'Ordre des sources
         p L'agencement des sources permet d'avoir un affichage de site mobile différent du balisage utilisé par la grille.
 
         h3
-          .fa.fa-code
+          = fa 'fa-fw fa-code'
           'Sémantique
         p Avec une grille sémantique, vous pouvez associer les propriétés de la grille à des éléments dans votre balisage pour être sémantiquement correct. Cela nécessite un préprocesseur, comme <code>Sass</code> ou <code>Less</code>.
 
         h3
-          .fa.fa-align-left
+          = fa 'fa-fw fa-align-left'
           'Nidification
         p
           'Une grille fluide permet la nidification -c'est à dire de
@@ -185,7 +184,7 @@ priority: 0.8
           '. Cela permet des mises en page plus complexes et visuellement intéressantes.
 
         h3
-          .fa.fa-outdent
+          = fa 'fa-fw fa-outdent'
           'Ajustements
         p Les <code>Offsets</code> permettent d'avoir plus d'espace entre les colonnes d'une ligne. Ils sont indispensables pour assurer la cohérence en maximisant la lisibilité.
 
@@ -194,7 +193,7 @@ priority: 0.8
       .medium-4.columns
         h2 Exemple de grille complexe
       .medium-4.columns
-        .template
+        .template-grid
           .row.collapse
             .small-12.columns
               span
@@ -231,7 +230,7 @@ priority: 0.8
               span
         p.text-center Style mosaïque
       .medium-4.columns
-        .template
+        .template-grid
           .row.collapse
             .small-12.columns
               span
@@ -256,7 +255,7 @@ priority: 0.8
               span
         p.text-center Style timeline
     hr
-    h2#images data-magellan-destination="images"
+    h2#images data-magellan-target="images"
       'Une règle pour les grouverner toutes
 
     p La taille des images n'est pas bloqué en pixels fixe.
@@ -271,7 +270,7 @@ priority: 0.8
       '. Il est possible d'utiliser des classes pour cacher les images plus grandes pour les petits sur mobile. Mais <strong>les deux images seront toujours chargées</strong>, ce qui peut gâcher la performance d'une page. Je travaille quotidiennement sur ces problématiques.
 
     hr
-    h2#mediaqueries data-magellan-destination="mediaqueries"
+    h2#mediaqueries data-magellan-target="mediaqueries"
       'Ordinateurs, TVs, tablettes, smartphones, nintendo 3DS ™ ?
 
     p
@@ -368,14 +367,14 @@ priority: 0.8
     hr
     .row
       .medium-4.columns
-        h2#enhancement data-magellan-destination="enhancement"
+        h2#enhancement data-magellan-target="enhancement"
           'Les améliorations possibles
           br
           small Les techniques commencent à se standardiser pour règler les problèmes du monde multi-écran. Cela étant dit, il y a encore beaucoup de place pour l'amélioration en ce qui concerne la conception adaptative.
 
       .medium-7.columns
         h3
-          .fa.fa-hand-o-up
+          = fa 'fa-fw fa-hand-o-up'
           'Navigation
         p
           'Traditionnellement, la navigation d'une page est horizontale. Mais avec le web design adaptatif, le
@@ -383,7 +382,7 @@ priority: 0.8
           'pour faciliter le scroll. Il a également la mise à l'échelle pour la typographie, si il y a des tonnes de liens la nidification ne fonctionnera pas non plus.
 
         h3
-          .fa.fa-picture-o
+          = fa 'fa-fw fa-picture-o'
           'Images
         p
           'Les images devraient être en mesure de s'adapter à l'échelle des différents appareils, et être d'assez bonne qualité pour les écrans HD. Le problème est le poids de ces grosses images, même si elles sont mises en cache, cela plombe le chargement d'une page, car l'image est téléchargée. Mais
@@ -391,7 +390,7 @@ priority: 0.8
           '.
 
         h3
-          .fa.fa-table
+          = fa 'fa-fw fa-table'
           'Tableaux
         p
           'Travailler avec un grand nombre de données tabulaire est simplement la pire chose en design responsive.
@@ -399,16 +398,13 @@ priority: 0.8
           'Elles ne peuvent pas déborder de la grille et peuvent casser la mise en page. Cela signifie que vous ne pourrez pas voir toutes les données ou comparer des lignes avec une colonne. Bien que, il existe des solutions,
           = link_to 'comme celle-ci', 'http://zurb.com/playground/responsive-tables'
           '.
-    hr
-    h2#future data-magellan-destination="future" Démarrer un nouveau projet
-    p
-      'Il existe quelques bons outils dehors quand il s'agit de conception adaptative. Mon préféré reste
-      = link_to 'Foundation', 'http://foundation.zurb.com/docs/'
-      '. Mais peu importe la solution que vous utilisez ou si vous souhaitez créer votre framework de zéro. La question est de savoir comment faire face à l’imprévisibilité de l’avenir.
 
-    .m-panel
-      p.lead
-       strong
-        'Si vous avez appris quelque chose de nouveau,
-       => link_to 'contactez moi', '/contact.html'
-       'pour la réalisation de votre prochain projet.
+section.section.l-light
+  .row.align-center
+    .medium-10.columns.text-center
+      h2#future data-magellan-target="future" Démarrer un nouveau projet
+      p
+        'Il existe quelques bons outils dehors quand il s'agit de conception adaptative. Mon préféré reste
+        = link_to 'Foundation', 'http://foundation.zurb.com/docs/'
+        '. Mais peu importe la solution que vous utilisez ou si vous souhaitez créer votre framework de zéro. La question est de savoir comment faire face à l’imprévisibilité de l’avenir.
+      a class="typeform-share button secondary" href="https://flexbox.typeform.com/to/yzVxhi" data-mode="popup" target="_blank" Book a dev
