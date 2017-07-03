@@ -1,0 +1,14 @@
+- post_url = "#{data.settings.site.url}/blog/#{current_page.data.slug}.html"
+
+.callout-share
+  p.article-title
+    = current_page.data.title
+  .row
+    .small-6.columns
+      = link_to "//twitter.com/intent/tweet?text=#{current_page.data.title}+#{data.settings.social.twitter.name}+#{post_url}", class: 'button large expanded button-tweet', target: '_blank' do
+        = fa 'fa-fw fa-twitter'
+        |Tweet
+    .small-6.columns
+      = link_to "http://www.facebook.com/sharer/sharer.php?u=#{post_url}", class: 'button large expanded button-facebook', target: '_blank' do
+        = fa 'fa-fw fa-facebook'
+        |Post

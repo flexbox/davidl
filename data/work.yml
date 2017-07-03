@@ -1,7 +1,7 @@
 dev:
   -
     link: /dev/git.html
-    icon: fa-git
+    icon: fa-code-fork
     title: git
     description: Installation de git et configuration avec GitHub.
   -
@@ -16,7 +16,7 @@ dev:
     description: Astuces pour devenir expert avec les raccourcis et utiliser de façon efficace un bon éditeur de texte.
   -
     link: /dev/tools.html
-    icon: fa-git
+    icon: fa-apple
     title: Tools
     description: Outils ou applications que j’utilise quotidiennement en tant que développeur front-end.
 design:

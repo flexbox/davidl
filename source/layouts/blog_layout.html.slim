@@ -45,3 +45,4 @@
             time datetime="#{current_page.data.date}" pubdate=""
               = current_page.data.date.strftime('%d %B %Y')
           == yield
+          = partial 'layouts/share'

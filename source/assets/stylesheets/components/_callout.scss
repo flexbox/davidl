@@ -76,9 +76,8 @@
   }
 }
 
-a.callout-link[href^=""]:not([href*="davidl.fr"]):after,
-a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
-  content: none;
+a.callout-link::after {
+  content: none !important;
 }
 
 .callout-link {
@@ -115,5 +114,17 @@ a.callout-link[href*="https:"]:not([href*="davidl.fr"]):after {
     i:not(.fa-inverse) {
       color: $secondary-color;
     }
+  }
+}
+
+.callout-share {
+  margin-top: rem-calc(80);
+  background-color: $callout-background-hover;
+  padding: rem-calc(20);
+
+  p.article-title {
+    @extend h2;
+    color: $gray-blue;
+    margin-top: 0 !important;
   }
 }

@@ -73,19 +73,18 @@ section.section
       markdown:
         ### /talks
         Meetup c’est cool ! J’y participe souvent pour réaliser des sketchnotes, donner des conférences ou simplement rencontrer la communauté des developpeurs.
-  .row.expanded.small-up-1.medium-up-3.m-blog--post-list
-    - data.achievements.talks.each do |talk|
-      .columns
-        = link_to talk.url, class: 'callout-link' do
-          .callout
-            strong
-              => talk.lang
-              => talk.website
-            ' —
-            em
-              time.text-tiny style="display: inherit;"
-                = talk.date
-            p.lead = talk.title
+      ul.m-blog--post-list
+        - data.achievements.talks.each do |talk|
+          li
+            = link_to talk.url, class: 'blog-post-link link-reset' do
+              strong
+                => talk.lang
+                => talk.website
+              ' —
+              em
+                time.text-tiny style="display: inherit;"
+                  = talk.date
+              p = talk.title
 
 section.section.l-light
   .row.align-center
