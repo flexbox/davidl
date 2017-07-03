@@ -27,10 +27,14 @@ work:
   -
     name: Typeform
     link: http://referral.typeform.com/mzclYBD
-    win: -10% sur votre prochaine facture
+    win: -10% de réduction à vie sur votre facture
   -
     name: RescueTime
     link: https://www.rescuetime.com/ref/1486380
+    win: Pro account pour 1 mois
+  -
+    name: Hello Bonsai
+    link: https://app.hellobonsai.com/invite/0f66b59d
     win: Pro account pour 1 mois
 travel:
   -
@@ -41,3 +45,7 @@ travel:
     name: Revolut
     win: Makes currency exchange totally free
     link: https://revolut.com/r/davidgp1
+  -
+    name: UberEATS
+    link: http://ubr.to/EatsGiveGet
+    win: 5€ de réduction avec le code <code>eats-dqrkhue</code>

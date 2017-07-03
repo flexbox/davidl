@@ -60,7 +60,7 @@ workflow:
   -
     link: /workflow/work.html
     icon: fa-columns
-    title: Work
+    title: Styleguide
     description: Découvrez pourquoi vous devez travailler avec un designer dans votre équipe
   -
     link: http://courses.davidl.fr/programs/robotsinmarch.html

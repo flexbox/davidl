@@ -39,10 +39,14 @@
         .medium-10.columns
           p.emperor = current_page.data.title
           p.m-blog--article-infos
+            span.text-tiny> Le
+            time> datetime="#{current_page.data.date}" pubdate=""
+              = current_page.data.date.strftime('%d %B %Y')
             span.text-tiny> Par
             => link_to 'David Leuliette', '/about.html'
-            span.text-tiny> le
-            time datetime="#{current_page.data.date}" pubdate=""
-              = current_page.data.date.strftime('%d %B %Y')
+            span.text-tiny> —
+            = link_to "https://github.com/flexbox/davidl/blob/master/source/blog/articles/#{current_page.data.date}-#{current_page.data.slug}.html.md", target: '_blank' do
+              |Modifier l’article
+
           == yield
           = partial 'layouts/share'

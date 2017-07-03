@@ -52,6 +52,10 @@
   &--article {
     &-infos {
       margin-bottom: rem-calc(100);
+      a {
+        @extend .link-reset;
+        @include color-hover($gray-blue, $primary-color);
+      }
     }
 
     h2 {

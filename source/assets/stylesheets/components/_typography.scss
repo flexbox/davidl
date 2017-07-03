@@ -83,6 +83,7 @@ a {
   border-bottom: 0;
   &:hover {
     background-color: transparent;
+    color: inherit;
   }
   &::after {
     content: none !important;
