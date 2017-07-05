@@ -80,17 +80,15 @@ blog: blog
       Vous pouvez soumettre une demande de [modification sur Github](https://github.com/flexbox/davidl/tree/master/source/blog/articles).
 
 section.section
-  .row
-    .small-12.columns
-      markdown:
-        ## Conseils de lecture
-        Je suis autodidacte. J’ai remarqué que __la lecture sur le web favorise le butinage__. En lisant un livre, vous êtes plus concentré pour retenir leurs notions.
+  .row.align-center
+    .medium-10.columns
+      h2 Conseils de lecture
       .row.small-up-1.medium-up-2.large-up-4
         - data.books.each_with_index do |book|
           - if book.stared.present?
             .columns
               = image_tag "front/books/#{book.image}", alt: book.title
-      br
-      .text-center
-        = link_to '/learn/books.html', class: 'button button-icon', data: {icon: '▸'} do
-          |Lire mes recommandations
+      markdown:
+        Je suis autodidacte. J’ai remarqué que __la lecture sur le web favorise le butinage__. En lisant un livre, vous êtes plus concentré pour retenir leurs notions.
+      = link_to '/learn/books.html', class: 'button large button-icon', data: {icon: '▸'} do
+        |Lire mes recommandations

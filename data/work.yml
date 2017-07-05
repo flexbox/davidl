@@ -51,7 +51,7 @@ workflow:
     link: /workflow/coaching.html
     icon: fa-coffee
     title: Coaching
-    description: Je peux vous aider à améliorer votre produit ou vos processus de travail
+    description: Je peux vous aider à améliorer votre produit ou vos processus de travail.
   -
     link: /workflow/growth-hacking.html
     icon: fa-line-chart
@@ -61,9 +61,9 @@ workflow:
     link: /workflow/work.html
     icon: fa-columns
     title: Styleguide
-    description: Découvrez pourquoi vous devez travailler avec un designer dans votre équipe
+    description: Découvrez pourquoi vous devez travailler avec un designer dans votre équipe.
   -
     link: http://courses.davidl.fr/programs/robotsinmarch.html
     icon: fa-android
     title: Chatbot
-    description: Cela fait des années que j’automatise ma vie, et puis j’ai découvert les chatbots
+    description: Cela fait des années que j’automatise ma vie, et puis j’ai découvert les chatbots.
