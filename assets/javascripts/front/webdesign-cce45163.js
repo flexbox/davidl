@@ -1,0 +1,1 @@
+(function(){$(function(){return $(".m-webdesign .hero-banner").prepend('<div class="m-video-background"></div>'),$(".m-video-background").videobackground({videoSource:[["/assets/video/device-design.mp4","video/mp4"],["/assets/video/device-design.webm","video/webm"]],loop:"true",loadedCallback:function(){return $(this).videobackground("mute")}})})}).call(this);

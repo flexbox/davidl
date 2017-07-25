@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: http://davidl.fr/sitemap.xml
