@@ -84,7 +84,7 @@ misc:
   -
     name: Evernote
     description: "Evernote est un moyen rapide et facile des synchroniser du contenu à travers toutes vos machines. Si vous créez un compte à partir du lien suivant, cela vous donne le droit à un mois d’abonnement premium gratuitement"
-    url: "https://www.evernote.com/referral/Registration.action?uid=22499360&sig=20b14c77343018bd4f93762fc9fae90d"
+    url: http://evernote.grsm.io/DavidLeuliette
     image: evernote.png
   -
     name: Record It

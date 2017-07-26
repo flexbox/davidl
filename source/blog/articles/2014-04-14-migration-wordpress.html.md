@@ -23,7 +23,7 @@ J’ai donc quitté le monde Wordpress et `php` pour travailler en `ruby` avec u
 
 Personnellement voici mon workflow pour publier du contenu.
 
-- J’écris en markdown avec evernote (Généralement depuis ma tablette).
+- J’écris en markdown avec [evernote](http://evernote.grsm.io/DavidLeuliette) (Généralement depuis ma tablette).
 - Je passe sur un ordinateur fixe pour gérer les medias images.
 - Je déploie depuis mon ordinateur portable.
 
