@@ -1,13 +1,12 @@
 ---
 date: 2014-03-31
 slug: conseil-dev
-title: "Astuces et conseils de développeur web front-end"
+title: "Astuces et conseils de développeur front-end"
 page_title: Mon meilleur conseil dans le domaine du développement web
-changefreq: monthly
-priority: 0.8
+page_emphasis: You need to think out of the box
 ---
 
-Apprendre. Coder rapidement. Livrer. Vendre. C'est la baseline de [dotnetdojo](http://www.dotnetdojo.com/donnez-meilleur-conseil-developpement-web-200-euros-a-gagner/) un blog qui propose de partager son meilleur conseil concernant le développement web. J'ai décidé de participer à l'opération, en donnant ma meilleure astuce en tant que développeur front-end :
+Apprendre. Coder rapidement. Livrer. Vendre. C'est la baseline de [dotnetdojo](http://www.dotnetdojo.com/donnez-meilleur-conseil-developpement-web-200-euros-a-gagner/) un blog qui propose de partager son meilleur conseil concernant le développement web. J'ai décidé de participer à l'opération, en partageant __mon meilleur conseil en tant que développeur front-end__ :
 
 > Codez pour le système et non pour les pages
 
@@ -24,7 +23,7 @@ Depuis l’avènement du responsive design, ce principe est de plus en plus vrai
 - Formes
 - Typographie
 
-###Composants au comportement fluide :
+### Composants au comportement fluide :
 
 - Grille
 - Mise en page
@@ -34,21 +33,30 @@ Depuis l’avènement du responsive design, ce principe est de plus en plus vrai
 
 ### Priorité à la typographie
 
-Quand vous travaillez dans un contexte avec énormément de texte, la typographie est la façon la plus simple de donner une ambiance visuelle à votre contenu. Généralement je choisis [2 polices de caractères](http://davidl.fr/blog/typographie-google-font.html) différentes :
+Quand vous travaillez dans un contexte avec énormément de texte, la __typographie__ est la façon la plus simple de donner une ambiance visuelle à votre contenu. Généralement je choisis [2 polices de caractères](http://davidl.fr/blog/typographie-google-font.html) différentes :
 
-- Sans serif pour le contenu
-- Serif pour les titres
+- Serif pour le contenu
+- Sans Serif pour les titres
+
+~~~ scss
+$body-font-family: 'Lato', Helvetica, Roboto, Arial, sans-serif;
+$header-font-family: 'Chivo', sans-serif;
+~~~
 
 Pour donner un rythme vous pouvez aussi jouer avec du contenu en gras, en italique, avec les tailles différentes ...
 L'avantage est que si le `viewport` change, votre expérience de lecture restera cohérente.
 
 ### Typographie et mise en page
 
-L'une des première chose est de choisir une unité de base pour commencer à travailler. Nombre de colonnes et taille maximale pour votre grille, taille de la police et des titrage basés sur la suite de fibonachi, ou quelque chose de plus arbitraire. Des fois il est judicieux de choisir des multiples de 10 pour rendre les calculs mathématiques en CSS plus simples. Le typographe Tim Brown suggère d'essayer la méthode d'[échelle modulaire](http://alistapart.com/article/more-meaningful-typography).
+L'une des première chose est de choisir une unité de base pour commencer à travailler. Nombre de colonnes et taille maximale pour votre grille, taille de la police et des titrage basés sur la suite de fibonachi, ou quelque chose de plus arbitraire.
+
+Des fois il est judicieux de choisir des multiples de 10 pour rendre les calculs mathématiques en CSS plus simples. Le typographe Tim Brown suggère d'essayer la méthode d'[échelle modulaire](http://alistapart.com/article/more-meaningful-typography).
 
 ### Grille et mise en page
 
-Une grille fluide est une base solide pour la conception de votre système de mise en page. Mais vous devez vous faire à l'idée que votre système doit fonctionner à travers différentes résolutions. Vous devez garder votre composant de grille [pervasif](http://fr.wikipedia.org/wiki/Environnement_pervasif). Si votre contenu contient un groupe de 3 blocs sur une ligne, vous devez le faire passer à 1 bloc sur 3 lignes pour pouvoir être affiché sur mobile.
+Une __grille fluide est une base solide__ pour la conception de votre système de mise en page. Mais vous devez vous faire à l'idée que votre système doit fonctionner à travers différentes résolutions. Vous devez garder votre composant de grille [pervasif](http://fr.wikipedia.org/wiki/Environnement_pervasif).
+
+Si votre contenu contient un groupe de 3 blocs sur une ligne, vous devez le faire passer à 1 bloc sur 3 lignes pour pouvoir être affiché sur mobile.
 
 Cela peut paraître simpliste, mais c'est extrèmement important pour le designer. Il pourra mettre en avant certains blocs, choisir de centrer du texte et des icones dans un certain contexte, aligner à gauche dans un autre...
 L'important est d'avoir le plus d'éléments communs pour conserver une expérience utilisateur uniforme.
