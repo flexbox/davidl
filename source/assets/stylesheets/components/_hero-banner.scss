@@ -1,7 +1,14 @@
-$banner-linear-bg: linear-gradient(to right, $blue-light 0%, $primary-color 80%);
+@keyframes rainbow {
+  0% { background-position: 0 82%; }
+  50% { background-position: 100% 19%; }
+  100% { background-position: 0 82%; }
+}
 
 .hero-banner {
-  background: $banner-linear-bg;
+  background: linear-gradient(124deg, $blue, $blue, $blue, $blue-light, $blue-dark, $blue-dark);
+  background-size: 1800% 1800%;
+  animation: rainbow 16s ease infinite;
+
   margin-bottom: rem-calc(30);
   padding-top: $topbar-height;
   @include breakpoint(small) {

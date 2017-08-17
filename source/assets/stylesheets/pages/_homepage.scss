@@ -2,7 +2,7 @@
   background-repeat: repeat-y;
   background-position: center top;
   background-size: 110% auto;
-  background-image: image-url('bg-hero.svg'), $banner-linear-bg;
+  background-image: image-url('bg-hero.svg'), linear-gradient(to right, $blue-light 0%, $primary-color 80%);
 
   display: flex;
   position: relative;

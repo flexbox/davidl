@@ -1,14 +1,15 @@
-@mixin reset-link(){
-  &:after {
+@mixin reset-link() {
+  &::after {
     content: none !important;
   }
 }
 
 .m-blog-row {
   max-width: 100%;
+
   aside {
     background-color: $gray;
-    box-shadow: 0px -30px 0px 0px $gray;
+    box-shadow: 0 -30 0 0px $gray;
     .section {
       padding-left: rem-calc(20);
       padding-right: rem-calc(20);

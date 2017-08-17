@@ -1,11 +1,11 @@
 ---
 date: 2015-10-06
 slug: offthegrid
-title: "4 mois sans internet"
+title: "Voyager pendant 4 mois sans internet"
 description: "Digital detox d’un développeur front–end, voyage sans suivre l’actualité du web pendant 4 mois"
 image: https://c1.staticflickr.com/1/705/21182629074_bb72e0ffd1_c.jpg
 page_title: Off the grid
-page_emphasis: Je quitte mon travail sur le web pour 4 mois de voyage, retour prévu en février 2016.
+page_emphasis: Je quitte mon travail sur le web pour 4 mois de voyage, retour prévu en février 2016
 changefreq: monthly
 priority: 0.5
 ---

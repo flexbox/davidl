@@ -11,6 +11,10 @@ learn:
     name: Le Wagon - développeur front-end
     link: http://bit.ly/1BDE1ow
     win: 30€ de réduction, maitrisez JavaScript
+  -
+    name: SitePoint Premium
+    link: https://www.sitepoint.com/premium/refer/flexbox
+    win: 25€ de réduction, sur tout le catalogue
 work:
   -
     name: Mailchimp
@@ -49,3 +53,7 @@ travel:
     name: UberEATS
     link: http://ubr.to/EatsGiveGet
     win: 5€ de réduction avec le code <code>eats-dqrkhue</code>
+-
+    name: Hopper
+    link: https://sharing.hopper.com/m/QRaAlQ
+    win: Download the Hopper app to save up to 40% off your next flight.
