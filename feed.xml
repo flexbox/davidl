@@ -5,7 +5,7 @@
   <id>https://davidl.fr/blog/</id>
   <link href="https://davidl.fr/blog/"/>
   <link href="https://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2017-06-01T00:00:00+02:00</updated>
+  <updated>2017-05-31T23:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
@@ -13,8 +13,8 @@
     <title>Expatriation à Londres</title>
     <link rel="alternate" href="https://davidl.fr/blog/london.html"/>
     <id>https://davidl.fr/blog/london.html</id>
-    <published>2017-06-01T00:00:00+02:00</published>
-    <updated>2017-06-08T14:55:59+02:00</updated>
+    <published>2017-05-31T23:00:00+01:00</published>
+    <updated>2017-06-08T13:55:59+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -62,8 +62,8 @@
     <title>Atom pour les développeurs JavaScript</title>
     <link rel="alternate" href="https://davidl.fr/blog/atom.html"/>
     <id>https://davidl.fr/blog/atom.html</id>
-    <published>2017-05-11T00:00:00+02:00</published>
-    <updated>2017-06-08T14:55:59+02:00</updated>
+    <published>2017-05-10T23:00:00+01:00</published>
+    <updated>2017-06-08T13:55:59+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -246,8 +246,8 @@
     <title>Introduction à JAMstack : JavaScript, API et Markup</title>
     <link rel="alternate" href="https://davidl.fr/blog/jamstack.html"/>
     <id>https://davidl.fr/blog/jamstack.html</id>
-    <published>2017-03-13T00:00:00+01:00</published>
-    <updated>2017-07-25T13:37:39+02:00</updated>
+    <published>2017-03-12T23:00:00+00:00</published>
+    <updated>2017-07-25T12:37:39+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -365,8 +365,8 @@ Vous pouvez éviter cela avec un système qui vous permet de faire des “déplo
     <title>FOSDEM 2017</title>
     <link rel="alternate" href="https://davidl.fr/blog/fosdem-2017.html"/>
     <id>https://davidl.fr/blog/fosdem-2017.html</id>
-    <published>2017-02-06T00:00:00+01:00</published>
-    <updated>2017-06-08T14:55:59+02:00</updated>
+    <published>2017-02-05T23:00:00+00:00</published>
+    <updated>2017-06-08T13:55:59+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -448,8 +448,8 @@ Vous pouvez éviter cela avec un système qui vous permet de faire des “déplo
     <title>30 jours en Indonésie : trekking, snorkeling &amp; nasi goreng</title>
     <link rel="alternate" href="https://davidl.fr/blog/indonesia.html"/>
     <id>https://davidl.fr/blog/indonesia.html</id>
-    <published>2016-12-11T00:00:00+01:00</published>
-    <updated>2017-06-08T14:55:59+02:00</updated>
+    <published>2016-12-10T23:00:00+00:00</published>
+    <updated>2017-06-08T13:55:59+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -569,8 +569,8 @@ I am open minded and I am here to meet amazing people ;)&lt;/p&gt;
     <title>Devenir expert en Digital Marketing grâce à la certification Google</title>
     <link rel="alternate" href="https://davidl.fr/blog/certification-google.html"/>
     <id>https://davidl.fr/blog/certification-google.html</id>
-    <published>2016-06-14T00:00:00+02:00</published>
-    <updated>2017-06-08T14:55:59+02:00</updated>
+    <published>2016-06-13T23:00:00+01:00</published>
+    <updated>2017-06-08T13:55:59+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
