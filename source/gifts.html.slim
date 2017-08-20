@@ -5,41 +5,41 @@ page_title: Code promotion
 page_emphasis: Inscrivez vous à ces services et bénéficiez de cadeaux
 ---
 
-section.m-section.l-light
-  .row
-    .medium-10.medium-centered.columns
+section.section
+  .row.align-center
+    .medium-10.columns
       h2 Voyages
-      ul
+      .row.small-up-1.medium-up-2
         - data.gifts.travel.each do |t|
-          li
-            strong = t.name
-            br
-            = t.win
-            br
-            = link_to t.link, t.link
+          .columns
+            = link_to t.link, class: 'callout-link' do
+              .callout
+                h3 = t.name
+                p = t.win
+                code = t.link
 
-section.m-section
-  .row
-    .medium-10.medium-centered.columns
-      h2 Work
-      ul
+section.section.l-light
+  .row.align-center
+    .medium-10.columns
+      h2 Travailler efficacement
+      .row.small-up-1.medium-up-2
         - data.gifts.work.each do |w|
-          li
-            strong = w.name
-            br
-            = w.win
-            br
-            = link_to w.link, w.link
+          .columns
+            = link_to w.link, class: 'callout-link' do
+              .callout
+                h3 = w.name
+                p = w.win
+                code = w.link
 
-section.m-section.l-light
-  .row
-    .medium-10.medium-centered.columns
-      h2 Learn
-      ul
+section.section.
+  .row.align-center
+    .medium-10.columns
+      h2 Apprendre de nouvelles choses
+      .row.small-up-1.medium-up-2
         - data.gifts.learn.each do |w|
-          li
-            strong = w.name
-            br
-            = w.win
-            br
-            = link_to w.link, w.link
+          .columns
+            = link_to w.link, class: 'callout-link' do
+              .callout
+                h3 = w.name
+                p = w.win
+                code = w.link
