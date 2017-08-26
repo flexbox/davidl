@@ -83,6 +83,7 @@ blog:
     2017-03-13-jamstack.html.md: "/blog/articles/2017-03-13-jamstack.html.md"
     2017-05-11-atom.html.md: "/blog/articles/2017-05-11-atom.html.md"
     2017-06-01-london.html.md: "/blog/articles/2017-06-01-london.html.md"
+    2017-08-25-react-native.html.md: "/blog/articles/2017-08-25-react-native.html.md"
   index.html.slim: "/blog/index.html.slim"
 clients.html.slim: "/clients.html.slim"
 contact.html.slim: "/contact.html.slim"
@@ -92,7 +93,6 @@ design:
   webdesign.html.slim: "/design/webdesign.html.slim"
 dev:
   git.html.slim: "/dev/git.html.slim"
-  index.html.slim: "/dev/index.html.slim"
   setup.html.slim: "/dev/setup.html.slim"
   sublime.html.slim: "/dev/sublime.html.slim"
   tools.html.slim: "/dev/tools.html.slim"
