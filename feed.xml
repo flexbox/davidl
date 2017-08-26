@@ -10,11 +10,11 @@
     <name>David Leuliette</name>
   </author>
   <entry>
-    <title>1h30 de videos pour comprendre react native et redux</title>
+    <title>1h30 de videos pour comprendre React Native et Redux</title>
     <link rel="alternate" href="https://davidl.fr/blog/react-native.html"/>
     <id>https://davidl.fr/blog/react-native.html</id>
     <published>2017-08-24T23:00:00+01:00</published>
-    <updated>2017-08-26T01:44:16+01:00</updated>
+    <updated>2017-08-26T10:45:21+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -46,9 +46,9 @@
 
 &lt;h2 id="comprendre-react-native"&gt; Comprendre react native&lt;/h2&gt;
 
-&lt;p&gt;Damien est un mec bien. Avant il était un peu perdu et codait du Java pour Android, cela lui prennait des plombes et il devait écrire 1000 lignes pour des choses simples.&lt;/p&gt;
+&lt;p&gt;Damien est un mec bien. Avant il était un peu perdu et codait du Java pour Android. Cela lui prennait des plombes et il devait écrire 1000 lignes pour créer des choses simples.&lt;/p&gt;
 
-&lt;p&gt;Maintenant il écrit du &lt;code&gt;JavaScript&lt;/code&gt; et il kiffe la vibe (Même si ce n'est pas encore statiquement typé mais cela est une autre histoire)&lt;/p&gt;
+&lt;p&gt;Maintenant il écrit du &lt;code&gt;JavaScript&lt;/code&gt;, utilise &lt;code&gt;flexbox&lt;/code&gt; et il kiffe la vibe (Même si ce n'est pas encore statiquement typé mais cela est une autre histoire)&lt;/p&gt;
 
 &lt;iframe width="640" height="360" src="https://player.vimeo.com/video/217033855" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""&gt;&lt;/iframe&gt;
 
@@ -56,7 +56,7 @@
 
 &lt;h2 id="comprendre-redux"&gt; Comprendre Redux&lt;/h2&gt;
 
-&lt;p&gt;Dans la première vidéo vous avez apris la notion de &lt;strong&gt;machine à états&lt;/strong&gt; avec comme exemple la &lt;a href="https://fr.wikipedia.org/wiki/Machine_de_Mealy"&gt;Machine de Mealy&lt;/a&gt;. La 4ème minute de la prochaine video va vous étonner, vous y découvrirer le secret sur l'&lt;strong&gt;histoire de Redux&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Dans la première vidéo vous avez apris la notion de &lt;strong&gt;machine à états&lt;/strong&gt; avec comme exemple la &lt;a href="https://fr.wikipedia.org/wiki/Machine_de_Mealy"&gt;Machine de Mealy&lt;/a&gt;. La 4ème minute de la prochaine video va vous étonner : vous y découvrirez le &lt;strong&gt;secret sur l'histoire de Redux&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;iframe width="640" height="360" src="https://www.youtube.com/embed/HbozNzOAMfk" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
 
@@ -93,7 +93,7 @@
 
 &lt;p&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/en/b/b2/It%27s_dangerous_to_go_alone%21_Take_this..png" alt="https://upload.wikimedia.org/wikipedia/en/b/b2/It%27s_dangerous_to_go_alone%21_Take_this..png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;Pour vous aider faites confiance à la communauté qui fait la sélection des &lt;strong&gt;meilleurs repos react-native disponibles sur GitHub&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Pour vous aider, faites confiance à la communauté qui fait la sélection des &lt;strong&gt;meilleurs repos react-native disponibles sur GitHub&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://github.com/jondot/awesome-react-native"&gt;👉 https://github.com/jondot/awesome-react-native&lt;/a&gt;&lt;/p&gt;
 
@@ -105,6 +105,8 @@
 
 &lt;div data-snack-id="SypMaEAuZ" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fafafa;border:1px solid rgba(0,0,0,.16);border-radius:4px;height:505px;width:100%"&gt;&lt;/div&gt;
 &lt;script async="" src="https://snack.expo.io/embed.js"&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;J'espère que cet article vous a plu. N'hésitez pas à me poser des question sur twitter si vous êtes bloqués.&lt;/p&gt;
 </content>
