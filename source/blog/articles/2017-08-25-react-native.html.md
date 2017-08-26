@@ -1,7 +1,7 @@
 ---
 date: 2017-08-25
 slug: react-native
-title: 1h30 de videos pour comprendre react native et redux
+title: 1h30 de videos pour comprendre React Native et Redux
 description: Les meilleures videos pour comprendre le developement natif mobile avec React et Redux. Coder votre facebook login simplement avec React Native.
 image: https://lh3.googleusercontent.com/aIZ2WJ1Upl5yj6AXEdkVdgyZQpuS16PyHSWT0p465Q7YkAzHJENM-SiQrXba4rskGw3W8BNiDm71CDw1wfRvHojkpNuPF2jEAeZ_nzvmmiJOEQ8vW4z-wvL3_XzfUviIN05aQDkhiP9BvIkIi1fnUa8TIPw1rOL2Oq8RpQwcBT3BodsfEhjxv9ubJLzHzbMP-waHwYTZ_NYYsx8v3qUgSVCsi7uwHb-_9XyX6yyVNjNFdYKuRZnT0nrvFK3k38rJDYZTU56eEThj4beGcmR8cdBfdIeUkZJHPTQ2E6-bZU166n_UqeaVlEenXlAosnTWz3_pfZa7bRyI_3R5AGyqfzjPtM9Y3u-DAP7Vd0dz_UOqz0Rx_G6w6jfrgNx0bwEvh-Ik_6pnhdK6d6jZFvJRoyIJf6RtEWQQx2247JaoshiQgf0P1yoLK50Qm3mA5KJI7LpmQTXNJc3JGyBXqO7-iILvmCBJP3_Ahpd28369jyx33GN87VwW0OGm9lf4nERj4G-Zgup2beQnCN0_T-z833SSVzmdK0-nqUq1YAeCrsvn87f2Bxy2VL0ZxM5Kv9YlFyAp4ZrRgmNLQfOGccpd0s_xMbxgg7b17gJYY4cLbFiNyso8evqJrg=w1024-h512-no
 page_title: React c’est un peu comme la blockchain…
@@ -32,9 +32,9 @@ __[👉 Cordova Vs. React Mindmapping](https://my.mindnode.com/rF7yekC65rq5G57Na
 
 ## Comprendre react native
 
-Damien est un mec bien. Avant il était un peu perdu et codait du Java pour Android, cela lui prennait des plombes et il devait écrire 1000 lignes pour des choses simples.
+Damien est un mec bien. Avant il était un peu perdu et codait du Java pour Android. Cela lui prennait des plombes et il devait écrire 1000 lignes pour créer des choses simples.
 
-Maintenant il écrit du `JavaScript` et il kiffe la vibe (Même si ce n'est pas encore statiquement typé mais cela est une autre histoire)
+Maintenant il écrit du `JavaScript`, utilise `flexbox` et il kiffe la vibe (Même si ce n'est pas encore statiquement typé mais cela est une autre histoire)
 
 <iframe width="640" height="360" src="https://player.vimeo.com/video/217033855" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -42,7 +42,7 @@ _React Native dans vos Apps, vos Apps dans React Native – Damien Cavaillès à
 
 ## Comprendre Redux
 
-Dans la première vidéo vous avez apris la notion de __machine à états__ avec comme exemple la [Machine de Mealy](https://fr.wikipedia.org/wiki/Machine_de_Mealy). La 4ème minute de la prochaine video va vous étonner, vous y découvrirer le secret sur l'__histoire de Redux__.
+Dans la première vidéo vous avez apris la notion de __machine à états__ avec comme exemple la [Machine de Mealy](https://fr.wikipedia.org/wiki/Machine_de_Mealy). La 4ème minute de la prochaine video va vous étonner : vous y découvrirez le __secret sur l'histoire de Redux__.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/HbozNzOAMfk" frameborder="0" allowfullscreen></iframe>
 
@@ -78,7 +78,7 @@ Une fois que vous avez les bases ne foncez pas directement dans la jungle `npm`.
 
 ![https://upload.wikimedia.org/wikipedia/en/b/b2/It%27s_dangerous_to_go_alone%21_Take_this..png](https://upload.wikimedia.org/wikipedia/en/b/b2/It%27s_dangerous_to_go_alone%21_Take_this..png)
 
-Pour vous aider faites confiance à la communauté qui fait la sélection des __meilleurs repos react-native disponibles sur GitHub__.
+Pour vous aider, faites confiance à la communauté qui fait la sélection des __meilleurs repos react-native disponibles sur GitHub__.
 
 [👉 https://github.com/jondot/awesome-react-native](https://github.com/jondot/awesome-react-native)
 
@@ -91,6 +91,6 @@ Pour terminer voici comment coder un facebook login avec react native en 20 seco
 <div data-snack-id="SypMaEAuZ" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fafafa;border:1px solid rgba(0,0,0,.16);border-radius:4px;height:505px;width:100%"></div>
 <script async src="https://snack.expo.io/embed.js"></script>
 
-
+---
 
 J'espère que cet article vous a plu. N'hésitez pas à me poser des question sur twitter si vous êtes bloqués.
