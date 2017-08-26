@@ -395,6 +395,9 @@
     <loc>https://davidl.fr/blog/london.html</loc>
   </url>
   <url>
+    <loc>https://davidl.fr/blog/react-native.html</loc>
+  </url>
+  <url>
     <loc>https://davidl.fr/blog</loc>
   </url>
   <url>
@@ -420,9 +423,6 @@
     <loc>https://davidl.fr/dev/git.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://davidl.fr/dev</loc>
   </url>
   <url>
     <loc>https://davidl.fr/dev/setup.html</loc>

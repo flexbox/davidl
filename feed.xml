@@ -5,10 +5,110 @@
   <id>https://davidl.fr/blog/</id>
   <link href="https://davidl.fr/blog/"/>
   <link href="https://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2017-05-31T23:00:00+01:00</updated>
+  <updated>2017-08-24T23:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>1h30 de videos pour comprendre react native et redux</title>
+    <link rel="alternate" href="https://davidl.fr/blog/react-native.html"/>
+    <id>https://davidl.fr/blog/react-native.html</id>
+    <published>2017-08-24T23:00:00+01:00</published>
+    <updated>2017-08-26T01:44:16+01:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;C'est la &lt;strong&gt;fin de la saison 7 de Game of Thrones&lt;/strong&gt;. Vous venez d'apprendre que la mère de John Snow est Cersei. Vous sentez déjà le manque de vidéos monter en vous. Voici un super cliffhanger :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Comprendre &lt;code&gt;react-native&lt;/code&gt; est égal à 2 épisodes de GoT&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dans cet article je vais vous apprendre comment je me fait passer pour un &lt;strong&gt;développeur mobile&lt;/strong&gt; en codant du &lt;code&gt;JavaScript&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Si vous ne comprenez rien à &lt;strong&gt;React&lt;/strong&gt;, &lt;strong&gt;Redux&lt;/strong&gt;, &lt;strong&gt;Flux&lt;/strong&gt; et compagnie voici une selection de vidéos qui vous permettra d'&lt;strong&gt;avoir de la &lt;a href="http://www.urbandictionary.com/define.php?term=street%20cred"&gt;street cred&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id="react-native-en-une-image"&gt;React Native en une image&lt;/h2&gt;
+
+&lt;p&gt;Pour bien commencer vous devez comprendre 2 choses :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;React&lt;/strong&gt; c'est le &lt;code&gt;V&lt;/code&gt; du &lt;code&gt;MVC&lt;/code&gt;, autrement dit la vue où généralement l'ont met tout ce qui est affichage. C'est complètement différent d'un framework comme &lt;s&gt;AngularJS&lt;/s&gt; Angular.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;React native&lt;/strong&gt; permet de compiler le code en application native pour les mobiles iOS et Android.&lt;/li&gt;
+  &lt;li&gt;Les &lt;strong&gt;devtools comme &lt;code&gt;Expo&lt;/code&gt; pour le debug&lt;/strong&gt; sont de très bonne qualité.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/KFjiU_gaFESSmpvJZzUEBHPKbBLySuHyLmNu4xFxak2rCeTyXItxeSs3DJVwNpXgSfh1xSE-Qk6s9T1CvSGdlpM09eo3IKeG8yPtDjxkt1J1dzguzjBX7mH6yNT0f7QJRdrQ_7F5sxihChep1LVysvDUlI78Hq6V16h_2PS7bVSEa-LXD8kbXR8-fTj87cY9f5ZSSN8qCO9IeO1emfHQ_iskFAurgeGt-vFZIMbUVFfhM4jBr0a3qV4-xJDa-Ud6h_yLAWfwHtAf91xDpH9vIqikOjATx5EG6dRL-sQ-jWf38DYtTAQKmJsseRdzFQ_qG9j-YOn3wgDbeZrslQOUKhj6X0tdM7xR30F9vlXLKuOWIpbxJqfv0Pcmwf5gN2T5z5msrtxlPH7ZxcmitcZ2haZZuVuCJ0GoMEWxaiuxGv5M1fr4qKHhEeYNAmb1bPvYAn-UMagqnx5zeTTk6Iqw0On3aqb1pNOjQoUZMdzAesEATkfwbWEZYiEhLj_-DB-kc9vdDUAUt8glU8_Jvlt90Xn7_1SrgJt7PBtoWoNH2rGciIsMN0m_ReX4jfgX07UdQnO7IWl7BMZvEKyNhEVp6dKtPNjZdjLiLDsB1NW38KE38wS0hTgd6Q=w2332-h1884-no" alt="React Native mindnode" /&gt;&lt;/p&gt;
+
+&lt;p&gt;J'expliquerais les différences avec une solution comme cordova dans un prochain article.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://my.mindnode.com/rF7yekC65rq5G57Na9hkXXpj4zBD7qA6HxZ7HPNP"&gt;👉 Cordova Vs. React Mindmapping&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id="comprendre-react-native"&gt; Comprendre react native&lt;/h2&gt;
+
+&lt;p&gt;Damien est un mec bien. Avant il était un peu perdu et codait du Java pour Android, cela lui prennait des plombes et il devait écrire 1000 lignes pour des choses simples.&lt;/p&gt;
+
+&lt;p&gt;Maintenant il écrit du &lt;code&gt;JavaScript&lt;/code&gt; et il kiffe la vibe (Même si ce n'est pas encore statiquement typé mais cela est une autre histoire)&lt;/p&gt;
+
+&lt;iframe width="640" height="360" src="https://player.vimeo.com/video/217033855" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;em&gt;React Native dans vos Apps, vos Apps dans React Native – Damien Cavaillès à MiXiT&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id="comprendre-redux"&gt; Comprendre Redux&lt;/h2&gt;
+
+&lt;p&gt;Dans la première vidéo vous avez apris la notion de &lt;strong&gt;machine à états&lt;/strong&gt; avec comme exemple la &lt;a href="https://fr.wikipedia.org/wiki/Machine_de_Mealy"&gt;Machine de Mealy&lt;/a&gt;. La 4ème minute de la prochaine video va vous étonner, vous y découvrirer le secret sur l'&lt;strong&gt;histoire de Redux&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;iframe width="640" height="360" src="https://www.youtube.com/embed/HbozNzOAMfk" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;em&gt;Organisez la logique de votre application Web avec Redux – Matthieu Lux Devoxx&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id="apprendre-react-native"&gt;Apprendre &lt;code&gt;react-native&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;C'est parti! Ouvrez votre terminal et commencez par &lt;strong&gt;orchestrer vos composants React Native&lt;/strong&gt;. Si vous utilisez redux n'oubliez pas que :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Le &lt;strong&gt;State&lt;/strong&gt; est en lecture seule.&lt;/li&gt;
+  &lt;li&gt;On donne le state au &lt;strong&gt;Reducer&lt;/strong&gt; et 🎩 ça fait de la magie.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id="rtfm"&gt; RTFM&lt;/h3&gt;
+
+&lt;p&gt;Pour apprendre une nouvelle technologie mon meilleur conseil est de lire la doc. Faire des recherches random stackoverflow peut être utile. Mais coder le &lt;strong&gt;hello-world&lt;/strong&gt; officiel dans un premier temps c'est mieux.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://facebook.github.io/react-native/docs/getting-started.html"&gt;👉 https://facebook.github.io/react-native/docs/getting-started.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="maitriser-les-diffrentes-tapes"&gt; Maitriser les différentes étapes&lt;/h3&gt;
+
+&lt;p&gt;Si vous avez vu Matrix vous savez que le Mérovingien cache son code dans différentes couches d'abstration pour son gateau.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://media.giphy.com/media/KzRO4zUeJhBi8/giphy.gif" alt="https://media.giphy.com/media/KzRO4zUeJhBi8/giphy.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dans le monde de la programmation c'est pareil. Vous devez apprendre dans l'ordre les différentes couches pour réussir à produire quelque chose et pour ne pas faire n'importe quoi.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.reactnativeexpress.com/"&gt;👉 http://www.reactnativeexpress.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="trouver-des-composants"&gt; Trouver des composants&lt;/h3&gt;
+
+&lt;p&gt;Une fois que vous avez les bases ne foncez pas directement dans la jungle &lt;code&gt;npm&lt;/code&gt;. C'est dangereux de s'aventurer tout seul.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/en/b/b2/It%27s_dangerous_to_go_alone%21_Take_this..png" alt="https://upload.wikimedia.org/wikipedia/en/b/b2/It%27s_dangerous_to_go_alone%21_Take_this..png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour vous aider faites confiance à la communauté qui fait la sélection des &lt;strong&gt;meilleurs repos react-native disponibles sur GitHub&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/jondot/awesome-react-native"&gt;👉 https://github.com/jondot/awesome-react-native&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="simple-facebook-login"&gt; 🎁 Simple facebook login&lt;/h3&gt;
+
+&lt;p&gt;Pour terminer voici comment coder un facebook login avec react native en 20 secondes :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/2QyZU-ANLh7EE-lB0DFUbswqPWdjfS9BD1wZMFBeC-n-6DXemShrF9n41HnNtrO03CHqaewZsvcYBUSFXAifseb1bhBe2ATBqiBFR1vAP2sOfskABKmFhpBkhF3jAzNJ-vF0VRA9tyPkb7JYonkwHXWlHc8Y7DtSWwKM6U74qbDFStX7NLEZxjEFv50yziS5W1HhbTK_Mzz45YIp6sjm3kM6tblzgMPx7gJDekIpqJ8VxWm_mfu195IakC3NSuVFsF5wsTeLbw5e2o-dxCPeHUUamdUU3ksBc_ERs0uC6dVehSi7Ujg4zXYnxjny2Ew9LCU0qokpXYf6OU4bIpKzaQ5fqJW5UK4Jp9tCPriciT86KBMu43J_3QZiK3R1n7NEptfMhffNCC4m0ggm5PYAjLv7smmYiUq_glmpCMOwZUfg5KnX3ctK-ObDOEjU6DDzSFRgUOwP2DMldNEFSXXks57q85veWPBjtbkrBnr2gatDlxVxkedWH7GfY4QESbbWuqDI21gPmf1eqiErdiCeP-eiAVyPcgIOZwfh-dJt2T_nr3e9X7M_ZTjCY70EjPHkwS9NJJa-UlZcen464m2MU5PKOjov9BtqKPbWLDmyMjA8oBN9VjIsbA=w620-h770-no" alt="react native facebook login" /&gt;&lt;/p&gt;
+
+&lt;div data-snack-id="SypMaEAuZ" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fafafa;border:1px solid rgba(0,0,0,.16);border-radius:4px;height:505px;width:100%"&gt;&lt;/div&gt;
+&lt;script async="" src="https://snack.expo.io/embed.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;J'espère que cet article vous a plu. N'hésitez pas à me poser des question sur twitter si vous êtes bloqués.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Expatriation à Londres</title>
     <link rel="alternate" href="https://davidl.fr/blog/london.html"/>
@@ -563,67 +663,6 @@ I am open minded and I am here to meet amazing people ;)&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;N’oubliez pas d’inclure une &lt;strong&gt;value proposition&lt;/strong&gt; comme les startupeurs dans votre annonce. Dans mon cas, cuisiner dans un pays étranger est toujours une expérience interessante.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Devenir expert en Digital Marketing grâce à la certification Google</title>
-    <link rel="alternate" href="https://davidl.fr/blog/certification-google.html"/>
-    <id>https://davidl.fr/blog/certification-google.html</id>
-    <published>2016-06-13T23:00:00+01:00</published>
-    <updated>2017-06-08T13:55:59+01:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;En travaillant dans l’industrie du web depuis longtemps, j’ai eu la chance — ou le malheur — d’aller dans diverses structures plus ou moins importantes. Au travers des années j’ai résolu les problèmatiques d’un bon nombre de personnes qui étaient très compétente — ou complètement à la ramasse — dans l’industrie du web.
-La bonne nouvelle est qu’au XXIième il est très facile d’&lt;strong&gt;aquérir de nouvelles compétences&lt;/strong&gt; si l’on est un peu curieux.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Construire des ponts entre le marketing &amp;amp; les développeurs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Souvent les développeurs ne comprennent pas les demandes du marketing &amp;amp; inversement. Parce que oui mettre “juste” un bouton en production ne prends pas toujours 5 minutes. C’est pour cela que j’ai décidé de passer ma certification afin de mieux comprendre le monde des personnes travaillant dans le marketing digital, parler le même language et faire un peu de &lt;a href="https://www.linkedin.com/in/david-leuliette-456701121"&gt;Growth Hacking sur LinkedIn&lt;/a&gt;. Cela me permettra aussi de mieux conseiller les chefs de produits, responsables &amp;amp; assistants marketing qui — contrairement à moi — ne vivent pas encore dans le futur.&lt;/p&gt;
-
-&lt;h2 id="tout-un-programme"&gt;Tout un programme&lt;/h2&gt;
-
-&lt;p&gt;La certification “Digital Active by Google” est une formation gratuite, en ligne &amp;amp; disponible dans certaines universités partenaires. À la clef, un &lt;strong&gt;certificat reconnu&lt;/strong&gt; par l’&lt;a href="https://fr.wikipedia.org/wiki/Interactive_Advertising_Bureau"&gt;IAB Europe&lt;/a&gt; et des &lt;strong&gt;compétences numériques&lt;/strong&gt; que vous pourrez faire valoir dans le monde professionnel.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Une formation totalement gratuite&lt;/li&gt;
-  &lt;li&gt;Apprenez avec des experts travaillant avec les technologies de Google&lt;/li&gt;
-  &lt;li&gt;Testez vos connaissances&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Si vous avez un compte gmail tout est disponible à cette url &lt;a href="https://digitalactive.withgoogle.com"&gt;https://digitalactive.withgoogle.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://c2.staticflickr.com/8/7438/28015063095_9eecf4cd4f_b.jpg" alt="Badges certification digital active par google" /&gt;&lt;/p&gt;
-
-&lt;h3 id="badges"&gt;Badges&lt;/h3&gt;
-
-&lt;p&gt;Les 90 cours vidéos abordent différents thèmes comme :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Développer une présence en ligne&lt;/li&gt;
-  &lt;li&gt;La communication par e-mail&lt;/li&gt;
-  &lt;li&gt;Le mobile et ses possibilités&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Quand la formation est validée, vous obtenez un super &lt;code&gt;.pdf&lt;/code&gt; à imprimmer pour l’accorcher dans votre salon. Vous pouvez aussi l’ajouter — dans mon cas — à votre &lt;a href="http://davidl.fr/cv.html"&gt;CV de développeur front-end&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://c2.staticflickr.com/8/7338/27913306722_8bab30348d_z.jpg" alt="Diplome Marketing de David Leuliette" /&gt;&lt;/p&gt;
-
-&lt;h2 id="comment-russir-sa-certification-"&gt;Comment réussir sa certification ?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src="https://c2.staticflickr.com/8/7369/27913002322_cd6a92e1e2_b.jpg" alt="Citation sur la productivité par David Leuliette" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Mon principal conseil est l’assiduité. Suivez simplement les vidéos et soyez logique. Souvent les réponses tiennent du bon sens si l’on connait le vocabulaire comme SEO, SEM, les réseaux sociaux… J’ai obtenu ma certification en environ 1 mois, à raison de 3 cours par jour.
-&lt;strong&gt;C’est tout&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Vous êtes maintenant certifié digital active&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Note pour les personnes parlant français&lt;/strong&gt; :
-Selon la &lt;a href="https://fr.wikipedia.org/wiki/Digital"&gt;définition de wikipedia&lt;/a&gt;, le mot digital est l’adjectif associé au substantif doigt (Tracé digital, Empreinte digitale, …). Donc les personnes expertes en digital sont … (troll)&lt;/p&gt;
 </content>
   </entry>
 </feed>
