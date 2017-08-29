@@ -12,27 +12,27 @@ C'est la __fin de la saison 7 de Game of Thrones__. Vous venez d'apprendre que l
 
 > Comprendre `react-native` est égal à 2 épisodes de GoT
 
-Dans cet article je vais vous apprendre comment je me fait passer pour un __développeur mobile__ en codant du `JavaScript`.
+Dans cet article je vais vous apprendre comment je me fais passer pour un __développeur mobile__ en codant du `JavaScript`.
 
-Si vous ne comprenez rien à __React__, __Redux__, __Flux__ et compagnie voici une selection de vidéos qui vous permettra d'__avoir de la [street cred](http://www.urbandictionary.com/define.php?term=street%20cred)__.
+Si vous ne comprenez rien à __React__, __Redux__, __Flux__ et compagnie, voici une sélection de vidéos qui vous permettra d'__avoir de la [street cred](http://www.urbandictionary.com/define.php?term=street%20cred)__.
 
 ## React Native en une image
 
 Pour bien commencer vous devez comprendre 2 choses :
 
-1. __React__ c'est le `V` du `MVC`, autrement dit la vue où généralement l'ont met tout ce qui est affichage. C'est complètement différent d'un framework comme <s>AngularJS</s> Angular.
+1. __React__ c'est le `V` du `MVC`, autrement dit la vue où généralement on met tout ce qui est affichage. C'est complètement différent d'un framework comme <s>AngularJS</s> Angular.
 2. __React native__ permet de compiler le code en application native pour les mobiles iOS et Android.
 3. Les __devtools comme `Expo` pour le debug__ sont de très bonne qualité.
 
 ![React Native mindnode](https://lh3.googleusercontent.com/KFjiU_gaFESSmpvJZzUEBHPKbBLySuHyLmNu4xFxak2rCeTyXItxeSs3DJVwNpXgSfh1xSE-Qk6s9T1CvSGdlpM09eo3IKeG8yPtDjxkt1J1dzguzjBX7mH6yNT0f7QJRdrQ_7F5sxihChep1LVysvDUlI78Hq6V16h_2PS7bVSEa-LXD8kbXR8-fTj87cY9f5ZSSN8qCO9IeO1emfHQ_iskFAurgeGt-vFZIMbUVFfhM4jBr0a3qV4-xJDa-Ud6h_yLAWfwHtAf91xDpH9vIqikOjATx5EG6dRL-sQ-jWf38DYtTAQKmJsseRdzFQ_qG9j-YOn3wgDbeZrslQOUKhj6X0tdM7xR30F9vlXLKuOWIpbxJqfv0Pcmwf5gN2T5z5msrtxlPH7ZxcmitcZ2haZZuVuCJ0GoMEWxaiuxGv5M1fr4qKHhEeYNAmb1bPvYAn-UMagqnx5zeTTk6Iqw0On3aqb1pNOjQoUZMdzAesEATkfwbWEZYiEhLj_-DB-kc9vdDUAUt8glU8_Jvlt90Xn7_1SrgJt7PBtoWoNH2rGciIsMN0m_ReX4jfgX07UdQnO7IWl7BMZvEKyNhEVp6dKtPNjZdjLiLDsB1NW38KE38wS0hTgd6Q=w2332-h1884-no)
 
-J'expliquerais les différences avec une solution comme cordova dans un prochain article.
+J'expliquerai les différences avec une solution comme cordova dans un prochain article.
 
 __[👉 Cordova Vs. React Mindmapping](https://my.mindnode.com/rF7yekC65rq5G57Na9hkXXpj4zBD7qA6HxZ7HPNP)__
 
 ## Comprendre react native
 
-Damien est un mec bien. Avant il était un peu perdu et codait du Java pour Android. Cela lui prennait des plombes et il devait écrire 1000 lignes pour créer des choses simples.
+Damien est un mec bien. Avant il était un peu perdu et codait du Java pour Android. Cela lui prenait des plombes et il devait écrire 1000 lignes pour créer des choses simples.
 
 Maintenant il écrit du `JavaScript`, utilise `flexbox` et il kiffe la vibe (Même si ce n'est pas encore statiquement typé mais cela est une autre histoire)
 
@@ -42,7 +42,7 @@ _React Native dans vos Apps, vos Apps dans React Native – Damien Cavaillès à
 
 ## Comprendre Redux
 
-Dans la première vidéo vous avez apris la notion de __machine à états__ avec comme exemple la [Machine de Mealy](https://fr.wikipedia.org/wiki/Machine_de_Mealy). La 4ème minute de la prochaine video va vous étonner : vous y découvrirez le __secret sur l'histoire de Redux__.
+Dans la première vidéo vous avez appris la notion de __machine à états__ avec comme exemple la [Machine de Mealy](https://fr.wikipedia.org/wiki/Machine_de_Mealy). La 4ème minute de la prochaine video va vous étonner : vous y découvrirez le __secret sur l'histoire de Redux__.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/HbozNzOAMfk" frameborder="0" allowfullscreen></iframe>
 
@@ -50,7 +50,7 @@ _Organisez la logique de votre application Web avec Redux – Matthieu Lux Devox
 
 ## Apprendre `react-native`
 
-C'est parti! Ouvrez votre terminal et commencez par __orchestrer vos composants React Native__. Si vous utilisez redux n'oubliez pas que :
+C'est parti! Ouvrez votre terminal et commencez par __orchestrer vos composants React Native__. Si vous utilisez redux, n'oubliez pas que :
 
 1. Le __State__ est en lecture seule.
 1. On donne le state au __Reducer__ et 🎩 ça fait de la magie.
@@ -64,17 +64,17 @@ Pour apprendre une nouvelle technologie mon meilleur conseil est de lire la doc.
 
 ### Maitriser les différentes étapes
 
-Si vous avez vu Matrix vous savez que le Mérovingien cache son code dans différentes couches d'abstration pour son gateau.
+Si vous avez vu Matrix, vous savez que le Mérovingien cache son code dans différentes couches d'abstration pour son gateau.
 
 ![https://media.giphy.com/media/KzRO4zUeJhBi8/giphy.gif](https://media.giphy.com/media/KzRO4zUeJhBi8/giphy.gif)
 
-Dans le monde de la programmation c'est pareil. Vous devez apprendre dans l'ordre les différentes couches pour réussir à produire quelque chose et pour ne pas faire n'importe quoi.
+Dans le monde de la programmation c'est pareil. Vous devez apprendre dans l'ordre les différentes couches pour réussir à produire quelque chose et ne pas faire n'importe quoi.
 
 [👉 http://www.reactnativeexpress.com/](http://www.reactnativeexpress.com/)
 
 ### Trouver des composants
 
-Une fois que vous avez les bases ne foncez pas directement dans la jungle `npm`. C'est dangereux de s'aventurer tout seul.
+Une fois que vous avez les bases, ne foncez pas directement dans la jungle `npm`. C'est dangereux de s'aventurer tout seul.
 
 ![https://upload.wikimedia.org/wikipedia/en/b/b2/It%27s_dangerous_to_go_alone%21_Take_this..png](https://upload.wikimedia.org/wikipedia/en/b/b2/It%27s_dangerous_to_go_alone%21_Take_this..png)
 
@@ -93,4 +93,4 @@ Pour terminer voici comment coder un facebook login avec react native en 20 seco
 
 ---
 
-J'espère que cet article vous a plu. N'hésitez pas à me poser des question sur twitter si vous êtes bloqués.
+J'espère que cet article vous a plu. N'hésitez pas à me poser des questions sur twitter si vous êtes bloqué.
