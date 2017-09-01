@@ -1,25 +1,25 @@
-$white:      #FFFFFF;
-$black:      #1A1A1A;
+$white:      #ffffff;
+$black:      #1a1a1a;
 
-$gray-light: #FFF9EB;
+$gray-light: #fff9eb;
 $gray:       #fbf3df;
-$gray-blue:  #888FAB;
-$gray-dark:  #3F3F44;
+$gray-blue:  #888fab;
+$gray-dark:  #3f3f44;
 
-$blue:       #1C56FB;
-$blue-light: #2196F3;
-$blue-dark:  #11256C;
+$blue:       #1c56fb;
+$blue-light: #2196f3;
+$blue-dark:  #11256c;
 
-$turquoise:  #24CCDF;
-$pink:       #F53FC7;
-$yellow:     #FFF637;
+$turquoise:  #24ccdf;
+$pink:       #f53fc7;
+$yellow:     #fff637;
 
 $foundation-palette: (
   primary:   $blue,
   secondary: $pink,
-  success:   #259B24,
-  warning:   #FF5722,
-  alert:     #E51C23,
+  success:   #259b24,
+  warning:   #ff5722,
+  alert:     #e51c23,
 );
 $light-gray:  $gray-light;
 $medium-gray: $gray;
@@ -33,14 +33,14 @@ $secondary-color: $pink;
 // Hover colors
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$color-amazon:       #E47911;
+$color-amazon:       #e47911;
 $color-twitter:      #1da1f2;
 $color-facebook:     #3b5998;
 $color-google-plus:  #dd4b39;
 $color-github:       #333333;
-$color-html:         #F06529;
-$color-css:          #3399FF;
-$color-js:           #F0DB4F;
+$color-html:         #f06529;
+$color-css:          #3399ff;
+$color-js:           #f0db4f;
 
 
 
@@ -49,6 +49,7 @@ $color-js:           #F0DB4F;
 
 @mixin color-hover($color, $color-hover) {
   color: $color;
+
   &:hover,
   &:focus {
     color: $color-hover;

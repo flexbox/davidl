@@ -13,9 +13,11 @@ h1,
 h2 {
   letter-spacing: -3px;
 }
+
 h3 {
   letter-spacing: -1px;
 }
+
 h1,
 h2,
 h3 {
@@ -51,7 +53,7 @@ blockquote {
     top: -30px;
     left: -5px;
     font-size: rem-calc(64);
-    opacity: 0.2;
+    opacity: 0.1;
   }
 }
 
@@ -64,11 +66,12 @@ blockquote {
 a {
   font-weight: $font-weight-black;
   padding: rem-calc(2);
-  border-bottom: 1px solid $anchor-color;
+  border-bottom: 3px solid $blue-light;
   transition: color 100ms, background-color 100ms;
+
   &:hover {
-    background-color: $anchor-color;
-    border-bottom-color: $anchor-color;
+    background-color: $blue-light;
+    border-bottom-color: $blue-light;
   }
 }
 
@@ -82,10 +85,12 @@ a {
 
 .link-reset {
   border-bottom: 0;
+
   &:hover {
     background-color: transparent;
     color: inherit;
   }
+
   &::after {
     content: none !important;
     padding: 0;
