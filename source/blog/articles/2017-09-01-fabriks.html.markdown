@@ -1,0 +1,95 @@
+---
+date: 2017-09-01
+slug: fabriks
+title: Plateforme de shopping ultra rapide avec React.js et Next.js
+description: 
+image: 
+page_title: La meilleure expérience utilisateur possible…
+page_emphasis: …associé au plus grand nombre de produits disponibles
+---
+
+__Pain point__ : Il n'existe pas de moyen simple de contacter n'importe quel fabricant pour lui acheter ses produits.
+
+Les fabricants assistent à des salons physiques et il n'existe pas d'équivalent en ligne.
+
+Face à ce constat, [Karl](https://www.linkedin.com/in/karl-leicht-208675104/) et [Alexis](https://www.linkedin.com/in/alexis-messier-89286127/) ont lancé [Fabriks.net](https://fabriks.net/) : une plateforme qui liste les produits des fabricants et qui permet de les contacter directement.
+
+> La manière la plus simple possible d'être contacté sans intermédiaire
+
+Dans cette étude de cas, je vais vous partager comment ils ont eu l'idée pour la création de la plateforme, où nous avons trouvé l'inspiration, comment nous avons tout développé, comment est-ce utilisé chez ______________ comme outil interne et comment seront financés les futures fonctionnalités
+
+Voici une présentation de l'article :
+
+1. Structure de base et fonctionnalités
+1. Creation du design
+1. Developpé à partir de solides projets open source
+1. Lancement
+1. Business model du produit
+1. Backlog des developements futurs
+
+Bien sur, ce ne sera plus un secret car je vais les partager avec vous. 🙈
+
+## Structure de base et fonctionnalités
+
+Aujourd'hui le focus est mis sur l'univers du meuble au sens large (meuble, déco, outdoor, pro, hôtels, restaurants, entreprises, hôpitaux) et il y déjà beaucoup à faire là-dessus.
+
+Contraintes
+
+- Simplifier l'interface au maximum malgré un grand nombre de data
+- Hierarchiser l'information
+- Responsive sur une interface de recherche
+- Environnement JavaScript moderne, modulable et évolutif
+
+## Creation du design
+
+Comme vous ne réinventez pas la roue, vous devez regarder autour des entreprises qui créent de bons produits pour obtenir de l'inspiration (comme Heroku, Slack, Mailchimp, Stripe). Regardez aussi vos concurents. Vous obtiendrez beaucoups d'informations.
+
+> Si j'avais 6 heures pour couper un arbre,<br> je passerai les 4 premières heures à aiguiser ma hache.
+> <cite>Abraham Lincoln</cite>
+
+Quand vous commencerez, cela sera plus facile de developper votre produit car vous aurez fait vos devoirs. Vous devez aiguiser votre hache avant de commencer :
+
+http://www.pages.xyz/type/store
+
+Vous avez maintenant une bonne liste d'inspiration, avec beaucoups de couleurs, d'animations, des icones magnifiques, en mise en page avec une sidebar fixe ou non et encore des centaines d'autres fonctionnalités
+
+Comment savoir quelles sont les meilleures pour votre audience ?
+
+Comme nous ne savions pas ce que les gens voulaient, nous avons décidé d'écrire toutes les fonctionnalités contenues dans ces sites et d'utiliser uniquement les plus répandues.
+Nous avons réalisé que les fonctionnalités principales résolvent environ 95% des cas. Les 5% restants résolvent des problèmes très spécifiques.
+
+Les elemesnts de bases sont buttons, icons, typography, sidebar, main panel, navbars and dropdowns. 
+
+https://github.com/designhacker/clone-secret-website
+
+Les fonctionnalités spécifiques sont :
+
+- Notifications
+- Newsletter
+
+## Développé à partir de solides projets open source
+
+### Pourquoi vous devez utiliser ces technologies
+
+
+### Découverte de Next.js
+
+Contraiement à React.js (qui est une librairie), Next.js est un framework et donc fait un certain nombres de postulats de départ qu'il est difficile de changer ensuite.
+
+Par exemple, les pages sont dans un dossier /pages, les styles dans /styles, etc. Le gain est la simplicité du build et de la config. Fini les prises de tête pour configurer Webpack version X avec Babel version Y etc.
+
+### Les feuilles de style
+
+Le choix de foundation qui a une meilleur sémantique et évolutivité que Bootstrap. Build basé sur `Sass` et des variables globales, etc.
+
+Un problème rencontré: les styles globaux ne s'accordent pas bien avec la philosophie "component".
+
+Les styled-components qui permettent d'__inclure facilement du style__ dans chaque component.
+
+
+## Lancement
+
+## Le business model du produit
+
+## Backlog des developements futurs
+

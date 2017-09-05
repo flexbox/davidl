@@ -6,13 +6,11 @@
           ul.footer-links role="menubar"
             li.title Apprendre
             li role="menuitem"
-              = link_to 'Formations', '/learn/formations.html'
+              = link_to 'Formations', 'http://courses.davidl.fr/programs/'
             li role="menuitem"
-              = link_to 'Bibliothèque', '/learn/books.html', title: "Conseils de lecture"
+              = link_to 'Talks', 'http://courses.davidl.fr/programs/', title: "Conférences et retours d’expérience"
             li role="menuitem"
-              = link_to 'Design', '/design/webdesign.html', title: 'Méthode pour le design de sites internet'
-            li role="menuitem"
-              = link_to 'Typographie', '/design/typography.html', title: "Conseils sur la typographie pour le web"
+              = link_to 'Guides', '/workflow/'
         .small-6.medium-3.columns
           ul.footer-links role="menubar"
             li.title Open Source
@@ -20,8 +18,6 @@
               = link_to 'Guide CSS', 'http://guidecss.fr', title: "Comment architecturer de larges applications web"
             li role="menuitem"
               = link_to 'Middleman template', 'https://github.com/flexbox/codeless', title: "Générateur de site statique"
-            li role="menuitem"
-              = link_to 'Talks', 'http://courses.davidl.fr/programs/', title: "Conférences et retours d’expérience"
             li role="menuitem"
               = link_to 'More…', 'https://github.com/flexbox', title: "Projet open source sur GitHub"
         .small-6.medium-3.columns
@@ -32,8 +28,6 @@
             li role="menuitem"
               = link_to 'Manifeste', '/manifesto.html', title: 'Mes engagements envers le web'
             li role="menuitem"
-              = link_to 'Mentions légales', '/legal.html', title: 'Licence du site & hébergement'
-            li role="menuitem"
               = link_to 'CV', '/cv.html', title: 'Mes engagements envers le web'
         .small-6.medium-3.columns
           ul.footer-links role="menubar"
@@ -42,8 +36,6 @@
               = link_to 'Contact', '/contact.html', title: 'Je lis TOUS mes emails'
             li role="menuitem"
               = link_to 'Newsletter', '/learn/newsletter.html', title: 'Suivre l’évolution de mes services'
-            li role="menuitem"
-              = link_to 'Services', '/workflow/work.html', title: 'Vous pouvez m’enbaucher'
             li role="menuitem"
               = link_to 'Cadeaux', '/gifts.html'
 
@@ -70,12 +62,6 @@ footer.footer role="contentinfo"
       .colophon
         p
           small
-            'davidl.fr est rédigé et administré par
-            = link_to 'David Leuliette', '/human.txt'
-            ', Hébergé sur
-            => link_to 'GitHub', 'https://github.com/flexbox/davidl/'
-            br
             'Dernière mise à jour le
             time datetime="#{DateTime.now.strftime('%Y-%m-%d')}"
               = DateTime.now.strftime('%d/%m/%Y')
-              '.
