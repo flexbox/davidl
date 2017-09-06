@@ -1,14 +1,14 @@
 ---
 date: 2017-09-01
 slug: fabriks
-title: Plateforme de shopping ultra rapide avec React.js et Next.js
-description: 
-image: 
+title: Plateforme e-commerce ultra rapide avec React.js et Next.js
+description:
+image:
 page_title: La meilleure expérience utilisateur possible…
 page_emphasis: …associé au plus grand nombre de produits disponibles
 ---
 
-__Pain point__ : Il n'existe pas de moyen simple de contacter n'importe quel fabricant pour lui acheter ses produits.
+__Pain point__ : Il n'existe pas de moyen simple de contacter n'importe quel fabricant et de lui acheter ses produits.
 
 Les fabricants assistent à des salons physiques et il n'existe pas d'équivalent en ligne.
 
@@ -58,7 +58,7 @@ Comment savoir quelles sont les meilleures pour votre audience ?
 Comme nous ne savions pas ce que les gens voulaient, nous avons décidé d'écrire toutes les fonctionnalités contenues dans ces sites et d'utiliser uniquement les plus répandues.
 Nous avons réalisé que les fonctionnalités principales résolvent environ 95% des cas. Les 5% restants résolvent des problèmes très spécifiques.
 
-Les elemesnts de bases sont buttons, icons, typography, sidebar, main panel, navbars and dropdowns. 
+Les elemesnts de bases sont buttons, icons, typography, sidebar, main panel, navbars and dropdowns.
 
 https://github.com/designhacker/clone-secret-website
 
@@ -69,14 +69,26 @@ Les fonctionnalités spécifiques sont :
 
 ## Développé à partir de solides projets open source
 
-### Pourquoi vous devez utiliser ces technologies
+### Le Why
+
+Sur un projet tel que fabriks.net, le server-side-rendering (SSR) n'est pas une option à cause du référencement sur Google.
+Ceci signifie que les pages qui sont traditionnellement générées par le navigateur de l'utilisateur le sont par le serveur.
+
+### Découverte de Next.js ou la cominaison réussie entre SSR et SPA
 
 
-### Découverte de Next.js
 
-Contraiement à React.js (qui est une librairie), Next.js est un framework et donc fait un certain nombres de postulats de départ qu'il est difficile de changer ensuite.
+Next.js est un framework basé sur React.js et qui permet de faire *simplement* du server-side-rendering.
+Contrairement à React.js, qui est une librairie, Next.js est un framework et donc fait un certain nombre de postulats de départ qu'il est difficile de changer ensuite.
 
 Par exemple, les pages sont dans un dossier /pages, les styles dans /styles, etc. Le gain est la simplicité du build et de la config. Fini les prises de tête pour configurer Webpack version X avec Babel version Y etc.
+
+La principale complexité vient de la gestion du routeur, ou devrais-je dire, des routeurs. On a tout d'abord un routeur côté serveur qui route / vers la page index.js, /products ver la page products.js etc. On a aussi un routeur côté client qui charge les composants de la page suivante. C'est dans le lien entre ces deux routeurs que réside le bénéfice de Next.js:
+
+1. Le bénéfice du SSR: première page chargée rapidement, crawlabilité par Google, etc
+1. Le bénéfice de la Single Page Application: transition fluide car on ne charge que les bouts manquants (absence de blink à la PHP)
+
+Ce lien se manifeste au travers de la méthode `getInitialProps()` qui s'éxécute au moment du routage.
 
 ### Les feuilles de style
 
@@ -93,3 +105,10 @@ Les styled-components qui permettent d'__inclure facilement du style__ dans chaq
 
 ## Backlog des developements futurs
 
+
+
+# A caser
+
+- Fabriks, c'est aussi l'histoire d'un grossite japonais qui achète à un fabricant danois sur un site français écris en anglais.
+
+- Marketing: Les pubs ne fonctionnent plus. Aujourd'hui le vrai marketing, c'est le produit en lui-même, capable de délivrer la proposition de valeur NOW.
