@@ -45,7 +45,7 @@ blockquote {
   font-weight: $global-weight-bold;
   position: relative;
 
-  &:before {
+  &::before {
     color: $gray-blue;
     font-family: "FontAwesome";
     content: "\f10d";
@@ -69,7 +69,8 @@ a {
   border-bottom: 3px solid $blue-light;
   transition: color 100ms, background-color 100ms;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $blue-light;
     border-bottom-color: $blue-light;
   }
