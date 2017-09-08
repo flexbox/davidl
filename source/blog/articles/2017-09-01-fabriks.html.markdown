@@ -140,8 +140,8 @@ Nous utilisons aussi des `styled-components` qui permettent d’__inclure facile
 
 ## Lancement
 
-> Les publicités ne fonctionnent plus. Aujourd’hui le vrai marketing, c’est le produit en lui-même, capable de délivrer la proposition de valeur tout de suite.
-> <cite>Karl Leicht</cite>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Ads don&#39;t work anymore. Today marketing is the product. <a href="https://twitter.com/hashtag/captaintrain?src=hash">#captaintrain</a> <a href="https://twitter.com/_flexbox">@_flexbox</a></p>&mdash; Karl Leicht (@KarlLeicht) <a href="https://twitter.com/KarlLeicht/status/903519253172822016">September 1, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 __Scoop__ : Il n'y aura pas de lancement. La plateforme est en ligne depuis plusieurs mois.
 
