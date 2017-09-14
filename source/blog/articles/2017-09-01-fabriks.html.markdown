@@ -2,8 +2,8 @@
 date: 2017-09-01
 slug: fabriks
 title: Plateforme e-commerce ultra rapide avec React.js et Next.js
-description:
-image:
+description: Étude de cas sur la création d’une plateforme de shopping avec une stack JavaScript moderne. Design, technologies utilisées et business model du produit.
+image: https://lh3.googleusercontent.com/3dCVKBt4aW8OhRs51uttMKBCfLM_rn9t8adBeruxTot-zVMw4KiDUIDiCOxZO49q7YYGiu58F4GRx806s54_rs7P-0RAiDX2ggopIVqeyuzJ5LoC9eHOTyB6YB2uplh2jz4k6NMG9w0qFi9QdwMtNLK4rz7bLAk9lSQoRhJZOiDfWCyycVTsftvgRuSxjneiFfTzMT6Cd5dUnjk-6NQ3QMo-_GdHMHc4ZpB2G1A4iLOrqKV4D2eW-oaNpmIP9VTUS5DOZJrSHxZVhtgwyDkFDmM1jAK5XdgpJ19Iu6lpus34yW1RGMd2DSgXHALbbE7aqPxo_br1w-TlqCMD1RaDNh-7SUzpMq_-rI_X_7_3yiRHSf0Z3r1K5-w_1SbjQiDO2fYNsnixSnDTezn-VQ5t6t7G3xU5xKirBHyqbqgX1ADrFQnGcKaLO92dKQcpELDfOM1qzJnUqWXZZ2dbY_pR3I7XEmC8IZp-wdz4F2AaBJtcA_oKI6_U5d6WI0wW2UD26zU887odkcuwLV3CYI1I6Xb-ny64NqMjsJf155xPZhbcuT0KvHNNB5L4wzrhq1TgEtYFjO9xYDb822cyRXn42L103kXQFZThyvsRlX8hhxY=w1024-h512-no
 page_title: La meilleure expérience utilisateur possible…
 page_emphasis: …associé au plus grand nombre de produits disponibles
 ---
@@ -13,11 +13,13 @@ page_emphasis: …associé au plus grand nombre de produits disponibles
 
 __[Pain point](https://medium.com/sozial-monster/identifying-customer-pain-points-the-first-thing-you-want-to-do-when-determining-what-to-include-999fbfeb90df)__ : Il n’existe pas de moyen simple de __contacter n’importe quel fabricant__ pour lui acheter ses produits.
 
-Les fabricants assistent à des salons physiques ou des foires commerciales. Problème : ça coûte cher, n'a lieu qu'une fois par an et demande du temps.
+Les fabricants assistent à des salons physiques ou des foires commerciales. Problème : ça coûte cher, n’a lieu qu’une fois par an et demande du temps.
 
 Face à ce constat, [Karl](https://www.linkedin.com/in/karl-leicht-208675104/) et [Alexis](https://www.linkedin.com/in/alexis-messier-89286127/) ont lancé [Fabriks.net](https://fabriks.net/) : une plateforme qui liste les produits des fabricants et qui permet de les contacter directement.
 
 > La manière la plus simple possible de contacter un fabricant sans intermédiaire
+
+![Taille de police de base](/assets/images/blog/simplicity.jpeg?raw=true)
 
 Dans cette étude de cas, je vais vous partager comment ils ont eu l’idée de la __création de cette plateforme__, où nous avons trouvé l’__inspiration__, comment nous avons __tout développé__, comment est-ce __utilisé chez leurs clients__ comme outil interne et comment seront __financés les futures fonctionnalités__.
 
@@ -42,7 +44,7 @@ L’équipe de Fabriks a décidé de résoudre ces problèmes. Voici nos contrai
 
 - Hiérarchiser l’information
 - Créer le [meilleur design responsive](/design/webdesign.html) pour une interface de recherche
-- Simplifier l’interface au maximum malgré un grand nombre de datas
+- Simplifier l’expérience utilisateur au maximum malgré un grand nombre de datas
 - Environnement `JavaScript` moderne, modulable et évolutif
 
 ![Fabriks Find quality products from global manufacturers and suppliers](https://lh3.googleusercontent.com/e74V_XzyvXJOXZp_4vng6byVBSapf5GjJIaUtmJvwYPuj32Gr5O-jHDTO6aQNKqIP6V2J_EdGBnO4MeW2VvMnDbkbd9xOc3hkGTX4hca9r7fmb-C-eo1DG870FB0vw5Qh_tKAIbJE_hH2thfjrzzzInbUHQsgkuAyCN_Nw1jbuASX7Vlmw0spaBdseJiRnv78nJxsiRsEEdqDhoCETBsSXvdh9gLeCxHhSJJ80nFUpDiMWg1ZmaJvLYE3u5KSGGnisLEsqKcmC9TQZSCRdddzYGUfa_qkDHHUPAs69ENT9Bqhv2yBd59XZ_Nq9DeRX9qaW9VLcdaP4zEqAbX8Vy9SY64Nk90xdFSiTPSTQe-aoF2r2m17-H-GiZwa_quULeTJUk0OE-m1s2gLmI8ucD40nuOqVI5ml-2D--Duql1P4jyIx3WVqC1oCjfl1i8tW6tdgXKCCVPO6PE93C8u3QJ9vqAXig9-AMeQFgPRBVInVBHfK8tIslndJtdT_ENXNbP5LH-z4Fu0RFzL5CKwPvGRazSH0tf2cpE4A0q3jUn-RpHa6GW9jUV5BaTgGe8q2cZ9IxIG7RyjaZlCGlD_ciSidGzpIg-g60wVqrzk-A25IZHoM-JLEhZCA=w3344-h1906-no)
@@ -79,6 +81,8 @@ _Comment savoir quelles sont les meilleures pour votre audience ?_
 
 Comme nous ne savions pas ce que les gens voulaient, nous avons décidé d’écrire toutes les fonctionnalités contenues dans ces sites et d’__utiliser uniquement les plus répandues__.
 
+![Sketch ecommerce template](https://lh3.googleusercontent.com/h0CZAxHgKvt8D9oci_TbNExTfvUKltxXkhPNgeCV5DBLBeks7myB0UtPVT6IHegLk7kgdyCW1vTN5Pa6QVBRs71F6LMW2pOis1x3U4ZN4b4WFaLMwfybSl3RHAOWeG-CVau3DYV4jc1s_JXtM_DepuC8DRyxXeE8EmgSQVaA2087J6xL_OVnNRT2hvyr3YP69COn5JH717iLCw6LlredSVIgmrWzLxsGKpG9Ff4EASjeP3IUI9NgcF7xlDAq-z4oFhaQFqNCUOduUopPydBb7H0lgDihqohBrY4BdCxIKwlmT1ZkkCR3WdV-kKpza88NUhTML_HfYqv_rW9paEpCLpEiTRjIqLxKMBrg9DpDQ6q-QJUUYGODh1CZQLF0gzOIRukwcCxZ0JHEMvNkd1MPV5jzwJcZp-qgqtbWptmJ4fd0YyIOYY0ca4zu64emhN78zSHeTwSOOiiKQOdbjaCIElhWzTyiYOIPmLwZ8-M4KskWP-8fWHlc92Er-EEFYT9Dcj_kgaBFYC0aIcfLVbgZmMxiX7xReG_GrKaGYw8biE4dothu5bGev99gwQLNdL0lIf9FiP0KKhQyjllfJ9-d37uGip9W3Pzs-2FRdcxngWU=w1024-h644-no)
+
 Nous avons réalisé que les fonctionnalités principales résolvent environ 95% des cas. Les 5% restants résolvent des problèmes très spécifiques.
 
 Les éléments de bases sont :
@@ -102,7 +106,7 @@ Les éléments de bases sont :
 
 ### Middleman pour le design
 
-Je suis __développeur front-end__. Ce qui signifie que mon monde se limite à `HTML`, `CSS` et `JavaScript`. Dans la vraie vie c'est plus compliqué que cela et je mets quiconque au défi de coder 80% d'une interface de site web en 2 jours.
+Je suis __développeur front-end__. Ce qui signifie que mon monde se limite à `HTML`, `CSS` et `JavaScript`. Dans la vraie vie c’est plus compliqué que cela et je mets quiconque au défi de coder 80% d’une interface de site web en 2 jours.
 
 ![](middleman.svg)
 
@@ -141,24 +145,24 @@ Le choix de [Foundation](http://foundation.zurb.com/) s’est imposé car ce fra
 
 Un problème rencontré : les styles globaux ne s’accordent pas bien avec la philosophie “component” de React.js. [Karl](https://github.com/kleicht) a donc passé une demi-journée pour faire un peu de plomberie pour que le `build` fonctionne. Lors de cette étape nous avons abandonné notre styleguide construit en `ruby` pour passer avec du 100% JavaScript en `JSX` pour les vues.
 
-Foundation est toujours utile pour construire l’[application shell](https://developers.google.com/web/fundamentals/architecture/app-shell). Je n'ai inclus que 30% du framework avec des composants comme la grille, la typographie, et les différents call to action.
+Foundation est toujours utile pour construire l’[application shell](https://developers.google.com/web/fundamentals/architecture/app-shell). Je n’ai inclus que 30% du framework avec des composants comme la grille, la typographie, et les différents call to action.
 
 Nous utilisons aussi des `styled-components` qui permettent d’__inclure facilement du style__ dans chaque composant.
 
-Ce n'est évidemment pas si simple que cela. Nous utilisons beaucoup d'autres services comme Redis, RabbitMQ, Elasticsearch, yarn… Vous trouverez la liste complète des technologies utilisées par fabriks sur [stackshare](https://stackshare.io/fabriks/fabriks).
+Ce n’est évidemment pas si simple que cela. Nous utilisons beaucoup d’autres services comme Redis, RabbitMQ, Elasticsearch, yarn… Vous trouverez la liste complète des technologies utilisées par fabriks sur [stackshare](https://stackshare.io/fabriks/fabriks).
 
 ## Lancement
+
+__Scoop__ : Il n’y aura pas de lancement. La plateforme est en ligne depuis Juillet.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Ads don&#39;t work anymore. Today marketing is the product. <a href="https://twitter.com/hashtag/captaintrain?src=hash">#captaintrain</a> <a href="https://twitter.com/_flexbox">@_flexbox</a></p>&mdash; Karl Leicht (@KarlLeicht) <a href="https://twitter.com/KarlLeicht/status/903519253172822016">September 1, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-__Scoop__ : Il n'y aura pas de lancement. La plateforme est en ligne depuis Juillet.
+Nous itérons sur le produit depuis le début d’année. Grâce à une excellente stratégie de déploiement continu nous pouvons __mettre en production la plateforme des dizaines de fois par jour__.
 
-Nous itérons sur le produit depuis le début d’année. Grâce à une excellente stratégie de déploiement continu nous pouvons mettre en production le site plusieurs fois par jour.
+L’infra principale est chez hebergée sur [stackhero.io](https://stackhero.io) et nous avons quelques parties sur [clever-cloud.com](https://clever-cloud.com) et AWS.
 
-L'infra principale est chez hebergée sur [stackhero.io](https://stackhero.io) et nous avons quelques parties sur [clever-cloud.com](https://clever-cloud.com) et AWS.
-
-Aujourd'hui l'accent est mis pour faire connaître ce site e-commerce de [mise en relation de fabricants](https://fabriks.net/)
+Aujourd’hui l’accent est mis pour faire connaître ce site e-commerce de [mise en relation de fabricants](https://fabriks.net/)
 
 
 ## Backlog des developements futurs
