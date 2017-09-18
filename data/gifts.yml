@@ -40,6 +40,10 @@ work:
     name: Hello Bonsai
     link: https://app.hellobonsai.com/invite/0f66b59d
     win: Pro account pour 1 mois
+  -
+    name: Trello
+    link: https://trello.com/flexbox/recommend
+    win: Pro account pour 1 mois
 travel:
   -
     name: Airbnb
