@@ -13,7 +13,7 @@ page_emphasis: …associé au plus grand nombre de produits disponibles
 
 __[Pain point](https://medium.com/sozial-monster/identifying-customer-pain-points-the-first-thing-you-want-to-do-when-determining-what-to-include-999fbfeb90df)__ : Il n’existe pas de moyen simple de __contacter n’importe quel fabricant__ pour lui acheter ses produits.
 
-Les fabricants assistent à des salons physiques ou des foires commerciales. Problème : ça coûte cher, n’a lieu qu’une fois par an et demande du temps.
+Aujourd'hui pour accéder à un fabricant on va à un salon physique ou à une foire commerciale. Problème : ça coûte cher, n’a lieu qu’une fois par an et demande du temps.
 
 Face à ce constat, [Karl](https://www.linkedin.com/in/karl-leicht-208675104/) et [Alexis](https://www.linkedin.com/in/alexis-messier-89286127/) ont lancé [Fabriks.net](https://fabriks.net/) : une plateforme qui liste les produits des fabricants et qui permet de les contacter directement.
 
@@ -162,12 +162,22 @@ Nous itérons sur le produit depuis le début d’année. Grâce à une excellen
 
 L’infra principale est chez hebergée sur [stackhero.io](https://stackhero.io) et nous avons quelques parties sur [clever-cloud.com](https://clever-cloud.com) et AWS.
 
-Aujourd’hui l’accent est mis pour faire connaître ce site e-commerce de [mise en relation de fabricants](https://fabriks.net/)
+Aujourd’hui l’accent est mis pour faire connaître cette plateforme e-commerce de [fabricants](https://fabriks.net/)
 
 
-## Backlog des developements futurs
+## Le business model
 
-@karl
-@alex
+Le business model de la plateforme est un freemium basé sur le nombre de demandes client.
+Ainsi il n'est pas nécessaire de payer avant d'avoir la garantie un certain retour sur investissement ce qui réduit la friction au minimum.
 
-NEED HELP HERE
+
+## Backlog des développements futurs
+
+1. Dynamiser la homepage: mettre en avant les dernier produits ajoutés, naviguer par catégorie, par pays, etc
+1. Un autocomplete dans la searchbar
+1. Faire fois 10 en nombre de produits
+1. Définir des alertes (rétention utilisateurs)
+1. S'abonner à un fabricant (recevoir ses nouveaux produits, etc)
+1. Un chat afin de négocier plus facilement et en direct avec le fabricant
+
+Les utilisateurs apprécient le plus la feature de contact direct avec le fabricant (simple et efficace) ainsi que le "similar products". La search bar est par contre assez peu utilisée. Ceci nous donne des billes pour prioriser les futures features ;)
