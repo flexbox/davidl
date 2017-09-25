@@ -13,7 +13,7 @@ page_emphasis: …associé au plus grand nombre de produits disponibles
 
 __[Pain point](https://medium.com/sozial-monster/identifying-customer-pain-points-the-first-thing-you-want-to-do-when-determining-what-to-include-999fbfeb90df)__ : Il n’existe pas de moyen simple de __contacter n’importe quel fabricant__ pour lui acheter ses produits.
 
-Aujourd'hui pour accéder à un fabricant on va à un salon physique ou à une foire commerciale. Problème : ça coûte cher, n’a lieu qu’une fois par an et demande du temps.
+Aujourd’hui, pour rentrer en contact avec un fabricant, il faut se déplacer dans un salon physique ou à une foire commerciale. Problème : ça coûte cher, n’a lieu qu’une fois par an et demande du temps.
 
 Face à ce constat, [Karl](https://www.linkedin.com/in/karl-leicht-208675104/) et [Alexis](https://www.linkedin.com/in/alexis-messier-89286127/) ont lancé [Fabriks.net](https://fabriks.net/) : une plateforme qui liste les produits des fabricants et qui permet de les contacter directement.
 
@@ -45,7 +45,7 @@ L’équipe de Fabriks a décidé de résoudre ces problèmes. Voici nos contrai
 - Hiérarchiser l’information
 - Créer le [meilleur design responsive](/design/webdesign.html) pour une interface de recherche
 - Simplifier l’expérience utilisateur au maximum malgré un grand nombre de datas
-- Environnement `JavaScript` moderne, modulable et évolutif
+- Environnement `JavaScript` __moderne__, __modulable__ et __évolutif__
 
 ![Fabriks Find quality products from global manufacturers and suppliers](https://lh3.googleusercontent.com/e74V_XzyvXJOXZp_4vng6byVBSapf5GjJIaUtmJvwYPuj32Gr5O-jHDTO6aQNKqIP6V2J_EdGBnO4MeW2VvMnDbkbd9xOc3hkGTX4hca9r7fmb-C-eo1DG870FB0vw5Qh_tKAIbJE_hH2thfjrzzzInbUHQsgkuAyCN_Nw1jbuASX7Vlmw0spaBdseJiRnv78nJxsiRsEEdqDhoCETBsSXvdh9gLeCxHhSJJ80nFUpDiMWg1ZmaJvLYE3u5KSGGnisLEsqKcmC9TQZSCRdddzYGUfa_qkDHHUPAs69ENT9Bqhv2yBd59XZ_Nq9DeRX9qaW9VLcdaP4zEqAbX8Vy9SY64Nk90xdFSiTPSTQe-aoF2r2m17-H-GiZwa_quULeTJUk0OE-m1s2gLmI8ucD40nuOqVI5ml-2D--Duql1P4jyIx3WVqC1oCjfl1i8tW6tdgXKCCVPO6PE93C8u3QJ9vqAXig9-AMeQFgPRBVInVBHfK8tIslndJtdT_ENXNbP5LH-z4Fu0RFzL5CKwPvGRazSH0tf2cpE4A0q3jUn-RpHa6GW9jUV5BaTgGe8q2cZ9IxIG7RyjaZlCGlD_ciSidGzpIg-g60wVqrzk-A25IZHoM-JLEhZCA=w3344-h1906-no)
 
@@ -164,20 +164,23 @@ L’infra principale est chez hebergée sur [stackhero.io](https://stackhero.io)
 
 Aujourd’hui l’accent est mis pour faire connaître cette plateforme e-commerce de [fabricants](https://fabriks.net/)
 
-
 ## Le business model
 
 Le business model de la plateforme est un freemium basé sur le nombre de demandes client.
-Ainsi il n'est pas nécessaire de payer avant d'avoir la garantie un certain retour sur investissement ce qui réduit la friction au minimum.
 
+Il n’est pas nécessaire de payer avant d’avoir la garantie d’un certain retour sur investissement.  La friction est réduite au minimum et il devient faciler de passer rapidement à l’action.
 
 ## Backlog des développements futurs
 
-1. Dynamiser la homepage: mettre en avant les dernier produits ajoutés, naviguer par catégorie, par pays, etc
-1. Un autocomplete dans la searchbar
-1. Faire fois 10 en nombre de produits
-1. Définir des alertes (rétention utilisateurs)
-1. S'abonner à un fabricant (recevoir ses nouveaux produits, etc)
+1. Dynamiser la homepage. Mettre en avant les derniers produits ajoutés, naviguer par catégorie, par pays, etc
+1. Un autocomplete dans la barre de recherche
+1. Multiplier par 10 nombre de produits pour atteindre 1 000 000 de références
+1. Définir des alertes (Pour le [nurturing](https://en.wikipedia.org/wiki/Lead_nurturing) des utilisateurs)
+1. S’abonner à un fabricant (Recevoir ses nouveaux produits en exclusivité)
 1. Un chat afin de négocier plus facilement et en direct avec le fabricant
 
-Les utilisateurs apprécient le plus la feature de contact direct avec le fabricant (simple et efficace) ainsi que le "similar products". La search bar est par contre assez peu utilisée. Ceci nous donne des billes pour prioriser les futures features ;)
+Les utilisateurs apprécient le plus la fonctionnalté de __contact direct avec le fabricant__ (simple et efficace) ainsi que le “similar products”.
+
+La barre de recherche est par contre assez peu utilisée. Ceci nous donne des billes pour prioriser les futures développements 😉
+
+Si vous vouhaitez rencontrer la team de [Fabriks.net](https://fabriks.net/) c'est à [Euratechnologie](https://www.google.co.uk/maps/place/Fabriks/@50.6336688,3.0196812,15z/data=!4m12!1m6!3m5!1s0x0:0x5180b324d8f5e7c9!2sFabriks!8m2!3d50.6330833!4d3.0203176!3m4!1s0x0:0x5180b324d8f5e7c9!8m2!3d50.6330833!4d3.0203176) que ça se passe ou sur le [slack de weblille](http://weblille.rocks/) pour un accès avec le designer depuis Londres.
