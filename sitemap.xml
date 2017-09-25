@@ -7,6 +7,15 @@
     <loc>https://davidl.fr/about.html</loc>
   </url>
   <url>
+    <loc>https://davidl.fr/styleguide.html</loc>
+  </url>
+  <url>
+    <loc>https://davidl.fr/thankyou.html</loc>
+  </url>
+  <url>
+    <loc>https://davidl.fr/workflow/chatbot.html</loc>
+  </url>
+  <url>
     <loc>https://davidl.fr/workflow/coaching.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -398,6 +407,9 @@
     <loc>https://davidl.fr/blog/react-native.html</loc>
   </url>
   <url>
+    <loc>https://davidl.fr/blog/fabriks.html</loc>
+  </url>
+  <url>
     <loc>https://davidl.fr/blog</loc>
   </url>
   <url>
@@ -491,9 +503,6 @@
     <loc>https://davidl.fr/learn/formations.html</loc>
   </url>
   <url>
-    <loc>https://davidl.fr/learn</loc>
-  </url>
-  <url>
     <loc>https://davidl.fr/learn/newsletter.html</loc>
   </url>
   <url>
@@ -514,14 +523,5 @@
   </url>
   <url>
     <loc>https://davidl.fr/sitemap.html</loc>
-  </url>
-  <url>
-    <loc>https://davidl.fr/styleguide.html</loc>
-  </url>
-  <url>
-    <loc>https://davidl.fr/thankyou.html</loc>
-  </url>
-  <url>
-    <loc>https://davidl.fr/workflow/chatbot.html</loc>
   </url>
 </urlset>

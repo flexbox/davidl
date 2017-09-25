@@ -5,10 +5,217 @@
   <id>https://davidl.fr/blog/</id>
   <link href="https://davidl.fr/blog/"/>
   <link href="https://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2017-08-24T23:00:00+01:00</updated>
+  <updated>2017-08-31T23:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>Plateforme e-commerce ultra rapide avec React.js et Next.js</title>
+    <link rel="alternate" href="https://davidl.fr/blog/fabriks.html"/>
+    <id>https://davidl.fr/blog/fabriks.html</id>
+    <published>2017-08-31T23:00:00+01:00</published>
+    <updated>2017-09-25T23:53:31+01:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;C’est l’histoire d’un grossite japonais 🇯🇵&lt;br /&gt; qui achète à un fabricant danois 🇩🇰&lt;br /&gt; sur un site français 🇫🇷&lt;br /&gt; écris en anglais 🇬🇧.
+&lt;cite&gt;Fabriks&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://medium.com/sozial-monster/identifying-customer-pain-points-the-first-thing-you-want-to-do-when-determining-what-to-include-999fbfeb90df"&gt;Pain point&lt;/a&gt;&lt;/strong&gt; : Il n’existe pas de moyen simple de &lt;strong&gt;contacter n’importe quel fabricant&lt;/strong&gt; pour lui acheter ses produits.&lt;/p&gt;
+
+&lt;p&gt;Aujourd’hui, pour rentrer en contact avec un fabricant, il faut se déplacer dans un salon physique ou à une foire commerciale. Problème : ça coûte cher, n’a lieu qu’une fois par an et demande du temps.&lt;/p&gt;
+
+&lt;p&gt;Face à ce constat, &lt;a href="https://www.linkedin.com/in/karl-leicht-208675104/"&gt;Karl&lt;/a&gt; et &lt;a href="https://www.linkedin.com/in/alexis-messier-89286127/"&gt;Alexis&lt;/a&gt; ont lancé &lt;a href="https://fabriks.net/"&gt;Fabriks.net&lt;/a&gt; : une plateforme qui liste les produits des fabricants et qui permet de les contacter directement.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;La manière la plus simple possible de contacter un fabricant sans intermédiaire&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="../assets/images/blog/simplicity-b38b4028.jpeg?raw=true" alt="Taille de police de base" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dans cette étude de cas, je vais vous partager comment ils ont eu l’idée de la &lt;strong&gt;création de cette plateforme&lt;/strong&gt;, où nous avons trouvé l’&lt;strong&gt;inspiration&lt;/strong&gt;, comment nous avons &lt;strong&gt;tout développé&lt;/strong&gt;, comment est-ce &lt;strong&gt;utilisé chez leurs clients&lt;/strong&gt; comme outil interne et comment seront &lt;strong&gt;financés les futures fonctionnalités&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voici une présentation de l’article :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Structure de base et fonctionnalités&lt;/li&gt;
+  &lt;li&gt;Création du design&lt;/li&gt;
+  &lt;li&gt;Developpé à partir de projets open source&lt;/li&gt;
+  &lt;li&gt;Lancement&lt;/li&gt;
+  &lt;li&gt;Business model du produit&lt;/li&gt;
+  &lt;li&gt;Backlog des dévelopements futurs&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Bien sur, ce ne sera plus un secret car je vais partager notre méthode avec vous. 🙈&lt;/p&gt;
+
+&lt;h2 id="structure-de-base-et-fonctionnalits"&gt;Structure de base et fonctionnalités&lt;/h2&gt;
+
+&lt;p&gt;Si vous mettez de côté les sites en flash — dans 80% des cas — les sites internets des fabricants ne sont pas trop à la pointe en matière de technologies web moderne.&lt;/p&gt;
+
+&lt;p&gt;Ce sont souvent des sites basiques Prestashop, Magento ou Wordpress sans aucune &lt;a href="/blog/fin-psd.html"&gt;stratédie de contenu&lt;/a&gt;, ni hierachie dans le catalogue. À cela, on a rajouté tout les plugins de partage sur les réseaux sociaux et les 1001 fonctionnalités inutiles pour avoir un site super lent.&lt;/p&gt;
+
+&lt;p&gt;L’équipe de Fabriks a décidé de résoudre ces problèmes. Voici nos contraintes :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hiérarchiser l’information&lt;/li&gt;
+  &lt;li&gt;Créer le &lt;a href="/design/webdesign.html"&gt;meilleur design responsive&lt;/a&gt; pour une interface de recherche&lt;/li&gt;
+  &lt;li&gt;Simplifier l’expérience utilisateur au maximum malgré un grand nombre de datas&lt;/li&gt;
+  &lt;li&gt;Environnement &lt;code&gt;JavaScript&lt;/code&gt; &lt;strong&gt;moderne&lt;/strong&gt;, &lt;strong&gt;modulable&lt;/strong&gt; et &lt;strong&gt;évolutif&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/e74V_XzyvXJOXZp_4vng6byVBSapf5GjJIaUtmJvwYPuj32Gr5O-jHDTO6aQNKqIP6V2J_EdGBnO4MeW2VvMnDbkbd9xOc3hkGTX4hca9r7fmb-C-eo1DG870FB0vw5Qh_tKAIbJE_hH2thfjrzzzInbUHQsgkuAyCN_Nw1jbuASX7Vlmw0spaBdseJiRnv78nJxsiRsEEdqDhoCETBsSXvdh9gLeCxHhSJJ80nFUpDiMWg1ZmaJvLYE3u5KSGGnisLEsqKcmC9TQZSCRdddzYGUfa_qkDHHUPAs69ENT9Bqhv2yBd59XZ_Nq9DeRX9qaW9VLcdaP4zEqAbX8Vy9SY64Nk90xdFSiTPSTQe-aoF2r2m17-H-GiZwa_quULeTJUk0OE-m1s2gLmI8ucD40nuOqVI5ml-2D--Duql1P4jyIx3WVqC1oCjfl1i8tW6tdgXKCCVPO6PE93C8u3QJ9vqAXig9-AMeQFgPRBVInVBHfK8tIslndJtdT_ENXNbP5LH-z4Fu0RFzL5CKwPvGRazSH0tf2cpE4A0q3jUn-RpHa6GW9jUV5BaTgGe8q2cZ9IxIG7RyjaZlCGlD_ciSidGzpIg-g60wVqrzk-A25IZHoM-JLEhZCA=w3344-h1906-no" alt="Fabriks Find quality products from global manufacturers and suppliers" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Après plusieurs itérations sur différentes technologies &lt;a href="https://fabriks.net/"&gt;fabriks.net&lt;/a&gt; est en ligne et nous sommes fier du résultat.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Une interface soignée&lt;/li&gt;
+  &lt;li&gt;Une plateforme rapide (Il ne faut pas oublier les fabricants du Népal en 56k)&lt;/li&gt;
+  &lt;li&gt;Plus de 1000 produits indexés chaque jour&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les fonctionnalités spécifiques sont :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Notifications de nouveaux catalogue&lt;/li&gt;
+  &lt;li&gt;Newsletter pour les professionnels&lt;/li&gt;
+  &lt;li&gt;Un call-to-action simplissime sur chaque produit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Aujourd’hui le focus est mis sur l’&lt;strong&gt;univers du meuble&lt;/strong&gt; au sens large (Immobilier, décoration, outdoor, professionnel, hôtels, restaurants, entreprises, hôpitaux). Il y déjà beaucoup de travail à faire là-dessus.&lt;/p&gt;
+
+&lt;h2 id="cration-du-design"&gt;Création du design&lt;/h2&gt;
+
+&lt;p&gt;Ne réinventez pas la roue, regardez autour des entreprises qui créent de bons produits pour obtenir de l’inspiration (comme Heroku, Slack, Mailchimp, Stripe). Regardez aussi vos concurrents. Vous obtiendrez énormement d’informations.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Si j’avais 6 heures pour couper un arbre,&lt;br /&gt; je passerai les 4 premières heures à aiguiser ma hache.
+&lt;cite&gt;Abraham Lincoln&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Quand vous commencerez l’étape du design, cela sera plus facile de développer votre produit car vous aurez fait vos devoirs. Vous devez &lt;strong&gt;aiguiser votre hache&lt;/strong&gt; avant de vous lancer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/OePfTZSmQviujjGW15jmbS4oXwmO43tXnLcdHT-HkKdmS6J4a-JT3lczEU2DGRJxDRnGB5XpGtAS12tzeyXSg_HTP21OW1lo19UT2NMUjpSzBoA2IQEM2fgpeT_Z3rXkf1KzxOy5xR4aLSFEDBZa3eU8LfFsJqau_SCF6ZV99sa0Em5UYu2B1-cyPf9W7gdl3owRESzGrecbd1j42Mt40kPrvreiH21jVmVF21Geh3hUNMdgcWnx5sQ6YZv1RyCAqoaMZGwdJwmwwhMx4Z53b1JbcImSJixn-mSr2NC6NPRtBfyTGT8c2kfnGCg4LveuKJEAhWriGiZFs1EZDVGczcHmzEScPYF05ESqekEXIsosBbT_9cLiXQHM_Arve3R7Nupf3quurgn1p3GYwtLUqUSiX8amDzGbc6QI4jE5lFdlUIvgMO0ewEOYoneAq_QyH9sd9vjktVSPDsnPrmZ6-L61mP7opPOceKNv1wk5jDEer6bGP1Ej2vQ-lT32v90lxiLBeKqZ0XLY4GV2quH1K4dAcPKbjwyHuvzZHPeD83uKGGaUmeyqdrzoAnaIlfrB-pS9KcuTHNrODiaStsBpdxhv3huP_4oMbW-yESwp_vDvjCwf6SgYLw=w2376-h1616-no" alt="e-commerce Product page list" /&gt;
+&lt;em&gt;A list of &lt;a href="http://www.pages.xyz/type/store"&gt;curated store pages&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous avez maintenant une bonne liste d’inspiration, avec beaucoup de couleurs, d’animations, des icônes magnifiques, une mise en page avec une sidebar fixe ou non et encore des centaines d’autres fonctionnalités.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Comment savoir quelles sont les meilleures pour votre audience ?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Comme nous ne savions pas ce que les gens voulaient, nous avons décidé d’écrire toutes les fonctionnalités contenues dans ces sites et d’&lt;strong&gt;utiliser uniquement les plus répandues&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/h0CZAxHgKvt8D9oci_TbNExTfvUKltxXkhPNgeCV5DBLBeks7myB0UtPVT6IHegLk7kgdyCW1vTN5Pa6QVBRs71F6LMW2pOis1x3U4ZN4b4WFaLMwfybSl3RHAOWeG-CVau3DYV4jc1s_JXtM_DepuC8DRyxXeE8EmgSQVaA2087J6xL_OVnNRT2hvyr3YP69COn5JH717iLCw6LlredSVIgmrWzLxsGKpG9Ff4EASjeP3IUI9NgcF7xlDAq-z4oFhaQFqNCUOduUopPydBb7H0lgDihqohBrY4BdCxIKwlmT1ZkkCR3WdV-kKpza88NUhTML_HfYqv_rW9paEpCLpEiTRjIqLxKMBrg9DpDQ6q-QJUUYGODh1CZQLF0gzOIRukwcCxZ0JHEMvNkd1MPV5jzwJcZp-qgqtbWptmJ4fd0YyIOYY0ca4zu64emhN78zSHeTwSOOiiKQOdbjaCIElhWzTyiYOIPmLwZ8-M4KskWP-8fWHlc92Er-EEFYT9Dcj_kgaBFYC0aIcfLVbgZmMxiX7xReG_GrKaGYw8biE4dothu5bGev99gwQLNdL0lIf9FiP0KKhQyjllfJ9-d37uGip9W3Pzs-2FRdcxngWU=w1024-h644-no" alt="Sketch ecommerce template" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nous avons réalisé que les fonctionnalités principales résolvent environ 95% des cas. Les 5% restants résolvent des problèmes très spécifiques.&lt;/p&gt;
+
+&lt;p&gt;Les éléments de bases sont :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;colors&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;buttons&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;icons&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;typography&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;sidebar&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;callout&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;navbars&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;dropdowns&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;À partir de ces éléments, j’ai créé un styleguide — grâce à mon template middleman — qui permet de générer des sites statiques vitesse lumière.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/n9BujcEkqK6LDAPGnuGbnBE2DTKxwaMxGxZp7oKriUdNn1Nzt7V-0iehLfNov8oFZW_he-K2mJnQ-P97Z-zUv7L4jJ1D_fpuAcp8Vv5iitSHnYqedYGZLcIONrqRwYWK4tZIS7pDA1FUnStLeenkCR3DAiTBJaibotDXBxitZwHx8H8B7qJDEXHOR3lDOAFrJrDQqE7PMl7NC02O4-Ds2QvLyrfS61g59k46wtTWFlzyVBPAIog5PmOLnkMcYcCkdn5NSHk0hshSWWX9GV7unOyRmqDZ4Od_vX1gCT4YlaX6abwBhP0RqHviC17Tfj48E_DtYWBcDEEVCHVQxAyQOQFvJ7Wl3740DogTeL9mmYa-2wryaRg1KlQCc-3AKFQOuXjEyC5JyXvpSNtPMoTuPsDeSINdR4G2icOgZyl2CrNOlt7AWOhxmMpx_SnBO7hqzOly7h-g168Ys403tmkJv27EIVrSuNekd7cO0Mcf12J1SigHU_Dl3o5QR8BJ4Vps3cVnlPc-O6R33Hqu7Q11mPHfmCkcml1VsMN0EwhRzGfyl3BBhmcfTc8wb9cppW3oM0pClg3zzUEzIARIPTTV5vDpyuG0ESwOqoxhAp80YpxyQay6rENebQ=w662-h264-no" alt="Styleguide gif previw" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://fabriks.github.io/styleguide/"&gt;https://fabriks.github.io/styleguide/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="dvelopp--partir-de-projets-open-source"&gt;Développé à partir de projets open source&lt;/h2&gt;
+
+&lt;h3 id="middleman-pour-le-design"&gt;Middleman pour le design&lt;/h3&gt;
+
+&lt;p&gt;Je suis &lt;strong&gt;développeur front-end&lt;/strong&gt;. Ce qui signifie que mon monde se limite à &lt;code&gt;HTML&lt;/code&gt;, &lt;code&gt;CSS&lt;/code&gt; et &lt;code&gt;JavaScript&lt;/code&gt;. Dans la vraie vie c’est plus compliqué que cela et je mets quiconque au défi de coder 80% d’une interface de site web en 2 jours.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../assets/images/middleman-c3370c57.svg" alt="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;En utilisant le générateur de site statique middleman cela devient beaucoup plus facile et rapide. Vous trouverez ici &lt;a href="https://github.com/Fabriks/styleguide/tree/master/source/assets/stylesheets"&gt;la source des feuilles de style&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id="dcouverte-de-nextjs--la-combinaison-russie-entre-ssr-et-spa"&gt;Découverte de Next.js — la combinaison réussie entre SSR et SPA&lt;/h3&gt;
+
+&lt;p&gt;Sur un projet tel que &lt;a href="https://fabriks.net/"&gt;fabriks.net&lt;/a&gt;, le server-side-rendering (SSR) n’est pas une option à cause du référencement sur Google.
+Les pages qui sont traditionnellement générées par le navigateur de l’utilisateur le sont compilées par le serveur et envoyés par la suite au client.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../assets/images/nextjs-logo-49d4290f.svg" alt="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://zeit.co/blog/next"&gt;Next.js&lt;/a&gt; est un framework basé sur React.js et qui permet de faire &lt;strong&gt;simplement du server-side-rendering&lt;/strong&gt;.
+Contrairement à React.js — qui est une librairie — Next.js est un framework complet. De base, il y a des règles, il faut les suivre car il est difficile de changer ensuite.&lt;/p&gt;
+
+&lt;p&gt;Par exemple, les pages sont dans un dossier &lt;code&gt;/pages&lt;/code&gt;, les styles dans &lt;code&gt;/styles&lt;/code&gt;, etc… Le gain est la simplicité du &lt;code&gt;build&lt;/code&gt; et de la &lt;code&gt;config&lt;/code&gt;. Fini les prises de tête pour configurer Webpack version X avec Babel version Y, la compilation des assets, et la plomberie en général.&lt;/p&gt;
+
+&lt;p&gt;La principale complexité vient de la &lt;strong&gt;gestion du routeur&lt;/strong&gt;, ou devrais-je dire, des routeurs.&lt;/p&gt;
+
+&lt;p&gt;Il y a un routeur côté serveur qui route &lt;code&gt;/&lt;/code&gt; vers la page &lt;code&gt;index.js&lt;/code&gt;, &lt;code&gt;/products&lt;/code&gt; vers la page &lt;code&gt;products.js&lt;/code&gt; etc…&lt;/p&gt;
+
+&lt;p&gt;On a aussi un routeur côté client qui charge les composants de la page suivante. C’est dans le lien entre ces deux routeurs que réside le &lt;strong&gt;bénéfice de Next.js&lt;/strong&gt; :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Bénéfice du &lt;strong&gt;server-side-rendering&lt;/strong&gt; : Première page chargée rapidement, crawlabilité par Google&lt;/li&gt;
+  &lt;li&gt;Bénéfice de la &lt;strong&gt;Single Page Application&lt;/strong&gt; : transition fluide car on ne charge que des morceaux d’interface (absence de blink à la PHP)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ce lien se manifeste au travers de la méthode &lt;code&gt;getInitialProps()&lt;/code&gt; qui s’éxécute au moment du routage.&lt;/p&gt;
+
+&lt;p&gt;Pour en savoir plus je vous conseille le site &lt;a href="https://learnnextjs.com"&gt;learnnextjs.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="les-feuilles-de-style"&gt;Les feuilles de style&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src="../assets/images/foundation-89d0ec73.svg" alt="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le choix de &lt;a href="http://foundation.zurb.com/"&gt;Foundation&lt;/a&gt; s’est imposé car ce framework possède une meilleure sémantique et évolutivité que Bootstrap. Le build basé sur &lt;code&gt;Sass&lt;/code&gt; avec des variables globales pour les &lt;strong&gt;couleurs&lt;/strong&gt;, la &lt;strong&gt;typographie&lt;/strong&gt; et le &lt;strong&gt;look’n’fell&lt;/strong&gt; général.&lt;/p&gt;
+
+&lt;p&gt;Un problème rencontré : les styles globaux ne s’accordent pas bien avec la philosophie “component” de React.js. &lt;a href="https://github.com/kleicht"&gt;Karl&lt;/a&gt; a donc passé une demi-journée pour faire un peu de plomberie pour que le &lt;code&gt;build&lt;/code&gt; fonctionne. Lors de cette étape nous avons abandonné notre styleguide construit en &lt;code&gt;ruby&lt;/code&gt; pour passer avec du 100% JavaScript en &lt;code&gt;JSX&lt;/code&gt; pour les vues.&lt;/p&gt;
+
+&lt;p&gt;Foundation est toujours utile pour construire l’&lt;a href="https://developers.google.com/web/fundamentals/architecture/app-shell"&gt;application shell&lt;/a&gt;. Je n’ai inclus que 30% du framework avec des composants comme la grille, la typographie, et les différents call to action.&lt;/p&gt;
+
+&lt;p&gt;Nous utilisons aussi des &lt;code&gt;styled-components&lt;/code&gt; qui permettent d’&lt;strong&gt;inclure facilement du style&lt;/strong&gt; dans chaque composant.&lt;/p&gt;
+
+&lt;p&gt;Ce n’est évidemment pas si simple que cela. Nous utilisons beaucoup d’autres services comme Redis, RabbitMQ, Elasticsearch, yarn… Vous trouverez la liste complète des technologies utilisées par fabriks sur &lt;a href="https://stackshare.io/fabriks/fabriks"&gt;stackshare&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="lancement"&gt;Lancement&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Scoop&lt;/strong&gt; : Il n’y aura pas de lancement. La plateforme est en ligne depuis Juillet.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Ads don&amp;#39;t work anymore. Today marketing is the product. &lt;a href="https://twitter.com/hashtag/captaintrain?src=hash"&gt;#captaintrain&lt;/a&gt; &lt;a href="https://twitter.com/_flexbox"&gt;@_flexbox&lt;/a&gt;&lt;/p&gt;&amp;mdash; Karl Leicht (@KarlLeicht) &lt;a href="https://twitter.com/KarlLeicht/status/903519253172822016"&gt;September 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;Nous itérons sur le produit depuis le début d’année. Grâce à une excellente stratégie de déploiement continu nous pouvons &lt;strong&gt;mettre en production la plateforme des dizaines de fois par jour&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;L’infra principale est chez hebergée sur &lt;a href="https://stackhero.io"&gt;stackhero.io&lt;/a&gt; et nous avons quelques parties sur &lt;a href="https://clever-cloud.com"&gt;clever-cloud.com&lt;/a&gt; et AWS.&lt;/p&gt;
+
+&lt;p&gt;Aujourd’hui l’accent est mis pour faire connaître cette plateforme e-commerce de &lt;a href="https://fabriks.net/"&gt;fabricants&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="le-business-model"&gt;Le business model&lt;/h2&gt;
+
+&lt;p&gt;Le business model de la plateforme est un freemium basé sur le nombre de demandes client.&lt;/p&gt;
+
+&lt;p&gt;Il n’est pas nécessaire de payer avant d’avoir la garantie d’un certain retour sur investissement.  La friction est réduite au minimum et il devient faciler de passer rapidement à l’action.&lt;/p&gt;
+
+&lt;h2 id="backlog-des-dveloppements-futurs"&gt;Backlog des développements futurs&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Dynamiser la homepage. Mettre en avant les derniers produits ajoutés, naviguer par catégorie, par pays, etc&lt;/li&gt;
+  &lt;li&gt;Un autocomplete dans la barre de recherche&lt;/li&gt;
+  &lt;li&gt;Multiplier par 10 nombre de produits pour atteindre 1 000 000 de références&lt;/li&gt;
+  &lt;li&gt;Définir des alertes (Pour le &lt;a href="https://en.wikipedia.org/wiki/Lead_nurturing"&gt;nurturing&lt;/a&gt; des utilisateurs)&lt;/li&gt;
+  &lt;li&gt;S’abonner à un fabricant (Recevoir ses nouveaux produits en exclusivité)&lt;/li&gt;
+  &lt;li&gt;Un chat afin de négocier plus facilement et en direct avec le fabricant&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Les utilisateurs apprécient le plus la fonctionnalté de &lt;strong&gt;contact direct avec le fabricant&lt;/strong&gt; (simple et efficace) ainsi que le “similar products”.&lt;/p&gt;
+
+&lt;p&gt;La barre de recherche est par contre assez peu utilisée. Ceci nous donne des billes pour prioriser les futures développements 😉&lt;/p&gt;
+
+&lt;p&gt;Si vous vouhaitez rencontrer la team de &lt;a href="https://fabriks.net/"&gt;Fabriks.net&lt;/a&gt; c'est à &lt;a href="https://www.google.co.uk/maps/place/Fabriks/@50.6336688,3.0196812,15z/data=!4m12!1m6!3m5!1s0x0:0x5180b324d8f5e7c9!2sFabriks!8m2!3d50.6330833!4d3.0203176!3m4!1s0x0:0x5180b324d8f5e7c9!8m2!3d50.6330833!4d3.0203176"&gt;Euratechnologie&lt;/a&gt; que ça se passe ou sur le &lt;a href="http://weblille.rocks/"&gt;slack de weblille&lt;/a&gt; pour un accès avec le designer depuis Londres.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>1h30 de videos pour comprendre React Native et Redux</title>
     <link rel="alternate" href="https://davidl.fr/blog/react-native.html"/>
@@ -544,127 +751,6 @@ Vous pouvez éviter cela avec un système qui vous permet de faire des “déplo
 
 &lt;p&gt;Avec &lt;strong&gt;plus de 600 talks&lt;/strong&gt; il est impossible d’assister à toutes les conférences. Grâce à la magie d’internet les vidéos des &lt;a href="https://video.fosdem.org/2017/"&gt;conférences sont disponibles en ligne&lt;/a&gt;. Dans mon cas c’est le talk sur &lt;code&gt;curl&lt;/code&gt; qui m’a le plus marqué et je suis curieux de découvrir le vôtre.&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>30 jours en Indonésie : trekking, snorkeling &amp; nasi goreng</title>
-    <link rel="alternate" href="https://davidl.fr/blog/indonesia.html"/>
-    <id>https://davidl.fr/blog/indonesia.html</id>
-    <published>2016-12-10T23:00:00+00:00</published>
-    <updated>2017-06-08T13:55:59+01:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;Ceux qui me connaissent savent que &lt;a href="/blog/online.html"&gt;je voyage souvent&lt;/a&gt;. Cette année je suis reparti en Asie pour une aventure de 30 jours en Indonésie. Dans cet article je présente de façon non-exhaustive les différentes activitées que j’ai réalisées.&lt;/p&gt;
-
-&lt;p&gt;N’hésitez pas à me contacter si vous souhaitez d’autres tips de voyageur ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://c1.staticflickr.com/1/724/31425037412_756a6c3866_b.jpg" alt="David Leuliette Volcano hiking – Rinjani - Lombok island" /&gt;
-&lt;em&gt;Trekking pour l’ascension du volcan Rinjani sur l’île de Lombok&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;À mon habitude, en tant que designer, j’ai réalisé de nombreux &lt;strong&gt;sketchnotes&lt;/strong&gt; de l’extrême pour illustrer mon périple, tout est &lt;a href="https://www.flickr.com/photos/geekgrunge/sets/72157675954863272/with/31533021666/"&gt;disponible dans un album FlickR&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://c1.staticflickr.com/1/764/31424347702_100a871c13_b.jpg" alt="David Leuliette sketchnotes indonesia" /&gt;&lt;/p&gt;
-
-&lt;h2 id="jours-entre-les-les-java-bali-lombok-gili--nusa-tenggara"&gt;30 jours entre les îles Java, Bali, Lombok, Gili &amp;amp; Nusa Tenggara&lt;/h2&gt;
-
-&lt;p&gt;Voyager en sac à dos sans plannification permet une grande liberté, j’ai passé de bons moments au grés des différentes rencontres.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Retrouver un backpack à l’aéroport de Jakarta 3 jours après mon arrivée car il était resté à Paris&lt;/li&gt;
-  &lt;li&gt;Participer à une fête forraine et conduire 1 van BMW à pédale sur la place de la ville à Yogyakarta&lt;/li&gt;
-  &lt;li&gt;Ne pas réussir à marcher plus de 5 minutes sans se faire prendre en photo pendant la visite des temples&lt;/li&gt;
-  &lt;li&gt;Rester éveillé 36 heures et faire l’ascension du &lt;a href="https://fr.wikipedia.org/wiki/Merapi"&gt;Volcan Merapi&lt;/a&gt; pendant la nuit&lt;/li&gt;
-  &lt;li&gt;Participer à 3 ascensions de volcan en 4 jours: Merapi, Ijen &amp;amp; Bromo&lt;/li&gt;
-  &lt;li&gt;Apprendre à faire du scooter sur l’île de Bali.&lt;/li&gt;
-  &lt;li&gt;Manger du nasi goreng et du &lt;a href="https://fr.wikipedia.org/wiki/Mie_goreng"&gt;mie Goreng&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Se faire purifier au &lt;a href="https://www.tripadvisor.fr/Attraction_Review-g1025505-d1912575-Reviews-Tirta_Empul_Temple-Tampaksiring_Bali.html"&gt;temple Tampaksiring&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Être agressé par un singe, j’avais la main dans la poche &amp;amp; il voulait de la nourriture&lt;/li&gt;
-  &lt;li&gt;Pêcher avec les locaux et manger nos propres poissons cuisinés dans un restaurant sur le port&lt;/li&gt;
-  &lt;li&gt;Sauter dans un bateau depuis le quai car l’embarquement était terminé&lt;/li&gt;
-  &lt;li&gt;3 jours de trekking éprouvant pour réussir l’ascension du &lt;a href="http://www.thedaydreameuse.com/indonesie-trek-mont-rinjani/"&gt;Volcan Rinjani&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Rentrer à 9 dans une tente de 2 personnes pour se réchaufer&lt;/li&gt;
-  &lt;li&gt;Suivre un cours de &lt;a href="https://www.facebook.com/gilicookingschool/"&gt;cuisine indonésiennes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Essayer de faire du Yoga sur le toit d’un bateau&lt;/li&gt;
-  &lt;li&gt;Plonger avec les raies manta dans l’un des meilleurs spots du monde&lt;/li&gt;
-  &lt;li&gt;Nager avec du plancton, faire le pirate et aborder d’autres bateaux lors d’une soirée&lt;/li&gt;
-  &lt;li&gt;Admirer les “derniers dinosaures” de la planète aka les dragons de Komodo&lt;/li&gt;
-  &lt;li&gt;Boire le &lt;a href="https://fr.wikipedia.org/wiki/Kopi_luwak"&gt;café le plus cher de monde&lt;/a&gt; ($600 le Kg)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src="https://c1.staticflickr.com/1/506/31571676795_c482ee459f_b.jpg" alt="Borobudur temple" /&gt;
-&lt;em&gt;Le temple de Borobudur&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://c1.staticflickr.com/1/305/30730382694_a93946a614_b.jpg" alt="Komodo island boat trip" /&gt;
-&lt;em&gt;Komodo island boat-trip&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Carte de mon périple d’un mois en Indonésie&lt;/p&gt;
-
-&lt;iframe src="https://www.google.com/maps/d/embed?mid=1Uq6BMuqU2fdaSLJ4P3HVv0IAxaY&amp;amp;hl=fr" width="870" height="600" style="border: 0;"&gt;&lt;/iframe&gt;
-
-&lt;h2 id="vivre--voyager-avec-les-locaux"&gt;Vivre &amp;amp; voyager avec les locaux&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src="https://c2.staticflickr.com/6/5563/30730375884_5b0f528dd2_b.jpg" alt="Indonesian people" /&gt;&lt;/p&gt;
-
-&lt;h3 id="apprendre--parler-indonsien"&gt;Apprendre à parler Indonésien&lt;/h3&gt;
-
-&lt;p&gt;À l’aide de mon ami François — grand voyageur et responsable du site &lt;a href="http://www.tourdumondiste.com/indonesie"&gt;tourdumondiste.com&lt;/a&gt; — j’ai réussi à apprendre les bases de la langue Indonésienne en 1 mois. C’est très accessible et assez amusant.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Pas d’articles indéfinis ou définis (un, une, des, le, la…)&lt;/li&gt;
-  &lt;li&gt;Pas de verbe "être"&lt;/li&gt;
-  &lt;li&gt;Les verbes sont invariables : il n’y a donc pas de conjugaison&lt;/li&gt;
-  &lt;li&gt;Les noms et les adjectifs sont invariables&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Exemple:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Je voudrais l’addition&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Saya minta bon&lt;/p&gt;
-
-  &lt;p&gt;— je / demander/ addition&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;D’où viens-tu ?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Kamu dari mana&lt;/p&gt;
-
-  &lt;p&gt;— tu / de / où&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src="https://c1.staticflickr.com/1/662/31537073826_c2b0ef762b_b.jpg" alt="Apprendre l’indonésien sans peine" /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Bagus&lt;/p&gt;
-
-  &lt;p&gt;— Un très bon point de départ qui signifie la joie ou la satisfaction&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id="voyager-avec-couchsurfing"&gt;Voyager avec Couchsurfing&lt;/h3&gt;
-
-&lt;p&gt;Un &lt;a href="https://youtu.be/TQsnd4WkBHY"&gt;autre travel hack&lt;/a&gt; très utile : gérer votre profil couchsurfing comme &lt;a href="https://www.linkedin.com/in/david-leuliette-456701121"&gt;linkedin&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;M’ajouter &lt;a href="https://www.couchsurfing.com/people/david-nyme"&gt;en tant qu’ami&lt;/a&gt; 😉&lt;/li&gt;
-  &lt;li&gt;Voyagez chez vos amis / famille et écrire des avis&lt;/li&gt;
-  &lt;li&gt;M’écrire une recommandation pour dire que je donne pleins de bons conseils&lt;/li&gt;
-  &lt;li&gt;Créer un voyage public dans vos ville de destination avec un message explicite&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hello there!
-Here is David — a crazy &amp;amp; fun french guy — I travel accross Indonesia during 30 days.
-I am open minded and I am here to meet amazing people ;)&lt;/p&gt;
-
-  &lt;p&gt;Just hit the road &amp;amp; see what happens!&lt;/p&gt;
-
-  &lt;p&gt;Bonus: I can cook french food!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;N’oubliez pas d’inclure une &lt;strong&gt;value proposition&lt;/strong&gt; comme les startupeurs dans votre annonce. Dans mon cas, cuisiner dans un pays étranger est toujours une expérience interessante.&lt;/p&gt;
 </content>
   </entry>
 </feed>
