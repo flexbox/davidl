@@ -20,6 +20,7 @@ $body-font-family: $font-family-sans-serif;
 $speed: 200ms;
 
 
+
 // 4. Base Typography
 // ------------------
 
@@ -54,13 +55,13 @@ $header-styles: (
 $header-small-font-color: $gray-blue;
 $hr-border: 1px solid rgba($gray-blue, 0.4);
 
-$anchor-color: $primary-color;
+$anchor-color: $blue-dark;
 $anchor-color-hover: $white;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 
 $blockquote-color: $gray-blue;
-$blockquote-padding: 1rem 0 2rem 4rem;
+$blockquote-padding: 1rem 1rem 0.5rem 4rem;
 $blockquote-border: 0;
 $cite-font-size: rem-calc(14);
 $cite-color: $turquoise;
@@ -77,6 +78,7 @@ $input-border-focus: 2px solid $primary-color;
 $input-shadow: none;
 $input-shadow-focus: 0 0 0 3px rgba($primary-color, 0.4);
 $input-transition: box-shadow $speed, border-color 0.25s ease-in-out;
+
 
 
 // 13. Callout

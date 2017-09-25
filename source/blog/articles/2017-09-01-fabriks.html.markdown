@@ -1,0 +1,186 @@
+---
+date: 2017-09-01
+slug: fabriks
+title: Plateforme e-commerce ultra rapide avec React.js et Next.js
+description: Étude de cas sur la création d’une plateforme de shopping avec une stack JavaScript moderne. Design, technologies utilisées et business model du produit.
+image: https://lh3.googleusercontent.com/3dCVKBt4aW8OhRs51uttMKBCfLM_rn9t8adBeruxTot-zVMw4KiDUIDiCOxZO49q7YYGiu58F4GRx806s54_rs7P-0RAiDX2ggopIVqeyuzJ5LoC9eHOTyB6YB2uplh2jz4k6NMG9w0qFi9QdwMtNLK4rz7bLAk9lSQoRhJZOiDfWCyycVTsftvgRuSxjneiFfTzMT6Cd5dUnjk-6NQ3QMo-_GdHMHc4ZpB2G1A4iLOrqKV4D2eW-oaNpmIP9VTUS5DOZJrSHxZVhtgwyDkFDmM1jAK5XdgpJ19Iu6lpus34yW1RGMd2DSgXHALbbE7aqPxo_br1w-TlqCMD1RaDNh-7SUzpMq_-rI_X_7_3yiRHSf0Z3r1K5-w_1SbjQiDO2fYNsnixSnDTezn-VQ5t6t7G3xU5xKirBHyqbqgX1ADrFQnGcKaLO92dKQcpELDfOM1qzJnUqWXZZ2dbY_pR3I7XEmC8IZp-wdz4F2AaBJtcA_oKI6_U5d6WI0wW2UD26zU887odkcuwLV3CYI1I6Xb-ny64NqMjsJf155xPZhbcuT0KvHNNB5L4wzrhq1TgEtYFjO9xYDb822cyRXn42L103kXQFZThyvsRlX8hhxY=w1024-h512-no
+page_title: La meilleure expérience utilisateur possible…
+page_emphasis: …associé au plus grand nombre de produits disponibles
+---
+
+> C’est l’histoire d’un grossite japonais 🇯🇵<br> qui achète à un fabricant danois 🇩🇰<br> sur un site français 🇫🇷<br> écris en anglais 🇬🇧.
+> <cite>Fabriks</cite>
+
+__[Pain point](https://medium.com/sozial-monster/identifying-customer-pain-points-the-first-thing-you-want-to-do-when-determining-what-to-include-999fbfeb90df)__ : Il n’existe pas de moyen simple de __contacter n’importe quel fabricant__ pour lui acheter ses produits.
+
+Aujourd’hui, pour rentrer en contact avec un fabricant, il faut se déplacer dans un salon physique ou à une foire commerciale. Problème : ça coûte cher, n’a lieu qu’une fois par an et demande du temps.
+
+Face à ce constat, [Karl](https://www.linkedin.com/in/karl-leicht-208675104/) et [Alexis](https://www.linkedin.com/in/alexis-messier-89286127/) ont lancé [Fabriks.net](https://fabriks.net/) : une plateforme qui liste les produits des fabricants et qui permet de les contacter directement.
+
+> La manière la plus simple possible de contacter un fabricant sans intermédiaire
+
+![Taille de police de base](/assets/images/blog/simplicity.jpeg?raw=true)
+
+Dans cette étude de cas, je vais vous partager comment ils ont eu l’idée de la __création de cette plateforme__, où nous avons trouvé l’__inspiration__, comment nous avons __tout développé__, comment est-ce __utilisé chez leurs clients__ comme outil interne et comment seront __financés les futures fonctionnalités__.
+
+Voici une présentation de l’article :
+
+1. Structure de base et fonctionnalités
+1. Création du design
+1. Developpé à partir de projets open source
+1. Lancement
+1. Business model du produit
+1. Backlog des dévelopements futurs
+
+Bien sur, ce ne sera plus un secret car je vais partager notre méthode avec vous. 🙈
+
+## Structure de base et fonctionnalités
+
+Si vous mettez de côté les sites en flash — dans 80% des cas — les sites internets des fabricants ne sont pas trop à la pointe en matière de technologies web moderne.
+
+Ce sont souvent des sites basiques Prestashop, Magento ou Wordpress sans aucune [stratédie de contenu](/blog/fin-psd.html), ni hierachie dans le catalogue. À cela, on a rajouté tout les plugins de partage sur les réseaux sociaux et les 1001 fonctionnalités inutiles pour avoir un site super lent.
+
+L’équipe de Fabriks a décidé de résoudre ces problèmes. Voici nos contraintes :
+
+- Hiérarchiser l’information
+- Créer le [meilleur design responsive](/design/webdesign.html) pour une interface de recherche
+- Simplifier l’expérience utilisateur au maximum malgré un grand nombre de datas
+- Environnement `JavaScript` __moderne__, __modulable__ et __évolutif__
+
+![Fabriks Find quality products from global manufacturers and suppliers](https://lh3.googleusercontent.com/e74V_XzyvXJOXZp_4vng6byVBSapf5GjJIaUtmJvwYPuj32Gr5O-jHDTO6aQNKqIP6V2J_EdGBnO4MeW2VvMnDbkbd9xOc3hkGTX4hca9r7fmb-C-eo1DG870FB0vw5Qh_tKAIbJE_hH2thfjrzzzInbUHQsgkuAyCN_Nw1jbuASX7Vlmw0spaBdseJiRnv78nJxsiRsEEdqDhoCETBsSXvdh9gLeCxHhSJJ80nFUpDiMWg1ZmaJvLYE3u5KSGGnisLEsqKcmC9TQZSCRdddzYGUfa_qkDHHUPAs69ENT9Bqhv2yBd59XZ_Nq9DeRX9qaW9VLcdaP4zEqAbX8Vy9SY64Nk90xdFSiTPSTQe-aoF2r2m17-H-GiZwa_quULeTJUk0OE-m1s2gLmI8ucD40nuOqVI5ml-2D--Duql1P4jyIx3WVqC1oCjfl1i8tW6tdgXKCCVPO6PE93C8u3QJ9vqAXig9-AMeQFgPRBVInVBHfK8tIslndJtdT_ENXNbP5LH-z4Fu0RFzL5CKwPvGRazSH0tf2cpE4A0q3jUn-RpHa6GW9jUV5BaTgGe8q2cZ9IxIG7RyjaZlCGlD_ciSidGzpIg-g60wVqrzk-A25IZHoM-JLEhZCA=w3344-h1906-no)
+
+Après plusieurs itérations sur différentes technologies [fabriks.net](https://fabriks.net/) est en ligne et nous sommes fier du résultat.
+
+- Une interface soignée
+- Une plateforme rapide (Il ne faut pas oublier les fabricants du Népal en 56k)
+- Plus de 1000 produits indexés chaque jour
+
+Les fonctionnalités spécifiques sont :
+
+- Notifications de nouveaux catalogue
+- Newsletter pour les professionnels
+- Un call-to-action simplissime sur chaque produit
+
+Aujourd’hui le focus est mis sur l’__univers du meuble__ au sens large (Immobilier, décoration, outdoor, professionnel, hôtels, restaurants, entreprises, hôpitaux). Il y déjà beaucoup de travail à faire là-dessus.
+
+## Création du design
+
+Ne réinventez pas la roue, regardez autour des entreprises qui créent de bons produits pour obtenir de l’inspiration (comme Heroku, Slack, Mailchimp, Stripe). Regardez aussi vos concurrents. Vous obtiendrez énormement d’informations.
+
+> Si j’avais 6 heures pour couper un arbre,<br> je passerai les 4 premières heures à aiguiser ma hache.
+> <cite>Abraham Lincoln</cite>
+
+Quand vous commencerez l’étape du design, cela sera plus facile de développer votre produit car vous aurez fait vos devoirs. Vous devez __aiguiser votre hache__ avant de vous lancer.
+
+![e-commerce Product page list](https://lh3.googleusercontent.com/OePfTZSmQviujjGW15jmbS4oXwmO43tXnLcdHT-HkKdmS6J4a-JT3lczEU2DGRJxDRnGB5XpGtAS12tzeyXSg_HTP21OW1lo19UT2NMUjpSzBoA2IQEM2fgpeT_Z3rXkf1KzxOy5xR4aLSFEDBZa3eU8LfFsJqau_SCF6ZV99sa0Em5UYu2B1-cyPf9W7gdl3owRESzGrecbd1j42Mt40kPrvreiH21jVmVF21Geh3hUNMdgcWnx5sQ6YZv1RyCAqoaMZGwdJwmwwhMx4Z53b1JbcImSJixn-mSr2NC6NPRtBfyTGT8c2kfnGCg4LveuKJEAhWriGiZFs1EZDVGczcHmzEScPYF05ESqekEXIsosBbT_9cLiXQHM_Arve3R7Nupf3quurgn1p3GYwtLUqUSiX8amDzGbc6QI4jE5lFdlUIvgMO0ewEOYoneAq_QyH9sd9vjktVSPDsnPrmZ6-L61mP7opPOceKNv1wk5jDEer6bGP1Ej2vQ-lT32v90lxiLBeKqZ0XLY4GV2quH1K4dAcPKbjwyHuvzZHPeD83uKGGaUmeyqdrzoAnaIlfrB-pS9KcuTHNrODiaStsBpdxhv3huP_4oMbW-yESwp_vDvjCwf6SgYLw=w2376-h1616-no)
+_A list of [curated store pages](http://www.pages.xyz/type/store)_
+
+Vous avez maintenant une bonne liste d’inspiration, avec beaucoup de couleurs, d’animations, des icônes magnifiques, une mise en page avec une sidebar fixe ou non et encore des centaines d’autres fonctionnalités.
+
+_Comment savoir quelles sont les meilleures pour votre audience ?_
+
+Comme nous ne savions pas ce que les gens voulaient, nous avons décidé d’écrire toutes les fonctionnalités contenues dans ces sites et d’__utiliser uniquement les plus répandues__.
+
+![Sketch ecommerce template](https://lh3.googleusercontent.com/h0CZAxHgKvt8D9oci_TbNExTfvUKltxXkhPNgeCV5DBLBeks7myB0UtPVT6IHegLk7kgdyCW1vTN5Pa6QVBRs71F6LMW2pOis1x3U4ZN4b4WFaLMwfybSl3RHAOWeG-CVau3DYV4jc1s_JXtM_DepuC8DRyxXeE8EmgSQVaA2087J6xL_OVnNRT2hvyr3YP69COn5JH717iLCw6LlredSVIgmrWzLxsGKpG9Ff4EASjeP3IUI9NgcF7xlDAq-z4oFhaQFqNCUOduUopPydBb7H0lgDihqohBrY4BdCxIKwlmT1ZkkCR3WdV-kKpza88NUhTML_HfYqv_rW9paEpCLpEiTRjIqLxKMBrg9DpDQ6q-QJUUYGODh1CZQLF0gzOIRukwcCxZ0JHEMvNkd1MPV5jzwJcZp-qgqtbWptmJ4fd0YyIOYY0ca4zu64emhN78zSHeTwSOOiiKQOdbjaCIElhWzTyiYOIPmLwZ8-M4KskWP-8fWHlc92Er-EEFYT9Dcj_kgaBFYC0aIcfLVbgZmMxiX7xReG_GrKaGYw8biE4dothu5bGev99gwQLNdL0lIf9FiP0KKhQyjllfJ9-d37uGip9W3Pzs-2FRdcxngWU=w1024-h644-no)
+
+Nous avons réalisé que les fonctionnalités principales résolvent environ 95% des cas. Les 5% restants résolvent des problèmes très spécifiques.
+
+Les éléments de bases sont :
+
+- `colors`
+- `buttons`
+- `icons`
+- `typography`
+- `sidebar`
+- `callout`
+- `navbars`
+- `dropdowns`
+
+À partir de ces éléments, j’ai créé un styleguide — grâce à mon template middleman — qui permet de générer des sites statiques vitesse lumière.
+
+![Styleguide gif previw](https://lh3.googleusercontent.com/n9BujcEkqK6LDAPGnuGbnBE2DTKxwaMxGxZp7oKriUdNn1Nzt7V-0iehLfNov8oFZW_he-K2mJnQ-P97Z-zUv7L4jJ1D_fpuAcp8Vv5iitSHnYqedYGZLcIONrqRwYWK4tZIS7pDA1FUnStLeenkCR3DAiTBJaibotDXBxitZwHx8H8B7qJDEXHOR3lDOAFrJrDQqE7PMl7NC02O4-Ds2QvLyrfS61g59k46wtTWFlzyVBPAIog5PmOLnkMcYcCkdn5NSHk0hshSWWX9GV7unOyRmqDZ4Od_vX1gCT4YlaX6abwBhP0RqHviC17Tfj48E_DtYWBcDEEVCHVQxAyQOQFvJ7Wl3740DogTeL9mmYa-2wryaRg1KlQCc-3AKFQOuXjEyC5JyXvpSNtPMoTuPsDeSINdR4G2icOgZyl2CrNOlt7AWOhxmMpx_SnBO7hqzOly7h-g168Ys403tmkJv27EIVrSuNekd7cO0Mcf12J1SigHU_Dl3o5QR8BJ4Vps3cVnlPc-O6R33Hqu7Q11mPHfmCkcml1VsMN0EwhRzGfyl3BBhmcfTc8wb9cppW3oM0pClg3zzUEzIARIPTTV5vDpyuG0ESwOqoxhAp80YpxyQay6rENebQ=w662-h264-no)
+
+[https://fabriks.github.io/styleguide/](https://fabriks.github.io/styleguide/)
+
+## Développé à partir de projets open source
+
+### Middleman pour le design
+
+Je suis __développeur front-end__. Ce qui signifie que mon monde se limite à `HTML`, `CSS` et `JavaScript`. Dans la vraie vie c’est plus compliqué que cela et je mets quiconque au défi de coder 80% d’une interface de site web en 2 jours.
+
+![](middleman.svg)
+
+En utilisant le générateur de site statique middleman cela devient beaucoup plus facile et rapide. Vous trouverez ici [la source des feuilles de style](https://github.com/Fabriks/styleguide/tree/master/source/assets/stylesheets).
+
+### Découverte de Next.js — la combinaison réussie entre SSR et SPA
+
+Sur un projet tel que [fabriks.net](https://fabriks.net/), le server-side-rendering (SSR) n’est pas une option à cause du référencement sur Google.
+Les pages qui sont traditionnellement générées par le navigateur de l’utilisateur le sont compilées par le serveur et envoyés par la suite au client.
+
+![](nextjs-logo.svg)
+
+[Next.js](https://zeit.co/blog/next) est un framework basé sur React.js et qui permet de faire __simplement du server-side-rendering__.
+Contrairement à React.js — qui est une librairie — Next.js est un framework complet. De base, il y a des règles, il faut les suivre car il est difficile de changer ensuite.
+
+Par exemple, les pages sont dans un dossier `/pages`, les styles dans `/styles`, etc… Le gain est la simplicité du `build` et de la `config`. Fini les prises de tête pour configurer Webpack version X avec Babel version Y, la compilation des assets, et la plomberie en général.
+
+La principale complexité vient de la __gestion du routeur__, ou devrais-je dire, des routeurs.
+
+Il y a un routeur côté serveur qui route `/` vers la page `index.js`, `/products` vers la page `products.js` etc…
+
+On a aussi un routeur côté client qui charge les composants de la page suivante. C’est dans le lien entre ces deux routeurs que réside le __bénéfice de Next.js__ :
+
+1. Bénéfice du __server-side-rendering__ : Première page chargée rapidement, crawlabilité par Google
+1. Bénéfice de la __Single Page Application__ : transition fluide car on ne charge que des morceaux d’interface (absence de blink à la PHP)
+
+Ce lien se manifeste au travers de la méthode `getInitialProps()` qui s’éxécute au moment du routage.
+
+Pour en savoir plus je vous conseille le site [learnnextjs.com](https://learnnextjs.com)
+
+### Les feuilles de style
+
+![](foundation.svg)
+
+Le choix de [Foundation](http://foundation.zurb.com/) s’est imposé car ce framework possède une meilleure sémantique et évolutivité que Bootstrap. Le build basé sur `Sass` avec des variables globales pour les __couleurs__, la __typographie__ et le __look’n’fell__ général.
+
+Un problème rencontré : les styles globaux ne s’accordent pas bien avec la philosophie “component” de React.js. [Karl](https://github.com/kleicht) a donc passé une demi-journée pour faire un peu de plomberie pour que le `build` fonctionne. Lors de cette étape nous avons abandonné notre styleguide construit en `ruby` pour passer avec du 100% JavaScript en `JSX` pour les vues.
+
+Foundation est toujours utile pour construire l’[application shell](https://developers.google.com/web/fundamentals/architecture/app-shell). Je n’ai inclus que 30% du framework avec des composants comme la grille, la typographie, et les différents call to action.
+
+Nous utilisons aussi des `styled-components` qui permettent d’__inclure facilement du style__ dans chaque composant.
+
+Ce n’est évidemment pas si simple que cela. Nous utilisons beaucoup d’autres services comme Redis, RabbitMQ, Elasticsearch, yarn… Vous trouverez la liste complète des technologies utilisées par fabriks sur [stackshare](https://stackshare.io/fabriks/fabriks).
+
+## Lancement
+
+__Scoop__ : Il n’y aura pas de lancement. La plateforme est en ligne depuis Juillet.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Ads don&#39;t work anymore. Today marketing is the product. <a href="https://twitter.com/hashtag/captaintrain?src=hash">#captaintrain</a> <a href="https://twitter.com/_flexbox">@_flexbox</a></p>&mdash; Karl Leicht (@KarlLeicht) <a href="https://twitter.com/KarlLeicht/status/903519253172822016">September 1, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Nous itérons sur le produit depuis le début d’année. Grâce à une excellente stratégie de déploiement continu nous pouvons __mettre en production la plateforme des dizaines de fois par jour__.
+
+L’infra principale est chez hebergée sur [stackhero.io](https://stackhero.io) et nous avons quelques parties sur [clever-cloud.com](https://clever-cloud.com) et AWS.
+
+Aujourd’hui l’accent est mis pour faire connaître cette plateforme e-commerce de [fabricants](https://fabriks.net/)
+
+## Le business model
+
+Le business model de la plateforme est un freemium basé sur le nombre de demandes client.
+
+Il n’est pas nécessaire de payer avant d’avoir la garantie d’un certain retour sur investissement.  La friction est réduite au minimum et il devient faciler de passer rapidement à l’action.
+
+## Backlog des développements futurs
+
+1. Dynamiser la homepage. Mettre en avant les derniers produits ajoutés, naviguer par catégorie, par pays, etc
+1. Un autocomplete dans la barre de recherche
+1. Multiplier par 10 nombre de produits pour atteindre 1 000 000 de références
+1. Définir des alertes (Pour le [nurturing](https://en.wikipedia.org/wiki/Lead_nurturing) des utilisateurs)
+1. S’abonner à un fabricant (Recevoir ses nouveaux produits en exclusivité)
+1. Un chat afin de négocier plus facilement et en direct avec le fabricant
+
+Les utilisateurs apprécient le plus la fonctionnalté de __contact direct avec le fabricant__ (simple et efficace) ainsi que le “similar products”.
+
+La barre de recherche est par contre assez peu utilisée. Ceci nous donne des billes pour prioriser les futures développements 😉
+
+Si vous vouhaitez rencontrer la team de [Fabriks.net](https://fabriks.net/) c'est à [Euratechnologie](https://www.google.co.uk/maps/place/Fabriks/@50.6336688,3.0196812,15z/data=!4m12!1m6!3m5!1s0x0:0x5180b324d8f5e7c9!2sFabriks!8m2!3d50.6330833!4d3.0203176!3m4!1s0x0:0x5180b324d8f5e7c9!8m2!3d50.6330833!4d3.0203176) que ça se passe ou sur le [slack de weblille](http://weblille.rocks/) pour un accès avec le designer depuis Londres.
