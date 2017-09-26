@@ -38,7 +38,7 @@ Bien sur, ce ne sera plus un secret car je vais partager notre méthode avec vou
 
 Si vous mettez de côté les sites en flash — dans 80% des cas — les sites internets des fabricants ne sont pas trop à la pointe en matière de technologies web moderne.
 
-Ce sont souvent des sites basiques Prestashop, Magento ou Wordpress sans aucune [stratédie de contenu](/blog/fin-psd.html), ni hierachie dans le catalogue. À cela, on a rajouté tout les plugins de partage sur les réseaux sociaux et les 1001 fonctionnalités inutiles pour avoir un site super lent.
+Ce sont souvent des sites basiques Prestashop, Magento ou Wordpress sans aucune [stratédie de contenu](/blog/fin-psd.html), ni hierachie dans le catalogue. À cela, on a rajouté tous les plugins de partage sur les réseaux sociaux et les 1001 fonctionnalités inutiles pour avoir un site super lent.
 
 L’équipe de Fabriks a décidé de résoudre ces problèmes. Voici nos contraintes :
 
