@@ -11,6 +11,10 @@
     background-color: $gray;
     box-shadow: 0 -30px 0 0 $gray;
 
+    @include breakpoint(small only) {
+      margin-top: 5rem;
+    }
+
     .section {
       padding-left: rem-calc(20);
       padding-right: rem-calc(20);
