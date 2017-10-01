@@ -38,7 +38,7 @@ Bien sur, ce ne sera plus un secret car je vais partager notre méthode avec vou
 
 Si vous mettez de côté les sites en flash — dans 80% des cas — les sites internets des fabricants ne sont pas trop à la pointe en matière de technologies web moderne.
 
-Ce sont souvent des sites basiques Prestashop, Magento ou Wordpress sans aucune [stratédie de contenu](/blog/fin-psd.html), ni hierachie dans le catalogue. À cela, on a rajouté tous les plugins de partage sur les réseaux sociaux et les 1001 fonctionnalités inutiles pour avoir un site super lent.
+Ce sont souvent des sites basiques Prestashop, Magento ou Wordpress sans aucune [stratédie de contenu](/blog/fin-psd.html), ni hiérachie dans le catalogue. À cela, on a rajouté tout les plugins de partage sur les réseaux sociaux et les 1001 fonctionnalités inutiles pour avoir un site super lent.
 
 L’équipe de Fabriks a décidé de résoudre ces problèmes. Voici nos contraintes :
 
@@ -49,7 +49,7 @@ L’équipe de Fabriks a décidé de résoudre ces problèmes. Voici nos contrai
 
 ![Fabriks Find quality products from global manufacturers and suppliers](https://lh3.googleusercontent.com/e74V_XzyvXJOXZp_4vng6byVBSapf5GjJIaUtmJvwYPuj32Gr5O-jHDTO6aQNKqIP6V2J_EdGBnO4MeW2VvMnDbkbd9xOc3hkGTX4hca9r7fmb-C-eo1DG870FB0vw5Qh_tKAIbJE_hH2thfjrzzzInbUHQsgkuAyCN_Nw1jbuASX7Vlmw0spaBdseJiRnv78nJxsiRsEEdqDhoCETBsSXvdh9gLeCxHhSJJ80nFUpDiMWg1ZmaJvLYE3u5KSGGnisLEsqKcmC9TQZSCRdddzYGUfa_qkDHHUPAs69ENT9Bqhv2yBd59XZ_Nq9DeRX9qaW9VLcdaP4zEqAbX8Vy9SY64Nk90xdFSiTPSTQe-aoF2r2m17-H-GiZwa_quULeTJUk0OE-m1s2gLmI8ucD40nuOqVI5ml-2D--Duql1P4jyIx3WVqC1oCjfl1i8tW6tdgXKCCVPO6PE93C8u3QJ9vqAXig9-AMeQFgPRBVInVBHfK8tIslndJtdT_ENXNbP5LH-z4Fu0RFzL5CKwPvGRazSH0tf2cpE4A0q3jUn-RpHa6GW9jUV5BaTgGe8q2cZ9IxIG7RyjaZlCGlD_ciSidGzpIg-g60wVqrzk-A25IZHoM-JLEhZCA=w3344-h1906-no)
 
-Après plusieurs itérations sur différentes technologies [fabriks.net](https://fabriks.net/) est en ligne et nous sommes fier du résultat.
+Après plusieurs itérations sur différentes technologies [fabriks.net](https://fabriks.net/) est en ligne et nous sommes fiers du résultat.
 
 - Une interface soignée
 - Une plateforme rapide (Il ne faut pas oublier les fabricants du Népal en 56k)
@@ -57,7 +57,7 @@ Après plusieurs itérations sur différentes technologies [fabriks.net](https:/
 
 Les fonctionnalités spécifiques sont :
 
-- Notifications de nouveaux catalogue
+- Notifications de nouveaux catalogues
 - Newsletter pour les professionnels
 - Un call-to-action simplissime sur chaque produit
 
@@ -115,7 +115,7 @@ En utilisant le générateur de site statique middleman cela devient beaucoup pl
 ### Découverte de Next.js — la combinaison réussie entre SSR et SPA
 
 Sur un projet tel que [fabriks.net](https://fabriks.net/), le server-side-rendering (SSR) n’est pas une option à cause du référencement sur Google.
-Les pages qui sont traditionnellement générées par le navigateur de l’utilisateur le sont compilées par le serveur et envoyés par la suite au client.
+Les pages qui sont traditionnellement générées par le navigateur de l’utilisateur sont compilées par le serveur et envoyés par la suite au client.
 
 ![](nextjs-logo.svg)
 
