@@ -5,16 +5,122 @@
   <id>https://davidl.fr/blog/</id>
   <link href="https://davidl.fr/blog/"/>
   <link href="https://davidl.fr/blog/feed.xml" rel="self"/>
-  <updated>2017-08-31T23:00:00+01:00</updated>
+  <updated>2017-09-28T23:00:00+01:00</updated>
   <author>
     <name>David Leuliette</name>
   </author>
+  <entry>
+    <title>EuRuKo 2017 mission Budapest</title>
+    <link rel="alternate" href="https://davidl.fr/blog/euruko2017.html"/>
+    <id>https://davidl.fr/blog/euruko2017.html</id>
+    <published>2017-09-28T23:00:00+01:00</published>
+    <updated>2017-10-02T00:01:08+01:00</updated>
+    <author>
+      <name>davidl • design &amp; développement</name>
+    </author>
+    <content type="html">&lt;p&gt;Plus de 650 développeurs Ruby se sont donnés rendez-vous à &lt;a href="https://euruko2017.org"&gt;Budapest en Hongie&lt;/a&gt;. Comme chaque année l’évènement était sold-out et c’est la premiere fois en 15 ans qu’autant de personnes étaient présentes.&lt;/p&gt;
+
+&lt;p&gt;2 jours de conférence sur le monde de la tech et Ruby en particulier sans forcement parler de Rails. Même si ce framework web est très présent, il ne faut pas oublier qu'il existe des alternatives comme &lt;a href="http://hanamirb.org/"&gt;Hanami&lt;/a&gt; ou &lt;a href="http://www.sinatrarb.com/"&gt;Sinatra&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Ruby on Rails &lt;a href="https://t.co/vbN6bHcdAP"&gt;pic.twitter.com/vbN6bHcdAP&lt;/a&gt;&lt;/p&gt;&amp;mdash; ピッカマンV (@PikkamanV) &lt;a href="https://twitter.com/PikkamanV/status/913606005191188480?ref_src=twsrc%5Etfw"&gt;September 29, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;👆Ça c'est &lt;strong&gt;Ruby on Rails&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Notre équipe d'expert a représenté les Hauts de France avec la participation de :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/hugovhx"&gt;Hugo Vhx&lt;/a&gt; – Dévelopeur backend Ruby&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/tight_"&gt;François Delfort&lt;/a&gt; – Dévelopeur backend Ruby&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/gaetanm_"&gt;Gaëtan Masson&lt;/a&gt; – Dévelopeur backend Ruby&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/_flexbox"&gt;David Leuliette&lt;/a&gt; – Dévelopeur front-end &lt;small&gt;&amp;lt;——- Le mec qui s'est perdu&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dans cet article je met en vrac les talks avec les différents liens vers les slides que j'ai trouvé.&lt;/p&gt;
+
+&lt;h2 id="data-driven-production-apps"&gt;Data driven production apps&lt;/h2&gt;
+
+&lt;p&gt;Comment Shopify aide les commerçants à vendre de façon plus intelligente grâce à de la prediction sur les données.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://c1.staticflickr.com/5/4474/36679662844_bc7b499af4_b.jpg" alt="EuRuKo 2017 Sketchnoting " /&gt;&lt;/p&gt;
+
+&lt;h2 id="introducing-tensorflow-api"&gt;Introducing Tensorflow API&lt;/h2&gt;
+
+&lt;p&gt;Tensorflow est la plateforme de Google pour faire du &lt;strong&gt;machine learning&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Par exemple en entrée vous ajoutez une photo de Chien et en sortie vous obetnez des statistique sur la probalitlité que la photo soit un chien, de couleur beige.&lt;/p&gt;
+
+&lt;p&gt;Il existe une &lt;a href="https://github.com/somaticio/tensorflow.rb"&gt;implementation en Ruby&lt;/a&gt; et il est vivement recomandé d'utiliser l'outil de &lt;a href="https://www.tensorflow.org/get_started/graph_viz"&gt;TensorBoard&lt;/a&gt; pour visualiser vos résultats sous forme de graphe.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://c1.staticflickr.com/5/4469/36721957063_55796acf6e_b.jpg" alt="EuRuKo 2017 Sketchnoting " /&gt;&lt;/p&gt;
+
+&lt;h2 id="search--things-i-learned--the-hard-way"&gt;Search : Things I learned – &lt;em&gt;the hard way&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Remplacer &lt;strong&gt;PostgreSQL&lt;/strong&gt; et &lt;strong&gt;ElasticSearch&lt;/strong&gt; par une solution custom? Challenge accepted!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://c1.staticflickr.com/5/4508/37394210541_de2c0daa1e_b.jpg" alt="EuRuKo 2017 Sketchnoting " /&gt;&lt;/p&gt;
+
+&lt;h2 id="lightning-talk"&gt;Lightning talk&lt;/h2&gt;
+
+&lt;h3 id="the-ruby-terminal-apps-toolkithttpspiotrmurachgithubiotty"&gt;&lt;a href="https://piotrmurach.github.io/tty/"&gt;The Ruby terminal apps toolkit&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;TTY est une boîte à outils pour développer de &lt;code&gt;CLI&lt;/code&gt; en Ruby.&lt;/p&gt;
+
+&lt;h3 id="realityhttpsgithubcommolybdenum-99reality"&gt;&lt;a href="https://github.com/molybdenum-99/reality"&gt;Reality&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Le développeur est parti d'une idée simple, tout le contenu de wikipedia devrai être accessible de cette manière :&lt;/p&gt;
+
+&lt;div class="highlight"&gt;&lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="n"&gt;t2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="no"&gt;Entity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Terminator 2'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="n"&gt;t2&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;actors&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;each&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;actor&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;
+    &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="s2"&gt;"&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt; &lt;span class="n"&gt;actor&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;name&lt;/span&gt; &lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;: &lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt; &lt;span class="n"&gt;actor&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;age_at&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;t2&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;published_at&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;
+  &lt;span class="k"&gt;end&lt;/span&gt;
+  &lt;span class="c1"&gt;# Edward Furlong: 13&lt;/span&gt;
+  &lt;span class="c1"&gt;# Arnold Schwarzenegger: 43&lt;/span&gt;
+  &lt;span class="c1"&gt;# Linda Hamilton: 34&lt;/span&gt;
+  &lt;span class="c1"&gt;# Robert Patrick: 32&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Vérifiez par vous même, &lt;a href="https://docs.google.com/presentation/d/1X0SKVguPkJPcKA082h4_vGeMfq0yQLPKwZjGBxH52l4/edit#slide=id.p"&gt;le projet est génial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Un exemple concret serait de remplasser l'utilisation de la &lt;code&gt;gem faker&lt;/code&gt; pour créer des &lt;code&gt;seeds&lt;/code&gt; avec de vraies données.&lt;/p&gt;
+
+&lt;h2 id="the-overnight-failure"&gt;The overnight failure&lt;/h2&gt;
+
+&lt;p&gt;Avec Grande humilité &lt;a href="https://twitter.com/sebasoga"&gt;Sebastian&lt;/a&gt; nous a raconté l'une des pire journée de sa vie. Réveillé à 6h un samedi matin par son patron car leur application de co-voiturage a &lt;a href="https://twitter.com/jonihasanen/status/914103051748814848"&gt;facturé leurs clients 200 fois&lt;/a&gt; de trop par transaction.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://c1.staticflickr.com/5/4351/37151597230_9b81a2bbbf_b.jpg" alt="EuRuKo 2017 Sketchnoting project failure" /&gt;&lt;/p&gt;
+
+&lt;h2 id="rescue-legacy-code-with-graphql"&gt;Rescue legacy code with GraphQL&lt;/h2&gt;
+
+&lt;p&gt;Pour la nouvelle version de IFTTT les developpeurs ont utilisé ingénieusement GraphQL pour faire doucement la transition de leur codebase tout en conservant du code legacy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://c1.staticflickr.com/5/4434/37363274326_168ea45917_b.jpg" alt="EuRuKo 2017 Sketchnoting GraphQL" /&gt;&lt;/p&gt;
+
+&lt;h2 id="lightning-talk-1"&gt;Lightning talk&lt;/h2&gt;
+
+&lt;h3 id="middleware-all-the-things"&gt;Middleware all the things&lt;/h3&gt;
+
+&lt;script async="" class="speakerdeck-embed" data-id="85d16a25cb2d4bc9aec339c263f046b5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;Petite description de l'architecture de &lt;del&gt;Capitaine Train&lt;/del&gt; Trainline EU, inspiré par Rack, basé sur une application et une stack de middlewares, en complemet d'EventMachine.&lt;/p&gt;
+
+&lt;h2 id="achievements"&gt;Achievements&lt;/h2&gt;
+
+&lt;p&gt;J’ai réussi à faire une chouette photo avec &lt;a href="https://fr.wikipedia.org/wiki/Yukihiro_Matsumoto"&gt;Yukihiro Matsumoto&lt;/a&gt; le créateur de Ruby. Certains diront que j'ai réussi à l'inviter à notre table pendant 1h lors de l'after party 😲, mais ceci est une autre histoire.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://c1.staticflickr.com/5/4336/37376912642_5ba946be1b_z.jpg" alt="Photo de David Leuliette développeur front-end avec Yukihiro Matsumoto" /&gt;&lt;/p&gt;
+
+&lt;p&gt;On se retrouve l’année prochaine à Viennes ? Si cela vous interesse rejoingnez la communauté des Hauts de France sur le &lt;a href="https://www.meetup.com/rubynord/"&gt;meetup&lt;/a&gt; et le slack sur &lt;a href="http://ruby-nord.org/"&gt;ruby-nord.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;&lt;a href="https://twitter.com/hashtag/EuRuKo2017?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#EuRuKo2017&lt;/a&gt; the ruby community photo &lt;br /&gt;&lt;br /&gt;Thanks everyone &lt;a href="https://t.co/dgOhua8rb1"&gt;pic.twitter.com/dgOhua8rb1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Amr Abdelwahab (@amrAbdelwahab) &lt;a href="https://twitter.com/amrAbdelwahab/status/914181672781918208?ref_src=twsrc%5Etfw"&gt;September 30, 2017&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Plateforme e-commerce ultra rapide avec React.js et Next.js</title>
     <link rel="alternate" href="https://davidl.fr/blog/fabriks.html"/>
     <id>https://davidl.fr/blog/fabriks.html</id>
     <published>2017-08-31T23:00:00+01:00</published>
-    <updated>2017-09-26T10:36:00+01:00</updated>
+    <updated>2017-10-02T00:04:34+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -54,7 +160,7 @@
 
 &lt;p&gt;Si vous mettez de côté les sites en flash — dans 80% des cas — les sites internets des fabricants ne sont pas trop à la pointe en matière de technologies web moderne.&lt;/p&gt;
 
-&lt;p&gt;Ce sont souvent des sites basiques Prestashop, Magento ou Wordpress sans aucune &lt;a href="/blog/fin-psd.html"&gt;stratédie de contenu&lt;/a&gt;, ni hierachie dans le catalogue. À cela, on a rajouté tous les plugins de partage sur les réseaux sociaux et les 1001 fonctionnalités inutiles pour avoir un site super lent.&lt;/p&gt;
+&lt;p&gt;Ce sont souvent des sites basiques Prestashop, Magento ou Wordpress sans aucune &lt;a href="/blog/fin-psd.html"&gt;stratédie de contenu&lt;/a&gt;, ni hiérachie dans le catalogue. À cela, on a rajouté tout les plugins de partage sur les réseaux sociaux et les 1001 fonctionnalités inutiles pour avoir un site super lent.&lt;/p&gt;
 
 &lt;p&gt;L’équipe de Fabriks a décidé de résoudre ces problèmes. Voici nos contraintes :&lt;/p&gt;
 
@@ -67,7 +173,7 @@
 
 &lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/e74V_XzyvXJOXZp_4vng6byVBSapf5GjJIaUtmJvwYPuj32Gr5O-jHDTO6aQNKqIP6V2J_EdGBnO4MeW2VvMnDbkbd9xOc3hkGTX4hca9r7fmb-C-eo1DG870FB0vw5Qh_tKAIbJE_hH2thfjrzzzInbUHQsgkuAyCN_Nw1jbuASX7Vlmw0spaBdseJiRnv78nJxsiRsEEdqDhoCETBsSXvdh9gLeCxHhSJJ80nFUpDiMWg1ZmaJvLYE3u5KSGGnisLEsqKcmC9TQZSCRdddzYGUfa_qkDHHUPAs69ENT9Bqhv2yBd59XZ_Nq9DeRX9qaW9VLcdaP4zEqAbX8Vy9SY64Nk90xdFSiTPSTQe-aoF2r2m17-H-GiZwa_quULeTJUk0OE-m1s2gLmI8ucD40nuOqVI5ml-2D--Duql1P4jyIx3WVqC1oCjfl1i8tW6tdgXKCCVPO6PE93C8u3QJ9vqAXig9-AMeQFgPRBVInVBHfK8tIslndJtdT_ENXNbP5LH-z4Fu0RFzL5CKwPvGRazSH0tf2cpE4A0q3jUn-RpHa6GW9jUV5BaTgGe8q2cZ9IxIG7RyjaZlCGlD_ciSidGzpIg-g60wVqrzk-A25IZHoM-JLEhZCA=w3344-h1906-no" alt="Fabriks Find quality products from global manufacturers and suppliers" /&gt;&lt;/p&gt;
 
-&lt;p&gt;Après plusieurs itérations sur différentes technologies &lt;a href="https://fabriks.net/"&gt;fabriks.net&lt;/a&gt; est en ligne et nous sommes fier du résultat.&lt;/p&gt;
+&lt;p&gt;Après plusieurs itérations sur différentes technologies &lt;a href="https://fabriks.net/"&gt;fabriks.net&lt;/a&gt; est en ligne et nous sommes fiers du résultat.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Une interface soignée&lt;/li&gt;
@@ -78,7 +184,7 @@
 &lt;p&gt;Les fonctionnalités spécifiques sont :&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Notifications de nouveaux catalogue&lt;/li&gt;
+  &lt;li&gt;Notifications de nouveaux catalogues&lt;/li&gt;
   &lt;li&gt;Newsletter pour les professionnels&lt;/li&gt;
   &lt;li&gt;Un call-to-action simplissime sur chaque produit&lt;/li&gt;
 &lt;/ul&gt;
@@ -141,7 +247,7 @@
 &lt;h3 id="dcouverte-de-nextjs--la-combinaison-russie-entre-ssr-et-spa"&gt;Découverte de Next.js — la combinaison réussie entre SSR et SPA&lt;/h3&gt;
 
 &lt;p&gt;Sur un projet tel que &lt;a href="https://fabriks.net/"&gt;fabriks.net&lt;/a&gt;, le server-side-rendering (SSR) n’est pas une option à cause du référencement sur Google.
-Les pages qui sont traditionnellement générées par le navigateur de l’utilisateur le sont compilées par le serveur et envoyés par la suite au client.&lt;/p&gt;
+Les pages qui sont traditionnellement générées par le navigateur de l’utilisateur sont compilées par le serveur et envoyés par la suite au client.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="../assets/images/nextjs-logo-49d4290f.svg" alt="" /&gt;&lt;/p&gt;
 
@@ -668,89 +774,6 @@ Vous pouvez éviter cela avec un système qui vous permet de faire des “déplo
 &lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 &lt;p&gt;Pour votre prochain projet JAM Stack je vous conseille d’essayer &lt;a href="https://phenomic.io/"&gt;Phenomic&lt;/a&gt;, un générateur de site statique basé sur l'écosytème React et Webpack.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>FOSDEM 2017</title>
-    <link rel="alternate" href="https://davidl.fr/blog/fosdem-2017.html"/>
-    <id>https://davidl.fr/blog/fosdem-2017.html</id>
-    <published>2017-02-05T23:00:00+00:00</published>
-    <updated>2017-06-08T13:55:59+01:00</updated>
-    <author>
-      <name>davidl • design &amp; développement</name>
-    </author>
-    <content type="html">&lt;p&gt;Cela va bientôt faire 10 ans que je fréquente les barbus du monde de l’open source. Chaque année, &lt;strong&gt;des milliers de développeurs / hackers&lt;/strong&gt; du monde entier se retrouvent à Bruxelles pour un événement entièrement gratuit sans réservation préalable : le &lt;a href="https://fosdem.org/"&gt;FOSDEM&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Dans cet article je partage mon expérience sur l’édition 2017. En tant que &lt;strong&gt;développeur front-end&lt;/strong&gt; j’ai partagé mon samedi entre l’amphithéâtre principal Janson et la &lt;a href="https://fosdem.org/2017/schedule/track/mozilla/"&gt;devroom Mozilla&lt;/a&gt;. Le dimanche mes amis &lt;a href="https://twitter.com/bustaja"&gt;@bustaJa&lt;/a&gt; et &lt;a href="https://twitter.com/lapinture"&gt;@lapinture&lt;/a&gt; m’ont embarqué pour assister aux conférences PHP — bizarrement j’ai survécu 😂&lt;/p&gt;
-
-&lt;h2 id="mozilla-au-fosdem--mozdemhttpstwittercomsearchq23mozdemsrctyah"&gt;Mozilla au FOSDEM — &lt;a href="https://twitter.com/search?q=%23mozdem&amp;amp;src=tyah"&gt;#mozdem&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;La &lt;a href="http://davidl.fr/blog/fosdem-2015.html"&gt;devroom de Mozilla&lt;/a&gt; est toujours aussi pleine avec des sujets comme la présentation du navigateur Firefox nightly, l’état de l’art du langage de programmation Rust ou encore les technologies web en général.&lt;/p&gt;
-
-&lt;p&gt;J’aime bien Mozilla et vous savez pourquoi ? Ils mettent en place des initiatives comme &lt;a href="https://webcompat.com/"&gt;webcompat&lt;/a&gt;. La proposition de valeur de ce site est simple :&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Signaler un bug pour sur un site web.&lt;/li&gt;
-  &lt;li&gt;Une équipe de volontaires diagnostique de chez Mozilla qualifie le bug.&lt;/li&gt;
-  &lt;li&gt;Une proposition de correction est envoyée au propriétaire du site.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote class="twitter-tweet" data-lang="fr"&gt;&lt;p lang="en" dir="ltr"&gt;Lesson learned from the Mozilla devroom : avoid browser specific feature and UA sniffing like a plage &lt;a href="https://twitter.com/hashtag/deadtobullshit?src=hash"&gt;#deadtobullshit&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/mozdev?src=hash"&gt;#mozdev&lt;/a&gt; &lt;a href="https://t.co/LEuXkyKhJt"&gt;pic.twitter.com/LEuXkyKhJt&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Leuliette (@_flexbox) &lt;a href="https://twitter.com/_flexbox/status/827898739591376896"&gt;4 février 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
-&lt;h3 id="firefox-devtools-deep-dive"&gt;Firefox DevTools Deep Dive&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://twitter.com/@lakatos88"&gt;@lakatos88&lt;/a&gt; nous a présenté les différentes &lt;strong&gt;fonctionnalités de la console de debug&lt;/strong&gt; pour les développeurs webs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://c1.staticflickr.com/1/738/32578567111_27e2de7e0a_b.jpg" alt="David leuliette sketchnote au FOSDEM FireFox DevTools" /&gt;&lt;/p&gt;
-
-&lt;h3 id="learning-internet-of-things--coding-with-html5-games"&gt;Learning Internet of Things &amp;amp; coding with HTML5 games&lt;/h3&gt;
-
-&lt;p&gt;De nos jours le web est LA plateforme qui permet de répondre à la demande “code once, deploy anywhere”. &lt;a href="https://twitter.com/slsoftworks"&gt;@slsoftworks&lt;/a&gt; code du JavaScript qui est compilé en C et l’envoie sur un arduino pour créer des jeux 8-bits.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://c1.staticflickr.com/1/267/31862064384_4013613f6a_b.jpg" alt="David leuliette FOSDEM sketchnote HTML5 games" /&gt;&lt;/p&gt;
-
-&lt;h3 id="so-that-was-http2-whats-next"&gt;So that was HTTP/2 what’s next?&lt;/h3&gt;
-
-&lt;p&gt;Daniel Stenberg a présenté la norme HTTP/2 et son évolution par rapport à HTTP/1.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Nothing is lost, H2 is just faster&lt;/p&gt;
-
-  &lt;p&gt;— Daniel Stenberg&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src="https://c1.staticflickr.com/1/554/31930327223_001ced7067_b.jpg" alt="David leuliette FOSDEM sketchnote HTTP/2" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pour ce talk la salle était pleine ! Et vous pouvez jouer à “où est charlie” et me chercher dans la photo suivante :&lt;/p&gt;
-&lt;blockquote class="twitter-tweet" data-lang="fr"&gt;&lt;p lang="en" dir="ltr"&gt;The record for today at &lt;a href="https://twitter.com/hashtag/mozdem?src=hash"&gt;#mozdem&lt;/a&gt; - might be hard to overcome it.. &lt;a href="https://twitter.com/bagder"&gt;@bagder&lt;/a&gt;&amp;#39;s talk about HTTP2 ! &lt;a href="https://twitter.com/hashtag/fosdem?src=hash"&gt;#fosdem&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/fosdem2017?src=hash"&gt;#fosdem2017&lt;/a&gt; (sorry for those outside) &lt;a href="https://t.co/QeZ8CETVcf"&gt;pic.twitter.com/QeZ8CETVcf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ioana ‍ FOSDEM (@ioana_cis) &lt;a href="https://twitter.com/ioana_cis/status/827903012375031808"&gt;4 février 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
-&lt;p&gt;N’hésitez pas à regarder la &lt;strong&gt;vidéo de la conférence&lt;/strong&gt; si vous souhaitez en savoir plus sur &lt;a href="https://fosdem.cu.be/2017/UD2.218A/mozilla_http2_whats_next.vp8.webm"&gt;Hypertext Transfer Protocol/2&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id="auditoire-paul-emile-janson"&gt;Auditoire Paul Emile Janson&lt;/h2&gt;
-
-&lt;h3 id="you-know-whats-cool-running-on-a-billion-devices"&gt;You know what’s cool? Running on a billion devices&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://twitter.com/bagder"&gt;Daniel Stenberg&lt;/a&gt; (principal contributeur à &lt;code&gt;curl&lt;/code&gt; depuis 20 ans) a présenté le quotidient d’un projet qui est utilisé par des milliards d’appareils. Si vous le connaissez pas encore Daniel je vous invite à fouiller un peu dans votre GPS / frigo connecté. Il y a des chances que son nom soit cité.&lt;/p&gt;
-
-&lt;p&gt;Regarder la &lt;a href="https://fosdem.cu.be/2017/Janson/curl.vp8.webm"&gt;vidéo sur talk sur curl&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote class="twitter-tweet" data-lang="fr"&gt;&lt;p lang="en" dir="ltr"&gt;Curl’s roadmap is very honest!&lt;br /&gt;&lt;br /&gt;Enjoyable talk by &lt;a href="https://twitter.com/bagder"&gt;@bagder&lt;/a&gt; - recommended. &lt;a href="https://twitter.com/hashtag/FOSDEM?src=hash"&gt;#FOSDEM&lt;/a&gt; &lt;a href="https://t.co/BI8SsR4Ulm"&gt;pic.twitter.com/BI8SsR4Ulm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rob Allen (@akrabat) &lt;a href="https://twitter.com/akrabat/status/827873881956442112"&gt;4 février 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
-&lt;h2 id="php--friends"&gt;php &amp;amp; friends&lt;/h2&gt;
-
-&lt;h3 id="creating-a-dashboard-with-laravel-vuejs-and-pusher"&gt;Creating a dashboard with Laravel, Vue.js and Pusher&lt;/h3&gt;
-
-&lt;p&gt;Chez Spatie, ils ont un écran TV contre le mur qui affiche un tableau de bord. Ce tableau de bord affiche les tâches sur lesquelles l’équipe doit travailler, les événements importants dans un avenir proche, la musique jouée dans leurs bureaux…&lt;/p&gt;
-
-&lt;p&gt;Le code source &lt;a href="https://github.com/spatie/dashboard.spatie.be"&gt;du dashboard est diponible sur GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://c1.staticflickr.com/1/622/32684628986_dbc805a0c5_b.jpg" alt="David leuliette FOSDEM sketchnote PHP" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Avec &lt;strong&gt;plus de 600 talks&lt;/strong&gt; il est impossible d’assister à toutes les conférences. Grâce à la magie d’internet les vidéos des &lt;a href="https://video.fosdem.org/2017/"&gt;conférences sont disponibles en ligne&lt;/a&gt;. Dans mon cas c’est le talk sur &lt;code&gt;curl&lt;/code&gt; qui m’a le plus marqué et je suis curieux de découvrir le vôtre.&lt;/p&gt;
-
 </content>
   </entry>
 </feed>
