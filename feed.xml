@@ -14,28 +14,28 @@
     <link rel="alternate" href="https://davidl.fr/blog/euruko2017.html"/>
     <id>https://davidl.fr/blog/euruko2017.html</id>
     <published>2017-09-28T23:00:00+01:00</published>
-    <updated>2017-10-02T11:52:11+01:00</updated>
+    <updated>2017-10-02T16:06:46+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
     <content type="html">&lt;p&gt;Plus de 650 développeurs Ruby se sont donnés rendez-vous à &lt;a href="https://euruko2017.org"&gt;Budapest en Hongie&lt;/a&gt;. Comme chaque année l’évènement était sold-out et c’est la premiere fois en 15 ans qu’autant de personnes étaient présentes.&lt;/p&gt;
 
-&lt;p&gt;2 jours de conférence sur le monde de la tech et Ruby en particulier sans forcement parler de Rails. Même si ce framework web est très présent, il ne faut pas oublier qu'il existe des alternatives comme &lt;a href="http://hanamirb.org/"&gt;Hanami&lt;/a&gt; ou &lt;a href="http://www.sinatrarb.com/"&gt;Sinatra&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;2 jours de conférence sur le monde de la tech et Ruby en particulier sans forcement parler de Rails. Même si ce framework web est très présent, il ne faut pas oublier qu’il existe des alternatives comme &lt;a href="http://hanamirb.org/"&gt;Hanami&lt;/a&gt; ou &lt;a href="http://www.sinatrarb.com/"&gt;Sinatra&lt;/a&gt;.&lt;/p&gt;
 
 &lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Ruby on Rails &lt;a href="https://t.co/vbN6bHcdAP"&gt;pic.twitter.com/vbN6bHcdAP&lt;/a&gt;&lt;/p&gt;&amp;mdash; ピッカマンV (@PikkamanV) &lt;a href="https://twitter.com/PikkamanV/status/913606005191188480?ref_src=twsrc%5Etfw"&gt;September 29, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;p&gt;👆Ça c'est &lt;strong&gt;Ruby on Rails&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;👆Ça c’est &lt;strong&gt;Ruby on Rails&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Notre équipe d'expert a représenté les Hauts de France avec la participation de :&lt;/p&gt;
+&lt;p&gt;Notre équipe d’expert a représenté les Hauts de France avec la participation de :&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="https://twitter.com/cecilitse"&gt;Cecile Veneziani&lt;/a&gt; – Développeuse backend Ruby&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://twitter.com/hugovhx"&gt;Hugo Vhx&lt;/a&gt; – Développeur backend Ruby&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://twitter.com/tight_"&gt;François Delfort&lt;/a&gt; – Développeur backend Ruby&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://twitter.com/gaetanm_"&gt;Gaëtan Masson&lt;/a&gt; – Développeur backend Ruby&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/_flexbox"&gt;David Leuliette&lt;/a&gt; – Développeur front-end &lt;small&gt;&amp;lt;——- Le mec qui s'est perdu&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/_flexbox"&gt;David Leuliette&lt;/a&gt; – Développeur front-end &lt;small&gt;&amp;lt;——- Le mec qui s’est perdu&lt;/small&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Dans cet article je met en vrac les talks avec les différents liens vers les slides que j'ai trouvé.&lt;/p&gt;
+&lt;p&gt;Dans cet article je mets en vrac les talks avec les différents liens vers les slides que j’ai trouvé.&lt;/p&gt;
 
 &lt;h2 id="data-driven-production-apps"&gt;Data driven production apps&lt;/h2&gt;
 
@@ -49,13 +49,13 @@
 
 &lt;p&gt;Par exemple en entrée vous ajoutez une photo de Chien et en sortie vous obetnez des statistique sur la probalitlité que la photo soit un chien, de couleur beige.&lt;/p&gt;
 
-&lt;p&gt;Il existe une &lt;a href="https://github.com/somaticio/tensorflow.rb"&gt;implementation en Ruby&lt;/a&gt; et il est vivement recomandé d'utiliser l'outil de &lt;a href="https://www.tensorflow.org/get_started/graph_viz"&gt;TensorBoard&lt;/a&gt; pour visualiser vos résultats sous forme de graphe.&lt;/p&gt;
+&lt;p&gt;Il existe une &lt;a href="https://github.com/somaticio/tensorflow.rb"&gt;implementation en Ruby&lt;/a&gt; et il est vivement recomandé d’utiliser l’outil de &lt;a href="https://www.tensorflow.org/get_started/graph_viz"&gt;TensorBoard&lt;/a&gt; pour visualiser vos résultats sous forme de graphe.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://c1.staticflickr.com/5/4469/36721957063_55796acf6e_b.jpg" alt="EuRuKo 2017 Sketchnoting " /&gt;&lt;/p&gt;
 
 &lt;h2 id="search--things-i-learned--the-hard-way"&gt;Search : Things I learned – &lt;em&gt;the hard way&lt;/em&gt;&lt;/h2&gt;
 
-&lt;p&gt;Remplacer &lt;strong&gt;PostgreSQL&lt;/strong&gt; et &lt;strong&gt;ElasticSearch&lt;/strong&gt; par une solution custom? Challenge accepted!&lt;/p&gt;
+&lt;p&gt;Remplacer un simple &lt;strong&gt;PostgreSQL&lt;/strong&gt; par &lt;strong&gt;ElasticSearch&lt;/strong&gt; ? Challenge accepted!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://c1.staticflickr.com/5/4508/37394210541_de2c0daa1e_b.jpg" alt="EuRuKo 2017 Sketchnoting " /&gt;&lt;/p&gt;
 
@@ -63,11 +63,11 @@
 
 &lt;h3 id="the-ruby-terminal-apps-toolkithttpspiotrmurachgithubiotty"&gt;&lt;a href="https://piotrmurach.github.io/tty/"&gt;The Ruby terminal apps toolkit&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;TTY est une boîte à outils pour développer de &lt;code&gt;CLI&lt;/code&gt; en Ruby.&lt;/p&gt;
+&lt;p&gt;TTY est une boîte à outils pour développer des &lt;code&gt;CLI&lt;/code&gt; en Ruby.&lt;/p&gt;
 
 &lt;h3 id="realityhttpsgithubcommolybdenum-99reality"&gt;&lt;a href="https://github.com/molybdenum-99/reality"&gt;Reality&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;Le développeur est parti d'une idée simple, tout le contenu de wikipedia devrai être accessible de cette manière :&lt;/p&gt;
+&lt;p&gt;Le développeur est parti d’une idée simple, tout le contenu de wikipedia devrait être accessible de cette manière :&lt;/p&gt;
 
 &lt;div class="highlight"&gt;&lt;pre class="highlight ruby"&gt;&lt;code&gt;  &lt;span class="n"&gt;t2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="no"&gt;Entity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Terminator 2'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
   &lt;span class="n"&gt;t2&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;actors&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;each&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;actor&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;
@@ -80,11 +80,11 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Vérifiez par vous même, &lt;a href="https://docs.google.com/presentation/d/1X0SKVguPkJPcKA082h4_vGeMfq0yQLPKwZjGBxH52l4/edit#slide=id.p"&gt;le projet est génial&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Un exemple concret serait de remplasser l'utilisation de la &lt;code&gt;gem faker&lt;/code&gt; pour créer des &lt;code&gt;seeds&lt;/code&gt; avec de vraies données.&lt;/p&gt;
+&lt;p&gt;Un exemple concret serait de remplasser l’utilisation de la &lt;code&gt;gem faker&lt;/code&gt; pour créer des &lt;code&gt;seeds&lt;/code&gt; avec de vraies données.&lt;/p&gt;
 
 &lt;h2 id="the-overnight-failure"&gt;The overnight failure&lt;/h2&gt;
 
-&lt;p&gt;Avec Grande humilité &lt;a href="https://twitter.com/sebasoga"&gt;Sebastian&lt;/a&gt; nous a raconté l'une des pire journée de sa vie. Réveillé à 6h un samedi matin par son patron car leur application de co-voiturage a &lt;a href="https://twitter.com/jonihasanen/status/914103051748814848"&gt;facturé leurs clients 200 fois&lt;/a&gt; de trop par transaction.&lt;/p&gt;
+&lt;p&gt;Avec Grande humilité &lt;a href="https://twitter.com/sebasoga"&gt;Sebastian&lt;/a&gt; nous a raconté l’une des pires journée de sa vie. Réveillé à 6h un samedi matin par son patron car leur application de co-voiturage a &lt;a href="https://twitter.com/jonihasanen/status/914103051748814848"&gt;facturé leurs clients 200 fois&lt;/a&gt; de trop par transaction.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://c1.staticflickr.com/5/4351/37151597230_9b81a2bbbf_b.jpg" alt="EuRuKo 2017 Sketchnoting project failure" /&gt;&lt;/p&gt;
 
@@ -100,11 +100,11 @@
 
 &lt;script async="" class="speakerdeck-embed" data-id="85d16a25cb2d4bc9aec339c263f046b5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
 
-&lt;p&gt;Petite description de l'architecture de &lt;del&gt;Capitaine Train&lt;/del&gt; Trainline EU, inspiré par Rack, basé sur une application et une stack de middlewares, en complemet d'EventMachine.&lt;/p&gt;
+&lt;p&gt;Petite description de l’architecture de &lt;del&gt;Capitaine Train&lt;/del&gt; Trainline EU, inspirée et basée sur Rack avec une stack de middlewares, en complément d’EventMachine.&lt;/p&gt;
 
 &lt;h2 id="achievements"&gt;Achievements&lt;/h2&gt;
 
-&lt;p&gt;J’ai réussi à faire une chouette photo avec &lt;a href="https://fr.wikipedia.org/wiki/Yukihiro_Matsumoto"&gt;Yukihiro Matsumoto&lt;/a&gt; le créateur de Ruby. Certains diront que j'ai réussi à l'inviter à notre table pendant 1h lors de l'after party 😲, mais ceci est une autre histoire.&lt;/p&gt;
+&lt;p&gt;J’ai réussi à faire une chouette photo avec &lt;a href="https://fr.wikipedia.org/wiki/Yukihiro_Matsumoto"&gt;Yukihiro Matsumoto&lt;/a&gt; le créateur de Ruby. Certains diront que j’ai réussi à l’inviter à notre table pendant 1h lors de l’after party 😲, mais ceci est une autre histoire.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="https://c1.staticflickr.com/5/4336/37376912642_5ba946be1b_z.jpg" alt="Photo de David Leuliette développeur front-end avec Yukihiro Matsumoto" /&gt;&lt;/p&gt;
 
