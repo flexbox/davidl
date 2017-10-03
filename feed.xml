@@ -14,7 +14,7 @@
     <link rel="alternate" href="https://davidl.fr/blog/euruko2017.html"/>
     <id>https://davidl.fr/blog/euruko2017.html</id>
     <published>2017-09-28T23:00:00+01:00</published>
-    <updated>2017-10-02T16:06:46+01:00</updated>
+    <updated>2017-10-02T16:20:56+01:00</updated>
     <author>
       <name>davidl • design &amp; développement</name>
     </author>
@@ -47,7 +47,7 @@
 
 &lt;p&gt;Tensorflow est la plateforme de Google pour faire du &lt;strong&gt;machine learning&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Par exemple en entrée vous ajoutez une photo de Chien et en sortie vous obetnez des statistique sur la probalitlité que la photo soit un chien, de couleur beige.&lt;/p&gt;
+&lt;p&gt;Par exemple en entrée vous ajoutez une photo de chien, et en sortie vous obtenez des statistiques sur la probabilité que la photo soit un chien content, de couleur beige…&lt;/p&gt;
 
 &lt;p&gt;Il existe une &lt;a href="https://github.com/somaticio/tensorflow.rb"&gt;implementation en Ruby&lt;/a&gt; et il est vivement recomandé d’utiliser l’outil de &lt;a href="https://www.tensorflow.org/get_started/graph_viz"&gt;TensorBoard&lt;/a&gt; pour visualiser vos résultats sous forme de graphe.&lt;/p&gt;
 
