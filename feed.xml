@@ -142,7 +142,7 @@
   &lt;p&gt;La manière la plus simple possible de contacter un fabricant sans intermédiaire&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src="../assets/images/blog/simplicity-b38b4028.jpeg?raw=true" alt="Taille de police de base" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/assets/images/blog/simplicity-b38b4028.jpeg?raw=true" alt="Taille de police de base" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Dans cette étude de cas, je vais vous partager comment ils ont eu l’idée de la &lt;strong&gt;création de cette plateforme&lt;/strong&gt;, où nous avons trouvé l’&lt;strong&gt;inspiration&lt;/strong&gt;, comment nous avons &lt;strong&gt;tout développé&lt;/strong&gt;, comment est-ce &lt;strong&gt;utilisé chez leurs clients&lt;/strong&gt; comme outil interne et comment seront &lt;strong&gt;financés les futures fonctionnalités&lt;/strong&gt;.&lt;/p&gt;
 
@@ -243,7 +243,7 @@
 
 &lt;p&gt;Je suis &lt;strong&gt;développeur front-end&lt;/strong&gt;. Ce qui signifie que mon monde se limite à &lt;code&gt;HTML&lt;/code&gt;, &lt;code&gt;CSS&lt;/code&gt; et &lt;code&gt;JavaScript&lt;/code&gt;. Dans la vraie vie c’est plus compliqué que cela et je mets quiconque au défi de coder 80% d’une interface de site web en 2 jours.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="../assets/images/middleman-c3370c57.svg" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/assets/images/middleman-c3370c57.svg" alt="" /&gt;&lt;/p&gt;
 
 &lt;p&gt;En utilisant le générateur de site statique middleman cela devient beaucoup plus facile et rapide. Vous trouverez ici &lt;a href="https://github.com/Fabriks/styleguide/tree/master/source/assets/stylesheets"&gt;la source des feuilles de style&lt;/a&gt;.&lt;/p&gt;
 
@@ -252,7 +252,7 @@
 &lt;p&gt;Sur un projet tel que &lt;a href="https://fabriks.net/"&gt;fabriks.net&lt;/a&gt;, le server-side-rendering (SSR) n’est pas une option à cause du référencement sur Google.
 Les pages qui sont traditionnellement générées par le navigateur de l’utilisateur sont compilées par le serveur et envoyés par la suite au client.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="../assets/images/nextjs-logo-49d4290f.svg" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/assets/images/nextjs-logo-49d4290f.svg" alt="" /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="https://zeit.co/blog/next"&gt;Next.js&lt;/a&gt; est un framework basé sur React.js et qui permet de faire &lt;strong&gt;simplement du server-side-rendering&lt;/strong&gt;.
 Contrairement à React.js — qui est une librairie — Next.js est un framework complet. De base, il y a des règles, il faut les suivre car il est difficile de changer ensuite.&lt;/p&gt;
@@ -276,7 +276,7 @@ Contrairement à React.js — qui est une librairie — Next.js est un framework
 
 &lt;h3 id="les-feuilles-de-style"&gt;Les feuilles de style&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src="../assets/images/foundation-89d0ec73.svg" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/assets/images/foundation-89d0ec73.svg" alt="" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Le choix de &lt;a href="http://foundation.zurb.com/"&gt;Foundation&lt;/a&gt; s’est imposé car ce framework possède une meilleure sémantique et évolutivité que Bootstrap. Le build basé sur &lt;code&gt;Sass&lt;/code&gt; avec des variables globales pour les &lt;strong&gt;couleurs&lt;/strong&gt;, la &lt;strong&gt;typographie&lt;/strong&gt; et le &lt;strong&gt;look’n’fell&lt;/strong&gt; général.&lt;/p&gt;
 
