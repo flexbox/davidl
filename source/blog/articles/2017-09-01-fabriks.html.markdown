@@ -181,6 +181,6 @@ Il n’est pas nécessaire de payer avant d’avoir la garantie d’un certain r
 
 Les utilisateurs apprécient le plus la fonctionnalté de __contact direct avec le fabricant__ (simple et efficace) ainsi que le “similar products”.
 
-La barre de recherche est par contre assez peu utilisée. Ceci nous donne des billes pour prioriser les futures développements 😉
+La barre de recherche est par contre assez peu utilisée. Ceci nous donne des billes pour prioriser les futurs développements 😉
 
 Si vous vouhaitez rencontrer la team de [Fabriks.net](https://fabriks.net/) c'est à [Euratechnologie](https://www.google.co.uk/maps/place/Fabriks/@50.6336688,3.0196812,15z/data=!4m12!1m6!3m5!1s0x0:0x5180b324d8f5e7c9!2sFabriks!8m2!3d50.6330833!4d3.0203176!3m4!1s0x0:0x5180b324d8f5e7c9!8m2!3d50.6330833!4d3.0203176) que ça se passe ou sur le [slack de weblille](http://weblille.rocks/) pour un accès avec le designer depuis Londres.
