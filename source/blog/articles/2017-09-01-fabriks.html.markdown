@@ -115,7 +115,7 @@ En utilisant le générateur de site statique middleman cela devient beaucoup pl
 ### Découverte de Next.js — la combinaison réussie entre SSR et SPA
 
 Sur un projet tel que [fabriks.net](https://fabriks.net/), le server-side-rendering (SSR) n’est pas une option à cause du référencement sur Google.
-Les pages qui sont traditionnellement générées par le navigateur de l’utilisateur le sont compilées par le serveur et envoyées par la suite au client.
+Les pages – qui sont traditionnellement générées par le navigateur de l’utilisateur – sont compilées par le serveur et envoyées par la suite au client.
 
 ![](nextjs-logo.svg)
 
