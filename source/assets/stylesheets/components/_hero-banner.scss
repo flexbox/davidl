@@ -11,12 +11,11 @@
 
   margin-bottom: rem-calc(30);
   padding-top: $topbar-height;
+  padding-bottom: $topbar-height;
+  text-align: center;
+
   @include breakpoint(small) {
     padding-top: ($topbar-height * 2.5);
-  }
-
-  i {
-    color: $white !important;
   }
 
   .title,
