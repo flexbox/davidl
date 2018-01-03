@@ -86,7 +86,7 @@ blog:
     2017-08-25-react-native.html.md: "/blog/articles/2017-08-25-react-native.html.md"
     2017-09-01-fabriks.html.markdown: "/blog/articles/2017-09-01-fabriks.html.markdown"
     2017-09-29-euruko2017.html.md: "/blog/articles/2017-09-29-euruko2017.html.md"
-    2017.html.markdown: "/blog/articles/2017.html.markdown"
+    2018-01-02-2017.html.md: "/blog/articles/2018-01-02-2017.html.md"
   index.html.slim: "/blog/index.html.slim"
 clients.html.slim: "/clients.html.slim"
 contact.html.slim: "/contact.html.slim"
