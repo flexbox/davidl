@@ -1,5 +1,5 @@
 ---
-date: 2012-11-21 13:09:31+00:00
+date: 2012-11-21
 slug: banniere-application-mobile
 title: Afficher l’installation de votre application sur mobile
 page_title: Téléchargement d’application iOS

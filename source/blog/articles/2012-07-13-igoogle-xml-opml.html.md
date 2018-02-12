@@ -1,5 +1,5 @@
 ---
-date: 2012-07-13 16:35:55+00:00
+date: 2012-07-13
 slug: igoogle-xml-opml
 title: 'iGoogle va fermer : sauvez vos flux RSS !'
 page_title: "Exporter ses flux RSS"

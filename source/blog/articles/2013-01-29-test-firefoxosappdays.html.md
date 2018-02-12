@@ -1,5 +1,5 @@
 ---
-date: 2013-01-29 12:56:29+00:00
+date: 2013-01-29
 slug: test-firefoxosappdays
 title: hackathon firefoxOS
 page_title: 'J''ai testé pour vous #FirefoxOSappdays'

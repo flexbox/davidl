@@ -1,5 +1,5 @@
 ---
-date: 2013-01-09 13:03:23+00:00
+date: 2013-01-09
 slug: formation-print-web
 title: Formation du print vers le web
 page_title: Formation développement et intégration web à Lille

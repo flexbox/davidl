@@ -1,5 +1,5 @@
 ---
-date: 2012-12-20 16:17:23+00:00
+date: 2012-12-20
 slug: choix-lien-bouton
 title: Comment choisir entre un lien et un bouton ?
 page_title: Boutons pour les actions, liens pour les objets

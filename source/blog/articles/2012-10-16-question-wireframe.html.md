@@ -1,5 +1,5 @@
 ---
-date: 2012-10-16 12:26:06+00:00
+date: 2012-10-16
 slug: question-wireframe
 title: 4 questions à se poser pendant la création de wireframe
 page_title: Comment commencer un projet web ?

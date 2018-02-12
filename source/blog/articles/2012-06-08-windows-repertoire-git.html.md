@@ -1,5 +1,5 @@
 ---
-date: 2012-06-08 16:51:41+00:00
+date: 2012-06-08
 slug: windows-repertoire-git
 title: "Astuce Windows : changer le répertoire par défaut de git"
 page_title: git & windows

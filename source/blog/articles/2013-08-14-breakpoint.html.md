@@ -1,5 +1,5 @@
 ---
-date: 2013-08-14 16:30:38+00:00
+date: 2013-08-14
 slug: breakpoint
 title: Utiliser des breakpoint en CSS pour votre site responsive
 page_title: Ne fixez pas vos breakpoint en javascript

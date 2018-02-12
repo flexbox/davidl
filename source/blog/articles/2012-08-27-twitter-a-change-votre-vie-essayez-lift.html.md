@@ -1,5 +1,5 @@
 ---
-date: 2012-08-27 12:15:55+00:00
+date: 2012-08-27
 slug: twitter-a-change-votre-vie-essayez-lift
 title: Twitter a changé votre vie ? essayez Lift
 page_title: Libérez votre potentiel

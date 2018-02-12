@@ -1,5 +1,5 @@
 ---
-date: 2013-11-15 12:57:20+00:00
+date: 2013-11-15
 slug: javascript
 title: Maitriser rapidement JavaScript
 description: JavaScript par la pratique. Découvrez ou redécouvrez le language JavaScript lors de la création d’un jeu de memory.

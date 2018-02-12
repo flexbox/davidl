@@ -1,5 +1,5 @@
 ---
-date: 2011-12-27 17:11:59+00:00
+date: 2011-12-27
 slug: liste-ultime-de-site-internet-pour-les-auto-entrepreneurs
 title: Guide pour les auto-entrepreneurs
 page_title: Référence auto-entrepreneur

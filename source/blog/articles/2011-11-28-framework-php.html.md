@@ -1,5 +1,5 @@
 ---
-date: 2011-11-28 15:04:36+00:00
+date: 2011-11-28
 slug: framework-php
 title: Choix du framework Symfony, CodeIgniter, cakePHP, or FuelPHP ?
 page_title: Choisir son framework php

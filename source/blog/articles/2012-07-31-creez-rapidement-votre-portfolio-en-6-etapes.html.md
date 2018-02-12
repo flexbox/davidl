@@ -1,5 +1,5 @@
 ---
-date: 2012-07-31 19:19:03+00:00
+date: 2012-07-31
 slug: creez-rapidement-votre-portfolio-en-6-etapes
 title: Créez rapidement votre portfolio en 6 étapes
 page_title: Publiez vos travaux avec wordpress

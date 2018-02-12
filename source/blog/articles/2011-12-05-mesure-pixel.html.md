@@ -1,5 +1,5 @@
 ---
-date: 2011-12-05 15:54:45+00:00
+date: 2011-12-05
 slug: mesure-pixel
 title: Mesurer les pixels de l'écran
 page_title: Mesurer la taille de son écran

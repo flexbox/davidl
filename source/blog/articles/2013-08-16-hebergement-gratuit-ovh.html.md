@@ -1,5 +1,5 @@
 ---
-date: 2013-08-16 12:05:05+00:00
+date: 2013-08-16
 slug: hebergement-gratuit-ovh
 title: Hébergement site internet gratuit avec un nom de domaine chez OVH
 page_title: Hébergement gratuit chez GitHub

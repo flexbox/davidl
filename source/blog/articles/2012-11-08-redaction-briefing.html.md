@@ -1,5 +1,5 @@
 ---
-date: 2012-11-08 11:41:30+00:00
+date: 2012-11-08
 slug: redaction-briefing
 title: 8 questions à se poser pendant la création d'un brief créatif
 page_title: 8 questions à se poser pour un briefing de qualité

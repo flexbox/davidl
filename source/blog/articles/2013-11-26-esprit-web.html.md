@@ -1,5 +1,5 @@
 ---
-date: 2013-11-26 17:37:06+00:00
+date: 2013-11-26
 slug: esprit-web
 title: Différence entre internet et web
 description:
