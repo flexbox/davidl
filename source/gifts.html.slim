@@ -1,5 +1,5 @@
 ---
-title: Programme d'affiliation
+.truncatetitle: Programme d'affiliation
 description: Apprenez à coder
 page_title: Code promotion
 page_emphasis: Inscrivez vous à ces services et bénéficiez de cadeaux
@@ -13,7 +13,7 @@ section.section
         - data.gifts.travel.each do |t|
           .columns
             = link_to t.link, class: 'callout-link' do
-              .callout
+              .callout.truncate
                 h3 = t.name
                 p = t.win
                 code = t.link
@@ -26,7 +26,7 @@ section.section.l-light
         - data.gifts.work.each do |w|
           .columns
             = link_to w.link, class: 'callout-link' do
-              .callout
+              .callout.truncate
                 h3 = w.name
                 p = w.win
                 code = w.link
@@ -39,7 +39,7 @@ section.section.
         - data.gifts.learn.each do |w|
           .columns
             = link_to w.link, class: 'callout-link' do
-              .callout
+              .callout.truncate
                 h3 = w.name
                 p = w.win
                 code = w.link
