@@ -94,6 +94,7 @@ cv.html.slim: "/cv.html.slim"
 design:
   typography.html.slim: "/design/typography.html.slim"
   webdesign.html.slim: "/design/webdesign.html.slim"
+design-engineer.html.slim: "/design-engineer.html.slim"
 dev:
   git.html.slim: "/dev/git.html.slim"
   setup.html.slim: "/dev/setup.html.slim"
