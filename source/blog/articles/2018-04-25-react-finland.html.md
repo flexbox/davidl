@@ -30,7 +30,7 @@ TLDR;
 
 ## Immutability made EASY with Immer
 
-Comment pouvez vbous simplifier votre `reducer`? En ajoutant une nouvelle [librairie pour gérer l'immutabilité](https://github.com/mweststrate/immer).
+Comment pouvez vous simplifier votre `reducer`? En ajoutant une nouvelle [librairie pour gérer l'immutabilité](https://github.com/mweststrate/immer).
 
 ![React Finland 2018 sketchnoting declarative ](https://c1.staticflickr.com/1/982/40792066945_7c6537b884_c.jpg)
 
