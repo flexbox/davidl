@@ -43,7 +43,7 @@
 @include foundation-everything($flex: true);
 
 @import "custom-typeplate";
-@import "typeplate-starter-kit/scss/typeplate-mixins";
+@import "typeplate-starter-kit/dev/scss/typeplate-mixins";
 // Need refactor
 // @import "animate.css/source/base.css";
 // @import "animate.css/source/attention_seekers/bounce.css";
