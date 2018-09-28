@@ -67,7 +67,7 @@ Ce qui donne dans un cas concret :
 ~~~ haml
     p
       'Voici un paragraphe avec
-       = link_to 'un lien vers un site', 'http://guidecss.fr'
+       = link_to 'un lien vers un site', 'https://guidecss.davidl.fr/'
 
     p
       |Un autre paragraphe

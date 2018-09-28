@@ -130,7 +130,7 @@ Il faut donc utiliser de nouveaux outils et __créer de nouvelles méthodes de t
 > Jonathan Snook
 
 
-J’ai récemment publié l’intégralité des bonnes pratiques que j’utilise quotidiennement sur [guidecss.fr](http://guidecss.fr/)
+J’ai récemment publié l’intégralité des bonnes pratiques que j’utilise quotidiennement sur [guidecss.fr](https://guidecss.davidl.fr/)
 
 
 
