@@ -357,4 +357,4 @@ Bien sûr, il y a des exceptions à toute règle, mais elles doivent êtres éva
 
 Maintenant il est temps de prêcher à votre tour la bonne parole en suivant ces précieux conseils.
 
-Si vous souhaitez en savoir encore plus sur les bonnes pratiques CSS, je vous invite à visiter [guidecss.fr](http://guidecss.fr/) qui présente encore plus de bonnes pratiques et de conseils pour un CSS évolutif et correctement architecturé.
+Si vous souhaitez en savoir encore plus sur les bonnes pratiques CSS, je vous invite à visiter [guidecss.fr](https://guidecss.davidl.fr/) qui présente encore plus de bonnes pratiques et de conseils pour un CSS évolutif et correctement architecturé.

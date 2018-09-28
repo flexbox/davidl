@@ -9,7 +9,7 @@
   description: "Pendant des années j’ai travaillé sur des projets où le CSS peut être comparé à un bidonville : Un espace où s’entassent divers éléments, dans un chaos le plus complet. J’ai rédigé ce guide qui regroupe les <strong>bonnes pratiques</strong> pour coder des feuilles de styles de <strong>qualité</strong>, <strong>évolutives</strong> et <strong>maintenables</strong>."
   type: project
   button: primary
-  url: http://guidecss.fr/
+  url: https://guidecss.davidl.fr/
   stared: true
 -
   title: Pokemon breakpoint

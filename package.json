@@ -1,0 +1,17 @@
+{
+  "name": "davidl",
+  "version": "1.0.0",
+  "description": "Another front-end dev website",
+  "main": "index.js",
+  "repository": "git@github.com:flexbox/davidl.git",
+  "author": "David Leuliette <dleuliette@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "foundation-sites": "^6.5.0-rc.3",
+    "headroom.js": "^0.9.4",
+    "trianglify": "^1.2.0",
+    "typeplate-starter-kit": "^3.0.2"
+  }
+}
