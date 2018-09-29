@@ -2,7 +2,6 @@
   "name": "davidl",
   "version": "1.0.0",
   "description": "Another front-end dev website",
-  "main": "index.js",
   "repository": "git@github.com:flexbox/davidl.git",
   "author": "David Leuliette <dleuliette@gmail.com>",
   "license": "MIT",

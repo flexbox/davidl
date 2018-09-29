@@ -3,7 +3,6 @@ date: 2014-08-18
 slug: foundation-love
 title: 5 bonnes raisons pour commencer un projet avec Foundation
 description: "Pourquoi Foundation est à l'heure actuelle le meilleur framework pour le responsive design avec HTML & CSS ?"
-image: http://foundation.zurb.com/assets/img/support/goodies/wallpaper-3%281024x768%29.jpg
 page_title: Pourquoi j'utilise Foundation et pourquoi vous devriez faire pareil
 changefreq: monthly
 priority: 0.8
@@ -14,8 +13,6 @@ Foundation est dans [le top 10 des repos](https://github.com/trending?l=css&sinc
 ## Pourquoi j'aime Foundation et pourquoi vous devez l'aimer aussi
 
 Foundation offre des bases solides pour n'importe quel site, quelque soit la taille du projet. Il embarque [normalize.css](https://github.com/necolas/normalize.css), qui est indispensable pour avoir un contenu cohérent entre les différents navigateurs. Foundation est basé sur la priorité au mobile (aka mobile-first) ce qui permet une bonne mise en page, notamment au niveau de la typographie. Le `font-size` des textes est calculé en fonction de la taille d'écran. Chaque élément contient un style de base, comme les formulaires qu'il est facile de styler rapidement si vous connaissez les bonnes variables du fichier `_settings.scss`.
-
-![Foundation est incroyable](http://foundation.zurb.com/assets/img/support/goodies/wallpaper-3%281024x768%29.jpg)
 
 J'utilise Foundation car je gagne énormément de temps en corrigeant des problèmes historiques au web. Ce temps gagné me permet d'investir plus de valeur dans la construction de solutions évolutives et personnalisées.
 

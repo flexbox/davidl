@@ -12,7 +12,7 @@ Demain, votre site devra être compatible avec tous les différents types d’ap
 
 __C’est un changement des règles du jeu__.
 
-![android screen size](http://farm8.staticflickr.com/7348/13238262083_6caa9794ef_o.png)
+![android screen size](https://farm8.staticflickr.com/7348/13238262083_6caa9794ef_o.png)
 
 ## Le monde du multi écran
 
