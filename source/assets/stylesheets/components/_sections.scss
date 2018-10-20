@@ -6,6 +6,11 @@
     margin: 0;
     padding: rem-calc(60 0);
   }
+  &.l-lighter {
+    background-color: $white;
+    margin: 0;
+    padding: rem-calc(60 0);
+  }
   &.secondary {
     margin: 0;
     background-color: $secondary-color;
