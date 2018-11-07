@@ -138,7 +138,7 @@ Résultat : les appareils mobiles vont chercher la version optimisée mobile de 
 ## Les polices de caractères
 
 ![Taille de police de base](/assets/images/blog/2012/type-scale.png?raw=true)
-_[webcitation.fr](http://webcitation.fr)_
+_[webcitation.davidl.fr](http://webcitation.davidl.fr)_
 
 En suivant la méthode d’échelle des images, il est possible de redimensionner le texte pour faire un meilleur usage de l’espace disponible.
 Il est préférable de faire des petits ajustements concernant la taille de la police. Si elle est trop petite vos visiteurs auront du mal à lire.

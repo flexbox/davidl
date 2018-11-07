@@ -1,11 +1,29 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@mixin fade-in-animation() {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 500ms;
+}
+
 .hero-homepage {
-  background-repeat: repeat-y;
+  @include fade-in-animation();
+
+  background-repeat: repeat-x;
   background-position: center top;
   background-size: 110% auto;
   background-image: image-url('bg-hero.svg'), linear-gradient(to right, $blue-light 0%, $primary-color 80%);
 
   display: flex;
-  position: relative;
   padding-bottom: $topbar-height;
   padding-top: $topbar-height;
   color: $white;
@@ -22,14 +40,9 @@
   }
 }
 
-.homepage {
-  .icons-skills {
-    max-width: 150px;
-  }
+.homepage-picture {
+    max-width: 130px;
+    max-height: 130px;
+    border-radius: 5px;
 
-  .l-illu {
-    font-size: rem-calc(40);
-    color: $turquoise;
-    margin-bottom: rem-calc(20);
-  }
 }

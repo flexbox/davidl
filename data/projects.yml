@@ -34,7 +34,7 @@
   description: "Jours après jours, je collecte des citations à travers de nombreux livres, articles de blog... J’administre webcitation pour toutes les regrouper et les traduire pour vous."
   type: project
   button: secondary
-  url: http://webcitation.fr/
+  url: http://webcitation.davidl.fr/
 -
   title: Foundation Boilerplate
   description: "Le point le plus important pour la création de nouveaux projets est de créer un ensemble de règles directrices. Foundation Boilerplate aide les designers & les développeurs à construire <strong>rapidement</strong> des prototypes d’application ou des sites web <strong>responsive</strong> <strong>évolutifs</strong>."
