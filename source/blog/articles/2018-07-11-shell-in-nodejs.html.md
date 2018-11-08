@@ -8,14 +8,14 @@ page_title: I have a script for that™️
 page_emphasis: Le terminal c'est la vie
 ---
 
-J'ai recement publié un article sur medium : [Comment deployer votre application React Native avec Expo](https://medium.com/@flexbox/react-native-expo-1734e6d7891). Afin d'automatiser mon script de release je me suis perdu pas mal de temps sur stackoverflow en faisant des copier / coller de script bash.
+J'ai récemment publié un article sur medium : [Comment déployer votre application React Native avec Expo](https://medium.com/@flexbox/react-native-expo-1734e6d7891). Afin d'automatiser mon script de release j‘ai perdu pas mal de temps sur stackoverflow en faisant des copier / coller de scripts bash.
 
 Et puis j'ai réfléchi 2 minutes :
 
-> Je ne suis pas un nerd qui fait du bash avec vim, je fait du front-end sur sublime text. <br>
+> Je ne suis pas un nerd qui fait du bash avec vim, je fais du front-end sur sublime text. <br>
 > Je devrais utiliser Node.js"
 
-Si vous souhaitez __utiliser JavaScript pour executer des commandes UNIX__ depuis un terminal voici un petit snippet qui vous sera utile.
+Si vous souhaitez __utiliser JavaScript pour exécuter des commandes UNIX__ depuis un terminal voici un petit snippet qui vous sera utile.
 
 ~~~javascript
   #!/usr/bin/env node
