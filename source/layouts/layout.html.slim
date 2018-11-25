@@ -32,6 +32,8 @@ html prefix="og: http://ogp.me/ns#" lang="#{current_page.data.lang ? current_pag
     - unless current_page.url == '/'
       = partial 'layouts/commons/footer'
 
+    = javascript_include_tag 'https://code.jquery.com/jquery-2.2.4.min.js'
+    = javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.0/js/foundation.min.js'
     = javascript_include_tag 'application'
     = yield_content :javascripts
     javascript:

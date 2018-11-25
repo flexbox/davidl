@@ -1,3 +1,4 @@
 #= require "headroom.js/dist/headroom"
-$(document).foundation()
+#= require "topbar"
 
+$(document).foundation()
