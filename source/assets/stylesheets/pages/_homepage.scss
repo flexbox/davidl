@@ -29,8 +29,11 @@
   color: $white;
 
   h1 {
-    text-shadow: 1px 2px 0px rgba($black, 0.4);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     color: $yellow;
+  }
+  p {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   }
   em {
     letter-spacing: -2px;
@@ -41,8 +44,8 @@
 }
 
 .homepage-picture {
-    max-width: 130px;
-    max-height: 130px;
-    border-radius: 5px;
-
+  max-width: 130px;
+  max-height: 130px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
