@@ -25,7 +25,7 @@ searchBar = ->
     toggleSearch(event)
 
 launchHeadroom = ->
-  header = document.querySelector('#js-topbar')
+  header = document.getElementById('js-topbar')
   headroom = new Headroom(header,
     offset: 300
     tolerance: 10

@@ -80,15 +80,24 @@ a.callout-link::after {
   content: none !important;
 }
 
+.callout-image {
+  margin-bottom: rem-calc(20);
+  width: 100%;
+  min-height: 100px;
+  background-color: $gray;
+}
+
 .callout-link {
   font-weight: inherit;
-  padding: inherit;
+  padding: 0;
   border-bottom: 0;
   transition: none;
+  display: block;
 
   &:hover {
     border-bottom: 0;
     background-color: transparent;
+    color: inherit;
   }
 
   .callout {

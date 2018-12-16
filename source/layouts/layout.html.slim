@@ -1,5 +1,5 @@
 doctype html
-html prefix="og: http://ogp.me/ns#" lang="#{current_page.data.lang ? current_page.data.lang : 'fr'}"
+html prefix="og: http://ogp.me/ns#" lang="#{current_page.data.lang ? current_page.data.lang : 'fr'}" class="no-js"
   head profile="http://dublincore.org/documents/dcq-html/"
     meta charset="utf-8"
     meta name="viewport" content="width=device-width,initial-scale=1"
@@ -23,15 +23,17 @@ html prefix="og: http://ogp.me/ns#" lang="#{current_page.data.lang ? current_pag
     = stylesheet_link_tag 'https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
 
   body class="#{current_page.data.page_class} #{page_classes}"
-    = partial 'layouts/commons/topbar'
+    - unless current_page.url == '/'
+      = partial 'layouts/commons/topbar'
     div role="main"
       = partial 'layouts/commons/hero-banner'
       #js-maincontent
         == yield
-    = partial 'layouts/commons/footer'
+    - unless current_page.url == '/'
+      = partial 'layouts/commons/footer'
 
     = javascript_include_tag 'https://code.jquery.com/jquery-2.2.4.min.js'
-    = javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.1/js/foundation.min.js'
+    = javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.0/js/foundation.min.js'
     = javascript_include_tag 'application'
     = yield_content :javascripts
     javascript:
