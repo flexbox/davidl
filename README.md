@@ -1,4 +1,4 @@
-### Yet another [front-end dev website](https://davidl.fr) • [![Codeship Status for flexbox/davidl](https://app.codeship.com/projects/400581d0-1ca6-0132-5dd3-26e5d54be407/status?branch=master)](https://app.codeship.com/projects/35237)
+# Yet another [front-end dev website](https://davidl.fr) • [![Codeship Status for flexbox/davidl](https://app.codeship.com/projects/400581d0-1ca6-0132-5dd3-26e5d54be407/status?branch=master)](https://app.codeship.com/projects/35237)
 
 
 Handcrafted with [Middleman](http://middlemanapp.com) & [codeless](https://github.com/flexbox/codeless) template.
