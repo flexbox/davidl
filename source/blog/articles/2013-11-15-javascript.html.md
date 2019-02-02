@@ -10,7 +10,7 @@ changefreq: yearly
 priority: 0.5
 ---
 
-Si vous suivez mon activité sur [twitter](https://twitter.com/_flexbox) vous avez surement remarqué que __je lis énormément de livres sur l’industrie du développement web__. Mon dernier livre ? Javascript™ rédigé intégralement en français par mon ami Nicolas Froidure himself.
+Si vous suivez mon activité sur [twitter](https://twitter.com/flexbox_) vous avez surement remarqué que __je lis énormément de livres sur l’industrie du développement web__. Mon dernier livre ? Javascript™ rédigé intégralement en français par mon ami Nicolas Froidure himself.
 Cet article présente ma revue de la version poche, ainsi que le contenu que j’ai retenu de ces 400 pages de code.
 
 ## Le format poche

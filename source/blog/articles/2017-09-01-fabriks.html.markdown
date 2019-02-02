@@ -155,7 +155,7 @@ Ce n’est évidemment pas si simple que cela. Nous utilisons beaucoup d’autre
 
 __Scoop__ : Il n’y aura pas de lancement. La plateforme est en ligne depuis Juillet.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Ads don&#39;t work anymore. Today marketing is the product. <a href="https://twitter.com/hashtag/captaintrain?src=hash">#captaintrain</a> <a href="https://twitter.com/_flexbox">@_flexbox</a></p>&mdash; Karl Leicht (@KarlLeicht) <a href="https://twitter.com/KarlLeicht/status/903519253172822016">September 1, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Ads don&#39;t work anymore. Today marketing is the product. <a href="https://twitter.com/hashtag/captaintrain?src=hash">#captaintrain</a> <a href="https://twitter.com/flexbox_">@flexbox_</a></p>&mdash; Karl Leicht (@KarlLeicht) <a href="https://twitter.com/KarlLeicht/status/903519253172822016">September 1, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Nous itérons sur le produit depuis le début d’année. Grâce à une excellente stratégie de déploiement continu nous pouvons __mettre en production la plateforme des dizaines de fois par jour__.

@@ -41,9 +41,9 @@ __Euratechnologies__
 
 C’est facile ! Tout se passe sur Twitter
 
-Vous devez mentionner [@takeoffconf](https://twitter.com/TakeOffConf) et [@_flexbox](https://twitter.com/_flexbox) et dire pourquoi vous souhaitez venir à cette super conférence. Comme je sais que certains ont la puissance de la flème j’ai même préparé un tweet en avance :
+Vous devez mentionner [@takeoffconf](https://twitter.com/TakeOffConf) et [@flexbox_](https://twitter.com/flexbox_) et dire pourquoi vous souhaitez venir à cette super conférence. Comme je sais que certains ont la puissance de la flème j’ai même préparé un tweet en avance :
 
-> En Octobre je participe @takeoffconf grâce à @_flexbox qui sera parmi nous ?
+> En Octobre je participe @takeoffconf grâce à @flexbox_ qui sera parmi nous ?
 
 
 
