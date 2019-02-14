@@ -4,20 +4,15 @@
   icon: 'code'
   url: http://javascriptweekly.com/
 -
-  title: Responsive Design Weekly
-  description: 'Newsletter hebdomadaire qui présente les meilleurs articles, tutoriels & Frameworks sur le responsive design.'
-  icon: 'laptop'
-  url: https://responsivedesign.is/
--
   title: React status
-  description: 'Latest React and React Native links and tutorials.'
-  icon: 'code'
+  description: 'A weekly roundup of the latest React and React Native links and tutorials.'
+  icon: 'atom'
   url: https://react.statuscode.com/
 -
-  title: Sass News
-  description: 'Sass news est un bulletin d’information hebdomadaire, publié par Stu Robson.'
-  icon: 'code'
-  url: http://sassnews.com/
+  title: React Native Newsletter
+  description: 'A curated, fun to read newsletter all about React Native.'
+  icon: 'atom'
+  url: http://reactnative.cc/
 -
   title: The UX newsletter
   description: 'Articles de fond sélectionnés et rédigés par l’équipe de MailChimp'
