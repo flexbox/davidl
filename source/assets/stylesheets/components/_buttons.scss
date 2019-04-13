@@ -25,9 +25,6 @@
   &.button-tweet {
     @include button-style($color-twitter);
   }
-  &.button-facebook {
-    @include button-style($color-facebook);
-  }
 
   &.button-icon {
     &::after {
