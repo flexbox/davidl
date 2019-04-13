@@ -1,8 +1,9 @@
 .bundle
 .sass-cache
 .DS_Store
-.npm-debug.log
+*.log
 
 /build
 /bower_components
 /node_modules
+/dist

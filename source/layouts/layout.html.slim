@@ -10,11 +10,6 @@ html prefix="og: http://ogp.me/ns#" lang="#{current_page.data.lang ? current_pag
     = partial 'layouts/commons/open_graph'
 
     - unless environment == :development
-      javascript:
-        var host = "http://davidl.fr".replace(/http(s)?:\/\//g, "");
-        if ((host == window.location.host) && (window.location.protocol != "https:")) {
-          window.location.protocol = "https";
-        }
       = google_analytics_tag
 
     = partial 'layouts/commons/favicon'

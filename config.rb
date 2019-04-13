@@ -59,17 +59,21 @@ end
 
 activate :autoprefixer, browsers: ['last 2 versions', 'Explorer >= 9']
 activate :syntax
-activate :sprockets
-::Sass.load_paths << File.join(root, "node_modules")
-sprockets.append_path File.join "#{root}", "node_modules/"
+
+activate :external_pipeline,
+         name: :webpack,
+         command: build? ? 'yarn build' : 'yarn start',
+         source: 'dist',
+         latency: 1
+
+# Load Sass from node_modules
+config[:sass_assets_paths] << File.join(root, 'node_modules')
 
 ###
 # Page options, layouts, aliases and proxies
 ###
 
-page '/browserconfig.xml', layout: false
-page '/feed.xml',          layout: false
-page '/sitemap.xml',       layout: false
+page '/*.xml', layout: false
 
 require 'builder'
 require 'kramdown'
@@ -108,6 +112,9 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
 
+  ignore   File.join(config[:js_dir], '*') # handled by webpack
+  set      :asset_host, @app.data.site.host
+  set      :relative_links, true
   activate :asset_hash
   activate :gzip
 end
