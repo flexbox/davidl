@@ -88,7 +88,7 @@ Trop souvent les animations sont utilisées sans aucun sens ou logique. En tant 
 
 ## Étrangler le legacy de vos applications mobiles
 
-Pour finir cette journée de folie un excéllent sujet : Comment remplacer d'anciennes applications sans détruire son business ? En appliquant une stratégie d'A/B testing qui permet de migrer progressivement ses utilisateurs en utilisant le [strangling pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler).
+Pour finir cette journée de folie un excellent sujet : Comment remplacer d'anciennes applications sans détruire son business ? En appliquant une stratégie d'A/B testing qui permet de migrer progressivement ses utilisateurs en utilisant le [strangling pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler).
 
 ![Sketchnote React Amsterdam](https://live.staticflickr.com/7917/47593776861_91571263c5_b.jpg)
 
