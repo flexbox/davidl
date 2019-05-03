@@ -14,6 +14,11 @@ blogposts:
     website: code.tutsplus
     url: http://code.tutsplus.com/fr/tutorials/quick-tip-jquery-newbs-stop-jumping-in-the-pool--net-22142
     title: 'Astuce débutant jQuery : On ne saute pas dans la piscine'
+  -
+    date: Mai 2019
+    website: bestnew
+    url: https://bestnew.com/products/hacker-1-mixtape-for-coding
+    title: 'Hacker mixtape for coding'
 interviews:
   -
     date: Septembre 2015
