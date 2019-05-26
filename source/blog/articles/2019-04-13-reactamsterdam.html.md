@@ -8,7 +8,7 @@ page_title: React Amsterdam
 page_emphasis: <del>Hacks</del> <del>HOCs</del> HOOKS
 ---
 
-Ce week end j'ai voyagé jusque Amsterdam avec la team de [coach ReactJS Academy](https://reactjs.academy/about-us/) pour donner un workshop sur React Native à 50 personnes, ouvrir un stand de distrution de T-Shirts / stickers et assister avec plus de 4000 développeurs React à la journée de conférence.
+Ce week end j'ai voyagé jusque Amsterdam avec la team de [coach ReactJS Academy](https://reactjs.academy/about-us/) pour donner un workshop sur React Native à 50 personnes, ouvrir un stand de distrution de T-Shirts / stickers et assister avec plus de 1300 développeurs React à la journée de conférence.
 
 Je dois avouer que cette édition fut excellente. On sent que la team est très organisée, il n'y a pas de place au hasard. Timing respecté à la seconde et la qualité des talks etait au rendez-vous.
 
