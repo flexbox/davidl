@@ -37,6 +37,7 @@
   }
   em {
     letter-spacing: -2px;
+    font-size: 2.7rem;
   }
   @include breakpoint(medium) {
     padding-top: ($topbar-height * 2);
