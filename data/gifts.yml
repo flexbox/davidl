@@ -44,6 +44,11 @@ work:
     name: Trello
     link: https://trello.com/flexbox/recommend
     win: Pro account pour 1 mois
+  -
+    name: Airtable
+    link: https://airtable.com/invite/r/C9rp2zWJ
+    win: $10 de credit pour un compte premium
+
 travel:
   -
     name: Airbnb
