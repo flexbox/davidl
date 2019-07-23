@@ -2685,10 +2685,10 @@ vinyl@^0.5.0:
     clone-stats "^0.0.1"
     replace-ext "0.0.1"
 
-what-input@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/what-input/-/what-input-4.1.0.tgz#769045de74a83debaea2e55e9dae99310868f6df"
-  integrity sha1-dpBF3nSoPeuuouVena6ZMQho9t8=
+what-input@5.2.3:
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/what-input/-/what-input-5.2.3.tgz#9e636c9854c875b50b6716facd4fb55deb1d6653"
+  integrity sha512-ekQJmKNVEPcFIE2YI1L7iXm/m2QTQWe9QqewSCCFZs2ZPo3yOfA8TV8ioBx/JnWZrDUNVGj/YdDJCH5uagMEgg==
 
 which-module@^1.0.0:
   version "1.0.0"
