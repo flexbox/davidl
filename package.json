@@ -7,9 +7,9 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "foundation-sites": "^6.5.0",
-    "headroom.js": "^0.9.4",
-    "typeplate-starter-kit": "^3.0.2",
+    "foundation-sites": "6.5.0",
+    "headroom.js": "0.9.4",
+    "typeplate-starter-kit": "3.0.2",
     "what-input": "4.1.0"
   }
 }

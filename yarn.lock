@@ -685,7 +685,7 @@ form-data@~2.3.2:
     combined-stream "1.0.6"
     mime-types "^2.1.12"
 
-foundation-sites@^6.5.0:
+foundation-sites@6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/foundation-sites/-/foundation-sites-6.5.0.tgz#7bd4cb33977cbcb8a1cae5ad32c7c0de0fdbfc71"
   integrity sha512-iV7+/4GxR4lQKxUh7geY6dxUSKbn6w+vbZzeG8U7JiTqStfPtTS+jaepKymw5OhrmD4BYpshyDktUiEshlY60g==
@@ -1031,7 +1031,7 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
-headroom.js@^0.9.4:
+headroom.js@0.9.4:
   version "0.9.4"
   resolved "https://registry.yarnpkg.com/headroom.js/-/headroom.js-0.9.4.tgz#0c4e6b4563bb69df55aecdefaba3227566f2df5a"
   integrity sha1-DE5rRWO7ad9Vrs3vq6MidWby31o=
@@ -2560,7 +2560,7 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
-typeplate-starter-kit@^3.0.2:
+typeplate-starter-kit@3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/typeplate-starter-kit/-/typeplate-starter-kit-3.0.2.tgz#65fdb5a541fa6604ab4a2fb5d5da76ce49e49c18"
   integrity sha1-Zf21pUH6ZgSrSi+11dp2zknknBg=
