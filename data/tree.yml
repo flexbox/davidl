@@ -91,6 +91,8 @@ blog:
     2018-06-09-takeoff-conf-2018.html.md: "/blog/articles/2018-06-09-takeoff-conf-2018.html.md"
     2018-07-11-shell-in-nodejs.html.md: "/blog/articles/2018-07-11-shell-in-nodejs.html.md"
     2019-04-13-reactamsterdam.html.md: "/blog/articles/2019-04-13-reactamsterdam.html.md"
+    2019-05-28-fonts-google.html.md: "/blog/articles/2019-05-28-fonts-google.html.md"
+    2019-09-24-reactlive.html.md: "/blog/articles/2019-09-24-reactlive.html.md"
   index.html.slim: "/blog/index.html.slim"
 clients.html.slim: "/clients.html.slim"
 contact.html.slim: "/contact.html.slim"
