@@ -5,7 +5,7 @@ title: Mon choix de Google font pour mon prochain side project
 description:
 image:
 page_title: Modern Design Stack
-page_emphasis: <del>Hacks</del> <del>HOCs</del> HOOKS
+page_emphasis: La typographie c'est important
 ---
 
 J'utilise Figma depuis plus de 2 ans et je dois dire que ce logicial de design c'est 🔥🔥🔥

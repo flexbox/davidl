@@ -5,7 +5,7 @@ title: Ce que j'ai appris à React Live édition 2019
 description: Sketchnotes de David Leuliette sur la conférence React Live à Amsterdam
 image: https://lh3.googleusercontent.com/KDty6PbCFiNMxyPGcGRSQo4BsMRymLeluP68IRKk_1g21ECzd1zo6HMUshNgU32FdU9urIH815EZ4_yg5xHDgLIE5yzkpMBRqlvRJNEuiv_Q05n2Jws5WozXv8JIbZ5P8ZVIrWDPolQEHvT1eb3I3cOEVbuMc48czCsG-5ryLdz10VbDYMlBbdlSeEXeIgGiAxWArVUa16qaaw4ZPD4-qQkXby0hHgLu-aEXOmUz5FV0qGYKOftoUhreZoBISYR0oN9QCSsMnByfYEiXnWjkb9HRHXszCB4m_RSmXj550MD8owiboD7pqRdJ7KtS2oKFkYcF4SQWvg2iK331n8uGx367xe3H988BAUfo-uAKihTpSbUK7lmRxiSsw36hlKeb3FtO04dfBU3aIRkOWI_EmhqbafDGJjy2OEhWSF3sTSP6OFqV_xeVpd3TLUM0tYJU7o8smj1LbH5EO17fnjRonTN1zf5WZfTrEkqyKIc0saOwPT0GwUBX7_HWYgHuxJXvEkcC2j8p2D7zeYriM3OmyX4bXQT0hWJzEcGx71exUFRvlh3mNMG4RA9qQmCLn7R8uazM7HtdWPF4ZlR_IObv_Hc28sXSaj8G1d-gOJ6e8HBfJ8ZisR3tkCIu2QZEBILYyY_X5chcvb3PQtsntVOmXTdGGhtvLFSlTA8kWbDj8xLEmJ-ESYLrz3Q=w1024-h512-no
 page_title: React Live
-page_emphasis: <del>Hacks</del> <del>HOCs</del> HOOKS
+page_emphasis: Live coding sur un êcran de 400 pouces… sans internet
 ---
 
 Le week end dernier donné un meetup à Londres puis j'ai voyagé jusque Amsterdam avec une partie de la [coach team React GraphQL Academy](https://reactgraphql.academy/about-us/) pour assister avec plus de 800 développeurs React à une journée de conférence.
