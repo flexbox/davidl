@@ -1,5 +1,5 @@
 ---
-title: 'Consultant en Design, développement front-end HTML, CSS et JavaScript'
+title: 'Développeur React Native freelance'
 description: "Designer, Consultant développeur front-end, Teacher à le wagon et à l’université, David Leuliette partage ses bonnes pratiques dans le développement de sites et d’applications web avec les startups et les entreprises"
 image: https://lh3.googleusercontent.com/EPWzKHgKMVYb7BxyCyEQ77jj-sShX9rGXn_xKipcnTj9gazGWf5lntTr_GpMeeBaSJUjjYzhWgk1XNrtosSK79XnJdLPpPzzzJb7xjGokt3eH1ZpBZWvX3NHMhxX6s4LWS9mokdzZzs5UB7qB_BcAHH0O_qFG9EDstTWyYdAitm3SjCKZVCnk_sIgmfO6k8P9PpymmHIvxXzypnWL-36WKLWELbjmbo045MTlCxwu-hOcor_zymd3N3RTV02VeF32xOoyCQ8bCbn9Nurl3lvTP5VTymnzMO6ts9X5zKQ1HjG8-1W_7KVRohKMv1tAyFomGkG57sTzHi2gG7ydZAlYPDm-vb2aq8_CFs_3wt6lRzifbDFezKC94RvzIMRCanD8lA3Zibyhk642l8P8_USn3S8V3hZlrK5dSnXVGXrVVO2GkiPPZq9d-84CziBQN_eijdnfQYpXtExggGVu3RmDHuk777vhYWd0aK7qsHwG9xeEkbDVJKhRnrY7h-FJbUpBy8zpyNlfyJ9set88TbBI7nocDSuTEQmDDgVMrLnojdHJ6wzHNy7HrMdhr_wR8z5xKh2SYs0oV-Luy4loURJASIdOvqOzCW-yZO5wGuALr1cG7No7Lq4LQ=w1024-h512-no
 page_class: homepage
@@ -25,11 +25,28 @@ blog: blog
           a class="typeform-share button secondary expanded" href="https://flexbox.typeform.com/to/yzVxhi" data-mode="popup" target="_blank" Travailler avec moi!
 
 section.section
+  .row.align-center
+    .small-12.medium-10.columns
+      .row
+        .small-12.medium-6.columns
+          markdown:
+            > De nos jours, le design est la chose la plus importante.
+            >
+            > <cite>Didier Rappaport, CEO Happn</cite>
+        .small-12.medium-6.columns
+          markdown:
+            > Dans notre monde, l'expérience utilisateur est reine.
+            >
+            > <cite>Patrick Beja, Podcaster indépendant</cite>
+      markdown:
+       Bonjour! Je m'apelle David et je suis __développeur React Native Freelance__. Ma mission est que __vos clients se souviennent de l'incroyable expérience__ qu'il ont eu en utilisant vos solutions.
+
+section.section.l-light
   .row
     .small-12.columns
       markdown:
         ## Lire mon blog
-        Pour maîtriser un sujet, vous devez l’enseigner aux autres. Les choses sur lesquelles je travaille, les événements auxquels je participe, les outils que j’utilise et les gens que je rencontre. Continuer la lecture et [lire tous les articles](/blog/).
+        Pour maîtriser un sujet, vous devez l’enseigner aux autres. Les choses sur lesquelles je travaille, les événements auxquels je participe, les outils que j’utilise et les gens que je rencontre.
 
 
       .row
@@ -43,7 +60,13 @@ section.section
                 time.text-tiny> datetime="#{current_page.data.date}" pubdate=""
                   = article.date.strftime('%d %B %Y')
 
-section.section.l-light
+  .row
+    .small-12.columns
+      markdown:
+        Continuer la lecture et [lire tous les articles](/blog/).
+
+
+section.section
   .row.align-center
     .small-12.medium-10.columns
       markdown:
@@ -65,45 +88,31 @@ section.section.l-light
           p J’adore voyager en Finlande pour rencrontrer la communauté React.
         .columns.shrink
           = image_tag 'front/homepage/logo-react-native-london.jpg', alt: 'Developppeur React Native', class: 'homepage-picture'
-          p Je developppe des application React Native sur London.
+          p Je développe des application React Native en travaillant à distance pour des clients sur Londres.
         .columns.shrink
           = image_tag 'front/homepage/logo-ruby-nord.png', alt: 'David Leuliette coach pour ruby nord', class: 'homepage-picture'
           p Designer & Front-end coach pour lewagon, Rails Girls et Ruby Nord.
 
-section.section
-  .row
-    .small-12.medium-6.columns
+section.section.l-light
+  .row.align-center
+    .small-12.medium-8.columns
       markdown:
-        ## Travailler avec moi!
-        Je travaille dans des environnements propices à une approche réfléchie du design et du développement. Travailler ensemble afin de créer la meilleure expérience utilisateur possible pour créer des produits que les gens adorent utiliser.
+        ## Démarer la conversation
+        Je travaille dans des environnements propices à une approche réfléchie du design et du développement.
 
-        Vous souhaitez en savoir plus sur mes différentes compétences? __Contactez-moi pour une conversation rapide__.
-    .small-12.medium-6.columns
-      hr
-      .row.mr-0.ml-0
-        .small-8.colums
-          h3.acolyte Senior Software Engineer
-          p London
-        .small-4.colums
-          = link_to 'En savoir plus', 'https://calendly.com/dleuliette/30min', class: 'button', target: '_blank'
-      hr
-      .row.mr-0.ml-0
-        .small-8.colums
-          h3.acolyte Senior Front-end Engineer
-          p Lille
-        .small-4.colums
-          = link_to 'En savoir plus', 'https://calendly.com/dleuliette/30min', class: 'button', target: '_blank'
-      hr
-      .row.mr-0.ml-0
-        .small-8.colums
-          h3.acolyte Design & Front-End Teacher
-          p Bruxelles
-        .small-4.colums
-          = link_to 'En savoir plus', 'https://calendly.com/dleuliette/30min', class: 'button', target: '_blank'
-      hr
-      .row.mr-0.ml-0
-        .small-8.colums
-          h3.acolyte Front-End Developer
-          p Remote
-        .small-4.colums
-          = link_to 'En savoir plus', 'https://calendly.com/dleuliette/30min', class: 'button', target: '_blank'
+        Ma mission est de créer la __meilleure expérience utilisateur__ possible pour des produits que les gens adorent utiliser.
+
+        ### Vous pouvez construire des produits incroyables avec les bons outils
+
+        En tant que minimaliste, je fais depuis des années la selection des meilleurs outils pour créer des produits web. __J'aimerai vous montrer comment j'ai fait__. __Gratuitement__. Pas de ventes sournoises, ni de conneries — je veux juste que vous soyez heureux, travaillez efficacement et ayez du succès.
+
+        Cliquez simplement sur le bouton ci-dessous, entrez votre email et __je vous enverrai mes conseils tout de suite__.
+
+      form action="#{data.settings.social.mailchimp}" method="post" name="mc-embedded-subscribe-form" target="_blank"
+        .hide
+          input type="text" name="b_b72e60a9116993dde8d1547fe_e99fbeb8ad"
+        .row.collapse
+          .small-8.columns
+            input type="email" name="EMAIL" placeholder="youare@weso.me" required=""
+          .small-4.columns
+            input type="submit" value="S’inscrire" name="subscribe" class="button secondary postfix"

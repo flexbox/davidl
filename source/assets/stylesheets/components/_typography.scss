@@ -55,6 +55,10 @@ blockquote {
     font-size: rem-calc(64);
     opacity: 0.1;
   }
+
+  cite {
+    color: $gray-blue;
+  }
 }
 
 .emperor { @extend h1; }
