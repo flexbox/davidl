@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Core
 gem 'middleman',                   '4.2.1'
-gem 'middleman-autoprefixer',      '~> 2.7.1'
+gem 'middleman-autoprefixer', '~> 2.10.0'
 gem 'middleman-blog'
 gem 'middleman-favicon-maker'
 gem 'middleman-google-analytics', '~> 3.0'
