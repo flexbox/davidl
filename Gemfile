@@ -18,8 +18,8 @@ gem 'middleman-sitemap', git: 'https://github.com/matsu911/middleman-sitemap', b
 gem 'middleman-sprockets'
 
 # Templating Engines
+gem 'nokogiri', '~> 1.10', '>= 1.10.5'
 gem 'builder'
-gem 'nokogiri'
 gem 'oga',     '~> 2.8'
 gem 'slim', '~> 4.0.0'
 

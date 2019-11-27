@@ -1,10 +1,9 @@
 - post_url = "#{data.settings.site.url}/blog/#{current_page.data.slug}.html"
 
 .callout-share
+  em Partager cet article
   p.article-title
     = current_page.data.title
-  .row
-    .small-12.columns
-      = link_to "//twitter.com/intent/tweet?text=#{current_page.data.title}+#{data.settings.social.twitter.name}+#{post_url}", class: 'button large expanded button-tweet', target: '_blank' do
-        = fa 'fa-fw fa-twitter'
-        |Tweet
+  = link_to "//twitter.com/intent/tweet?text=#{current_page.data.title}+#{data.settings.social.twitter.name}+#{post_url}", class: 'button large expanded button-tweet', target: '_blank' do
+    = fa 'fa-fw fa-twitter'
+    |Tweet

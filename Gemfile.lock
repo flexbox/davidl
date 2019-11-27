@@ -114,10 +114,10 @@ GEM
     middleman-syntax (3.0.0)
       middleman-core (>= 3.2)
       rouge (~> 2.0)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.4.0)
     minitest (5.13.0)
-    nokogiri (1.8.5)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
     oga (2.15)
       ast
       ruby-ll (~> 2.1)
@@ -171,7 +171,7 @@ DEPENDENCIES
   middleman-sitemap-ping
   middleman-sprockets
   middleman-syntax
-  nokogiri
+  nokogiri (~> 1.10, >= 1.10.5)
   oga (~> 2.8)
   slim (~> 4.0.0)
 

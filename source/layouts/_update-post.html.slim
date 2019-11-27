@@ -1,0 +1,9 @@
+- post_url = "#{data.settings.site.url}/blog/#{current_page.data.slug}.html"
+
+h2 Ce n’est pas fini
+p
+  'Ai-je manqué quelque chose? Le contenu n'est plus à jour?
+  'Contactez
+  = link_to data.settings.social.twitter.name, "//twitter.com/intent/tweet?text=#{current_page.data.title}+#{data.settings.social.twitter.name}+#{post_url}"
+  br
+  'Je met continuellement à jour ces guides afin d’avoir un contenu le plus précis et le plus à jour sur le Web.
