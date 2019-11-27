@@ -21,7 +21,7 @@ gem 'middleman-sprockets'
 gem 'builder'
 gem 'nokogiri'
 gem 'oga',     '~> 2.8'
-gem 'slim',    '~> 3.0.7'
+gem 'slim', '~> 4.0.0'
 
 # Debug
 # gem 'html-proofer'
