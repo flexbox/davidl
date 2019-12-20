@@ -20,7 +20,7 @@ gem 'middleman-sprockets'
 # Templating Engines
 gem 'nokogiri', '~> 1.10', '>= 1.10.5'
 gem 'builder'
-gem 'oga',     '~> 2.8'
+gem 'oga', '~> 3.0'
 gem 'slim', '~> 4.0.0'
 
 # Debug

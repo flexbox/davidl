@@ -118,7 +118,7 @@ GEM
     minitest (5.13.0)
     nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
-    oga (2.15)
+    oga (3.0)
       ast
       ruby-ll (~> 2.1)
     padrino-helpers (0.13.3.4)
@@ -172,7 +172,7 @@ DEPENDENCIES
   middleman-sprockets
   middleman-syntax
   nokogiri (~> 1.10, >= 1.10.5)
-  oga (~> 2.8)
+  oga (~> 3.0)
   slim (~> 4.0.0)
 
 BUNDLED WITH
