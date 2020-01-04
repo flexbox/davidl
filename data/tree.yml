@@ -93,6 +93,7 @@ blog:
     2019-04-13-reactamsterdam.html.md: "/blog/articles/2019-04-13-reactamsterdam.html.md"
     2019-05-28-fonts-google.html.md: "/blog/articles/2019-05-28-fonts-google.html.md"
     2019-09-24-reactlive.html.md: "/blog/articles/2019-09-24-reactlive.html.md"
+    2019-12-31-2019.html.md: "/blog/articles/2019-12-31-2019.html.md"
   index.html.slim: "/blog/index.html.slim"
 clients.html.slim: "/clients.html.slim"
 contact.html.slim: "/contact.html.slim"
