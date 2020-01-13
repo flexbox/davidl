@@ -10,7 +10,7 @@ changefreq: monthly
 priority: 0.8
 ---
 
-Si je ne devais choisir qu'un seul outil [dans tous ceux que j'utilise](/dev/tools.html), je choisirais sans hésiter le terminal. Concernant le site web se serait [GitHub](http://github.com). Je passe beaucoups de temps à utiliser ces solutions, autant essayer d'être efficace.
+Si je ne devais choisir qu'un seul outil [dans tous ceux que j'utilise](/uses.html), je choisirais sans hésiter le terminal. Concernant le site web se serait [GitHub](http://github.com). Je passe beaucoups de temps à utiliser ces solutions, autant essayer d'être efficace.
 Créer / connaitre différents raccourcis vous fera gagner de précieuses secondes. Vous êtes plus productif, votre travail est plus efficace et vous libère du temps pour régler de vrais problèmes.
 
 <div class="row align-center">

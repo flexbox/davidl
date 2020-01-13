@@ -1,5 +1,5 @@
 Redirect permanent http://davidl.fr/books.html http://davidl.fr/learn/books.html
-Redirect permanent http://davidl.fr/toolkit.html http://davidl.fr/dev/tools.html
+Redirect permanent http://davidl.fr/toolkit.html http://davidl.fr/uses.html
 Redirect permanent http://davidl.fr/typography.html http://davidl.fr/design/typography.html
 Redirect permanent http://davidl.fr/webdesign.html http://davidl.fr/design/webdesign.html
 Redirect permanent http://davidl.fr/lean/newsletter.html http://davidl.fr/learn/newsletter.html

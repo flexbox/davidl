@@ -106,7 +106,6 @@ dev:
   git.html.slim: "/dev/git.html.slim"
   setup.html.slim: "/dev/setup.html.slim"
   sublime.html.slim: "/dev/sublime.html.slim"
-  tools.html.slim: "/dev/tools.html.slim"
 forge:
   chapitres:
     0-1-evolution.html.md: "/forge/chapitres/0-1-evolution.html.md"
@@ -132,6 +131,7 @@ pricing.html.slim: "/pricing.html.slim"
 sitemap.html.slim: "/sitemap.html.slim"
 styleguide.html.slim: "/styleguide.html.slim"
 thankyou.html.slim: "/thankyou.html.slim"
+uses.html.slim: "/uses.html.slim"
 workflow:
   chatbot.html.slim: "/workflow/chatbot.html.slim"
   coaching.html.slim: "/workflow/coaching.html.slim"
