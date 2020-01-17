@@ -8,7 +8,7 @@
   "private": false,
   "dependencies": {
     "foundation-sites": "6.6.1",
-    "headroom.js": "0.10.3",
+    "headroom.js": "0.11.0",
     "typeplate-starter-kit": "3.0.2"
   }
 }
