@@ -43,7 +43,7 @@
 @include foundation-everything($flex: true);
 
 @import "custom-typeplate";
-@import "typeplate-starter-kit/dev/scss/typeplate-mixins";
+@import "typeplate-mixins";
 
 @import "components/typography";
 @import "components/topbar";

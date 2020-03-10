@@ -10,11 +10,6 @@ html prefix="og: http://ogp.me/ns#" lang="#{current_page.data.lang ? current_pag
     = partial 'layouts/commons/open_graph'
 
     - unless environment == :development
-      javascript:
-        var host = "http://davidl.fr".replace(/http(s)?:\/\//g, "");
-        if ((host == window.location.host) && (window.location.protocol != "https:")) {
-          window.location.protocol = "https";
-        }
       = google_analytics_tag
 
     = partial 'layouts/commons/favicon'
@@ -36,5 +31,3 @@ html prefix="og: http://ogp.me/ns#" lang="#{current_page.data.lang ? current_pag
     = javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.0/js/foundation.min.js'
     = javascript_include_tag 'application'
     = yield_content :javascripts
-    javascript:
-      (function() { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://s3-eu-west-1.amazonaws.com/share.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "share.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()

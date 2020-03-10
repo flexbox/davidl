@@ -7,7 +7,7 @@ $topbar-height: rem-calc(60);
 
 
 .m-topbar {
-  position: fixed;
+  // position: fixed;
   width: 100%;
   min-height: $topbar-height;
   z-index: 15;
@@ -140,5 +140,14 @@ $topbar-height: rem-calc(60);
   transform: translateY(100%);
   @include breakpoint(medium){
     transform: translateY(-100%);
+  }
+}
+
+.m-topbar-archive {
+  background-color: $black;
+  color: $white;
+  padding: rem-calc(20);
+  a {
+    color: $white;
   }
 }

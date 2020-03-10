@@ -1,4 +1,8 @@
-header#js-topbar.m-topbar role="banner"
+div.m-topbar-archive
+  'Vous consultez un contenu archivé qui ne sera plus mis à jour par l'auteur. Vous pouvez
+  a href="https://davidl.fr" consulter le nouveau site →
+
+header.m-topbar role="banner"
   nav role="navigation" aria-label="Primary" class="m-topbar--list js-topbar--list is-away"
     = link_to '/', class: 'm-topbar--logo', title: 'Retour à l’accueil' do
       = svg_tag 'atom-logo.svg', alt: 'Développeur front-end & Intégrateur web lille'
