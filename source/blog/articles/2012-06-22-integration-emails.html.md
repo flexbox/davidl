@@ -47,7 +47,7 @@ Comme je l’ai expliqué en introduction le style des balises doit être inline
 Pour changer la couleur de vos liens une seule solution : à la main et un par un.
 
 ~~~html
-  <a href="http://davidl.fr/" style="color:#f08c00;text-decoration:none;">
+  <a href="https://archive.davidl.fr/" style="color:#f08c00;text-decoration:none;">
     Visitez mon site
   </a>
 ~~~

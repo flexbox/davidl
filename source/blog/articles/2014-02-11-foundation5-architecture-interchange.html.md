@@ -42,7 +42,7 @@ Ajouter `.snippet.html` pour chaque fichier permet de différencier les document
 
 Notez également que je ne nomme pas mes snippets en fonction de la taille ou l'emplacement prévu. Pas de "petit" ou "grand", ou encore "top" et "footer". Cela signifie que lorsque le site internet évolue, je n'ai pas besoin de changer les noms de fichiers en conséquence.
 
-C’est comme nommer en CSS `.big-button-red` et `.top-left`. Les [noms de classes en vrac](http://davidl.fr/blog/css-evolutif.html) sont de mauvaises pratiques. Pour donner plus de sens, j'utilise `.basic` ou encore `.full-feature`.
+C’est comme nommer en CSS `.big-button-red` et `.top-left`. Les [noms de classes en vrac](https://archive.davidl.fr/blog/css-evolutif.html) sont de mauvaises pratiques. Pour donner plus de sens, j'utilise `.basic` ou encore `.full-feature`.
 
 Mais où est le fun la dedans ? Pour que la force soit avec moi, j'ai décidé d'embrasser le pouvoir du coté obscur de la force comme l'explique Andy Clarke dans son article : [Star wars styling](http://stuffandnonsense.co.uk/blog/about/star-wars-styling).
 L'idée est d'utiliser la puissance des personnages de films de science fiction pour hiérarchiser ses fichiers.

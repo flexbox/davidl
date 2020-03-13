@@ -17,7 +17,7 @@ Je voulais simplement partager la configuration avec ceux qui ne l’ont pas enc
 ~~~shell
   $ npm config set init.author.name "David Leuliette"
   $ npm config set init.author.email dleuliette@gmail.com
-  $ npm config set init.author.url http://davidl.fr
+  $ npm config set init.author.url https://archive.davidl.fr
   $ npm config set init.license MIT
 ~~~
 

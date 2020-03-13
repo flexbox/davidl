@@ -112,7 +112,7 @@ Flickr avec son offre 1 To est une bonne alternative à un vrai CDN. L’avantag
 Si vous ne souhaitez pas perdre la popularité associé à vos pages, vous devez faire des redirections 301. Je remercie [@rduhomez](https://twitter.com/rduhomez), référenceur de talent, pour m’avoir épargné quelques crises de nerfs avec ses précieux conseils.
 J’ai simplement réalisé un export de toutes mes anciennes url et mis en place des redirections avec le pattern suivant :
 
-    Redirect permanent /wordpress/about/ http://davidl.fr/about.html
+    Redirect permanent /wordpress/about/ https://archive.davidl.fr/about.html
 
 Cette méthode peut être largement optimisée, et j’ai certainement perdu quelques morceaux dans la bataille, mais mon objectif principal et de produire du contenu & du code. De toute façon le SEO ça ne sert à rien ;) #privatejoke
 
@@ -123,4 +123,4 @@ Ce système n’est pas adapté à tout le monde, et il faut une certaine philos
 ## Ressources
 
 - [exitwp](https://github.com/thomasf/exitwp)
-- [Héberger son site sur GitHub](http://davidl.fr/blog/hebergement-gratuit-ovh.html)
+- [Héberger son site sur GitHub](https://archive.davidl.fr/blog/hebergement-gratuit-ovh.html)

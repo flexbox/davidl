@@ -24,7 +24,7 @@ _Hipster desktop office par [Markus Spiske](https://www.flickr.com/photos/125167
 
 __Développeur front-end__. Il peut être aussi associé à celui d’_intégrateur web_. Tout dépends de la structure : plus une équipe est importante, plus elle aura de spécialistes travaillant dans leur domaine de prédilection. Au contraire d’une équipe réduite où il faut être généraliste. Il est possible que dans une organisation ma fonction soit ”développeur web“ alors que je ne programme pas du tout les interactions avec le back–end.
 
-De plus, je pense que dans certains organismes il existe encore des webmasters. Mais [ceci est une autre histoire](http://davidl.fr/manifesto.html).
+De plus, je pense que dans certains organismes il existe encore des webmasters. Mais [ceci est une autre histoire](https://archive.davidl.fr/manifesto.html).
 
 ### En quoi consiste votre métier ? Pouvez-vous décrire vos tâches ?
 
@@ -83,7 +83,7 @@ Au travers des années j’ai contruit ma propre formation à base de mailing li
 ### Quel est votre parcours personnel ?
 
 Un peu de tout, énorme structure, entreprise classique, freelance, startup ...
-Pour ceux qui veulent approfondir vous pouvez télécharger mon [CV de développeur intégrateur web](http://davidl.fr/cv.html).
+Pour ceux qui veulent approfondir vous pouvez télécharger mon [CV de développeur intégrateur web](https://archive.davidl.fr/cv.html).
 
 ### Quelle qualification et quel(s) diplôme(s) faut-il avoir pour le poste que vous occupez ?
 
@@ -161,7 +161,7 @@ En 2015 au niveau développement front–end, je dirais que [AngularJS](https://
 
 Mon premier conseil est de créer un compte GitHub et [maîtriser les bases de Git](http://courses.davidl.fr/programs/git-github.html)
 
-Dans un second temps, apprendre à développer en JavaScript, [comprendre la nature du web](http://davidl.fr/blog/esprit-web.html) & avoir des connaissances sur le runtime d’un navigateur web.
+Dans un second temps, apprendre à développer en JavaScript, [comprendre la nature du web](https://archive.davidl.fr/blog/esprit-web.html) & avoir des connaissances sur le runtime d’un navigateur web.
 
 Par contre si le but est de développer des applications natives le paradigme est complètement différent.
 
@@ -173,7 +173,7 @@ Pour iOS il faut obligatoirement un mac et avoir des connaissances en [swift](ht
 
 ### Quel est votre meilleur souvenir en tant que développeur ?
 
-[Rencontrer Richard Stallman](http://davidl.fr/blog/fosdem-2015.html#surprise-de-fin) au FOSDEM.
+[Rencontrer Richard Stallman](https://archive.davidl.fr/blog/fosdem-2015.html#surprise-de-fin) au FOSDEM.
 
 ### Et le pire ?
 

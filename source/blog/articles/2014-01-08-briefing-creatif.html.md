@@ -7,7 +7,7 @@ changefreq: monthly
 priority: 0.8
 ---
 
-Je complète mon précédent article sur les [question à se poser](http://davidl.fr/blog/redaction-briefing.html) avant de se lancer dans un nouveau projet.
+Je complète mon précédent article sur les [question à se poser](https://archive.davidl.fr/blog/redaction-briefing.html) avant de se lancer dans un nouveau projet.
 
 ## Le constat
 

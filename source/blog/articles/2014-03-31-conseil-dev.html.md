@@ -33,7 +33,7 @@ Depuis l’avènement du responsive design, ce principe est de plus en plus vrai
 
 ### Priorité à la typographie
 
-Quand vous travaillez dans un contexte avec énormément de texte, la __typographie__ est la façon la plus simple de donner une ambiance visuelle à votre contenu. Généralement je choisis [2 polices de caractères](http://davidl.fr/blog/typographie-google-font.html) différentes :
+Quand vous travaillez dans un contexte avec énormément de texte, la __typographie__ est la façon la plus simple de donner une ambiance visuelle à votre contenu. Généralement je choisis [2 polices de caractères](https://archive.davidl.fr/blog/typographie-google-font.html) différentes :
 
 - Serif pour le contenu
 - Sans Serif pour les titres

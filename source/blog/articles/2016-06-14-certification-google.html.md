@@ -37,7 +37,7 @@ Les 90 cours vidéos abordent différents thèmes comme :
 - La communication par e-mail
 - Le mobile et ses possibilités
 
-Quand la formation est validée, vous obtenez un super `.pdf` à imprimmer pour l’accorcher dans votre salon. Vous pouvez aussi l’ajouter — dans mon cas — à votre [CV de développeur front-end](http://davidl.fr/cv.html).
+Quand la formation est validée, vous obtenez un super `.pdf` à imprimmer pour l’accorcher dans votre salon. Vous pouvez aussi l’ajouter — dans mon cas — à votre [CV de développeur front-end](https://archive.davidl.fr/cv.html).
 
 ![Diplome Marketing de David Leuliette](https://c2.staticflickr.com/8/7338/27913306722_8bab30348d_z.jpg)
 

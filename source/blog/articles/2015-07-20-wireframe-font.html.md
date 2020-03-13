@@ -19,7 +19,7 @@ Généralement le workflow est le suivant :
 - Envoyer un concept initial au client avec des arguments expliquant pourquoi la proposition n’était pas réalisable.
 - Recevoir un email de retour sans commentaire constructif excepté ce n’est pas le bon contenu, pourquoi le texte est en latin, cela n’a aucun rapport avec mon produit…
 
-Tout ces échanges par email font __perdre du temps à tout le monde__ et [gérer les retours clients](http://davidl.fr/clients.html) devient très vite chronophage.
+Tout ces échanges par email font __perdre du temps à tout le monde__ et [gérer les retours clients](https://archive.davidl.fr/clients.html) devient très vite chronophage.
 
 ## Solution
 

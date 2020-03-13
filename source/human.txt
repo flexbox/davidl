@@ -14,7 +14,7 @@ TEAM
 
 Ce site est code a la main par David Leuliette.
 Developpeur front-end
-http://davidl.fr/about.html
+https://archive.davidl.fr/about.html
 
 _______________________________________________________________________________
 

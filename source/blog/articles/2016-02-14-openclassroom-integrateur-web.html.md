@@ -24,7 +24,7 @@ La formation d’[OpenClassrooms](http://clic.reussissonsensemble.fr/click.asp?r
 
 L’objectif est de réaliser les __12 cours__ — de 5 à 30 heures — __en 6 mois__ (Personnelement j’ai mis environ 1 an quand je me suis formé en autodidacte en lisant des livres) :
 
-- Un peu de culture générale web (Car tout le monde ne connait pas la [différence entre les internets et le web](http://davidl.fr/blog/esprit-web.html))
+- Un peu de culture générale web (Car tout le monde ne connait pas la [différence entre les internets et le web](https://archive.davidl.fr/blog/esprit-web.html))
 - Coder un __site web responsive__ avec HTML & CSS
 - _Projet :_ Mettre en ligne votre __portfolio__
 - Prise en main du framework [Bootstrap](https://github.com/twbs/bootstrap) (avec bientôt 100 000 stars sur GitHub)

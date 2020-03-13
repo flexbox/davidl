@@ -35,7 +35,7 @@
   stared: true
   langage: Français
   image: "nicolas-froidure-js.jpg"
-  blogpost: "http://davidl.fr/blog/javascript.html"
+  blogpost: "https://archive.davidl.fr/blog/javascript.html"
   amazon:
     url: "https://www.amazon.fr/gp/product/282240254X/ref=as_li_ss_tl?ie=UTF8&camp=1642&creative=19458&creativeASIN=282240254X&linkCode=as2&tag=davidl-21"
     image: "https://ir-fr.amazon-adsystem.com/e/ir?t=davidl-21&l=as2&o=8&a=282240254X"

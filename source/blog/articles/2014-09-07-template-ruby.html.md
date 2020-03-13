@@ -52,12 +52,12 @@ La phylosophie de slim est de _supprimer tous les caractère inutiles_. Si l’o
 - Pas de fermeture de balises
 - `#content` donnera `<div id="content"></div>`
 - `td.name` se transformera en `<td class="name"></td>`
-- `= link_to 'Mon site', 'http://davidl.fr'` pour utiliser du ruby qui sera compilé en `<a href="http://davidl.fr">Mon site</a>`
+- `= link_to 'Mon site', 'https://archive.davidl.fr'` pour utiliser du ruby qui sera compilé en `<a href="https://archive.davidl.fr">Mon site</a>`
 - `- if i.am == amazing` permet de faire des tests ou des boucles
 
 ## Gestion des espaces
 
-Si vous avez suivi mon [tunning de sublime Text](http://davidl.fr/blog/) vous savez que je supprime les espaces inutiles en fin de ligne à chaque sauvegarde. Cet avantage peut se transformer en inconvénient et voici comment gérer les espaces avec slim et vous éviter d'utiliser `&nbsp;`
+Si vous avez suivi mon [tunning de sublime Text](https://archive.davidl.fr/blog/) vous savez que je supprime les espaces inutiles en fin de ligne à chaque sauvegarde. Cet avantage peut se transformer en inconvénient et voici comment gérer les espaces avec slim et vous éviter d'utiliser `&nbsp;`
 
 - `'` Ajoute un espace en fin de ligne.
 - `|` Permet d'ajouter du texte sans espace.

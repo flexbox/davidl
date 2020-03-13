@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: http://davidl.fr/sitemap.xml
+Sitemap: https://archive.davidl.fr/sitemap.xml

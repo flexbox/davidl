@@ -11,7 +11,7 @@ Dans cet article je présente les meilleures techniques pour éviter une maladie
 
 ## Un peu d’histoire
 
-C’est [Jeffrey Zeldman](http://www.zeldman.com/) qui a trouvé le nom de [2 maladies](http://davidl.fr/blog/css-evolutif.html) il y a plus de 10 ans : _divitis_ et _classitis_.
+C’est [Jeffrey Zeldman](http://www.zeldman.com/) qui a trouvé le nom de [2 maladies](https://archive.davidl.fr/blog/css-evolutif.html) il y a plus de 10 ans : _divitis_ et _classitis_.
 
 ### Divitis
 

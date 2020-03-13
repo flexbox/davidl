@@ -4,7 +4,7 @@ https://keybase.io/flexbox
 
 I hereby claim:
 
-  * I am an admin of http://davidl.fr
+  * I am an admin of https://archive.davidl.fr
   * I am flexbox (https://keybase.io/flexbox) on keybase.
   * I have a public key ASD0uHrYzMtMUAjnMd1Nlw5MtRBT3ArkQO6bOepLXgqkPAo
 

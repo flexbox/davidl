@@ -18,7 +18,7 @@ Pour préparer ma prochaine visite au musée, je me suis installé dans mon cana
 ![louvrelen et android](https://farm8.staticflickr.com/7117/13621111873_2b530fb811_o.png)
 
 Le problème principal est d’avoir divisé le site en 3 parties : l’accès web, l’accès Android et iPhone.
-J’ai déjà évoqué le fait que ce choix [multiplie les coûts](http://davidl.fr/blog/webdesign-adaptatif-vs-site-mobile-vs-application-native.html) et je ne pense pas que ce soit une bonne solution pour [le budget de fonctionnement](http://fr.wikipedia.org/wiki/Louvre-Lens#Fonctionnement) alloué aux mises à jour du contenu en ligne.
+J’ai déjà évoqué le fait que ce choix [multiplie les coûts](https://archive.davidl.fr/blog/webdesign-adaptatif-vs-site-mobile-vs-application-native.html) et je ne pense pas que ce soit une bonne solution pour [le budget de fonctionnement](http://fr.wikipedia.org/wiki/Louvre-Lens#Fonctionnement) alloué aux mises à jour du contenu en ligne.
 
 
 ## Audit de navigation

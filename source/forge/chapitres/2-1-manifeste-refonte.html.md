@@ -9,7 +9,7 @@ priority: 0.8
 
 ## Préparation
 
-Avant de vous lancer dans ce processus chronophage, vous devez être convaincu des bénéfices de [cette méthode de conception](http://davidl.fr/forge/1-1-technique.html).
+Avant de vous lancer dans ce processus chronophage, vous devez être convaincu des bénéfices de [cette méthode de conception](https://archive.davidl.fr/forge/1-1-technique.html).
 Ne vous contentez pas de le faire parce que tout le monde fait. La conception adaptative aka __responsive design__ n'est pas une tendance du design moderne, c'est un nouvel état d'esprit ainsi qu'un bouleversement des méthodes de travail.
 
 Voici quelques avantages et inconvénients de cette technique :
@@ -52,7 +52,7 @@ Vous n'avez pas à faire de wireframes détaillés pour chaque résolution d'éc
 
 ### Conception dans le navigateur
 
-Si vous êtes à l'aise avec le code, je vous conseille de concevoir directement dans le navigateur. Bien sûr, vous pouvez (et devez) créer des éléments graphiques dans votre logiciel préféré. Mais [restez pragmatique](http://davidl.fr/blog/fin-psd.html) : Ne vous tourmentez pas sur la disposition et les dimensions, elles varient en fonction de la résolution.
+Si vous êtes à l'aise avec le code, je vous conseille de concevoir directement dans le navigateur. Bien sûr, vous pouvez (et devez) créer des éléments graphiques dans votre logiciel préféré. Mais [restez pragmatique](https://archive.davidl.fr/blog/fin-psd.html) : Ne vous tourmentez pas sur la disposition et les dimensions, elles varient en fonction de la résolution.
 
 Considérons les détails de la conception dans le navigateur à la place. Cela présente les avantages suivants :
 

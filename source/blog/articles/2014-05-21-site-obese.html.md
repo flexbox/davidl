@@ -90,7 +90,7 @@ Minifier votre code source signifie simplement supprimer les octets inutiles d�
 
 Avec la minification le navigateur télécharge moins de contenu, le rendu de votre page est donc plus rapide.
 
-Si vous utilisez une librairie populaire comme jQuery vous utilisez certainement la version `.min`. La minification n’est pas seulement disponible pour le JavaScript, mais peut être appliquée à n’importe quelle type de ressource texte. L'`asset` principale qui doit être minifiée dans un code de production est le CSS. La plus vieille solution pour réaliser cette opération est [YUI Compressor](http://yui.github.io/yuicompressor/) de yahoo! Si vous êtes un [développeur front-end éclairé](http://davidl.fr/manifesto.html) essayez de chercher du côté des tâches grunt pour automatiser cette opération.
+Si vous utilisez une librairie populaire comme jQuery vous utilisez certainement la version `.min`. La minification n’est pas seulement disponible pour le JavaScript, mais peut être appliquée à n’importe quelle type de ressource texte. L'`asset` principale qui doit être minifiée dans un code de production est le CSS. La plus vieille solution pour réaliser cette opération est [YUI Compressor](http://yui.github.io/yuicompressor/) de yahoo! Si vous êtes un [développeur front-end éclairé](https://archive.davidl.fr/manifesto.html) essayez de chercher du côté des tâches grunt pour automatiser cette opération.
 
 ### La concaténation : un fichier pour les gouverner tous
 
