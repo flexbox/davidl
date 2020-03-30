@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "foundation-sites": "6.6.1",
+    "foundation-sites": "6.6.2",
     "headroom.js": "0.11.0"
   }
 }
