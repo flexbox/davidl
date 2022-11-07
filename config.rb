@@ -1,3 +1,27 @@
+::Sass.load_paths << File.join(root, "node_modules")
+sprockets.append_path File.join "#{root}", "node_modules/"
+
+activate :autoprefixer, browsers: ['last 2 versions', 'Explorer >= 9']
+activate :syntax
+activate :sprockets
+
+###
+# Page options, layouts, aliases and proxies
+###
+
+page '/browserconfig.xml', layout: false
+page '/feed.xml',          layout: false
+page '/sitemap.xml',       layout: false
+
+require 'builder'
+require 'kramdown'
+require 'slim'
+Slim::Engine.disable_option_validator!
+
+set :css_dir,    'assets/stylesheets'
+set :images_dir, 'assets/images'
+set :js_dir,     'assets/javascripts'
+
 ###
 # Blog settings
 ###
@@ -56,29 +80,6 @@ activate :google_analytics do |ga|
   ga.test = false
   ga.minify = true
 end
-
-activate :autoprefixer, browsers: ['last 2 versions', 'Explorer >= 9']
-activate :syntax
-activate :sprockets
-::Sass.load_paths << File.join(root, "node_modules")
-sprockets.append_path File.join "#{root}", "node_modules/"
-
-###
-# Page options, layouts, aliases and proxies
-###
-
-page '/browserconfig.xml', layout: false
-page '/feed.xml',          layout: false
-page '/sitemap.xml',       layout: false
-
-require 'builder'
-require 'kramdown'
-require 'slim'
-Slim::Engine.disable_option_validator!
-
-set :css_dir,    'assets/stylesheets'
-set :images_dir, 'assets/images'
-set :js_dir,     'assets/javascripts'
 
 configure :build do
   activate :favicon_maker do |f|
