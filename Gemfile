@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 # Core
-gem 'middleman', github: 'middleman/middleman'
-gem 'middleman-core', github: 'middleman/middleman'
+gem 'middleman', git: 'https://github.com/middleman/middleman'
+gem 'middleman-core', git: 'https://github.com/middleman/middleman'
 gem 'middleman-autoprefixer', '~> 2.10.0'
 gem 'middleman-blog'
 gem 'middleman-favicon-maker'
